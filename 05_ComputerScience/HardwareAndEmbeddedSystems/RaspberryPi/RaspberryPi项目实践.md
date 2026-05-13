@@ -1,4 +1,4 @@
-﻿# RaspberryPi项目实践
+# RaspberryPi项目实践
 
 ## 一、Raspberry Pi平台概述
 

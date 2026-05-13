@@ -1,4 +1,4 @@
-﻿# Data Warehousing - 数据仓库
+# Data Warehousing - 数据仓库
 
 ## 一、数据仓库定义
 

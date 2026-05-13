@@ -1,65 +1,66 @@
-﻿# 鐢靛瓙涔﹁祫婧愪笌绠＄悊鎸囧崡
+# 电子书资源与管理指南
 
-## 涓€銆佺數瀛愪功鏍煎紡
+## 一、电子书格式
 
-### 1.1 涓绘祦鏍煎紡瀵规瘮
+### 1.1 主流格式对比
 
-| 鏍煎紡 | 鍏ㄧО | 寮€鍙戣€?| 鐗堝紡 | DRM 鏀寔 | 閫傜敤骞冲彴 |
+| 格式 | 全称 | 开发者 | 版式 | DRM 支持 | 适用平台 |
 |------|------|--------|:----:|:--------:|---------|
-| EPUB | Electronic Publication | IDPF | 閲嶆帓 | Adobe ADEPT | 閫氱敤锛堥櫎 Kindle锛?|
-| MOBI | Mobipocket | Amazon | 閲嶆帓 | Kindle DRM | Kindle 鏃ц澶?|
-| AZW3 | Kindle Format 8 | Amazon | 閲嶆帓 | Kindle DRM | Kindle 鏂拌澶?|
-| PDF | Portable Document Format | Adobe | 鍥哄畾 | 澶氱 | 閫氱敤 |
-| DJVU | DjVu | AT&T | 鍥哄畾 | 鏋佸皯 | 鎵弿鐗堝浘涔?|
+| EPUB | Electronic Publication | IDPF | 重排 | Adobe ADEPT | 通用（除 Kindle）|
+| MOBI | Mobipocket | Amazon | 重排 | Kindle DRM | Kindle 旧设备 |
+| AZW3 | Kindle Format 8 | Amazon | 重排 | Kindle DRM | Kindle 新设备 |
+| PDF | Portable Document Format | Adobe | 固定 | 多种 | 通用 |
+| DJVU | DjVu | AT&T | 固定 | 极少 | 扫描版图书 |
 
-**鐗圭偣璇﹁В**锛?
-- **EPUB**锛氬紑鏀炬爣鍑嗭紙ISO 24698锛夛紝鍩轰簬 XHTML + CSS锛屾敮鎸佽嚜閫傚簲鎺掔増锛屾槸鐩墠鏈€骞挎硾鏀寔鐨勬牸寮?- **AZW3/KF8**锛欰mazon 涓撴湁鏍煎紡锛屾敮鎸?HTML5 + CSS3锛孠indle 璁惧鐨勬渶浣抽€夋嫨
-- **PDF**锛氬浐瀹氶〉闈㈢殑鎺掔増淇濈湡搴﹂珮锛屼絾灏忓睆骞曢槄璇讳綋楠屽樊锛岄€傚悎 A4 瀛︽湳璁烘枃
-- **DJVU**锛氫笓闂ㄩ拡瀵规壂鎻忔枃妗ｄ紭鍖栫殑鏍煎紡锛屽帇缂╃巼绾︿负 JPEG 鐨?5鈥?0 鍊?
-### 1.2 鏍煎紡杞崲
+**特点详解**：
+- **EPUB**：开放标准（ISO 24698），基于 XHTML + CSS，支持自适应排版，是目前最广泛支持的格式
+- **AZW3/KF8**：Amazon 专有格式，支持 HTML5 + CSS3，Kindle 设备的最佳选择
+- **PDF**：固定页面的排版保真度高，但小屏幕阅读体验差，适合 A4 学术论文
+- **DJVU**：专门针对扫描文档优化的格式，压缩率约为 JPEG 的 5-10 倍
+### 1.2 格式转换
 
 $$ \text{Source} \xrightarrow{\text{Pandoc/Calibre}} \text{Target} $$
 
-| 杞崲宸ュ叿 | 鏀寔鐨勬牸寮?| 鐗圭偣 |
+| 转换工具 | 支持的格式 | 特点 |
 |---------|-----------|------|
-| Pandoc | 30+ 鏍煎紡 | 鍛戒护琛屻€佺簿纭帶鍒躲€佸鏈閫?|
-| Calibre | 20+ 鏍煎紡 | GUI + 鍛戒护琛屻€佹壒閲忚浆鎹€佸厓鏁版嵁绠＄悊 |
-| Kindle Previewer | MOBI/AZW3 | Amazon 瀹樻柟銆佹ā鎷?Kindle 璁惧 |
-| Online Convert | 澶氭牸寮?| 娴忚鍣ㄦ搷浣溿€佹棤闇€瀹夎 |
+| Pandoc | 30+ 格式 | 命令行、精确控制、学术首选 |
+| Calibre | 20+ 格式 | GUI + 命令行、批量转换、元数据管理 |
+| Kindle Previewer | MOBI/AZW3 | Amazon 官方、模拟 Kindle 设备 |
+| Online Convert | 多格式 | 浏览器操作、无需安装 |
 
-## 浜屻€佺數瀛愪功鍒涘缓娴佺▼
+## 二、电子书创建流程
 
-### 2.1 鍐欎綔涓庤浆鎹?
-**鎺ㄨ崘宸ヤ綔娴?*锛?
+### 2.1 写作与转换
+**推荐工作流**：
 ```
-Markdown/LaTeX 婧愭枃浠?        鈫? Pandoc
+Markdown/LaTeX 源文件         → Pandoc
      EPUB/PDF
-        鈫? Calibre
+         → Calibre
      MOBI/AZW3
 ```
 
 ```markdown
-% 浣跨敤 Pandoc 灏?Markdown 杞崲涓?EPUB
-pandoc book.md -o book.epub --metadata title="涔﹀悕" --metadata author="浣滆€?
+% 使用 Pandoc 将 Markdown 转换为 EPUB
+pandoc book.md -o book.epub --metadata title="书名" --metadata author="作者"
 ```
 
-### 2.2 鍏冩暟鎹鐞?
-EPUB 鍏冩暟鎹娇鐢?OPF 鏂囦欢瀹氫箟锛屽叧閿瓧娈碉細
+### 2.2 元数据管理
+EPUB 元数据使用 OPF 文件定义，关键字段：
 
-| 瀛楁 | 鎻忚堪 | Dublin Core 鏄犲皠 |
+| 字段 | 描述 | Dublin Core 映射 |
 |------|------|-----------------|
-| title | 涔﹀悕 | dc:title |
-| creator | 浣滆€?| dc:creator |
-| publisher | 鍑虹増绀?| dc:publisher |
-| identifier | 鍞竴鏍囪瘑锛圛SBN/DOI锛?| dc:identifier |
-| language | 璇█浠ｇ爜锛坺h, en锛?| dc:language |
-| date | 鍑虹増鏃ユ湡 | dc:date |
-| subject | 鍒嗙被涓婚 | dc:subject |
-| rights | 鐗堟潈澹版槑 | dc:rights |
+| title | 书名 | dc:title |
+| creator | 作者 | dc:creator |
+| publisher | 出版社 | dc:publisher |
+| identifier | 唯一标识（ISBN/DOI）| dc:identifier |
+| language | 语言代码（zh, en）| dc:language |
+| date | 出版日期 | dc:date |
+| subject | 分类主题 | dc:subject |
+| rights | 版权声明 | dc:rights |
 
-### 2.3 CSS 鏍煎紡鍖?
+### 2.3 CSS 格式化
 ```css
-/* EPUB 鏍峰紡绀轰緥 */
+/* EPUB 样式示例 */
 body {
   font-family: "Noto Serif", "Source Han Serif", serif;
   line-height: 1.8;
@@ -71,138 +72,140 @@ p { text-indent: 2em; }
 img { max-width: 100%; height: auto; }
 ```
 
-## 涓夈€侀槄璇昏澶囦笌杞欢
+## 三、阅读设备与软件
 
-### 3.1 纭欢璁惧
+### 3.1 硬件设备
 
-| 璁惧 | 灞忓箷鎶€鏈?| 灞忓箷灏哄 | 浼樼偣 | 缂虹偣 |
+| 设备 | 屏幕技术 | 屏幕尺寸 | 优点 | 缺点 |
 |------|---------|:--------:|------|------|
-| Kindle | E-ink | 6"鈥?0" | 鎶ょ溂銆佺画鑸暱 | 鏍煎紡灏侀棴 |
-| Kobo | E-ink | 6"鈥?" | EPUB 鍘熺敓銆佸紑鏀?| 涓枃鐢熸€佸急 |
-| Remarkable | E-ink | 10.3" | 鎵嬪啓绗旇 | 浠锋牸楂?|
-| iPad | LCD/OLED | 8"鈥?3" | 褰╄壊銆丄pp 涓板瘜 | 浼ょ溂銆侀噸 |
-| 鏂囩煶 Boox | E-ink | 6"鈥?3.3" | Android 寮€鏀?| 浠锋牸楂?|
+| Kindle | E-ink | 6"-10" | 护眼、续航长 | 格式封闭 |
+| Kobo | E-ink | 6"-8" | EPUB 原生、开放 | 中文生态弱 |
+| Remarkable | E-ink | 10.3" | 手写笔记 | 价格高 |
+| iPad | LCD/OLED | 8"-13" | 彩色、App 丰富 | 伤眼、重 |
+| 文石 Boox | E-ink | 6"-13.3" | Android 开放 | 价格高 |
 
-### 3.2 闃呰杞欢
+### 3.2 阅读软件
 
-| 杞欢 | 骞冲彴 | 鐗硅壊鍔熻兘 |
+| 软件 | 平台 | 特色功能 |
 |------|------|---------|
-| Kindle App | iOS/Android/PC | Whispersync 鍚屾 |
-| Google Play Books | iOS/Android/Web | 浜戝瓨鍌ㄣ€丳DF 涓婁紶 |
-| Apple Books | iOS/macOS | 缇庤銆乮Cloud 鍚屾 |
+| Kindle App | iOS/Android/PC | Whispersync 同步 |
+| Google Play Books | iOS/Android/Web | 云存储、PDF 上传 |
+| Apple Books | iOS/macOS | 美观、iCloud 同步 |
 | Adobe Digital Editions | PC | EPUB/PDF + ADEPT DRM |
-| 寰俊璇讳功 | iOS/Android | 绀句氦闃呰銆佷腑鏂囩敓鎬?|
-| Marvin 3 | iOS | 鑷畾涔夊己銆佺粺璁″姛鑳?|
-| Moon+ Reader | Android | TTS銆佹墜鍔裤€佹牸寮忔敮鎸佸箍 |
+| 微信读书 | iOS/Android | 社交阅读、中文生态 |
+| Marvin 3 | iOS | 自定义强、统计功能 |
+| Moon+ Reader | Android | TTS、手势、格式支持广 |
 
-## 鍥涖€佹暟瀛楃増鏉冪鐞嗭紙DRM锛?
-### 4.1 DRM 鏂规瀵规瘮
+## 四、数字版权管理（DRM）
+### 4.1 DRM 方案对比
 
-| DRM 鏂规 | 鎻愪緵鍟?| 鍔犲瘑鏂规硶 | 璁惧闄愬埗 |
+| DRM 方案 | 提供方 | 加密方法 | 设备限制 |
 |---------|--------|---------|:--------:|
-| Kindle DRM | Amazon | 涓撴湁鍔犲瘑 | 6 鍙拌澶?|
-| Adobe ADEPT | Adobe | AES-256 | 6 鍙拌澶?|
-| Apple FairPlay | Apple | 涓撴湁鍔犲瘑 | 鐢熸€佸唴 |
-| Marlin DRM | Marlin Trust | 寮€鏀炬爣鍑?| 鐏垫椿 |
-| LCP | Readium | AES-256 | 鐏垫椿 |
+| Kindle DRM | Amazon | 专有加密 | 6 台设备 |
+| Adobe ADEPT | Adobe | AES-256 | 6 台设备 |
+| Apple FairPlay | Apple | 专有加密 | 生态内 |
+| Marlin DRM | Marlin Trust | 开放标准 | 灵活 |
+| LCP | Readium | AES-256 | 灵活 |
 
-### 4.2 DRM 鐨勫埄寮?
-| 缁村害 | 鏀寔 DRM | 鏃?DRM |
+### 4.2 DRM 的利弊
+| 维度 | 支持 DRM | 无 DRM |
 |------|---------|--------|
-| 鐗堟潈淇濇姢 | 寮?| 鏃?|
-| 鐢ㄦ埛渚垮埄鎬?| 鍙楅檺 | 鑷敱浣跨敤 |
-| 鏍煎紡杞崲 | 涓嶅厑璁?| 鍏佽 |
-| 璺ㄥ钩鍙板叡浜?| 鍙楅檺 | 鑷敱 |
-| 闀挎湡淇濆瓨 | 鍗遍櫓锛堟湇鍔″櫒鍏抽棴锛?| 瀹夊叏 |
+| 版权保护 | 强 | 无 |
+| 用户便利性 | 受限 | 自由使用 |
+| 格式转换 | 不允许 | 允许 |
+| 跨平台共享 | 受限 | 自由 |
+| 长期保存 | 危险（服务器关闭）| 安全 |
 
-## 浜斻€佸紑鏀捐幏鍙栫數瀛愪功
+## 五、开放获取电子书
 
-### 5.1 涓昏璧勬簮
+### 5.1 主要资源
 
-| 璧勬簮搴?| 瑙勬ā | 鍐呭绫诲瀷 | 璁块棶鏂瑰紡 |
+| 资源库 | 规模 | 内容类型 | 访问方式 |
 |--------|:----:|---------|---------|
-| Project Gutenberg | 70,000+ | 鍏増鏂囧浣滃搧 | 鍏嶈垂涓嬭浇 |
-| Internet Archive | 10,000,000+ | 涔︾睄/闊抽/瑙嗛 | 鍊熼槄+涓嬭浇 |
-| Open Library | 1,000,000+ | 鐜颁唬涔︾睄 | 鍊熼槄 |
-| OAPEN | 20,000+ | 瀛︽湳寮€鏀惧浘涔?| 鍏嶈垂闃呰 |
-| DOAB | 50,000+ | 鍚岃璇勫瀛︽湳鍥句功 | 鍏嶈垂涓嬭浇 |
-| 鍥藉澶у笀 | 100,000+ | 涓浗鍙ょ睄 | 鍦ㄧ嚎闃呰 |
+| Project Gutenberg | 70,000+ | 公版文学作品 | 免费下载 |
+| Internet Archive | 10,000,000+ | 书籍/音频/视频 | 借阅+下载 |
+| Open Library | 1,000,000+ | 现代书籍 | 借阅 |
+| OAPEN | 20,000+ | 学术开放图书 | 免费阅读 |
+| DOAB | 50,000+ | 同行评审学术图书 | 免费下载 |
+| 国学大师 | 100,000+ | 中国古籍 | 在线阅读 |
 
-### 5.2 Project Gutenberg 浣跨敤
+### 5.2 Project Gutenberg 使用
 
-Distributed Proofreaders 蹇楁効鑰呭崗浣滃钩鍙帮紝鍥句功缁忚繃 OCR 鈫?鏍″ 鈫?鏍煎紡鍖?鈫?鍙戝竷娴佺▼銆傛敮鎸?EPUB銆並indle銆丠TML銆佺函鏂囨湰鏍煎紡銆?
-## 鍏€佺數瀛愪功鍙戣
+Distributed Proofreaders 志愿者协作平台，图书经过 OCR → 校对 → 格式化 → 发布流程。支持 EPUB、Kindle、HTML、纯文本格式。
+## 六、电子书发行
 
-### 6.1 鑷嚭鐗堝钩鍙板姣?
-| 骞冲彴 | 鍒嗘垚妯″紡 | 鐙瑕佹眰 | 鏍煎紡瑕佹眰 | DRM 閫夐」 |
+### 6.1 自出版平台对比
+| 平台 | 分成模式 | 独家要求 | 格式要求 | DRM 选项 |
 |------|---------|:--------:|---------|:--------:|
-| Amazon KDP | 35%鈥?0% | KDP Select | MOBI/EPUB | 鍙€?|
-| Google Play Books | 52%鈥?0% | 鏃?| EPUB/PDF | 鍙€?|
-| Apple Books | 70% | 鏃?| EPUB | 鍙€?|
-| Smashwords | 60%鈥?0% | 鏃?| EPUB锛堥€氳繃 Meatgrinder锛?| 鍙€?|
-| 璞嗙摚闃呰 | 50%鈥?0% | 鏃?| EPUB | 鏃?|
+| Amazon KDP | 35%-70% | KDP Select | MOBI/EPUB | 可选 |
+| Google Play Books | 52%-80% | 无 | EPUB/PDF | 可选 |
+| Apple Books | 70% | 无 | EPUB | 可选 |
+| Smashwords | 60%-80% | 无 | EPUB（通过 Meatgrinder）| 可选 |
+| 豆瓣阅读 | 50%-70% | 无 | EPUB | 无 |
 
-### 6.2 鑷嚭鐗?vs 浼犵粺鍑虹増
+### 6.2 自出版 vs 传统出版
 
-| 缁村害 | 鑷嚭鐗?| 浼犵粺鍑虹増 |
+| 维度 | 自出版 | 传统出版 |
 |------|--------|---------|
-| 鎺у埗鏉?| 瀹屽叏鑷富 | 鍑虹増绀句富瀵?|
-| 鍛ㄦ湡 | 鏁板ぉ鈥撴暟鍛?| 6 涓湀鈥? 骞?|
-| 缂栬緫鏀寔 | 鑷垂/澶栧寘 | 涓撲笟缂栬緫 |
-| 鍙戣娓犻亾 | 鏈夐檺 | 鍏ㄩ潰 |
-| 鐗堢◣鐜?| 35%鈥?0% | 5%鈥?5% |
-| 鍓嶆湡鎶曞叆 | 缂栨牎/灏侀潰璁捐 | 鏃?|
-| 鍝佺墝鑳屼功 | 鏃?| 鏈?|
+| 控制权 | 完全自主 | 出版社主导 |
+| 周期 | 数天-数周 | 6 个月-2 年 |
+| 编辑支持 | 自费/外包 | 专业编辑 |
+| 发行渠道 | 有限 | 全面 |
+| 版税率 | 35%-70% | 5%-15% |
+| 前期投入 | 编校/封面设计 | 无 |
+| 品牌背书 | 无 | 有 |
 
-## 涓冦€佸鏈數瀛愪功
+## 七、学术电子书
 
-| 骞冲彴 | 瀛︾瑕嗙洊 | 璁块棶妯″紡 | 鐗圭偣 |
+| 平台 | 学科覆盖 | 访问模式 | 特点 |
 |------|---------|---------|------|
-| SpringerLink | STEM | 鏈烘瀯璁㈤槄/璐拱 | Lecture Notes 绯诲垪 |
-| Cambridge Core | 鍏ㄥ绉?| 鏈烘瀯璁㈤槄 | 鍓戞ˉ澶у鍑虹増绀?|
-| Oxford Scholarship Online | 浜烘枃绀剧 | 鏈烘瀯璁㈤槄 | 涓撻鍚堥泦 |
-| JSTOR | 浜烘枃绀剧 | 鏈烘瀯璁㈤槄 | 杩囧垔 + 鐢靛瓙涔?|
-| 涓浗鐭ョ綉锛圕NKI锛?| 鍏ㄥ绉?| 鎸夐〉浠樿垂 | 涓枃纭曞崥璁烘枃 |
-| 璇荤 | 鍏ㄥ绉?| 鏈烘瀯璁㈤槄 | 涓枃鍥句功鎼滅储 |
+| SpringerLink | STEM | 机构订阅/购买 | Lecture Notes 系列 |
+| Cambridge Core | 全学科 | 机构订阅 | 剑桥大学出版社 |
+| Oxford Scholarship Online | 人文社科 | 机构订阅 | 专题合集 |
+| JSTOR | 人文社科 | 机构订阅 | 过刊 + 电子书 |
+| 中国知网（CNKI）| 全学科 | 按页付费 | 中文硕博论文 |
+| 读秀 | 全学科 | 机构订阅 | 中文图书搜索 |
 
-## 鍏€佺數瀛愪功搴撶鐞?
-### 8.1 Calibre 绠＄悊
+## 八、电子书库管理
+### 8.1 Calibre 管理
 
-Calibre 鏄紑婧愮殑鐢靛瓙涔︾鐞嗙憺澹啗鍒€锛?
-| 鍔熻兘 | 鎻忚堪 |
+Calibre 是开源的电子书管理瑞士军刀：
+| 功能 | 描述 |
 |------|------|
-| 鏍煎紡杞崲 | 鏀寔 20+ 鏍煎紡浜掕浆 |
-| 鍏冩暟鎹紪杈?| 鑷姩鎶撳彇璞嗙摚/Amazon/Google 淇℃伅 |
-| 鏍囩绠＄悊 | 鑷畾涔夋爣绛?鍒嗙被 |
-| 鍐呭鏈嶅姟鍣?| 灞€鍩熺綉鏃犵嚎璁块棶 |
-| 鏂伴椈涓嬭浇 | 鑷姩鎶撳彇 RSS 杞崲涓虹數瀛愪功 |
-| 鎵归噺鎿嶄綔 | 鎵归噺杞崲/缂栬緫/閲嶅懡鍚?|
+| 格式转换 | 支持 20+ 格式互转 |
+| 元数据编辑 | 自动抓取豆瓣/Amazon/Google 信息 |
+| 标签管理 | 自定义标签/分类 |
+| 内容服务器 | 局域网无线访问 |
+| 新闻下载 | 自动抓取 RSS 转换为电子书 |
+| 批量操作 | 批量转换/编辑/重命名 |
 
-### 8.2 鍏冩暟鎹紪杈戝缓璁?
-- 缁熶竴涔﹀悕鍜屼綔鑰呮牸寮忥紙濮? 鍚嶏級
-- 娣诲姞鏍囩锛歚#缂栫▼`, `#Python`, `#鏁版嵁绉戝`
-- 濉啓 ISBN 渚夸簬妫€绱?- 娣诲姞灏侀潰鍥惧儚锛堢粺涓€灏哄锛?- 璁剧疆璇█鏍囩锛坺h, en, ja锛?
-## 涔濄€佹棤闅滅璁块棶
+### 8.2 元数据编辑建议
+- 统一书名和作者格式（姓, 名）
+- 添加标签，如 `#编程`, `#Python`, `#数据科学`
+- 填写 ISBN 便于检索
+- 添加封面图像（统一尺寸）
+- 设置语言标签（zh, en, ja）
+## 九、无障碍访问
 
-| 鏃犻殰纰嶇壒鎬?| 璇存槑 | EPUB3 鏀寔 |
+| 无障碍特性 | 说明 | EPUB3 支持 |
 |-----------|------|:----------:|
-| 灞忓箷闃呰鍣ㄥ吋瀹?| NVDA, VoiceOver, TalkBack | 鉁?|
-| 鏂囧瓧閲嶆帓 | 鑷畾涔夊瓧浣?澶у皬/闂磋窛 | 鉁?|
-| 楂樺姣斿害妯″紡 | 閫傚簲瑙嗗姏闅滅 | 鉁?|
-| 鏇夸唬鏂囨湰锛圓lt Text锛?| 鍥惧儚鎻忚堪 | 鉁?|
-| 濯掍綋鏇夸唬 | 闊抽鎻忚堪瑙嗛 | 鉁?|
-| 椤甸潰瀵艰埅 | 鏍囬/涔︾/椤电爜 | 鉁?|
-| 璇煶鍚堟垚锛圱TS锛?| 鏂囨湰鏈楄 | 鉁?|
+| 屏幕阅读器兼容 | NVDA, VoiceOver, TalkBack | ✓ |
+| 文字重排 | 自定义字体/大小/间距 | ✓ |
+| 高对比度模式 | 适应视力障碍 | ✓ |
+| 替代文本（Alt Text）| 图像描述 | ✓ |
+| 媒体替代 | 音频描述视频 | ✓ |
+| 页面导航 | 标题/书签/页码 | ✓ |
+| 语音合成（TTS）| 文本朗读 | ✓ |
 
-WCAG 2.1 AA 鏄數瀛愪功鏃犻殰纰嶇殑鍩烘湰鏍囧噯锛孍PUB3 瀵硅鏍囧噯鎻愪緵浜嗚壇濂芥敮鎸併€?
-## 鍙傝€冭祫婧?
-- 涓浗鐨功缃? (2024). *鏁板瓧鍑虹増浜т笟骞村害鎶ュ憡*.
+WCAG 2.1 AA 是电子书无障碍的基本标准，EPUB3 对该标准提供良好支持。
+## 参考资料
+- 中国皮书网 (2024). *数字出版产业年度报告*.
 - Project Gutenberg: https://www.gutenberg.org
-- Calibre 瀹樻柟: https://calibre-ebook.com
-- Pandoc 鏂囨。: https://pandoc.org/MANUAL.html
-- IDPF EPUB 瑙勮寖: https://www.w3.org/publishing/epub3
+- Calibre 官方: https://calibre-ebook.com
+- Pandoc 文档: https://pandoc.org/MANUAL.html
+- IDPF EPUB 规范: https://www.w3.org/publishing/epub3
 - Open Access Publishing in European Networks: https://www.oapen.org
 
-## 鐩稿叧鏉＄洰
+## 相关条目
 
 DigitalLibrary, [[NoteTaking]], [[KnowledgeManagement]], EPUB

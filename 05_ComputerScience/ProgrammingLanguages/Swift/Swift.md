@@ -1,4 +1,4 @@
-﻿# Swift
+# Swift
 
 ## 一、Swift 概述
 

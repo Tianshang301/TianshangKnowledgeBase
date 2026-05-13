@@ -1,4 +1,4 @@
-﻿# 内存管理详解 (Memory Management)
+# 内存管理详解 (Memory Management)
 
 ## 1. 地址绑定 (Address Binding)
 

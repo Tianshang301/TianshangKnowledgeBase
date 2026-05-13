@@ -1,4 +1,4 @@
-﻿# Greedy Algorithms - 贪心算法
+# Greedy Algorithms - 贪心算法
 
 ## 一、贪心算法原理
 

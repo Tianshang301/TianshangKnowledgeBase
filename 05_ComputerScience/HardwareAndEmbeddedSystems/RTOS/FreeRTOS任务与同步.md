@@ -1,4 +1,4 @@
-﻿# FreeRTOS任务与同步
+# FreeRTOS任务与同步
 
 ## 一、FreeRTOS概述
 

@@ -1,4 +1,4 @@
-﻿# 应用层详解 (Application Layer)
+# 应用层详解 (Application Layer)
 
 ## 1. DNS (Domain Name System)
 

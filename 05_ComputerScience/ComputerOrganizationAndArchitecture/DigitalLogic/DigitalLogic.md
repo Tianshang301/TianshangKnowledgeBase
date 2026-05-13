@@ -1,4 +1,4 @@
-﻿# 数字逻辑 (Digital Logic)
+# 数字逻辑 (Digital Logic)
 
 ## 1. 数制与转换 (Number Systems)
 

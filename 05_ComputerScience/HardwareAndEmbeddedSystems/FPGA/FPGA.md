@@ -1,4 +1,4 @@
-﻿# FPGA
+# FPGA
 
 ## 一、FPGA 架构
 

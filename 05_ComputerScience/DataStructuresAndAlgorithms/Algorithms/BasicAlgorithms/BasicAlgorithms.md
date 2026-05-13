@@ -1,4 +1,4 @@
-﻿# Basic Algorithms - 基础算法
+# Basic Algorithms - 基础算法
 
 ## 一、算法分析
 

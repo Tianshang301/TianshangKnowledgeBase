@@ -1,129 +1,129 @@
-﻿# 鐗瑰緛鍊间笌鐗瑰緛鍚戦噺
-
-## 涓€銆佸畾涔変笌鍑犱綍鎰忎箟
-
-### 瀹氫箟
-
-璁?$A$ 涓?$n \times n$ 鐭╅樀锛岃嫢瀛樺湪闈為浂鍚戦噺 $v$ 鍜屾爣閲?$\lambda$ 浣垮緱锛?
-$$A v = \lambda v$$
-
-鍒?$\lambda$ 涓虹壒寰佸€硷紝$v$ 涓哄搴旂殑鐗瑰緛鍚戦噺銆?
-**鍑犱綍鎰忎箟锛?* 鐗瑰緛鍚戦噺鍦?$A$ 浣滅敤涓嬪彧鍙戠敓浼哥缉锛屼笉鏀瑰彉鏂瑰悜銆備几缂╁€嶆暟涓?$\lambda$銆?
-### 鐗瑰緛澶氶」寮?
-$$p(\lambda) = \det(A - \lambda I) = 0$$
-
-$p(\lambda)$ 涓?$n$ 娆″椤瑰紡锛屽叾鏍瑰嵆涓虹壒寰佸€笺€?
-### Gershgorin鍦嗙洏瀹氱悊
-
-姣忎釜鐗瑰緛鍊?$\lambda$ 浣嶄簬鑷冲皯涓€涓渾鐩樺唴锛?$$|\lambda - a_{ii}| \le \sum_{j \neq i} |a_{ij}|$$
-
-### Rayleigh鍟?
-$$\lambda_{min} \le R(x) = \frac{x^T A x}{x^T x} \le \lambda_{max}$$
-
-### 骞傝凯浠ｆ硶
-
-$$v_{k+1} = \frac{A v_k}{\|A v_k\|}, \quad \lambda^{(k)} = v_k^T A v_k$$
-
-鏀舵暃鍒版ā鏈€澶х殑鐗瑰緛鍊煎拰瀵瑰簲鐗瑰緛鍚戦噺銆?
-### 浠ｆ暟閲嶆暟涓庡嚑浣曢噸鏁?
-- **浠ｆ暟閲嶆暟**锛氱壒寰佸€间綔涓虹壒寰佸椤瑰紡鏍圭殑閲嶆暟
-- **鍑犱綍閲嶆暟**锛?\dim(\text{Null}(A - \lambda I))$锛屽嵆瀵瑰簲鐗瑰緛绌洪棿鐨勭淮鏁?- 鍑犱綍閲嶆暟 $\leq$ 浠ｆ暟閲嶆暟
-
-## 浜屻€佸瑙掑寲 (Diagonalization)
-
-### 鍙瑙掑寲鏉′欢
-
-$A$ 鍙瑙掑寲 $\iff$ 瀵规瘡涓壒寰佸€硷紝鍑犱綍閲嶆暟 = 浠ｆ暟閲嶆暟 $\iff$ $A$ 鏈?$n$ 涓嚎鎬ф棤鍏崇殑鐗瑰緛鍚戦噺銆?
-### 瀵硅鍖栬繃绋?
-鑻?$A$ 鍙瑙掑寲锛屽垯瀛樺湪鍙€嗙煩闃?$P$ 鍜屽瑙掔煩闃?$D$ 浣垮緱锛?
-$$A = P D P^{-1}$$
-
-鍏朵腑 $P$ 鐨勫垪鏄?$A$ 鐨勭壒寰佸悜閲忥紝$D$ 鐨勫瑙掔嚎涓哄搴旂殑鐗瑰緛鍊笺€?
-**搴旂敤锛?*
-$$A^n = P D^n P^{-1}$$
-
-### 鐗瑰緛鍩?(Eigenbasis)
-
-鐢辩壒寰佸悜閲忔瀯鎴愮殑涓€缁勫熀绉颁负鐗瑰緛鍩恒€傚湪鐗瑰緛鍩轰笅锛岀嚎鎬у彉鎹㈣〃绀轰负瀵硅鐭╅樀銆?
-## 涓夈€佸绉扮煩闃电殑璋卞畾鐞?
-### 瀹炲绉扮煩闃?
-鑻?$A = A^T$锛堝疄瀵圭О锛夛紝鍒欙細
-- 鎵€鏈夌壒寰佸€间负瀹炴暟
-- 涓嶅悓鐗瑰緛鍊煎搴旂殑鐗瑰緛鍚戦噺姝ｄ氦
-- 瀛樺湪姝ｄ氦鐭╅樀 $Q$锛?Q^T Q = I$锛変娇寰楋細
-
-$$A = Q \Lambda Q^T$$
-
-鍏朵腑 $\Lambda$ 涓哄瑙掔煩闃碉紝$Q$ 鐨勫垪涓烘爣鍑嗘浜ょ殑鐗瑰緛鍚戦噺銆?
-## 鍥涖€佷簩娆″瀷 (Quadratic Forms)
-
-### 瀹氫箟
-
-$$Q(x) = x^T A x = \sum_{i=1}^n \sum_{j=1}^n a_{ij} x_i x_j$$
-
-鍏朵腑 $A$ 涓哄绉扮煩闃点€?
-### 瀹氬€兼€?(Definiteness)
-
-- **姝ｅ畾**锛?x^T A x > 0$ 瀵规墍鏈?$x \neq 0$锛涚壒寰佸€煎叏姝?- **鍗婃瀹?*锛?x^T A x \geq 0$锛涚壒寰佸€奸潪璐?- **璐熷畾**锛?x^T A x < 0$锛涚壒寰佸€煎叏璐?- **涓嶅畾**锛氱壒寰佸€兼湁姝ｆ湁璐?
-### 涓诲瓙寮忓垽鍒硶
-
-$A$ 姝ｅ畾 $\iff$ 鎵€鏈夐『搴忎富瀛愬紡 $> 0$銆?
-## 浜斻€佸寮傚€煎垎瑙?(SVD)
-
-### 瀹氫箟
-
-浠绘剰 $m \times n$ 鐭╅樀 $A$ 鍙垎瑙ｄ负锛?
-$$A = U \Sigma V^T$$
-
-- $U$锛?m \times m$ 姝ｄ氦鐭╅樀锛堝乏濂囧紓鍚戦噺锛?- $V$锛?n \times n$ 姝ｄ氦鐭╅樀锛堝彸濂囧紓鍚戦噺锛?- $\Sigma$锛?m \times n$ 瀵硅鐭╅樀锛屽瑙掔嚎涓哄寮傚€?$\sigma_1 \geq \sigma_2 \geq \cdots \geq \sigma_r > 0$
-
-### 绱у噾 SVD
-
-$$A = U_r \Sigma_r V_r^T$$
-
-鍏朵腑浠呬繚鐣?$r = \text{rank}(A)$ 涓潪闆跺寮傚€笺€?
-### 涓庣壒寰佸€肩殑鍏崇郴
-
-$$\sigma_i^2 = \lambda_i(A^T A) = \lambda_i(A A^T)$$
-
-$V$ 鐨勫垪鏄?$A^T A$ 鐨勭壒寰佸悜閲忥紝$U$ 鐨勫垪鏄?$A A^T$ 鐨勭壒寰佸悜閲忋€?
-### 鐭╅樀杩戜技 (Eckart-Young 瀹氱悊)
-
-淇濈暀鍓?$k$ 涓渶澶у寮傚€煎緱鍒?$A$ 鐨勬渶浣崇З $k$ 杩戜技锛?
-$$A_k = U_k \Sigma_k V_k^T$$
-
-### 浼€?(Pseudoinverse)
-
-$$A^+ = V \Sigma^+ U^T$$
-
-鍏朵腑 $\Sigma^+$ 灏?$\Sigma$ 鐨勯潪闆跺瑙掑厓鍙栧€掓暟銆?
-```python
-import numpy as np
-from numpy.linalg import svd
-
-A = np.array([[1, 2], [3, 4], [5, 6]], dtype=float)
-U, s, Vt = svd(A)
-Sigma = np.zeros((3, 2))
-Sigma[:2, :2] = np.diag(s)
-
-# 绱у噾 SVD
-A_approx = U[:, :2] @ np.diag(s) @ Vt[:2, :]
-
-# 绉? 杩戜技
-A_rank1 = s[0] * np.outer(U[:, 0], Vt[0, :])
-
-# 浼€?A_pinv = Vt.T @ np.diag(1/s) @ U[:, :2].T
-```
-
-### 鐭╅樀鍒嗚В瀵规瘮
-
-| 鍒嗚В | 閫傜敤鐭╅樀 | 褰㈠紡 | 鍞竴鎬?| 鐢ㄩ€?|
-|:---|:---|:---|:---:|:---|
-| LU | 鏂归樀 | $A = LU$ | 涓嶅敮涓€ | 瑙ｇ嚎鎬ф柟绋嬬粍 |
-| QR | 浠绘剰 | $A = QR$ | 鍞竴锛?R>0$锛?| 鏈€灏忎簩涔?|
-| 鐗瑰緛鍒嗚В | 鍙瑙掑寲鏂归樀 | $A = PDP^{-1}$ | 涓嶅敮涓€ | 鐭╅樀骞傘€佽氨鍒嗘瀽 |
-| SVD | 浠绘剰鐭╅樀 | $A = U\Sigma V^T$ | 鍞竴 | 闄嶇淮銆佷吉閫嗐€佸帇缂?|
-
-## 鐩稿叧鏉＄洰
-
-[[02_NaturalSciences/Mathematics/Geometry/INDEX|Geometry]], [[02_NaturalSciences/Mathematics/NumberTheory/INDEX|NumberTheory]], [[02_NaturalSciences/Mathematics/MathematicalAnalysis/INDEX|MathematicalAnalysis]], LinearAlgebra
+# 特征值与特征向量
+
+## 一、定义与几何意义
+
+### 定义
+
+��?$A$ ��?$n \times n$ 矩阵，若存在非零向量 $v$ 和标��?$\lambda$ 使得��?
+$$A v = \lambda v$$
+
+��?$\lambda$ 为特征值，$v$ 为对应的特征向量��?
+**几何意义��?* 特征向量��?$A$ 作用下只发生伸缩，不改变方向。伸缩倍数��?$\lambda$��?
+### 特征多项��?
+$$p(\lambda) = \det(A - \lambda I) = 0$$
+
+$p(\lambda)$ ��?$n$ 次多项式，其根即为特征值��?
+### Gershgorin圆盘定理
+
+每个特征��?$\lambda$ 位于至少一个圆盘内��?$$|\lambda - a_{ii}| \le \sum_{j \neq i} |a_{ij}|$$
+
+### Rayleigh��?
+$$\lambda_{min} \le R(x) = \frac{x^T A x}{x^T x} \le \lambda_{max}$$
+
+### 幂迭代法
+
+$$v_{k+1} = \frac{A v_k}{\|A v_k\|}, \quad \lambda^{(k)} = v_k^T A v_k$$
+
+收敛到模最大的特征值和对应特征向量��?
+### 代数重数与几何重��?
+- **代数重数**：特征值作为特征多项式根的重数
+- **几何重数**��?\dim(\text{Null}(A - \lambda I))$，即对应特征空间的维��?- 几何重数 $\leq$ 代数重数
+
+## 二、对角化 (Diagonalization)
+
+### 可对角化条件
+
+$A$ 可对角化 $\iff$ 对每个特征值，几何重数 = 代数重数 $\iff$ $A$ ��?$n$ 个线性无关的特征向量��?
+### 对角化过��?
+��?$A$ 可对角化，则存在可逆矩��?$P$ 和对角矩��?$D$ 使得��?
+$$A = P D P^{-1}$$
+
+其中 $P$ 的列��?$A$ 的特征向量，$D$ 的对角线为对应的特征值��?
+**应用��?*
+$$A^n = P D^n P^{-1}$$
+
+### 特征��?(Eigenbasis)
+
+由特征向量构成的一组基称为特征基。在特征基下，线性变换表示为对角矩阵��?
+## 三、对称矩阵的谱定��?
+### 实对称矩��?
+��?$A = A^T$（实对称），则：
+- 所有特征值为实数
+- 不同特征值对应的特征向量正交
+- 存在正交矩阵 $Q$��?Q^T Q = I$）使得：
+
+$$A = Q \Lambda Q^T$$
+
+其中 $\Lambda$ 为对角矩阵，$Q$ 的列为标准正交的特征向量��?
+## 四、二次型 (Quadratic Forms)
+
+### 定义
+
+$$Q(x) = x^T A x = \sum_{i=1}^n \sum_{j=1}^n a_{ij} x_i x_j$$
+
+其中 $A$ 为对称矩阵��?
+### 定值��?(Definiteness)
+
+- **正定**��?x^T A x > 0$ 对所��?$x \neq 0$；特征值全��?- **半正��?*��?x^T A x \geq 0$；特征值非��?- **负定**��?x^T A x < 0$；特征值全��?- **不定**：特征值有正有��?
+### 主子式判别法
+
+$A$ 正定 $\iff$ 所有顺序主子式 $> 0$��?
+## 五、奇异值分��?(SVD)
+
+### 定义
+
+任意 $m \times n$ 矩阵 $A$ 可分解为��?
+$$A = U \Sigma V^T$$
+
+- $U$��?m \times m$ 正交矩阵（左奇异向量��?- $V$��?n \times n$ 正交矩阵（右奇异向量��?- $\Sigma$��?m \times n$ 对角矩阵，对角线为奇异��?$\sigma_1 \geq \sigma_2 \geq \cdots \geq \sigma_r > 0$
+
+### 紧凑 SVD
+
+$$A = U_r \Sigma_r V_r^T$$
+
+其中仅保��?$r = \text{rank}(A)$ 个非零奇异值��?
+### 与特征值的关系
+
+$$\sigma_i^2 = \lambda_i(A^T A) = \lambda_i(A A^T)$$
+
+$V$ 的列��?$A^T A$ 的特征向量，$U$ 的列��?$A A^T$ 的特征向量��?
+### 矩阵近似 (Eckart-Young 定理)
+
+保留��?$k$ 个最大奇异值得��?$A$ 的最佳秩 $k$ 近似��?
+$$A_k = U_k \Sigma_k V_k^T$$
+
+### 伪��?(Pseudoinverse)
+
+$$A^+ = V \Sigma^+ U^T$$
+
+其中 $\Sigma^+$ ��?$\Sigma$ 的非零对角元取倒数��?
+```python
+import numpy as np
+from numpy.linalg import svd
+
+A = np.array([[1, 2], [3, 4], [5, 6]], dtype=float)
+U, s, Vt = svd(A)
+Sigma = np.zeros((3, 2))
+Sigma[:2, :2] = np.diag(s)
+
+# 紧凑 SVD
+A_approx = U[:, :2] @ np.diag(s) @ Vt[:2, :]
+
+# ��? 近似
+A_rank1 = s[0] * np.outer(U[:, 0], Vt[0, :])
+
+# 伪��?A_pinv = Vt.T @ np.diag(1/s) @ U[:, :2].T
+```
+
+### 矩阵分解对比
+
+| 分解 | 适用矩阵 | 形式 | 唯一��?| 用��?|
+|:---|:---|:---|:---:|:---|
+| LU | 方阵 | $A = LU$ | 不唯一 | 解线性方程组 |
+| QR | 任意 | $A = QR$ | 唯一��?R>0$��?| 最小二��?|
+| 特征分解 | 可对角化方阵 | $A = PDP^{-1}$ | 不唯一 | 矩阵幂、谱分析 |
+| SVD | 任意矩阵 | $A = U\Sigma V^T$ | 唯一 | 降维、伪逆、压��?|
+
+## 相关条目
+
+[[02_NaturalSciences/Mathematics/Geometry/INDEX|Geometry]], [[02_NaturalSciences/Mathematics/NumberTheory/INDEX|NumberTheory]], [[02_NaturalSciences/Mathematics/MathematicalAnalysis/INDEX|MathematicalAnalysis]], LinearAlgebra

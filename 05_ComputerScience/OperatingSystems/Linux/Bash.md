@@ -1,4 +1,4 @@
-﻿# Bash 脚本编程
+# Bash 脚本编程
 
 ## Shebang 和基本结构
 

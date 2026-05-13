@@ -1,4 +1,4 @@
-﻿# Jenkins 指南
+# Jenkins 指南
 
 ## 一、架构
 

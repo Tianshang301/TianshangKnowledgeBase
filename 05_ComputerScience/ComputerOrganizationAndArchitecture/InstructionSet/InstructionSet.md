@@ -1,4 +1,4 @@
-﻿# 指令集 (Instruction Set Architecture)
+# 指令集 (Instruction Set Architecture)
 
 ## 1. ISA 设计原则
 

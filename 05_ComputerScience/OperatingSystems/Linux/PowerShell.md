@@ -1,4 +1,4 @@
-﻿# PowerShell 脚本编程
+# PowerShell 脚本编程
 
 ## Cmdlets 与函数
 

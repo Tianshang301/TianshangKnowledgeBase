@@ -1,4 +1,4 @@
-﻿# Information Retrieval - 信息检索
+# Information Retrieval - 信息检索
 
 ## 一、信息检索基础
 

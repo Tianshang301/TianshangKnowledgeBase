@@ -1,4 +1,4 @@
-﻿# Dockerfile 最佳实践
+# Dockerfile 最佳实践
 
 ## 一、Dockerfile 指令详解
 

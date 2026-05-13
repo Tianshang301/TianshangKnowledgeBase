@@ -1,4 +1,4 @@
-﻿# 网络安全详解 (Network Security)
+# 网络安全详解 (Network Security)
 
 ## 1. 对称加密 (Symmetric Encryption)
 

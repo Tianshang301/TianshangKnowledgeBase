@@ -1,4 +1,4 @@
-﻿# MySQL 深入指南
+# MySQL 深入指南
 
 ## 一、MySQL 架构
 

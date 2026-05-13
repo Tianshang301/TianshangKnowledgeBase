@@ -1,4 +1,4 @@
-﻿# Dynamic Programming - 动态规划
+# Dynamic Programming - 动态规划
 
 ## 一、动态规划原理
 

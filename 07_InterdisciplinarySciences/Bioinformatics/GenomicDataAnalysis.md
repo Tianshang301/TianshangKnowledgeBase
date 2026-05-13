@@ -1,234 +1,234 @@
-﻿# 鍩哄洜缁勬暟鎹垎鏋?
-## 姒傝堪
+# 基因组数据分?
+## 概述
 
-鍩哄洜缁勬暟鎹垎鏋愭槸鐢熺墿淇℃伅瀛︾殑鏍稿績鍐呭锛屾秹鍙奃NA搴忓垪鐨勬祴瀹氥€佺粍瑁呫€佹瘮瀵广€佹敞閲婂拰鍒嗘瀽銆傞殢鐫€娴嬪簭鎶€鏈殑椋為€熷彂灞曪紝鍩哄洜缁勬暟鎹憟鎸囨暟绾у闀匡紝涓虹敓鍛界瀛︾爺绌舵彁渚涗簡鍓嶆墍鏈湁鐨勬満閬囥€?
-## 娴嬪簭鎶€鏈?
-### Sanger娴嬪簭
+基因组数据分析是生物信息学的核心内容，涉及DNA序列的测定组装比对注释和分析。随睢测序抢术的飞发展，基因组数据呈指数级增长，为生命科学研究提供了前所未有的机遇?
+## 测序抢?
+### Sanger测序
 
-**鍘熺悊锛?*
-- 鍙岃劚姘ч摼缁堟娉?- 浣跨敤ddNTP闅忔満缁堟DNA鍚堟垚
-- 鐢垫吵鍒嗙涓嶅悓闀垮害鐨勭墖娈?- 婵€鍏夋娴嬭崸鍏変俊鍙?
-**鐗圭偣锛?*
-- 璇婚暱闀匡紙700-1000 bp锛?- 鍑嗙‘鐜囬珮锛?9.99%锛?- 閫氶噺浣?- 鎴愭湰楂?
-**搴旂敤锛?*
-- 灏忕墖娈垫祴搴?- 楠岃瘉鎬ф祴搴?- 鍗曞熀鍥犵柧鐥呮娴?
-### 浜屼唬娴嬪簭锛圢GS锛?
-**Illumina骞冲彴锛?*
-- 杈瑰悎鎴愯竟娴嬪簭锛圫BS锛?- 妗ュ紡PCR鎵╁
-- 璇婚暱鐭紙50-300 bp锛?- 閫氶噺楂橈紝鎴愭湰浣?
-**涓昏骞冲彴锛?*
-- HiSeq绯诲垪锛氶珮閫氶噺
-- MiSeq绯诲垪锛氫腑绛夐€氶噺
-- NextSeq绯诲垪锛氫腑楂橀€氶噺
-- NovaSeq绯诲垪锛氳秴楂橀€氶噺
+**原理?*
+- 双脱氧链终止?- 使用ddNTP随机终止DNA合成
+- 电泳分离不同长度的片?- 濢光检测荧光信?
+**特点?*
+- 读长长（700-1000 bp?- 准确率高?9.99%?- 通量?- 成本?
+**应用?*
+- 小片段测?- 验证性测?- 单基因疾病检?
+### 二代测序（NGS?
+**Illumina平台?*
+- 边合成边测序（SBS?- 桥式PCR扩增
+- 读长短（50-300 bp?- 通量高，成本?
+**主要平台?*
+- HiSeq系列：高通量
+- MiSeq系列：中等量
+- NextSeq系列：中高量
+- NovaSeq系列：超高量
 
-**鏂囧簱绫诲瀷锛?*
-- PE锛圥aired-End锛夛細鍙岀娴嬪簭
-- SE锛圫ingle-End锛夛細鍗曠娴嬪簭
+**文库类型?*
+- PE（Paired-End）：双端测序
+- SE（Single-End）：单端测序
 
-### 涓変唬娴嬪簭
+### 三代测序
 
-**PacBio SMRT锛?*
-- 鍗曞垎瀛愬疄鏃舵祴搴?- 璇婚暱闀匡紙10-30 kb锛?- 鍙娴嬬⒈鍩轰慨楗?- 閿欒鐜囪緝楂橈紙~15%锛?
-**Oxford Nanopore锛?*
-- 绾崇背瀛旀祴搴?- 瓒呴暱璇婚暱锛堝彲杈炬暟Mb锛?- 瀹炴椂娴嬪簭
-- 璁惧渚挎惡锛圡inION锛?
-**浼樺娍锛?*
-- 瑙ｅ喅閲嶅鍖哄煙
-- 妫€娴嬬粨鏋勫彉寮?- 鐩存帴妫€娴嬬敳鍩哄寲
-- 瀹屾暣鍩哄洜缁勭粍瑁?
-## 搴忓垪姣斿
+**PacBio SMRT?*
+- 单分子实时测?- 读长长（10-30 kb?- 可检测碱基修?- 错误率较高（~15%?
+**Oxford Nanopore?*
+- 纳米孔测?- 超长读长（可达数Mb?- 实时测序
+- 设备便携（MinION?
+**优势?*
+- 解决重复区域
+- 棢测结构变?- 直接棢测甲基化
+- 完整基因组组?
+## 序列比对
 
 ### BLAST
 
-**鍘熺悊锛?*
-- 灞€閮ㄥ簭鍒楁瘮瀵?- 鍩轰簬绉嶅瓙鐨勫惎鍙戝紡绠楁硶
-- 鍒嗘暟鐭╅樀璇勫垎
+**原理?*
+- 屢部序列比?- 基于种子的启发式算法
+- 分数矩阵评分
 
-**绫诲瀷锛?*
-- blastn锛氭牳鑻烽吀姣斿
-- blastp锛氳泲鐧借川姣斿
-- blastx锛氱炕璇戞牳鑻烽吀姣斿铔嬬櫧璐?- tblastn锛氳泲鐧借川姣斿缈昏瘧鏍歌嫹閰?- tblastx锛氱炕璇戞牳鑻烽吀姣斿缈昏瘧鏍歌嫹閰?
-**鍙傛暟锛?*
-- E鍊硷細鏈熸湜鍊硷紝瓒婂皬瓒婃樉钁?- Bit score锛氭瘮瀵瑰緱鍒嗭紝瓒婂ぇ瓒婂ソ
-- Identity锛氫竴鑷存€х櫨鍒嗘瘮
+**类型?*
+- blastn：核苷酸比对
+- blastp：蛋白质比对
+- blastx：翻译核苷酸比对蛋白?- tblastn：蛋白质比对翻译核苷?- tblastx：翻译核苷酸比对翻译核苷?
+**参数?*
+- E值：期望值，越小越显?- Bit score：比对得分，越大越好
+- Identity：一致百分比
 
 ### BWA
 
-**鐗圭偣锛?*
-- 涓撲负鐭闀胯璁?- Burrows-Wheeler鍙樻崲
-- 楂樻晥鐨勫唴瀛樹娇鐢?
-**绠楁硶锛?*
-- BWA-backtrack锛氶€傜敤浜嶪llumina鐭闀匡紙<100 bp锛?- BWA-SW锛氶€傜敤浜庤緝闀胯闀匡紙70-1000 bp锛?- BWA-MEM锛氶€氱敤绠楁硶锛屾敮鎸侀暱璇婚暱
+**特点?*
+- 专为短读长设?- Burrows-Wheeler变换
+- 高效的内存使?
+**算法?*
+- BWA-backtrack：用于Illumina短读长（<100 bp?- BWA-SW：用于较长读长（70-1000 bp?- BWA-MEM：用算法，支持长读长
 
-**浣跨敤娴佺▼锛?*
+**使用流程?*
 ```bash
-# 寤虹珛绱㈠紩
+# 建立索引
 bwa index reference.fa
 
-# 姣斿
+# 比对
 bwa mem reference.fa read1.fq read2.fq > aligned.sam
 
-# 鎺掑簭
+# 排序
 samtools sort aligned.sam -o aligned.bam
 
-# 寤虹珛绱㈠紩
+# 建立索引
 samtools index aligned.bam
 ```
 
-## 鍙樺紓妫€娴?
-### SNP妫€娴?
-**鍗曟牳鑻烽吀澶氭€佹€э紙SNP锛夛細**
-- 鍗曚釜纰卞熀鐨勫彉寮?- 浜虹被鍩哄洜缁勪腑绾︽瘡300 bp涓€涓猄NP
+## 变异棢?
+### SNP棢?
+**单核苷酸多（SNP）：**
+- 单个碱基的变?- 人类基因组中约每300 bp丢个SNP
 
-**妫€娴嬫祦绋嬶細**
-1. 搴忓垪姣斿鍒板弬鑰冨熀鍥犵粍
-2. 鍙樺紓璇嗗埆锛圙ATK銆丼amtools锛?3. 鍙樺紓杩囨护锛堣川閲忋€佹繁搴︼級
-4. 鍙樺紓娉ㄩ噴锛堝姛鑳姐€侀鐜囷級
+**棢测流程：**
+1. 序列比对到参考基因组
+2. 变异识别（GATK、Samtools?3. 变异过滤（质量深度）
+4. 变异注释（功能频率）
 
-**GATK鏈€浣冲疄璺碉細**
+**GATK朢佳实践：**
 ```bash
 # HaplotypeCaller
 gatk HaplotypeCaller -R reference.fa -I aligned.bam -O raw_variants.vcf
 
-# 鍙樺紓杩囨护
+# 变异过滤
 gatk VariantFiltration -V raw_variants.vcf -O filtered_variants.vcf
 ```
 
-### Indel妫€娴?
-**鎻掑叆/缂哄け锛圛ndel锛夛細**
-- 灏忕墖娈电殑鎻掑叆鎴栫己澶?- 瀵硅泲鐧借川鍔熻兘褰卞搷澶?
-**妫€娴嬫柟娉曪細**
-- 鍩轰簬姣斿鐨勬柟娉?- 鍩轰簬缁勮鐨勬柟娉?- 娣峰悎鏂规硶
+### Indel棢?
+**插入/缺失（Indel）：**
+- 小片段的插入或缺?- 对蛋白质功能影响?
+**棢测方法：**
+- 基于比对的方?- 基于组装的方?- 混合方法
 
-### SV妫€娴?
-**缁撴瀯鍙樺紓锛圫V锛夛細**
-- 澶х墖娈电殑鍙樺紓锛?50 bp锛?- 鍖呮嫭缂哄け銆侀噸澶嶃€佸€掍綅銆佹槗浣?
-**妫€娴嬫柟娉曪細**
-- 鍩轰簬璇诲锛圥aired-end锛夌殑鏂规硶
-- 鍩轰簬鍒嗚璇伙紙Split-read锛夌殑鏂规硶
-- 鍩轰簬娣卞害锛圧ead-depth锛夌殑鏂规硶
-- 鍩轰簬缁勮锛圓ssembly锛夌殑鏂规硶
+### SV棢?
+**结构变异（SV）：**
+- 大片段的变异?50 bp?- 包括缺失、重复位、易?
+**棢测方法：**
+- 基于读对（Paired-end）的方法
+- 基于分裂读（Split-read）的方法
+- 基于深度（Read-depth）的方法
+- 基于组装（Assembly）的方法
 
-**宸ュ叿锛?*
+**工具?*
 - DELLY
 - Manta
 - Lumpy
-- Sniffles锛堜笁浠ｆ祴搴忥級
+- Sniffles（三代测序）
 
-## 鍩哄洜琛ㄨ揪鍒嗘瀽
+## 基因表达分析
 
 ### RNA-seq
 
-**瀹為獙娴佺▼锛?*
-1. RNA鎻愬彇
-2. mRNA瀵岄泦鎴杛RNA鍘婚櫎
-3. cDNA鍚堟垚
-4. 鏂囧簱鏋勫缓
-5. 娴嬪簭
-6. 鏁版嵁鍒嗘瀽
+**实验流程?*
+1. RNA提取
+2. mRNA富集或rRNA去除
+3. cDNA合成
+4. 文库构建
+5. 测序
+6. 数据分析
 
-**鍒嗘瀽娴佺▼锛?*
+**分析流程?*
 ```bash
-# 璐ㄦ帶
+# 质控
 fastqc raw_reads.fq
 multiqc .
 
-# 杩囨护
+# 过滤
 fastp -i raw_reads.fq -o clean_reads.fq
 
-# 姣斿
+# 比对
 hisat2 -x genome_index -1 read1.fq -2 read2.fq | samtools sort -o aligned.bam
 
-# 瀹氶噺
+# 定量
 featureCounts -a annotation.gtf -o counts.txt aligned.bam
 ```
 
-### 宸紓琛ㄨ揪鍒嗘瀽
+### 差异表达分析
 
-**R璇█娴佺▼锛?*
+**R语言流程?*
 ```r
 library(DESeq2)
 
-# 鍒涘缓DESeq瀵硅薄
+# 创建DESeq对象
 dds <- DESeqDataSetFromMatrix(countData = counts,
                               colData = metadata,
                               design = ~ condition)
 
-# 宸紓鍒嗘瀽
+# 差异分析
 dds <- DESeq(dds)
 res <- results(dds)
 
-# 缁撴灉杩囨护
+# 结果过滤
 res_sig <- res[which(res$padj < 0.05 & abs(res$log2FoldChange) > 1), ]
 ```
 
-### 鍔熻兘瀵岄泦鍒嗘瀽
+### 功能富集分析
 
-**GO瀵岄泦鍒嗘瀽锛?*
-- 鐢熺墿杩囩▼锛圔iological Process锛?- 鍒嗗瓙鍔熻兘锛圡olecular Function锛?- 缁嗚優缁勫垎锛圕ellular Component锛?
-**KEGG瀵岄泦鍒嗘瀽锛?*
-- 浠ｈ阿閫氳矾
-- 淇″彿閫氳矾
-- 鐤剧梾閫氳矾
+**GO富集分析?*
+- 生物过程（Biological Process?- 分子功能（Molecular Function?- 细胞组分（Cellular Component?
+**KEGG富集分析?*
+- 代谢通路
+- 信号通路
+- 疾病通路
 
-**宸ュ叿锛?*
-- clusterProfiler锛圧锛?- DAVID
+**工具?*
+- clusterProfiler（R?- DAVID
 - Metascape
 - g:Profiler
 
-## 鍩哄洜缁勬敞閲?
-### 鍩哄洜娉ㄩ噴
+## 基因组注?
+### 基因注释
 
-**浠庡ご棰勬祴锛圓b initio锛夛細**
-- 鍩轰簬搴忓垪鐗瑰緛
-- 棰勬祴鍩哄洜缁撴瀯
-- 宸ュ叿锛欸eneScan銆丄ugustus
+**从头预测（Ab initio）：**
+- 基于序列特征
+- 预测基因结构
+- 工具：GeneScan、Augustus
 
-**鍚屾簮娉ㄩ噴锛?*
-- 鍩轰簬宸茬煡鍩哄洜
-- 姣斿鍒板凡鐭ユ暟鎹簱
-- 宸ュ叿锛欱LAST銆丒xonerate
+**同源注释?*
+- 基于已知基因
+- 比对到已知数据库
+- 工具：BLAST、Exonerate
 
-**杞綍缁勮緟鍔╋細**
-- 鍩轰簬RNA-seq鏁版嵁
-- 楠岃瘉鍩哄洜缁撴瀯
-- 宸ュ叿锛歋tringTie銆丆ufflinks
+**转录组辅助：**
+- 基于RNA-seq数据
+- 验证基因结构
+- 工具：StringTie、Cufflinks
 
-### 鍔熻兘娉ㄩ噴
+### 功能注释
 
-**鏁版嵁搴擄細**
-- Gene Ontology锛圙O锛?- KEGG
+**数据库：**
+- Gene Ontology（GO?- KEGG
 - InterPro
 - Pfam
 
-**娉ㄩ噴鍐呭锛?*
-- 鍩哄洜鍔熻兘
-- 铔嬬櫧璐ㄧ粨鏋勫煙
-- 浠ｈ阿閫氳矾
-- 铔嬬櫧璐ㄧ浉浜掍綔鐢?
-## 鐢熺墿淇℃伅瀛﹀伐鍏烽摼
+**注释内容?*
+- 基因功能
+- 蛋白质结构域
+- 代谢通路
+- 蛋白质相互作?
+## 生物信息学工具链
 
-### 甯哥敤宸ュ叿
+### 常用工具
 
-**搴忓垪澶勭悊锛?*
-- seqtk锛氬簭鍒楁搷浣?- seqkit锛氬鍔熻兘搴忓垪宸ュ叿
-- biopython锛歅ython搴?
-**姣斿宸ュ叿锛?*
-- BWA锛氱煭璇婚暱姣斿
-- Minimap2锛氶暱璇婚暱姣斿
-- STAR锛歊NA-seq姣斿
+**序列处理?*
+- seqtk：序列操?- seqkit：多功能序列工具
+- biopython：Python?
+**比对工具?*
+- BWA：短读长比对
+- Minimap2：长读长比对
+- STAR：RNA-seq比对
 
-**鍙樺紓妫€娴嬶細**
-- GATK锛氬彉寮傛娴嬫爣鍑嗗伐鍏?- Samtools锛歋AM/BAM鏂囦欢鎿嶄綔
-- VCFtools锛歏CF鏂囦欢鎿嶄綔
+**变异棢测：**
+- GATK：变异检测标准工?- Samtools：SAM/BAM文件操作
+- VCFtools：VCF文件操作
 
-**鍙鍖栵細**
-- IGV锛氬熀鍥犵粍娴忚鍣?- Circos锛氱幆褰㈠熀鍥犵粍鍙鍖?- Tablet锛氬簭鍒楁瘮瀵瑰彲瑙嗗寲
+**可视化：**
+- IGV：基因组浏览?- Circos：环形基因组可视?- Tablet：序列比对可视化
 
-### 娴佺▼绠＄悊
+### 流程管理
 
-**Snakemake锛?*
+**Snakemake?*
 ```python
 rule all:
     input: "results/report.html"
@@ -239,7 +239,7 @@ rule align:
     shell: "bwa mem ref.fa {input} | samtools sort -o {output}"
 ```
 
-**Nextflow锛?*
+**Nextflow?*
 ```groovy
 process ALIGN {
     input: reads from 'data/reads.fq'
@@ -248,11 +248,11 @@ process ALIGN {
 }
 ```
 
-## 鍙傝€冭祫婧?
-- 璐句笝. 銆婄敓鐗╀俊鎭銆?- Durbin R, et al. *Sequence Analysis in Genetics*
-- 銆奌igh-Throughput Sequencing in Biological Research銆?- 1000 Genomes Project
+## 参资?
+- 贾丙. 《生物信息学?- Durbin R, et al. *Sequence Analysis in Genetics*
+- 《High-Throughput Sequencing in Biological Research?- 1000 Genomes Project
 - ENCODE Project
 
-## 鐩稿叧鏉＄洰
+## 相关条目
 
 ComputationalBiology, [[02_NaturalSciences/Biology/Genetics/INDEX|Genetics]], [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]], Genomics, [[02_NaturalSciences/Biology/MolecularBiology/INDEX|MolecularBiology]]

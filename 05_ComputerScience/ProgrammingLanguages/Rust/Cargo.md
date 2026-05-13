@@ -1,4 +1,4 @@
-﻿# Rust 包管理与 Cargo
+# Rust 包管理与 Cargo
 
 ## Cargo 常用命令
 

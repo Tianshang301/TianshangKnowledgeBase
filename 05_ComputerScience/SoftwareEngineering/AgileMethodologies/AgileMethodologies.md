@@ -1,4 +1,4 @@
-﻿# 敏捷方法论 (Agile Methodologies)
+# 敏捷方法论 (Agile Methodologies)
 
 ## 一、敏捷宣言 (Agile Manifesto)
 

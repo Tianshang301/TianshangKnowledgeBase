@@ -1,4 +1,4 @@
-﻿# CPU 架构 (CPU Architecture)
+# CPU 架构 (CPU Architecture)
 
 ## 1. CPU 内部结构
 

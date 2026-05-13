@@ -1,4 +1,4 @@
-﻿# GitHub Actions 指南
+# GitHub Actions 指南
 
 ## 一、Workflow 语法
 

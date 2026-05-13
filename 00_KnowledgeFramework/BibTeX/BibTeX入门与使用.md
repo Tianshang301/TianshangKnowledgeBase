@@ -1,47 +1,58 @@
-﻿# BibTeX 鍏ラ棬涓庝娇鐢?
-## 涓€銆佷粈涔堟槸 BibTeX
+# BibTeX 入门与使用
 
-BibTeX 鏄?LaTeX 鐨勫弬鑰冩枃鐚鐞嗗伐鍏凤紝鐢?Oren Patashnik 浜?1985 骞村紑鍙戙€傚畠閫氳繃鍗曠嫭鐨?.bib 鏂囦欢瀛樺偍鏂囩尞鏁版嵁锛岄厤鍚?.bst 鏍峰紡鏂囦欢鑷姩鐢熸垚鏍煎紡鍖栫殑鍙傝€冩枃鐚垪琛ㄣ€侭ibLaTeX 鏄叾鍚庣户鏂规锛屾彁渚涙洿澶氬姛鑳藉拰鐏垫椿鎬с€?
-## 浜屻€?bib 鏂囦欢缁撴瀯
+## 一、什么是 BibTeX
 
-涓€涓?.bib 鏂囦欢鍖呭惈澶氭潯鏂囩尞鏉＄洰锛屾瘡鏉℃潯鐩伒寰互涓嬫牸寮忥細
+BibTeX 是 LaTeX 的参考文献管理工具，由 Oren Patashnik 于 1985 年开发。它通过单独的 .bib 文件存储文献数据，配合 .bst 样式文件自动生成格式化的参考文献列表。BibLaTeX 是其后继方案，提供更多功能和灵活性。
+
+## 二、bib 文件结构
+
+一个 .bib 文件包含多条文献条目，每条条目遵循以下格式：
 
 ```
-@鏉＄洰绫诲瀷{寮曠敤鏍囩,
-  瀛楁1 = {鍊?},
-  瀛楁2 = {鍊?},
-  ...
+@条目类型{引用标签,
+   字段1 = {值},
+   字段2 = {值},
+   ...
 }
 ```
 
-- 寮曠敤鏍囩锛氭鏂囦腑閫氳繃 `\cite{鏍囩}` 寮曠敤
-- 瀛楁鍊肩敤鑺辨嫭鍙?`{}` 鎴栧弻寮曞彿 `""` 鍖呰９
-- 鍚勫瓧娈典箣闂翠互閫楀彿鍒嗛殧锛堟渶鍚庝竴涓瓧娈靛悗涓嶅姞閫楀彿锛?
-## 涓夈€佸父瑙佹潯鐩被鍨嬪姣?
-| 鏉＄洰绫诲瀷 | 鐢ㄩ€?| 蹇呭～瀛楁 | 甯哥敤鍙€夊瓧娈?|
-|----------|------|----------|-------------|
-| @article | 鏈熷垔璁烘枃 | author, title, journal, year, volume | number, pages, doi, issn, month |
-| @book | 涔︾睄 | author/editor, title, publisher, year | edition, volume, series, isbn |
-| @inproceedings | 浼氳璁烘枃 | author, title, booktitle, year | pages, editor, volume, series, doi |
-| @phdthesis | 鍗氬＋璁烘枃 | author, title, school, year | month, address, doi |
-| @mastersthesis | 纭曞＋璁烘枃 | author, title, school, year | month, address, type |
-| @incollection | 涔︿腑鐨勭珷鑺?| author, title, booktitle, publisher, year | editor, pages, chapter |
-| @techreport | 鎶€鏈姤鍛?| author, title, institution, year | number, address, month, type |
-| @misc | 鏉傞」 | 鏃犲繀濉?| author, title, howpublished, year, note |
-| @proceedings | 浼氳璁烘枃闆?| title, year | editor, publisher, organization |
-| @inbook | 涔︿腑鐨勪竴閮ㄥ垎 | author/editor, title, chapter/pages, publisher, year | edition, series |
+- 引用标签：正文中通过 `\cite{标签}` 引用
+- 字段值用花括号 `{}` 或双引号 `""` 包裹
+- 各字段之间以逗号分隔（最后一个字段后不加逗号）
 
-## 鍥涖€佸瓧娈佃鏄?
-鏍稿績瀛楁璇﹁В锛?
-- author锛氫綔鑰呭悕锛屽浣滆€呯敤 `and` 鍒嗛殧銆傛牸寮忥細`First Last` 鎴?`Last, First`
-  - 绀轰緥锛歚author = {John Smith and Jane Doe}`
-- editor锛氱紪鑰咃紙鏍煎紡鍚?author锛?- title锛氭爣棰樸€傚涔﹀悕銆佹湡鍒婂悕浣跨敤澶у皬鍐欐晱鎰熸椂锛岀敤鑺辨嫭鍙蜂繚鎶?  - 绀轰緥锛歚title = {The {LaTeX} Companion}`
-- journal锛氭湡鍒婂悕绉?- year锛氬嚭鐗堝勾浠?- volume锛氬嵎鍙?- number锛氭湡鍙凤紙鏈熷垔锛夋垨鎶ュ憡鍙?- pages锛氶〉鐮侊紝鏍煎紡涓?`12--34`锛堜娇鐢ㄥ弻杩炲瓧绗︼級
-- publisher锛氬嚭鐗堝晢
-- address锛氬嚭鐗堝湴
-- doi锛氭暟瀛楀璞℃爣璇嗙
-- url锛氬湪绾块摼鎺?- note锛氳ˉ鍏呰鏄?
-## 浜斻€佺ず渚?.bib 鏉＄洰
+## 三、常见条目类型对比
+| 条目类型 | 用途 | 必填字段 | 常用可选字段 |
+|----------|------|----------|-------------|
+| @article | 期刊论文 | author, title, journal, year, volume | number, pages, doi, issn, month |
+| @book | 书籍 | author/editor, title, publisher, year | edition, volume, series, isbn |
+| @inproceedings | 会议论文 | author, title, booktitle, year | pages, editor, volume, series, doi |
+| @phdthesis | 博士论文 | author, title, school, year | month, address, doi |
+| @mastersthesis | 硕士论文 | author, title, school, year | month, address, type |
+| @incollection | 书中的章节 | author, title, booktitle, publisher, year | editor, pages, chapter |
+| @techreport | 技术报告 | author, title, institution, year | number, address, month, type |
+| @misc | 杂项 | 无必填 | author, title, howpublished, year, note |
+| @proceedings | 会议论文集 | title, year | editor, publisher, organization |
+| @inbook | 书中的一部分 | author/editor, title, chapter/pages, publisher, year | edition, series |
+
+## 四、字段说明
+核心字段详解：
+- author：作者名，多作者用 `and` 分隔。格式：`First Last` 或 `Last, First`
+  - 示例：`author = {John Smith and Jane Doe}`
+- editor：编者（格式同 author）
+- title：标题。对书名、期刊名使用大小写敏感时，用花括号保护
+  - 示例：`title = {The {LaTeX} Companion}`
+- journal：期刊名称
+- year：出版年份
+- volume：卷号
+- number：期号（期刊）或报告号
+- pages：页码，格式为 `12--34`（使用双连字符）
+- publisher：出版商
+- address：出版地
+- doi：数字对象标识符
+- url：在线链接
+- note：补充说明
+
+## 五、示例 bib 条目
 
 ```
 @article{li2023deep,
@@ -90,58 +101,68 @@ BibTeX 鏄?LaTeX 鐨勫弬鑰冩枃鐚鐞嗗伐鍏凤紝鐢?Oren Patashnik
 }
 ```
 
-## 鍏€佸湪 LaTeX 涓娇鐢?BibTeX
+## 六、在 LaTeX 中使用 BibTeX
 
-鍩烘湰娴佺▼锛?
-1. 鍦?LaTeX 婧愭枃浠朵腑锛?   ```
+基本流程：
+1. 在 LaTeX 源文件中：
+   ```
    \documentclass{article}
-   \bibliographystyle{plain}  % 鎸囧畾 .bst 鏍峰紡
+   \bibliographystyle{plain}  % 指定 .bst 样式
    \begin{document}
-   ...姝ｆ枃鍐呭锛屼娇鐢?\cite{li2023deep} 寮曠敤...
-   \bibliography{myrefs}  % 鎸囧畾 .bib 鏂囦欢锛堜笉鍚墿灞曞悕锛?   \end{document}
+   ...正文内容，使用 \cite{li2023deep} 引用...
+   \bibliography{myrefs}  % 指定 .bib 文件（不含扩展名）
+   \end{document}
    ```
 
-2. 缂栬瘧娴佺▼锛堝洓姝ワ級锛?   ```
-   pdflatex paper.tex       % 鐢熸垚 .aux 鏂囦欢
-   bibtex paper             % 鏍规嵁 .aux 涓殑寮曠敤鐢熸垚 .bbl
-   pdflatex paper.tex       % 鎻掑叆鍙傝€冩枃鐚?   pdflatex paper.tex       % 鏇存柊浜ゅ弶寮曠敤
+2. 编译流程（四步）：
+   ```
+   pdflatex paper.tex       % 生成 .aux 文件
+   bibtex paper             % 根据 .aux 中的引用生成 .bbl
+   pdflatex paper.tex       % 插入参考文献
+   pdflatex paper.tex       % 更新交叉引用
    ```
 
-3. 甯哥敤寮曠敤鍛戒护锛?   - `\cite{key}` 鈥?鏍囧噯寮曠敤
-   - `\citep{key}` 鈥?鎷彿寮曠敤锛堥渶 natbib 鍖咃級
-   - `\citet{key}` 鈥?鏂囨湰寮曠敤锛堥渶 natbib 鍖咃級
-   - `\cite[page 12]{key}` 鈥?甯﹂〉鐮佸紩鐢?   - `\nocite{*}` 鈥?鍒楀嚭 .bib 涓墍鏈夋枃鐚?   - `\citen{key}` 鈥?涓婃爣寮曠敤
+3. 常用引用命令：
+   - `\cite{key}` — 标准引用
+   - `\citep{key}` — 括号引用（需 natbib 包）
+   - `\citet{key}` — 文本引用（需 natbib 包）
+   - `\cite[page 12]{key}` — 带页码引用
+   - `\nocite{*}` — 列出 .bib 中所有文献
+   - `\citen{key}` — 上标引用
 
-## 涓冦€丅ibTeX 鏍峰紡鏂囦欢锛?bst锛?
-甯哥敤鍐呯疆鏍峰紡锛?
-| 鏍峰紡 | 寮曠敤鏍煎紡 | 鍙傝€冩枃鐚牸寮?|
+## 七、BibTeX 样式文件（bst）
+常用内置样式：
+| 样式 | 引用格式 | 参考文献格式 |
 |------|----------|-------------|
-| plain | [1] 鏁板瓧缂栧彿 | 鎸夐娆″紩鐢ㄩ『搴忔帓鍒?|
-| unsrt | [1] 鏁板瓧缂栧彿 | 鎸夊紩鐢ㄥ嚭鐜伴『搴忔帓鍒楋紙鍚?plain 浣嗛『搴忎笉鍚岋級 |
-| alpha | [Knu84] 浣滆€?骞翠唤缂╁啓 | 鎸夋爣绛惧瓧姣嶉『搴忔帓鍒?|
-| abbrv | [1] 鏁板瓧缂栧彿 | 鍚嶅瓧銆佹湀浠界瓑缂╁啓 |
-| apalike | (Knuth, 1984) | 钁楄€?鍑虹増骞村埗 |
-| ieeetr | [1] 鏁板瓧缂栧彿 | IEEE 鏍煎紡 |
-| siam | [1] 鏁板瓧缂栧彿 | SIAM 鏈熷垔鏍煎紡 |
+| plain | [1] 数字编号 | 按首次引用顺序排列 |
+| unsrt | [1] 数字编号 | 按引用出现顺序排列（同 plain 但顺序不同） |
+| alpha | [Knu84] 作者+年份缩写 | 按标签字母顺序排列 |
+| abbrv | [1] 数字编号 | 名字、月份等缩写 |
+| apalike | (Knuth, 1984) | 著者-出版年制 |
+| ieeetr | [1] 数字编号 | IEEE 格式 |
+| siam | [1] 数字编号 | SIAM 期刊格式 |
 
-鑷畾涔夋牱寮忓彲浣跨敤 `makebst` 宸ュ叿锛堥殢 LaTeX 鍙戣鐗堟彁渚涳級浜や簰寮忕敓鎴愩€?
-## 鍏€佸父瑙侀棶棰樹笌鎶€宸?
-| 闂 | 瑙ｅ喅鏂规硶 |
+自定义样式可使用 `makebst` 工具（随 LaTeX 发行版提供）交互式生成。
+
+## 八、常见问题与技巧
+| 问题 | 解决方法 |
 |------|----------|
-| 寮曠敤闂彿鍑虹幇 | 閲嶆柊缂栬瘧锛歱dflatex -> bibtex -> pdflatex x2 |
-| 鐗规畩瀛楃澶勭悊 | 浣跨敤 `{\"o}` 鎴?`\"o` 琛ㄧず umlaut 绛夊彉闊崇鍙?|
-| 涓枃鏂囩尞 | 浣跨敤 `ctex` 鍖咃紝BibTeX 閰嶅悎 `gbt7714` 鏍峰紡 |
-| URL 杩囬暱鎹㈣ | 浣跨敤 `url` 鍖咃紝鎴?`\usepackage{breakurl}` |
-| 鍚屼竴浣滆€呭绡囨枃鐚?| 鍦?year 鍚庡姞 a, b, c 鍖哄垎锛堝 2023a, 2023b锛?|
-| 鏍囬淇濇寔澶у皬鍐?| 瀵逛笓鏈夊悕璇嶇敤鑺辨嫭鍙峰寘瑁癸細`{Deep Learning}` |
+| 引用问号出现 | 重新编译：pdflatex -> bibtex -> pdflatex x2 |
+| 特殊字符处理 | 使用 `{\"o}` 或 `\"o` 表示 umlaut 等变音符号 |
+| 中文文献 | 使用 `ctex` 包，BibTeX 配合 `gbt7714` 样式 |
+| URL 过长换行 | 使用 `url` 包，或 `\usepackage{breakurl}` |
+| 同一作者多篇文献 | 在 year 后加 a, b, c 区分（如 2023a, 2023b） |
+| 标题保持大小写 | 对专有名词用花括号包裹：`{Deep Learning}` |
 
-## 鍙傝€冭祫婧?
-- BibTeX 瀹樻柟鏂囨。锛歵ug.org/bibtex
-- LaTeX 缁村熀鐧剧锛歟n.wikibooks.org/wiki/LaTeX/Bibliography_Management
-- Oetiker 绛変汉銆奣he Not So Short Introduction to LaTeX銆?- GB/T 7714-2015 淇℃伅涓庢枃鐚弬鑰冩枃鐚憲褰曡鍒?- JabRef 鍙傝€冩枃鐚鐞嗚蒋浠讹細jabref.org
-- biblatex 鍖呮枃妗ｏ細ctan.org/pkg/biblatex
-- natbib 鍖呮枃妗ｏ細ctan.org/pkg/natbib
+## 参考资料
+- BibTeX 官方文档：tug.org/bibtex
+- LaTeX 维基百科：en.wikibooks.org/wiki/LaTeX/Bibliography_Management
+- Oetiker 等人《The Not So Short Introduction to LaTeX》
+- GB/T 7714-2015 信息与文献参考文献著录规则
+- JabRef 参考文献管理软件：jabref.org
+- biblatex 包文档：ctan.org/pkg/biblatex
+- natbib 包文档：ctan.org/pkg/natbib
 
-## 鐩稿叧鏉＄洰
+## 相关条目
 
 [[AcademicPapers]], CitationManagement, [[ResearchMethods]], [[LaTeX]]

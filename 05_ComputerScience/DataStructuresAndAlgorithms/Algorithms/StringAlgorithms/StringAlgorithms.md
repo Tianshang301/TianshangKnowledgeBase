@@ -1,4 +1,4 @@
-﻿# String Algorithms - 字符串算法
+# String Algorithms - 字符串算法
 
 ## 一、字符串匹配
 

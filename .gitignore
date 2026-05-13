@@ -6,6 +6,11 @@ __pycache__/
 *.pyc
 .ruff_cache/
 
+# Auxiliary scripts
+*.py
+*.txt
+*.ps1
+
 # OS files
 Thumbs.db
 .DS_Store

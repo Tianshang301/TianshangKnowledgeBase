@@ -1,4 +1,4 @@
-﻿# NoSQL Databases - NoSQL 数据库
+# NoSQL Databases - NoSQL 数据库
 
 ## 一、NoSQL 概述
 

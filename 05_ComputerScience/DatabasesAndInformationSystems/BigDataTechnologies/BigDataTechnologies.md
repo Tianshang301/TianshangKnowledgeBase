@@ -1,4 +1,4 @@
-﻿# Big Data Technologies - 大数据技术
+# Big Data Technologies - 大数据技术
 
 ## 一、大数据概述
 

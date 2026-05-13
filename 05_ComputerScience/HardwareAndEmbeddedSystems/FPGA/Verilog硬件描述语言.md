@@ -1,4 +1,4 @@
-﻿# Verilog硬件描述语言
+# Verilog硬件描述语言
 
 ## 一、Verilog语言基础
 

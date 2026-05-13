@@ -1,4 +1,4 @@
-﻿# Relational Databases - 关系数据库
+# Relational Databases - 关系数据库
 
 ## 一、关系模型
 

@@ -1,4 +1,4 @@
-﻿# NumPy 快速指南
+# NumPy 快速指南
 
 ## 一、ndarray 创建
 

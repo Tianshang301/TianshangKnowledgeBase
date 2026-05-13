@@ -1,4 +1,4 @@
-﻿# 无监督学习
+# 无监督学习
 
 ## 一、无监督学习概述
 
@@ -42,7 +42,7 @@ $$
 | 概念 | 定义 |
 |------|------|
 | $\epsilon$-邻域 | $N_\epsilon(p) = \{q \in D | \text{dist}(p,q) \leq \epsilon\}$ |
-| 核心点 | $|N_\epsilon(p)| \geq \text{MinPts}$ |
+| 核心点 | $\vert N_\epsilon(p)\vert \geq \text{MinPts}$ |
 | 边界点 | 非核心点但属于某个核心点的邻域 |
 | 噪声点 | 既非核心也非边界 |
 

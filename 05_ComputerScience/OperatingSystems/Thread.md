@@ -1,4 +1,4 @@
-﻿# 线程与并发 (Threads and Concurrency)
+# 线程与并发 (Threads and Concurrency)
 
 ## 1. 线程概念 (Thread Concept)
 

@@ -1,4 +1,4 @@
-﻿# Shell 环境配置
+# Shell 环境配置
 
 ## Shell 启动文件
 

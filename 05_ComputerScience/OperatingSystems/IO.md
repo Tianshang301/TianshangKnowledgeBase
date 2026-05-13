@@ -1,4 +1,4 @@
-﻿# I/O 管理详解 (Input/Output Management)
+# I/O 管理详解 (Input/Output Management)
 
 ## 1. I/O 硬件 (I/O Hardware)
 

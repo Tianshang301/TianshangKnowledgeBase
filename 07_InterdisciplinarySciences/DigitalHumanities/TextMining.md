@@ -1,281 +1,281 @@
-﻿# 鏂囨湰鎸栨帢锛堟暟瀛椾汉鏂囷級
+# 文本挖掘（数字人文）
 
-## 姒傝堪
+## 概述
 
-鏂囨湰鎸栨帢鏄埄鐢ㄨ嚜鐒惰瑷€澶勭悊鍜屾満鍣ㄥ涔犳妧鏈粠澶ч噺鏂囨湰涓彁鍙栨湁浠峰€间俊鎭殑鏂规硶銆傚湪鏁板瓧浜烘枃棰嗗煙锛屾枃鏈寲鎺樹负鍘嗗彶鏂囩尞鐮旂┒銆佹枃瀛﹀垎鏋愩€佹枃鍖栭仐浜т繚鎶ょ瓑鎻愪緵浜嗘柊鐨勭爺绌惰寖寮忋€?
-## 鏂囨湰棰勫鐞?
-### 涓枃鍒嗚瘝
+文本挖掘是利用自然语訢处理和机器学习技术从大量文本中提取有价信息的方法。在数字人文领域，文本挖掘为历史文献研究、文学分析文化遗产保护等提供了新的研究范式?
+## 文本预处?
+### 中文分词
 
-**鍒嗚瘝鏂规硶锛?*
-- 鍩轰簬璇嶅吀锛氭渶澶у尮閰嶆硶銆侀€嗗悜鏈€澶у尮閰?- 鍩轰簬缁熻锛氶殣椹皵鍙か妯″瀷銆佹潯浠堕殢鏈哄満
-- 鍩轰簬娣卞害瀛︿範锛欱iLSTM-CRF銆丅ERT
+**分词方法?*
+- 基于词典：最大匹配法、向朢大匹?- 基于统计：隐马尔可夫模型、条件随机场
+- 基于深度学习：BiLSTM-CRF、BERT
 
-**甯哥敤宸ュ叿锛?*
-- jieba锛歅ython涓枃鍒嗚瘝
-- HanLP锛氬璇█NLP宸ュ叿
-- pkuseg锛氬寳浜ぇ瀛﹀垎璇?
+**常用工具?*
+- jieba：Python中文分词
+- HanLP：多语言NLP工具
+- pkuseg：北京大学分?
 ```python
 import jieba
 
-# 绮剧‘妯″紡
-text = "鏁板瓧浜烘枃鏄法瀛︾鐨勭爺绌堕鍩?
+# 精确模式
+text = "数字人文是跨学科的研究领?
 words = jieba.lcut(text)
 
-# 娣诲姞鑷畾涔夎瘝鍏?jieba.add_word("鏁板瓧浜烘枃")
+# 添加自定义词?jieba.add_word("数字人文")
 ```
 
-### 鍘婚櫎鍋滅敤璇?
-**鍋滅敤璇嶇被鍨嬶細**
-- 璇皵璇嶏細鍟娿€佸憿銆佸悧
-- 杩炶瘝锛氬拰銆佷笌銆佸強
-- 浠嬭瘝锛氬湪銆佷粠銆佸悜
-- 浠ｈ瘝锛氳繖銆侀偅銆佷粬
+### 去除停用?
+**停用词类型：**
+- 语气词：啊呢、吗
+- 连词：和、与、及
+- 介词：在、从、向
+- 代词：这、那、他
 
-**鍋滅敤璇嶈〃锛?*
-- 鍝堝伐澶у仠鐢ㄨ瘝琛?- 鐧惧害鍋滅敤璇嶈〃
-- 鑷畾涔夊仠鐢ㄨ瘝琛?
+**停用词表?*
+- 哈工大停用词?- 百度停用词表
+- 自定义停用词?
 ```python
 def remove_stopwords(words, stopwords):
     return [w for w in words if w not in stopwords and len(w) > 1]
 ```
 
-### 璇嶆€ф爣娉?
-**鏍囨敞闆嗭細**
-- 鍚嶈瘝锛坣锛夈€佸姩璇嶏紙v锛夈€佸舰瀹硅瘝锛坅锛?- 鍓瘝锛坉锛夈€佷粙璇嶏紙p锛夈€佽繛璇嶏紙c锛?
-**宸ュ叿锛?*
+### 词标?
+**标注集：**
+- 名词（n）动词（v）形容词（a?- 副词（d）介词（p）连词（c?
+**工具?*
 - jieba.posseg
-- HanLP璇嶆€ф爣娉?- LTP璇嶆€ф爣娉?
-## 璇嶉鍒嗘瀽
+- HanLP词标?- LTP词标?
+## 词频分析
 
-### 璇嶉缁熻
+### 词频统计
 
-**鍩烘湰缁熻锛?*
-- 璇嶉鍒楄〃
-- 璇嶉鍒嗗竷
-- TF-IDF鏉冮噸
+**基本统计?*
+- 词频列表
+- 词频分布
+- TF-IDF权重
 
-**TF-IDF璁＄畻锛?*
+**TF-IDF计算?*
 $$TF-IDF(t,d) = TF(t,d) \times IDF(t)$$
 
 $$IDF(t) = \log\frac{N}{DF(t)}$$
 
-### 璇嶄簯
+### 词云
 
-**鍒朵綔宸ュ叿锛?*
-- WordCloud锛圥ython锛?- 寰瘝浜?- 鍥炬偊
+**制作工具?*
+- WordCloud（Python?- 微词?- 图悦
 
-**璁捐瑕佺偣锛?*
-- 璇嶉鏄犲皠鍒板ぇ灏?- 棰滆壊閫夋嫨
-- 褰㈢姸璁捐
+**设计要点?*
+- 词频映射到大?- 颜色选择
+- 形状设计
 
 ```python
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
-# 鐢熸垚璇嶄簯
+# 生成词云
 wc = WordCloud(font_path='simhei.ttf', 
                width=800, height=400,
                max_words=200)
 wc.generate(text)
 
-# 鏄剧ず璇嶄簯
+# 显示词云
 plt.imshow(wc)
 plt.axis('off')
 plt.show()
 ```
 
-### 璇嶉鍒嗘瀽搴旂敤
+### 词频分析应用
 
-**鏂囩尞璁￠噺锛?*
-- 鐮旂┒鐑偣鍒嗘瀽
-- 瀛︾鍙戝睍瓒嬪娍
-- 浣滆€呭叧閿瘝鍒嗘瀽
+**文献计量?*
+- 研究热点分析
+- 学科发展趋势
+- 作关键词分析
 
-**鍘嗗彶鏂囩尞锛?*
-- 鍘嗗彶鏈婕斿彉
-- 姒傚康鍙茬爺绌?- 鏂囨湰椋庢牸鍒嗘瀽
+**历史文献?*
+- 历史术语演变
+- 概念史研?- 文本风格分析
 
-## 涓婚妯″瀷
+## 主题模型
 
-### LDA锛圠atent Dirichlet Allocation锛?
-**鍩烘湰鍘熺悊锛?*
-- 鏂囨。-涓婚-璇嶄笁灞傜粨鏋?- 姣忎釜鏂囨。鏄富棰樼殑娣峰悎
-- 姣忎釜涓婚鏄瘝鐨勫垎甯?
-**姒傜巼妯″瀷锛?*
+### LDA（Latent Dirichlet Allocation?
+**基本原理?*
+- 文档-主题-词三层结?- 每个文档是主题的混合
+- 每个主题是词的分?
+**概率模型?*
 $$P(w|d) = \sum_{k=1}^{K}P(w|z=k)P(z=k|d)$$
 
-**鍙傛暟浼拌锛?*
-- 鍙樺垎鎺ㄦ柇
-- Gibbs閲囨牱
-- 鍦ㄧ嚎瀛︿範
+**参数估计?*
+- 变分推断
+- Gibbs采样
+- 在线学习
 
-### LDA搴旂敤
+### LDA应用
 
-**鍙傛暟璁剧疆锛?*
-- 涓婚鏁癒锛氬洶鎯戝害銆佷竴鑷存€?- 瓒呭弬鏁帮細伪锛堟枃妗?涓婚锛夈€佄诧紙涓婚-璇嶏級
+**参数设置?*
+- 主题数K：困惑度、一致?- 超参数：α（文?主题）β（主题-词）
 
-**缁撴灉瑙ｉ噴锛?*
-- 涓婚璇嶅垪琛?- 鏂囨。-涓婚鍒嗗竷
-- 涓婚鍙鍖?
+**结果解释?*
+- 主题词列?- 文档-主题分布
+- 主题可视?
 ```python
 from gensim import corpora, models
 
-# 鍒涘缓璇嶅吀鍜岃鏂欏簱
+# 创建词典和语料库
 dictionary = corpora.Dictionary(texts)
 corpus = [dictionary.doc2bow(text) for text in texts]
 
-# 璁粌LDA妯″瀷
+# 训练LDA模型
 lda = models.LdaModel(corpus, num_topics=5, 
                        id2word=dictionary,
                        passes=15)
 
-# 杈撳嚭涓婚
+# 输出主题
 for topic in lda.print_topics():
     print(topic)
 ```
 
-### 鍏朵粬涓婚妯″瀷
+### 其他主题模型
 
-- **NMF**锛氶潪璐熺煩闃靛垎瑙?- **pLSA**锛氭鐜囨綔鍦ㄨ涔夊垎鏋?- **鍔ㄦ€佷富棰樻ā鍨?*锛氭椂搴忎富棰樻紨鍖?- **灞傛涓婚妯″瀷**锛氫富棰樺眰娆＄粨鏋?
-## 鎯呮劅鍒嗘瀽
+- **NMF**：非负矩阵分?- **pLSA**：概率潜在语义分?- **动主题模?*：时序主题演?- **层次主题模型**：主题层次结?
+## 情感分析
 
-### 鎯呮劅璇嶅吀鏂规硶
+### 情感词典方法
 
-**璇嶅吀鏋勫缓锛?*
-- 鐭ョ綉HowNet鎯呮劅璇嶅吀
-- 鍙版咕澶уNTUSD
-- 澶ц繛鐞嗗伐澶у鎯呮劅璇嶆眹鏈綋
+**词典构建?*
+- 知网HowNet情感词典
+- 台湾大学NTUSD
+- 大连理工大学情感词汇本体
 
-**鎯呮劅璁＄畻锛?*
+**情感计算?*
 $$Sentiment = \sum_{i=1}^{n}w_i \times score(word_i)$$
 
-### 鏈哄櫒瀛︿範鏂规硶
+### 机器学习方法
 
-**鐗瑰緛宸ョ▼锛?*
-- 璇嶈妯″瀷
+**特征工程?*
+- 词袋模型
 - TF-IDF
-- 璇嶅祵鍏?
-**甯哥敤绠楁硶锛?*
-- 鏈寸礌璐濆彾鏂?- SVM
-- 闅忔満妫灄
-- 娣卞害瀛︿範锛圠STM銆丅ERT锛?
+- 词嵌?
+**常用算法?*
+- 朴素贝叶?- SVM
+- 随机森林
+- 深度学习（LSTM、BERT?
 ```python
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
-# 鐗瑰緛鎻愬彇
+# 特征提取
 vectorizer = TfidfVectorizer()
 X_train = vectorizer.fit_transform(train_texts)
 
-# 璁粌妯″瀷
+# 训练模型
 clf = MultinomialNB()
 clf.fit(X_train, train_labels)
 
-# 棰勬祴
+# 预测
 X_test = vectorizer.transform(test_texts)
 predictions = clf.predict(X_test)
 ```
 
-### 娣卞害瀛︿範鎯呮劅鍒嗘瀽
+### 深度学习情感分析
 
-**BERT寰皟锛?*
+**BERT微调?*
 ```python
 from transformers import BertTokenizer, BertForSequenceClassification
 import torch
 
-# 鍔犺浇妯″瀷
+# 加载模型
 tokenizer = BertTokenizer.from_pretrained('bert-base-chinese')
 model = BertForSequenceClassification.from_pretrained('bert-base-chinese')
 
-# 缂栫爜
+# 编码
 inputs = tokenizer(text, return_tensors='pt', padding=True, truncation=True)
 outputs = model(**inputs)
 ```
 
-## 鍛藉悕瀹炰綋璇嗗埆锛圢ER锛?
-### 瀹氫箟
+## 命名实体识别（NER?
+### 定义
 
-璇嗗埆鏂囨湰涓殑浜哄悕銆佸湴鍚嶃€佹満鏋勫悕銆佹椂闂寸瓑瀹炰綋銆?
-### 鏍囨敞浣撶郴
+识别文本中的人名、地名机构名、时间等实体?
+### 标注体系
 
-**BIO鏍囨敞锛?*
-- B锛氬疄浣撳紑濮?- I锛氬疄浣撳唴閮?- O锛氶潪瀹炰綋
+**BIO标注?*
+- B：实体开?- I：实体内?- O：非实体
 
-**绀轰緥锛?*
+**示例?*
 ```
-鍖椾含/nr 鏄?v 涓浗/ns 鐨?uj 棣栭兘/n
+北京/nr ?v 中国/ns ?uj 首都/n
 ```
 
-### NER鏂规硶
+### NER方法
 
-**鍩轰簬瑙勫垯锛?*
-- 姝ｅ垯琛ㄨ揪寮?- 璇嶅吀鍖归厤
-- 妯℃澘鍖归厤
+**基于规则?*
+- 正则表达?- 词典匹配
+- 模板匹配
 
-**鍩轰簬缁熻锛?*
+**基于统计?*
 - HMM
 - CRF
 - BiLSTM-CRF
 
-**鍩轰簬棰勮缁冩ā鍨嬶細**
+**基于预训练模型：**
 - BERT-NER
 - RoBERTa-NER
 
 ```python
 from transformers import BertTokenizer, TokenClassificationPipeline
 
-# 鍔犺浇NER妯″瀷
+# 加载NER模型
 tokenizer = BertTokenizer.from_pretrained('bert-base-chinese')
 pipeline = TokenClassificationPipeline(model=model, tokenizer=tokenizer)
 
-# 璇嗗埆瀹炰綋
-result = pipeline("鍖椾含澶у鏄腑鍥借憲鍚嶉珮绛夊搴?)
+# 识别实体
+result = pipeline("北京大学是中国著名高等学?)
 ```
 
-## 鏂囨湰鎸栨帢鍦ㄥ巻鍙叉枃鐚腑鐨勫簲鐢?
-### 鍘嗗彶鏂囩尞鏁板瓧鍖?
-**OCR鎶€鏈細**
-- 鍙ょ睄鏂囧瓧璇嗗埆
-- 鎵嬪啓浣撹瘑鍒?- 澶氬瓧浣撳鐞?
-**鏁板瓧鍖栧伐鍏凤細**
+## 文本挖掘在历史文献中的应?
+### 历史文献数字?
+**OCR抢术：**
+- 古籍文字识别
+- 手写体识?- 多字体处?
+**数字化工具：**
 - Tesseract OCR
-- 鐧惧害OCR
+- 百度OCR
 - ABBYY FineReader
 
-### 鍘嗗彶鏂囨湰鍒嗘瀽
+### 历史文本分析
 
-**浜虹墿鍏崇郴缃戠粶锛?*
-- 浜哄悕璇嗗埆
-- 鍏崇郴鎶藉彇
-- 绀句細缃戠粶鍒嗘瀽
+**人物关系网络?*
+- 人名识别
+- 关系抽取
+- 社会网络分析
 
-**鍘嗗彶浜嬩欢鍒嗘瀽锛?*
-- 浜嬩欢鎶藉彇
-- 鏃堕棿绾挎瀯寤?- 鍥犳灉鍏崇郴鍒嗘瀽
+**历史事件分析?*
+- 事件抽取
+- 时间线构?- 因果关系分析
 
-**鎬濇兂鍙茬爺绌讹細**
-- 姒傚康婕斿彉
-- 鎬濇疆鍒嗘瀽
-- 褰卞搷鍔涜瘎浼?
-### 妗堜緥鐮旂┒
+**思想史研究：**
+- 概念演变
+- 思潮分析
+- 影响力评?
+### 案例研究
 
-**銆婄孩妤兼ⅵ銆嬫枃鏈垎鏋愶細**
-- 浜虹墿璇嶉
-- 鎯呮劅鍒嗘瀽
-- 椋庢牸鍒嗘瀽
+**《红楼梦》文本分析：**
+- 人物词频
+- 情感分析
+- 风格分析
 
-**銆婂彶璁般€嬬爺绌讹細**
-- 浜虹墿鍏崇郴缃戠粶
-- 鏃堕棿鍒嗗竷
-- 鍦扮悊鍒嗗竷
+**《史记研究：**
+- 人物关系网络
+- 时间分布
+- 地理分布
 
-### 宸ュ叿骞冲彴
+### 工具平台
 
-- **MARKUS**锛氬巻鍙叉枃鐚爣娉?- **DocuSky**锛氬彴婀炬暟浣嶄汉鏂?- **CBDB**锛氫腑鍥藉巻浠ｄ汉鐗╀紶璁版暟鎹簱
-- **CTEXT**锛氫腑鍥藉摬瀛︿功鐢靛瓙鍖栬鍒?
-## 鍙傝€冭祫婧?
-- 銆婃暟瀛椾汉鏂囧璁恒€?- 銆婃枃鏈寲鎺樹笌鍒嗘瀽銆?- 銆奝ython鑷劧璇█澶勭悊銆?- 銆婃暟瀛椾汉鏂囩爺绌躲€嬫湡鍒?
+- **MARKUS**：历史文献标?- **DocuSky**：台湾数位人?- **CBDB**：中国历代人物传记数据库
+- **CTEXT**：中国哲学书电子化计?
+## 参资?
+- 《数字人文导论?- 《文本挖掘与分析?- 《Python自然语言处理?- 《数字人文研究期?
 
-## 鐩稿叧鏉＄洰
+## 相关条目
 
 [[ComputationalLinguistics]], [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]], [[TextMining]], [[CulturalAnalytics]]

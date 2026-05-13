@@ -1,4 +1,4 @@
-﻿# Kubernetes 基础
+# Kubernetes 基础
 
 ## 一、核心概念
 

@@ -1,4 +1,4 @@
-﻿# 内存管理详解 (Memory Management)
+# 内存管理详解 (Memory Management)
 
 ## 一、内存层次 (Memory Hierarchy)
 

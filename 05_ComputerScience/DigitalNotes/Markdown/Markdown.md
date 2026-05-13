@@ -1,4 +1,4 @@
-﻿# Markdown 完全指南
+# Markdown 完全指南
 
 ## 概述
 

@@ -1,4 +1,4 @@
-﻿# PostgreSQL 指南
+# PostgreSQL 指南
 
 ## 一、架构概览
 
