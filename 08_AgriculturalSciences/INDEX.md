@@ -1,0 +1,62 @@
+# 08_AgriculturalSciences
+
+本索引汇集了 08_AgriculturalSciences 相关的核心知识文件，涵盖 CropScience/CropGenetics - 作物遗传学、CropScience/CropBreeding - 作物育种、CropScience/CropPhysiology - 作物生理 等内容。
+
+## 文件
+
+- [[CropScience/CropGenetics]] - 作物遗传学
+- [[CropScience/CropBreeding]] - 作物育种
+- [[CropScience/CropPhysiology]] - 作物生理
+- [[CropScience/CropProtection]] - 作物保护
+- [[CropScience/SeedScience]] - 种子科学与技术
+- [[CropScience/FarmingSystems]] - 耕作学
+- [[Horticulture/FruitScience]] - 果树学
+- [[Horticulture/VegetableScience]] - 蔬菜学
+- [[Horticulture/OrnamentalHorticulture]] - 观赏园艺
+- [[Horticulture/PostharvestTechnology]] - 采后技术
+- [[Horticulture/ProtectedHorticulture]] - 设施园艺学
+- [[Horticulture/HorticulturalProductStorage]] - 园艺产品贮藏加工
+- [[PlantProtection/PlantPathology]] - 植物病理学
+- [[PlantProtection/Entomology]] - 昆虫学
+- [[PlantProtection/WeedScience]] - 杂草科学
+- [[PlantProtection/PesticideScience]] - 农药学
+- [[PlantProtection/PlantQuarantine]] - 植物检疫学
+- [[PlantProtection/BiologicalControl]] - 生物防治
+- [[AgriculturalResources/SoilScience]] - 土壤学
+- [[AgriculturalResources/AgriculturalChemistry]] - 农业化学
+- [[AgriculturalResources/AgriculturalMeteorology]] - 农业气象学
+- [[AgriculturalResources/LandResourceManagement]] - 土地资源管理
+- [[AgriculturalResources/PrecisionAgriculture]] - 精准农业
+- [[AgriculturalResources/AgriculturalEcology]] - 农业生态学
+- [[AgriculturalResources/AgriculturalPolicy]] - 农业政策与管理
+- [[AnimalScience/AnimalGenetics]] - 动物遗传学
+- [[AnimalScience/AnimalNutrition]] - 动物营养学
+- [[AnimalScience/AnimalBreeding]] - 动物育种学
+- [[AnimalScience/FeedScience]] - 饲料学
+- [[AnimalScience/AnimalHealth]] - 动物健康
+- [[AnimalScience/AnimalPhysiology]] - 动物生理学
+- [[AnimalScience/LivestockEconomics]] - 畜牧经济学
+- [[VeterinaryMedicine/VeterinaryPathology]] - 兽医病理学
+- [[VeterinaryMedicine/VeterinaryPharmacology]] - 兽医药理学
+- [[VeterinaryMedicine/VeterinarySurgery]] - 兽医外科
+- [[VeterinaryMedicine/VeterinaryInternalMedicine]] - 兽医内科
+- [[VeterinaryMedicine/VeterinaryImmunology]] - 兽医免疫学
+- [[VeterinaryMedicine/VeterinaryPublicHealth]] - 兽医公共卫生
+- [[Forestry/ForestEcology]] - 森林生态学
+- [[Forestry/Silviculture]] - 造林学
+- [[Forestry/ForestManagement]] - 森林经理学
+- [[Forestry/WoodScience]] - 木材学
+- [[Forestry/ForestSilviculture]] - 森林培育学
+- [[Forestry/ForestManagementPlanning]] - 森林经营规划与决策
+- [[Fishery/Aquaculture]] - 水产养殖
+- [[Fishery/FisheriesScience]] - 渔业科学
+- [[Fishery/MarineBiology]] - 海洋生物学
+- [[Fishery/FisheryManagement]] - 渔业管理
+- [[Fishery/AquaticNutrition]] - 水产营养与饲料
+- [[Fishery/AquaticDiseasePrevention]] - 水产病害防治
+- [[FoodScience/FoodChemistry]] - 食品化学
+- [[FoodScience/FoodMicrobiology]] - 食品微生物学
+- [[FoodScience/FoodProcessing]] - 食品加工
+- [[FoodScience/FoodEngineeringPrinciples]] - 食品工程原理
+- [[FoodScience/FoodNutritionAndSafety]] - 食品营养与安全
+- [[LearningPath]]
