@@ -4,8 +4,8 @@
 
 ## 文件
 
-- [[BiomedicalEngineering/INDEX]]
-- [[EnzymeEngineering/INDEX]]
-- [[FermentationEngineering/INDEX]]
-- [[GeneticEngineering/INDEX]]
+- [[04_EngineeringAndTechnology/Biotechnologies/BiomedicalEngineering/INDEX]]
+- [[04_EngineeringAndTechnology/Biotechnologies/EnzymeEngineering/INDEX]]
+- [[04_EngineeringAndTechnology/Biotechnologies/FermentationEngineering/INDEX]]
+- [[04_EngineeringAndTechnology/Biotechnologies/GeneticEngineering/INDEX]]
 - [[../INDEX]]

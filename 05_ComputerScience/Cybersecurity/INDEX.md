@@ -1,10 +1,10 @@
 # Cybersecurity
 
-本索引汇集了 Cybersecurity 相关的核心知识文件，涵盖 - 详见 [[../BasicNumberTheory/INDEX]]、Cryptography - 密码学、CryptographyInPractice - 密码学实践 等内容。
+本索引汇集了 Cybersecurity 相关的核心知识文件，涵盖 Cryptography - 密码学、CryptographyInPractice - 密码学实践 等内容。
 
 ## 文件
 
-- 详见 [[../BasicNumberTheory/INDEX]]
+- [[02_NaturalSciences/Mathematics/NumberTheory/NumberTheory|数论基础]] — 密码学数学基础
 - [[Cryptography]] - 密码学
 - [[CryptographyInPractice]] - 密码学实践
 - [[Cybersecurity]] - 网络安全

@@ -4,7 +4,7 @@
 
 ## 文件
 
-- [[AI_and_Science]] - AI与科学：人工智能在自然科学发现、科学计算与实验设计中的应用
-- [[AI_and_SocialScience]] - AI与社会科学：机器学习与AI方法在经济学、社会学、政治学等社会科学领域的应用
-- [[AI_Ethics_and_Philosophy]] - AI伦理与哲学：人工智能发展中的伦理困境、价值对齐、责任归属及哲学基础问题
-- [[AI_and_Healthcare]] - AI与医疗健康
+- [[AIandScience]] - AI与科学：人工智能在自然科学发现、科学计算与实验设计中的应用
+- [[AIandSocialScience]] - AI与社会科学：机器学习与AI方法在经济学、社会学、政治学等社会科学领域的应用
+- [[AIEthicsandPhilosophy]] - AI伦理与哲学：人工智能发展中的伦理困境、价值对齐、责任归属及哲学基础问题
+- [[AIandHealthcare]] - AI与医疗健康

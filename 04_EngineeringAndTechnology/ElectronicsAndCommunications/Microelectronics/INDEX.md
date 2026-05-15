@@ -8,5 +8,5 @@ aliases: [Microelectronics]
 
 ## 文件
 
-- [[IC_Design]]
+- [[ICDesign]]
 - [[SemiconductorPhysics]]

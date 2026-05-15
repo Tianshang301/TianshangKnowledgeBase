@@ -364,15 +364,15 @@ LIMIT 10;
 
 ## 相关文件
 
-- [[MySQL_Deep]] — MySQL 深入
-- [[PostgreSQL_Deep]] — PostgreSQL 深入
-- [[Redis_Deep]] — Redis 深入
-- [[MongoDB_Deep]] — MongoDB 深入
-- [[SQL_Deep]] — SQL 深入
+- [[MySQLDeep]] — MySQL 深入
+- [[PostgreSQLDeep]] — PostgreSQL 深入
+- [[RedisDeep]] — Redis 深入
+- [[MongoDBDeep]] — MongoDB 深入
+- [[SQLDeep]] — SQL 深入
 - [[Transaction]] — 事务
 - [[Optimization]] — 查询优化
-- [[BigDataTechnologies/INDEX]] — 大数据技术
-- [[DataWarehousing/INDEX]] — 数据仓库
-- [[InformationRetrieval/INDEX]] — 信息检索
-- [[NoSQL/INDEX]] — NoSQL
-- [[RelationalDatabases/INDEX]] — 关系数据库
+- [[05_ComputerScience/DatabasesAndInformationSystems/BigDataTechnologies/INDEX]] — 大数据技术
+- [[05_ComputerScience/DatabasesAndInformationSystems/DataWarehousing/INDEX]] — 数据仓库
+- [[05_ComputerScience/DatabasesAndInformationSystems/InformationRetrieval/INDEX]] — 信息检索
+- [[05_ComputerScience/DatabasesAndInformationSystems/NoSQL/INDEX]] — NoSQL
+- [[05_ComputerScience/DatabasesAndInformationSystems/RelationalDatabases/INDEX]] — 关系数据库

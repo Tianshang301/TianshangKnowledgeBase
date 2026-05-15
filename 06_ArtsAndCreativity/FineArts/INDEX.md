@@ -4,7 +4,7 @@
 
 ## 文件
 
-- [[Composition/INDEX]]
-- [[ArtHistory/INDEX]]
+- [[06_ArtsAndCreativity/FineArts/Composition/INDEX]]
+- [[06_ArtsAndCreativity/FineArts/ArtHistory/INDEX]]
 - [[06_ArtsAndCreativity/FineArts/Drawing/INDEX|Drawing]]
 - [[06_ArtsAndCreativity/Design/INDEX|Design]]

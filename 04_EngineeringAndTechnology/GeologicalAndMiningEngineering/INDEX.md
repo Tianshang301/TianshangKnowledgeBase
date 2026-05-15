@@ -5,7 +5,7 @@
 ## 文件
 
 - [[GeologicalAndMiningEngineering]] — 地质与矿业工程学科综合介绍
-- [[GeologicalEngineering/INDEX]]
-- [[MiningEngineering/INDEX]]
-- [[PetroleumEngineering/INDEX]]
+- [[04_EngineeringAndTechnology/GeologicalAndMiningEngineering/GeologicalEngineering/INDEX]]
+- [[04_EngineeringAndTechnology/GeologicalAndMiningEngineering/MiningEngineering/INDEX]]
+- [[04_EngineeringAndTechnology/GeologicalAndMiningEngineering/PetroleumEngineering/INDEX]]
 - [[../INDEX]]

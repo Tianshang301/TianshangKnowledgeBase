@@ -4,10 +4,10 @@
 
 ## 文件
 
-- [[AI_and_Science]] - AI与科学
-- [[AI_and_SocialScience]] - AI与社会科学
-- [[AI_and_Healthcare]] - AI与医疗健康
-- [[AI_Ethics_and_Philosophy]] - AI伦理与哲学
+- [[AIandScience]] - AI与科学
+- [[AIandSocialScience]] - AI与社会科学
+- [[AIandHealthcare]] - AI与医疗健康
+- [[AIEthicsandPhilosophy]] - AI伦理与哲学
 - [[Biostatistics]] - 生物统计
 - [[BusinessStatistics]] - 商业统计
 - [[StatisticalLearning]] - 统计学习

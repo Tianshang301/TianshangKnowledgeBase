@@ -7,7 +7,7 @@
 - [[BasicOperations]] — 计算机基础操作指南
 - [[BinaryAndHexadecimal]] — 二进制与十六进制
 - [[BooleanAlgebra]] — 布尔代数
-- [[CLI_vs_GUI]] — 命令行 vs 图形界面
+- [[CLIvsGUI]] — 命令行 vs 图形界面
 - [[Compression]] — 压缩与解压缩完全指南
 - [[ComputerArchitectureOverview]] — 计算机体系结构概述
 - [[DataRepresentation]] — 数据表示

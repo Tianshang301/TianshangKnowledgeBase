@@ -9,5 +9,5 @@ aliases: [Mechatronics]
 ## 文件
 
 - [[ControlSystems]]
-- [[PLC_Programming]]
+- [[PLCProgramming]]
 - [[RoboticsBasics]]

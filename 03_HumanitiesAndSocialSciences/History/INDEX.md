@@ -5,11 +5,11 @@
 ## 文件
 
 - [[AncientHistory]]
-- [[ChineseHistory/INDEX]]
+- [[03_HumanitiesAndSocialSciences/History/ChineseHistory/INDEX]]
 - [[ContemporaryHistory]]
 - [[MedievalHistory]]
 - [[ModernHistory]]
-- [[WorldHistory/INDEX]]
+- [[03_HumanitiesAndSocialSciences/History/WorldHistory/INDEX]]
 - [[史学理论与方法]]
 - [[世界通史]]
 - [[中国通史]]

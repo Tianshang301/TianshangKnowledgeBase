@@ -6,7 +6,7 @@
 
 - [[TransportationEngineering]] — 交通运输工程学科综合介绍
 - [[道路与铁道工程]] — 道路与铁道工程专题介绍
-- [[Logistics/INDEX]]
-- [[RoadAndRailway/INDEX]]
-- [[TrafficInformation/INDEX]]
+- [[04_EngineeringAndTechnology/TransportationEngineering/Logistics/INDEX]]
+- [[04_EngineeringAndTechnology/TransportationEngineering/RoadAndRailway/INDEX]]
+- [[04_EngineeringAndTechnology/TransportationEngineering/TrafficInformation/INDEX]]
 - [[../INDEX]]

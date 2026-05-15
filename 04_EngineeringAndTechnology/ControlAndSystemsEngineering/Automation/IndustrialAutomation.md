@@ -107,7 +107,7 @@
 
 ## 相关条目
 
-- [[PLC_Programming]]
+- [[PLCProgramming]]
 - [[ControlSystems]]
 - [[SmartManufacturing]]
 - [[SensorTechnology]]

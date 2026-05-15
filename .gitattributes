@@ -1,0 +1,22 @@
+* text=auto
+
+# Markdown
+*.md text diff=markdown linguist-detectable=true linguist-language=Markdown merge=union
+
+# Binary files (future-proofing)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.svg text
+*.ico binary
+*.pdf binary
+*.zip binary
+*.tar.gz binary
+
+# Export settings
+.gitignore export-ignore
+.gitattributes export-ignore
+.github export-ignore
+LICENSE export-ignore

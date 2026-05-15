@@ -5,13 +5,13 @@
 ## 文件
 
 - [[AdministrativeLaw]]
-- [[CivilLaw/INDEX]]
+- [[03_HumanitiesAndSocialSciences/Law/CivilLaw/INDEX]]
 - [[CommercialLaw]]
-- [[ConstitutionalLaw/INDEX]]
-- [[CriminalLaw/INDEX]]
+- [[03_HumanitiesAndSocialSciences/Law/ConstitutionalLaw/INDEX]]
+- [[03_HumanitiesAndSocialSciences/Law/CriminalLaw/INDEX]]
 - [[EnvironmentalLaw]]
 - [[IntellectualPropertyLaw]]
-- [[InternationalLaw/INDEX]]
+- [[03_HumanitiesAndSocialSciences/Law/InternationalLaw/INDEX]]
 - [[LaborLaw]]
 - [[LegalPhilosophy]]
 - [[LegalSystem]]

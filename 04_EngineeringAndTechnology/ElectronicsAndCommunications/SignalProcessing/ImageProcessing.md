@@ -128,4 +128,4 @@ $$s = T(r) = (L-1)\int_0^r p_r(w)dw$$
 - [[ComputerVision]]
 - [[02_NaturalSciences/Physics/Optics/INDEX|Optics]]
 - [[ArtificialIntelligence]]
-- [[IC_Design]]
+- [[ICDesign]]

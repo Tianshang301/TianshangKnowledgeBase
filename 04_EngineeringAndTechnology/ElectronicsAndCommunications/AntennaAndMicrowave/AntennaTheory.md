@@ -135,7 +135,7 @@ $H$ 为信道矩阵，$x$ 为发射信号，$n$ 为噪声。
 
 ## 相关条目
 
-- [[RF_Engineering]]
+- [[RFEngineering]]
 - [[MicrowaveEngineering]]
 - [[WirelessCommunications]]
 - [[02_NaturalSciences/Physics/Electromagnetism/INDEX|Electromagnetism]]

@@ -146,4 +146,4 @@
 - [[ControlSystems]]
 - [[RoboticsBasics]]
 - [[04_EngineeringAndTechnology/ElectronicsAndCommunications/SignalProcessing/INDEX|SignalProcessing]]
-- [[PLC_Programming]]
+- [[PLCProgramming]]

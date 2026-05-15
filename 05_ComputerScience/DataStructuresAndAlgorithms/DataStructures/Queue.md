@@ -352,4 +352,4 @@ class TaskQueue:
 - [[Array]]
 - [[LinkedList]]
 - [[Heap]]
-- [[BFS_DFS]]
+- [[BFSDFS]]

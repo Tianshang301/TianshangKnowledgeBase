@@ -8,7 +8,7 @@
 - [[Elasticity]]
 - [[FluidMechanics]]
 - [[FractureMechanics]]
-- [[MaterialsScience/INDEX]]
+- [[04_EngineeringAndTechnology/MechanicsAndMaterials/MaterialsScience/INDEX]]
 - [[Nanomaterials]]
 - [[Plasticity]]
 - [[SolidMechanics]]

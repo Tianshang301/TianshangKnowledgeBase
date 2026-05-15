@@ -386,5 +386,5 @@ VALUES (?, NOW())
 - [[查询优化与事务管理]]
 - [[RelationalDatabases]]
 - [[Optimization]]
-- [[MySQL_Deep]]
-- [[PostgreSQL_Deep]]
+- [[MySQLDeep]]
+- [[PostgreSQLDeep]]

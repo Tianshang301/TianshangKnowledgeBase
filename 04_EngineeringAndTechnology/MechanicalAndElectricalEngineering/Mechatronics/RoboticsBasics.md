@@ -113,5 +113,5 @@
 - [[RobotKinematics]]
 - [[RobotDynamics]]
 - [[ControlSystems]]
-- [[PLC_Programming]]
+- [[PLCProgramming]]
 - [[IndustrialAutomation]]

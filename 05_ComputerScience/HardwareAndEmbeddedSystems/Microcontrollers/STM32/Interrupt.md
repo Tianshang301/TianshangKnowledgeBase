@@ -255,6 +255,6 @@ void EXTI0_IRQHandler(void) {
 
 - [[GPIO]]
 - [[Timer]]
-- [[ADC_DAC]]
+- [[ADCDAC]]
 - [[Communication]]
 - [[FreeRTOS]]

@@ -4,12 +4,12 @@
 
 ## 文件
 
-- [[ClassificationMappings/INDEX]]
-- [[KnowledgeGraph/INDEX]]
-- [[Methodology/INDEX]]
-- [[NoteTaking/INDEX]]
-- [[LearningPaths/INDEX]]
-- [[AcademicPapers/INDEX]]
-- [[BibTeX/INDEX]]
+- [[00_KnowledgeFramework/ClassificationMappings/INDEX]]
+- [[00_KnowledgeFramework/KnowledgeGraph/INDEX]]
+- [[00_KnowledgeFramework/Methodology/INDEX]]
+- [[00_KnowledgeFramework/NoteTaking/INDEX]]
+- [[00_KnowledgeFramework/LearningPaths/INDEX]]
+- [[00_KnowledgeFramework/AcademicPapers/INDEX]]
+- [[00_KnowledgeFramework/BibTeX/INDEX]]
 - [[Zotero]]
 - [[LearningPath]]

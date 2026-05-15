@@ -7,7 +7,7 @@
 - [[CSS]]
 - [[HTML]]
 - [[JavaScript]]
-- [[Node.js]]
+- [[NodeJS]]
 - [[React]]
-- [[HTTP_API]] - HTTP API
+- [[HTTPAPI]] - HTTP API
 - [[TypeScript]] - TypeScript

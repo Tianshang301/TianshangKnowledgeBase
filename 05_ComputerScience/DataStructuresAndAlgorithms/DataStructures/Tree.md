@@ -389,5 +389,5 @@ def preorder_nary(root):
 - [[BinarySearchTree]]
 - [[AVL]]
 - [[Graph]]
-- [[BFS_DFS]]
+- [[BFSDFS]]
 - [[Heap]]

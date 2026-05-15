@@ -113,7 +113,7 @@ $$I_D \propto \exp\left(\frac{q(V_{GS}-V_{th})}{nkT}\right)$$
 
 ## 相关条目
 
-- [[IC_Design]]
+- [[ICDesign]]
 - [[AnalogElectronics]]
 - [[DigitalElectronics]]
 - SolidStatePhysics

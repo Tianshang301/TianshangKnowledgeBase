@@ -498,7 +498,7 @@ def clone_graph(node):
 ## 相关条目
 
 - [[Tree]]
-- [[BFS_DFS]]
+- [[BFSDFS]]
 - [[Dijkstra]]
 - [[UnionFind]]
 - [[Heap]]

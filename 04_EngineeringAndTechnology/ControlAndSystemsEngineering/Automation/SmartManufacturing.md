@@ -114,6 +114,6 @@
 
 - [[IndustrialAutomation]]
 - [[RoboticsBasics]]
-- [[PLC_Programming]]
-- [[CAD_CAM]]
+- [[PLCProgramming]]
+- [[CADCAM]]
 - [[InternetOfThings]]

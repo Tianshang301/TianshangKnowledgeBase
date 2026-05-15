@@ -245,5 +245,5 @@ $$信号强度 = k \cdot [\text{待测物}]$$
 - [[酶固定化与生物催化]]
 - [[FermentationProcess]]
 - [[GeneCloning]]
-- [[CRISPR_Cas9]]
+- [[CRISPRCas9]]
 - [[DrugDesign]]

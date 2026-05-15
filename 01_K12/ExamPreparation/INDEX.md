@@ -4,7 +4,7 @@
 
 ## 文件
 
-- [[Gaokao_Guide]] — 高考指南
+- [[GaokaoGuide]] — 高考指南
 - [[StudyTechniques]] — 学习技巧
-- [[Zhongkao_Guide]] — 中考指南
+- [[ZhongkaoGuide]] — 中考指南
 - [[../INDEX|K12 教育]]

@@ -86,7 +86,7 @@
 - 疫苗研发
 
 ## 相关条目
-- [[CRISPR_Cas9]]
+- [[CRISPRCas9]]
 - [[EnzymeEngineering]]
 - [[FermentationProcess]]
 - [[DrugDesign]]

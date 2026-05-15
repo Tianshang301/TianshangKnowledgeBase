@@ -4,10 +4,10 @@
 
 ## 文件
 
-- [[Badminton/INDEX|Badminton]]
-- [[Basketball/INDEX|Basketball]]
-- [[Fitness/INDEX|Fitness]]
-- [[Running/INDEX|Running]]
-- [[Swimming/INDEX|Swimming]]
-- [[Yoga/INDEX|Yoga]]
+- [[13_Others/PhysicalEducation/Badminton/INDEX|Badminton]]
+- [[13_Others/PhysicalEducation/Basketball/INDEX|Basketball]]
+- [[13_Others/PersonalProductivity/Health/Fitness/INDEX|Fitness]]
+- [[13_Others/PhysicalEducation/Running/INDEX|Running]]
+- [[13_Others/PhysicalEducation/Swimming/INDEX|Swimming]]
+- [[13_Others/PhysicalEducation/Yoga/INDEX|Yoga]]
 - [[../INDEX|Others]]

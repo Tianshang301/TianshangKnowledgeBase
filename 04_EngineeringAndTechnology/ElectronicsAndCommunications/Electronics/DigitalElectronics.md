@@ -139,7 +139,7 @@
 ## 相关条目
 
 - [[AnalogElectronics]]
-- [[IC_Design]]
+- [[ICDesign]]
 - [[SemiconductorPhysics]]
 - [[DigitalSignalProcessing]]
 - [[ComputerArchitecture]]

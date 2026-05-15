@@ -5,13 +5,13 @@
 ## 文件
 
 - [[EngineeringFundamentals]] — 工程基础学科综合介绍
-- [[EngineeringMathematics/INDEX]]
-- [[EngineeringMechanics/INDEX]]
-- [[EngineeringThermophysics/INDEX]]
+- [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringMathematics/INDEX]]
+- [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringMechanics/INDEX]]
+- [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringThermophysics/INDEX]]
 - [[EngineeringEconomics]]
 - [[EngineeringEthics]]
-- [[EngineeringMathematics/INDEX]]
-- [[EngineeringMechanics/INDEX]]
+- [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringMathematics/INDEX]]
+- [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringMechanics/INDEX]]
 - [[EngineeringStatistics]]
 - [[SystemsEngineering]]
 - [[TechnicalDrawing]]

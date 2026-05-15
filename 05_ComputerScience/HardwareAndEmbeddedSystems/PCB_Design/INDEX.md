@@ -4,5 +4,5 @@
 
 ## 文件
 
-- [[PCB_Design]] - PCB设计
+- [[PCBDesign]] - PCB设计
 - [[高速PCB设计要点]] - 高速PCB设计要点

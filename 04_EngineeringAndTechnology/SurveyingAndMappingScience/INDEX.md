@@ -5,8 +5,8 @@
 ## 文件
 
 - [[SurveyingAndMappingScience]] — 测绘科学与技术学科综合介绍
-- [[Cartography/INDEX]]
-- [[Geodesy/INDEX]]
-- [[Photogrammetry/INDEX]]
-- [[RemoteSensing/INDEX]]
+- [[02_NaturalSciences/EarthSciences/Cartography/INDEX]]
+- [[04_EngineeringAndTechnology/SurveyingAndMappingScience/Geodesy/INDEX]]
+- [[04_EngineeringAndTechnology/SurveyingAndMappingScience/Photogrammetry/INDEX]]
+- [[04_EngineeringAndTechnology/SurveyingAndMappingScience/RemoteSensing/INDEX]]
 - [[../INDEX]]

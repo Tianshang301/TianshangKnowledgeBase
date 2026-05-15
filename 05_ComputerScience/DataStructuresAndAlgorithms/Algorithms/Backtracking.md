@@ -401,7 +401,7 @@ def permute_unique(nums):
 ## 相关条目
 
 - [[DP]]
-- [[BFS_DFS]]
+- [[BFSDFS]]
 - [[Greedy]]
 - [[BitManipulation]]
 - [[BasicAlgorithms]]

@@ -4,7 +4,7 @@
 
 ## 文件
 
-- [[ExtractiveMetallurgy/INDEX]]
-- [[MaterialsProcessing/INDEX]]
-- [[PhysicalMetallurgy/INDEX]]
+- [[04_EngineeringAndTechnology/MetallurgicalEngineering/ExtractiveMetallurgy/INDEX]]
+- [[04_EngineeringAndTechnology/MetallurgicalEngineering/MaterialsProcessing/INDEX]]
+- [[04_EngineeringAndTechnology/MetallurgicalEngineering/PhysicalMetallurgy/INDEX]]
 - [[../INDEX]]

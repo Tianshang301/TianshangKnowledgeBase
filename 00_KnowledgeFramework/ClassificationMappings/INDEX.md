@@ -8,5 +8,5 @@ aliases: [ClassificationMappings]
 
 ## 文件
 
-- [[China_DisciplineSystem]] �?中国学科分类体系
-- [[CrossMapping]] �?跨映�?- [[MappingsAndIndices]] �?映射与索�?- [[UNESCO_Framework]] �?UNESCO 分类框架
+- [[ChinaDisciplineSystem]] �?中国学科分类体系
+- [[CrossMapping]] �?跨映�?- [[MappingsAndIndices]] �?映射与索�?- [[UNESCOFramework]] �?UNESCO 分类框架

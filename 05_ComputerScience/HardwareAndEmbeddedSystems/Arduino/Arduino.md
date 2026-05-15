@@ -247,7 +247,7 @@ myservo.write(90);        // 转动到 90°
 - [[Arduino传感器与执行器]]
 - [[RaspberryPi]]
 - [[IoT]]
-- [[51_MCU]]
+- [[MCU51]]
 - [[Robotics]]
 
 ## 参考资源

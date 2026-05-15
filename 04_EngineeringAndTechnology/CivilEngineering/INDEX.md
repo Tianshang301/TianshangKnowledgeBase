@@ -6,9 +6,9 @@
 
 - [[ConstructionManagement]]
 - [[EnvironmentalEngineering]]
-- [[GeotechnicalEngineering/INDEX]]
+- [[04_EngineeringAndTechnology/CivilEngineering/GeotechnicalEngineering/INDEX]]
 - [[HydraulicEngineering]]
-- [[StructuralEngineering/INDEX]]
+- [[04_EngineeringAndTechnology/CivilEngineering/StructuralEngineering/INDEX]]
 - [[Surveying]]
 - [[TransportationEngineering]]
 - [[../INDEX]]

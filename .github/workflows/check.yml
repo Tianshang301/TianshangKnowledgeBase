@@ -1,0 +1,67 @@
+name: check
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: File count
+        run: echo "Markdown files: $(find . -name '*.md' -not -path './.git/*' | wc -l)"
+      - name: Check for U+FFFD
+        run: |
+          exit_code=0
+          found=$(grep -rl $'\ufffd' --include='*.md' . 2>/dev/null || true)
+          if [ -n "$found" ]; then
+            echo "FAIL: files with replacement characters:"
+            echo "$found"
+            exit_code=1
+          else
+            echo "No U+FFFD found."
+          fi
+          exit $exit_code
+      - name: Check broken wiki-links
+        run: |
+          exit_code=0
+          find . -name '*.md' -not -path './.git/*' | while read f; do
+            dir=$(dirname "$f")
+            grep -oP '\[\[\K[^\]|#]+(?=[|\]])' "$f" 2>/dev/null | while read link; do
+              if ! echo "$link" | grep -q '[/\\]' && [ "$link" != "INDEX" ] && [ "$link" != "LearningPath" ]; then
+                target="$dir/$link.md"
+                if [ ! -f "$target" ]; then
+                  echo "BROKEN: $link (from $f)"
+                  exit_code=1
+                fi
+              fi
+            done
+          done
+          exit $exit_code
+      - name: Check trailing whitespace
+        run: |
+          if grep -rnP '\s+$' --include='*.md' . 2>/dev/null; then
+            echo "FAIL: trailing whitespace found"
+            exit 1
+          fi
+          echo "No trailing whitespace."
+      - name: Verify INDEX.md in every directory
+        run: |
+          exit_code=0
+          find . -type d -not -path './.git/*' -not -path './.obsidian/*' -not -path './.ruff_cache/*' | while read d; do
+            if [ ! -f "$d/INDEX.md" ] && [ ! -f "$d/README.md" ]; then
+              echo "MISSING INDEX: $d"
+              exit_code=1
+            fi
+          done
+          exit $exit_code
+      - name: Run markdownlint
+        uses: DavidAnson/markdownlint-cli2-action@v15
+        with:
+          globs: '**/*.md'
+          ignore: '.git/**'

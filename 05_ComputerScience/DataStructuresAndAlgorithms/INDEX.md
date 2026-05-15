@@ -4,6 +4,6 @@
 
 ## 文件
 
-- [[Algorithms/INDEX|Algorithms]]
-- [[DataStructures/INDEX|Data Structures]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/INDEX|Algorithms]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/DataStructures/INDEX|Data Structures]]
 - [[../INDEX|Computer Science]]

@@ -1,0 +1,211 @@
+---
+aliases: [CareerPath]
+tags: ['00_KnowledgeFramework', 'LearningPaths']
+---
+
+# 职业发展路径
+
+> 职业发展路径帮助明确学习方向，将知识积累转化为职业竞争力。
+
+## 职业规划框架
+
+### 自我认知
+- **兴趣**：什么领域让你愿意投入时间？哪些工作让你进入心流状态？
+- **能力**：你擅长什么？（硬技能 + 软技能 + 可迁移能力）
+- **价值观**：成就感、自由度、收入、影响力、工作生活平衡哪个最重要？
+- **性格适配**：你是喜欢独立钻研还是团队协作？偏好稳定还是变化？
+
+### 行业研究
+
+| 维度 | 调研方法 |
+|------|---------|
+| 行业趋势 | Gartner 技术成熟度曲线、行业报告、新闻动态 |
+| 岗位需求 | 招聘网站搜索关键词，统计技能要求频率 |
+| 薪酬水平 | 薪酬报告（Levels.fyi、Glassdoor、脉脉）|
+| 发展空间 | 领英查看目标岗位从业者的职业轨迹 |
+| 公司选择 | 大厂 vs 初创 vs 外企，各有利弊 |
+
+### 技能矩阵
+```
+技术水平
+    ↑
+专精型  │   ████████            ████████████
+（T 型） │   ████████            ████████████
+    │   ████████    ████████    ████████████
+    └─────────────────────────────────────────→ 知识广度
+        入门        掌握        精通
+```
+
+- **I 型**：单一领域深度钻研（适合学术研究）
+- **T 型**：一专多能（适合大多数技术岗位）
+- **Pi 型**：两个专长领域（如 AI+系统工程）
+- **梳子型**：多个领域广度覆盖（适合架构师/管理岗）
+
+## 技术方向路径
+
+### 软件开发
+
+```
+入门（掌握一门语言，能写 CRUD）
+  → 基础（数据结构/算法/OS/网络/数据库）
+    → 进阶（系统设计/设计模式/架构）
+      → 专家（分布式系统/高并发/领域深耕）
+        → 架构师（跨系统设计/技术决策/团队技术领导）
+```
+
+#### 核心技能要求
+| 阶段 | 核心能力 | 典型年限 |
+|------|---------|---------|
+| 初级 | 完成分配的任务，熟悉常用框架 | 0-2年 |
+| 中级 | 独立完成模块设计，Code Review | 2-5年 |
+| 高级 | 系统设计，技术方案评审，指导新人 | 5-8年 |
+| 专家 | 跨团队技术决策，疑难问题攻坚 | 8年+ |
+
+#### 技能树
+- **语言**：至少精通一种（Java/Python/Go/TypeScript）
+- **数据库**：SQL + 至少一种 NoSQL（Redis/MongoDB）
+- **系统**：Linux 基础操作、网络协议、操作系统原理
+- **工具**：Git、Docker、CI/CD、云平台
+- **软技能**：技术文档写作、代码评审、技术分享
+
+### 数据科学
+
+```
+数学基础（线性代数/概率统计/微积分）
+  → 编程（Python + SQL + 数据分析库）
+    → 机器学习（经典算法 + 特征工程）
+      → 深度学习（CV/NLP/推荐系统）
+        → MLOps（工程化/部署/监控/A/B 测试）
+          → AI 研究员/应用科学家
+```
+
+#### 数据分析 vs 机器学习 vs AI 研究
+| 方向 | 重点 | 数学要求 | 编程要求 |
+|------|------|---------|---------|
+| 数据分析 | 业务洞察、可视化、报告 | 中 | 低-中 |
+| 机器学习工程师 | 模型开发、部署、调优 | 中-高 | 中-高 |
+| AI 研究员 | 算法创新、论文发表 | 高 | 中 |
+| 数据工程师 | 数据管道、ETL、基础设施 | 低-中 | 高 |
+
+### DevOps/SRE
+
+```
+Linux（系统管理/脚本）
+  → 脚本自动化（Python/Bash）
+    → CI/CD（Jenkins/GitHub Actions/GitLab CI）
+      → 容器化（Docker）
+        → 编排（Kubernetes）
+          → 监控（Prometheus/Grafana/ELK）
+            → 云平台（AWS/Azure/阿里云）
+              → 平台工程（Internal Developer Platform）
+```
+
+### AI / 机器学习工程
+
+```
+数学基础 → 编程 → 经典 ML → 深度学习 → 大模型应用/RAG → 模型部署与推理优化
+```
+
+近年来最热门的 AI 工程方向技能栈：
+- **模型部署**：ONNX、TensorRT、vLLM、Triton Inference Server
+- **大模型应用**：LangChain、LlamaIndex、RAG 架构
+- **训练优化**：DeepSpeed、Megatron、分布式训练
+- **数据工程**：特征平台、数据标注管道、数据版本管理
+
+## 软技能培养
+
+| 技能 | 重要性 | 培养方法 |
+|------|--------|---------|
+| 沟通表达 | 高 | 技术写作、演讲、代码评审、RFC 文档 |
+| 团队协作 | 高 | 开源贡献、Pair Programming、Mob Programming |
+| 项目管理 | 中 | 学习敏捷/Scrum，参与项目规划与估算 |
+| 英语能力 | 高 | 阅读英文文档、参加国际社区、听技术播客 |
+| 领导力 | 中-高 | 技术分享组织、mentoring 新人、跨团队协调 |
+
+## 学习与职业的衔接
+
+### 作品集建设
+- **GitHub 主页**：README 展示个人简介和项目列表
+- **个人博客**：记录技术文章和学习心得（用 Markdown 维护）
+- **开源贡献**：从修文档、修小 bug 开始，逐步参与核心功能
+- **项目作品**：至少 2-3 个完整的个人项目（含文档和演示）
+
+### 证书与认证
+| 领域 | 推荐证书 |
+|------|---------|
+| 云平台 | AWS SA Associate/Professional、Azure AZ-104 |
+| Kubernetes | CKA（Certified Kubernetes Administrator）|
+| 项目管理 | PMP、Scrum Master |
+| 网络安全 | CISSP、CEH |
+| 数据科学 | TensorFlow Developer Certificate |
+
+### 社区参与
+- **技术社区**：Stack Overflow、Reddit（r/programming）、知乎
+- **线下活动**：Meetup、技术沙龙、黑客马拉松
+- **年度会议**：PyCon、KubeCon、AWS re:Invent、Google I/O
+- **社交媒体**：Twitter/X 关注技术领袖、LinkedIn 建立职业网络
+
+### 求职准备
+- **简历**：突出项目经验和量化成果（如"将 API 响应时间降低 60%"）
+- **面试准备**：算法题（LeetCode）+ 系统设计 + 行为面试
+- **谈判策略**：了解市场行情，敢于谈薪，关注总包（TC）
+
+## 常见职业路径参考
+
+| 方向 | 入门岗位 | 进阶岗位 | 专家岗位 |
+|------|---------|---------|---------|
+| 前端 | 初级前端工程师 | 高级前端/架构师 | 前端技术专家 |
+| 后端 | 初级后端工程师 | 高级后端/架构师 | 分布式系统专家 |
+| 数据 | 数据分析师 | 数据科学家/ML 工程师 | AI 研究员/应用科学家 |
+| 运维 | 运维工程师 | DevOps/SRE | 云架构师/平台工程师 |
+| 安全 | 安全工程师 | 安全架构师 | 安全研究员/CISO |
+| 管理 | 技术组长 | 技术经理 | 技术总监/CTO |
+| 产品 | 产品助理 | 产品经理 | 产品总监/CPO |
+
+## 转型路径参考
+
+### 传统开发 → AI/ML
+1. 补充数学基础（线性代数 + 概率统计，3-6个月）
+2. 学习 ML 经典算法（Andrew Ng 课程，2-3个月）
+3. 掌握深度学习框架（PyTorch/TensorFlow，2个月）
+4. 做 2-3 个端到端 ML 项目（Kaggle/personal，3个月）
+5. 了解 MLOps 和大模型应用（持续学习）
+
+### 运维 → DevOps/SRE
+1. 掌握脚本语言（Python 或 Go，2-3个月）
+2. 学习 Docker + Kubernetes（3个月）
+3. CI/CD 工具链实践（Jenkins/GitHub Actions，2个月）
+4. 监控与可观测性（Prometheus/Grafana/ELK，2个月）
+5. 云平台认证（AWS/Azure，3个月）
+
+## 相关条目
+
+- [[CareerOrientedPath]]
+- [[CourseIndex]]
+- [[K12Path]]
+- [[LearningPaths]]
+- [[OnlineLearning]]
+- [[OpenCoursewareIndex]]
+- [[SelfStudy]]
+- [[SelfStudyPath]]
+- [[UniversityPath]]
+- [[../INDEX|00_KnowledgeFramework 索引]]
+
+- [[SelfStudy]] — 自学方法
+- [[LearningPaths]] — 学习路径设计
+- [[OnlineLearning]] — 在线学习策略
+- [[Methodology]] — 学习方法论
+
+## 相关条目
+- [[CareerOrientedPath]]
+- [[CourseIndex]]
+- [[INDEX|LearningPaths 索引]]
+- [[K12Path]]
+- [[LearningPaths]]
+- [[OnlineLearning]]
+- [[OpenCoursewareIndex]]
+- [[SelfStudy]]
+- [[SelfStudyPath]]
+- [[UniversityPath]]
+- [[../INDEX|00_KnowledgeFramework 索引]]
+- [[../../INDEX|TianshangKnowledgeBase 索引]]

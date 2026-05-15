@@ -10,5 +10,5 @@
 - [[ModernCpp]] - 现代C++
 - [[OOP]] - 面向对象
 - [[Pointers]] - 指针
-- [[STL_Algorithms]] - STL算法
-- [[STL_Containers]] - STL容器
+- [[STLAlgorithms]] - STL算法
+- [[STLContainers]] - STL容器

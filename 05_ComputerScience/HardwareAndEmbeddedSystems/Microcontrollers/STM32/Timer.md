@@ -211,6 +211,6 @@ uint32_t measure_frequency(void) {
 
 - [[GPIO]]
 - [[Interrupt]]
-- [[ADC_DAC]]
+- [[ADCDAC]]
 - PWM
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/Microcontrollers/STM32/INDEX|STM32]]

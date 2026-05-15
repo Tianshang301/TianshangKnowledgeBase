@@ -5,20 +5,20 @@
 ## 文件
 
 - [[EmbeddedSystems]] — 嵌入式系统
-- [[FPGA/INDEX]] — FPGA
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/FPGA/INDEX]] — FPGA
 - [[LearningPath]] — 硬件学习路线图
 - [[Microcontrollers]] — 微控制器
 - [[SystemOnChip]] — 片上系统
 - [[VHDL]] — VHDL
-- [[AnalogCircuits/INDEX|Analog Circuits]]
-- [[Arduino/INDEX|Arduino]]
-- [[DigitalCircuits/INDEX|Digital Circuits]]
-- [[EmbeddedLinux/INDEX|Embedded Linux]]
-- [[FPGA/INDEX|FPGA]]
-- [[IoT/INDEX|IoT]]
-- [[Microcontrollers/INDEX|Microcontrollers]]
-- [[PCB_Design/INDEX|PCB Design]]
-- [[RaspberryPi/INDEX|Raspberry Pi]]
-- [[Robotics/INDEX|Robotics]]
-- [[RTOS/INDEX|RTOS]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/AnalogCircuits/INDEX|Analog Circuits]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Arduino/INDEX|Arduino]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/DigitalCircuits/INDEX|Digital Circuits]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/EmbeddedLinux/INDEX|Embedded Linux]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/FPGA/INDEX|FPGA]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/IoT/INDEX|IoT]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Microcontrollers/INDEX|Microcontrollers]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/PCB_Design/INDEX|PCB Design]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/RaspberryPi/INDEX|Raspberry Pi]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/Robotics/INDEX|Robotics]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/RTOS/INDEX|RTOS]]
 - [[../INDEX|Computer Science]]

@@ -4,5 +4,5 @@
 
 ## 文件
 
-- [[GIS_Fundamentals]]
+- [[GISFundamentals]]
 - [[MapDesign]]

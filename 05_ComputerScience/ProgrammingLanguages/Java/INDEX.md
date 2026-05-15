@@ -14,4 +14,4 @@ aliases: [Java]
 - [[Basics]] - Java基础
 - [[Collections]] - 集合
 - [[Concurrency]] - 并发
-- [[IO_NIO]] - I/O与NIO
+- [[IONIO]] - I/O与NIO

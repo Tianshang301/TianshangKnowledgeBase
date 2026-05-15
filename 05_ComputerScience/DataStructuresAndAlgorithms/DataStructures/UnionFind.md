@@ -362,7 +362,7 @@ def find_circle_num(is_connected):
 ## 相关条目
 
 - [[Graph]]
-- [[BFS_DFS]]
+- [[BFSDFS]]
 - [[MST]]
 - [[SegmentTree]]
 - [[HashTable]]

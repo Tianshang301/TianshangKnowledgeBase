@@ -5,10 +5,10 @@
 ## 文件
 
 > 详细内容请见 [[新闻学基础]]、[[传播学理论]]、[[新媒体与舆论学]]
-- [[Advertising/INDEX]]
+- [[03_HumanitiesAndSocialSciences/JournalismAndCommunication/Advertising/INDEX]]
 - [[CommunicationTheory]]
-- [[DigitalMedia/INDEX]]
+- [[03_HumanitiesAndSocialSciences/JournalismAndCommunication/DigitalMedia/INDEX]]
 - [[FilmStudies]]
 - [[JournalismEthics]]
-- [[MediaStudies/INDEX]]
+- [[03_HumanitiesAndSocialSciences/JournalismAndCommunication/MediaStudies/INDEX]]
 - [[PublicRelations]]

@@ -6,14 +6,14 @@
 
 - [[OperatingSystems]]
 - [[Cybersecurity]]
-- [[NetworkModels/INDEX]]
+- [[05_ComputerScience/ComputerNetworks/NetworkModels/INDEX]]
 - [[DNS]]
 - [[HTTP]]
 - [[ApplicationLayer]] - 应用层
 - [[LinkLayer]] - 链路层
 - [[NetworkLayer]] - 网络层
-- [[NetworkProtocols/INDEX]] - 网络协议
-- [[NetworkSecurity/INDEX]] - 网络安全
+- [[05_ComputerScience/ComputerNetworks/NetworkProtocols/INDEX]] - 网络协议
+- [[05_ComputerScience/ComputerNetworks/NetworkSecurity/INDEX]] - 网络安全
 - [[Security]] - 网络安全
 - [[TransportLayer]] - 传输层
-- [[WirelessNetworks/INDEX]] - 无线网络
+- [[05_ComputerScience/ComputerNetworks/WirelessNetworks/INDEX]] - 无线网络

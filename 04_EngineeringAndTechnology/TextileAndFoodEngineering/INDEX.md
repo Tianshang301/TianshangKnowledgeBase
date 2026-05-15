@@ -5,7 +5,7 @@
 ## 文件
 
 - [[TextileAndFoodEngineering]] — 纺织与食品工程学科综合介绍
-- [[Biotechnology/INDEX]]
-- [[FoodScience/INDEX]]
-- [[TextileScience/INDEX]]
+- [[04_EngineeringAndTechnology/TextileAndFoodEngineering/Biotechnology/INDEX]]
+- [[04_EngineeringAndTechnology/TextileAndFoodEngineering/FoodScience/INDEX]]
+- [[04_EngineeringAndTechnology/TextileAndFoodEngineering/TextileScience/INDEX]]
 - [[../INDEX]]

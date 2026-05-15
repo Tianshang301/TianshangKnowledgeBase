@@ -4,9 +4,9 @@
 
 ## 文件
 
-- [[EnvironmentalBiology/INDEX]]
-- [[EnvironmentalChemistry/INDEX]]
-- [[EnvironmentalEngineering/INDEX]]
-- [[ResourceScience/INDEX]]
-- [[SafetyScience/INDEX]]
+- [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalBiology/INDEX]]
+- [[02_NaturalSciences/Chemistry/EnvironmentalChemistry/INDEX]]
+- [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalEngineering/INDEX]]
+- [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/ResourceScience/INDEX]]
+- [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/SafetyScience/INDEX]]
 - [[../INDEX]]

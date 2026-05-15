@@ -39,6 +39,6 @@
 - [[AcupunctureAndMoxibustion]] - 针灸学
 - [[ChineseFormulas]] - 方剂学
 - [[ChineseMateriaMedica]] - 中药学
-- [[TCM_Diagnostics]] - 中医诊断学
-- [[TraditionalChineseMedicine/INDEX]] - 中医基础理论
+- [[TCMDiagnostics]] - 中医诊断学
+- [[09_MedicineAndHealth/TraditionalChineseMedicine/INDEX]] - 中医基础理论
 - [[LearningPath]]

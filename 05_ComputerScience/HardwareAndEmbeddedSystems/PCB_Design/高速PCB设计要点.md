@@ -250,7 +250,7 @@ PCB设计检查清单：
 
 ## 相关条目
 
-- [[PCB_Design]]
+- [[PCBDesign]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/DigitalCircuits/INDEX|DigitalCircuits]]
 - SignalIntegrity
 - [[FPGA]]

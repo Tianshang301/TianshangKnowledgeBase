@@ -4,5 +4,5 @@
 
 ## 文件
 
-- [[CRISPR_Cas9]]
+- [[CRISPRCas9]]
 - [[GeneCloning]]

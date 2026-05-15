@@ -4,11 +4,11 @@
 
 ## 文件
 
-- [[CareerOriented_Path]] — 职业导向学习路径
+- [[CareerOrientedPath]] — 职业导向学习路径
 - [[CourseIndex]] — 课程索引
-- [[K12_Path]] — K12 学习路径
+- [[K12Path]] — K12 学习路径
 - [[LearningPaths]] — 学习路径概述
-- [[OpenCourseware_INDEX]] — 开放课程索引
-- [[SelfStudy_Path]] — 自学路径
-- [[University_Path]] — 大学学习路径
+- [[OpenCoursewareIndex]] — 开放课程索引
+- [[SelfStudyPath]] — 自学路径
+- [[UniversityPath]] — 大学学习路径
 - [[../INDEX|知识框架 (KnowledgeFramework)]]

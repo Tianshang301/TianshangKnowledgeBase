@@ -255,7 +255,7 @@ void fir(int input, int output[1], int coeff[32]) {
 - [[DigitalLogic]]
 - ComputerOrganization
 - [[Assembly]]
-- [[PCB_Design]]
+- [[PCBDesign]]
 
 ## 参考资源
 

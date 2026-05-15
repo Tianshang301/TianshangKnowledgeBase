@@ -9,7 +9,7 @@
 - [[EnergySystems]]
 - [[HeatingVentilationAndAirConditioning]]
 - [[ManufacturingEngineering]]
-- [[Mechatronics/INDEX]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/Mechatronics/INDEX]]
 - [[PowerElectronics]]
 - [[Robotics]]
 - [[Thermofluids]]

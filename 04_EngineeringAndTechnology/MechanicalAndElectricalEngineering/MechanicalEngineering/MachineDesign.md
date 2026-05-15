@@ -189,4 +189,4 @@ $$\sigma_p = \frac{2T}{dkl} \leq [\sigma_p]$$
 - [[MachineDesign]]
 - Manufacturing
 - [[04_EngineeringAndTechnology/MechanicsAndMaterials/MaterialsScience/INDEX|MaterialsScience]]
-- [[CAD_CAM]]
+- [[CADCAM]]

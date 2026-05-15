@@ -336,7 +336,7 @@ def a_star(graph: Graph, start: int, goal: int,
 ## 相关条目
 
 - [[Graph]]
-- [[BFS_DFS]]
+- [[BFSDFS]]
 - [[MST]]
 - [[Heap]]
 - [[DP]]

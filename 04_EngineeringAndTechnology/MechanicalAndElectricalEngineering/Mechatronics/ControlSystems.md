@@ -122,7 +122,7 @@ margin(sys);  % 稳定裕度
 
 ## 相关条目
 
-- [[PLC_Programming]]
+- [[PLCProgramming]]
 - [[ClassicalControl]]
 - [[ModernControl]]
 - [[SensorTechnology]]

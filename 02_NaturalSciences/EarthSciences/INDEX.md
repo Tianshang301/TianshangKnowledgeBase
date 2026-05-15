@@ -8,6 +8,6 @@
 - [[07_InterdisciplinarySciences/EnvironmentalScience/INDEX|EnvironmentalScience]]
 - [[02_NaturalSciences/EarthSciences/Geology/INDEX|Geology]]
 - [[AtmosphericChemistry]]
-- [[Geology/INDEX]]
+- [[02_NaturalSciences/EarthSciences/Geology/INDEX]]
 - [[Meteorology]]
 - [[Geoinformatics]]

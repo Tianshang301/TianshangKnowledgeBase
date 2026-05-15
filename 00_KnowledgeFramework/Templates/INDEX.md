@@ -4,5 +4,5 @@
 
 ## 文件
 
-- [[LaTeX_Templates]] - LaTeX模板
-- [[Markdown_Templates]] - Markdown模板
+- [[LaTeXTemplates]] - LaTeX模板
+- [[MarkdownTemplates]] - Markdown模板

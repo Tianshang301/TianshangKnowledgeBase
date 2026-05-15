@@ -158,7 +158,7 @@
 
 - [[SelfStudy]] — 自学方法
 - [[LearningPaths]] — 学习路径设计
-- [[OpenCourseware_INDEX]] — 开放课程平台汇总
+- [[OpenCoursewareIndex]] — 开放课程平台汇总
 - [[OnlineLearning]] — 在线学习策略
 - [[CareerPath]] — 职业发展路径
 - [[Methodology]] — 学习方法论

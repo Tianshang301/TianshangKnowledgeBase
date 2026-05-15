@@ -286,6 +286,6 @@ def kruskal_max(n, edges):
 
 - [[Graph]]
 - [[Dijkstra]]
-- [[BFS_DFS]]
+- [[BFSDFS]]
 - [[UnionFind]]
 - [[Greedy]]

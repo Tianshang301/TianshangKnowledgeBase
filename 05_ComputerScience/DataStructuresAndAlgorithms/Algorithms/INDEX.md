@@ -5,14 +5,14 @@
 ## 文件
 
 - [[Backtracking]]
-- [[BFS_DFS]]
+- [[BFSDFS]]
 - [[BinarySearch]]
 - [[BitManipulation]]
 - [[Dijkstra]]
 - [[DP]]
-- [[DynamicProgramming/INDEX]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/DynamicProgramming/INDEX]]
 - [[Greedy]]
-- [[GreedyAlgorithms/INDEX]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/GreedyAlgorithms/INDEX]]
 - [[MST]]
 - [[SearchAlgorithms]]
 - [[SlidingWindow]]

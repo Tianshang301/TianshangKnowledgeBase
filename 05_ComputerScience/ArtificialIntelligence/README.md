@@ -657,18 +657,18 @@ with mlflow.start_run():
 
 ## 相关文件
 
-- [[AIEthics/AIEthics]] — AI 伦理
-- [[AIEthics/AI安全与对齐]] — AI 安全与对齐
-- [[AIGC/AIGC]] — AIGC 概述
-- [[AIGC/AIGC模型架构与应用]] — AIGC 模型架构
-- [[ComputerVision/ComputerVision]] — 计算机视觉
-- [[ComputerVision/图像处理与特征提取]] — 图像处理与特征提取
-- [[KnowledgeRepresentation/KnowledgeRepresentation]] — 知识表示
-- [[KnowledgeRepresentation/知识图谱构建技术]] — 知识图谱构建技术
-- [[MachineLearning/SupervisedLearning/INDEX]] — 监督学习
-- [[MachineLearning/UnsupervisedLearning/INDEX]] — 无监督学习
-- [[MachineLearning/ReinforcementLearning/INDEX]] — 强化学习
-- [[MachineLearning/NeuralNetworksAndDeepLearning/INDEX]] — 神经网络与深度学习
-- [[MachineLearning/ModelEvaluation/INDEX]] — 模型评估
-- [[NaturalLanguageProcessing/NaturalLanguageProcessing]] — 自然语言处理
-- [[NaturalLanguageProcessing/序列建模与Transformer]] — 序列建模与 Transformer
+- [[05_ComputerScience/ArtificialIntelligence/AIEthics/AIEthics]] — AI 伦理
+- [[05_ComputerScience/ArtificialIntelligence/AIEthics/AI安全与对齐]] — AI 安全与对齐
+- [[05_ComputerScience/ArtificialIntelligence/AIGC/AIGC]] — AIGC 概述
+- [[05_ComputerScience/ArtificialIntelligence/AIGC/AIGC模型架构与应用]] — AIGC 模型架构
+- [[05_ComputerScience/ArtificialIntelligence/ComputerVision/ComputerVision]] — 计算机视觉
+- [[05_ComputerScience/ArtificialIntelligence/ComputerVision/图像处理与特征提取]] — 图像处理与特征提取
+- [[05_ComputerScience/ArtificialIntelligence/KnowledgeRepresentation/KnowledgeRepresentation]] — 知识表示
+- [[05_ComputerScience/ArtificialIntelligence/KnowledgeRepresentation/知识图谱构建技术]] — 知识图谱构建技术
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/SupervisedLearning/INDEX]] — 监督学习
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/UnsupervisedLearning/INDEX]] — 无监督学习
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/ReinforcementLearning/INDEX]] — 强化学习
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/NeuralNetworksAndDeepLearning/INDEX]] — 神经网络与深度学习
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/ModelEvaluation/INDEX]] — 模型评估
+- [[05_ComputerScience/ArtificialIntelligence/NaturalLanguageProcessing/NaturalLanguageProcessing]] — 自然语言处理
+- [[05_ComputerScience/ArtificialIntelligence/NaturalLanguageProcessing/序列建模与Transformer]] — 序列建模与 Transformer

@@ -516,7 +516,7 @@ def fleury(graph):
 
 - [[网络流与匹配算法]]
 - [[Graph]]
-- [[BFS_DFS]]
+- [[BFSDFS]]
 - [[Dijkstra]]
 - [[MST]]
 

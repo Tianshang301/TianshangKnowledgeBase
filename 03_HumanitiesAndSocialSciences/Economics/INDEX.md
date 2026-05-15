@@ -7,7 +7,7 @@
 > 详细内容请见 [[计量经济学与金融学]]
 - [[BehavioralEconomics]]
 - [[DevelopmentEconomics]]
-- [[Econometrics/INDEX]]
+- [[03_HumanitiesAndSocialSciences/Economics/Econometrics/INDEX]]
 - [[EnvironmentalEconomics]]
 - [[GameTheory]]
 - [[IndustrialOrganization]]

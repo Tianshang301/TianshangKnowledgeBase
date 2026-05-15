@@ -5,7 +5,7 @@
 ## 文件
 
 - [[HydraulicAndMarineEngineering]] — 水利与海洋工程学科综合介绍
-- [[HarborAndCoastalEngineering/INDEX]]
-- [[HydraulicEngineering/INDEX]]
-- [[NavalArchitecture/INDEX]]
+- [[04_EngineeringAndTechnology/HydraulicAndMarineEngineering/HarborAndCoastalEngineering/INDEX]]
+- [[04_EngineeringAndTechnology/HydraulicAndMarineEngineering/HydraulicEngineering/INDEX]]
+- [[04_EngineeringAndTechnology/HydraulicAndMarineEngineering/NavalArchitecture/INDEX]]
 - [[../INDEX]]

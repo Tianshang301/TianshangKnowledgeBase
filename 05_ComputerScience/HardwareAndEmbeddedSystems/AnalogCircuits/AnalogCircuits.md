@@ -265,9 +265,9 @@ $$\text{Phase Margin} = 180^\circ + \angle(\beta A_{OL})$$
 ## 相关条目
 
 - [[运算放大器与滤波电路]]
-- [[PCB_Design]]
+- [[PCBDesign]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/DigitalCircuits/INDEX|DigitalCircuits]]
-- [[ADC_DAC]]
+- [[ADCDAC]]
 - [[IoT]]
 
 ## 参考资源

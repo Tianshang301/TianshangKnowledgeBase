@@ -350,4 +350,4 @@ def factorial(n):
 - [[Array]]
 - [[LinkedList]]
 - [[Tree]]
-- [[BFS_DFS]]
+- [[BFSDFS]]

@@ -386,4 +386,4 @@ def tsp(dist, n):
 - [[区间与状态压缩DP]]
 - [[Backtracking]]
 - [[Greedy]]
-- [[BFS_DFS]]
+- [[BFSDFS]]

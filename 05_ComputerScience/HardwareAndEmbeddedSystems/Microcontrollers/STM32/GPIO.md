@@ -164,5 +164,5 @@ static void MX_GPIO_Init(void) {
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/Microcontrollers/STM32/INDEX|STM32]]
 - [[Timer]]
 - [[Interrupt]]
-- [[ADC_DAC]]
+- [[ADCDAC]]
 - [[Communication]]

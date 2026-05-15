@@ -4,6 +4,6 @@
 
 ## 文件
 
-- [[CAD_CAM]]
+- [[CADCAM]]
 - [[MachineDesign]]
 - [[ManufacturingProcess]]
