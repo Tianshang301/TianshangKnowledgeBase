@@ -1,3 +1,8 @@
+---
+aliases: [EnduranceTraining]
+tags: ['SportsTraining', 'EnduranceTraining']
+---
+
 # 耐力训练
 
 ## 概述

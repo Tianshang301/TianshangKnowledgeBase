@@ -1,3 +1,8 @@
+---
+aliases: [WorldWarI]
+tags: ['MilitaryHistory', 'WorldWarI']
+---
+
 # 第一次世界大战
 
 ## 概述

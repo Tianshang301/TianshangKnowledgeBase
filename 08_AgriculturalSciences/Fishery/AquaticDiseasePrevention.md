@@ -1,3 +1,8 @@
+---
+aliases: [AquaticDiseasePrevention]
+tags: ['Fishery', 'AquaticDiseasePrevention']
+---
+
 # 水产病害防治
 
 ## 概述

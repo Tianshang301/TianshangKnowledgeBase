@@ -1,3 +1,8 @@
+---
+aliases: [ModernAesthetics]
+tags: ['Philosophy', 'Aesthetics', 'ModernAesthetics']
+---
+
 # 现当代美学
 
 ## 一、现代主义美学

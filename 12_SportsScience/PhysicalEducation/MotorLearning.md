@@ -1,3 +1,8 @@
+---
+aliases: [MotorLearning]
+tags: ['PhysicalEducation', 'MotorLearning']
+---
+
 # 运动学习
 
 ## 概述

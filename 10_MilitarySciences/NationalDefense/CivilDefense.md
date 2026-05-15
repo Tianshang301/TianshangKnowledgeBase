@@ -1,3 +1,8 @@
+---
+aliases: [CivilDefense]
+tags: ['NationalDefense', 'CivilDefense']
+---
+
 # 人民防空
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [DataWarehousing]
+tags: ['DatabasesAndInformationSystems', 'DataWarehousing', 'DataWarehousing']
+---
+
 # Data Warehousing - 数据仓库
 
 ## 一、数据仓库定义

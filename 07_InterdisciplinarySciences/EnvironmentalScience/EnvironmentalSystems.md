@@ -1,3 +1,8 @@
+---
+aliases: [EnvironmentalSystems]
+tags: ['EnvironmentalScience', 'EnvironmentalSystems']
+---
+
 # 环境系统科学
 
 ## 概述

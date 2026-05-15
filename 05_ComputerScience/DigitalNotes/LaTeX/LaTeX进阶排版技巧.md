@@ -1,3 +1,8 @@
+---
+aliases: [LaTeX进阶排版技巧]
+tags: ['DigitalNotes', 'LaTeX', 'LaTeX进阶排版技巧']
+---
+
 # LaTeX进阶排版技巧
 
 ## 一、多栏排版与页面布局

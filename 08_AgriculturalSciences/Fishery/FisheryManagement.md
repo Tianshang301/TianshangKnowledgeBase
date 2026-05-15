@@ -1,3 +1,8 @@
+---
+aliases: [FisheryManagement]
+tags: ['Fishery', 'FisheryManagement']
+---
+
 # 渔业管理
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [BasicVocabulary]
+tags: ['PrimarySchool', 'English', 'BasicVocabulary']
+---
+
 # 基础词汇
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [CeramicMaterials]
+tags: ['MechanicsAndMaterials', 'MaterialsScience', 'CeramicMaterials']
+---
+
 # 陶瓷材料
 
 ## 定义

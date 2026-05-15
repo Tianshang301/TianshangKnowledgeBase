@@ -1,3 +1,8 @@
+---
+aliases: [Historiography]
+tags: ['History', 'Historiography', 'Historiography']
+---
+
 # 史学史
 
 ## 一、史学史的研究对象

@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ForeignLanguagesAndLiteratures', 'Spanish', 'INDEX']
+---
+
 # Spanish
 
 本索引汇集了 Spanish 相关的核心知识文件，涵盖 > 详细内容请见 [[基础西班牙语]]、[[西班牙语语法进阶]] 等内容。

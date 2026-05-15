@@ -1,3 +1,8 @@
+---
+aliases: [FreeRTOS]
+tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'STM32', 'FreeRTOS']
+---
+
 # FreeRTOS on STM32
 
 ## 概述

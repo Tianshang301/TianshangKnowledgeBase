@@ -1,3 +1,8 @@
+---
+aliases: [EngineeringGeology]
+tags: ['GeologicalAndMiningEngineering', 'GeologicalEngineering', 'EngineeringGeology']
+---
+
 # 工程地质
 
 ## 定义

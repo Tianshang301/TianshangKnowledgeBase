@@ -1,3 +1,8 @@
+---
+aliases: [TwoPointers]
+tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'TwoPointers']
+---
+
 # 双指针技巧
 
 ## 概述

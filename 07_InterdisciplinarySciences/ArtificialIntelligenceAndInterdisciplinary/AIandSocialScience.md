@@ -1,3 +1,8 @@
+---
+aliases: [AIandSocialScience]
+tags: ['ArtificialIntelligenceAndInterdisciplinary', 'AIandSocialScience']
+---
+
 # AI与社会科?
 ## 概述
 

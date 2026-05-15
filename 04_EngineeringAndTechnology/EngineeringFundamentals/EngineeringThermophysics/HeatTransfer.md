@@ -1,3 +1,8 @@
+---
+aliases: [HeatTransfer]
+tags: ['EngineeringFundamentals', 'EngineeringThermophysics', 'HeatTransfer']
+---
+
 # 传热学
 
 ## 定义

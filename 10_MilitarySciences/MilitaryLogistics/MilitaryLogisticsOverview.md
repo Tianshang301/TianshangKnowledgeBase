@@ -1,3 +1,8 @@
+---
+aliases: [MilitaryLogisticsOverview]
+tags: ['MilitaryLogistics', 'MilitaryLogisticsOverview']
+---
+
 # 军事后勤概论
 
 ## 一、军事后勤的定义与范围

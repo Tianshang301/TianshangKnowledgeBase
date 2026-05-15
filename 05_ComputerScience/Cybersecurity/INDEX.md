@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Cybersecurity', 'INDEX']
+---
+
 # Cybersecurity
 
 本索引汇集了 Cybersecurity 相关的核心知识文件，涵盖 Cryptography - 密码学、CryptographyInPractice - 密码学实践 等内容。

@@ -1,3 +1,8 @@
+---
+aliases: [NeuralNetworksAndDeepLearning]
+tags: ['ArtificialIntelligence', 'MachineLearning', 'NeuralNetworksAndDeepLearning', 'NeuralNetworksAndDeepLearning']
+---
+
 # 神经网络与深度学习
 
 ## 一、生物启发与理论基础

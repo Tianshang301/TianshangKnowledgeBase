@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ForeignLanguagesAndLiteratures', 'German', 'INDEX']
+---
+
 # German
 
 本索引汇集了 German 相关的核心知识文件，涵盖 > 详细内容请见 [[基础德语]]、[[德语语法进阶]] 等内容。

@@ -1,3 +1,8 @@
+---
+aliases: [Bioremediation]
+tags: ['EnvironmentalScienceAndEngineering', 'EnvironmentalBiology', 'Bioremediation']
+---
+
 # 生物修复
 
 ## 定义

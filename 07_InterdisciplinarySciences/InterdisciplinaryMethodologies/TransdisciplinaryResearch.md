@@ -1,3 +1,8 @@
+---
+aliases: [TransdisciplinaryResearch]
+tags: ['InterdisciplinaryMethodologies', 'TransdisciplinaryResearch']
+---
+
 # 跨学科研?
 ## 概述
 

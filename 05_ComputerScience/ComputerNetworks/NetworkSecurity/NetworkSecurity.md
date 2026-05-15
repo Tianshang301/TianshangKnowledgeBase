@@ -1,3 +1,8 @@
+---
+aliases: [NetworkSecurity]
+tags: ['ComputerNetworks', 'NetworkSecurity', 'NetworkSecurity']
+---
+
 # 网络安全 (Network Security)
 
 ## 1. 威胁态势 (Threat Landscape)

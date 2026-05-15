@@ -1,3 +1,8 @@
+---
+aliases: [Biomechanics]
+tags: ['ExercisePhysiology', 'Biomechanics']
+---
+
 # 运动生物力学
 
 ## 概述

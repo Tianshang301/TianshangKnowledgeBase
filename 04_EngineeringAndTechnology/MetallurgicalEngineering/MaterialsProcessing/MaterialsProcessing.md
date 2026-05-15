@@ -1,3 +1,8 @@
+---
+aliases: [MaterialsProcessing]
+tags: ['MetallurgicalEngineering', 'MaterialsProcessing', 'MaterialsProcessing']
+---
+
 # 材料加工
 
 ## 学科定义

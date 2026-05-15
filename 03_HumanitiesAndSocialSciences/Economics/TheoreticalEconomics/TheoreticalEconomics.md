@@ -1,3 +1,8 @@
+---
+aliases: [TheoreticalEconomics]
+tags: ['Economics', 'TheoreticalEconomics', 'TheoreticalEconomics']
+---
+
 # 理论经济学
 
 ## 一、微观经济学理论

@@ -1,3 +1,8 @@
+---
+aliases: [OccupationalHealth]
+tags: ['PublicHealth', 'OccupationalHealth']
+---
+
 # 职业卫生学
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['EnvironmentalScienceAndEngineering', 'ResourceScience', 'INDEX']
+---
+
 # 资源科学
 
 本索引汇集了资源科学的基础理论与管理方法，涵盖资源评价、可持续利用及资源政策等内容。

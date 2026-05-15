@@ -1,3 +1,8 @@
+---
+aliases: [SystemModeling]
+tags: ['ControlAndSystemsEngineering', 'SystemsEngineering', 'SystemModeling']
+---
+
 # 系统建模
 
 ## 定义

@@ -1,3 +1,8 @@
+---
+aliases: [Counting]
+tags: ['Logic', 'MathematicalLogic', 'Counting']
+---
+
 # 组合计数详解
 
 ## 一、基本计数原理

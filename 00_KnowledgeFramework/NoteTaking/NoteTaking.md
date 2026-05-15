@@ -1,3 +1,8 @@
+---
+aliases: [NoteTaking]
+tags: ['NoteTaking', 'NoteTaking']
+---
+
 # 笔记法
 
 ## 概述

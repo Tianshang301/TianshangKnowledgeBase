@@ -1,3 +1,8 @@
+---
+aliases: [CommunicationTheory]
+tags: ['ElectronicsAndCommunications', 'Communications', 'CommunicationTheory']
+---
+
 # 通信原理
 
 ## 定义

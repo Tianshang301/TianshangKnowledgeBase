@@ -1,3 +1,8 @@
+---
+aliases: [CivicEducation]
+tags: ['JuniorHigh', 'Politics', 'CivicEducation']
+---
+
 # 公民教育
 
 ## 概述

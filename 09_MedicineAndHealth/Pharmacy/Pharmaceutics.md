@@ -1,3 +1,8 @@
+---
+aliases: [Pharmaceutics]
+tags: ['Pharmacy', 'Pharmaceutics']
+---
+
 # 药剂学
 
 ## 概述

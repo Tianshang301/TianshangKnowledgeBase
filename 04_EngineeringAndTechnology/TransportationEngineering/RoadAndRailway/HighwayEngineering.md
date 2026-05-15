@@ -1,3 +1,8 @@
+---
+aliases: [HighwayEngineering]
+tags: ['TransportationEngineering', 'RoadAndRailway', 'HighwayEngineering']
+---
+
 # 公路工程
 
 ## 定义

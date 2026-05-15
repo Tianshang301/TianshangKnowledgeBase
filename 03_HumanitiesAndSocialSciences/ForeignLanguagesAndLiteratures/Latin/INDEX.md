@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ForeignLanguagesAndLiteratures', 'Latin', 'INDEX']
+---
+
 # Latin
 
 本索引汇集了 Latin 相关的核心知识文件，涵盖 > 详细内容请见 [[基础拉丁语]]、[[拉丁语语法进阶]] 等内容。

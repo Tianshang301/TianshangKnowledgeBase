@@ -1,3 +1,8 @@
+---
+aliases: [EngineeringPsychology]
+tags: ['Psychology', 'EngineeringPsychology', 'EngineeringPsychology']
+---
+
 # 工程心理学
 
 ## 一、人类信息加工

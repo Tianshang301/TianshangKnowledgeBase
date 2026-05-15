@@ -1,3 +1,8 @@
+---
+aliases: [FoodProcessing]
+tags: ['FoodScience', 'FoodProcessing']
+---
+
 # 食品加工技术
 
 ## 一、食品加工概述

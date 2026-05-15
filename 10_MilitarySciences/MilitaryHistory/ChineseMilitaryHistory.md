@@ -1,3 +1,8 @@
+---
+aliases: [ChineseMilitaryHistory]
+tags: ['MilitaryHistory', 'ChineseMilitaryHistory']
+---
+
 # 中国军事史
 
 ## 概述

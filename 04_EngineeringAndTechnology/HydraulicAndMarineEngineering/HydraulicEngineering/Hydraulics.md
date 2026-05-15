@@ -1,3 +1,8 @@
+---
+aliases: [Hydraulics]
+tags: ['HydraulicAndMarineEngineering', 'HydraulicEngineering', 'Hydraulics']
+---
+
 # 水力学
 
 ## 定义

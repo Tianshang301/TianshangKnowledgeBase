@@ -1,3 +1,8 @@
+---
+aliases: [HashTable]
+tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'HashTable']
+---
+
 # 哈希表详解
 
 ## 基本概念

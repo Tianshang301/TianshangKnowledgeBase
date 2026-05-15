@@ -1,3 +1,8 @@
+---
+aliases: [FileSystems]
+tags: ['OperatingSystems', 'FileSystems', 'FileSystems']
+---
+
 # 文件系统详解 (File System)
 
 ## 一、文件概念 (File Concepts)

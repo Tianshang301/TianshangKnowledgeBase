@@ -1,3 +1,8 @@
+---
+aliases: [ConsumerBehavior]
+tags: ['BusinessAdministration', 'Marketing', 'ConsumerBehavior']
+---
+
 # 消费者行为
 
 ## 概述

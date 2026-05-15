@@ -1,3 +1,8 @@
+---
+aliases: [RobotKinematics]
+tags: ['ControlAndSystemsEngineering', 'Robotics', 'RobotKinematics']
+---
+
 # 机器人运动学
 
 ## 定义

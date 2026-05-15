@@ -1,3 +1,8 @@
+---
+aliases: [Grammar]
+tags: ['ForeignLanguagesAndLiteratures', 'English', 'Grammar']
+---
+
 # 英语语法详解
 
 ## 词性 (Parts of Speech)

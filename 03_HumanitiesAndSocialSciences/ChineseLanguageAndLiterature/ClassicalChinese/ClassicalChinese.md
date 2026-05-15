@@ -1,3 +1,8 @@
+---
+aliases: [ClassicalChinese]
+tags: ['ChineseLanguageAndLiterature', 'ClassicalChinese', 'ClassicalChinese']
+---
+
 # 古代汉语
 
 ## 一、文言虚词

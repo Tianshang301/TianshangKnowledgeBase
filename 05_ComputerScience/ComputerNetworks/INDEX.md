@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ComputerNetworks', 'INDEX']
+---
+
 # ComputerNetworks
 
 本索引汇集了 ComputerNetworks 相关的核心知识文件，涵盖 OperatingSystems、Cybersecurity、NetworkModels 等内容。

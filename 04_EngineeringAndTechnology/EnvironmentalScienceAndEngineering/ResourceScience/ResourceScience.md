@@ -1,3 +1,8 @@
+---
+aliases: [ResourceScience]
+tags: ['EnvironmentalScienceAndEngineering', 'ResourceScience', 'ResourceScience']
+---
+
 # 资源科学
 
 ## 学科定义

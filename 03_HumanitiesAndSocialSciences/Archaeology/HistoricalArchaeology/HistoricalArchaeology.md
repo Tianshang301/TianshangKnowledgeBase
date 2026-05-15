@@ -1,3 +1,8 @@
+---
+aliases: [HistoricalArchaeology]
+tags: ['Archaeology', 'HistoricalArchaeology', 'HistoricalArchaeology']
+---
+
 # 历史考古学
 
 ## 一、历史考古学的定义与范围

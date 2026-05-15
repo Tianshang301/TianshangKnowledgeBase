@@ -1,3 +1,8 @@
+---
+aliases: [PesticideScience]
+tags: ['PlantProtection', 'PesticideScience']
+---
+
 # 农药学
 
 ## 概述

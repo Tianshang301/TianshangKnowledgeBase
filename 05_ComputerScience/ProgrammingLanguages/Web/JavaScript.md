@@ -1,3 +1,8 @@
+---
+aliases: [JavaScript]
+tags: ['ProgrammingLanguages', 'Web', 'JavaScript']
+---
+
 # JavaScript 完整指南
 
 ## 一、数据类型与类型转换

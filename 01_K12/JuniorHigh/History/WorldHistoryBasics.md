@@ -1,3 +1,8 @@
+---
+aliases: [WorldHistoryBasics]
+tags: ['JuniorHigh', 'History', 'WorldHistoryBasics']
+---
+
 # 世界历史基础
 
 ## 概述

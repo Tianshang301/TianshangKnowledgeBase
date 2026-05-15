@@ -1,3 +1,8 @@
+---
+aliases: [PlantBiology]
+tags: ['JuniorHigh', 'Biology', 'PlantBiology']
+---
+
 # 植物生物学
 ## 概述
 

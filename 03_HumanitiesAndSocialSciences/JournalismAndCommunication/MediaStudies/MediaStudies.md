@@ -1,3 +1,8 @@
+---
+aliases: [MediaStudies]
+tags: ['JournalismAndCommunication', 'MediaStudies', 'MediaStudies']
+---
+
 # 媒介研究
 
 ## 一、媒介研究范畴

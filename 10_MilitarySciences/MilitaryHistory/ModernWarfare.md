@@ -1,3 +1,8 @@
+---
+aliases: [ModernWarfare]
+tags: ['MilitaryHistory', 'ModernWarfare']
+---
+
 # 现代战争
 
 ## 概述

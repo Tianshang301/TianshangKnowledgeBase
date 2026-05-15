@@ -1,3 +1,8 @@
+---
+aliases: [DP]
+tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'DP']
+---
+
 # 动态规划详解
 
 ## 基本概念

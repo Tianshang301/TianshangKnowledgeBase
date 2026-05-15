@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['CrossDisciplinaryK12', 'HealthEducation', 'INDEX']
+---
+
 # 健康教育
 
 本索引汇集了健康教育的核心内容，涵盖生理健康、心理健康及健康生活方式培养。

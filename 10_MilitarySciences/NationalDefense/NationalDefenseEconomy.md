@@ -1,3 +1,8 @@
+---
+aliases: [NationalDefenseEconomy]
+tags: ['NationalDefense', 'NationalDefenseEconomy']
+---
+
 # 国防经济
 
 ## 概述

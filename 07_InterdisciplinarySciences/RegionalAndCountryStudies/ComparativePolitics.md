@@ -1,3 +1,8 @@
+---
+aliases: [ComparativePolitics]
+tags: ['RegionalAndCountryStudies', 'ComparativePolitics']
+---
+
 # 比较政治?
 ## 概述
 

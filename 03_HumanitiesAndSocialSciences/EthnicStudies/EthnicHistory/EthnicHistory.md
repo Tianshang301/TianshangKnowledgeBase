@@ -1,3 +1,8 @@
+---
+aliases: [EthnicHistory]
+tags: ['EthnicStudies', 'EthnicHistory', 'EthnicHistory']
+---
+
 # 民族史
 
 ## 一、民族史研究方法论

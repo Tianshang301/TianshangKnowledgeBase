@@ -1,3 +1,8 @@
+---
+aliases: [Archaeology]
+tags: ['History', 'Archaeology', 'Archaeology']
+---
+
 # 考古学（历史学）
 
 ## 一、考古学与历史学的关系

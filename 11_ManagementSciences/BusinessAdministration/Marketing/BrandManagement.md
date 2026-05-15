@@ -1,3 +1,8 @@
+---
+aliases: [BrandManagement]
+tags: ['BusinessAdministration', 'Marketing', 'BrandManagement']
+---
+
 # 品牌管理
 
 ## 概述

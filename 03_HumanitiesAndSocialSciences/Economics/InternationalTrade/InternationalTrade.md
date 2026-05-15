@@ -1,3 +1,8 @@
+---
+aliases: [InternationalTrade]
+tags: ['Economics', 'InternationalTrade', 'InternationalTrade']
+---
+
 # 国际贸易
 
 ## 一、古典贸易理论

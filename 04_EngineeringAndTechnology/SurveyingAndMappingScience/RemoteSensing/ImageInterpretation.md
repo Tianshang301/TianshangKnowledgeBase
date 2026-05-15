@@ -1,3 +1,8 @@
+---
+aliases: [ImageInterpretation]
+tags: ['SurveyingAndMappingScience', 'RemoteSensing', 'ImageInterpretation']
+---
+
 # 遥感图像解译
 
 ## 定义

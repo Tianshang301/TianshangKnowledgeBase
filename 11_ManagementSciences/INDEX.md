@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['INDEX']
+---
+
 # 11_ManagementSciences
 
 本索引汇集了 11_ManagementSciences 相关的核心知识文件，涵盖 Auditing - 审计学、FinancialAccounting - 财务会计、ManagerialAccounting - 管理会计 等内容。

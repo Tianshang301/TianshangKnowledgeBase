@@ -1,3 +1,8 @@
+---
+aliases: [TCPIP协议栈详解]
+tags: ['ComputerNetworks', 'NetworkModels', 'TCPIP协议栈详解']
+---
+
 # TCP/IP协议栈详解
 
 ## 一、TCP/IP协议分层模型

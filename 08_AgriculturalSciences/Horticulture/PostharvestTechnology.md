@@ -1,3 +1,8 @@
+---
+aliases: [PostharvestTechnology]
+tags: ['Horticulture', 'PostharvestTechnology']
+---
+
 # 采后技术
 
 ## 概述

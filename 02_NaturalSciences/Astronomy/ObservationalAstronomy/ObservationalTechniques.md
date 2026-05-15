@@ -1,3 +1,8 @@
+---
+aliases: [ObservationalTechniques]
+tags: ['Astronomy', 'ObservationalAstronomy', 'ObservationalTechniques']
+---
+
 # 观测天文学技术
 
 ## 一、望远镜光学系统

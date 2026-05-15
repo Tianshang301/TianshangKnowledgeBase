@@ -1,3 +1,8 @@
+---
+aliases: [OrnamentalHorticulture]
+tags: ['Horticulture', 'OrnamentalHorticulture']
+---
+
 # 观赏园艺
 
 ## 概述

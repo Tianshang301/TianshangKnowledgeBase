@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'STM32', 'INDEX']
+---
+
 # STM32
 
 本索引汇集了 STM32 相关的核心知识文件，涵盖 FreeRTOS、GPIO 等内容。

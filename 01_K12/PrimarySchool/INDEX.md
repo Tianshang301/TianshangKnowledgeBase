@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['PrimarySchool', 'INDEX']
+---
+
 # PrimarySchool
 
 本索引汇集了 PrimarySchool 相关的核心知识文件，涵盖 Chinese/INDEX|语文、English/INDEX|英语、IntegratedStudies/INDEX|综合学科 等内容。

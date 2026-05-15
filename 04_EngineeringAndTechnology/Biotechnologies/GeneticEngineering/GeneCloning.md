@@ -1,3 +1,8 @@
+---
+aliases: [GeneCloning]
+tags: ['Biotechnologies', 'GeneticEngineering', 'GeneCloning']
+---
+
 # 基因克隆
 
 ## 定义

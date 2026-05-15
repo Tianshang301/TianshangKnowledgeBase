@@ -1,3 +1,8 @@
+---
+aliases: [LearningPath]
+tags: ['LearningPath']
+---
+
 # 自然科学学习路线图
 
 ## 选择起点

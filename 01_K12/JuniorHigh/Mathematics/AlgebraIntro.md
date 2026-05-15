@@ -1,3 +1,8 @@
+---
+aliases: [AlgebraIntro]
+tags: ['JuniorHigh', 'Mathematics', 'AlgebraIntro']
+---
+
 # 代数入门
 
 ## 概述

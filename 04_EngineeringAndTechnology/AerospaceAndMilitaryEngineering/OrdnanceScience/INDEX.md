@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['AerospaceAndMilitaryEngineering', 'OrdnanceScience', 'INDEX']
+---
+
 # OrdnanceScience
 
 本索引汇集了 OrdnanceScience 相关的核心知识文件，涵盖 Ballistics、WeaponSystems 等内容。

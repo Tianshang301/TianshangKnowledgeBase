@@ -1,3 +1,8 @@
+---
+aliases: [Jurisprudence]
+tags: ['Law', 'Jurisprudence', 'Jurisprudence']
+---
+
 # 法理学
 
 ## 一、法理学概述

@@ -1,3 +1,8 @@
+---
+aliases: [FreeRTOS任务与同步]
+tags: ['HardwareAndEmbeddedSystems', 'RTOS', 'FreeRTOS任务与同步']
+---
+
 # FreeRTOS任务与同步
 
 ## 一、FreeRTOS概述

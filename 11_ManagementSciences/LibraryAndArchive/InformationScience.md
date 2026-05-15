@@ -1,3 +1,8 @@
+---
+aliases: [InformationScience]
+tags: ['LibraryAndArchive', 'InformationScience']
+---
+
 # 信息科学
 
 ## 概述

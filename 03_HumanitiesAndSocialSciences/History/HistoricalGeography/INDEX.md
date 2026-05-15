@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['History', 'HistoricalGeography', 'INDEX']
+---
+
 # 历史地理学
 
 本索引汇集了历史地理学的核心内容，涵盖历代疆域变迁、政区沿革及历史地图等内容。

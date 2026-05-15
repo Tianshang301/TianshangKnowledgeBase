@@ -1,3 +1,8 @@
+---
+aliases: [StrengthOfMaterials]
+tags: ['EngineeringFundamentals', 'EngineeringMechanics', 'StrengthOfMaterials']
+---
+
 # 材料力学
 
 ## 定义

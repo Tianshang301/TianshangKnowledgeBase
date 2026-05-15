@@ -1,3 +1,8 @@
+---
+aliases: [SmartManufacturing]
+tags: ['ControlAndSystemsEngineering', 'Automation', 'SmartManufacturing']
+---
+
 # 智能制造
 
 ## 定义

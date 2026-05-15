@@ -1,3 +1,8 @@
+---
+aliases: [HydraulicAndMarineEngineering]
+tags: ['HydraulicAndMarineEngineering', 'HydraulicAndMarineEngineering']
+---
+
 # 水利与海洋工程
 
 ## 概述

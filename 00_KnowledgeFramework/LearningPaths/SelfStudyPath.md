@@ -1,3 +1,8 @@
+---
+aliases: [SelfStudyPath]
+tags: ['LearningPaths', 'SelfStudyPath']
+---
+
 # 自学路径规划
 
 ## 概述

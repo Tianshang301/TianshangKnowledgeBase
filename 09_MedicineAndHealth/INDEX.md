@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['INDEX']
+---
+
 # 09_MedicineAndHealth
 
 本索引汇集了 09_MedicineAndHealth 相关的核心知识文件，涵盖 Anatomy - 人体解剖学、Immunology - 免疫学、MedicalMicrobiology - 医学微生物学 等内容。

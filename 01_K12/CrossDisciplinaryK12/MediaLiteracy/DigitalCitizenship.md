@@ -1,3 +1,8 @@
+---
+aliases: [DigitalCitizenship]
+tags: ['CrossDisciplinaryK12', 'MediaLiteracy', 'DigitalCitizenship']
+---
+
 # 数字公民
 
 > 数字公民教育培养学生负责任地使用技术的能力，包括网络安全、数字礼仪和在线行为规范。

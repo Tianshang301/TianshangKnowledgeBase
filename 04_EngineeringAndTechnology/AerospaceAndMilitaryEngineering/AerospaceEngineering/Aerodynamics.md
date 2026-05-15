@@ -1,3 +1,8 @@
+---
+aliases: [Aerodynamics]
+tags: ['AerospaceAndMilitaryEngineering', 'AerospaceEngineering', 'Aerodynamics']
+---
+
 # 空气动力学
 
 ## 定义

@@ -1,3 +1,8 @@
+---
+aliases: [Dockerfile]
+tags: ['SoftwareEngineering', 'DevOpsAndCI_CD', 'Dockerfile']
+---
+
 # Dockerfile 最佳实践
 
 ## 一、Dockerfile 指令详解

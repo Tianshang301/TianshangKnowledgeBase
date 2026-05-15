@@ -1,3 +1,8 @@
+---
+aliases: [AppliedCalculus]
+tags: ['EngineeringFundamentals', 'EngineeringMathematics', 'AppliedCalculus']
+---
+
 # 应用微积分
 
 ## 定义

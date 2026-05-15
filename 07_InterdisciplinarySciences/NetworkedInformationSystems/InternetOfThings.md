@@ -1,3 +1,8 @@
+---
+aliases: [InternetOfThings]
+tags: ['NetworkedInformationSystems', 'InternetOfThings']
+---
+
 # 物联?
 ## 概述
 

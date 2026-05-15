@@ -1,3 +1,8 @@
+---
+aliases: [Rehabilitation]
+tags: ['SportsMedicine', 'Rehabilitation']
+---
+
 # 运动康复
 
 ## 概述

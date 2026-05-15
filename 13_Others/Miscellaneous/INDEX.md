@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Miscellaneous', 'INDEX']
+---
+
 # 杂项
 
 本索引汇集了未分类的实用知识与参考资料，涵盖生活技巧及跨领域话题等内容。

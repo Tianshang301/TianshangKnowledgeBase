@@ -1,3 +1,8 @@
+---
+aliases: [ComputerArchitecture]
+tags: ['ComputerAndInformationSciences', 'ComputerArchitecture']
+---
+
 # 计算机体系结构
 
 ## 一、冯·诺依曼体系结构

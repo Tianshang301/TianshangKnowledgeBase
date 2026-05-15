@@ -1,3 +1,8 @@
+---
+aliases: [LearningPath]
+tags: ['LearningPath']
+---
+
 # 社会科学学习路线图
 
 ## 心理学 (Psychology)

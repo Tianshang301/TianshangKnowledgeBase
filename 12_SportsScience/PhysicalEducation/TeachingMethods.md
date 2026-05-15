@@ -1,3 +1,8 @@
+---
+aliases: [TeachingMethods]
+tags: ['PhysicalEducation', 'TeachingMethods']
+---
+
 # 体育教学方法
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [EmbeddedLinux]
+tags: ['HardwareAndEmbeddedSystems', 'EmbeddedLinux', 'EmbeddedLinux']
+---
+
 # 嵌入式 Linux
 
 ## 一、嵌入式 Linux 概述

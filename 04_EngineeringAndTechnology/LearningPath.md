@@ -1,3 +1,8 @@
+---
+aliases: [LearningPath]
+tags: ['LearningPath']
+---
+
 # 学习路径：工程与技术科学
 
 ## 基础阶段

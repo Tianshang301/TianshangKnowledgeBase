@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['MiningAndMineralEngineering', 'MineralProcessing', 'INDEX']
+---
+
 # 矿物加工工程
 
 本索引汇集了矿物加工的原理与技术，涵盖破碎、磨矿、分选及尾矿处理等内容。

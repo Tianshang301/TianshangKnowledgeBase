@@ -1,3 +1,8 @@
+---
+aliases: [GovernmentReform]
+tags: ['PublicAdministration', 'GovernmentReform']
+---
+
 # 政府改革
 
 ## 概述

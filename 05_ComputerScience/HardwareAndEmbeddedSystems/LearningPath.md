@@ -1,3 +1,8 @@
+---
+aliases: [LearningPath]
+tags: ['HardwareAndEmbeddedSystems', 'LearningPath']
+---
+
 # 硬件学习路线图
 
 ## 入门阶段

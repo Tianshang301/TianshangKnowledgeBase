@@ -1,3 +1,8 @@
+---
+aliases: [Sequential]
+tags: ['HardwareAndEmbeddedSystems', 'DigitalCircuits', 'Sequential']
+---
+
 # 时序逻辑电路
 
 ## 锁存器 (Latches)

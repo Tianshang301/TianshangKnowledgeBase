@@ -1,3 +1,8 @@
+---
+aliases: [ModelEvaluation]
+tags: ['ArtificialIntelligence', 'MachineLearning', 'ModelEvaluation', 'ModelEvaluation']
+---
+
 # 模型评估
 
 ## 一、评估策略

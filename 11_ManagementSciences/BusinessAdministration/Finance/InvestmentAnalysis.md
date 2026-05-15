@@ -1,3 +1,8 @@
+---
+aliases: [InvestmentAnalysis]
+tags: ['BusinessAdministration', 'Finance', 'InvestmentAnalysis']
+---
+
 # 投资分析
 
 ## 概述

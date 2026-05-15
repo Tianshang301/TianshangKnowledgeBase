@@ -1,3 +1,8 @@
+---
+aliases: [EducationalPsychology]
+tags: ['Psychology', 'EducationalPsychology', 'EducationalPsychology']
+---
+
 # 教育心理学
 
 ## 一、学习理论

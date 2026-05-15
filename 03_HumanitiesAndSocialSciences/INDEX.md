@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['INDEX']
+---
+
 # 03_HumanitiesAndSocialSciences
 
 本索引汇集了 03_HumanitiesAndSocialSciences 相关的核心知识文件，涵盖 LearningPath - 人文社科学习路径总览、Anthropology/文化人类学 - 文化人类学、Anthropology/亲属制度与全球化 - 亲属制度与全球化 等内容。

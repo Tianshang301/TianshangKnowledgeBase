@@ -1,3 +1,8 @@
+---
+aliases: [LinkedList]
+tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'LinkedList']
+---
+
 # 链表详解
 
 ## 基本概念

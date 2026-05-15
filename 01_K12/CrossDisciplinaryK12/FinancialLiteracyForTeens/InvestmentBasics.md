@@ -1,3 +1,8 @@
+---
+aliases: [InvestmentBasics]
+tags: ['CrossDisciplinaryK12', 'FinancialLiteracyForTeens', 'InvestmentBasics']
+---
+
 # 投资基础
 
 > 青少年投资启蒙教育介绍基本的投资概念和风险意识。

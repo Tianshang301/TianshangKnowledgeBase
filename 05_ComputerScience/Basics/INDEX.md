@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Basics', 'INDEX']
+---
+
 # Basics
 
 本索引汇集了 Basics 相关的核心知识文件，涵盖 BasicOperations — 计算机基础操作指南、BinaryAndHexadecimal — 二进制与十六进制、BooleanAlgebra — 布尔代数 等内容。

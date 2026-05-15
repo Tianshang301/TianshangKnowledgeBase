@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'DynamicProgramming', 'INDEX']
+---
+
 # 动态规划
 
 本索引汇集了动态规划算法的原理与应用，涵盖经典 DP 问题及状态设计方法等内容。

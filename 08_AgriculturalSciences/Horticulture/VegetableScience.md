@@ -1,3 +1,8 @@
+---
+aliases: [VegetableScience]
+tags: ['Horticulture', 'VegetableScience']
+---
+
 # 蔬菜学
 
 ## 概述

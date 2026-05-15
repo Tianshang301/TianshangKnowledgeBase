@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ForeignLanguagesAndLiteratures', 'ComparativeLiterature', 'INDEX']
+---
+
 # 比较文学
 
 本索引汇集了比较文学的理论与实践，涵盖跨文化文学比较与影响研究等内容。

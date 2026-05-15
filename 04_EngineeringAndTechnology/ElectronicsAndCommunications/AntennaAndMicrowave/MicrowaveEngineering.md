@@ -1,3 +1,8 @@
+---
+aliases: [MicrowaveEngineering]
+tags: ['ElectronicsAndCommunications', 'AntennaAndMicrowave', 'MicrowaveEngineering']
+---
+
 # 微波工程
 
 ## 定义

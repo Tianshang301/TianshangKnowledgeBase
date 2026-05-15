@@ -1,3 +1,8 @@
+---
+aliases: [Arduino传感器与执行器]
+tags: ['HardwareAndEmbeddedSystems', 'Arduino', 'Arduino传感器与执行器']
+---
+
 # Arduino传感器与执行器
 
 ## 一、Arduino平台概述

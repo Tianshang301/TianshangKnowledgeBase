@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['INDEX']
+---
+
 # 12_SportsScience
 
 本索引汇集了 12_SportsScience 相关的核心知识文件，涵盖 Biomechanics - 运动生物力学、CardiovascularResponse - 心血管反应、EnergySystems - 能量系统 等内容。

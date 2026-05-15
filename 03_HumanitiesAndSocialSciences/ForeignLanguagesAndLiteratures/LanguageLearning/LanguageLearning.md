@@ -1,3 +1,8 @@
+---
+aliases: [LanguageLearning]
+tags: ['ForeignLanguagesAndLiteratures', 'LanguageLearning', 'LanguageLearning']
+---
+
 # 语言学习
 
 ## 一、第二语言习得理论

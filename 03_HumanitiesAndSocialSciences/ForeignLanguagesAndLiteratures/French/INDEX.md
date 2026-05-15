@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ForeignLanguagesAndLiteratures', 'French', 'INDEX']
+---
+
 # French
 
 本索引汇集了 French 相关的核心知识文件，涵盖 > 详细内容请见 [[基础法语]]、[[法语语法进阶]] 等内容。

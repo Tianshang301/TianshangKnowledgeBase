@@ -1,3 +1,8 @@
+---
+aliases: [AppliedEthics]
+tags: ['Philosophy', 'Ethics', 'AppliedEthics']
+---
+
 # 应用伦理学
 
 ## 一、生命伦理学

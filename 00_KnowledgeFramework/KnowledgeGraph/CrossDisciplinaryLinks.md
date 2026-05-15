@@ -1,3 +1,8 @@
+---
+aliases: [CrossDisciplinaryLinks]
+tags: ['KnowledgeGraph', 'CrossDisciplinaryLinks']
+---
+
 # 跨学科关联索引
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [ComputerVision]
+tags: ['ArtificialIntelligence', 'ComputerVision', 'ComputerVision']
+---
+
 # 计算机视觉
 
 ## 一、图像形成与表示

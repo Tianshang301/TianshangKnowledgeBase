@@ -1,3 +1,8 @@
+---
+aliases: [SurveyingAndMappingScience]
+tags: ['SurveyingAndMappingScience', 'SurveyingAndMappingScience']
+---
+
 # 测绘科学与技术
 
 ## 学科定义

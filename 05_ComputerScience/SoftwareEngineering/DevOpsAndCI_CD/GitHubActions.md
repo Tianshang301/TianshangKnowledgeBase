@@ -1,3 +1,8 @@
+---
+aliases: [GitHubActions]
+tags: ['SoftwareEngineering', 'DevOpsAndCI_CD', 'GitHubActions']
+---
+
 # GitHub Actions 指南
 
 ## 一、Workflow 语法

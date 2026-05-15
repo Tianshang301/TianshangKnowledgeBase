@@ -1,3 +1,8 @@
+---
+aliases: [StrategicTheory]
+tags: ['MilitaryStrategy', 'StrategicTheory']
+---
+
 # 战略理论
 
 ## 概述

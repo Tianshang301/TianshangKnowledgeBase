@@ -1,3 +1,8 @@
+---
+aliases: [InterdisciplinaryApproach]
+tags: ['Methodology', 'InterdisciplinaryApproach']
+---
+
 # 跨学科研究方法
 ## 概述
 

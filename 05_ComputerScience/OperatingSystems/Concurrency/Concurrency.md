@@ -1,3 +1,8 @@
+---
+aliases: [Concurrency]
+tags: ['OperatingSystems', 'Concurrency', 'Concurrency']
+---
+
 # 并发详解 (Concurrency)
 
 ## 一、进程与线程 (Processes vs Threads)

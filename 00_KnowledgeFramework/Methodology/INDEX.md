@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Methodology', 'INDEX']
+---
+
 # Methodology
 
 本索引汇集了 Methodology 相关的核心知识文件，涵盖 CriticalThinking — 批判性思维、InterdisciplinaryApproach — 跨学科方法、Methodology — 方法论概述 等内容。

@@ -1,3 +1,8 @@
+---
+aliases: [MiningMethods]
+tags: ['GeologicalAndMiningEngineering', 'MiningEngineering', 'MiningMethods']
+---
+
 # 采矿方法
 
 ## 定义

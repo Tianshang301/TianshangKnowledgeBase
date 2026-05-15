@@ -1,3 +1,8 @@
+---
+aliases: [CropBreeding]
+tags: ['CropScience', 'CropBreeding']
+---
+
 # 作物育种学
 
 ## 概述

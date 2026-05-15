@@ -1,3 +1,8 @@
+---
+aliases: [Optimization]
+tags: ['DatabasesAndInformationSystems', 'Optimization']
+---
+
 # 数据库性能优化
 
 ## 一、Schema 设计优化

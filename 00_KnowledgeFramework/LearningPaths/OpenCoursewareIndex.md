@@ -1,3 +1,8 @@
+---
+aliases: [OpenCoursewareIndex]
+tags: ['LearningPaths', 'OpenCoursewareIndex']
+---
+
 # 开放课程资源汇总
 
 汇总主流开放课程平台，方便快速选课和资源检索。本索引按国际平台、国内平台、垂直资源三部分组织。

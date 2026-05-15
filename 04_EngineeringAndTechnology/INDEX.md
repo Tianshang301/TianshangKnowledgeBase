@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['INDEX']
+---
+
 # 04_EngineeringAndTechnology
 
 本索引汇集了 04_EngineeringAndTechnology 相关的核心知识文件，涵盖 AerospaceAndMilitaryEngineering/Aerodynamics/INDEX - 空气动力学、AerospaceAndMilitaryEngineering/AerospaceEngineering/INDEX - 航空宇航工程、AerospaceAndMilitaryEngineering/Ballistics/INDEX - 弹道学 等内容。

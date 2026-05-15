@@ -1,3 +1,8 @@
+---
+aliases: [ForestEcology]
+tags: ['Forestry', 'ForestEcology']
+---
+
 # 森林生态学
 
 ## 概述

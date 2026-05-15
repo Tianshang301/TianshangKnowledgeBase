@@ -1,3 +1,8 @@
+---
+aliases: [BFSDFS]
+tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'BFSDFS']
+---
+
 # BFS / DFS 详解
 
 ## 概述

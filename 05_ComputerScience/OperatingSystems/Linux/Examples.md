@@ -1,3 +1,8 @@
+---
+aliases: [Examples]
+tags: ['OperatingSystems', 'Linux', 'Examples']
+---
+
 # 正则表达式实战
 
 ## 1. 邮箱验证

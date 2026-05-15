@@ -1,3 +1,8 @@
+---
+aliases: [LectureNotes]
+tags: ['NoteTaking', 'LectureNotes']
+---
+
 # 听课笔记方法论
 ## 一、笔记方法对比
 ### 1.1 六大笔记法

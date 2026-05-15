@@ -1,3 +1,8 @@
+---
+aliases: [GameDevelopment]
+tags: ['EngineeringDevelopment', 'GameDevelopment', 'GameDevelopment']
+---
+
 # 游戏开发完全指南
 
 ## 概述

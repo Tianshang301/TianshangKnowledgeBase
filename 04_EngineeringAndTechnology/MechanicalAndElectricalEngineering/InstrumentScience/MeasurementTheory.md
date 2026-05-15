@@ -1,3 +1,8 @@
+---
+aliases: [MeasurementTheory]
+tags: ['MechanicalAndElectricalEngineering', 'InstrumentScience', 'MeasurementTheory']
+---
+
 # 测量理论
 
 ## 定义

@@ -1,3 +1,8 @@
+---
+aliases: [Argumentation]
+tags: ['CrossDisciplinaryK12', 'CriticalThinkingForTeens', 'Argumentation']
+---
+
 # 论证技巧
 ## 概述
 

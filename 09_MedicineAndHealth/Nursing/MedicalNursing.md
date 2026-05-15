@@ -1,3 +1,8 @@
+---
+aliases: [MedicalNursing]
+tags: ['Nursing', 'MedicalNursing']
+---
+
 # 内科护理学
 
 ## 概述

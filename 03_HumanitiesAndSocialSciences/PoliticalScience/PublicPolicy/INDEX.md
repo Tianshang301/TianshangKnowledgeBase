@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['PoliticalScience', 'PublicPolicy', 'INDEX']
+---
+
 # 公共政策
 
 本索引汇集了公共政策分析的理论与方法，涵盖政策制定、评估与治理创新等内容。

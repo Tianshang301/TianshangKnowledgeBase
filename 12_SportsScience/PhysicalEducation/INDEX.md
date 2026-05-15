@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['PhysicalEducation', 'INDEX']
+---
+
 # PhysicalEducation
 
 本索引汇集了 PhysicalEducation 相关的核心知识文件，涵盖 AssessmentInPE — 体育评价：体育学习评估、CurriculumDesign — 课程设计：体育课程规划、MotorLearning — 运动技能学习：技能习得机制 等内容。

@@ -1,3 +1,8 @@
+---
+aliases: [Surgery]
+tags: ['ClinicalMedicine', 'Surgery']
+---
+
 # 外科学
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [CareerOrientedPath]
+tags: ['LearningPaths', 'CareerOrientedPath']
+---
+
 # 职业导向学习路径
 
 ## 概述

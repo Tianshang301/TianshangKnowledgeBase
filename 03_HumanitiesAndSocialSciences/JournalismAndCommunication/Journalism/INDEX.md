@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['JournalismAndCommunication', 'Journalism', 'INDEX']
+---
+
 # 新闻学
 
 本索引汇集了新闻学的核心理论与实务，涵盖新闻采访、写作、编辑及新闻伦理等内容。

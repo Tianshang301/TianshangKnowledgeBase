@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ChineseLanguageAndLiterature', 'Chinese', 'INDEX']
+---
+
 # Chinese
 
 本索引汇集了 Chinese 相关的核心知识文件，涵盖 > 详细内容请见 [[汉语语法修辞精讲]]、[[语言知识与古诗文]] 等内容。

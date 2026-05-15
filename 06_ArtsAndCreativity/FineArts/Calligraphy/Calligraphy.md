@@ -1,3 +1,8 @@
+---
+aliases: [Calligraphy]
+tags: ['FineArts', 'Calligraphy', 'Calligraphy']
+---
+
 # 书法
 
 ## 一、中国书法工具——文房四宝

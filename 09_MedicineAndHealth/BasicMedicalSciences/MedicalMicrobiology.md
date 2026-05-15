@@ -1,3 +1,8 @@
+---
+aliases: [MedicalMicrobiology]
+tags: ['BasicMedicalSciences', 'MedicalMicrobiology']
+---
+
 # 医学微生物学
 
 ## 概述

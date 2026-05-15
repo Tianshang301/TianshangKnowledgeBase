@@ -1,3 +1,8 @@
+---
+aliases: [TaxAccounting]
+tags: ['BusinessAdministration', 'Accounting', 'TaxAccounting']
+---
+
 # 税务会计
 
 ## 概述

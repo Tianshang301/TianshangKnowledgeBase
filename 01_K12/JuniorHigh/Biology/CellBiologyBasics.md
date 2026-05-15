@@ -1,3 +1,8 @@
+---
+aliases: [CellBiologyBasics]
+tags: ['JuniorHigh', 'Biology', 'CellBiologyBasics']
+---
+
 # 细胞生物学基础
 
 ## 概述

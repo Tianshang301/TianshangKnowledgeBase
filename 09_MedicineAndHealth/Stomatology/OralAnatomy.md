@@ -1,3 +1,8 @@
+---
+aliases: [OralAnatomy]
+tags: ['Stomatology', 'OralAnatomy']
+---
+
 # 口腔解剖学
 
 ## 概述

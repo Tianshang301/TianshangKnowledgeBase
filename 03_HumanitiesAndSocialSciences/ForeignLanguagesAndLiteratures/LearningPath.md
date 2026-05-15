@@ -1,3 +1,8 @@
+---
+aliases: [LearningPath]
+tags: ['ForeignLanguagesAndLiteratures', 'LearningPath']
+---
+
 # 外语学习路线图
 
 ## 核心理念

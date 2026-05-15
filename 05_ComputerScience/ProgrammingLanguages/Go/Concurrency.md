@@ -1,3 +1,8 @@
+---
+aliases: [Concurrency]
+tags: ['ProgrammingLanguages', 'Go', 'Concurrency']
+---
+
 # Go 并发编程
 
 ## Goroutine

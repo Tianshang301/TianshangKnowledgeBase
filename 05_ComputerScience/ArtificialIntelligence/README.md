@@ -1,3 +1,8 @@
+---
+aliases: [README]
+tags: ['ArtificialIntelligence', 'README']
+---
+
 # 人工智能 / 机器学习知识索引
 
 ## 目录

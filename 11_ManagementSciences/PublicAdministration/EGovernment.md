@@ -1,3 +1,8 @@
+---
+aliases: [EGovernment]
+tags: ['PublicAdministration', 'EGovernment']
+---
+
 # 电子政务
 
 ## 概述

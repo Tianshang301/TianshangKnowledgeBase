@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Economics', 'AppliedEconomics', 'INDEX']
+---
+
 # 应用经济学
 
 本索引汇集了应用经济学相关知识，涵盖产业经济、区域经济及劳动经济等领域。

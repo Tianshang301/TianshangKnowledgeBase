@@ -1,3 +1,8 @@
+---
+aliases: [LogicalReasoning]
+tags: ['CrossDisciplinaryK12', 'CriticalThinkingForTeens', 'LogicalReasoning']
+---
+
 # 逻辑推理
 
 ## 概述

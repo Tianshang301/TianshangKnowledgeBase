@@ -1,3 +1,8 @@
+---
+aliases: [CriticalThinking]
+tags: ['Methodology', 'CriticalThinking']
+---
+
 # 批判性思维
 
 ## 概述

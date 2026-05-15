@@ -1,3 +1,8 @@
+---
+aliases: [DopingAndAntiDoping]
+tags: ['SportsMedicine', 'DopingAndAntiDoping']
+---
+
 # 兴奋剂与反兴奋剂
 
 ## 概述

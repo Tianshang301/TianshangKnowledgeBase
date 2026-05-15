@@ -1,3 +1,8 @@
+---
+aliases: [README]
+tags: ['SoftwareEngineering', 'README']
+---
+
 # IDE 配置与效率技巧
 
 ## VS Code

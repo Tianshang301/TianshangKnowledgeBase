@@ -1,3 +1,8 @@
+---
+aliases: [FlightMechanics]
+tags: ['AerospaceAndMilitaryEngineering', 'AerospaceEngineering', 'FlightMechanics']
+---
+
 # 飞行力学
 
 ## 定义

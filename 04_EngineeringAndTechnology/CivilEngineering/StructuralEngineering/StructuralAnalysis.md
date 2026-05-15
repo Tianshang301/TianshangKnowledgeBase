@@ -1,3 +1,8 @@
+---
+aliases: [StructuralAnalysis]
+tags: ['CivilEngineering', 'StructuralEngineering', 'StructuralAnalysis']
+---
+
 # 结构分析
 
 ## 定义

@@ -1,3 +1,8 @@
+---
+aliases: [CompensationAndBenefits]
+tags: ['BusinessAdministration', 'HumanResources', 'CompensationAndBenefits']
+---
+
 # 薪酬福利
 
 ## 概述

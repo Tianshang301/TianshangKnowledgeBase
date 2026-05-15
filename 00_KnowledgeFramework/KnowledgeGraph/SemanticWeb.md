@@ -1,3 +1,8 @@
+---
+aliases: [SemanticWeb]
+tags: ['KnowledgeGraph', 'SemanticWeb']
+---
+
 # 语义网基础
 
 ## 概述

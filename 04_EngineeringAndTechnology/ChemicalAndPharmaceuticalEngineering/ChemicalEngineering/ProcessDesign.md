@@ -1,3 +1,8 @@
+---
+aliases: [ProcessDesign]
+tags: ['ChemicalAndPharmaceuticalEngineering', 'ChemicalEngineering', 'ProcessDesign']
+---
+
 # 化工过程设计
 
 ## 定义

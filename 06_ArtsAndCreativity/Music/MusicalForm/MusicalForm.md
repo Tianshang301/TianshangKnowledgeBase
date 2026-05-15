@@ -1,3 +1,8 @@
+---
+aliases: [MusicalForm]
+tags: ['Music', 'MusicalForm', 'MusicalForm']
+---
+
 # 曲式学
 
 ## 一、曲式基础

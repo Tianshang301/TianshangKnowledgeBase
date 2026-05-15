@@ -1,3 +1,8 @@
+---
+aliases: [Modules]
+tags: ['ProgrammingLanguages', 'Go', 'Modules']
+---
+
 # Go Modules 包管理
 
 ## 初始化模块

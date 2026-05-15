@@ -1,3 +1,8 @@
+---
+aliases: [Optimization]
+tags: ['CompilerPrinciples', 'Optimization']
+---
+
 # 编译优化
 
 ## 一、概述

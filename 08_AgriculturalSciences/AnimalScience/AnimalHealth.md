@@ -1,3 +1,8 @@
+---
+aliases: [AnimalHealth]
+tags: ['AnimalScience', 'AnimalHealth']
+---
+
 # 动物健康
 
 ## 概述

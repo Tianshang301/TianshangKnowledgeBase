@@ -1,3 +1,8 @@
+---
+aliases: [MachineLearningBasics]
+tags: ['DataScience', 'MachineLearningBasics']
+---
+
 # 机器学习基础
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [CourseIndex]
+tags: ['LearningPaths', 'CourseIndex']
+---
+
 # 开放课程索引
 
 记录知识库引用的在线开放课程资源。本索引按学科分类整理，包含课程名称、平台、开课院校及推荐指数。标记 🏆 的为强烈推荐课程。

@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ComputerOrganizationAndArchitecture', 'DigitalLogic', 'INDEX']
+---
+
 # 数字逻辑
 
 本索引汇集了数字电路与逻辑设计的基本知识，涵盖布尔代数、组合逻辑与时序逻辑等内容。

@@ -1,3 +1,8 @@
+---
+aliases: [SolarEnergy]
+tags: ['EnergyAndNuclearEngineering', 'RenewableEnergy', 'SolarEnergy']
+---
+
 # 太阳能
 
 ## 定义

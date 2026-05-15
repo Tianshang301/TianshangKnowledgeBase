@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ExercisePhysiology', 'INDEX']
+---
+
 # ExercisePhysiology
 
 本索引汇集了 ExercisePhysiology 相关的核心知识文件，涵盖 Biomechanics — 生物力学：人体运动力学分析、CardiovascularResponse — 心血管反应：运动中的心血管调节、EnergySystems — 能量系统：运动能量代谢 等内容。

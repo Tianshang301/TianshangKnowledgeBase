@@ -1,3 +1,8 @@
+---
+aliases: [VectorSpace]
+tags: ['Mathematics', 'Algebra', 'VectorSpace']
+---
+
 # 向量空间详解
 
 ## 〇、代数结构概述

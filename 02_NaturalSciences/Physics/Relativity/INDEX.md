@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Physics', 'Relativity', 'INDEX']
+---
+
 # Relativity
 
 本索引汇集了 Relativity 相关的核心知识文件，涵盖 广义相对论、狭义相对论 等内容。

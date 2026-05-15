@@ -1,3 +1,8 @@
+---
+aliases: [FermentationProcess]
+tags: ['Biotechnologies', 'FermentationEngineering', 'FermentationProcess']
+---
+
 # 发酵工艺
 
 ## 定义

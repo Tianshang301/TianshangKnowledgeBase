@@ -1,3 +1,8 @@
+---
+aliases: [MusclePhysiology]
+tags: ['ExercisePhysiology', 'MusclePhysiology']
+---
+
 # 肌肉生理学
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [OceanEngineering]
+tags: ['HydraulicAndMarineEngineering', 'NavalArchitecture', 'OceanEngineering']
+---
+
 # 海洋工程
 
 ## 定义

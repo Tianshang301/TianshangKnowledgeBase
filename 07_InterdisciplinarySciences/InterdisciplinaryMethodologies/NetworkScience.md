@@ -1,3 +1,8 @@
+---
+aliases: [NetworkScience]
+tags: ['InterdisciplinaryMethodologies', 'NetworkScience']
+---
+
 # 网络科学
 
 ## 概述

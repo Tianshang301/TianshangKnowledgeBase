@@ -1,3 +1,8 @@
+---
+aliases: [IO]
+tags: ['OperatingSystems', 'IO']
+---
+
 # I/O 管理详解 (Input/Output Management)
 
 ## 1. I/O 硬件 (I/O Hardware)

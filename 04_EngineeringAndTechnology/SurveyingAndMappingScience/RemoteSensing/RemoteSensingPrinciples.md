@@ -1,3 +1,8 @@
+---
+aliases: [RemoteSensingPrinciples]
+tags: ['SurveyingAndMappingScience', 'RemoteSensing', 'RemoteSensingPrinciples']
+---
+
 # 遥感原理
 
 ## 定义

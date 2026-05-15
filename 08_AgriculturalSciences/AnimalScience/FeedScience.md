@@ -1,3 +1,8 @@
+---
+aliases: [FeedScience]
+tags: ['AnimalScience', 'FeedScience']
+---
+
 # 饲料学
 
 ## 概述

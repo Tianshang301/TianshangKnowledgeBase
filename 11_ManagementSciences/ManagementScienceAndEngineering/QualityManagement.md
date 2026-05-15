@@ -1,3 +1,8 @@
+---
+aliases: [QualityManagement]
+tags: ['ManagementScienceAndEngineering', 'QualityManagement']
+---
+
 # 质量管理
 
 ## 概述

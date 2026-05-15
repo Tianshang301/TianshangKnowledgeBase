@@ -1,3 +1,8 @@
+---
+aliases: [OralPathology]
+tags: ['Stomatology', 'OralPathology']
+---
+
 # 口腔病理学
 
 ## 概述

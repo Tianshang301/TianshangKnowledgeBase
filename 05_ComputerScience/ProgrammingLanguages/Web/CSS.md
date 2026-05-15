@@ -1,3 +1,8 @@
+---
+aliases: [CSS]
+tags: ['ProgrammingLanguages', 'Web', 'CSS']
+---
+
 # CSS3 完整参考
 
 ## 一、选择器

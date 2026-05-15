@@ -1,3 +1,8 @@
+---
+aliases: [FruitScience]
+tags: ['Horticulture', 'FruitScience']
+---
+
 # 果树学
 
 ## 概述

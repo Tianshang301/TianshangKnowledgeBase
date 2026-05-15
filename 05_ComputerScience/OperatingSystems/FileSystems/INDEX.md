@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['OperatingSystems', 'FileSystems', 'INDEX']
+---
+
 # 文件系统
 
 本索引汇集了文件系统的设计与实现原理，涵盖存储结构、目录管理及文件权限等内容。

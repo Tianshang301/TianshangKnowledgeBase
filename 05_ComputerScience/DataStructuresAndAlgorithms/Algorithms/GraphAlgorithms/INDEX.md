@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'GraphAlgorithms', 'INDEX']
+---
+
 # 图算法
 
 本索引汇集了图论算法的核心内容，涵盖最短路径、最小生成树及网络流算法等内容。

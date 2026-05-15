@@ -1,3 +1,8 @@
+---
+aliases: [AIEthics]
+tags: ['ArtificialIntelligence', 'AIEthics', 'AIEthics']
+---
+
 # AI伦理
 
 ## 一、伦理框架基础

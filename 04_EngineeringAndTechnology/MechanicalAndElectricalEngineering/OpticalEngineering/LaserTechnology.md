@@ -1,3 +1,8 @@
+---
+aliases: [LaserTechnology]
+tags: ['MechanicalAndElectricalEngineering', 'OpticalEngineering', 'LaserTechnology']
+---
+
 # 激光技术
 
 ## 定义

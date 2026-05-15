@@ -1,3 +1,8 @@
+---
+aliases: [Physiology]
+tags: ['BasicMedicalSciences', 'Physiology']
+---
+
 # 生理学
 
 ## 概述

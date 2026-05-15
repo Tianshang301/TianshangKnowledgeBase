@@ -1,3 +1,8 @@
+---
+aliases: [Basics]
+tags: ['ProgrammingLanguages', 'Java', 'Basics']
+---
+
 # Java 基础语法
 
 ## 数据类型

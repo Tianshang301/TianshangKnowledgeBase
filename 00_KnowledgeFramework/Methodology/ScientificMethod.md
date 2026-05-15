@@ -1,3 +1,8 @@
+---
+aliases: [ScientificMethod]
+tags: ['Methodology', 'ScientificMethod']
+---
+
 # 科学方法论
 ## 概述
 

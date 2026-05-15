@@ -1,3 +1,8 @@
+---
+aliases: [LearningPath]
+tags: ['SoftwareEngineering', 'LearningPath']
+---
+
 # 工具链学习路线图
 
 ## 必须掌握 (Must-Learn)

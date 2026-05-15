@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['MetallurgicalEngineering', 'MaterialsProcessing', 'INDEX']
+---
+
 # 材料加工工程
 
 本索引汇集了材料加工与成型技术，涵盖金属成型、焊接及增材制造等内容。

@@ -1,3 +1,8 @@
+---
+aliases: [Basics]
+tags: ['ProgrammingLanguages', 'C_Cpp', 'Basics']
+---
+
 # C/C++ 基础语法
 
 ## C 基础

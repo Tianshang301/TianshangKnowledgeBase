@@ -1,3 +1,8 @@
+---
+aliases: [NoSQL]
+tags: ['DatabasesAndInformationSystems', 'NoSQL', 'NoSQL']
+---
+
 # NoSQL Databases - NoSQL 数据库
 
 ## 一、NoSQL 概述

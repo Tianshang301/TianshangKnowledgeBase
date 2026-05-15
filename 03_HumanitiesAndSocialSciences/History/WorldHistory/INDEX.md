@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['History', 'WorldHistory', 'INDEX']
+---
+
 # 世界历史
 
 本索引汇集了世界历史各文明的系统知识，涵盖重大历史事件与文明交流等内容。

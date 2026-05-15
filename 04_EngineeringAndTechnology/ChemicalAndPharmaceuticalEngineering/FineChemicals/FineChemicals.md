@@ -1,3 +1,8 @@
+---
+aliases: [FineChemicals]
+tags: ['ChemicalAndPharmaceuticalEngineering', 'FineChemicals', 'FineChemicals']
+---
+
 # 精细化学品
 
 ## 学科定义

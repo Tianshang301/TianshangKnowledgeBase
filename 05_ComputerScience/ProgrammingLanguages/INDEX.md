@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ProgrammingLanguages', 'INDEX']
+---
+
 # ProgrammingLanguages
 
 本索引汇集了 ProgrammingLanguages 相关的核心知识文件，涵盖 Assembly/INDEX|Assembly、C_Cpp/INDEX|C / C++、CSharp/INDEX|C# 等内容。

@@ -1,3 +1,8 @@
+---
+aliases: [DigitalMedia]
+tags: ['JournalismAndCommunication', 'DigitalMedia', 'DigitalMedia']
+---
+
 # 数字媒体
 
 ## 一、数字媒体发展

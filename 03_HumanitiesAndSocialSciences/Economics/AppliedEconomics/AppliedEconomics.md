@@ -1,3 +1,8 @@
+---
+aliases: [AppliedEconomics]
+tags: ['Economics', 'AppliedEconomics', 'AppliedEconomics']
+---
+
 # 应用经济学
 
 ## 一、劳动经济学

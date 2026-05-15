@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ArtificialIntelligence', 'INDEX']
+---
+
 # ArtificialIntelligence
 
 本索引汇集了 ArtificialIntelligence 相关的核心知识文件，涵盖 > 快速参考指南：[[README]]、README - 人工智能概述、AIEthics/AIEthics - AI伦理 等内容。

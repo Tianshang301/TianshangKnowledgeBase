@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ForeignLanguagesAndLiteratures', 'TranslationStudies', 'INDEX']
+---
+
 # 翻译学
 
 本索引汇集了翻译理论与实践的核心理念，涵盖翻译技巧、译作赏析及翻译技术等内容。

@@ -1,3 +1,8 @@
+---
+aliases: [EngineeringMechanics]
+tags: ['MechanicsAndMaterials', 'Mechanics', 'EngineeringMechanics']
+---
+
 # 工程力学
 
 ## 定义

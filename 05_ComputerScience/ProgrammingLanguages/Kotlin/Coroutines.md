@@ -1,3 +1,8 @@
+---
+aliases: [Coroutines]
+tags: ['ProgrammingLanguages', 'Kotlin', 'Coroutines']
+---
+
 # Kotlin 协程详解
 
 ## 协程基础

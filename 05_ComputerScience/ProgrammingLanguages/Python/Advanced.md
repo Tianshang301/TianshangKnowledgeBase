@@ -1,3 +1,8 @@
+---
+aliases: [Advanced]
+tags: ['ProgrammingLanguages', 'Python', 'Advanced']
+---
+
 # Python 进阶特性
 
 ## 一、装饰器 (Decorators)

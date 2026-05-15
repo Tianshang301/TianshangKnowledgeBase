@@ -1,3 +1,8 @@
+---
+aliases: [OperationsResearch]
+tags: ['ManagementScienceAndEngineering', 'OperationsResearch']
+---
+
 # 运筹学
 
 ## 线性规划

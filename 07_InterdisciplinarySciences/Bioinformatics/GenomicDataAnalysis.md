@@ -1,3 +1,8 @@
+---
+aliases: [GenomicDataAnalysis]
+tags: ['Bioinformatics', 'GenomicDataAnalysis']
+---
+
 # 基因组数据分?
 ## 概述
 

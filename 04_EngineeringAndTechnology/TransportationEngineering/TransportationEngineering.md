@@ -1,3 +1,8 @@
+---
+aliases: [TransportationEngineering]
+tags: ['TransportationEngineering', 'TransportationEngineering']
+---
+
 # 交通运输工程
 
 ## 学科定义

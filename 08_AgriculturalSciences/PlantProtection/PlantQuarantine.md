@@ -1,3 +1,8 @@
+---
+aliases: [PlantQuarantine]
+tags: ['PlantProtection', 'PlantQuarantine']
+---
+
 # 植物检疫学
 
 ## 概述

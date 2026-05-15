@@ -1,3 +1,8 @@
+---
+aliases: [Journalism]
+tags: ['JournalismAndCommunication', 'Journalism', 'Journalism']
+---
+
 # 新闻学
 
 ## 一、新闻学基础

@@ -1,3 +1,8 @@
+---
+aliases: [Assembly]
+tags: ['ProgrammingLanguages', 'Assembly', 'Assembly']
+---
+
 # 汇编语言
 
 ## 一、汇编语言基础

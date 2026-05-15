@@ -1,3 +1,8 @@
+---
+aliases: [ReadingComprehension]
+tags: ['PrimarySchool', 'Chinese', 'ReadingComprehension']
+---
+
 # 阅读理解基础
 
 ## 概述

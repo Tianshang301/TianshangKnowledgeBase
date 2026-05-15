@@ -1,3 +1,8 @@
+---
+aliases: [FireScience]
+tags: ['EnvironmentalScienceAndEngineering', 'SafetyScience', 'FireScience']
+---
+
 # 消防工程
 
 ## 定义

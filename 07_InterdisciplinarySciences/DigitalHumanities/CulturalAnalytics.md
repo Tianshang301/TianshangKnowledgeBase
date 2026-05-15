@@ -1,3 +1,8 @@
+---
+aliases: [CulturalAnalytics]
+tags: ['DigitalHumanities', 'CulturalAnalytics']
+---
+
 # 文化分析
 
 ## 概述

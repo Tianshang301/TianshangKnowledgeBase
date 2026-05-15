@@ -1,3 +1,8 @@
+---
+aliases: [OpticsBasics]
+tags: ['JuniorHigh', 'Physics', 'OpticsBasics']
+---
+
 # 光学基础
 
 ## 概述

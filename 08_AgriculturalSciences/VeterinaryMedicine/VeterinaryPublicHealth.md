@@ -1,3 +1,8 @@
+---
+aliases: [VeterinaryPublicHealth]
+tags: ['VeterinaryMedicine', 'VeterinaryPublicHealth']
+---
+
 # 兽医公共卫生
 
 ## 概述

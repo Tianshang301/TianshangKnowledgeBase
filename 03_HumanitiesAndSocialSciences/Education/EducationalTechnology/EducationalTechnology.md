@@ -1,3 +1,8 @@
+---
+aliases: [EducationalTechnology]
+tags: ['Education', 'EducationalTechnology', 'EducationalTechnology']
+---
+
 # 教育技术学
 
 ## 一、教育技术的定义与演进

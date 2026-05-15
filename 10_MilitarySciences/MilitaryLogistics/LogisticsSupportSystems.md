@@ -1,3 +1,8 @@
+---
+aliases: [LogisticsSupportSystems]
+tags: ['MilitaryLogistics', 'LogisticsSupportSystems']
+---
+
 # 后勤保障体系
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [WesternPhilosophyHistory]
+tags: ['Philosophy', 'WesternPhilosophy', 'WesternPhilosophyHistory']
+---
+
 # 西方哲学史进阶
 
 ## 一、前苏格拉底哲学——从神话到理性的转折

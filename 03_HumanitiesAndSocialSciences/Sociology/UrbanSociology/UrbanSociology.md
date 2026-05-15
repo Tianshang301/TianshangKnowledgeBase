@@ -1,3 +1,8 @@
+---
+aliases: [UrbanSociology]
+tags: ['Sociology', 'UrbanSociology', 'UrbanSociology']
+---
+
 # 城市社会学
 
 ## 一、古典城市理论

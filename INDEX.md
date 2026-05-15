@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['untagged']
+---
+
 # TianshangKnowledgeBase 总索引
 
 欢迎来到 **TianshangKnowledgeBase** — 按 UNESCO + 中国教育部学科分类构建的个人综合知识库。

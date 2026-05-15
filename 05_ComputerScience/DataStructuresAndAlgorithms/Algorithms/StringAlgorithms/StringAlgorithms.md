@@ -1,3 +1,8 @@
+---
+aliases: [StringAlgorithms]
+tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'StringAlgorithms', 'StringAlgorithms']
+---
+
 # String Algorithms - 字符串算法
 
 ## 一、字符串匹配

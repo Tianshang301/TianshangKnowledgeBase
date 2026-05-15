@@ -1,3 +1,8 @@
+---
+aliases: [LivestockEconomics]
+tags: ['AnimalScience', 'LivestockEconomics']
+---
+
 # 畜牧经济学
 
 ## 概述

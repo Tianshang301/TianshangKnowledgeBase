@@ -1,3 +1,8 @@
+---
+aliases: [Tree]
+tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'Tree']
+---
+
 # 树基础
 
 ## 基本概念

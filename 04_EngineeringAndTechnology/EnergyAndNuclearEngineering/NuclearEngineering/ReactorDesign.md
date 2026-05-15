@@ -1,3 +1,8 @@
+---
+aliases: [ReactorDesign]
+tags: ['EnergyAndNuclearEngineering', 'NuclearEngineering', 'ReactorDesign']
+---
+
 # 反应堆设计
 
 ## 定义

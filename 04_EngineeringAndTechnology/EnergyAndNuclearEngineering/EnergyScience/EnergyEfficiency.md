@@ -1,3 +1,8 @@
+---
+aliases: [EnergyEfficiency]
+tags: ['EnergyAndNuclearEngineering', 'EnergyScience', 'EnergyEfficiency']
+---
+
 # 能源效率
 
 ## 定义

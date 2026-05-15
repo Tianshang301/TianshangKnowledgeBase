@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'BasicAlgorithms', 'INDEX']
+---
+
 # 基础算法
 
 本索引汇集了计算机科学的基础算法，涵盖排序、搜索及基本数据结构的算法实现等内容。

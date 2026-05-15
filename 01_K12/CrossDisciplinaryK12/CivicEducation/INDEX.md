@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['CrossDisciplinaryK12', 'CivicEducation', 'INDEX']
+---
+
 # 公民教育
 
 本索引汇集了公民教育相关内容，涵盖公民权利与义务、社会参与及法治观念等主题。

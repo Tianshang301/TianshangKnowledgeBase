@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['INDEX']
+---
+
 # 00_KnowledgeFramework
 
 本索引汇集了 00_KnowledgeFramework 相关的核心知识文件，涵盖 ClassificationMappings、KnowledgeGraph、Methodology 等内容。

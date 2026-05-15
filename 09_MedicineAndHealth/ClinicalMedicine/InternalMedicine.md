@@ -1,3 +1,8 @@
+---
+aliases: [InternalMedicine]
+tags: ['ClinicalMedicine', 'InternalMedicine']
+---
+
 # 内科学
 
 ## 概述

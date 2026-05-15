@@ -1,3 +1,8 @@
+---
+aliases: [AutomataTheory]
+tags: ['TheoryOfComputation', 'AutomataTheory']
+---
+
 # 自动机理论
 
 ## 一、形式语言基础

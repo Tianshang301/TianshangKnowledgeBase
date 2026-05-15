@@ -1,3 +1,8 @@
+---
+aliases: [ArtificialIntelligence]
+tags: ['CognitiveScience', 'ArtificialIntelligence']
+---
+
 # 人工智能（认知科学视角）
 
 ## 概述

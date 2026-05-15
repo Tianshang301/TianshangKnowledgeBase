@@ -1,3 +1,8 @@
+---
+aliases: [ConcreteStructures]
+tags: ['CivilEngineering', 'StructuralEngineering', 'ConcreteStructures']
+---
+
 # 混凝土结构
 
 ## 定义

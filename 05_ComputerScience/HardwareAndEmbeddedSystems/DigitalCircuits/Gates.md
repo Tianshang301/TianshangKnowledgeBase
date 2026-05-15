@@ -1,3 +1,8 @@
+---
+aliases: [Gates]
+tags: ['HardwareAndEmbeddedSystems', 'DigitalCircuits', 'Gates']
+---
+
 # 基本门电路
 
 ## 逻辑电平标准

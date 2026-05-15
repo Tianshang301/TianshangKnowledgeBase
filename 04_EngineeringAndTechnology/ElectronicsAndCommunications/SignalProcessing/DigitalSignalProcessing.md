@@ -1,3 +1,8 @@
+---
+aliases: [DigitalSignalProcessing]
+tags: ['ElectronicsAndCommunications', 'SignalProcessing', 'DigitalSignalProcessing']
+---
+
 # 数字信号处理
 
 ## 定义

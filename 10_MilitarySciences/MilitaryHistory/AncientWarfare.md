@@ -1,3 +1,8 @@
+---
+aliases: [AncientWarfare]
+tags: ['MilitaryHistory', 'AncientWarfare']
+---
+
 # 古代战争
 
 ## 概述

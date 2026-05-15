@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Archaeology', 'ArchaeologicalMethods', 'INDEX']
+---
+
 # 考古学方法
 
 本索引汇集了考古学研究方法与技术手段，涵盖田野考古、地层学与科技考古等内容。

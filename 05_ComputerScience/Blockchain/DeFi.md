@@ -1,3 +1,8 @@
+---
+aliases: [DeFi]
+tags: ['Blockchain', 'DeFi']
+---
+
 # 去中心化金融完全指南
 
 ## 概述

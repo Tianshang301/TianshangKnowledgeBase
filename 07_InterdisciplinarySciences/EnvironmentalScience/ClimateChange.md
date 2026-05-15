@@ -1,3 +1,8 @@
+---
+aliases: [ClimateChange]
+tags: ['EnvironmentalScience', 'ClimateChange']
+---
+
 # 气变?
 ## 概述
 

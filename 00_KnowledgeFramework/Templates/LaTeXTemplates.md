@@ -1,3 +1,8 @@
+---
+aliases: [LaTeXTemplates]
+tags: ['Templates', 'LaTeXTemplates']
+---
+
 # LaTeX 模板
 
 收集和整理常用的 LaTeX 文档模板，覆盖论文、报告、演示文稿、作业等常见场景。每个模板附带代码示例和使用说明。

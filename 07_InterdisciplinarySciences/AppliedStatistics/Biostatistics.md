@@ -1,3 +1,8 @@
+---
+aliases: [Biostatistics]
+tags: ['AppliedStatistics', 'Biostatistics']
+---
+
 # 生物统计?
 ## 概述
 

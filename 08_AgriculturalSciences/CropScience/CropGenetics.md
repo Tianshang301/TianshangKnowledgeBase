@@ -1,3 +1,8 @@
+---
+aliases: [CropGenetics]
+tags: ['CropScience', 'CropGenetics']
+---
+
 # 作物遗传学
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [PenetrationTesting]
+tags: ['Cybersecurity', 'PenetrationTesting']
+---
+
 # 渗透测试完全指南
 
 ## 概述

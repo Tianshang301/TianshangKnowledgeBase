@@ -1,3 +1,8 @@
+---
+aliases: [ProtectedHorticulture]
+tags: ['Horticulture', 'ProtectedHorticulture']
+---
+
 # 设施园艺学
 
 ## 概述

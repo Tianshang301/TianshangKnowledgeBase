@@ -1,3 +1,8 @@
+---
+aliases: [UrbanDesign]
+tags: ['CivilEngineering', 'UrbanPlanning', 'UrbanDesign']
+---
+
 # 城市设计
 
 ## 定义

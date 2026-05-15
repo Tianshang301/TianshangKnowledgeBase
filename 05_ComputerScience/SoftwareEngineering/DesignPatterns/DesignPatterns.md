@@ -1,3 +1,8 @@
+---
+aliases: [DesignPatterns]
+tags: ['SoftwareEngineering', 'DesignPatterns', 'DesignPatterns']
+---
+
 # 设计模式
 
 ## 一、设计模式概述

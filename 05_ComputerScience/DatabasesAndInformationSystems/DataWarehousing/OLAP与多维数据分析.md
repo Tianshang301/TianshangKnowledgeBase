@@ -1,3 +1,8 @@
+---
+aliases: [OLAP与多维数据分析]
+tags: ['DatabasesAndInformationSystems', 'DataWarehousing', 'OLAP与多维数据分析']
+---
+
 # OLAP与多维数据分析
 
 ## 一、OLAP概述

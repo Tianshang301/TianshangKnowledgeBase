@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Music', 'Piano', 'INDEX']
+---
+
 # Piano
 
 本索引汇集了 Piano 相关的核心知识文件，涵盖 钢琴基础 - 钢琴基础、钢琴练习曲与技巧 - 钢琴练习曲与技巧 等内容。

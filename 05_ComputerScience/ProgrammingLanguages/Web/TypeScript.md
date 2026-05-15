@@ -1,3 +1,8 @@
+---
+aliases: [TypeScript]
+tags: ['ProgrammingLanguages', 'Web', 'TypeScript']
+---
+
 # TypeScript 快速指南
 
 ## 一、类型系统

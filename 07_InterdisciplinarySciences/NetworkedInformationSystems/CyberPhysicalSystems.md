@@ -1,3 +1,8 @@
+---
+aliases: [CyberPhysicalSystems]
+tags: ['NetworkedInformationSystems', 'CyberPhysicalSystems']
+---
+
 # 信息物理系统
 
 ## 概述

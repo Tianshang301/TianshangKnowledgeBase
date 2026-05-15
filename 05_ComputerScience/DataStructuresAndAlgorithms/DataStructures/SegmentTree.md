@@ -1,3 +1,8 @@
+---
+aliases: [SegmentTree]
+tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'SegmentTree']
+---
+
 # 线段树
 
 ## 基本概念

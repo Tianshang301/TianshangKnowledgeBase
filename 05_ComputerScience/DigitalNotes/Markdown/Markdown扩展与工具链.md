@@ -1,3 +1,8 @@
+---
+aliases: [Markdown扩展与工具链]
+tags: ['DigitalNotes', 'Markdown', 'Markdown扩展与工具链']
+---
+
 # Markdown扩展与工具链
 
 ## 一、Markdown核心语法回顾

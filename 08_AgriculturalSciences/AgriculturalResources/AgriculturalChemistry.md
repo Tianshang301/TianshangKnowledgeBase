@@ -1,3 +1,8 @@
+---
+aliases: [AgriculturalChemistry]
+tags: ['AgriculturalResources', 'AgriculturalChemistry']
+---
+
 # 农业化学
 
 ## 概述

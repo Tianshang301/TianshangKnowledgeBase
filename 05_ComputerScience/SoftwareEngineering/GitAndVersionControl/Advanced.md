@@ -1,3 +1,8 @@
+---
+aliases: [Advanced]
+tags: ['SoftwareEngineering', 'GitAndVersionControl', 'Advanced']
+---
+
 # Git 高级技巧
 
 ## 一、交互式 Rebase

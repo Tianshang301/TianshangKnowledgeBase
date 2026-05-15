@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Biology', 'Ecology', 'INDEX']
+---
+
 # Ecology
 
 本索引汇集了 Ecology 相关的核心知识文件，涵盖 种群与群落生态学、全球变化与生物多样性、生态系统结构与功能 等内容。

@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['PoliticalScience', 'ComparativePolitics', 'INDEX']
+---
+
 # 比较政治学
 
 本索引汇集了比较政治学的理论与各国政治制度分析，涵盖政体类型、选举制度与政党体系等内容。

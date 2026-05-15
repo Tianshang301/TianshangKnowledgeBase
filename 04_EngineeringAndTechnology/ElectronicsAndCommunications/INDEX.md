@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ElectronicsAndCommunications', 'INDEX']
+---
+
 # ElectronicsAndCommunications
 
 本索引汇集了 ElectronicsAndCommunications 相关的核心知识文件，涵盖 AnalogElectronics、AntennaTheory、DigitalSignalProcessing 等内容。

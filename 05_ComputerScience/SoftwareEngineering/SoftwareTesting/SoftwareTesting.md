@@ -1,3 +1,8 @@
+---
+aliases: [SoftwareTesting]
+tags: ['SoftwareEngineering', 'SoftwareTesting', 'SoftwareTesting']
+---
+
 # 软件测试
 
 ## 一、测试基础

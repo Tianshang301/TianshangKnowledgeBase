@@ -1,3 +1,8 @@
+---
+aliases: [Basics]
+tags: ['ProgrammingLanguages', 'Python', 'Basics']
+---
+
 # Python 基础语法详解
 
 ## 一、数据类型

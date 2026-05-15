@@ -1,3 +1,8 @@
+---
+aliases: [KnowledgeManagement]
+tags: ['LibraryAndArchive', 'KnowledgeManagement']
+---
+
 # 知识管理
 
 ## 概述

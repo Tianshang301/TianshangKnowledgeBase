@@ -1,3 +1,8 @@
+---
+aliases: [Music]
+tags: ['Arts_and_Sports', 'Music']
+---
+
 # K12 音乐基础与鉴赏
 
 > 涵盖：音乐基础理论、声乐与器乐、音乐欣赏、中外音乐史

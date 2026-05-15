@@ -1,3 +1,8 @@
+---
+aliases: [Pandas]
+tags: ['ProgrammingLanguages', 'Python', 'Pandas']
+---
+
 # Pandas 快速指南
 
 ## 一、Series 与 DataFrame

@@ -1,3 +1,8 @@
+---
+aliases: [FinancialAccounting]
+tags: ['BusinessAdministration', 'Accounting', 'FinancialAccounting']
+---
+
 # 财务会计
 
 ## 概述

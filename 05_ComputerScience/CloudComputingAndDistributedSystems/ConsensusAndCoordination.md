@@ -1,3 +1,8 @@
+---
+aliases: [ConsensusAndCoordination]
+tags: ['CloudComputingAndDistributedSystems', 'ConsensusAndCoordination']
+---
+
 # 分布式一致性与协调
 
 ## 概述

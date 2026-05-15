@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['JournalismAndCommunication', 'Communication', 'INDEX']
+---
+
 # 传播学
 
 本索引汇集了传播学的基础理论与应用，涵盖传播模式、媒介效果与人际传播等内容。

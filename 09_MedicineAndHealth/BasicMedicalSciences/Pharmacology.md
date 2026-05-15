@@ -1,3 +1,8 @@
+---
+aliases: [Pharmacology]
+tags: ['BasicMedicalSciences', 'Pharmacology']
+---
+
 # 药理学
 
 ## 概述

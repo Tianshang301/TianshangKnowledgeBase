@@ -1,3 +1,8 @@
+---
+aliases: [NumPy]
+tags: ['ProgrammingLanguages', 'Python', 'NumPy']
+---
+
 # NumPy 快速指南
 
 ## 一、ndarray 创建

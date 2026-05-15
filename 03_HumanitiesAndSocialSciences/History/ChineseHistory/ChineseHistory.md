@@ -1,3 +1,8 @@
+---
+aliases: [ChineseHistory]
+tags: ['History', 'ChineseHistory', 'ChineseHistory']
+---
+
 # 中国历史
 
 ## 一、历代王朝概述

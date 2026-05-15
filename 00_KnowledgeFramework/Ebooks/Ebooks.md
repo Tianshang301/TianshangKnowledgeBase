@@ -1,3 +1,8 @@
+---
+aliases: [Ebooks]
+tags: ['Ebooks', 'Ebooks']
+---
+
 # 电子书资源与管理指南
 
 ## 一、电子书格式

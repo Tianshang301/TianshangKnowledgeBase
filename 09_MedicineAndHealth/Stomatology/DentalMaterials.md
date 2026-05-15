@@ -1,3 +1,8 @@
+---
+aliases: [DentalMaterials]
+tags: ['Stomatology', 'DentalMaterials']
+---
+
 # 口腔材料学
 
 ## 概述

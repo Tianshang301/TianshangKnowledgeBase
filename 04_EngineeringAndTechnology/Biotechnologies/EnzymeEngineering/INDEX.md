@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Biotechnologies', 'EnzymeEngineering', 'INDEX']
+---
+
 # 酶工程
 
 本索引汇集了酶工程的基本原理与应用技术，涵盖酶催化机制、固定化酶及工业酶应用等内容。

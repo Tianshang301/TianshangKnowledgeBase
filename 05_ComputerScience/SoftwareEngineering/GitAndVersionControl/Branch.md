@@ -1,3 +1,8 @@
+---
+aliases: [Branch]
+tags: ['SoftwareEngineering', 'GitAndVersionControl', 'Branch']
+---
+
 # Git 分支策略
 
 ## 一、分支概念

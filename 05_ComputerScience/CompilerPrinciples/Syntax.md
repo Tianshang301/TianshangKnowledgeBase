@@ -1,3 +1,8 @@
+---
+aliases: [Syntax]
+tags: ['CompilerPrinciples', 'Syntax']
+---
+
 # 语法分析
 
 ## 一、概述

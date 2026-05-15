@@ -1,3 +1,8 @@
+---
+aliases: [CorporateFinance]
+tags: ['BusinessAdministration', 'Finance', 'CorporateFinance']
+---
+
 # 公司金融
 
 ## 概述

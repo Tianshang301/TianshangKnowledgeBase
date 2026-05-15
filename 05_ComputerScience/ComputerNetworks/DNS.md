@@ -1,3 +1,8 @@
+---
+aliases: [DNS]
+tags: ['ComputerNetworks', 'DNS']
+---
+
 # DNS 深入指南 (DNS In-Depth Guide)
 
 ## 1. 域名层次结构 (Domain Hierarchy)

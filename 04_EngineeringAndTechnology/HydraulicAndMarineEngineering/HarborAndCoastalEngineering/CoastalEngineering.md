@@ -1,3 +1,8 @@
+---
+aliases: [CoastalEngineering]
+tags: ['HydraulicAndMarineEngineering', 'HarborAndCoastalEngineering', 'CoastalEngineering']
+---
+
 # 海岸工程
 
 ## 定义

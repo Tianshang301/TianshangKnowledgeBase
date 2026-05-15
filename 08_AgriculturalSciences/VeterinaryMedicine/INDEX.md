@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['VeterinaryMedicine', 'INDEX']
+---
+
 # VeterinaryMedicine
 
 本索引汇集了 VeterinaryMedicine 相关的核心知识文件，涵盖 VeterinaryInternalMedicine - 兽医内科学：研究消化、呼吸、心血管等系统疾病的诊断与治疗、VeterinaryPathology - 兽医病理学：研究疾病状态下组织器官的形态结构与功能变化、VeterinaryPharmacology - 兽医药理学：研究药物在动物体内的作用机制、代谢与合理用药 等内容。

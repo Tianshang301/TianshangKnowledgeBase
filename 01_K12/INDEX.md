@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['INDEX']
+---
+
 # 01_K12
 
 本索引汇集了 01_K12 相关的核心知识文件，涵盖 LearningPath - K12学习路径总览、JuniorHigh/Biology/INDEX - 生物、JuniorHigh/Chemistry/INDEX - 化学 等内容。

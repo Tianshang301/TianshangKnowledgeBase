@@ -1,3 +1,8 @@
+---
+aliases: [Compose]
+tags: ['SoftwareEngineering', 'DevOpsAndCI_CD', 'Compose']
+---
+
 # Docker Compose 详解
 
 ## 一、Compose 文件结构

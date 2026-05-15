@@ -1,3 +1,8 @@
+---
+aliases: [BestPractices]
+tags: ['SoftwareEngineering', 'DevOpsAndCI_CD', 'BestPractices']
+---
+
 # Docker 生产实践
 
 ## 一、镜像优化

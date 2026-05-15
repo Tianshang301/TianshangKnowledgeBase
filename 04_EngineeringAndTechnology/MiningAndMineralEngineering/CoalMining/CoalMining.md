@@ -1,3 +1,8 @@
+---
+aliases: [CoalMining]
+tags: ['MiningAndMineralEngineering', 'CoalMining', 'CoalMining']
+---
+
 # 煤矿开采
 
 ## 一、煤的形成与分类

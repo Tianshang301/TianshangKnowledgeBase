@@ -1,3 +1,8 @@
+---
+aliases: [FarmingSystems]
+tags: ['CropScience', 'FarmingSystems']
+---
+
 # 耕作学
 
 ## 概述

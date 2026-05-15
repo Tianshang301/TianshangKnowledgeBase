@@ -1,3 +1,8 @@
+---
+aliases: [FoodProcessing]
+tags: ['TextileAndFoodEngineering', 'FoodScience', 'FoodProcessing']
+---
+
 # 食品加工
 
 ## 定义

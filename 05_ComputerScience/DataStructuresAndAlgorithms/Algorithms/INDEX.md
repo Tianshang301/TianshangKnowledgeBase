@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'INDEX']
+---
+
 # Algorithms
 
 本索引汇集了 Algorithms 相关的核心知识文件，涵盖 Backtracking、BFS_DFS、BinarySearch 等内容。

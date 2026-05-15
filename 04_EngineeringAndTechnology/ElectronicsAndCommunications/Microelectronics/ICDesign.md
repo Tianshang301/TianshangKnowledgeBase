@@ -1,3 +1,8 @@
+---
+aliases: [ICDesign]
+tags: ['ElectronicsAndCommunications', 'Microelectronics', 'ICDesign']
+---
+
 # 集成电路设计
 
 ## 定义

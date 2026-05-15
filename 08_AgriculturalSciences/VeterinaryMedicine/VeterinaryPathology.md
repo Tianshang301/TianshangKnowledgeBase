@@ -1,3 +1,8 @@
+---
+aliases: [VeterinaryPathology]
+tags: ['VeterinaryMedicine', 'VeterinaryPathology']
+---
+
 # 兽医病理学
 
 ## 概述

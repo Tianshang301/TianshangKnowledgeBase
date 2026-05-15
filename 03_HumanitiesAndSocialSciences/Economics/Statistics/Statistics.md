@@ -1,3 +1,8 @@
+---
+aliases: [Statistics]
+tags: ['Economics', 'Statistics', 'Statistics']
+---
+
 # 统计学
 
 ## 一、描述统计

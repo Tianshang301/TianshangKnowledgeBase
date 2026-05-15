@@ -1,3 +1,8 @@
+---
+aliases: [RoboticsBasics]
+tags: ['MechanicalAndElectricalEngineering', 'Mechatronics', 'RoboticsBasics']
+---
+
 # 机器人基础
 
 ## 定义

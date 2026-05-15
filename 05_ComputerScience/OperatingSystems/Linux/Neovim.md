@@ -1,3 +1,8 @@
+---
+aliases: [Neovim]
+tags: ['OperatingSystems', 'Linux', 'Neovim']
+---
+
 # Neovim 进阶
 
 ## 一、Neovim vs Vim

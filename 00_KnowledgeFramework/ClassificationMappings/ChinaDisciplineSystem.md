@@ -1,3 +1,8 @@
+---
+aliases: [ChinaDisciplineSystem]
+tags: ['ClassificationMappings', 'ChinaDisciplineSystem']
+---
+
 # 中国高等教育学科门类体系
 
 ## 概述

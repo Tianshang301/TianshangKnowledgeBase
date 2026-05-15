@@ -1,3 +1,8 @@
+---
+aliases: [GPIO]
+tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'STM32', 'GPIO']
+---
+
 # STM32 GPIO 详解
 
 ## 概述

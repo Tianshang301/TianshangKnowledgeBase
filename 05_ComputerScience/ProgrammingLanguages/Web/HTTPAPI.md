@@ -1,3 +1,8 @@
+---
+aliases: [HTTPAPI]
+tags: ['ProgrammingLanguages', 'Web', 'HTTPAPI']
+---
+
 # HTTP 协议与 API 设计
 
 ## 一、HTTP 方法

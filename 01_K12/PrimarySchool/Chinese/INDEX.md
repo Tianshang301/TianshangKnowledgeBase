@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['PrimarySchool', 'Chinese', 'INDEX']
+---
+
 # Chinese
 
 本索引汇集了 Chinese 相关的核心知识文件，涵盖 | [[PinyinAndBasicWriting|拼音、笔画、偏旁部首、识字方法]]、| [[ReadingComprehension|阅读方法、理解能力培养]]、| [[CompositionBasics|看图写话、日记、记叙文]] 等内容。

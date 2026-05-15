@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Mathematics', 'INDEX']
+---
+
 # Mathematics
 
 本索引汇集了 Mathematics 相关的核心知识文件，涵盖 DiscreteMathematics、BasicAlgorithms、ComputationalGeometry 等内容。

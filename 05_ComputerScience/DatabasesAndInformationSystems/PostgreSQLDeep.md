@@ -1,3 +1,8 @@
+---
+aliases: [PostgreSQLDeep]
+tags: ['DatabasesAndInformationSystems', 'PostgreSQLDeep']
+---
+
 # PostgreSQL 指南
 
 ## 一、架构概览

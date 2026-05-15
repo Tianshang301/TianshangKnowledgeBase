@@ -1,3 +1,8 @@
+---
+aliases: [HTML]
+tags: ['ProgrammingLanguages', 'Web', 'HTML']
+---
+
 # HTML5 完整参考
 
 ## 一、文档结构

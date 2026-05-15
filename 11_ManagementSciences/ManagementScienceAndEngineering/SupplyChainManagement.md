@@ -1,3 +1,8 @@
+---
+aliases: [SupplyChainManagement]
+tags: ['ManagementScienceAndEngineering', 'SupplyChainManagement']
+---
+
 # 供应链管理
 
 ## 概述

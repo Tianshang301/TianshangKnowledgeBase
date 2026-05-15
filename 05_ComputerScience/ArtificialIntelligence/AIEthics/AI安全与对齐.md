@@ -1,3 +1,8 @@
+---
+aliases: [AI安全与对齐]
+tags: ['ArtificialIntelligence', 'AIEthics', 'AI安全与对齐']
+---
+
 # AI安全与对齐
 
 ## 一、AI安全的范畴与重要性

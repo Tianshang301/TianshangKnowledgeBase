@@ -1,3 +1,8 @@
+---
+aliases: [README]
+tags: ['OperatingSystems', 'README']
+---
+
 # 操作系统知识索引
 
 ## 目录

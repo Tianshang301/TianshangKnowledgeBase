@@ -1,3 +1,8 @@
+---
+aliases: [UniversityPath]
+tags: ['LearningPaths', 'UniversityPath']
+---
+
 # 大学学习路径规划
 
 ## 概述

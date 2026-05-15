@@ -1,3 +1,8 @@
+---
+aliases: [高速PCB设计要点]
+tags: ['HardwareAndEmbeddedSystems', 'PCB_Design', '高速PCB设计要点']
+---
+
 # 高速PCB设计要点
 
 ## 一、高速信号的定义

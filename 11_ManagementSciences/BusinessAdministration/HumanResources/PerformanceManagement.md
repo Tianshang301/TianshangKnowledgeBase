@@ -1,3 +1,8 @@
+---
+aliases: [PerformanceManagement]
+tags: ['BusinessAdministration', 'HumanResources', 'PerformanceManagement']
+---
+
 # 绩效管理
 
 ## 概述

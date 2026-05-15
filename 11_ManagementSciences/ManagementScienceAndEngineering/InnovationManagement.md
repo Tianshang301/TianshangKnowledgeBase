@@ -1,3 +1,8 @@
+---
+aliases: [InnovationManagement]
+tags: ['ManagementScienceAndEngineering', 'InnovationManagement']
+---
+
 # 创新管理
 
 ## 概述

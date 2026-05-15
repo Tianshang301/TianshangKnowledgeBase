@@ -1,3 +1,8 @@
+---
+aliases: [TrafficEngineering]
+tags: ['TransportationEngineering', 'TrafficInformation', 'TrafficEngineering']
+---
+
 # 交通工程
 
 ## 定义

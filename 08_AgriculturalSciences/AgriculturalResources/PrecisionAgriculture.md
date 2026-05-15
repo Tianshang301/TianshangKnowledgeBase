@@ -1,3 +1,8 @@
+---
+aliases: [PrecisionAgriculture]
+tags: ['AgriculturalResources', 'PrecisionAgriculture']
+---
+
 # 精准农业
 
 ## 概述

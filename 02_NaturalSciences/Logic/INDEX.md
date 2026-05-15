@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Logic', 'INDEX']
+---
+
 # 逻辑学知识索引
 
 ## 学科概览

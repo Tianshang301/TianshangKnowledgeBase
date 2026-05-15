@@ -1,3 +1,8 @@
+---
+aliases: [PoliticalTheory]
+tags: ['PoliticalScience', 'PoliticalTheory', 'PoliticalTheory']
+---
+
 # 政治理论
 
 ## 一、社会契约论

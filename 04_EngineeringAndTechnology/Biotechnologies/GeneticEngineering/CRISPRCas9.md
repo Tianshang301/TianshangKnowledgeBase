@@ -1,3 +1,8 @@
+---
+aliases: [CRISPRCas9]
+tags: ['Biotechnologies', 'GeneticEngineering', 'CRISPRCas9']
+---
+
 # CRISPR-Cas9基因编辑
 
 ## 定义

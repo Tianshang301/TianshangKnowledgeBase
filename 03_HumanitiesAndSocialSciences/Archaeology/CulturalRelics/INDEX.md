@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Archaeology', 'CulturalRelics', 'INDEX']
+---
+
 # 文物学
 
 本索引汇集了文物学相关的知识文件，涵盖文物鉴定、保护修复及文化遗产管理等内容。

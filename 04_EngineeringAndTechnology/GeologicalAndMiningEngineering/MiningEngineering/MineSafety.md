@@ -1,3 +1,8 @@
+---
+aliases: [MineSafety]
+tags: ['GeologicalAndMiningEngineering', 'MiningEngineering', 'MineSafety']
+---
+
 # 矿山安全
 
 ## 定义

@@ -1,3 +1,8 @@
+---
+aliases: [Demography]
+tags: ['Sociology', 'Demography', 'Demography']
+---
+
 # 人口学
 
 ## 一、基本测量指标

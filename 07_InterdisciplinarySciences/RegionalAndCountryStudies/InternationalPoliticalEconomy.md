@@ -1,3 +1,8 @@
+---
+aliases: [InternationalPoliticalEconomy]
+tags: ['RegionalAndCountryStudies', 'InternationalPoliticalEconomy']
+---
+
 # 国际政治经济?
 ## 概述
 

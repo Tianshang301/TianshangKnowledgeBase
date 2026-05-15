@@ -1,3 +1,8 @@
+---
+aliases: [Ethics]
+tags: ['Philosophy', 'Ethics', 'Ethics']
+---
+
 # 伦理学
 
 ## 一、元伦理学

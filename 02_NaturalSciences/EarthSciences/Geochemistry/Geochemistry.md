@@ -1,3 +1,8 @@
+---
+aliases: [Geochemistry]
+tags: ['EarthSciences', 'Geochemistry', 'Geochemistry']
+---
+
 # 地球化学
 
 ## 一、地球化学基础

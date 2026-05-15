@@ -1,3 +1,8 @@
+---
+aliases: [TCMDiagnostics]
+tags: ['TraditionalChineseMedicine', 'TCMDiagnostics']
+---
+
 # 中医诊断学
 
 ## 概述

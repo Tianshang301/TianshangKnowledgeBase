@@ -1,3 +1,8 @@
+---
+aliases: [MedicalParasitology]
+tags: ['BasicMedicalSciences', 'MedicalParasitology']
+---
+
 # 医学寄生虫学
 
 ## 概述

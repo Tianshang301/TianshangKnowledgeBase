@@ -1,3 +1,8 @@
+---
+aliases: [HydrogenEnergy]
+tags: ['EnergyAndNuclearEngineering', 'RenewableEnergy', 'HydrogenEnergy']
+---
+
 # 氢能
 
 ## 定义

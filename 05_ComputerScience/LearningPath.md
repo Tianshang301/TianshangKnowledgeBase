@@ -1,3 +1,8 @@
+---
+aliases: [LearningPath]
+tags: ['LearningPath']
+---
+
 # 计算机科学学习路线图
 
 ## 入门阶段 (Beginner)

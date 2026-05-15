@@ -1,3 +1,8 @@
+---
+aliases: [ScienceAndSociety]
+tags: ['Philosophy', 'PhilosophyOfScience', 'ScienceAndSociety']
+---
+
 # 科学与社会
 
 ## 一、科学的社会规范

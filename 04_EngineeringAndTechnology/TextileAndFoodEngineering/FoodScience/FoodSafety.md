@@ -1,3 +1,8 @@
+---
+aliases: [FoodSafety]
+tags: ['TextileAndFoodEngineering', 'FoodScience', 'FoodSafety']
+---
+
 # 食品安全
 
 ## 定义

@@ -1,3 +1,8 @@
+---
+aliases: [GISFundamentals]
+tags: ['SurveyingAndMappingScience', 'Cartography', 'GISFundamentals']
+---
+
 # 地理信息系统
 
 ## 定义

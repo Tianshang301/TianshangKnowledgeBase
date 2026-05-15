@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['OperatingSystems', 'Linux', 'INDEX']
+---
+
 # Linux
 
 本索引汇集了 Linux 相关的核心知识文件，涵盖 LinuxAdministration、LinuxKernel、ShellScripting 等内容。

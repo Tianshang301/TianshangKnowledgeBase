@@ -1,3 +1,8 @@
+---
+aliases: [CompositionBasics]
+tags: ['PrimarySchool', 'Chinese', 'CompositionBasics']
+---
+
 # 作文基础
 
 ## 概述

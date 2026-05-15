@@ -1,3 +1,8 @@
+---
+aliases: [SportsMassageAndManualTherapy]
+tags: ['SportsMedicine', 'SportsMassageAndManualTherapy']
+---
+
 # 运动按摩与手法治疗
 
 ## 概述

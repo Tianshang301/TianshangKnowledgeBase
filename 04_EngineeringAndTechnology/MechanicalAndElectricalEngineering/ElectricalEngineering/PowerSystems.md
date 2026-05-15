@@ -1,3 +1,8 @@
+---
+aliases: [PowerSystems]
+tags: ['MechanicalAndElectricalEngineering', 'ElectricalEngineering', 'PowerSystems']
+---
+
 # 电力系统
 
 ## 定义

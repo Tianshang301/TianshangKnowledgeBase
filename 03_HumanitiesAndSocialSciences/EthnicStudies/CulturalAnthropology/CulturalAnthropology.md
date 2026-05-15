@@ -1,3 +1,8 @@
+---
+aliases: [CulturalAnthropology]
+tags: ['EthnicStudies', 'CulturalAnthropology', 'CulturalAnthropology']
+---
+
 # 文化人类学
 
 ## 一、人类学的分支领域

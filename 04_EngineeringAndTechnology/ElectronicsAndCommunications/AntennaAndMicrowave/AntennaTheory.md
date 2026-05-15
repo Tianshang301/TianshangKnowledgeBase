@@ -1,3 +1,8 @@
+---
+aliases: [AntennaTheory]
+tags: ['ElectronicsAndCommunications', 'AntennaAndMicrowave', 'AntennaTheory']
+---
+
 # 天线理论
 
 ## 定义

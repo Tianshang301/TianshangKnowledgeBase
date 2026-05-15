@@ -1,3 +1,8 @@
+---
+aliases: [DiscreteMathematics]
+tags: ['Mathematics', 'DiscreteMathematics']
+---
+
 # 离散数学
 
 ## 学科定义

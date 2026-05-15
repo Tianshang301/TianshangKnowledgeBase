@@ -1,3 +1,8 @@
+---
+aliases: [WaterResources]
+tags: ['HydraulicAndMarineEngineering', 'HydraulicEngineering', 'WaterResources']
+---
+
 # 水资源
 
 ## 定义

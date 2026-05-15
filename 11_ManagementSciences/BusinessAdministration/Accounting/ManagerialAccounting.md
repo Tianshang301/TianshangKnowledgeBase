@@ -1,3 +1,8 @@
+---
+aliases: [ManagerialAccounting]
+tags: ['BusinessAdministration', 'Accounting', 'ManagerialAccounting']
+---
+
 # 管理会计
 
 ## 概述

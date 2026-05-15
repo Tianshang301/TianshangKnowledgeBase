@@ -1,3 +1,8 @@
+---
+aliases: [ThermalPower]
+tags: ['MechanicalAndElectricalEngineering', 'PowerEngineering', 'ThermalPower']
+---
+
 # 火力发电
 
 ## 定义

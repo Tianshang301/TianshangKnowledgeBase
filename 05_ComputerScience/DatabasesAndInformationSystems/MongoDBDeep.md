@@ -1,3 +1,8 @@
+---
+aliases: [MongoDBDeep]
+tags: ['DatabasesAndInformationSystems', 'MongoDBDeep']
+---
+
 # MongoDB NoSQL 指南
 
 ## 一、概述

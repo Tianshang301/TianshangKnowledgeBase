@@ -1,3 +1,8 @@
+---
+aliases: [ASPNET]
+tags: ['ProgrammingLanguages', 'CSharp', 'ASPNET']
+---
+
 # ASP.NET Core 指南
 
 ## Program.cs 与 Startup 配置

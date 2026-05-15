@@ -1,3 +1,8 @@
+---
+aliases: [DefenseMobilization]
+tags: ['NationalDefense', 'DefenseMobilization']
+---
+
 # 国防动员
 
 ## 概述

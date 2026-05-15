@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Music', 'MusicHistory', 'INDEX']
+---
+
 # MusicHistory
 
 本索引汇集了 MusicHistory 相关的核心知识文件，涵盖 Harmony、MusicalForm、ArtHistory 等内容。

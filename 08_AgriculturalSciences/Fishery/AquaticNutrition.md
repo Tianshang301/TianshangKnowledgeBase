@@ -1,3 +1,8 @@
+---
+aliases: [AquaticNutrition]
+tags: ['Fishery', 'AquaticNutrition']
+---
+
 # 水产营养与饲料
 
 ## 概述

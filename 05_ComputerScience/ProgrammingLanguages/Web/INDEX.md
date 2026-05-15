@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ProgrammingLanguages', 'Web', 'INDEX']
+---
+
 # Web
 
 本索引汇集了 Web 相关的核心知识文件，涵盖 CSS、HTML、JavaScript 等内容。

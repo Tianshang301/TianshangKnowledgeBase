@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Sociology', 'SocialPsychology', 'INDEX']
+---
+
 # 社会心理学
 
 本索引汇集了社会心理学的主要理论与实证研究，涵盖社会认知、群体行为与人际关系等内容。

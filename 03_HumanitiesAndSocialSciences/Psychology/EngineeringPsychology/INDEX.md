@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Psychology', 'EngineeringPsychology', 'INDEX']
+---
+
 # 工程心理学
 
 本索引汇集了工程心理学与人因工程相关知识，涵盖人机交互、工作负荷与系统设计等内容。

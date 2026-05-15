@@ -1,3 +1,8 @@
+---
+aliases: [Anatomy]
+tags: ['BasicMedicalSciences', 'Anatomy']
+---
+
 # 人体解剖学
 
 ## 概述

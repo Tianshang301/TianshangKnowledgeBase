@@ -1,3 +1,8 @@
+---
+aliases: [CognitivePsychology]
+tags: ['CognitiveScience', 'CognitivePsychology']
+---
+
 # 认知心理?
 ## 概述
 

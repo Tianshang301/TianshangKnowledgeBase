@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'GreedyAlgorithms', 'INDEX']
+---
+
 # 贪心算法
 
 本索引汇集了贪心算法的设计思想与应用场景，涵盖区间调度、哈夫曼编码等经典问题。

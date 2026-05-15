@@ -1,3 +1,8 @@
+---
+aliases: [HRMPrinciples]
+tags: ['BusinessAdministration', 'HumanResources', 'HRMPrinciples']
+---
+
 # 人力资源管理原理
 
 ## 概述

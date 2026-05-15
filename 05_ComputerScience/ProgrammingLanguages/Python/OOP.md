@@ -1,3 +1,8 @@
+---
+aliases: [OOP]
+tags: ['ProgrammingLanguages', 'Python', 'OOP']
+---
+
 # Python 面向对象编程
 
 ## 一、类与实例

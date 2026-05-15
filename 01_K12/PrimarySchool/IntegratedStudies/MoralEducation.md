@@ -1,3 +1,8 @@
+---
+aliases: [MoralEducation]
+tags: ['PrimarySchool', 'IntegratedStudies', 'MoralEducation']
+---
+
 # 道德与法治基础
 
 ## 概述

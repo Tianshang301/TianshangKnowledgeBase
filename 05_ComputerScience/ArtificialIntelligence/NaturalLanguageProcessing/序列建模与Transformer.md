@@ -1,3 +1,8 @@
+---
+aliases: [序列建模与Transformer]
+tags: ['ArtificialIntelligence', 'NaturalLanguageProcessing', '序列建模与Transformer']
+---
+
 # 序列建模与Transformer
 
 ## 一、序列建模问题定义

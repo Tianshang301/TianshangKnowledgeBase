@@ -1,3 +1,8 @@
+---
+aliases: [ElectricityBasics]
+tags: ['JuniorHigh', 'Physics', 'ElectricityBasics']
+---
+
 # 电学基础
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [Lexical]
+tags: ['CompilerPrinciples', 'Lexical']
+---
+
 # 词法分析
 
 ## 一、概述

@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ArtificialIntelligence', 'KnowledgeRepresentation', 'INDEX']
+---
+
 # 知识表示
 
 本索引汇集了知识表示的主要方法与形式化框架，涵盖本体论、语义网络及知识图谱等内容。

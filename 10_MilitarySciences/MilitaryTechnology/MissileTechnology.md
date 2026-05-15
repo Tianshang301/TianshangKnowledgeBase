@@ -1,3 +1,8 @@
+---
+aliases: [MissileTechnology]
+tags: ['MilitaryTechnology', 'MissileTechnology']
+---
+
 # 导弹技术
 
 ## 概述

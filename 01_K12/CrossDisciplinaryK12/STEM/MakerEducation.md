@@ -1,3 +1,8 @@
+---
+aliases: [MakerEducation]
+tags: ['CrossDisciplinaryK12', 'STEM', 'MakerEducation']
+---
+
 # 创客教育
 
 ## 概述

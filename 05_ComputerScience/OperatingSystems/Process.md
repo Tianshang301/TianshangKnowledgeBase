@@ -1,3 +1,8 @@
+---
+aliases: [Process]
+tags: ['OperatingSystems', 'Process']
+---
+
 # 进程管理详解 (Process Management)
 
 ## 1. 进程概念 (Process Concept)

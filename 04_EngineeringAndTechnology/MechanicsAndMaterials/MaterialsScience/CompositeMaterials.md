@@ -1,3 +1,8 @@
+---
+aliases: [CompositeMaterials]
+tags: ['MechanicsAndMaterials', 'MaterialsScience', 'CompositeMaterials']
+---
+
 # 复合材料
 
 ## 定义

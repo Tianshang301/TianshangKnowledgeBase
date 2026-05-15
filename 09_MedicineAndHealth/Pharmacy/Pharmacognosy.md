@@ -1,3 +1,8 @@
+---
+aliases: [Pharmacognosy]
+tags: ['Pharmacy', 'Pharmacognosy']
+---
+
 # 生药学
 
 ## 概述

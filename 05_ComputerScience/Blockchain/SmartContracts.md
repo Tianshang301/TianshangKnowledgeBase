@@ -1,3 +1,8 @@
+---
+aliases: [SmartContracts]
+tags: ['Blockchain', 'SmartContracts']
+---
+
 # 智能合约完全指南
 
 ## 概述

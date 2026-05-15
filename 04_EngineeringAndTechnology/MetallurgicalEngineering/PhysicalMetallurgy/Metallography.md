@@ -1,3 +1,8 @@
+---
+aliases: [Metallography]
+tags: ['MetallurgicalEngineering', 'PhysicalMetallurgy', 'Metallography']
+---
+
 # 金相分析
 
 ## 定义

@@ -1,3 +1,8 @@
+---
+aliases: [CPUArchitecture]
+tags: ['ComputerOrganizationAndArchitecture', 'CPUArchitecture', 'CPUArchitecture']
+---
+
 # CPU 架构 (CPU Architecture)
 
 ## 1. CPU 内部结构

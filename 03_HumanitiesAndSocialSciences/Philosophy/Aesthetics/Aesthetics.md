@@ -1,3 +1,8 @@
+---
+aliases: [Aesthetics]
+tags: ['Philosophy', 'Aesthetics', 'Aesthetics']
+---
+
 # 美学
 
 ## 一、古典美学

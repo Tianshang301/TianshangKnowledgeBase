@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['EthnicStudies', 'CulturalAnthropology', 'INDEX']
+---
+
 # 文化人类学
 
 本索引汇集了文化人类学的核心概念与研究方法，涵盖文化变迁、亲属制度与宗教仪式等内容。

@@ -1,3 +1,8 @@
+---
+aliases: [SequenceAlignment]
+tags: ['Bioinformatics', 'SequenceAlignment']
+---
+
 # 序列比对
 
 ## 概述

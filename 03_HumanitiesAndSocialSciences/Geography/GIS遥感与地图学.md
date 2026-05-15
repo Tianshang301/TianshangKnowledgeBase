@@ -1,3 +1,8 @@
+---
+aliases: [GIS遥感与地图学]
+tags: ['Geography', 'GIS遥感与地图学']
+---
+
 # GIS、遥感与地图学
 
 ## 一、地理信息系统

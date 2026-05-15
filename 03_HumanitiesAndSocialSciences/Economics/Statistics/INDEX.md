@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Economics', 'Statistics', 'INDEX']
+---
+
 # 统计学
 
 本索引汇集了统计学基础理论与方法，涵盖描述统计、推断统计及数据分析技术等内容。

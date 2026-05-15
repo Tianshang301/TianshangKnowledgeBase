@@ -1,3 +1,8 @@
+---
+aliases: [Silviculture]
+tags: ['Forestry', 'Silviculture']
+---
+
 # 造林学
 
 ## 概述

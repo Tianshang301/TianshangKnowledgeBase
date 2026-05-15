@@ -1,3 +1,8 @@
+---
+aliases: [Combustion]
+tags: ['EngineeringFundamentals', 'EngineeringThermophysics', 'Combustion']
+---
+
 # 燃烧学
 
 ## 定义

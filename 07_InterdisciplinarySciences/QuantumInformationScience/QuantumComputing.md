@@ -1,3 +1,8 @@
+---
+aliases: [QuantumComputing]
+tags: ['QuantumInformationScience', 'QuantumComputing']
+---
+
 # 量子计算
 
 ## 概述

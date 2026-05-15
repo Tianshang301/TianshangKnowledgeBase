@@ -1,3 +1,8 @@
+---
+aliases: [AdvancedStellarAstrophysics]
+tags: ['Astronomy', 'StellarAstrophysics', 'AdvancedStellarAstrophysics']
+---
+
 # 恒星天体物理进阶
 
 ## 一、恒星结构方程

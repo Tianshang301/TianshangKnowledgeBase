@@ -1,3 +1,8 @@
+---
+aliases: [K12Path]
+tags: ['LearningPaths', 'K12Path']
+---
+
 # K12学习路径规划
 
 ## 概述

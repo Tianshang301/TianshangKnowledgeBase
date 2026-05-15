@@ -1,3 +1,8 @@
+---
+aliases: [ClassicalControl]
+tags: ['ControlAndSystemsEngineering', 'ControlTheory', 'ClassicalControl']
+---
+
 # 经典控制
 
 ## 定义

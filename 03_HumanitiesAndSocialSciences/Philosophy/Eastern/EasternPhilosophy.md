@@ -1,3 +1,8 @@
+---
+aliases: [EasternPhilosophy]
+tags: ['Philosophy', 'Eastern', 'EasternPhilosophy']
+---
+
 # 东方哲学
 
 ## 一、印度哲学

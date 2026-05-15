@@ -1,3 +1,8 @@
+---
+aliases: [Dijkstra]
+tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'Dijkstra']
+---
+
 # Dijkstra 最短路径算法
 
 ## 算法思想

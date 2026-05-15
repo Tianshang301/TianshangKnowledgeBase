@@ -1,3 +1,8 @@
+---
+aliases: [SpacePhysics]
+tags: ['Astronomy', 'SpacePhysics', 'SpacePhysics']
+---
+
 # 空间物理学
 
 ## 一、太阳物理学

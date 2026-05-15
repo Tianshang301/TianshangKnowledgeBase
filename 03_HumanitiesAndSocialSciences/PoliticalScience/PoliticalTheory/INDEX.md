@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['PoliticalScience', 'PoliticalTheory', 'INDEX']
+---
+
 # 政治理论
 
 本索引汇集了政治思想史与政治哲学的核心内容，涵盖经典政治理论与当代思潮。

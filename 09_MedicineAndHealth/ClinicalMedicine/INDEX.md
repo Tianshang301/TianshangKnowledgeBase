@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ClinicalMedicine', 'INDEX']
+---
+
 # ClinicalMedicine
 
 本索引汇集了 ClinicalMedicine 相关的核心知识文件，涵盖 ClinicalDiagnosis — 临床诊断学：诊断方法与逻辑、DiagnosticImaging — 影像诊断学：医学影像技术、EmergencyMedicine — 急诊医学：急危重症救治 等内容。

@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['DatabasesAndInformationSystems', 'INDEX']
+---
+
 # DatabasesAndInformationSystems
 
 本索引汇集了 DatabasesAndInformationSystems 相关的核心知识文件，涵盖 > 快速参考指南：[[README]]、README - 数据库与信息系统概述、MongoDB_Deep - MongoDB深入 等内容。

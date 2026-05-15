@@ -1,3 +1,8 @@
+---
+aliases: [MATLAB]
+tags: ['ProgrammingLanguages', 'MATLAB', 'MATLAB']
+---
+
 # MATLAB
 
 ## 一、MATLAB 环境

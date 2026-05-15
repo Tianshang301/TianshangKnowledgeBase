@@ -1,3 +1,8 @@
+---
+aliases: [Memory]
+tags: ['ProgrammingLanguages', 'C_Cpp', 'Memory']
+---
+
 # C++ 内存模型
 
 ## 内存布局

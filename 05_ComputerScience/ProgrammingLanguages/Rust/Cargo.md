@@ -1,3 +1,8 @@
+---
+aliases: [Cargo]
+tags: ['ProgrammingLanguages', 'Rust', 'Cargo']
+---
+
 # Rust 包管理与 Cargo
 
 ## Cargo 常用命令

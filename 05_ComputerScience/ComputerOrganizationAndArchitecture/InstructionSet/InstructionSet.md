@@ -1,3 +1,8 @@
+---
+aliases: [InstructionSet]
+tags: ['ComputerOrganizationAndArchitecture', 'InstructionSet', 'InstructionSet']
+---
+
 # 指令集 (Instruction Set Architecture)
 
 ## 1. ISA 设计原则

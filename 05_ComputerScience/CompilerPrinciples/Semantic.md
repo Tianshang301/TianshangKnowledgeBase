@@ -1,3 +1,8 @@
+---
+aliases: [Semantic]
+tags: ['CompilerPrinciples', 'Semantic']
+---
+
 # 语义分析
 
 ## 一、概述

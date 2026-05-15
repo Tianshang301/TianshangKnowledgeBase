@@ -1,3 +1,8 @@
+---
+aliases: [MarineBiology]
+tags: ['Fishery', 'MarineBiology']
+---
+
 # 海洋生物学
 
 ## 概述

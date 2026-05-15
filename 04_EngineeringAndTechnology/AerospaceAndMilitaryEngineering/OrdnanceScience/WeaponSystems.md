@@ -1,3 +1,8 @@
+---
+aliases: [WeaponSystems]
+tags: ['AerospaceAndMilitaryEngineering', 'OrdnanceScience', 'WeaponSystems']
+---
+
 # 武器系统
 
 ## 定义

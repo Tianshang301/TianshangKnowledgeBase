@@ -1,3 +1,8 @@
+---
+aliases: [SlidingWindow]
+tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'SlidingWindow']
+---
+
 # 滑动窗口详解
 
 ## 基本概念

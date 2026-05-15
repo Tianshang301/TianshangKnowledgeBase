@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Chemistry', 'EnvironmentalChemistry', 'INDEX']
+---
+
 # EnvironmentalChemistry
 
 本索引汇集了 EnvironmentalChemistry 相关的核心知识文件，涵盖 大气化学与污染、水体与土壤化学、环境监测与修复 等内容。

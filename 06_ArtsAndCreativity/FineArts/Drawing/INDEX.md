@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['FineArts', 'Drawing', 'INDEX']
+---
+
 # Drawing
 
 本索引汇集了 Drawing 相关的核心知识文件，涵盖 人体素描与透视原理 - 人体素描与透视原理、素描技法 - 素描技法 等内容。

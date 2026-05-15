@@ -1,3 +1,8 @@
+---
+aliases: [ExperimentalDesign]
+tags: ['AppliedStatistics', 'ExperimentalDesign']
+---
+
 # 实验设计
 
 ## 概述

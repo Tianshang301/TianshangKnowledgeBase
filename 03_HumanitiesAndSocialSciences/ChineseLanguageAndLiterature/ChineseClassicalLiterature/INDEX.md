@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ChineseLanguageAndLiterature', 'ChineseClassicalLiterature', 'INDEX']
+---
+
 # 中国古典文学
 
 本索引汇集了中国古典文学的核心知识与经典作品导读，涵盖诗词、散文与小说等体裁。

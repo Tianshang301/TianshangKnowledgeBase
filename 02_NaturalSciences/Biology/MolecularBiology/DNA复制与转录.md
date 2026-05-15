@@ -1,3 +1,8 @@
+---
+aliases: [DNA复制与转录]
+tags: ['Biology', 'MolecularBiology', 'DNA复制与转录']
+---
+
 # DNA 复制与转录详解
 
 ## 一、DNA 双螺旋结构

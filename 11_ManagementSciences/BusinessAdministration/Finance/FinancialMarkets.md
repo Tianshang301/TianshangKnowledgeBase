@@ -1,3 +1,8 @@
+---
+aliases: [FinancialMarkets]
+tags: ['BusinessAdministration', 'Finance', 'FinancialMarkets']
+---
+
 # 金融市场
 
 ## 概述

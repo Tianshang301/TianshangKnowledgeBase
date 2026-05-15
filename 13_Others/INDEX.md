@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['INDEX']
+---
+
 # 13_Others
 
 本索引汇集了 13_Others 相关的核心知识文件，涵盖 AcademicWriting/AcademicWriting - 学术写作、AcademicWriting/论文选题与文献综述 - 论文选题与文献综述、HealthAndWellness/HealthAndWellness - 健康与养生 等内容。

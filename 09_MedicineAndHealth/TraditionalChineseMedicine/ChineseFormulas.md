@@ -1,3 +1,8 @@
+---
+aliases: [ChineseFormulas]
+tags: ['TraditionalChineseMedicine', 'ChineseFormulas']
+---
+
 # 方剂学
 
 ## 概述

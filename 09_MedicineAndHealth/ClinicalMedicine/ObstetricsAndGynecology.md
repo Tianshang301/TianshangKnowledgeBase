@@ -1,3 +1,8 @@
+---
+aliases: [ObstetricsAndGynecology]
+tags: ['ClinicalMedicine', 'ObstetricsAndGynecology']
+---
+
 # 妇产科学
 
 ## 概述

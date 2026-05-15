@@ -1,3 +1,8 @@
+---
+aliases: [FluidMechanics]
+tags: ['MechanicsAndMaterials', 'Mechanics', 'FluidMechanics']
+---
+
 # 流体力学
 
 ## 定义

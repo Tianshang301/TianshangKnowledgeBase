@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['MetallurgicalEngineering', 'PhysicalMetallurgy', 'INDEX']
+---
+
 # PhysicalMetallurgy
 
 本索引汇集了 PhysicalMetallurgy 相关的核心知识文件，涵盖 Metallography、PhaseTransformations 等内容。

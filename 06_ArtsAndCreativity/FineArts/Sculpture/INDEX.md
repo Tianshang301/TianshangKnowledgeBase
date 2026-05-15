@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['FineArts', 'Sculpture', 'INDEX']
+---
+
 # Sculpture
 
 本索引汇集了 Sculpture 相关的核心知识文件，涵盖 雕塑史与名作 - 雕塑史与名作、雕塑技法与材料 - 雕塑技法与材料 等内容。

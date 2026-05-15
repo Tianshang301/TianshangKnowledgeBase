@@ -1,3 +1,8 @@
+---
+aliases: [StatisticalLearning]
+tags: ['AppliedStatistics', 'StatisticalLearning']
+---
+
 # 统计学习
 
 ## 概述

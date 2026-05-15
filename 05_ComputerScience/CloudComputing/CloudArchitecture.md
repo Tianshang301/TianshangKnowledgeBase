@@ -1,3 +1,8 @@
+---
+aliases: [CloudArchitecture]
+tags: ['CloudComputing', 'CloudArchitecture']
+---
+
 # 云架构
 
 > 云架构是指云计算系统的组件和子组件的组织方式，包括前端、后端、网络和云基础设施。

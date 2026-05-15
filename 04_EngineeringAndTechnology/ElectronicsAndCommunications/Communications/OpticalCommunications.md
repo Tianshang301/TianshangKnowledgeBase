@@ -1,3 +1,8 @@
+---
+aliases: [OpticalCommunications]
+tags: ['ElectronicsAndCommunications', 'Communications', 'OpticalCommunications']
+---
+
 # 光通信
 
 ## 定义

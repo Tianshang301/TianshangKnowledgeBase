@@ -1,3 +1,8 @@
+---
+aliases: [ChemicalBonds]
+tags: ['JuniorHigh', 'Chemistry', 'ChemicalBonds']
+---
+
 # 化学键
 ## 概述
 

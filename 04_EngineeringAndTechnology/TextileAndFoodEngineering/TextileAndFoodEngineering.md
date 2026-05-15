@@ -1,3 +1,8 @@
+---
+aliases: [TextileAndFoodEngineering]
+tags: ['TextileAndFoodEngineering', 'TextileAndFoodEngineering']
+---
+
 # 纺织与食品工程
 
 ## 概述

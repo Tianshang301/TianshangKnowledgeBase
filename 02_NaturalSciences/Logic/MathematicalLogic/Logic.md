@@ -1,3 +1,8 @@
+---
+aliases: [Logic]
+tags: ['Logic', 'MathematicalLogic', 'Logic']
+---
+
 # 数理逻辑详解
 
 ## 一、命题逻辑 (Propositional Logic)

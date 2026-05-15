@@ -1,3 +1,8 @@
+---
+aliases: [Ethnology]
+tags: ['Sociology', 'Ethnology', 'Ethnology']
+---
+
 # 民族社会学
 
 ## 一、基本概念

@@ -1,3 +1,8 @@
+---
+aliases: [Timer]
+tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'STM32', 'Timer']
+---
+
 # STM32 定时器详解
 
 ## 定时器类型

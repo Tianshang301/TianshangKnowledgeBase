@@ -1,3 +1,8 @@
+---
+aliases: [BusinessStatistics]
+tags: ['AppliedStatistics', 'BusinessStatistics']
+---
+
 # 商业统计
 
 ## 概述

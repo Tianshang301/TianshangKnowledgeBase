@@ -1,3 +1,8 @@
+---
+aliases: [ModernCpp]
+tags: ['ProgrammingLanguages', 'C_Cpp', 'ModernCpp']
+---
+
 # C++11/14/17/20/23 新特性
 
 ## C++11

@@ -1,3 +1,8 @@
+---
+aliases: [IoT]
+tags: ['HardwareAndEmbeddedSystems', 'IoT', 'IoT']
+---
+
 # 物联网（IoT）
 
 ## 一、IoT 架构

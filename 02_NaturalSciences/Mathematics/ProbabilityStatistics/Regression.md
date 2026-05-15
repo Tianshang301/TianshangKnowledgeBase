@@ -1,3 +1,8 @@
+---
+aliases: [Regression]
+tags: ['Mathematics', 'ProbabilityStatistics', 'Regression']
+---
+
 # 回归分析
 
 ## 一、简单线性回归

@@ -1,3 +1,8 @@
+---
+aliases: [Grammar]
+tags: ['ForeignLanguagesAndLiteratures', 'Japanese', 'Grammar']
+---
+
 # 日语语法详解
 
 ## 句子结构 (SOV)

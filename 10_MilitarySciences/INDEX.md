@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['INDEX']
+---
+
 # 10_MilitarySciences
 
 本索引汇集了 10_MilitarySciences 相关的核心知识文件，涵盖 AncientWarfare - 古代战争史、ChineseMilitaryHistory - 中国军事史、ModernWarfare - 现代战争史 等内容。

@@ -1,3 +1,8 @@
+---
+aliases: [StealthTechnology]
+tags: ['MilitaryTechnology', 'StealthTechnology']
+---
+
 # 隐身技术
 
 ## 概述

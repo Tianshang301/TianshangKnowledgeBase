@@ -1,3 +1,8 @@
+---
+aliases: [QuaternaryGeology]
+tags: ['EarthSciences', 'QuaternaryGeology', 'QuaternaryGeology']
+---
+
 # 第四纪地质学
 
 ## 一、第四纪概述

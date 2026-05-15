@@ -1,3 +1,8 @@
+---
+aliases: [EngineeringDesign]
+tags: ['CrossDisciplinaryK12', 'STEM', 'EngineeringDesign']
+---
+
 # 工程设计
 
 ## 概述

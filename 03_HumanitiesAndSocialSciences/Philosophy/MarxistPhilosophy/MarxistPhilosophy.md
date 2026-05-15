@@ -1,3 +1,8 @@
+---
+aliases: [MarxistPhilosophy]
+tags: ['Philosophy', 'MarxistPhilosophy', 'MarxistPhilosophy']
+---
+
 # 马克思主义哲学
 
 ## 一、辩证唯物主义

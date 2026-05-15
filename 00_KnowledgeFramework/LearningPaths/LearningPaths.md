@@ -1,3 +1,8 @@
+---
+aliases: [LearningPaths]
+tags: ['LearningPaths', 'LearningPaths']
+---
+
 # 学习路径
 
 ## 概述

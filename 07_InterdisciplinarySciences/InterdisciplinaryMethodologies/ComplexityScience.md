@@ -1,3 +1,8 @@
+---
+aliases: [ComplexityScience]
+tags: ['InterdisciplinaryMethodologies', 'ComplexityScience']
+---
+
 # 复杂性科?
 ## 概述
 

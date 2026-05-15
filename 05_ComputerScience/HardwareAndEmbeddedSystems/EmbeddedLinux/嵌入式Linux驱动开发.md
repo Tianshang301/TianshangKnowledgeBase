@@ -1,3 +1,8 @@
+---
+aliases: [嵌入式Linux驱动开发]
+tags: ['HardwareAndEmbeddedSystems', 'EmbeddedLinux', '嵌入式Linux驱动开发']
+---
+
 # 嵌入式Linux驱动开发
 
 ## 一、Linux驱动基础

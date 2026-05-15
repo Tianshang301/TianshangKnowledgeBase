@@ -1,3 +1,8 @@
+---
+aliases: [RFEngineering]
+tags: ['ElectronicsAndCommunications', 'Electronics', 'RFEngineering']
+---
+
 # 射频工程
 
 ## 定义

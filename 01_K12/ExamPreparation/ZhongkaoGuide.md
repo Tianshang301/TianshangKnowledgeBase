@@ -1,3 +1,8 @@
+---
+aliases: [ZhongkaoGuide]
+tags: ['ExamPreparation', 'ZhongkaoGuide']
+---
+
 # 中考备考指南
 ## 概述
 

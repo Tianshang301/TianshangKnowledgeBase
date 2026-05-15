@@ -1,3 +1,8 @@
+---
+aliases: [Ecology]
+tags: ['EnvironmentalScience', 'Ecology']
+---
+
 # 生学
 
 ## 概述

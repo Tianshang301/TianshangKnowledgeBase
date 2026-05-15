@@ -1,3 +1,8 @@
+---
+aliases: [CurriculumTheory]
+tags: ['Education', 'CurriculumTheory', 'CurriculumTheory']
+---
+
 # 课程论
 
 ## 一、课程的定义与本质

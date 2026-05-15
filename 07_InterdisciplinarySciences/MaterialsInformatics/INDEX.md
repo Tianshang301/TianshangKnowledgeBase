@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['MaterialsInformatics', 'INDEX']
+---
+
 # MaterialsInformatics
 
 本索引汇集了 MaterialsInformatics 相关的核心知识文件，涵盖 MaterialsGenome - 材料基因组：借鉴基因组学理念建立材料结构与性能之间的系统关联、ComputationalMaterials - 计算材料学：基于第一性原理、分子动力学等计算方法预测材料性质、HighThroughputScreening - 高通量材料筛选：自动化高通量实验与计算系统加速材料候选物筛选 等内容。

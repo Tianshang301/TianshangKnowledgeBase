@@ -1,3 +1,8 @@
+---
+aliases: [NutritionAndFoodHygiene]
+tags: ['PublicHealth', 'NutritionAndFoodHygiene']
+---
+
 # 营养与食品卫生学
 
 ## 概述

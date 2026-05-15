@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['INDEX']
+---
+
 # 07_InterdisciplinarySciences
 
 本索引汇集了 07_InterdisciplinarySciences 相关的核心知识文件，涵盖 AI_and_Science - AI与科学、AI_and_SocialScience - AI与社会科学、AI_and_Healthcare - AI与医疗健康 等内容。

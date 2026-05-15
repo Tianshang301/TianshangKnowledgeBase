@@ -1,3 +1,8 @@
+---
+aliases: [QuantumCommunication]
+tags: ['QuantumInformationScience', 'QuantumCommunication']
+---
+
 # 量子通信
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [LearningPath]
+tags: ['Music', 'LearningPath']
+---
+
 # 音乐学习路线图
 
 ## 总览

@@ -1,3 +1,8 @@
+---
+aliases: [PhilosophyOfScience]
+tags: ['Philosophy', 'PhilosophyOfScience', 'PhilosophyOfScience']
+---
+
 # 科学哲学
 
 ## 一、逻辑实证主义

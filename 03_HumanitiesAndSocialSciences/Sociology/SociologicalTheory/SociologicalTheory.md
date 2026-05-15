@@ -1,3 +1,8 @@
+---
+aliases: [SociologicalTheory]
+tags: ['Sociology', 'SociologicalTheory', 'SociologicalTheory']
+---
+
 # 社会学理论
 
 ## 一、古典社会学理论

@@ -1,3 +1,8 @@
+---
+aliases: [TrainingTheory]
+tags: ['SportsTraining', 'TrainingTheory']
+---
+
 # 训练理论
 
 ## 概述

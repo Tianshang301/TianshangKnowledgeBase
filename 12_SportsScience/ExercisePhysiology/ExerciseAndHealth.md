@@ -1,3 +1,8 @@
+---
+aliases: [ExerciseAndHealth]
+tags: ['ExercisePhysiology', 'ExerciseAndHealth']
+---
+
 # 运动与健康
 
 ## 概述

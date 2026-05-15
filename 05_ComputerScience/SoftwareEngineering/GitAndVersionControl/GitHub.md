@@ -1,3 +1,8 @@
+---
+aliases: [GitHub]
+tags: ['SoftwareEngineering', 'GitAndVersionControl', 'GitHub']
+---
+
 # GitHub 协作指南
 
 ## 一、仓库设置

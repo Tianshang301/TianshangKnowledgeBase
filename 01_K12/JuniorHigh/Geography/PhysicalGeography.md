@@ -1,3 +1,8 @@
+---
+aliases: [PhysicalGeography]
+tags: ['JuniorHigh', 'Geography', 'PhysicalGeography']
+---
+
 # 自然地理
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [MaritimeStrategy]
+tags: ['MilitaryStrategy', 'MaritimeStrategy']
+---
+
 # 海权战略
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ComputerGraphicsAndVision', 'INDEX']
+---
+
 # ComputerGraphicsAndVision
 
 本索引汇集了 ComputerGraphicsAndVision 相关的核心知识文件，涵盖 ComputerGraphics - 计算机图形学、ComputerGraphicsAndVision - 计算机图形学与视觉、ComputerVision - 计算机视觉 等内容。

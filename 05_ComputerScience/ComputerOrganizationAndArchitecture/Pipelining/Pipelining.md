@@ -1,3 +1,8 @@
+---
+aliases: [Pipelining]
+tags: ['ComputerOrganizationAndArchitecture', 'Pipelining', 'Pipelining']
+---
+
 # 流水线技术 (Pipelining)
 
 ## 1. 流水线基本概念

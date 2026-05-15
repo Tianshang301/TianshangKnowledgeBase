@@ -1,3 +1,8 @@
+---
+aliases: [MarxistPhilosophyAdvanced]
+tags: ['Philosophy', 'MarxistPhilosophy', 'MarxistPhilosophyAdvanced']
+---
+
 # 马克思主义哲学进阶
 
 ## 一、马克思早期思想——人本主义转向

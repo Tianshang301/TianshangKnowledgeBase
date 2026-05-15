@@ -1,3 +1,8 @@
+---
+aliases: [Formulation]
+tags: ['ChemicalAndPharmaceuticalEngineering', 'PharmaceuticalEngineering', 'Formulation']
+---
+
 # 药物制剂
 
 ## 定义

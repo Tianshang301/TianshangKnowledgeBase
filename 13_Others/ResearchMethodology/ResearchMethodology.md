@@ -1,3 +1,8 @@
+---
+aliases: [ResearchMethodology]
+tags: ['ResearchMethodology', 'ResearchMethodology']
+---
+
 # 研究方法论
 
 ## 一、研究范式

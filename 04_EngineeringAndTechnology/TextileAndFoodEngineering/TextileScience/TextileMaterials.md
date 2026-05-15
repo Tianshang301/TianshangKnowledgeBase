@@ -1,3 +1,8 @@
+---
+aliases: [TextileMaterials]
+tags: ['TextileAndFoodEngineering', 'TextileScience', 'TextileMaterials']
+---
+
 # 纺织材料
 
 ## 定义

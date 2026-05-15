@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['SeniorHigh', 'Chemistry', 'INDEX']
+---
+
 # Chemistry
 
 本索引汇集了 Chemistry 相关的核心知识文件，涵盖 | 必修 | [[元素化合物|Na、Cl、Fe、Al、S、N 等]]、| 选必1 | [[化学反应原理|热化学、速率平衡、电化学]]、| 选必3 | [[有机化学基础|官能团、反应类型、合成]] 等内容。

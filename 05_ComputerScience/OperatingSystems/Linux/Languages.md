@@ -1,3 +1,8 @@
+---
+aliases: [Languages]
+tags: ['OperatingSystems', 'Linux', 'Languages']
+---
+
 # 各语言正则实现对比
 
 ## Python

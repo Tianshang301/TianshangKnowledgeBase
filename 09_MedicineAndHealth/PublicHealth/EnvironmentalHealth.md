@@ -1,3 +1,8 @@
+---
+aliases: [EnvironmentalHealth]
+tags: ['PublicHealth', 'EnvironmentalHealth']
+---
+
 # 环境卫生学
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [CodingForTeens]
+tags: ['CrossDisciplinaryK12', 'STEM', 'CodingForTeens']
+---
+
 # 青少年编程
 ## 概述
 

@@ -1,3 +1,8 @@
+---
+aliases: [CloudServices]
+tags: ['CloudComputing', 'CloudServices']
+---
+
 # 云服务
 
 > 云服务是通过互联网提供的按需计算资源，主要分为 IaaS、PaaS 和 SaaS 三种模式。

@@ -1,3 +1,8 @@
+---
+aliases: [ADCDAC]
+tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'STM32', 'ADCDAC']
+---
+
 # STM32 ADC/DAC 详解
 
 ## ADC (模数转换器)

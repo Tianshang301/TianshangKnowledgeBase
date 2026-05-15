@@ -1,3 +1,8 @@
+---
+aliases: [Transaction]
+tags: ['DatabasesAndInformationSystems', 'Transaction']
+---
+
 # 数据库事务与隔离详解
 
 ## 一、事务 ACID 属性

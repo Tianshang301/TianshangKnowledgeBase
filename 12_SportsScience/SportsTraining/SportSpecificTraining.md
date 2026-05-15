@@ -1,3 +1,8 @@
+---
+aliases: [SportSpecificTraining]
+tags: ['SportsTraining', 'SportSpecificTraining']
+---
+
 # 不同运动项目的训练方法
 
 ## 概述

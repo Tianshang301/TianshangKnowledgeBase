@@ -1,3 +1,8 @@
+---
+aliases: [SpacecraftDesign]
+tags: ['AerospaceAndMilitaryEngineering', 'AerospaceEngineering', 'SpacecraftDesign']
+---
+
 # 航天器设计
 
 ## 定义

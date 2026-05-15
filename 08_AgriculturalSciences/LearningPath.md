@@ -1,3 +1,8 @@
+---
+aliases: [LearningPath]
+tags: ['LearningPath']
+---
+
 # 学习路径：农学
 
 ## 基础阶段

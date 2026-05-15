@@ -1,3 +1,8 @@
+---
+aliases: [BinarySearch]
+tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'BinarySearch']
+---
+
 # 二分查找完全指南
 
 ## 算法思想

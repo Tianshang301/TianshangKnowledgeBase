@@ -1,3 +1,8 @@
+---
+aliases: [PlantPathology]
+tags: ['PlantProtection', 'PlantPathology']
+---
+
 # 植物病理学
 
 ## 概述

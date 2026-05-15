@@ -1,3 +1,8 @@
+---
+aliases: [RiskManagement]
+tags: ['BusinessAdministration', 'Finance', 'RiskManagement']
+---
+
 # 风险管理
 
 ## 概述

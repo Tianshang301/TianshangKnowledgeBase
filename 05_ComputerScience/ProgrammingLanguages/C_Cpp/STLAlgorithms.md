@@ -1,3 +1,8 @@
+---
+aliases: [STLAlgorithms]
+tags: ['ProgrammingLanguages', 'C_Cpp', 'STLAlgorithms']
+---
+
 # C++ STL 算法
 
 ## 非修改算法

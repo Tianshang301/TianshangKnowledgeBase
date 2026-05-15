@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Mathematics', 'Algebra', 'INDEX']
+---
+
 # Algebra
 
 本索引汇集了 Algebra 相关的核心知识文件，涵盖 MatrixOps、VectorSpace、Eigen 等内容。

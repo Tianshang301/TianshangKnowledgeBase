@@ -1,3 +1,8 @@
+---
+aliases: [ChineseHistoryBasics]
+tags: ['JuniorHigh', 'History', 'ChineseHistoryBasics']
+---
+
 # 中国历史基础
 
 ## 概述

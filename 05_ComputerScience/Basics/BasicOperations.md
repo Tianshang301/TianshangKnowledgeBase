@@ -1,3 +1,8 @@
+---
+aliases: [BasicOperations]
+tags: ['Basics', 'BasicOperations']
+---
+
 # 计算机基础操作指南
 
 ## 文件管理

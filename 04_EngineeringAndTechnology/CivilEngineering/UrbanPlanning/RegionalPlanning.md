@@ -1,3 +1,8 @@
+---
+aliases: [RegionalPlanning]
+tags: ['CivilEngineering', 'UrbanPlanning', 'RegionalPlanning']
+---
+
 # 区域规划
 
 ## 定义

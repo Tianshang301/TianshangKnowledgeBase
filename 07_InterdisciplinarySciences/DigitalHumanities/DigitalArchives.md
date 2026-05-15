@@ -1,3 +1,8 @@
+---
+aliases: [DigitalArchives]
+tags: ['DigitalHumanities', 'DigitalArchives']
+---
+
 # 数字档案
 
 ## 概述

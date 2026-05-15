@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['INDEX']
+---
+
 # 05_ComputerScience
 
 本索引汇集了 05_ComputerScience 相关的核心知识文件，涵盖 ArtificialIntelligence/AIGC/INDEX - AIGC、ArtificialIntelligence/AIEthics/INDEX - AI伦理、ArtificialIntelligence/ComputerVision/INDEX - 计算机视觉 等内容。

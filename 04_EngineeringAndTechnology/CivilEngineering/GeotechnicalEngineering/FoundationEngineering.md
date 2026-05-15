@@ -1,3 +1,8 @@
+---
+aliases: [FoundationEngineering]
+tags: ['CivilEngineering', 'GeotechnicalEngineering', 'FoundationEngineering']
+---
+
 # 基础工程
 
 ## 定义

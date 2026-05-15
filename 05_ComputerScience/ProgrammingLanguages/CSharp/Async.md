@@ -1,3 +1,8 @@
+---
+aliases: [Async]
+tags: ['ProgrammingLanguages', 'CSharp', 'Async']
+---
+
 # C# 异步编程
 
 ## Task-Based Asynchronous Pattern (TAP)

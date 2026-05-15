@@ -1,3 +1,8 @@
+---
+aliases: [PrehistoricArchaeology]
+tags: ['Archaeology', 'PrehistoricArchaeology', 'PrehistoricArchaeology']
+---
+
 # 史前考古学
 
 ## 一、史前时代分期

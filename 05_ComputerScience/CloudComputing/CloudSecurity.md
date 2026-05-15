@@ -1,3 +1,8 @@
+---
+aliases: [CloudSecurity]
+tags: ['CloudComputing', 'CloudSecurity']
+---
+
 # 云安全
 
 > 云安全涵盖保护云基础设施、数据和应用程序的策略、技术和实践。

@@ -1,3 +1,8 @@
+---
+aliases: [CognitiveNeuroscience]
+tags: ['CognitiveScience', 'CognitiveNeuroscience']
+---
+
 # 认知神经科学
 
 ## 概述

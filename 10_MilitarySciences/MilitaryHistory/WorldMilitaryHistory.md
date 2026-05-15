@@ -1,3 +1,8 @@
+---
+aliases: [WorldMilitaryHistory]
+tags: ['MilitaryHistory', 'WorldMilitaryHistory']
+---
+
 # 世界军事史
 
 ## 概述

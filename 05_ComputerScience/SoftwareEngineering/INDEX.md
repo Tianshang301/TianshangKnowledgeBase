@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['SoftwareEngineering', 'INDEX']
+---
+
 # SoftwareEngineering
 
 本索引汇集了 SoftwareEngineering 相关的核心知识文件，涵盖 > 快速参考指南：[[README]]、AgileMethodologies - 敏捷方法、DesignPatterns - 设计模式 等内容。

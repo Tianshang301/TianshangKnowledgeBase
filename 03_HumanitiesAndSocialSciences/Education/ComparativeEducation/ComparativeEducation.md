@@ -1,3 +1,8 @@
+---
+aliases: [ComparativeEducation]
+tags: ['Education', 'ComparativeEducation', 'ComparativeEducation']
+---
+
 # 比较教育学
 
 ## 一、比较教育学的定义与研究方法

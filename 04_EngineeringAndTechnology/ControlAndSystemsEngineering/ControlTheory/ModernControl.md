@@ -1,3 +1,8 @@
+---
+aliases: [ModernControl]
+tags: ['ControlAndSystemsEngineering', 'ControlTheory', 'ModernControl']
+---
+
 # 现代控制
 
 ## 定义

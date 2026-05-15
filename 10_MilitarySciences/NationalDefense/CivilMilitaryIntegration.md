@@ -1,3 +1,8 @@
+---
+aliases: [CivilMilitaryIntegration]
+tags: ['NationalDefense', 'CivilMilitaryIntegration']
+---
+
 # 军民融合
 
 ## 概述

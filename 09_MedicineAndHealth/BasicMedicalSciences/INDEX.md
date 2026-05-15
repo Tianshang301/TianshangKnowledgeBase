@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['BasicMedicalSciences', 'INDEX']
+---
+
 # BasicMedicalSciences
 
 本索引汇集了 BasicMedicalSciences 相关的核心知识文件，涵盖 Anatomy — 解剖学：人体宏观与微观结构、Immunology — 免疫学：免疫系统结构与功能、MedicalMicrobiology — 医学微生物学：病原微生物研究 等内容。

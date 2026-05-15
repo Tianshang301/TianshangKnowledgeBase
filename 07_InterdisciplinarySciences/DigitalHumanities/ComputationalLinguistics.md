@@ -1,3 +1,8 @@
+---
+aliases: [ComputationalLinguistics]
+tags: ['DigitalHumanities', 'ComputationalLinguistics']
+---
+
 # 计算语言?
 ## 概述
 

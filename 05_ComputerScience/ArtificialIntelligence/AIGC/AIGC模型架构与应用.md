@@ -1,3 +1,8 @@
+---
+aliases: [AIGC模型架构与应用]
+tags: ['ArtificialIntelligence', 'AIGC', 'AIGC模型架构与应用']
+---
+
 # AIGC模型架构与应用
 
 ## 一、AIGC概述与发展历程

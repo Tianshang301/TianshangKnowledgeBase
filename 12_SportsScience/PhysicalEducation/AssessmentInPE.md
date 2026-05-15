@@ -1,3 +1,8 @@
+---
+aliases: [AssessmentInPE]
+tags: ['PhysicalEducation', 'AssessmentInPE']
+---
+
 # 体育评估
 
 ## 概述

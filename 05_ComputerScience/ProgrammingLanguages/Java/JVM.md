@@ -1,3 +1,8 @@
+---
+aliases: [JVM]
+tags: ['ProgrammingLanguages', 'Java', 'JVM']
+---
+
 # JVM 深入
 
 ## JVM 架构

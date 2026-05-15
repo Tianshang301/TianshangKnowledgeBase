@@ -1,3 +1,8 @@
+---
+aliases: [AnimalPhysiology]
+tags: ['AnimalScience', 'AnimalPhysiology']
+---
+
 # 动物生理学
 
 ## 概述

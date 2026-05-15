@@ -1,3 +1,8 @@
+---
+aliases: [NodeJS]
+tags: ['ProgrammingLanguages', 'Web', 'NodeJS']
+---
+
 # NodeJS 指南
 
 ## 一、模块系统

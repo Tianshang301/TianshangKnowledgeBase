@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Economics', 'INDEX']
+---
+
 # Economics
 
 本索引汇集了 Economics 相关的核心知识文件，涵盖 > 详细内容请见 [[计量经济学与金融学]]、BehavioralEconomics、DevelopmentEconomics 等内容。

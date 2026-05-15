@@ -1,3 +1,8 @@
+---
+aliases: [StudyTechniques]
+tags: ['ExamPreparation', 'StudyTechniques']
+---
+
 # 学习技巧
 ## 概述
 

@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Philosophy', 'INDEX']
+---
+
 # Philosophy
 
 本索引汇集了 Philosophy 相关的核心知识文件，涵盖 AncientPhilosophy、ChinesePhilosophy、ContemporaryPhilosophy 等内容。

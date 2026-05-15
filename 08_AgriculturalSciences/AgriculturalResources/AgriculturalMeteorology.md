@@ -1,3 +1,8 @@
+---
+aliases: [AgriculturalMeteorology]
+tags: ['AgriculturalResources', 'AgriculturalMeteorology']
+---
+
 # 农业气象学
 
 ## 概述

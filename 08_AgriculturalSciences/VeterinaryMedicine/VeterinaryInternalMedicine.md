@@ -1,3 +1,8 @@
+---
+aliases: [VeterinaryInternalMedicine]
+tags: ['VeterinaryMedicine', 'VeterinaryInternalMedicine']
+---
+
 # 兽医内科学
 
 ## 概述

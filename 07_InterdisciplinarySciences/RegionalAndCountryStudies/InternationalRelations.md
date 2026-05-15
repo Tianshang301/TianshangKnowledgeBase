@@ -1,3 +1,8 @@
+---
+aliases: [InternationalRelations]
+tags: ['RegionalAndCountryStudies', 'InternationalRelations']
+---
+
 # 国际关系
 
 ## 概述

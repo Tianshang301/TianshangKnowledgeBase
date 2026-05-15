@@ -1,3 +1,8 @@
+---
+aliases: [Pediatrics]
+tags: ['ClinicalMedicine', 'Pediatrics']
+---
+
 # 儿科学
 
 ## 概述

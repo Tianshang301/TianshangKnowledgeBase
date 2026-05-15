@@ -1,3 +1,8 @@
+---
+aliases: [ShipDesign]
+tags: ['HydraulicAndMarineEngineering', 'NavalArchitecture', 'ShipDesign']
+---
+
 # 船舶设计
 
 ## 定义

@@ -1,3 +1,8 @@
+---
+aliases: [ConstitutionalLawAdvanced]
+tags: ['Law', 'ConstitutionalLaw', 'ConstitutionalLawAdvanced']
+---
+
 # 宪法学进阶
 
 ## 一、宪法的概念与渊源

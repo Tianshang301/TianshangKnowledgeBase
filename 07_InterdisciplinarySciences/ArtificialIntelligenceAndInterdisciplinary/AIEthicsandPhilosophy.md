@@ -1,3 +1,8 @@
+---
+aliases: [AIEthicsandPhilosophy]
+tags: ['ArtificialIntelligenceAndInterdisciplinary', 'AIEthicsandPhilosophy']
+---
+
 # 人工智能伦理与哲?
 ## 概述
 

@@ -1,3 +1,8 @@
+---
+aliases: [AnalogCircuits]
+tags: ['HardwareAndEmbeddedSystems', 'AnalogCircuits', 'AnalogCircuits']
+---
+
 # 模拟电路
 
 ## 一、基本元器件

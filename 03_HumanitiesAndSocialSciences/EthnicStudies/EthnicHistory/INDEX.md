@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['EthnicStudies', 'EthnicHistory', 'INDEX']
+---
+
 # 民族历史
 
 本索引汇集了各民族历史发展的相关研究，涵盖民族起源、迁徙与历史变迁等内容。

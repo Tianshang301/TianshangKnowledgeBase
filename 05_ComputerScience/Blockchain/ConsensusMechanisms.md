@@ -1,3 +1,8 @@
+---
+aliases: [ConsensusMechanisms]
+tags: ['Blockchain', 'ConsensusMechanisms']
+---
+
 # 共识算法完全指南
 
 ## 概述

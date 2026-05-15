@@ -1,3 +1,8 @@
+---
+aliases: [Pyrometallurgy]
+tags: ['MetallurgicalEngineering', 'ExtractiveMetallurgy', 'Pyrometallurgy']
+---
+
 # 火法冶金
 
 ## 定义

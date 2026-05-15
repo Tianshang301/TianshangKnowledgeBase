@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Sociology', 'UrbanSociology', 'INDEX']
+---
+
 # 城市社会学
 
 本索引汇集了城市社会学的研究主题与理论视角，涵盖城市化、社区研究及空间分析等内容。

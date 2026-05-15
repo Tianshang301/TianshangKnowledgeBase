@@ -1,3 +1,8 @@
+---
+aliases: [QuickStart]
+tags: ['SoftwareEngineering', 'DevOpsAndCI_CD', 'QuickStart']
+---
+
 # Docker 快速入门
 
 ## 一、容器 vs 虚拟机

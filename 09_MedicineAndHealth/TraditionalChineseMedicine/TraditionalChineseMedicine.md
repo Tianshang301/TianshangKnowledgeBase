@@ -1,3 +1,8 @@
+---
+aliases: [TraditionalChineseMedicine]
+tags: ['TraditionalChineseMedicine', 'TraditionalChineseMedicine']
+---
+
 # 中医基础理论
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['CognitiveScience', 'INDEX']
+---
+
 # CognitiveScience
 
 本索引汇集了 CognitiveScience 相关的核心知识文件，涵盖 CognitivePsychology - 认知心理学：研究知觉、注意、记忆、语言、思维等高级认知过程的心理学分支、CognitiveNeuroscience - 认知神经科学：探索认知过程的神经基础，运用fMRI、EEG、MEG等脑成像技术、ArtificialIntelligence - 人工智能：从认知科学视角审视人工智能理论与模型，包括符号主义、连接主义等范式 等内容。

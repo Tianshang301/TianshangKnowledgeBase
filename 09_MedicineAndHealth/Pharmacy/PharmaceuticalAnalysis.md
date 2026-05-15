@@ -1,3 +1,8 @@
+---
+aliases: [PharmaceuticalAnalysis]
+tags: ['Pharmacy', 'PharmaceuticalAnalysis']
+---
+
 # 药物分析
 
 ## 概述

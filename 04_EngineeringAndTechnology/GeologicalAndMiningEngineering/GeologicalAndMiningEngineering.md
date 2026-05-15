@@ -1,3 +1,8 @@
+---
+aliases: [GeologicalAndMiningEngineering]
+tags: ['GeologicalAndMiningEngineering', 'GeologicalAndMiningEngineering']
+---
+
 # 地质与矿业工程
 
 ## 概述

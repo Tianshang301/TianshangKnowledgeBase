@@ -1,3 +1,8 @@
+---
+aliases: [SportsPsychology]
+tags: ['SportsTraining', 'SportsPsychology']
+---
+
 # 运动心理学
 
 ## 概述

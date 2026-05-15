@@ -1,3 +1,8 @@
+---
+aliases: [StrengthTraining]
+tags: ['SportsTraining', 'StrengthTraining']
+---
+
 # 力量训练
 
 ## 概述

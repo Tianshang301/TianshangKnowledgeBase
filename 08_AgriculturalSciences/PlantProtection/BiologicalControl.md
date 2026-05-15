@@ -1,3 +1,8 @@
+---
+aliases: [BiologicalControl]
+tags: ['PlantProtection', 'BiologicalControl']
+---
+
 # 生物防治
 
 ## 概述

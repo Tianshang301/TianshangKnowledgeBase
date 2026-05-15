@@ -1,3 +1,8 @@
+---
+aliases: [LogisticsManagement]
+tags: ['TransportationEngineering', 'Logistics', 'LogisticsManagement']
+---
+
 # 物流管理
 
 ## 定义

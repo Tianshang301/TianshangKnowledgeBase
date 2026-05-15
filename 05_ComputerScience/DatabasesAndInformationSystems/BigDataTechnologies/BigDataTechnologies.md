@@ -1,3 +1,8 @@
+---
+aliases: [BigDataTechnologies]
+tags: ['DatabasesAndInformationSystems', 'BigDataTechnologies', 'BigDataTechnologies']
+---
+
 # Big Data Technologies - 大数据技术
 
 ## 一、大数据概述

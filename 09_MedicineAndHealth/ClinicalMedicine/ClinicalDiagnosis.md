@@ -1,3 +1,8 @@
+---
+aliases: [ClinicalDiagnosis]
+tags: ['ClinicalMedicine', 'ClinicalDiagnosis']
+---
+
 # 诊断学
 
 ## 概述

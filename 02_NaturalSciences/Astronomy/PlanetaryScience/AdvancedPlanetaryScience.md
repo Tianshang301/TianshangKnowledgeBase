@@ -1,3 +1,8 @@
+---
+aliases: [AdvancedPlanetaryScience]
+tags: ['Astronomy', 'PlanetaryScience', 'AdvancedPlanetaryScience']
+---
+
 # 行星科学进阶
 
 ## 一、行星形成

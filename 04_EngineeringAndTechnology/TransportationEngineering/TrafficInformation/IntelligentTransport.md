@@ -1,3 +1,8 @@
+---
+aliases: [IntelligentTransport]
+tags: ['TransportationEngineering', 'TrafficInformation', 'IntelligentTransport']
+---
+
 # 智能交通
 
 ## 定义

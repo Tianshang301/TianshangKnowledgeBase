@@ -1,3 +1,8 @@
+---
+aliases: [PublicAdministration]
+tags: ['PoliticalScience', 'PublicAdministration', 'PublicAdministration']
+---
+
 # 公共行政学
 
 ## 一、传统公共行政

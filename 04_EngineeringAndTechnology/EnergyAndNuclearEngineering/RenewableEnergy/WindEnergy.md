@@ -1,3 +1,8 @@
+---
+aliases: [WindEnergy]
+tags: ['EnergyAndNuclearEngineering', 'RenewableEnergy', 'WindEnergy']
+---
+
 # 风能
 
 ## 定义

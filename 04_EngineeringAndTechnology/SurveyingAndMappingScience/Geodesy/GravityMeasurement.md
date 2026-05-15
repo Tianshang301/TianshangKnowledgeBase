@@ -1,3 +1,8 @@
+---
+aliases: [GravityMeasurement]
+tags: ['SurveyingAndMappingScience', 'Geodesy', 'GravityMeasurement']
+---
+
 # 重力测量
 
 ## 定义

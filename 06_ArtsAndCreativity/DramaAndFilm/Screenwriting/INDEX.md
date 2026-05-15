@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['DramaAndFilm', 'Screenwriting', 'INDEX']
+---
+
 # Screenwriting
 
 本索引汇集了 Screenwriting 相关的核心知识文件，涵盖 剧本创作 - 剧本创作、编剧技巧与案例 - 编剧技巧与案例 等内容。

@@ -1,3 +1,8 @@
+---
+aliases: [LiteraryTheory]
+tags: ['ChineseLanguageAndLiterature', 'LiteraryTheory', 'LiteraryTheory']
+---
+
 # 文学理论
 
 ## 一、西方文论主要流派

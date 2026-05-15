@@ -1,3 +1,8 @@
+---
+aliases: [Biomaterials]
+tags: ['Biotechnologies', 'BiomedicalEngineering', 'Biomaterials']
+---
+
 # 生物材料
 
 ## 定义

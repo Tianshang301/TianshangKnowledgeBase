@@ -1,3 +1,8 @@
+---
+aliases: [PhysicalEducation]
+tags: ['Arts_and_Sports', 'PhysicalEducation']
+---
+
 # K12 体育与运动知识
 
 > 田径、球类运动、体操、游泳、武术、体育理论、健康知识

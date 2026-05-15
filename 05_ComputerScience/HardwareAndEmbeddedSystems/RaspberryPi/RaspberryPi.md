@@ -1,3 +1,8 @@
+---
+aliases: [RaspberryPi]
+tags: ['HardwareAndEmbeddedSystems', 'RaspberryPi', 'RaspberryPi']
+---
+
 # Raspberry Pi
 
 ## 一、Raspberry Pi 概述

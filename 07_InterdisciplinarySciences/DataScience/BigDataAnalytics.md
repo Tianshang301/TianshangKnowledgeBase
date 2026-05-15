@@ -1,3 +1,8 @@
+---
+aliases: [BigDataAnalytics]
+tags: ['DataScience', 'BigDataAnalytics']
+---
+
 # 大数据分?
 ## 概述
 

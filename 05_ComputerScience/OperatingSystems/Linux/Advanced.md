@@ -1,3 +1,8 @@
+---
+aliases: [Advanced]
+tags: ['OperatingSystems', 'Linux', 'Advanced']
+---
+
 # 正则表达式进阶
 
 ## 前瞻与后顾 (Lookaround)

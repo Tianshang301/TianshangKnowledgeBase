@@ -1,3 +1,8 @@
+---
+aliases: [PCBDesign]
+tags: ['HardwareAndEmbeddedSystems', 'PCB_Design', 'PCBDesign']
+---
+
 # PCB 设计
 
 ## 一、PCB 设计流程

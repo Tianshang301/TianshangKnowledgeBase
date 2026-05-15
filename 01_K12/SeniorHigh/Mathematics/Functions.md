@@ -1,3 +1,8 @@
+---
+aliases: [Functions]
+tags: ['SeniorHigh', 'Mathematics', 'Functions']
+---
+
 # 高中数学 · 函数（完整版）
 > 涵盖：函数概念、基本性质、指数函数、对数函数、幂函数、三角函数、抽象函数、复合函数、分段函数、反函数、图像变换、函数与方程
 

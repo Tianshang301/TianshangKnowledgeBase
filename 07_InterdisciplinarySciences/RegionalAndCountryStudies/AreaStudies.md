@@ -1,3 +1,8 @@
+---
+aliases: [AreaStudies]
+tags: ['RegionalAndCountryStudies', 'AreaStudies']
+---
+
 # 区域研究
 
 ## 概述

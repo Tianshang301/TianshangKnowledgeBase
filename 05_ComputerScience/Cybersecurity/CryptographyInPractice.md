@@ -1,3 +1,8 @@
+---
+aliases: [CryptographyInPractice]
+tags: ['Cybersecurity', 'CryptographyInPractice']
+---
+
 # 密码学实践指南
 
 ## 概述

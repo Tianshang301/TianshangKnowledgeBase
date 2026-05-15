@@ -1,3 +1,8 @@
+---
+aliases: [ChineseLiterature]
+tags: ['ChineseLanguageAndLiterature', 'ChineseLiterature', 'ChineseLiterature']
+---
+
 # 中国文学概论
 
 ## 一、文学传统概述

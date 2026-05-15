@@ -1,3 +1,8 @@
+---
+aliases: [PhaseTransformations]
+tags: ['MetallurgicalEngineering', 'PhysicalMetallurgy', 'PhaseTransformations']
+---
+
 # 相变原理
 
 ## 定义

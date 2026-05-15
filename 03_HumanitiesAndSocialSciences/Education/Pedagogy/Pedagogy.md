@@ -1,3 +1,8 @@
+---
+aliases: [Pedagogy]
+tags: ['Education', 'Pedagogy', 'Pedagogy']
+---
+
 # 教学论
 
 ## 一、教学作为专业

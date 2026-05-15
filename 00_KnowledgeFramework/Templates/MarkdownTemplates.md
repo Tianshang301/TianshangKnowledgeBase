@@ -1,3 +1,8 @@
+---
+aliases: [MarkdownTemplates]
+tags: ['Templates', 'MarkdownTemplates']
+---
+
 # Markdown 模板
 
 ## 基础语法

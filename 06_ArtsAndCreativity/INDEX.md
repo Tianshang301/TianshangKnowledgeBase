@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['INDEX']
+---
+
 # 06_ArtsAndCreativity
 
 本索引汇集了 06_ArtsAndCreativity 相关的核心知识文件，涵盖 舞蹈历史与美学 - 舞蹈历史与美学、舞蹈训练与编创 - 舞蹈训练与编创、摄影布光与后期调色 - 摄影布光与后期调色 等内容。

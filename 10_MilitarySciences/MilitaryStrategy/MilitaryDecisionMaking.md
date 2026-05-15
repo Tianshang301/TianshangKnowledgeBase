@@ -1,3 +1,8 @@
+---
+aliases: [MilitaryDecisionMaking]
+tags: ['MilitaryStrategy', 'MilitaryDecisionMaking']
+---
+
 # 军事决策
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [MapDesign]
+tags: ['SurveyingAndMappingScience', 'Cartography', 'MapDesign']
+---
+
 # 地图设计
 
 ## 定义

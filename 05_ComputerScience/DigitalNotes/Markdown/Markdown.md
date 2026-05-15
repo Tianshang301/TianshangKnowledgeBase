@@ -1,3 +1,8 @@
+---
+aliases: [Markdown]
+tags: ['DigitalNotes', 'Markdown', 'Markdown']
+---
+
 # Markdown 完全指南
 
 ## 概述

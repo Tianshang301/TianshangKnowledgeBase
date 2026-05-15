@@ -1,3 +1,8 @@
+---
+aliases: [HumanRightsEducation]
+tags: ['CrossDisciplinaryK12', 'CivicEducation', 'HumanRightsEducation']
+---
+
 # 人权教育
 
 > 人权教育使学生了解基本人权的内容和保护机制，培养尊重他人权利的意识。

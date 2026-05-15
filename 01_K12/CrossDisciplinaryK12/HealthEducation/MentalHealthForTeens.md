@@ -1,3 +1,8 @@
+---
+aliases: [MentalHealthForTeens]
+tags: ['CrossDisciplinaryK12', 'HealthEducation', 'MentalHealthForTeens']
+---
+
 # 青少年心理健康
 
 > 青少年心理健康教育帮助学生认识自我、管理情绪、建立积极的人际关系。

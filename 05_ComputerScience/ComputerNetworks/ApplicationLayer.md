@@ -1,3 +1,8 @@
+---
+aliases: [ApplicationLayer]
+tags: ['ComputerNetworks', 'ApplicationLayer']
+---
+
 # 应用层详解 (Application Layer)
 
 ## 1. DNS (Domain Name System)

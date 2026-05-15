@@ -1,3 +1,8 @@
+---
+aliases: [Ownership]
+tags: ['ProgrammingLanguages', 'Rust', 'Ownership']
+---
+
 # Rust 所有权系统
 
 ## 所有权规则

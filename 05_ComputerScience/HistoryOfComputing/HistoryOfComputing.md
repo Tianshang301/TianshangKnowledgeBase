@@ -1,3 +1,8 @@
+---
+aliases: [HistoryOfComputing]
+tags: ['HistoryOfComputing', 'HistoryOfComputing']
+---
+
 # 计算历史完全指南
 
 ## 概述

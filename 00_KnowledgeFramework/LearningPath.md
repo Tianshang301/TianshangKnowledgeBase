@@ -1,3 +1,8 @@
+---
+aliases: [LearningPath]
+tags: ['LearningPath']
+---
+
 # 学习路径：知识体系框架
 
 ## 学习顺序

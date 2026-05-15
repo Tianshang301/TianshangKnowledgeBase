@@ -1,3 +1,8 @@
+---
+aliases: [ProteinStructure]
+tags: ['Bioinformatics', 'ProteinStructure']
+---
+
 # 蛋白质结?
 ## 概述
 

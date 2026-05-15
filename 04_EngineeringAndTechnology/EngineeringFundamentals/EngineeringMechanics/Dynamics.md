@@ -1,3 +1,8 @@
+---
+aliases: [Dynamics]
+tags: ['EngineeringFundamentals', 'EngineeringMechanics', 'Dynamics']
+---
+
 # 动力学
 
 ## 定义

@@ -1,3 +1,8 @@
+---
+aliases: [Unity]
+tags: ['ProgrammingLanguages', 'CSharp', 'Unity']
+---
+
 # Unity 游戏开发基础
 
 ## Unity 编辑器概览

@@ -1,3 +1,8 @@
+---
+aliases: [DistributedSystems]
+tags: ['NetworkedInformationSystems', 'DistributedSystems']
+---
+
 # 分布式系?
 ## 概述
 

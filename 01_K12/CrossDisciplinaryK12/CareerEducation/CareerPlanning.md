@@ -1,3 +1,8 @@
+---
+aliases: [CareerPlanning]
+tags: ['CrossDisciplinaryK12', 'CareerEducation', 'CareerPlanning']
+---
+
 # 职业规划
 
 > 青少年职业规划教育旨在帮助学生认识自我、了解职业世界，为未来的专业选择和职业发展做好准备。

@@ -1,3 +1,8 @@
+---
+aliases: [Environment]
+tags: ['OperatingSystems', 'Linux', 'Environment']
+---
+
 # Shell 环境配置
 
 ## Shell 启动文件

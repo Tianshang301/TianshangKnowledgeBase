@@ -1,3 +1,8 @@
+---
+aliases: [Vocabulary]
+tags: ['ForeignLanguagesAndLiteratures', 'English', 'Vocabulary']
+---
+
 # 英语词汇积累指南
 
 ## 构词法 (Word Formation)

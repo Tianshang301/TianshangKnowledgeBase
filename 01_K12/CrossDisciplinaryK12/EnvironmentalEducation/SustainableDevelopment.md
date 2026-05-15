@@ -1,3 +1,8 @@
+---
+aliases: [SustainableDevelopment]
+tags: ['CrossDisciplinaryK12', 'EnvironmentalEducation', 'SustainableDevelopment']
+---
+
 # 可持续发展
 
 > 可持续发展教育培养学生面向未来的责任意识和行动能力，理解经济、社会、环境的协调发展。

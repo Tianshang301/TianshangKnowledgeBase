@@ -1,3 +1,8 @@
+---
+aliases: [MATLAB数值计算与仿真]
+tags: ['ProgrammingLanguages', 'MATLAB', 'MATLAB数值计算与仿真']
+---
+
 # MATLAB数值计算与仿真
 
 ## 一、MATLAB环境概述

@@ -1,3 +1,8 @@
+---
+aliases: [Sorting]
+tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'Sorting']
+---
+
 # 排序算法大全
 
 ## 概述

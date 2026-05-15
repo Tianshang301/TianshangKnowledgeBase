@@ -1,3 +1,8 @@
+---
+aliases: [ProfessionalEnglish]
+tags: ['ForeignLanguagesAndLiteratures', 'ProfessionalEnglish', 'ProfessionalEnglish']
+---
+
 # 专业英语
 
 ## 一、专业英语的学科定位

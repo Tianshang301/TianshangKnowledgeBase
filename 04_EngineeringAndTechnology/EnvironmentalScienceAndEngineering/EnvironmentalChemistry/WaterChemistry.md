@@ -1,3 +1,8 @@
+---
+aliases: [WaterChemistry]
+tags: ['EnvironmentalScienceAndEngineering', 'EnvironmentalChemistry', 'WaterChemistry']
+---
+
 # 水化学
 
 ## 定义

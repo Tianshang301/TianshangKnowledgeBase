@@ -1,3 +1,8 @@
+---
+aliases: [Econometrics]
+tags: ['Economics', 'Econometrics', 'Econometrics']
+---
+
 # 计量经济学
 
 ## 一、经典线性回归模型

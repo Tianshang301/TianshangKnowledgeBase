@@ -1,3 +1,8 @@
+---
+aliases: [TalentAcquisition]
+tags: ['BusinessAdministration', 'HumanResources', 'TalentAcquisition']
+---
+
 # 人才招聘
 
 ## 概述

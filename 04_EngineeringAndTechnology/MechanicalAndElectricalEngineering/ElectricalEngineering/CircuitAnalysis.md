@@ -1,3 +1,8 @@
+---
+aliases: [CircuitAnalysis]
+tags: ['MechanicalAndElectricalEngineering', 'ElectricalEngineering', 'CircuitAnalysis']
+---
+
 # 电路分析
 
 ## 定义

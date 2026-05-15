@@ -1,3 +1,8 @@
+---
+aliases: [AirChemistry]
+tags: ['EnvironmentalScienceAndEngineering', 'EnvironmentalChemistry', 'AirChemistry']
+---
+
 # 大气化学
 
 ## 定义

@@ -1,3 +1,8 @@
+---
+aliases: [UnderwaterArchaeology]
+tags: ['Archaeology', 'UnderwaterArchaeology', 'UnderwaterArchaeology']
+---
+
 # 水下考古学
 
 ## 一、水下考古方法

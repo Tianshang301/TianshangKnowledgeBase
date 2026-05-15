@@ -1,3 +1,8 @@
+---
+aliases: [Hydrometallurgy]
+tags: ['MetallurgicalEngineering', 'ExtractiveMetallurgy', 'Hydrometallurgy']
+---
+
 # 湿法冶金
 
 ## 定义

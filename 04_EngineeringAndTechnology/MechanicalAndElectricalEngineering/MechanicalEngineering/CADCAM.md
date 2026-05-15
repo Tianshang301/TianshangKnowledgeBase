@@ -1,3 +1,8 @@
+---
+aliases: [CADCAM]
+tags: ['MechanicalAndElectricalEngineering', 'MechanicalEngineering', 'CADCAM']
+---
+
 # CAD/CAM
 
 ## 定义

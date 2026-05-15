@@ -1,3 +1,8 @@
+---
+aliases: [ReinforcementLearning]
+tags: ['ArtificialIntelligence', 'MachineLearning', 'ReinforcementLearning', 'ReinforcementLearning']
+---
+
 # 强化学习
 
 ## 一、强化学习框架

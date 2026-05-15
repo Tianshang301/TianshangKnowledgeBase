@@ -1,3 +1,8 @@
+---
+aliases: [EmergencyMedicine]
+tags: ['ClinicalMedicine', 'EmergencyMedicine']
+---
+
 # 急诊医学
 
 ## 概述

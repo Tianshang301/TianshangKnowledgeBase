@@ -1,3 +1,8 @@
+---
+aliases: [Statics]
+tags: ['EngineeringFundamentals', 'EngineeringMechanics', 'Statics']
+---
+
 # 静力学
 
 ## 定义

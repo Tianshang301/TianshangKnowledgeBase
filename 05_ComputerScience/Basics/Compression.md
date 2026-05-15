@@ -1,3 +1,8 @@
+---
+aliases: [Compression]
+tags: ['Basics', 'Compression']
+---
+
 # 压缩与解压缩完全指南
 
 ## 常见格式对比

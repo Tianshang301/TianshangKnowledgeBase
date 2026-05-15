@@ -1,3 +1,8 @@
+---
+aliases: [HumanGeography]
+tags: ['JuniorHigh', 'Geography', 'HumanGeography']
+---
+
 # 人文地理
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [SolidWasteManagement]
+tags: ['EnvironmentalScienceAndEngineering', 'EnvironmentalEngineering', 'SolidWasteManagement']
+---
+
 # 固体废物管理
 
 ## 定义

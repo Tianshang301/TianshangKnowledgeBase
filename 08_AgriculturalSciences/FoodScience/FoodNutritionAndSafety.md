@@ -1,3 +1,8 @@
+---
+aliases: [FoodNutritionAndSafety]
+tags: ['FoodScience', 'FoodNutritionAndSafety']
+---
+
 # 食品营养与安全
 
 ## 一、食品营养学概述

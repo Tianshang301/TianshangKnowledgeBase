@@ -1,3 +1,8 @@
+---
+aliases: [Scheduling]
+tags: ['OperatingSystems', 'Scheduling']
+---
+
 # CPU 调度详解 (CPU Scheduling)
 
 ## 1. 调度基本概念

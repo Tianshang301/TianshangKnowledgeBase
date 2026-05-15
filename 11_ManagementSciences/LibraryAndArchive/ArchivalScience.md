@@ -1,3 +1,8 @@
+---
+aliases: [ArchivalScience]
+tags: ['LibraryAndArchive', 'ArchivalScience']
+---
+
 # 档案学
 
 ## 概述

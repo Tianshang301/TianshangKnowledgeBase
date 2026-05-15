@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ProgrammingLanguages', 'Assembly', 'INDEX']
+---
+
 # Assembly
 
 本索引汇集了 Assembly 相关的核心知识文件，涵盖 Assembly - 汇编语言、x86_64汇编与逆向 - x86_64汇编与逆向 等内容。

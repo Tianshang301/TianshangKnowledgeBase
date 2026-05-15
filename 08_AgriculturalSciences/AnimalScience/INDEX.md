@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['AnimalScience', 'INDEX']
+---
+
 # AnimalScience
 
 本索引汇集了 AnimalScience 相关的核心知识文件，涵盖 AnimalBreeding - 动物育种学：研究选择育种、杂交利用及分子育种技术、AnimalGenetics - 动物遗传学：涵盖群体遗传学、数量遗传学与基因组选择、AnimalHealth - 动物健康：探讨疾病防控、生物安全与健康管理体系 等内容。

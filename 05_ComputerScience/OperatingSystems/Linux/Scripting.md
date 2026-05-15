@@ -1,3 +1,8 @@
+---
+aliases: [Scripting]
+tags: ['OperatingSystems', 'Linux', 'Scripting']
+---
+
 # Shell 脚本最佳实践
 
 ## 脚本模板

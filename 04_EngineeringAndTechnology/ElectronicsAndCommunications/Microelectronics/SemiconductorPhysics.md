@@ -1,3 +1,8 @@
+---
+aliases: [SemiconductorPhysics]
+tags: ['ElectronicsAndCommunications', 'Microelectronics', 'SemiconductorPhysics']
+---
+
 # 半导体物理
 
 ## 定义

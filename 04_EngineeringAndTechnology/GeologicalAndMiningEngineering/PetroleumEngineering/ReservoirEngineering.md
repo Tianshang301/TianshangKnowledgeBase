@@ -1,3 +1,8 @@
+---
+aliases: [ReservoirEngineering]
+tags: ['GeologicalAndMiningEngineering', 'PetroleumEngineering', 'ReservoirEngineering']
+---
+
 # 油藏工程
 
 ## 定义

@@ -1,3 +1,8 @@
+---
+aliases: [ComputerVisionDeepLearning]
+tags: ['ComputerGraphicsAndVision', 'ComputerVisionDeepLearning']
+---
+
 # 深度学习计算机视觉
 
 ## 概述

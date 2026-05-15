@@ -1,3 +1,8 @@
+---
+aliases: [UnsupervisedLearning]
+tags: ['ArtificialIntelligence', 'MachineLearning', 'UnsupervisedLearning', 'UnsupervisedLearning']
+---
+
 # 无监督学习
 
 ## 一、无监督学习概述

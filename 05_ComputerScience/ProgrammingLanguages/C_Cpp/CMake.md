@@ -1,3 +1,8 @@
+---
+aliases: [CMake]
+tags: ['ProgrammingLanguages', 'C_Cpp', 'CMake']
+---
+
 # CMake 构建系统
 
 ## CMakeLists.txt 基础

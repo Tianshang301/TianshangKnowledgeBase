@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['PlantProtection', 'INDEX']
+---
+
 # PlantProtection
 
 本索引汇集了 PlantProtection 相关的核心知识文件，涵盖 Entomology - 昆虫学：研究昆虫分类、形态、生理生态及害虫防治、PesticideScience - 农药学：研究农药剂型、毒理、残留及科学使用、PlantPathology - 植物病理学：研究病原物致病机制、病害流行与防控 等内容。

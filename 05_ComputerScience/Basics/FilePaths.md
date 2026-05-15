@@ -1,3 +1,8 @@
+---
+aliases: [FilePaths]
+tags: ['Basics', 'FilePaths']
+---
+
 # 文件路径详解
 
 ## 绝对路径 vs 相对路径

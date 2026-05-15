@@ -1,3 +1,8 @@
+---
+aliases: [MedicalDevices]
+tags: ['Biotechnologies', 'BiomedicalEngineering', 'MedicalDevices']
+---
+
 # 医疗器械
 
 ## 定义

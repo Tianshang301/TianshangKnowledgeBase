@@ -1,3 +1,8 @@
+---
+aliases: [RedisDeep]
+tags: ['DatabasesAndInformationSystems', 'RedisDeep']
+---
+
 # Redis 缓存与数据结构服务器
 
 ## 一、概述

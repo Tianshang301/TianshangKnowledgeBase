@@ -1,3 +1,8 @@
+---
+aliases: [FineArts]
+tags: ['Arts_and_Sports', 'FineArts']
+---
+
 # K12 美术基础与鉴赏
 
 > 涵盖：美术基础理论、绘画、雕刻、建筑、设计、中西美术史、美术鉴赏

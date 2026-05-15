@@ -1,3 +1,8 @@
+---
+aliases: [Stack]
+tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'Stack']
+---
+
 # 栈详解
 
 ## 基本概念

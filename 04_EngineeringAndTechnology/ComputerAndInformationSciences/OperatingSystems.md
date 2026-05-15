@@ -1,3 +1,8 @@
+---
+aliases: [OperatingSystems]
+tags: ['ComputerAndInformationSciences', 'OperatingSystems']
+---
+
 # 操作系统
 
 ## 一、操作系统概述

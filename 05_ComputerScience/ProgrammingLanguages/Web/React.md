@@ -1,3 +1,8 @@
+---
+aliases: [React]
+tags: ['ProgrammingLanguages', 'Web', 'React']
+---
+
 # React 快速指南
 
 ## 一、JSX

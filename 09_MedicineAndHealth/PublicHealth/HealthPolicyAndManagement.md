@@ -1,3 +1,8 @@
+---
+aliases: [HealthPolicyAndManagement]
+tags: ['PublicHealth', 'HealthPolicyAndManagement']
+---
+
 # 卫生政策与管理
 
 ## 概述

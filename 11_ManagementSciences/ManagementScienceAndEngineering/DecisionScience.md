@@ -1,3 +1,8 @@
+---
+aliases: [DecisionScience]
+tags: ['ManagementScienceAndEngineering', 'DecisionScience']
+---
+
 # 决策科学
 
 ## 概述

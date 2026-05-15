@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['DramaAndFilm', 'Directing', 'INDEX']
+---
+
 # Directing
 
 本索引汇集了 Directing 相关的核心知识文件，涵盖 导演实务 - 导演实务、导演艺术 等内容。

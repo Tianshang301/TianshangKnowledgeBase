@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['PoliticalScience', 'PublicAdministration', 'INDEX']
+---
+
 # 公共行政学
 
 本索引汇集了公共行政的理论与实践，涵盖政府管理、公共政策执行及行政改革等内容。

@@ -1,3 +1,8 @@
+---
+aliases: [Communication]
+tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'STM32', 'Communication']
+---
+
 # STM32 通信协议详解
 
 ## 通信协议对比

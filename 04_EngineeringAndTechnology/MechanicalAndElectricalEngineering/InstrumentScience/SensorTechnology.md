@@ -1,3 +1,8 @@
+---
+aliases: [SensorTechnology]
+tags: ['MechanicalAndElectricalEngineering', 'InstrumentScience', 'SensorTechnology']
+---
+
 # 传感器技术
 
 ## 定义

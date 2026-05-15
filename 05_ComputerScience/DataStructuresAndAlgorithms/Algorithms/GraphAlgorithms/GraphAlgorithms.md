@@ -1,3 +1,8 @@
+---
+aliases: [GraphAlgorithms]
+tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'GraphAlgorithms', 'GraphAlgorithms']
+---
+
 # Graph Algorithms - 图算法
 
 ## 一、图的表示

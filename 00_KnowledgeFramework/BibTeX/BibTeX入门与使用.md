@@ -1,3 +1,8 @@
+---
+aliases: [BibTeX入门与使用]
+tags: ['BibTeX', 'BibTeX入门与使用']
+---
+
 # BibTeX 入门与使用
 
 ## 一、什么是 BibTeX

@@ -1,3 +1,8 @@
+---
+aliases: [SupervisedLearning]
+tags: ['ArtificialIntelligence', 'MachineLearning', 'SupervisedLearning', 'SupervisedLearning']
+---
+
 # 监督学习
 
 ## 一、监督学习概述

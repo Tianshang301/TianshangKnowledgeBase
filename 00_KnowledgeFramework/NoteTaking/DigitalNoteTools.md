@@ -1,3 +1,8 @@
+---
+aliases: [DigitalNoteTools]
+tags: ['NoteTaking', 'DigitalNoteTools']
+---
+
 # 数字笔记工具指南
 
 ## 概述

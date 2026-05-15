@@ -1,3 +1,8 @@
+---
+aliases: [InformationTechnology]
+tags: ['Arts_and_Sports', 'InformationTechnology']
+---
+
 # K12 信息技术
 
 > 涵盖：计算机基础、网络与安全、编程入门、人工智能、数字化学习

@@ -1,3 +1,8 @@
+---
+aliases: [SQLDeep]
+tags: ['DatabasesAndInformationSystems', 'SQLDeep']
+---
+
 # SQL 完全指南
 
 ## 概述

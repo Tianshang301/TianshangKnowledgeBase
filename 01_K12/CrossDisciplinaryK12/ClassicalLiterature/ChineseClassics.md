@@ -1,3 +1,8 @@
+---
+aliases: [ChineseClassics]
+tags: ['CrossDisciplinaryK12', 'ClassicalLiterature', 'ChineseClassics']
+---
+
 # 中国经典导读
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [Blockchain]
+tags: ['Blockchain', 'Blockchain']
+---
+
 # 区块链技术完全指南
 
 ## 概述

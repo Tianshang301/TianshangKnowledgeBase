@@ -1,3 +1,8 @@
+---
+aliases: [VeterinaryImmunology]
+tags: ['VeterinaryMedicine', 'VeterinaryImmunology']
+---
+
 # 兽医免疫学
 
 ## 概述

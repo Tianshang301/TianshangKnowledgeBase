@@ -1,3 +1,8 @@
+---
+aliases: [区间与状态压缩DP]
+tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'DynamicProgramming', '区间与状态压缩DP']
+---
+
 # 区间与状态压缩DP
 
 ## 一、动态规划基础回顾

@@ -1,3 +1,8 @@
+---
+aliases: [MilitaryElectronics]
+tags: ['MilitaryTechnology', 'MilitaryElectronics']
+---
+
 # 军事电子
 
 ## 概述

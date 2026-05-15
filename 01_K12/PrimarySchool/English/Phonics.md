@@ -1,3 +1,8 @@
+---
+aliases: [Phonics]
+tags: ['PrimarySchool', 'English', 'Phonics']
+---
+
 # 自然拼读
 
 ## 概述

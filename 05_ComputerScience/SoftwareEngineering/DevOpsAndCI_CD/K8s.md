@@ -1,3 +1,8 @@
+---
+aliases: [K8s]
+tags: ['SoftwareEngineering', 'DevOpsAndCI_CD', 'K8s']
+---
+
 # Kubernetes 基础
 
 ## 一、核心概念

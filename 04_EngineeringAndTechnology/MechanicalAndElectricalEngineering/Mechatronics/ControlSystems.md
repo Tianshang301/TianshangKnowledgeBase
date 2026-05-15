@@ -1,3 +1,8 @@
+---
+aliases: [ControlSystems]
+tags: ['MechanicalAndElectricalEngineering', 'Mechatronics', 'ControlSystems']
+---
+
 # 控制系统
 
 ## 定义

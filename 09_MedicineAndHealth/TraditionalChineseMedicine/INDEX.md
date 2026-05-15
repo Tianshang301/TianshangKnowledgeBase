@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['TraditionalChineseMedicine', 'INDEX']
+---
+
 # TraditionalChineseMedicine
 
 本索引汇集了 TraditionalChineseMedicine 相关的核心知识文件，涵盖 AcupunctureAndMoxibustion — 针灸学：经络腧穴与针法灸法、ChineseFormulas — 方剂学：中药方剂配伍规律、ChineseMateriaMedica — 中药学：中药性能与应用 等内容。

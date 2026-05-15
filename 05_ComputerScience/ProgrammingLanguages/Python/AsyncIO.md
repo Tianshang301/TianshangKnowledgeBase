@@ -1,3 +1,8 @@
+---
+aliases: [AsyncIO]
+tags: ['ProgrammingLanguages', 'Python', 'AsyncIO']
+---
+
 # Python 异步编程
 
 ## 一、async/await 基础

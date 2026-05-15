@@ -1,3 +1,8 @@
+---
+aliases: [DataMining]
+tags: ['DataScience', 'DataMining']
+---
+
 # 数据挖掘
 
 ## 概述

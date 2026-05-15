@@ -1,3 +1,8 @@
+---
+aliases: [MoralAndRuleOfLaw]
+tags: ['JuniorHigh', 'Politics', 'MoralAndRuleOfLaw']
+---
+
 # 道德与法治
 ## 概述
 

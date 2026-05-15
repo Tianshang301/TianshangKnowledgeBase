@@ -1,3 +1,8 @@
+---
+aliases: [Phylogenetics]
+tags: ['Bioinformatics', 'Phylogenetics']
+---
+
 # 系统发育?
 ## 概述
 

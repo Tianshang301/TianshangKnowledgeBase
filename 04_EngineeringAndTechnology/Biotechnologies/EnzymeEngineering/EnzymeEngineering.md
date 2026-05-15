@@ -1,3 +1,8 @@
+---
+aliases: [EnzymeEngineering]
+tags: ['Biotechnologies', 'EnzymeEngineering', 'EnzymeEngineering']
+---
+
 # 酶工程
 
 ## 学科定义

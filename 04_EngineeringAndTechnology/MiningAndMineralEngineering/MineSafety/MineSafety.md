@@ -1,3 +1,8 @@
+---
+aliases: [MineSafety]
+tags: ['MiningAndMineralEngineering', 'MineSafety', 'MineSafety']
+---
+
 # 矿山安全
 
 ## 一、矿山灾害分类

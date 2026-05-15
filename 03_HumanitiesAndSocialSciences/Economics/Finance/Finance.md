@@ -1,3 +1,8 @@
+---
+aliases: [Finance]
+tags: ['Economics', 'Finance', 'Finance']
+---
+
 # 金融学
 
 ## 一、货币时间价值

@@ -1,3 +1,8 @@
+---
+aliases: [SystemAnalysis]
+tags: ['ControlAndSystemsEngineering', 'SystemsEngineering', 'SystemAnalysis']
+---
+
 # 系统分析
 
 ## 定义

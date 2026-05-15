@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['CompilerPrinciples', 'INDEX']
+---
+
 # CompilerPrinciples
 
 本索引汇集了 CompilerPrinciples 相关的核心知识文件，涵盖 05_ComputerScience/ProgrammingLanguages/INDEX|ProgrammingLanguages、AutomataTheory、IR 等内容。

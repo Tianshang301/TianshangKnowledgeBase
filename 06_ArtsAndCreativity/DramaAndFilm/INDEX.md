@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['DramaAndFilm', 'INDEX']
+---
+
 # DramaAndFilm
 
 本索引汇集了 DramaAndFilm 相关的核心知识文件，涵盖 - **索引**：[[INDEX]]、- **索引**：[[INDEX]]、- **索引**：[[INDEX]] 等内容。

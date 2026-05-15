@@ -1,3 +1,8 @@
+---
+aliases: [WeedScience]
+tags: ['PlantProtection', 'WeedScience']
+---
+
 # 杂草科学
 
 ## 概述

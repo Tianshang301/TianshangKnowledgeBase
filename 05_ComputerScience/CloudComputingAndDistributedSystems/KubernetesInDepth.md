@@ -1,3 +1,8 @@
+---
+aliases: [KubernetesInDepth]
+tags: ['CloudComputingAndDistributedSystems', 'KubernetesInDepth']
+---
+
 # Kubernetes 深入
 
 ## 概述

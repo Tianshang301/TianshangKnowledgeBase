@@ -1,3 +1,8 @@
+---
+aliases: [CloudComputingAndDistributedSystems]
+tags: ['CloudComputingAndDistributedSystems', 'CloudComputingAndDistributedSystems']
+---
+
 # 云计算与分布式系统完全指南
 
 ## 概述

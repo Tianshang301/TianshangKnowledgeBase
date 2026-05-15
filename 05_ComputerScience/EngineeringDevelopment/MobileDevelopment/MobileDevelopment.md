@@ -1,3 +1,8 @@
+---
+aliases: [MobileDevelopment]
+tags: ['EngineeringDevelopment', 'MobileDevelopment', 'MobileDevelopment']
+---
+
 # 移动开发完全指南
 
 ## 概述

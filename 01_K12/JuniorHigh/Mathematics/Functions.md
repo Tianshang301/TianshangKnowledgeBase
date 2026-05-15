@@ -1,3 +1,8 @@
+---
+aliases: [Functions]
+tags: ['JuniorHigh', 'Mathematics', 'Functions']
+---
+
 # 函数
 
 ## 概述

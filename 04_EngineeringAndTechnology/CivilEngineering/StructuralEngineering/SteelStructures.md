@@ -1,3 +1,8 @@
+---
+aliases: [SteelStructures]
+tags: ['CivilEngineering', 'StructuralEngineering', 'SteelStructures']
+---
+
 # 钢结构
 
 ## 定义

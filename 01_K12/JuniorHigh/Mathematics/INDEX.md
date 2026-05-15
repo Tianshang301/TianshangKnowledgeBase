@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['JuniorHigh', 'Mathematics', 'INDEX']
+---
+
 # Mathematics
 
 本索引汇集了 Mathematics 相关的核心知识文件，涵盖 | [[AlgebraIntro|有理数、实数、整式运算、因式分解、分式、方程（一元一次/一元二次/二元一次方程组）、不等式、应用题模型]]、| [[Functions|函数概念、正比例函数、一次函数、反比例函数、二次函数、分段函数、图像变换、实际应用]]、| [[GeometryAdvanced|基本概念、三角形（全等/相似/勾股定理）、四边形、圆、锐角三角函数、坐标几何、几何变换]] 等内容。

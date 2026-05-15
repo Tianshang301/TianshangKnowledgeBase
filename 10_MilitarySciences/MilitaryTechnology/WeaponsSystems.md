@@ -1,3 +1,8 @@
+---
+aliases: [WeaponsSystems]
+tags: ['MilitaryTechnology', 'WeaponsSystems']
+---
+
 # 武器系统
 
 ## 概述

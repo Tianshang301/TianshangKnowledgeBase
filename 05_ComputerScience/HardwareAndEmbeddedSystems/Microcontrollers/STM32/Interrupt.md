@@ -1,3 +1,8 @@
+---
+aliases: [Interrupt]
+tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'STM32', 'Interrupt']
+---
+
 # STM32 中断系统
 
 ## NVIC (Nested Vectored Interrupt Controller)

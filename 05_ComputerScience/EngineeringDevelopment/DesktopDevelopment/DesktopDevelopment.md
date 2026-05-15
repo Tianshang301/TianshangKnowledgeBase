@@ -1,3 +1,8 @@
+---
+aliases: [DesktopDevelopment]
+tags: ['EngineeringDevelopment', 'DesktopDevelopment', 'DesktopDevelopment']
+---
+
 # 桌面开发 (Desktop Development)
 
 ## 一、桌面应用范式 (Desktop Application Paradigms)

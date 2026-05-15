@@ -1,3 +1,8 @@
+---
+aliases: [BuildingMaterials]
+tags: ['CivilEngineering', 'BuildingScience', 'BuildingMaterials']
+---
+
 # 建筑材料
 
 ## 定义

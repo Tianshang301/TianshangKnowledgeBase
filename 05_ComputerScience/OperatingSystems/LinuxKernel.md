@@ -1,3 +1,8 @@
+---
+aliases: [LinuxKernel]
+tags: ['OperatingSystems', 'LinuxKernel']
+---
+
 # Linux 内核基础 (Linux Kernel Fundamentals)
 
 ## 1. 内核架构 (Kernel Architecture)

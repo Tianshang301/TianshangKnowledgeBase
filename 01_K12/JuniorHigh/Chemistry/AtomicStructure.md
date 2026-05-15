@@ -1,3 +1,8 @@
+---
+aliases: [AtomicStructure]
+tags: ['JuniorHigh', 'Chemistry', 'AtomicStructure']
+---
+
 # 原子结构
 
 ## 概述

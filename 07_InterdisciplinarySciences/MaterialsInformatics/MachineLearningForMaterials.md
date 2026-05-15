@@ -1,3 +1,8 @@
+---
+aliases: [MachineLearningForMaterials]
+tags: ['MaterialsInformatics', 'MachineLearningForMaterials']
+---
+
 # 材料机器学习
 
 ## 概述

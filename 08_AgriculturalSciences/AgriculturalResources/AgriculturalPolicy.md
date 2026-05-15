@@ -1,3 +1,8 @@
+---
+aliases: [AgriculturalPolicy]
+tags: ['AgriculturalResources', 'AgriculturalPolicy']
+---
+
 # 农业政策与管理
 ## 概述
 

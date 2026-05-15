@@ -1,3 +1,8 @@
+---
+aliases: [EthnicCulture]
+tags: ['EthnicStudies', 'EthnicCulture', 'EthnicCulture']
+---
+
 # 民族文化
 
 ## 一、民族文化的基本概念

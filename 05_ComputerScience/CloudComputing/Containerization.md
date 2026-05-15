@@ -1,3 +1,8 @@
+---
+aliases: [Containerization]
+tags: ['CloudComputing', 'Containerization']
+---
+
 # 容器化
 
 > 容器化是一种轻量级的虚拟化技术，将应用及其依赖打包在一起，确保在任何环境中一致运行。

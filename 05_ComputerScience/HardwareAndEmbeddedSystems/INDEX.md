@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['HardwareAndEmbeddedSystems', 'INDEX']
+---
+
 # HardwareAndEmbeddedSystems
 
 本索引汇集了 HardwareAndEmbeddedSystems 相关的核心知识文件，涵盖 EmbeddedSystems — 嵌入式系统、FPGA — FPGA、LearningPath — 硬件学习路线图 等内容。

@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['JournalismAndCommunication', 'INDEX']
+---
+
 # JournalismAndCommunication
 
 本索引汇集了 JournalismAndCommunication 相关的核心知识文件，涵盖 > 详细内容请见 [[新闻学基础]]、[[传播学理论]]、[[新媒体与舆论学]]、Advertising、CommunicationTheory 等内容。

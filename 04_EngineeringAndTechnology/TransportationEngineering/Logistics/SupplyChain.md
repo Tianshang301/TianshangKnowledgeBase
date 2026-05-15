@@ -1,3 +1,8 @@
+---
+aliases: [SupplyChain]
+tags: ['TransportationEngineering', 'Logistics', 'SupplyChain']
+---
+
 # 供应链管理
 
 ## 定义

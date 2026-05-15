@@ -1,3 +1,8 @@
+---
+aliases: [ImageProcessing]
+tags: ['ElectronicsAndCommunications', 'SignalProcessing', 'ImageProcessing']
+---
+
 # 图像处理
 
 ## 定义

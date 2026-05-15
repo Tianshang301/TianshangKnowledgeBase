@@ -1,3 +1,8 @@
+---
+aliases: [EntrepreneurshipForTeens]
+tags: ['CrossDisciplinaryK12', 'CareerEducation', 'EntrepreneurshipForTeens']
+---
+
 # 创业启蒙
 
 > 青少年创业教育培养学生的创新思维、风险意识和解决问题的能力。

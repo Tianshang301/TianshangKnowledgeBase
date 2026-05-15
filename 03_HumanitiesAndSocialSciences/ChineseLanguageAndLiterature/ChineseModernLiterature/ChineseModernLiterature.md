@@ -1,3 +1,8 @@
+---
+aliases: [ChineseModernLiterature]
+tags: ['ChineseLanguageAndLiterature', 'ChineseModernLiterature', 'ChineseModernLiterature']
+---
+
 # 中国现当代文学
 
 ## 一、五四新文学

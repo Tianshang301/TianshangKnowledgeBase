@@ -1,3 +1,8 @@
+---
+aliases: [FoodMicrobiology]
+tags: ['FoodScience', 'FoodMicrobiology']
+---
+
 # 食品微生物学
 
 ## 一、食品中的微生物

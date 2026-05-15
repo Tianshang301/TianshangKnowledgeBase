@@ -1,3 +1,8 @@
+---
+aliases: [CognitiveScienceMethodology]
+tags: ['CognitiveScience', 'CognitiveScienceMethodology']
+---
+
 # 认知科学方法?
 ## 概述
 

@@ -1,3 +1,8 @@
+---
+aliases: [Geophysics]
+tags: ['EarthSciences', 'Geophysics', 'Geophysics']
+---
+
 # 地球物理学（地球科学）
 
 ## 一、行星地球结构

@@ -1,3 +1,8 @@
+---
+aliases: [Immunology]
+tags: ['BasicMedicalSciences', 'Immunology']
+---
+
 # 免疫学
 
 ## 概述

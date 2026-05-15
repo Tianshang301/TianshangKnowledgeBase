@@ -1,3 +1,8 @@
+---
+aliases: [EdgeComputing]
+tags: ['NetworkedInformationSystems', 'EdgeComputing']
+---
+
 # 边缘计算
 
 ## 概述

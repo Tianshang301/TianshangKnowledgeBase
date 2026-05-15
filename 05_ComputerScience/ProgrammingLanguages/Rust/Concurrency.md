@@ -1,3 +1,8 @@
+---
+aliases: [Concurrency]
+tags: ['ProgrammingLanguages', 'Rust', 'Concurrency']
+---
+
 # Rust 并发编程
 
 ## 线程创建

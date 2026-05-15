@@ -1,3 +1,8 @@
+---
+aliases: [AgileMethodologies]
+tags: ['SoftwareEngineering', 'AgileMethodologies', 'AgileMethodologies']
+---
+
 # 敏捷方法论 (Agile Methodologies)
 
 ## 一、敏捷宣言 (Agile Manifesto)

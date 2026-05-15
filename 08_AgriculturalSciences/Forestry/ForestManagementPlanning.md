@@ -1,3 +1,8 @@
+---
+aliases: [ForestManagementPlanning]
+tags: ['Forestry', 'ForestManagementPlanning']
+---
+
 # 森林经理学
 
 ## 概述

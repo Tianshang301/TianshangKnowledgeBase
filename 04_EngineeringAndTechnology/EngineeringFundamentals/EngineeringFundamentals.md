@@ -1,3 +1,8 @@
+---
+aliases: [EngineeringFundamentals]
+tags: ['EngineeringFundamentals', 'EngineeringFundamentals']
+---
+
 # 工程基础
 
 ## 学科定义

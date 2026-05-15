@@ -1,3 +1,8 @@
+---
+aliases: [Orthodontics]
+tags: ['Stomatology', 'Orthodontics']
+---
+
 # 口腔正畸学
 
 ## 概述

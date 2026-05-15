@@ -1,3 +1,8 @@
+---
+aliases: [Writing]
+tags: ['ForeignLanguagesAndLiteratures', 'English', 'Writing']
+---
+
 # 英语写作指南
 
 ## 文章结构 (Essay Structure)

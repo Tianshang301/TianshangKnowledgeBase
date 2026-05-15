@@ -1,3 +1,8 @@
+---
+aliases: [ScienceExploration]
+tags: ['PrimarySchool', 'IntegratedStudies', 'ScienceExploration']
+---
+
 # 科学探索
 
 ## 概述

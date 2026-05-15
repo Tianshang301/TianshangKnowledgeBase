@@ -1,3 +1,8 @@
+---
+aliases: [BuildingPhysics]
+tags: ['CivilEngineering', 'BuildingScience', 'BuildingPhysics']
+---
+
 # 建筑物理
 
 ## 定义

@@ -1,3 +1,8 @@
+---
+aliases: [ServerlessComputing]
+tags: ['CloudComputing', 'ServerlessComputing']
+---
+
 # 无服务器计算
 
 > 无服务器计算（Serverless）是一种云执行模型，云提供商动态管理资源分配，开发者只需关注代码。

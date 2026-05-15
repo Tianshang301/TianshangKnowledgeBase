@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Arts', 'Calligraphy', 'INDEX']
+---
+
 # Calligraphy
 
 本索引汇集了 Calligraphy 相关的核心知识文件，涵盖 > 详细内容请见 [[中国书法艺术]] 等内容。

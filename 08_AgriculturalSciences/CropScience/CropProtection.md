@@ -1,3 +1,8 @@
+---
+aliases: [CropProtection]
+tags: ['CropScience', 'CropProtection']
+---
+
 # 作物保护学
 
 ## 概述

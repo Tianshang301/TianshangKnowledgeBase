@@ -1,3 +1,8 @@
+---
+aliases: [EnergySystems]
+tags: ['EnergyAndNuclearEngineering', 'EnergyScience', 'EnergySystems']
+---
+
 # 能源系统
 
 ## 定义

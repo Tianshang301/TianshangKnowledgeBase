@@ -1,3 +1,8 @@
+---
+aliases: [WirelessCommunications]
+tags: ['ElectronicsAndCommunications', 'Communications', 'WirelessCommunications']
+---
+
 # 无线通信
 
 ## 定义

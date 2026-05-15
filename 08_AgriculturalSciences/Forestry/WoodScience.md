@@ -1,3 +1,8 @@
+---
+aliases: [WoodScience]
+tags: ['Forestry', 'WoodScience']
+---
+
 # 木材学
 
 ## 概述

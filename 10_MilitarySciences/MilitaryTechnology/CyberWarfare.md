@@ -1,3 +1,8 @@
+---
+aliases: [CyberWarfare]
+tags: ['MilitaryTechnology', 'CyberWarfare']
+---
+
 # 网络战
 
 ## 概述

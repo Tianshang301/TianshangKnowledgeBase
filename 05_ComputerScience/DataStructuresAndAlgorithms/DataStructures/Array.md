@@ -1,3 +1,8 @@
+---
+aliases: [Array]
+tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'Array']
+---
+
 # 数组详解
 
 ## 基本概念

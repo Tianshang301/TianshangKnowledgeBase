@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['CropScience', 'INDEX']
+---
+
 # CropScience
 
 本索引汇集了 CropScience 相关的核心知识文件，涵盖 CropBreeding - 作物育种学：研究品种选育的理论与方法，包括杂交育种、分子育种、CropGenetics - 作物遗传学：探讨作物性状遗传规律、基因定位与基因组学、CropPhysiology - 作物生理学：研究光合作用、水分关系、矿质营养等生理过程 等内容。

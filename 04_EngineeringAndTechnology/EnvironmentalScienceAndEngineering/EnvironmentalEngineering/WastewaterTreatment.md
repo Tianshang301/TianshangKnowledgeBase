@@ -1,3 +1,8 @@
+---
+aliases: [WastewaterTreatment]
+tags: ['EnvironmentalScienceAndEngineering', 'EnvironmentalEngineering', 'WastewaterTreatment']
+---
+
 # 废水处理
 
 ## 定义

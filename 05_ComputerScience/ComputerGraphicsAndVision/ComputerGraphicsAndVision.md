@@ -1,3 +1,8 @@
+---
+aliases: [ComputerGraphicsAndVision]
+tags: ['ComputerGraphicsAndVision', 'ComputerGraphicsAndVision']
+---
+
 # 计算机图形学与视觉完全指南
 
 ## 概述

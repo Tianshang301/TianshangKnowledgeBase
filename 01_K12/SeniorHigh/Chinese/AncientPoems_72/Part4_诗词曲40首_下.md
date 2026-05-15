@@ -1,3 +1,8 @@
+---
+aliases: [Part4_诗词曲40首_下]
+tags: ['SeniorHigh', 'Chinese', 'AncientPoems_72', 'Part4_诗词曲40首_下']
+---
+
 # 高中必背古诗文72篇· 诗词曲40首（下：21-40）
 
 ---

@@ -1,3 +1,8 @@
+---
+aliases: [RISC-V指令集架构]
+tags: ['ComputerOrganizationAndArchitecture', 'InstructionSet', 'RISC-V指令集架构']
+---
+
 # RISC-V指令集架构
 
 ## 一、RISC-V概述

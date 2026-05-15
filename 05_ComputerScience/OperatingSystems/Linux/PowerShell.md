@@ -1,3 +1,8 @@
+---
+aliases: [PowerShell]
+tags: ['OperatingSystems', 'Linux', 'PowerShell']
+---
+
 # PowerShell 脚本编程
 
 ## Cmdlets 与函数

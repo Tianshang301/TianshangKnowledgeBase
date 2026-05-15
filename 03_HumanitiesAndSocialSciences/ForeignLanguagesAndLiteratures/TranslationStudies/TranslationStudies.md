@@ -1,3 +1,8 @@
+---
+aliases: [TranslationStudies]
+tags: ['ForeignLanguagesAndLiteratures', 'TranslationStudies', 'TranslationStudies']
+---
+
 # 翻译学
 
 ## 一、翻译学的学科定位

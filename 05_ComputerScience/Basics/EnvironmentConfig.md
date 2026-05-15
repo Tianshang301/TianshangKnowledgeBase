@@ -1,3 +1,8 @@
+---
+aliases: [EnvironmentConfig]
+tags: ['Basics', 'EnvironmentConfig']
+---
+
 # 环境配置完全指南
 
 ## PATH 环境变量

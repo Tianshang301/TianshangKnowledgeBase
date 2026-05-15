@@ -1,3 +1,8 @@
+---
+aliases: [DataStructuresAndAlgorithms]
+tags: ['ComputerAndInformationSciences', 'DataStructuresAndAlgorithms']
+---
+
 # 数据结构与算法
 
 ## 一、线性数据结构

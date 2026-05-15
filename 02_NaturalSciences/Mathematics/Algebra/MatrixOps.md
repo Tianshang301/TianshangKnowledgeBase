@@ -1,3 +1,8 @@
+---
+aliases: [MatrixOps]
+tags: ['Mathematics', 'Algebra', 'MatrixOps']
+---
+
 # 矩阵运算详解
 
 ## 一、基本运算

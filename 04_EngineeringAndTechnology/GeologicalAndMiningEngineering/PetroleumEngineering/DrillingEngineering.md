@@ -1,3 +1,8 @@
+---
+aliases: [DrillingEngineering]
+tags: ['GeologicalAndMiningEngineering', 'PetroleumEngineering', 'DrillingEngineering']
+---
+
 # 钻井工程
 
 ## 定义

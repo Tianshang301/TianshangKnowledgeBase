@@ -1,3 +1,8 @@
+---
+aliases: [MineralProcessing]
+tags: ['MiningAndMineralEngineering', 'MineralProcessing', 'MineralProcessing']
+---
+
 # 矿物加工
 
 ## 一、粉碎工程（Comminution）

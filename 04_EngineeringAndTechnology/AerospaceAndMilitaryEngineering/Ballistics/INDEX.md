@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['AerospaceAndMilitaryEngineering', 'Ballistics', 'INDEX']
+---
+
 # 弹道学
 
 本索引汇集了弹道学的核心理论与计算方法，涵盖内弹道、外弹道及终点弹道等内容。

@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['EthnicStudies', 'Ethnology', 'INDEX']
+---
+
 # 民族学
 
 本索引汇集了民族学的基础理论和研究方法，涵盖民族分类、民族关系与民族政策等内容。

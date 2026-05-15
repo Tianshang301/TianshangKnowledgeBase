@@ -1,3 +1,8 @@
+---
+aliases: [MilitaryInformatics]
+tags: ['MilitaryTechnology', 'MilitaryInformatics']
+---
+
 # 军事信息学
 
 ## 概述

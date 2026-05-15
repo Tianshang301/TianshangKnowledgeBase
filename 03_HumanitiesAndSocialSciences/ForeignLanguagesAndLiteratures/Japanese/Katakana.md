@@ -1,3 +1,8 @@
+---
+aliases: [Katakana]
+tags: ['ForeignLanguagesAndLiteratures', 'Japanese', 'Katakana']
+---
+
 # 片假名完全指南
 
 ## 50音图 (50音図) - 基础 46 字

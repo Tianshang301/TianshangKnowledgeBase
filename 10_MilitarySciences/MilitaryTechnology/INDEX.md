@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['MilitaryTechnology', 'INDEX']
+---
+
 # MilitaryTechnology
 
 本索引汇集了 MilitaryTechnology 相关的核心知识文件，涵盖 CyberWarfare — 网络战：网络空间作战、MilitaryElectronics — 军事电子学：电子系统与装备、MilitaryInformatics — 军事信息学：信息技术军事应用 等内容。

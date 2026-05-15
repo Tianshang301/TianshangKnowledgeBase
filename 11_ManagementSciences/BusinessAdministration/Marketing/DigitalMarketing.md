@@ -1,3 +1,8 @@
+---
+aliases: [DigitalMarketing]
+tags: ['BusinessAdministration', 'Marketing', 'DigitalMarketing']
+---
+
 # 数字营销
 
 ## 概述

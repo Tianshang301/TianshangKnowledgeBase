@@ -1,3 +1,8 @@
+---
+aliases: [ClimateChangeEducation]
+tags: ['CrossDisciplinaryK12', 'EnvironmentalEducation', 'ClimateChangeEducation']
+---
+
 # 气候变化教育
 
 > 气候变化教育帮助学生理解全球气候变化的科学原理、影响及应对措施。

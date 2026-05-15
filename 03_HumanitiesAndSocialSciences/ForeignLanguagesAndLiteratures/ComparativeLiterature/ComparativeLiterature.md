@@ -1,3 +1,8 @@
+---
+aliases: [ComparativeLiterature]
+tags: ['ForeignLanguagesAndLiteratures', 'ComparativeLiterature', 'ComparativeLiterature']
+---
+
 # 比较文学
 
 ## 一、比较文学的定义与学科定位

@@ -1,3 +1,8 @@
+---
+aliases: [ArchaeologicalMethods]
+tags: ['Archaeology', 'ArchaeologicalMethods', 'ArchaeologicalMethods']
+---
+
 # 考古学方法论
 
 ## 一、考古学研究设计

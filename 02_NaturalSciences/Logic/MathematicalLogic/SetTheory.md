@@ -1,3 +1,8 @@
+---
+aliases: [SetTheory]
+tags: ['Logic', 'MathematicalLogic', 'SetTheory']
+---
+
 # 集合论详解
 
 ## 一、集合基础

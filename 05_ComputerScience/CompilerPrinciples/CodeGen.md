@@ -1,3 +1,8 @@
+---
+aliases: [CodeGen]
+tags: ['CompilerPrinciples', 'CodeGen']
+---
+
 # 目标代码生成
 
 ## 一、概述

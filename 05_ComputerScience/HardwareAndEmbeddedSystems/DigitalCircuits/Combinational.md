@@ -1,3 +1,8 @@
+---
+aliases: [Combinational]
+tags: ['HardwareAndEmbeddedSystems', 'DigitalCircuits', 'Combinational']
+---
+
 # 组合逻辑电路
 
 ## 布尔代数化简

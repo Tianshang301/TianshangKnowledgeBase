@@ -1,3 +1,8 @@
+---
+aliases: [UnionFind]
+tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'UnionFind']
+---
+
 # 并查集
 
 ## 基本概念

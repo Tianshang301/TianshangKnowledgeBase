@@ -1,3 +1,8 @@
+---
+aliases: [WebSecurity]
+tags: ['Cybersecurity', 'WebSecurity']
+---
+
 # Web 安全完全指南
 
 ## 概述

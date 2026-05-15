@@ -1,3 +1,8 @@
+---
+aliases: [Biotechnology]
+tags: ['TextileAndFoodEngineering', 'Biotechnology', 'Biotechnology']
+---
+
 # 生物技术（纺织与食品工程方向）
 
 ## 一、工业生物技术概述

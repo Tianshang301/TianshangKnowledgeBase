@@ -1,3 +1,8 @@
+---
+aliases: [MST]
+tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'MST']
+---
+
 # 最小生成树
 
 ## 基本概念

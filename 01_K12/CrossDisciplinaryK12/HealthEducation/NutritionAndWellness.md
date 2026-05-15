@@ -1,3 +1,8 @@
+---
+aliases: [NutritionAndWellness]
+tags: ['CrossDisciplinaryK12', 'HealthEducation', 'NutritionAndWellness']
+---
+
 # 营养与健康
 
 > 青少年营养健康教育培养科学的饮食观念和健康的生活方式。

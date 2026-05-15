@@ -1,3 +1,8 @@
+---
+aliases: [FisheriesScience]
+tags: ['Fishery', 'FisheriesScience']
+---
+
 # 渔业科学
 
 ## 概述

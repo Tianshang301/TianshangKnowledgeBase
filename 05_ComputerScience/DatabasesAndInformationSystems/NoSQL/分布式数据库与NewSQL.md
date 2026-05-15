@@ -1,3 +1,8 @@
+---
+aliases: [分布式数据库与NewSQL]
+tags: ['DatabasesAndInformationSystems', 'NoSQL', '分布式数据库与NewSQL']
+---
+
 # 分布式数据库与NewSQL
 
 ## 一、分布式数据库概述

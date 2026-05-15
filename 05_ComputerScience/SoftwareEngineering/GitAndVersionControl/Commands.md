@@ -1,3 +1,8 @@
+---
+aliases: [Commands]
+tags: ['SoftwareEngineering', 'GitAndVersionControl', 'Commands']
+---
+
 # Git 命令速查
 
 ## 一、配置

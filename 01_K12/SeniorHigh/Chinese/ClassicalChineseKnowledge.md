@@ -1,3 +1,8 @@
+---
+aliases: [ClassicalChineseKnowledge]
+tags: ['SeniorHigh', 'Chinese', 'ClassicalChineseKnowledge']
+---
+
 # 高中语文 · 文言文阅读系统知识
 
 ---

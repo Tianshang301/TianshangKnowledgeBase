@@ -1,3 +1,8 @@
+---
+aliases: [PolymerMaterials]
+tags: ['MechanicsAndMaterials', 'MaterialsScience', 'PolymerMaterials']
+---
+
 # 高分子材料
 
 ## 定义

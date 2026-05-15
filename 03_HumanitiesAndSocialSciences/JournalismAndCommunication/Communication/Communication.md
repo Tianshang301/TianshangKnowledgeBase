@@ -1,3 +1,8 @@
+---
+aliases: [Communication]
+tags: ['JournalismAndCommunication', 'Communication', 'Communication']
+---
+
 # 传播学
 
 ## 一、传播学基础

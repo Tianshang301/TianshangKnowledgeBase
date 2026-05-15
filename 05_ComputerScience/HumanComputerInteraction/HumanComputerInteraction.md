@@ -1,3 +1,8 @@
+---
+aliases: [HumanComputerInteraction]
+tags: ['HumanComputerInteraction', 'HumanComputerInteraction']
+---
+
 # 人机交互完全指南
 
 ## 概述

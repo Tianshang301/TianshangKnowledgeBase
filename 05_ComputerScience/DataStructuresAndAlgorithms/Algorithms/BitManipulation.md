@@ -1,3 +1,8 @@
+---
+aliases: [BitManipulation]
+tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'BitManipulation']
+---
+
 # 位运算技巧
 
 ## 基本运算符

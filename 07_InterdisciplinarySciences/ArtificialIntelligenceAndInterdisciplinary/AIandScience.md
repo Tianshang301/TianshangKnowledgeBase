@@ -1,3 +1,8 @@
+---
+aliases: [AIandScience]
+tags: ['ArtificialIntelligenceAndInterdisciplinary', 'AIandScience']
+---
+
 # AI与科?
 ## 概述
 

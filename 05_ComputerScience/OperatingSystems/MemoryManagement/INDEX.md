@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['OperatingSystems', 'MemoryManagement', 'INDEX']
+---
+
 # 内存管理
 
 本索引汇集了操作系统的内存管理机制，涵盖分页、分段、虚拟内存及页面置换算法等内容。

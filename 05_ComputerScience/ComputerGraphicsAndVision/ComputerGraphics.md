@@ -1,3 +1,8 @@
+---
+aliases: [ComputerGraphics]
+tags: ['ComputerGraphicsAndVision', 'ComputerGraphics']
+---
+
 # 计算机图形学
 
 ## 概述

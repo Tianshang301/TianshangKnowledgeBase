@@ -1,3 +1,8 @@
+---
+aliases: [AnimalGenetics]
+tags: ['AnimalScience', 'AnimalGenetics']
+---
+
 # 动物遗传学
 
 ## 概述

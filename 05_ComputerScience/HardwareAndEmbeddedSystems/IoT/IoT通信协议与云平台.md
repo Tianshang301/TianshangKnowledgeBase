@@ -1,3 +1,8 @@
+---
+aliases: [IoT通信协议与云平台]
+tags: ['HardwareAndEmbeddedSystems', 'IoT', 'IoT通信协议与云平台']
+---
+
 # IoT通信协议与云平台
 
 ## 一、IoT通信协议概述

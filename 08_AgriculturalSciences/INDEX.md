@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['INDEX']
+---
+
 # 08_AgriculturalSciences
 
 本索引汇集了 08_AgriculturalSciences 相关的核心知识文件，涵盖 CropScience/CropGenetics - 作物遗传学、CropScience/CropBreeding - 作物育种、CropScience/CropPhysiology - 作物生理 等内容。

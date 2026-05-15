@@ -1,3 +1,8 @@
+---
+aliases: [Backtracking]
+tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'Backtracking']
+---
+
 # 回溯算法详解
 
 ## 基本概念

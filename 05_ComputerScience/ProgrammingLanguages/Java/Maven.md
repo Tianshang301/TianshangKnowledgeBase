@@ -1,3 +1,8 @@
+---
+aliases: [Maven]
+tags: ['ProgrammingLanguages', 'Java', 'Maven']
+---
+
 # Maven 构建工具
 
 ## pom.xml 结构

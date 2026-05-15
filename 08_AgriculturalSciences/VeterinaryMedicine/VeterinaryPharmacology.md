@@ -1,3 +1,8 @@
+---
+aliases: [VeterinaryPharmacology]
+tags: ['VeterinaryMedicine', 'VeterinaryPharmacology']
+---
+
 # 兽医药理学
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Archaeology', 'HistoricalArchaeology', 'INDEX']
+---
+
 # 历史考古学
 
 本索引汇集了历史考古学相关的知识文件，涵盖历史时期考古发现与研究等内容。

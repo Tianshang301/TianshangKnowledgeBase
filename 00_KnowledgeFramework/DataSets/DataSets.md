@@ -1,3 +1,8 @@
+---
+aliases: [DataSets]
+tags: ['DataSets', 'DataSets']
+---
+
 # 数据集资源指南
 ## 一、数据集类型
 

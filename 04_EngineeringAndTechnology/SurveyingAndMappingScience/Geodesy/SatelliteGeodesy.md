@@ -1,3 +1,8 @@
+---
+aliases: [SatelliteGeodesy]
+tags: ['SurveyingAndMappingScience', 'Geodesy', 'SatelliteGeodesy']
+---
+
 # 卫星大地测量
 
 ## 定义

@@ -1,3 +1,8 @@
+---
+aliases: [Listening]
+tags: ['ForeignLanguagesAndLiteratures', 'English', 'Listening']
+---
+
 # 英语听力训练指南
 
 ## 听力挑战

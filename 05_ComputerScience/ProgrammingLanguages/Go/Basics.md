@@ -1,3 +1,8 @@
+---
+aliases: [Basics]
+tags: ['ProgrammingLanguages', 'Go', 'Basics']
+---
+
 # Go 基础语法
 
 ## 包和导入

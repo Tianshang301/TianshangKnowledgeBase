@@ -1,3 +1,8 @@
+---
+aliases: [CurriculumDesign]
+tags: ['PhysicalEducation', 'CurriculumDesign']
+---
+
 # 体育课程设计
 
 ## 概述

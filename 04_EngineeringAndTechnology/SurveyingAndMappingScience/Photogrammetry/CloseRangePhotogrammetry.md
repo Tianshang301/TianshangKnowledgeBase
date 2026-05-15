@@ -1,3 +1,8 @@
+---
+aliases: [CloseRangePhotogrammetry]
+tags: ['SurveyingAndMappingScience', 'Photogrammetry', 'CloseRangePhotogrammetry']
+---
+
 # 近景摄影测量
 
 ## 定义

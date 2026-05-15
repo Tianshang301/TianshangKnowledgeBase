@@ -1,3 +1,8 @@
+---
+aliases: [MemoryHierarchy]
+tags: ['ComputerOrganizationAndArchitecture', 'MemoryHierarchy', 'MemoryHierarchy']
+---
+
 # 存储器层次结构 (Memory Hierarchy)
 
 ## 1. 存储层次概念

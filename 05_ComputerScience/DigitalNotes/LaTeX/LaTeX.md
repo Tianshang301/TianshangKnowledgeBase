@@ -1,3 +1,8 @@
+---
+aliases: [LaTeX]
+tags: ['DigitalNotes', 'LaTeX', 'LaTeX']
+---
+
 # LaTeX 完全指南
 
 ## 概述

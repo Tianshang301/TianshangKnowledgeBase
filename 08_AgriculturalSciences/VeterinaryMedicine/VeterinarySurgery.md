@@ -1,3 +1,8 @@
+---
+aliases: [VeterinarySurgery]
+tags: ['VeterinaryMedicine', 'VeterinarySurgery']
+---
+
 # 兽医外科学
 
 ## 概述

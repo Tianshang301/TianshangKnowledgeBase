@@ -1,3 +1,8 @@
+---
+aliases: [Miscellaneous]
+tags: ['Miscellaneous', 'Miscellaneous']
+---
+
 # 杂项实用技能
 
 ## 概述

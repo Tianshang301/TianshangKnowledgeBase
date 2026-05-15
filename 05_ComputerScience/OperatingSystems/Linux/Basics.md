@@ -1,3 +1,8 @@
+---
+aliases: [Basics]
+tags: ['OperatingSystems', 'Linux', 'Basics']
+---
+
 # 正则表达式基础
 
 ## 字面字符

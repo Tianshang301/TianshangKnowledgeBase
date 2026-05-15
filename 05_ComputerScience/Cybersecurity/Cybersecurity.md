@@ -1,3 +1,8 @@
+---
+aliases: [Cybersecurity]
+tags: ['Cybersecurity', 'Cybersecurity']
+---
+
 # 网络安全完全指南
 
 ## 概述

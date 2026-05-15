@@ -1,3 +1,8 @@
+---
+aliases: [ReactionEngineering]
+tags: ['ChemicalAndPharmaceuticalEngineering', 'ChemicalEngineering', 'ReactionEngineering']
+---
+
 # 化学反应工程
 
 ## 定义

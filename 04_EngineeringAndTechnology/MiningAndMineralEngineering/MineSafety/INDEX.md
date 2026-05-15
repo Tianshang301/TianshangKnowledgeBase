@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['MiningAndMineralEngineering', 'MineSafety', 'INDEX']
+---
+
 # 矿山安全
 
 本索引汇集了矿山安全工程的核心知识，涵盖灾害防治、安全监测与应急救援等内容。

@@ -1,3 +1,8 @@
+---
+aliases: [AcademicPapers]
+tags: ['AcademicPapers', 'AcademicPapers']
+---
+
 # 学术论文写作指南
 
 ## 一、论文结构：IMRaD范式

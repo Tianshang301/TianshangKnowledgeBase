@@ -1,3 +1,8 @@
+---
+aliases: [OptimalControl]
+tags: ['ControlAndSystemsEngineering', 'ControlTheory', 'OptimalControl']
+---
+
 # 最优控制
 
 ## 定义

@@ -1,3 +1,8 @@
+---
+aliases: [PortEngineering]
+tags: ['HydraulicAndMarineEngineering', 'HarborAndCoastalEngineering', 'PortEngineering']
+---
+
 # 港口工程
 
 ## 定义

@@ -1,3 +1,8 @@
+---
+aliases: [IndustrialAutomation]
+tags: ['ControlAndSystemsEngineering', 'Automation', 'IndustrialAutomation']
+---
+
 # 工业自动化
 
 ## 定义

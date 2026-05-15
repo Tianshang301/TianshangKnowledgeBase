@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ForeignLanguagesAndLiteratures', 'Italian', 'INDEX']
+---
+
 # Italian
 
 本索引汇集了 Italian 相关的核心知识文件，涵盖 > 详细内容请见 [[基础意大利语]]、[[意大利语语法进阶]] 等内容。

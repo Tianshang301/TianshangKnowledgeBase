@@ -1,3 +1,8 @@
+---
+aliases: [AirPollutionControl]
+tags: ['EnvironmentalScienceAndEngineering', 'EnvironmentalEngineering', 'AirPollutionControl']
+---
+
 # 大气污染控制
 
 ## 定义

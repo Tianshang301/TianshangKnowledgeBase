@@ -1,3 +1,8 @@
+---
+aliases: [ManufacturingProcess]
+tags: ['MechanicalAndElectricalEngineering', 'MechanicalEngineering', 'ManufacturingProcess']
+---
+
 # 制造工艺
 
 ## 定义

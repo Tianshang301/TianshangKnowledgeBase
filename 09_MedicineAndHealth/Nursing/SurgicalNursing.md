@@ -1,3 +1,8 @@
+---
+aliases: [SurgicalNursing]
+tags: ['Nursing', 'SurgicalNursing']
+---
+
 # 外科护理学
 
 ## 概述

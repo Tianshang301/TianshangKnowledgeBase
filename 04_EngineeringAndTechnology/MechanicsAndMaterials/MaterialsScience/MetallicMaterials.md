@@ -1,3 +1,8 @@
+---
+aliases: [MetallicMaterials]
+tags: ['MechanicsAndMaterials', 'MaterialsScience', 'MetallicMaterials']
+---
+
 # 金属材料
 
 ## 定义

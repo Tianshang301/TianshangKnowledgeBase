@@ -1,3 +1,8 @@
+---
+aliases: [ComparativePolitics]
+tags: ['PoliticalScience', 'ComparativePolitics', 'ComparativePolitics']
+---
+
 # 比较政治学
 
 ## 一、比较方法

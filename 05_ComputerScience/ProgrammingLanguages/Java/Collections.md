@@ -1,3 +1,8 @@
+---
+aliases: [Collections]
+tags: ['ProgrammingLanguages', 'Java', 'Collections']
+---
+
 # Java 集合框架
 
 ## 集合层次结构

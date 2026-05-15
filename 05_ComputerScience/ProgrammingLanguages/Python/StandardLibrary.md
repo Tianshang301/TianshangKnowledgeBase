@@ -1,3 +1,8 @@
+---
+aliases: [StandardLibrary]
+tags: ['ProgrammingLanguages', 'Python', 'StandardLibrary']
+---
+
 # Python 标准库常用模块
 
 ## 一、os 模块 — 操作系统接口

@@ -1,3 +1,8 @@
+---
+aliases: [Config]
+tags: ['OperatingSystems', 'Linux', 'Config']
+---
+
 # Vim 配置指南
 
 ## 一、配置文件位置

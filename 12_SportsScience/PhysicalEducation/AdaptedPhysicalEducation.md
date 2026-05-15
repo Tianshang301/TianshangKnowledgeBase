@@ -1,3 +1,8 @@
+---
+aliases: [AdaptedPhysicalEducation]
+tags: ['PhysicalEducation', 'AdaptedPhysicalEducation']
+---
+
 # 适应性体育教育
 
 ## 概述

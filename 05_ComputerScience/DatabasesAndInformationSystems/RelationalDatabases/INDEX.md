@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['DatabasesAndInformationSystems', 'RelationalDatabases', 'INDEX']
+---
+
 # 关系数据库
 
 本索引汇集了关系数据库的核心理论与应用，涵盖 SQL、规范化及事务管理等内容。

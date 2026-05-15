@@ -1,3 +1,8 @@
+---
+aliases: [CropPhysiology]
+tags: ['CropScience', 'CropPhysiology']
+---
+
 # 作物生理
 
 ## 概述

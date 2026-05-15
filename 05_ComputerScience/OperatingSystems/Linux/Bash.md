@@ -1,3 +1,8 @@
+---
+aliases: [Bash]
+tags: ['OperatingSystems', 'Linux', 'Bash']
+---
+
 # Bash 脚本编程
 
 ## Shebang 和基本结构

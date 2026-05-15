@@ -1,3 +1,8 @@
+---
+aliases: [RobotDynamics]
+tags: ['ControlAndSystemsEngineering', 'Robotics', 'RobotDynamics']
+---
+
 # 机器人动力学
 
 ## 定义

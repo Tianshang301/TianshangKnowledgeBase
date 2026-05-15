@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['JournalismAndCommunication', 'MediaStudies', 'INDEX']
+---
+
 # 媒介研究
 
 本索引汇集了媒介研究的主要理论与批判视角，涵盖媒介与社会、文化及政治的关系等内容。

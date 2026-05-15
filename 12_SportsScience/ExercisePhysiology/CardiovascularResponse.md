@@ -1,3 +1,8 @@
+---
+aliases: [CardiovascularResponse]
+tags: ['ExercisePhysiology', 'CardiovascularResponse']
+---
+
 # 心血管反应
 
 ## 概述

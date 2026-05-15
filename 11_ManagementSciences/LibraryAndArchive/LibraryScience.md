@@ -1,3 +1,8 @@
+---
+aliases: [LibraryScience]
+tags: ['LibraryAndArchive', 'LibraryScience']
+---
+
 # 图书馆学
 
 ## 概述

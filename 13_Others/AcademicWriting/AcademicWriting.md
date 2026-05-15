@@ -1,3 +1,8 @@
+---
+aliases: [AcademicWriting]
+tags: ['AcademicWriting', 'AcademicWriting']
+---
+
 # 学术写作
 
 ## 一、学术写作特征

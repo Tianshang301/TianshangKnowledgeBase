@@ -1,3 +1,8 @@
+---
+aliases: [GraphTheory]
+tags: ['Logic', 'MathematicalLogic', 'GraphTheory']
+---
+
 # 图论详解
 
 ## 一、图的基本类型

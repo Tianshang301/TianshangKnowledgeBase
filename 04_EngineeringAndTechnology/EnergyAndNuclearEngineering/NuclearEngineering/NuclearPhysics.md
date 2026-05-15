@@ -1,3 +1,8 @@
+---
+aliases: [NuclearPhysics]
+tags: ['EnergyAndNuclearEngineering', 'NuclearEngineering', 'NuclearPhysics']
+---
+
 # 核物理学
 
 ## 定义

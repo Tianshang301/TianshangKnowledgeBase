@@ -1,3 +1,8 @@
+---
+aliases: [MachineDesign]
+tags: ['MechanicalAndElectricalEngineering', 'MechanicalEngineering', 'MachineDesign']
+---
+
 # 机械设计
 
 ## 定义

@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Arts', 'ArtTheory', 'INDEX']
+---
+
 # ArtTheory
 
 本索引汇集了 ArtTheory 相关的核心知识文件，涵盖 > 详细内容请见 [[艺术理论与美学]]、[[艺术批评与艺术史]] 等内容。

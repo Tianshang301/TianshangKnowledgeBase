@@ -1,3 +1,8 @@
+---
+aliases: [MySQLDeep]
+tags: ['DatabasesAndInformationSystems', 'MySQLDeep']
+---
+
 # MySQL 深入指南
 
 ## 一、MySQL 架构

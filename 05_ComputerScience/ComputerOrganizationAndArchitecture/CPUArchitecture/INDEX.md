@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ComputerOrganizationAndArchitecture', 'CPUArchitecture', 'INDEX']
+---
+
 # CPU 体系结构
 
 本索引汇集了中央处理器体系结构的核心知识，涵盖指令流水线、超标量及多核架构等内容。

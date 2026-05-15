@@ -1,3 +1,8 @@
+---
+aliases: [AnimalNutrition]
+tags: ['AnimalScience', 'AnimalNutrition']
+---
+
 # 动物营养学
 
 ## 概述

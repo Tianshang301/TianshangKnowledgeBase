@@ -1,3 +1,8 @@
+---
+aliases: [UNESCOFramework]
+tags: ['ClassificationMappings', 'UNESCOFramework']
+---
+
 # 联合国教科文组织基础科学分类体系
 
 ## 概述

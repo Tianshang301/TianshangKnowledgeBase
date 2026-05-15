@@ -1,3 +1,8 @@
+---
+aliases: [AIandHealthcare]
+tags: ['ArtificialIntelligenceAndInterdisciplinary', 'AIandHealthcare']
+---
+
 # AI与医疗健?
 ## 概述
 

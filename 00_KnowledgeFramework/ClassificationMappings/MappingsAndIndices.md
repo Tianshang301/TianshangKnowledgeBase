@@ -1,3 +1,8 @@
+---
+aliases: [MappingsAndIndices]
+tags: ['ClassificationMappings', 'MappingsAndIndices']
+---
+
 # 映射与索引技术指南
 ## 一、索引基础
 

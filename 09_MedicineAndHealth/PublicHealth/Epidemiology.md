@@ -1,3 +1,8 @@
+---
+aliases: [Epidemiology]
+tags: ['PublicHealth', 'Epidemiology']
+---
+
 # 流行病学
 
 ## 概述

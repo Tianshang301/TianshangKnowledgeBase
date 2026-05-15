@@ -1,3 +1,8 @@
+---
+aliases: [LandResourceManagement]
+tags: ['AgriculturalResources', 'LandResourceManagement']
+---
+
 # 土地资源管理
 
 ## 概述

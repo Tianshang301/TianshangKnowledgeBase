@@ -1,3 +1,8 @@
+---
+aliases: [ConceptMapping]
+tags: ['KnowledgeGraph', 'ConceptMapping']
+---
+
 # 概念映射方法
 
 ## 概述

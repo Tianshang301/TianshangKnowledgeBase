@@ -1,3 +1,8 @@
+---
+aliases: [Workflow]
+tags: ['SoftwareEngineering', 'GitAndVersionControl', 'Workflow']
+---
+
 # Git 工作流
 
 ## 一、Git Flow

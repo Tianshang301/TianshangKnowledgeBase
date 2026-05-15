@@ -1,3 +1,8 @@
+---
+aliases: [ChineseLinguistics]
+tags: ['ChineseLanguageAndLiterature', 'ChineseLinguistics', 'ChineseLinguistics']
+---
+
 # 汉语语言学
 
 ## 一、方言学

@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Sociology', 'Demography', 'INDEX']
+---
+
 # 人口学
 
 本索引汇集了人口学的基本理论与分析方法，涵盖人口结构、人口变迁及人口政策等内容。

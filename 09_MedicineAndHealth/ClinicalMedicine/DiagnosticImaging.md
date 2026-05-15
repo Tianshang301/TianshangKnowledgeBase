@@ -1,3 +1,8 @@
+---
+aliases: [DiagnosticImaging]
+tags: ['ClinicalMedicine', 'DiagnosticImaging']
+---
+
 # 医学影像学
 
 ## 概述

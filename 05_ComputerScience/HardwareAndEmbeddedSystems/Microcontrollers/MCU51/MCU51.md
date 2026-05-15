@@ -1,3 +1,8 @@
+---
+aliases: [MCU51]
+tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'MCU51', 'MCU51']
+---
+
 # 51 单片机
 
 ## 一、8051 架构概述

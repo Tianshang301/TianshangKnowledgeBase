@@ -1,3 +1,8 @@
+---
+aliases: [QuantumCryptography]
+tags: ['QuantumInformationScience', 'QuantumCryptography']
+---
+
 # 量子密码?
 ## 概述
 

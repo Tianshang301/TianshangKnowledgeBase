@@ -1,3 +1,8 @@
+---
+aliases: [GeometricalOptics]
+tags: ['MechanicalAndElectricalEngineering', 'OpticalEngineering', 'GeometricalOptics']
+---
+
 # 几何光学
 
 ## 定义

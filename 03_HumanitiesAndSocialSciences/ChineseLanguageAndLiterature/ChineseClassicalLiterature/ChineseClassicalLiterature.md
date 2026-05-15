@@ -1,3 +1,8 @@
+---
+aliases: [ChineseClassicalLiterature]
+tags: ['ChineseLanguageAndLiterature', 'ChineseClassicalLiterature', 'ChineseClassicalLiterature']
+---
+
 # 中国古代文学
 
 ## 一、先秦文学

@@ -1,3 +1,8 @@
+---
+aliases: [AnalogElectronics]
+tags: ['ElectronicsAndCommunications', 'Electronics', 'AnalogElectronics']
+---
+
 # 模拟电子
 
 ## 定义

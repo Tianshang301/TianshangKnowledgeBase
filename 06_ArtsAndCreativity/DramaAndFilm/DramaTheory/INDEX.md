@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['DramaAndFilm', 'DramaTheory', 'INDEX']
+---
+
 # DramaTheory
 
 本索引汇集了 DramaTheory 相关的核心知识文件，涵盖 经典剧作分析 - 经典剧作分析、戏剧理论 等内容。

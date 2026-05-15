@@ -1,3 +1,8 @@
+---
+aliases: [NursingFundamentals]
+tags: ['Nursing', 'NursingFundamentals']
+---
+
 # 护理学基础
 
 ## 概述

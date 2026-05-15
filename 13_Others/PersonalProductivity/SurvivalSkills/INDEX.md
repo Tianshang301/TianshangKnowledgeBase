@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['PersonalProductivity', 'SurvivalSkills', 'INDEX']
+---
+
 # SurvivalSkills
 
 本索引汇集了 SurvivalSkills 相关的核心知识文件，涵盖 野外生存与应急准备 — 野外生存技能与应急准备指南、生存技能 等内容。

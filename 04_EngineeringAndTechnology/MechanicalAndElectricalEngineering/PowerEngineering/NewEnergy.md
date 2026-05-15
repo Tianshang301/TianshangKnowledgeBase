@@ -1,3 +1,8 @@
+---
+aliases: [NewEnergy]
+tags: ['MechanicalAndElectricalEngineering', 'PowerEngineering', 'NewEnergy']
+---
+
 # 新能源
 
 ## 定义

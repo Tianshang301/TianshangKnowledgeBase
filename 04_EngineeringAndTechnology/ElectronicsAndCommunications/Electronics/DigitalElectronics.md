@@ -1,3 +1,8 @@
+---
+aliases: [DigitalElectronics]
+tags: ['ElectronicsAndCommunications', 'Electronics', 'DigitalElectronics']
+---
+
 # 数字电子
 
 ## 定义

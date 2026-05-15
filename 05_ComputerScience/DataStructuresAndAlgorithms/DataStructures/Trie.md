@@ -1,3 +1,8 @@
+---
+aliases: [Trie]
+tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'Trie']
+---
+
 # 字典树 (Trie)
 
 ## 基本概念

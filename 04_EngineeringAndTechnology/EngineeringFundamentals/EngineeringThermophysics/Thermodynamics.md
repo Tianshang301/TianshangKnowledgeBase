@@ -1,3 +1,8 @@
+---
+aliases: [Thermodynamics]
+tags: ['EngineeringFundamentals', 'EngineeringThermophysics', 'Thermodynamics']
+---
+
 # 工程热力学
 
 ## 定义

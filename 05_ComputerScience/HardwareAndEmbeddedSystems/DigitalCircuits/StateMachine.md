@@ -1,3 +1,8 @@
+---
+aliases: [StateMachine]
+tags: ['HardwareAndEmbeddedSystems', 'DigitalCircuits', 'StateMachine']
+---
+
 # 状态机设计
 
 ## Mealy 机 vs Moore 机

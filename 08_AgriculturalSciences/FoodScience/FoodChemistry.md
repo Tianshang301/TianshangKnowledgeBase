@@ -1,3 +1,8 @@
+---
+aliases: [FoodChemistry]
+tags: ['FoodScience', 'FoodChemistry']
+---
+
 # 食品化学
 
 ## 一、食品的化学组成

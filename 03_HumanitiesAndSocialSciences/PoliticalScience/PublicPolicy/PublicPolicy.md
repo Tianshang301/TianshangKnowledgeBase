@@ -1,3 +1,8 @@
+---
+aliases: [PublicPolicy]
+tags: ['PoliticalScience', 'PublicPolicy', 'PublicPolicy']
+---
+
 # 公共政策
 
 ## 一、政策过程理论

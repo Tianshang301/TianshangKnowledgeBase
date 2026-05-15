@@ -1,3 +1,8 @@
+---
+aliases: [LINQ]
+tags: ['ProgrammingLanguages', 'CSharp', 'LINQ']
+---
+
 # LINQ 深入
 
 ## 标准查询运算符

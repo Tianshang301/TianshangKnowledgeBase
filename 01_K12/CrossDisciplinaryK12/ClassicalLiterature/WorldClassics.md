@@ -1,3 +1,8 @@
+---
+aliases: [WorldClassics]
+tags: ['CrossDisciplinaryK12', 'ClassicalLiterature', 'WorldClassics']
+---
+
 # 世界经典导读
 
 ## 概述

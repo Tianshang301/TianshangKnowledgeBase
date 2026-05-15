@@ -1,3 +1,8 @@
+---
+aliases: [WordProblems]
+tags: ['PrimarySchool', 'Mathematics', 'WordProblems']
+---
+
 # 应用。
 ## 概述
 

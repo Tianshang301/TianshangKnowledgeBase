@@ -1,3 +1,8 @@
+---
+aliases: [CrossMapping]
+tags: ['ClassificationMappings', 'CrossMapping']
+---
+
 # 跨体系对照表
 
 ## 概述

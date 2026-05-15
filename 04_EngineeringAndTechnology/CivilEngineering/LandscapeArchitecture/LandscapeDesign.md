@@ -1,3 +1,8 @@
+---
+aliases: [LandscapeDesign]
+tags: ['CivilEngineering', 'LandscapeArchitecture', 'LandscapeDesign']
+---
+
 # 景观设计
 
 ## 定义

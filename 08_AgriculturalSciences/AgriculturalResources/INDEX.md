@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['AgriculturalResources', 'INDEX']
+---
+
 # AgriculturalResources
 
 本索引汇集了 AgriculturalResources 相关的核心知识文件，涵盖 AgriculturalChemistry - 农业化学：研究肥料、农药及土壤化学过程对作物生长的影响、AgriculturalMeteorology - 农业气象学：研究气象条件与农业生产之间的相互关系、LandResourceManagement - 土地资源管理：探讨土地调查、评价、规划与可持续利用 等内容。

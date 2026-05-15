@@ -1,3 +1,8 @@
+---
+aliases: [MechanicsBasics]
+tags: ['JuniorHigh', 'Physics', 'MechanicsBasics']
+---
+
 # 力学基础
 
 ## 概述

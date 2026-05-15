@@ -1,3 +1,8 @@
+---
+aliases: [ScientificCommunication]
+tags: ['ScientificCommunication', 'ScientificCommunication']
+---
+
 # 科学传播
 
 ## 一、科学传播的定义与重要性

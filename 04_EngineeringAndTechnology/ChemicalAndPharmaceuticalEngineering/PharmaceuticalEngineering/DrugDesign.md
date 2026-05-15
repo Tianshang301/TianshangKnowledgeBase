@@ -1,3 +1,8 @@
+---
+aliases: [DrugDesign]
+tags: ['ChemicalAndPharmaceuticalEngineering', 'PharmaceuticalEngineering', 'DrugDesign']
+---
+
 # 药物设计
 
 ## 定义

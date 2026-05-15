@@ -1,3 +1,8 @@
+---
+aliases: [PinyinAndBasicWriting]
+tags: ['PrimarySchool', 'Chinese', 'PinyinAndBasicWriting']
+---
+
 # 拼音与基础书写
 
 ## 概述

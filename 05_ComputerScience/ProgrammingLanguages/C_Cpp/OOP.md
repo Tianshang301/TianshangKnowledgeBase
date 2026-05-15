@@ -1,3 +1,8 @@
+---
+aliases: [OOP]
+tags: ['ProgrammingLanguages', 'C_Cpp', 'OOP']
+---
+
 # C++ 面向对象
 
 ## 类与对象

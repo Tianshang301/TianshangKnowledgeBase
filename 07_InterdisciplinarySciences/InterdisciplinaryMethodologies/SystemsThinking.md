@@ -1,3 +1,8 @@
+---
+aliases: [SystemsThinking]
+tags: ['InterdisciplinaryMethodologies', 'SystemsThinking']
+---
+
 # 系统思维
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [InformationLiteracy]
+tags: ['CrossDisciplinaryK12', 'MediaLiteracy', 'InformationLiteracy']
+---
+
 # 信息素养
 
 > 信息素养教育培养学生有效获取、评估和利用信息的能力。

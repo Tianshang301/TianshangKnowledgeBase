@@ -1,3 +1,8 @@
+---
+aliases: [ResearchMethods]
+tags: ['Methodology', 'ResearchMethods']
+---
+
 # 研究方法概览
 
 ## 概述

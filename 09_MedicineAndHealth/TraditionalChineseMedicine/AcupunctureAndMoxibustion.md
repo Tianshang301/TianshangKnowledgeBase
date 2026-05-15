@@ -1,3 +1,8 @@
+---
+aliases: [AcupunctureAndMoxibustion]
+tags: ['TraditionalChineseMedicine', 'AcupunctureAndMoxibustion']
+---
+
 # 针灸学
 
 ## 概述

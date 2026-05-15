@@ -1,3 +1,8 @@
+---
+aliases: [Queue]
+tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'Queue']
+---
+
 # 队列详解
 
 ## 基本概念

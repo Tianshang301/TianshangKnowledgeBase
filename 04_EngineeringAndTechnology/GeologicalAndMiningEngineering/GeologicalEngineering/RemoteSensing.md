@@ -1,3 +1,8 @@
+---
+aliases: [RemoteSensing]
+tags: ['GeologicalAndMiningEngineering', 'GeologicalEngineering', 'RemoteSensing']
+---
+
 # 遥感技术
 
 ## 定义

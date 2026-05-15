@@ -1,3 +1,8 @@
+---
+aliases: [EcologicalEngineering]
+tags: ['EnvironmentalScienceAndEngineering', 'EnvironmentalBiology', 'EcologicalEngineering']
+---
+
 # 生态工程
 
 ## 定义

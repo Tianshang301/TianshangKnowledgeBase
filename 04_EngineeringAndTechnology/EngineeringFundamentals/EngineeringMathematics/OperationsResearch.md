@@ -1,3 +1,8 @@
+---
+aliases: [OperationsResearch]
+tags: ['EngineeringFundamentals', 'EngineeringMathematics', 'OperationsResearch']
+---
+
 # 运筹学
 
 ## 定义

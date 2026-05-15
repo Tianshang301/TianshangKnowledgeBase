@@ -1,3 +1,8 @@
+---
+aliases: [IR]
+tags: ['CompilerPrinciples', 'IR']
+---
+
 # 中间代码生成
 
 ## 一、概述

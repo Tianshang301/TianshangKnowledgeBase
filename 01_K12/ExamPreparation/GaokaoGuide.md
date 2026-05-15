@@ -1,3 +1,8 @@
+---
+aliases: [GaokaoGuide]
+tags: ['ExamPreparation', 'GaokaoGuide']
+---
+
 # 高考复习指南
 
 ## 概述

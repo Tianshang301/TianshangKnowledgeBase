@@ -1,3 +1,8 @@
+---
+aliases: [Heap]
+tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'Heap']
+---
+
 # 堆详解
 
 ## 基本概念

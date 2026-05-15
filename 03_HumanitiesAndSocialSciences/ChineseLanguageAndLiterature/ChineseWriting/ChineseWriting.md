@@ -1,3 +1,8 @@
+---
+aliases: [ChineseWriting]
+tags: ['ChineseLanguageAndLiterature', 'ChineseWriting', 'ChineseWriting']
+---
+
 # 中文写作
 
 ## 一、写作过程

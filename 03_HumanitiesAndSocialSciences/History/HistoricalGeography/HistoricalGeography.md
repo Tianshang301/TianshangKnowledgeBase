@@ -1,3 +1,8 @@
+---
+aliases: [HistoricalGeography]
+tags: ['History', 'HistoricalGeography', 'HistoricalGeography']
+---
+
 # 历史地理学
 
 ## 一、学科定位

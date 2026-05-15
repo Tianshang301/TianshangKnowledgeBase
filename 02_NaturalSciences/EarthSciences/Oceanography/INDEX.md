@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['EarthSciences', 'Oceanography', 'INDEX']
+---
+
 # Oceanography
 
 本索引汇集了 Oceanography 相关的核心知识文件，涵盖 海洋地质学、海洋物理化学、海洋生物学 等内容。

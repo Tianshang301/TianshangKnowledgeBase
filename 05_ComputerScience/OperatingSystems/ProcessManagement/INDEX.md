@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['OperatingSystems', 'ProcessManagement', 'INDEX']
+---
+
 # 进程管理
 
 本索引汇集了操作系统进程管理的核心概念，涵盖进程调度、同步及进程间通信等内容。

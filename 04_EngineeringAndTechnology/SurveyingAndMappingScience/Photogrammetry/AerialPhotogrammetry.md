@@ -1,3 +1,8 @@
+---
+aliases: [AerialPhotogrammetry]
+tags: ['SurveyingAndMappingScience', 'Photogrammetry', 'AerialPhotogrammetry']
+---
+
 # 航空摄影测量
 
 ## 定义

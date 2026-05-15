@@ -1,3 +1,8 @@
+---
+aliases: [NaturalLanguageProcessing]
+tags: ['ArtificialIntelligence', 'NaturalLanguageProcessing', 'NaturalLanguageProcessing']
+---
+
 # 自然语言处理
 
 ## 一、文本预处理

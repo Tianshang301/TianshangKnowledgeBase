@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['OperatingSystems', 'INDEX']
+---
+
 # OperatingSystems
 
 本索引汇集了 OperatingSystems 相关的核心知识文件，涵盖 > 快速参考指南：[[README]]、README - 操作系统概述、FileSystem - 文件系统 等内容。

@@ -1,3 +1,8 @@
+---
+aliases: [DataVisualization]
+tags: ['DataScience', 'DataVisualization']
+---
+
 # 数据可视?
 ## 概述
 

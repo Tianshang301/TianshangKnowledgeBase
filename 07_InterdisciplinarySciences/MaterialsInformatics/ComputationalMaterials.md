@@ -1,3 +1,8 @@
+---
+aliases: [ComputationalMaterials]
+tags: ['MaterialsInformatics', 'ComputationalMaterials']
+---
+
 # 计算材料?
 ## 概述
 

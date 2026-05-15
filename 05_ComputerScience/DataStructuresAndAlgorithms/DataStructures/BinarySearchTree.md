@@ -1,3 +1,8 @@
+---
+aliases: [BinarySearchTree]
+tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'BinarySearchTree']
+---
+
 # 二叉搜索树 BST
 
 ## 基本概念

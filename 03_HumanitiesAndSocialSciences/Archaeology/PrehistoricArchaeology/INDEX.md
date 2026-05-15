@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Archaeology', 'PrehistoricArchaeology', 'INDEX']
+---
+
 # 史前考古学
 
 本索引汇集了史前考古学相关的知识文件，涵盖史前文明比较研究与考古发现等内容。

@@ -1,3 +1,8 @@
+---
+aliases: [Biostatistics]
+tags: ['PublicHealth', 'Biostatistics']
+---
+
 # 卫生统计学
 
 ## 概述

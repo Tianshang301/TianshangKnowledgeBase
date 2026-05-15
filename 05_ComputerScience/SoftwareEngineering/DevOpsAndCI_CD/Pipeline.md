@@ -1,3 +1,8 @@
+---
+aliases: [Pipeline]
+tags: ['SoftwareEngineering', 'DevOpsAndCI_CD', 'Pipeline']
+---
+
 # CI/CD 流水线设计
 
 ## 一、流水线阶段

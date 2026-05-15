@@ -1,3 +1,8 @@
+---
+aliases: [PublicFinance]
+tags: ['PublicAdministration', 'PublicFinance']
+---
+
 # 公共财政
 
 ## 概述

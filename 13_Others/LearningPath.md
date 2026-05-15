@@ -1,3 +1,8 @@
+---
+aliases: [LearningPath]
+tags: ['LearningPath']
+---
+
 # 生活技能学习路线图
 
 ## 一、紧急优先级 (Immediate)

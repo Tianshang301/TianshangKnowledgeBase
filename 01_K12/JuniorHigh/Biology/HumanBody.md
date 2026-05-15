@@ -1,3 +1,8 @@
+---
+aliases: [HumanBody]
+tags: ['JuniorHigh', 'Biology', 'HumanBody']
+---
+
 # 人体
 
 ## 概述

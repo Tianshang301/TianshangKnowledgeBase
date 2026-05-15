@@ -1,3 +1,8 @@
+---
+aliases: [ModernChinese]
+tags: ['ChineseLanguageAndLiterature', 'ModernChinese', 'ModernChinese']
+---
+
 # 现代汉语
 
 ## 一、语音

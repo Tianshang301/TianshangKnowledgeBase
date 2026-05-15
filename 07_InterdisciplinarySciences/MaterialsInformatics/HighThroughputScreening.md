@@ -1,3 +1,8 @@
+---
+aliases: [HighThroughputScreening]
+tags: ['MaterialsInformatics', 'HighThroughputScreening']
+---
+
 # 高量材料筛?
 ## 概述
 

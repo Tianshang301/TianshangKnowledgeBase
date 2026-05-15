@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Mathematics', 'HistoryOfMathematics', 'INDEX']
+---
+
 # HistoryOfMathematics
 
 本索引汇集了 HistoryOfMathematics 相关的核心知识文件，涵盖 古代与中世纪数学、近代与现代数学 等内容。

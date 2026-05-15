@@ -1,3 +1,8 @@
+---
+aliases: [Methodology]
+tags: ['Methodology', 'Methodology']
+---
+
 # 方法论
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [PLCProgramming]
+tags: ['MechanicalAndElectricalEngineering', 'Mechatronics', 'PLCProgramming']
+---
+
 # PLC编程
 
 ## 定义

@@ -1,3 +1,8 @@
+---
+aliases: [Harmony]
+tags: ['Music', 'Harmony', 'Harmony']
+---
+
 # 和声学
 
 ## 一、和声基础

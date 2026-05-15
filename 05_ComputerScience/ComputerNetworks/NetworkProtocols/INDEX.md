@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ComputerNetworks', 'NetworkProtocols', 'INDEX']
+---
+
 # 网络协议
 
 本索引汇集了主要网络协议的原理与应用，涵盖 TCP/UDP、HTTP、DNS 及路由协议等内容。

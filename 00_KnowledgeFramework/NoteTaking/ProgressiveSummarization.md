@@ -1,3 +1,8 @@
+---
+aliases: [ProgressiveSummarization]
+tags: ['NoteTaking', 'ProgressiveSummarization']
+---
+
 # 渐进式总结
 
 ## 概述

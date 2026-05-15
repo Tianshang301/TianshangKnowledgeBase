@@ -1,3 +1,8 @@
+---
+aliases: [FoodChemistry]
+tags: ['TextileAndFoodEngineering', 'FoodScience', 'FoodChemistry']
+---
+
 # 食品化学
 
 ## 定义

@@ -1,3 +1,8 @@
+---
+aliases: [PublicPolicy]
+tags: ['PublicAdministration', 'PublicPolicy']
+---
+
 # 公共政策
 
 ## 概述

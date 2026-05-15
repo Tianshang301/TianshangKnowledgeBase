@@ -1,3 +1,8 @@
+---
+aliases: [NetworkLayer]
+tags: ['ComputerNetworks', 'NetworkLayer']
+---
+
 # 网络层详解 (Network Layer)
 
 ## 1. IP 协议 (Internet Protocol)

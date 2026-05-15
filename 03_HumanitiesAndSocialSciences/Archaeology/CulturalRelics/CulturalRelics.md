@@ -1,3 +1,8 @@
+---
+aliases: [CulturalRelics]
+tags: ['Archaeology', 'CulturalRelics', 'CulturalRelics']
+---
+
 # 文物学
 
 ## 一、文物分类体系

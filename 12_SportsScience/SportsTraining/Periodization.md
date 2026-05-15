@@ -1,3 +1,8 @@
+---
+aliases: [Periodization]
+tags: ['SportsTraining', 'Periodization']
+---
+
 # 训练周期化
 
 ## 概述

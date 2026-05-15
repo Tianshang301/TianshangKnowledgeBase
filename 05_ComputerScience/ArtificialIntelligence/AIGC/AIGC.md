@@ -1,3 +1,8 @@
+---
+aliases: [AIGC]
+tags: ['ArtificialIntelligence', 'AIGC', 'AIGC']
+---
+
 # AIGC（AI生成内容）
 
 ## 一、生成式AI概述

@@ -1,3 +1,8 @@
+---
+aliases: [Auditing]
+tags: ['BusinessAdministration', 'Accounting', 'Auditing']
+---
+
 # 审计学
 
 ## 概述

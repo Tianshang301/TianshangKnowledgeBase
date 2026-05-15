@@ -1,3 +1,8 @@
+---
+aliases: [Pathology]
+tags: ['BasicMedicalSciences', 'Pathology']
+---
+
 # 病理学
 
 ## 概述

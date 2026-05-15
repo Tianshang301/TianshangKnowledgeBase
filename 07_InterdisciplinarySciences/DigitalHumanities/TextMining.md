@@ -1,3 +1,8 @@
+---
+aliases: [TextMining]
+tags: ['DigitalHumanities', 'TextMining']
+---
+
 # 文本挖掘（数字人文）
 
 ## 概述

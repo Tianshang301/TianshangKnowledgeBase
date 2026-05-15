@@ -1,3 +1,8 @@
+---
+aliases: [DistributedStorage]
+tags: ['CloudComputingAndDistributedSystems', 'DistributedStorage']
+---
+
 # 分布式存储
 
 ## 概述

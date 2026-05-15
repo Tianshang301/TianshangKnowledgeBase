@@ -1,3 +1,8 @@
+---
+aliases: [FoodEngineeringPrinciples]
+tags: ['FoodScience', 'FoodEngineeringPrinciples']
+---
+
 # 食品工程原理
 
 ## 一、食品工程原理概述

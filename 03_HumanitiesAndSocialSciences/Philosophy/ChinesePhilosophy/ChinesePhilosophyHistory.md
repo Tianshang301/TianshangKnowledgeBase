@@ -1,3 +1,8 @@
+---
+aliases: [ChinesePhilosophyHistory]
+tags: ['Philosophy', 'ChinesePhilosophy', 'ChinesePhilosophyHistory']
+---
+
 # 中国哲学史
 
 ## 一、先秦哲学——百家争鸣

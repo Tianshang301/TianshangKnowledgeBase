@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'INDEX']
+---
+
 # DataStructures
 
 本索引汇集了 DataStructures 相关的核心知识文件，涵盖 05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/INDEX|Algorithms、05_ComputerScience/ProgrammingLanguages/INDEX|ProgrammingLanguages、AVL 等内容。

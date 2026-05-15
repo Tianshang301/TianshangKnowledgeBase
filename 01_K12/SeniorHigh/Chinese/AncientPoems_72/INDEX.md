@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['SeniorHigh', 'Chinese', 'AncientPoems_72', 'INDEX']
+---
+
 # AncientPoems_72
 
 本索引汇集了 AncientPoems_72 相关的核心知识文件，涵盖 Part1_必修文言文10篇、Part2_选择性必修+选修文言文22篇、Part3_诗词曲40首_上 等内容。

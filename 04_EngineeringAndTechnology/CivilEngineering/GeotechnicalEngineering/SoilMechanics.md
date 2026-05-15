@@ -1,3 +1,8 @@
+---
+aliases: [SoilMechanics]
+tags: ['CivilEngineering', 'GeotechnicalEngineering', 'SoilMechanics']
+---
+
 # 土力学
 
 ## 定义

@@ -1,3 +1,8 @@
+---
+aliases: [ComputationalComplexity]
+tags: ['TheoryOfComputation', 'ComputationalComplexity']
+---
+
 # 计算复杂性理论
 
 ## 一、计算问题与模型

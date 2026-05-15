@@ -1,3 +1,8 @@
+---
+aliases: [LinkLayer]
+tags: ['ComputerNetworks', 'LinkLayer']
+---
+
 # 链路层详解 (Link Layer)
 
 ## 1. Ethernet (以太网)

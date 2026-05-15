@@ -1,3 +1,8 @@
+---
+aliases: [HorticulturalProductStorage]
+tags: ['Horticulture', 'HorticulturalProductStorage']
+---
+
 # 园艺产品贮藏加工
 
 ## 概述

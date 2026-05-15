@@ -1,3 +1,8 @@
+---
+aliases: [README]
+tags: ['DatabasesAndInformationSystems', 'README']
+---
+
 # 数据库工具指南
 
 ## MySQL 常用命令

@@ -1,3 +1,8 @@
+---
+aliases: [CLIvsGUI]
+tags: ['Basics', 'CLIvsGUI']
+---
+
 # 命令行 vs 图形界面
 
 ## 对比总览

@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['INDEX']
+---
+
 # 02_NaturalSciences
 
 本索引汇集了 02_NaturalSciences 相关的核心知识文件，涵盖 LearningPath - 自然科学学习路径总览、Astronomy/Cosmology/INDEX - 宇宙学、Astronomy/ObservationalAstronomy/INDEX - 观测天文学 等内容。

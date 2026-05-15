@@ -1,3 +1,8 @@
+---
+aliases: [STLContainers]
+tags: ['ProgrammingLanguages', 'C_Cpp', 'STLContainers']
+---
+
 # C++ STL 容器
 
 ## 序列容器（Sequence Containers）

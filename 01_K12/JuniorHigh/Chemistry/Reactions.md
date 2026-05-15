@@ -1,3 +1,8 @@
+---
+aliases: [Reactions]
+tags: ['JuniorHigh', 'Chemistry', 'Reactions']
+---
+
 # 化学反应
 
 ## 概述

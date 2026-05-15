@@ -1,3 +1,8 @@
+---
+aliases: [ComputerNetworks]
+tags: ['ComputerAndInformationSciences', 'ComputerNetworks']
+---
+
 # 计算机网络
 
 ## 一、网络体系结构

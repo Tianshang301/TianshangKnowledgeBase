@@ -1,3 +1,8 @@
+---
+aliases: [Aquaculture]
+tags: ['Fishery', 'Aquaculture']
+---
+
 # 水产养殖学
 
 ## 概述

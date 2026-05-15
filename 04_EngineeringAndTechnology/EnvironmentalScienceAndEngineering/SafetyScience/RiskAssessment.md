@@ -1,3 +1,8 @@
+---
+aliases: [RiskAssessment]
+tags: ['EnvironmentalScienceAndEngineering', 'SafetyScience', 'RiskAssessment']
+---
+
 # 风险评估
 
 ## 定义

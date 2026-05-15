@@ -1,3 +1,8 @@
+---
+aliases: [MaterialsGenome]
+tags: ['MaterialsInformatics', 'MaterialsGenome']
+---
+
 # 材料基因?
 ## 概述
 

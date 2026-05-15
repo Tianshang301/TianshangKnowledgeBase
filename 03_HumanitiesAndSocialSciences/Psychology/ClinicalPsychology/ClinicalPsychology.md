@@ -1,3 +1,8 @@
+---
+aliases: [ClinicalPsychology]
+tags: ['Psychology', 'ClinicalPsychology', 'ClinicalPsychology']
+---
+
 # 临床心理学
 
 ## 一、心理评估

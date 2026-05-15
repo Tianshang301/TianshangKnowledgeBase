@@ -1,3 +1,8 @@
+---
+aliases: [Basics]
+tags: ['ProgrammingLanguages', 'CSharp', 'Basics']
+---
+
 # C# 基础语法
 
 ## 数据类型

@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Music', 'INDEX']
+---
+
 # Music
 
 本索引汇集了 Music 相关的核心知识文件，涵盖 - **索引**：[[INDEX]]、- **索引**：[[INDEX]]、- **索引**：[[INDEX]] 等内容。

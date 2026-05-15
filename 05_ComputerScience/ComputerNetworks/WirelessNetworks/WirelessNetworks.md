@@ -1,3 +1,8 @@
+---
+aliases: [WirelessNetworks]
+tags: ['ComputerNetworks', 'WirelessNetworks', 'WirelessNetworks']
+---
+
 # 无线网络 (Wireless Networks)
 
 ## 1. 无线基础 (Wireless Fundamentals)

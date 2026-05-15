@@ -1,3 +1,8 @@
+---
+aliases: [Arithmetic]
+tags: ['PrimarySchool', 'Mathematics', 'Arithmetic']
+---
+
 # 算术基础
 
 ## 概述

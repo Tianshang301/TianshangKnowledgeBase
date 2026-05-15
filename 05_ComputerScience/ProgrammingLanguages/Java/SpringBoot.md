@@ -1,3 +1,8 @@
+---
+aliases: [SpringBoot]
+tags: ['ProgrammingLanguages', 'Java', 'SpringBoot']
+---
+
 # Spring Boot 快速指南
 
 ## IoC 与 DI

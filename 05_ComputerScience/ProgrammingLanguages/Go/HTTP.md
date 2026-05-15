@@ -1,3 +1,8 @@
+---
+aliases: [HTTP]
+tags: ['ProgrammingLanguages', 'Go', 'HTTP']
+---
+
 # Go HTTP 编程
 
 ## net/http 客户端

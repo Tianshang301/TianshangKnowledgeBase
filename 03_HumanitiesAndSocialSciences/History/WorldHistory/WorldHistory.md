@@ -1,3 +1,8 @@
+---
+aliases: [WorldHistory]
+tags: ['History', 'WorldHistory', 'WorldHistory']
+---
+
 # 世界史
 
 ## 一、古代文明

@@ -1,3 +1,8 @@
+---
+aliases: [ArtHistory]
+tags: ['FineArts', 'ArtHistory', 'ArtHistory']
+---
+
 # 美术史
 
 ## 一、西方美术史分期

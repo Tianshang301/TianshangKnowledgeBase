@@ -1,3 +1,8 @@
+---
+aliases: [DynamicProgramming]
+tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'DynamicProgramming', 'DynamicProgramming']
+---
+
 # Dynamic Programming - 动态规划
 
 ## 一、动态规划原理

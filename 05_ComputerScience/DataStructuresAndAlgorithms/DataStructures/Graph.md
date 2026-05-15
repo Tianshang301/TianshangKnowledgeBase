@@ -1,3 +1,8 @@
+---
+aliases: [Graph]
+tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'Graph']
+---
+
 # 图详解
 
 ## 基本概念

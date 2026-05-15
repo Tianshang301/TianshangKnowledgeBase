@@ -1,3 +1,8 @@
+---
+aliases: [CommunityNursing]
+tags: ['Nursing', 'CommunityNursing']
+---
+
 # 社区护理
 
 ## 概述

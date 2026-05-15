@@ -1,3 +1,8 @@
+---
+aliases: [SocialPsychology]
+tags: ['Sociology', 'SocialPsychology', 'SocialPsychology']
+---
+
 # 社会心理学
 
 ## 一、社会认知

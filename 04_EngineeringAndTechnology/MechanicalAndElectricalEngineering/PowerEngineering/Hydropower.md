@@ -1,3 +1,8 @@
+---
+aliases: [Hydropower]
+tags: ['MechanicalAndElectricalEngineering', 'PowerEngineering', 'Hydropower']
+---
+
 # 水力发电
 
 ## 定义

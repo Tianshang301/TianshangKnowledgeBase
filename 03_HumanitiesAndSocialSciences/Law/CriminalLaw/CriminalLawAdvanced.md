@@ -1,3 +1,8 @@
+---
+aliases: [CriminalLawAdvanced]
+tags: ['Law', 'CriminalLaw', 'CriminalLawAdvanced']
+---
+
 # 刑法学进阶
 
 ## 一、刑法基本原则的深层理论

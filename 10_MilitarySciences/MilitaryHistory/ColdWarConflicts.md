@@ -1,3 +1,8 @@
+---
+aliases: [ColdWarConflicts]
+tags: ['MilitaryHistory', 'ColdWarConflicts']
+---
+
 # 冷战冲突
 
 ## 概述

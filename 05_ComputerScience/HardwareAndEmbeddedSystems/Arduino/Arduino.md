@@ -1,3 +1,8 @@
+---
+aliases: [Arduino]
+tags: ['HardwareAndEmbeddedSystems', 'Arduino', 'Arduino']
+---
+
 # Arduino
 
 ## 一、Arduino 平台概述

@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Mathematics', 'ProbabilityStatistics', 'INDEX']
+---
+
 # ProbabilityStatistics
 
 本索引汇集了 ProbabilityStatistics 相关的核心知识文件，涵盖 Probability、Bayesian、Regression 等内容。

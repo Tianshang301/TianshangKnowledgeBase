@@ -1,3 +1,8 @@
+---
+aliases: [EnvironmentalPolicy]
+tags: ['EnvironmentalScience', 'EnvironmentalPolicy']
+---
+
 # 环境政策
 
 ## 概述

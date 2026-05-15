@@ -1,3 +1,8 @@
+---
+aliases: [ChineseMateriaMedica]
+tags: ['TraditionalChineseMedicine', 'ChineseMateriaMedica']
+---
+
 # 中药学
 
 ## 概述

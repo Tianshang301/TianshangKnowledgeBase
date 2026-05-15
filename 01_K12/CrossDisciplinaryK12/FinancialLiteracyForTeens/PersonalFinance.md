@@ -1,3 +1,8 @@
+---
+aliases: [PersonalFinance]
+tags: ['CrossDisciplinaryK12', 'FinancialLiteracyForTeens', 'PersonalFinance']
+---
+
 # 个人理财
 
 > 青少年理财教育培养正确的金钱观和基本的财务管理能力。

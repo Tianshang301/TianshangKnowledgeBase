@@ -1,3 +1,8 @@
+---
+aliases: [CornellNotes]
+tags: ['NoteTaking', 'CornellNotes']
+---
+
 # 康奈尔笔记法
 
 ## 概述

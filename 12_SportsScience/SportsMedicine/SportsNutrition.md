@@ -1,3 +1,8 @@
+---
+aliases: [SportsNutrition]
+tags: ['SportsMedicine', 'SportsNutrition']
+---
+
 # 运动营养学
 
 ## 概述

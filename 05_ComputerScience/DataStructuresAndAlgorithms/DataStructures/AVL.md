@@ -1,3 +1,8 @@
+---
+aliases: [AVL]
+tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'AVL']
+---
+
 # AVL 平衡树
 
 ## 基本概念

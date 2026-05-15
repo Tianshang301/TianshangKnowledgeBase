@@ -1,3 +1,8 @@
+---
+aliases: [Android与iOS开发对比]
+tags: ['EngineeringDevelopment', 'MobileDevelopment', 'Android与iOS开发对比']
+---
+
 # Android与iOS开发对比
 
 ## 一、开发环境与工具

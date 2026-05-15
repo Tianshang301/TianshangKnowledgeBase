@@ -1,3 +1,8 @@
+---
+aliases: [AgriculturalEcology]
+tags: ['AgriculturalResources', 'AgriculturalEcology']
+---
+
 # 农业生态学
 ## 概述
 

@@ -1,3 +1,8 @@
+---
+aliases: [SwiftUI与iOS开发]
+tags: ['ProgrammingLanguages', 'Swift', 'SwiftUI与iOS开发']
+---
+
 # SwiftUI与iOS开发
 
 ## 一、Swift语言基础

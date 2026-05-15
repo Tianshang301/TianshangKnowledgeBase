@@ -1,3 +1,8 @@
+---
+aliases: [ClinicalPharmacy]
+tags: ['Pharmacy', 'ClinicalPharmacy']
+---
+
 # 临床药学
 
 ## 概述

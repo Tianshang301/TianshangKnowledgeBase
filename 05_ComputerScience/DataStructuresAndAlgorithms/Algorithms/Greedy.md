@@ -1,3 +1,8 @@
+---
+aliases: [Greedy]
+tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'Greedy']
+---
+
 # 贪心算法详解
 
 ## 基本概念

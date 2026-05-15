@@ -1,3 +1,8 @@
+---
+aliases: [Pointers]
+tags: ['ProgrammingLanguages', 'C_Cpp', 'Pointers']
+---
+
 # 指针与内存管理
 
 ## 指针基础

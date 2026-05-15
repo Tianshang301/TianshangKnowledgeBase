@@ -1,3 +1,8 @@
+---
+aliases: [Ballistics]
+tags: ['AerospaceAndMilitaryEngineering', 'OrdnanceScience', 'Ballistics']
+---
+
 # 弹道学
 
 ## 定义

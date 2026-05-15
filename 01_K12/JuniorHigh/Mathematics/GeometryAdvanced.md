@@ -1,3 +1,8 @@
+---
+aliases: [GeometryAdvanced]
+tags: ['JuniorHigh', 'Mathematics', 'GeometryAdvanced']
+---
+
 # 几何进阶
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [HealthAndWellness]
+tags: ['HealthAndWellness', 'HealthAndWellness']
+---
+
 # 健康与养生
 
 ## 一、健康决定因素

@@ -1,3 +1,8 @@
+---
+aliases: [Concurrency]
+tags: ['ProgrammingLanguages', 'Java', 'Concurrency']
+---
+
 # Java 并发编程
 
 ## 线程创建

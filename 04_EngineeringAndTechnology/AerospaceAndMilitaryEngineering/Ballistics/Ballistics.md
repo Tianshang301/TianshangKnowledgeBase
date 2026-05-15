@@ -1,3 +1,8 @@
+---
+aliases: [Ballistics]
+tags: ['AerospaceAndMilitaryEngineering', 'Ballistics', 'Ballistics']
+---
+
 # 弹道学
 
 ## 一、弹道学概述

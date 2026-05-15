@@ -1,3 +1,8 @@
+---
+aliases: [JointOperations]
+tags: ['MilitaryStrategy', 'JointOperations']
+---
+
 # 联合作战
 
 ## 概述

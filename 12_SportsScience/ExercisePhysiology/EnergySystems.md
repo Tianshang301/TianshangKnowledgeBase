@@ -1,3 +1,8 @@
+---
+aliases: [EnergySystems]
+tags: ['ExercisePhysiology', 'EnergySystems']
+---
+
 # 能量系统
 
 ## 概述

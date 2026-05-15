@@ -1,3 +1,8 @@
+---
+aliases: [AnimalBreeding]
+tags: ['AnimalScience', 'AnimalBreeding']
+---
+
 # 动物育种学
 
 ## 概述

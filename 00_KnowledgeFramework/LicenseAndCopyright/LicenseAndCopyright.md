@@ -1,3 +1,8 @@
+---
+aliases: [LicenseAndCopyright]
+tags: ['LicenseAndCopyright', 'LicenseAndCopyright']
+---
+
 # 许可与版权指南
 ## 一、版权基本原理
 ### 1.1 专有权利

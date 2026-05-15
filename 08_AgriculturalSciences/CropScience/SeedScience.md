@@ -1,3 +1,8 @@
+---
+aliases: [SeedScience]
+tags: ['CropScience', 'SeedScience']
+---
+
 # 种子科学与技术
 
 ## 概述

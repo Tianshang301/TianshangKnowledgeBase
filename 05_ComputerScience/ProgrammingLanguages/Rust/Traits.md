@@ -1,3 +1,8 @@
+---
+aliases: [Traits]
+tags: ['ProgrammingLanguages', 'Rust', 'Traits']
+---
+
 # Rust Trait 系统
 
 ## 定义与实现 Trait

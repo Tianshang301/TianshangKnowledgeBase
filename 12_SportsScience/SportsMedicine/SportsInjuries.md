@@ -1,3 +1,8 @@
+---
+aliases: [SportsInjuries]
+tags: ['SportsMedicine', 'SportsInjuries']
+---
+
 # 运动损伤
 
 ## 概述

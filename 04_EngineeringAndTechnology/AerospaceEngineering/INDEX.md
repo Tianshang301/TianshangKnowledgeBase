@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['AerospaceEngineering', 'INDEX']
+---
+
 # AerospaceEngineering
 
 本索引汇集了 AerospaceEngineering 相关的核心知识文件，涵盖 Aerodynamics、AircraftDesign、Astrodynamics 等内容。

@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['PhysicalEducation', 'Yoga', 'INDEX']
+---
+
 # Yoga
 
 本索引汇集了 Yoga 相关的核心知识文件，涵盖 瑜伽基础 — 瑜伽基础知识入门与体式学习、瑜伽流派与体式精讲 — 瑜伽各流派详解与体式精讲 等内容。

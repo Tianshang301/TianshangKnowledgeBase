@@ -1,3 +1,8 @@
+---
+aliases: [SolidMechanics]
+tags: ['MechanicsAndMaterials', 'Mechanics', 'SolidMechanics']
+---
+
 # 固体力学
 
 ## 定义

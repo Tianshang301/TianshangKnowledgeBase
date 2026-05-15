@@ -1,3 +1,8 @@
+---
+aliases: [AdvancedCosmology]
+tags: ['Astronomy', 'Cosmology', 'AdvancedCosmology']
+---
+
 # 宇宙学进阶
 
 ## 一、FLRW度规与宇宙动力学

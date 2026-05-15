@@ -1,3 +1,8 @@
+---
+aliases: [Entomology]
+tags: ['PlantProtection', 'Entomology']
+---
+
 # 昆虫学
 
 ## 概述

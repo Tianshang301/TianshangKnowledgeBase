@@ -1,3 +1,8 @@
+---
+aliases: [NumericalMethods]
+tags: ['EngineeringFundamentals', 'EngineeringMathematics', 'NumericalMethods']
+---
+
 # 数值方法
 
 ## 定义

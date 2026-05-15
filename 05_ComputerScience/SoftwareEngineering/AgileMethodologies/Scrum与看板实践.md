@@ -1,3 +1,8 @@
+---
+aliases: [Scrum与看板实践]
+tags: ['SoftwareEngineering', 'AgileMethodologies', 'Scrum与看板实践']
+---
+
 # Scrum与看板实践
 
 ## 一、敏捷开发概述

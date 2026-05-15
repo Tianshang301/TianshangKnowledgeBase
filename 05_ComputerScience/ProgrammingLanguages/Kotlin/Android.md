@@ -1,3 +1,8 @@
+---
+aliases: [Android]
+tags: ['ProgrammingLanguages', 'Kotlin', 'Android']
+---
+
 # Android 开发基础
 
 ## Android 架构与组件

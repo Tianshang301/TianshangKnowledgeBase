@@ -1,3 +1,8 @@
+---
+aliases: [ElectricMachines]
+tags: ['MechanicalAndElectricalEngineering', 'ElectricalEngineering', 'ElectricMachines']
+---
+
 # 电机学
 
 ## 定义

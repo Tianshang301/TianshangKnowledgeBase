@@ -1,3 +1,8 @@
+---
+aliases: [Testing]
+tags: ['ProgrammingLanguages', 'Python', 'Testing']
+---
+
 # Python 测试指南
 
 ## 一、unittest 标准库

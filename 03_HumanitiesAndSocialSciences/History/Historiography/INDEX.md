@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['History', 'Historiography', 'INDEX']
+---
+
 # 史学理论
 
 本索引汇集了史学理论与史学史的相关知识，涵盖历史哲学与历史编纂方法等内容。

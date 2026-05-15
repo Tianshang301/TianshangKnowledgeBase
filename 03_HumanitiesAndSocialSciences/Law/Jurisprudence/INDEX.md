@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['Law', 'Jurisprudence', 'INDEX']
+---
+
 # 法理学
 
 本索引汇集了法理学的基础理论与核心概念，涵盖法的本质、法律渊源与法学方法论等内容。

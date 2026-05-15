@@ -1,3 +1,8 @@
+---
+aliases: [ProjectManagement]
+tags: ['ManagementScienceAndEngineering', 'ProjectManagement']
+---
+
 # 项目管理
 
 ## 概述

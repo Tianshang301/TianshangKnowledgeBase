@@ -1,3 +1,8 @@
+---
+aliases: [SoftwareDevelopmentLifecycle]
+tags: ['SoftwareEngineering', 'SoftwareDevelopmentLifecycle', 'SoftwareDevelopmentLifecycle']
+---
+
 # 软件开发生命周期 (Software Development Lifecycle)
 
 ## 一、SDLC 阶段 (SDLC Phases)

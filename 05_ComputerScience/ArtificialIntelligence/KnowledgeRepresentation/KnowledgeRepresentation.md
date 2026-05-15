@@ -1,3 +1,8 @@
+---
+aliases: [KnowledgeRepresentation]
+tags: ['ArtificialIntelligence', 'KnowledgeRepresentation', 'KnowledgeRepresentation']
+---
+
 # 知识表示
 
 ## 一、知识表示概述

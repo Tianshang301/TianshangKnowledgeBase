@@ -1,3 +1,8 @@
+---
+aliases: [MarketingPrinciples]
+tags: ['BusinessAdministration', 'Marketing', 'MarketingPrinciples']
+---
+
 # 市场营销原理
 
 ## 概述

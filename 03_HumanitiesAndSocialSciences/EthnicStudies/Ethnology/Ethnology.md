@@ -1,3 +1,8 @@
+---
+aliases: [Ethnology]
+tags: ['EthnicStudies', 'Ethnology', 'Ethnology']
+---
+
 # 民族学
 
 ## 一、学科定位：民族学与民族志

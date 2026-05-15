@@ -1,3 +1,8 @@
+---
+aliases: [ProfessionalEnglish]
+tags: ['ProfessionalEnglish', 'ProfessionalEnglish']
+---
+
 # 专业英语完全指南
 
 ## 概述

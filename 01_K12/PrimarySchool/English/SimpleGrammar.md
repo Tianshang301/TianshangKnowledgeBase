@@ -1,3 +1,8 @@
+---
+aliases: [SimpleGrammar]
+tags: ['PrimarySchool', 'English', 'SimpleGrammar']
+---
+
 # 简单语法
 
 ## 概述

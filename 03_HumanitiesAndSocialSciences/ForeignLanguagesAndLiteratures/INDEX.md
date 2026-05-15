@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ForeignLanguagesAndLiteratures', 'INDEX']
+---
+
 # ForeignLanguagesAndLiteratures
 
 本索引汇集了 ForeignLanguagesAndLiteratures 相关的核心知识文件，涵盖 LearningPath — 语言学习路径、Arabic/INDEX|阿拉伯语、ComparativeLiterature/INDEX|比较文学 等内容。

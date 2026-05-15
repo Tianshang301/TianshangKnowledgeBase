@@ -1,3 +1,8 @@
+---
+aliases: [Swift]
+tags: ['ProgrammingLanguages', 'Swift', 'Swift']
+---
+
 # Swift
 
 ## 一、Swift 概述

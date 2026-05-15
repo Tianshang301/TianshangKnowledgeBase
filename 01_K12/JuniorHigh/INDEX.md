@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['JuniorHigh', 'INDEX']
+---
+
 # JuniorHigh
 
 本索引汇集了 JuniorHigh 相关的核心知识文件，涵盖 Biology/INDEX|生物、Chemistry/INDEX|化学、Chinese/INDEX|语文 等内容。

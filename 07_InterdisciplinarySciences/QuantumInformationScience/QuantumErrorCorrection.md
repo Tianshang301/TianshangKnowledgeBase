@@ -1,3 +1,8 @@
+---
+aliases: [QuantumErrorCorrection]
+tags: ['QuantumInformationScience', 'QuantumErrorCorrection']
+---
+
 # 量子纠错
 
 ## 概述

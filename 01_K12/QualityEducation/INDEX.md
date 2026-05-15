@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['QualityEducation', 'INDEX']
+---
+
 # QualityEducation
 
 本索引汇集了 QualityEducation 相关的核心知识文件，涵盖 劳动教育、心理健康教育、综合实践活动 等内容。

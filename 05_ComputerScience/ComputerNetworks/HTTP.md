@@ -1,3 +1,8 @@
+---
+aliases: [HTTP]
+tags: ['ComputerNetworks', 'HTTP']
+---
+
 # HTTP 协议深度指南 (HTTP Protocol Deep Guide)
 
 ## 1. HTTP 版本演进

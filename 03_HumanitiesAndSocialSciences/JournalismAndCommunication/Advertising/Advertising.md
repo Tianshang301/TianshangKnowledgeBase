@@ -1,3 +1,8 @@
+---
+aliases: [Advertising]
+tags: ['JournalismAndCommunication', 'Advertising', 'Advertising']
+---
+
 # 广告学
 
 ## 一、广告学基础

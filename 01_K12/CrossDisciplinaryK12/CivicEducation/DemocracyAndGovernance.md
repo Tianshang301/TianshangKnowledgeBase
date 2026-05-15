@@ -1,3 +1,8 @@
+---
+aliases: [DemocracyAndGovernance]
+tags: ['CrossDisciplinaryK12', 'CivicEducation', 'DemocracyAndGovernance']
+---
+
 # 民主与治理
 
 > 民主与治理教育帮助学生理解公民权利与义务，培养参与社会治理的意识和能力。

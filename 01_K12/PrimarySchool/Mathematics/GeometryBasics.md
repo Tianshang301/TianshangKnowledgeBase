@@ -1,3 +1,8 @@
+---
+aliases: [GeometryBasics]
+tags: ['PrimarySchool', 'Mathematics', 'GeometryBasics']
+---
+
 # 几何基础
 
 ## 概述

@@ -1,3 +1,8 @@
+---
+aliases: [TextileTechnology]
+tags: ['TextileAndFoodEngineering', 'TextileScience', 'TextileTechnology']
+---
+
 # 纺织工艺
 
 ## 定义

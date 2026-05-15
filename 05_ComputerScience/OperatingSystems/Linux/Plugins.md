@@ -1,3 +1,8 @@
+---
+aliases: [Plugins]
+tags: ['OperatingSystems', 'Linux', 'Plugins']
+---
+
 # Vim 插件生态
 
 ## 一、插件管理器

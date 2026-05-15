@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['ForeignLanguagesAndLiteratures', 'ProfessionalEnglish', 'INDEX']
+---
+
 # 专业英语
 
 本索引汇集了专业英语学习资源，涵盖学术英语、商务英语及科技英语等内容。

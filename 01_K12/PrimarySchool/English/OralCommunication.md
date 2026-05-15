@@ -1,3 +1,8 @@
+---
+aliases: [OralCommunication]
+tags: ['PrimarySchool', 'English', 'OralCommunication']
+---
+
 # Primary English - Oral Communication
 
 > Focus on daily conversation, situational dialogues, and communicative competence for primary school students.

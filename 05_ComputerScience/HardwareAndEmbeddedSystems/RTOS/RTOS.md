@@ -1,3 +1,8 @@
+---
+aliases: [RTOS]
+tags: ['HardwareAndEmbeddedSystems', 'RTOS', 'RTOS']
+---
+
 # 实时操作系统（RTOS）
 
 ## 一、RTOS 概述

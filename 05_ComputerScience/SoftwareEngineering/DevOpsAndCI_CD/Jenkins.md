@@ -1,3 +1,8 @@
+---
+aliases: [Jenkins]
+tags: ['SoftwareEngineering', 'DevOpsAndCI_CD', 'Jenkins']
+---
+
 # Jenkins 指南
 
 ## 一、架构

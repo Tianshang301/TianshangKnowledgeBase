@@ -1,3 +1,8 @@
+---
+aliases: [SoilScience]
+tags: ['AgriculturalResources', 'SoilScience']
+---
+
 # 土壤学
 
 ## 概述

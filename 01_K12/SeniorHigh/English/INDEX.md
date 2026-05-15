@@ -1,3 +1,8 @@
+---
+aliases: [INDEX]
+tags: ['SeniorHigh', 'English', 'INDEX']
+---
+
 # English
 
 本索引汇集了 English 相关的核心知识文件，涵盖 | 语法 | [[Grammar|时态语态、非谓语动词、三大从句、虚拟语气、特殊句式]]、| 词汇 | [[Vocabulary3500|高中3500核心词汇按主题分类]]、| 阅读 | [[Reading|题型分类、解题技巧、长难句分析]] 等内容。
