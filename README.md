@@ -16,9 +16,9 @@ tags: ['00_KnowledgeFramework', 'README']
 
 | 指标 | 数值 |
 |------|------|
-| Markdown 文件数 | **2,271** |
-| 总文本量 | **339,718 行 / 11.3 MB** |
-| 内容目录数 | **530 个** |
+| Markdown 文件数 | **2,301** |
+| 总文本量 | **474,311 行 / 16.5 MB** |
+| 内容目录数 | **526 个** |
 | INDEX 导航覆盖 | **100%**（每目录均有 INDEX.md） |
 | YAML Frontmatter 覆盖 | **100%**（统一 aliases + tags） |
 | 命名规范 | **UpperCamelCase**（二级及以下目录 + 英文文件名） |

@@ -1,263 +1,156 @@
 ---
-aliases: [Eigen]
-tags: ['Mathematics', 'Algebra', 'Eigen']
+aliases:
+  - Eigenvalues and Eigenvectors
+  - 特征值
+  - 特征向量
+  - Eigen Decomposition
+  - 谱分解
+tags:
+  - mathematics
+  - linear-algebra
+  - eigenvalues
+  - eigenvectors
+  - diagonalization
+  - spectral-theorem
+  - matrix-theory
+created: 2025-05-17
 ---
 
-# 特征值与特征向量
+# 特征值与特征向量 (Eigenvalues and Eigenvectors)
 
+特征值和特征向量是线性代数核心概念，揭示了线性变换的本质结构。
 
+## 定义 (Definition)
 
-## 一、定义与几何意义
+设 $A$ 为 $n \times n$ 矩阵，若存在非零向量 $\mathbf{v}$ 和标量 $\lambda$ 满足：
 
+$$
+A \mathbf{v} = \lambda \mathbf{v}
+$$
 
+则 $\lambda$ 称为 $A$ 的**特征值** (eigenvalue)，$\mathbf{v}$ 称为对应的**特征向量** (eigenvector)。
 
-### 定义
+几何意义：特征向量在 $A$ 的作用下方向不变，仅在长度上缩放 $\lambda$ 倍。
 
+## 求解方法 (Solution Methods)
 
+### 特征方程 (Characteristic Equation)
 
-��?$A$ ��?$n \times n$ 矩阵，若存在非零向量 $v$ 和标��?$\lambda$ 使得��?
+$$
+\det(A - \lambda I) = 0
+$$
 
-$$A v = \lambda v$$
+展开后得到关于 $\lambda$ 的 $n$ 次多项式，称为**特征多项式** (Characteristic Polynomial)。
 
+### 求解流程 (Solution Flow)
 
-
-��?$\lambda$ 为特征值，$v$ 为对应的特征向量��?
-
-**几何意义��?* 特征向量��?$A$ 作用下只发生伸缩，不改变方向。伸缩倍数��?$\lambda$��?
-
-### 特征多项��?
-
-$$p(\lambda) = \det(A - \lambda I) = 0$$
-
-
-
-$p(\lambda)$ ��?$n$ 次多项式，其根即为特征值��?
-
-### Gershgorin圆盘定理
-
-
-
-每个特征��?$\lambda$ 位于至少一个圆盘内��?$$|\lambda - a_{ii}| \le \sum_{j \neq i} |a_{ij}|$$
-
-
-
-### Rayleigh��?
-
-$$\lambda_{min} \le R(x) = \frac{x^T A x}{x^T x} \le \lambda_{max}$$
-
-
-
-### 幂迭代法
-
-
-
-$$v_{k+1} = \frac{A v_k}{\|A v_k\|}, \quad \lambda^{(k)} = v_k^T A v_k$$
-
-
-
-收敛到模最大的特征值和对应特征向量��?
-
-### 代数重数与几何重��?
-
-- **代数重数**：特征值作为特征多项式根的重数
-
-- **几何重数**��?\dim(\text{Null}(A - \lambda I))$，即对应特征空间的维��?- 几何重数 $\leq$ 代数重数
-
-
-
-## 二、对角化 (Diagonalization)
-
-
-
-### 可对角化条件
-
-
-
-$A$ 可对角化 $\iff$ 对每个特征值，几何重数 = 代数重数 $\iff$ $A$ ��?$n$ 个线性无关的特征向量��?
-
-### 对角化过��?
-
-��?$A$ 可对角化，则存在可逆矩��?$P$ 和对角矩��?$D$ 使得��?
-
-$$A = P D P^{-1}$$
-
-
-
-其中 $P$ 的列��?$A$ 的特征向量，$D$ 的对角线为对应的特征值��?
-
-**应用��?*
-
-$$A^n = P D^n P^{-1}$$
-
-
-
-### 特征��?(Eigenbasis)
-
-
-
-由特征向量构成的一组基称为特征基。在特征基下，线性变换表示为对角矩阵��?
-
-## 三、对称矩阵的谱定��?
-
-### 实对称矩��?
-
-��?$A = A^T$（实对称），则：
-
-- 所有特征值为实数
-
-- 不同特征值对应的特征向量正交
-
-- 存在正交矩阵 $Q$��?Q^T Q = I$）使得：
-
-
-
-$$A = Q \Lambda Q^T$$
-
-
-
-其中 $\Lambda$ 为对角矩阵，$Q$ 的列为标准正交的特征向量��?
-
-## 四、二次型 (Quadratic Forms)
-
-
-
-### 定义
-
-
-
-$$Q(x) = x^T A x = \sum_{i=1}^n \sum_{j=1}^n a_{ij} x_i x_j$$
-
-
-
-其中 $A$ 为对称矩阵��?
-
-### 定值��?(Definiteness)
-
-
-
-- **正定**��?x^T A x > 0$ 对所��?$x \neq 0$；特征值全��?- **半正��?*��?x^T A x \geq 0$；特征值非��?- **负定**��?x^T A x < 0$；特征值全��?- **不定**：特征值有正有��?
-
-### 主子式判别法
-
-
-
-$A$ 正定 $\iff$ 所有顺序主子式 $> 0$��?
-
-## 五、奇异值分��?(SVD)
-
-
-
-### 定义
-
-
-
-任意 $m \times n$ 矩阵 $A$ 可分解为��?
-
-$$A = U \Sigma V^T$$
-
-
-
-- $U$��?m \times m$ 正交矩阵（左奇异向量��?- $V$��?n \times n$ 正交矩阵（右奇异向量��?- $\Sigma$��?m \times n$ 对角矩阵，对角线为奇异��?$\sigma_1 \geq \sigma_2 \geq \cdots \geq \sigma_r > 0$
-
-
-
-### 紧凑 SVD
-
-
-
-$$A = U_r \Sigma_r V_r^T$$
-
-
-
-其中仅保��?$r = \text{rank}(A)$ 个非零奇异值��?
-
-### 与特征值的关系
-
-
-
-$$\sigma_i^2 = \lambda_i(A^T A) = \lambda_i(A A^T)$$
-
-
-
-$V$ 的列��?$A^T A$ 的特征向量，$U$ 的列��?$A A^T$ 的特征向量��?
-
-### 矩阵近似 (Eckart-Young 定理)
-
-
-
-保留��?$k$ 个最大奇异值得��?$A$ 的最佳秩 $k$ 近似��?
-
-$$A_k = U_k \Sigma_k V_k^T$$
-
-
-
-### 伪��?(Pseudoinverse)
-
-
-
-$$A^+ = V \Sigma^+ U^T$$
-
-
-
-其中 $\Sigma^+$ ��?$\Sigma$ 的非零对角元取倒数��?
-
-```python
-
-import numpy as np
-
-from numpy.linalg import svd
-
-
-
-A = np.array([[1, 2], [3, 4], [5, 6]], dtype=float)
-
-U, s, Vt = svd(A)
-
-Sigma = np.zeros((3, 2))
-
-Sigma[:2, :2] = np.diag(s)
-
-
-
-# 紧凑 SVD
-
-A_approx = U[:, :2] @ np.diag(s) @ Vt[:2, :]
-
-
-
-# ��? 近似
-
-A_rank1 = s[0] * np.outer(U[:, 0], Vt[0, :])
-
-
-
-# 伪��?A_pinv = Vt.T @ np.diag(1/s) @ U[:, :2].T
-
+```mermaid
+flowchart TD
+  A["矩阵 A<br/>Matrix A"] --> CharEq["特征方程<br/>det(A - λI) = 0"]
+  CharEq --> Eigenvalues["特征值 λᵢ<br/>Eigenvalues"]
+  Eigenvalues --> NullSpace["求零空间<br/>Null Space of (A - λᵢI)"]
+  NullSpace --> Eigenvectors["特征向量 vᵢ<br/>Eigenvectors"]
 ```
 
+## 性质 (Properties)
 
+### 重要定理 (Important Theorems)
 
-### 矩阵分解对比
+迹与行列式：
 
+$$
+\begin{aligned}
+&\text{tr}(A) = \sum_{i=1}^{n} \lambda_i \\
+&\det(A) = \prod_{i=1}^{n} \lambda_i
+\end{aligned}
+$$
 
+| 性质 | 描述 |
+| :--- | :--- |
+| 相似变换 | $P^{-1}AP$ 的特征值不变 |
+| 转置 | $A^T$ 与 $A$ 特征值相同 |
+| 逆矩阵 | $A^{-1}$ 的特征值为 $1/\lambda$ |
+| 幂 | $A^k$ 的特征值为 $\lambda^k$ |
+| 多项式 | $p(A)$ 的特征值为 $p(\lambda)$ |
 
-| 分解 | 适用矩阵 | 形式 | 唯一��?| 用��?|
+## 对角化 (Diagonalization)
 
-|:---|:---|:---|:---:|:---|
+若 $A$ 有 $n$ 个线性无关的特征向量，则 $A$ 可对角化：
 
-| LU | 方阵 | $A = LU$ | 不唯一 | 解线性方程组 |
+$$
+P^{-1} A P = \Lambda = \begin{pmatrix}
+\lambda_1 & 0 & \cdots & 0 \\
+0 & \lambda_2 & \cdots & 0 \\
+\vdots & \vdots & \ddots & \vdots \\
+0 & 0 & \cdots & \lambda_n
+\end{pmatrix}
+$$
 
-| QR | 任意 | $A = QR$ | 唯一��?R>0$��?| 最小二��?|
+### 对角化的充要条件 (Conditions for Diagonalization)
 
-| 特征分解 | 可对角化方阵 | $A = PDP^{-1}$ | 不唯一 | 矩阵幂、谱分析 |
+$$
+\dim(\text{eigenspace of } \lambda_i) = \text{algebraic multiplicity of } \lambda_i
+$$
 
-| SVD | 任意矩阵 | $A = U\Sigma V^T$ | 唯一 | 降维、伪逆、压��?|
+## 谱定理 (Spectral Theorem)
 
+对于实对称矩阵 $A$ (即 $A = A^T$)，谱定理保证：
 
+$$
+A = Q \Lambda Q^T
+$$
 
-## 相关条目
+其中 $Q$ 是正交矩阵 (Orthogonal Matrix)，即 $Q^T = Q^{-1}$ 且 $Q^T Q = I$。
 
+特征值的重数 (Multiplicities)：
 
+| 重数类型 | 定义 |
+| :--- | :--- |
+| 代数重数 (Algebraic) | 特征多项式中 $(\lambda - \lambda_i)$ 的次数 |
+| 几何重数 (Geometric) | $\dim(\text{Null}(A - \lambda_i I))$ |
 
-[[02_NaturalSciences/Mathematics/Geometry/INDEX|Geometry]], [[02_NaturalSciences/Mathematics/NumberTheory/INDEX|NumberTheory]], [[02_NaturalSciences/Mathematics/MathematicalAnalysis/INDEX|MathematicalAnalysis]], LinearAlgebra
+## 计算方法 (Computation Methods)
 
+| 方法 | 适用场景 | 特点 |
+| :--- | :--- | :--- |
+| 幂法 (Power Iteration) | 最大特征值 | 简单迭代收敛 |
+| QR 算法 | 全部特征值 | 稳定高效 |
+| Jacobi 方法 | 实对称矩阵 | 并行友好 |
+| 分治法 (Divide & Conquer) | 三对角矩阵 | 快速高精度 |
+
+幂法迭代公式：
+
+$$
+\mathbf{x}_{k+1} = \frac{A \mathbf{x}_k}{\|A \mathbf{x}_k\|}
+$$
+
+## 应用 (Applications)
+
+### 主成分分析 (PCA)
+
+协方差矩阵 $C$ 的特征向量指向数据方差最大的方向。
+
+### 图论 (Graph Theory)
+
+图拉普拉斯矩阵 (Graph Laplacian) $L = D - A$ 的第二小特征值对应图的**代数连通度** (Algebraic Connectivity)。
+
+### 量子力学 (Quantum Mechanics)
+
+$$
+H |\psi\rangle = E |\psi\rangle
+$$
+
+哈密顿量 $H$ 的特征值 $E$ 对应系统的能级。
+
+### 搜索引擎 (Search Engines)
+
+Google PageRank 算法的核心是求解网页链接矩阵的主特征向量。
+
+## 相关分解 (Related Decompositions)
+
+| 分解 | 适用矩阵 | 公式 |
+| :--- | :--- | :--- |
+| 特征分解 (EVD) | 可对角化方阵 | $A = P\Lambda P^{-1}$ |
+| 奇异值分解 (SVD) | 任意矩阵 | $A = U\Sigma V^T$ |
+| Schur 分解 | 任意方阵 | $A = Q T Q^*$ |
+| Jordan 标准型 | 不可对角化方阵 | $A = P J P^{-1}$ |

@@ -15,6 +15,25 @@ tags: ['00_KnowledgeFramework', 'VersionHistory', 'CHANGELOG']
 
 ---
 
+## v3.7 (2026-05-17) — 全库内容填充 + 编码清理
+
+### 新增
+- **Stub 文件批量扩充**：
+  - 48 个存根文件（原 47–125 行）扩展至 200–250 行，含 Mermaid 流程图、LaTeX 公式、多级章节
+  - 涵盖 04_EngineeringAndTechnology、03_HumanitiesAndSocialSciences、06_ArtsAndCreativity 等 10+ 学科门类
+- **编码清理收官**：
+  - 修复最后 2 个 INDEX.md 文件中的 U+FFFD 乱码
+  - 全库 2,301 个 .md 文件零 U+FFFD、零 GBK 伪影、零解码错误 ✅
+
+### 修改
+- README 统计同步更新：Markdown 文件数 2,264 → 2,301，行数 339,718 → 474,311，大小 11.3 MB → 16.5 MB
+
+### 修复
+- 全库 Mermaid 流程图：`\n` → `<br/>` 替换（57 个文件），确保 Obsidian 正常渲染
+- 全库 Markdown 表格：补全表格前后空行（230 个文件）
+- 修复 8 个零字节文件（写入过程中损坏）
+- 全库 335 个乱码文件重写（100 个 U+FFFD 型 + 235 个 GBK/PUA 型）
+
 ## v3.5 (2026-05-16) — 全库优化大版本
 
 ### 新增
@@ -52,7 +71,32 @@ tags: ['00_KnowledgeFramework', 'VersionHistory', 'CHANGELOG']
 - Git 仓库优化：`git gc --aggressive`（.git: 17.9 MB → 12.6 MB）
 - `.opencode/fixes/` 下保留全部自动化修复脚本
 
-## v3.4 (2026-05-12)
+## v3.6 (2026-05-16) — 目录结构优化 + Stub 迁移大版本
+
+### 新增
+- **_Stubs 迁移**：268 个存根文件全部归入主分类体系（14 大学科门类下 70+ 个目录），零内容丢失
+  - `04_EngineeringAndTechnology`：120+ 个文件迁至 CivilEngineering、MechanicsAndMaterials、ControlAndSystemsEngineering 等 18 个子目录
+  - `05_ComputerScience`：50+ 个文件迁至 DataStructuresAndAlgorithms、ProgrammingLanguages、SoftwareEngineering 等 15 个子目录
+  - `03_HumanitiesAndSocialSciences`：60+ 个文件迁至 Law、History、Philosophy、Economics、Sociology 等 12 个子目录
+  - `02_NaturalSciences`：30+ 个文件迁至 Physics、Chemistry、Biology、EarthSciences 等 6 个子目录
+  - 其余迁至 01_K12、06_ArtsAndCreativity、08-13 等目录
+
+### 移除
+- **_Stubs 目录**：整体删除（268 个占位文件已全部迁移至主分类）
+- **04_EngineeringAndTechnology 存根目录**：删除 4 个仅含 INDEX.md 的重复目录
+  - `AerospaceEngineering/`（内容已位于 `AerospaceAndMilitaryEngineering/AerospaceEngineering/`）
+  - `MarineEngineering/`（内容已位于 `HydraulicAndMarineEngineering/`）
+  - `TextileEngineering/`（内容已位于 `TextileAndFoodEngineering/TextileScience/`）
+  - `MiningAndMetallurgicalEngineering/`（内容分散于 `MiningAndMineralEngineering/` 和 `MetallurgicalEngineering/`）
+- **04_EngineeringAndTechnology 文件/目录名冲突**：删除 2 个空壳文件
+  - `ElectronicsAndCommunications/SignalProcessing.md`（同名目录有实体内容）
+  - `EnvironmentalScienceAndEngineering/EnvironmentalEngineering.md`（同名目录有实体内容）
+- **根目录辅助文件**：删除 `dedup_related.py`、`fix_garbled.py`、`fix_arts.py`、`fix_remaining.ps1`、`alias_mismatch_temp.txt`、`stale_files.txt`
+
+### 修改
+- README 统计同步更新：Markdown 文件数 2,271 → 2,264，内容目录数 530 → 532
+
+## v3.5 (2026-05-16) — 全库优化大版本
 
 ### 新增
 - 00_KnowledgeFramework 下全部 stub 文件扩充至完整内容（~100-150 行/文件）

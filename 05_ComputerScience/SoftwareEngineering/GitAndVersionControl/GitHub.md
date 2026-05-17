@@ -1,9 +1,9 @@
 ---
-aliases: [GitHub]
+aliases: [GitHub, GitHub使用]
 tags: ['SoftwareEngineering', 'GitAndVersionControl', 'GitHub']
 ---
 
-# GitHub 协作指南
+# GitHub 使用 (GitHub Usage)
 
 ## 一、仓库设置
 
@@ -33,8 +33,7 @@ git push -u origin main
 ### 分支保护规则
 
 ```yaml
-# GitHub 分支保护规则
-# Settings → Branches → Add rule
+# Settings -> Branches -> Add rule
 Branch name pattern: main
 Require pull request reviews before merging: 2
 Dismiss stale pull request approvals when new commits are pushed
@@ -42,15 +41,7 @@ Require status checks to pass before merging
   - continuous-integration/ci
   - lint
   - test
-Require branches to be up to date
-Require conversation resolution before merging
-Include administrators
-Restrict who can push to matching branches
-Allow force pushes: false
-Allow deletions: false
 ```
-
----
 
 ## 二、Issues 与 Project Boards
 
@@ -64,7 +55,6 @@ about: 创建报告帮助改进
 title: "[Bug] "
 labels: bug
 assignees: ''
-
 ---
 
 **描述问题**
@@ -78,62 +68,31 @@ assignees: ''
 **期望行为**
 清晰描述期望的结果。
 
-**截图**
-如果有，请添加截图。
-
 **环境信息**
  - 操作系统: [e.g. Windows 10]
  - 浏览器: [e.g. Chrome 120]
  - 版本: [e.g. v1.2.0]
 ```
 
-```yaml
-# .github/ISSUE_TEMPLATE/feature_request.md
----
-name: 功能请求
-about: 为项目提出建议
-title: "[Feature] "
-labels: enhancement
----
+### Labels 管理
 
-**这个功能是否与某个问题相关？**
-请描述。
+| 标签 | 含义 |
+|------|------|
+| bug | 需要修复的问题 |
+| enhancement | 新功能 |
+| documentation | 文档相关 |
+| good first issue | 适合新手 |
+| help wanted | 需要帮助 |
+| question | 需要解答 |
+| duplicate | 重复 Issue |
+| priority-high | 高优先级 |
 
-**解决方案**
-你期望的行为。
+### Project Boards (Projects v2)
 
-**备选方案**
-你考虑过的其他方案。
-```
-
-### Labels（标签管理）
-
-```yaml
-# 常用标签
-bug: "🐛 需要修复的问题"
-enhancement: "✨ 新功能"
-documentation: "📝 文档相关"
-good first issue: "🎯 适合新手"
-help wanted: "🙋 需要帮助"
-question: "❓ 需要解答"
-wontfix: "🚫 不计划修复"
-duplicate: "👥 重复 Issue"
-priority-high: "🔴 高优先级"
-priority-low: "🟢 低优先级"
-```
-
-### Project Boards
-
-GitHub Projects（Projects v2）提供看板式项目矩阵：
-
-```text
-| To Do       | In Progress | Review      | Done        |
-|-------------|-------------|-------------|-------------|
-| #123 登录   | #125 注册   | #127 搜索   | #120 首页   |
-| #124 权限   | #126 日志   |             | #121 404页  |
-```
-
----
+| To Do | In Progress | Review | Done |
+|-------|-------------|--------|------|
+| #123 登录 | #125 注册 | #127 搜索 | #120 首页 |
+| #124 权限 | #126 日志 | | #121 404页 |
 
 ## 三、Pull Request 工作流
 
@@ -157,7 +116,6 @@ gh pr create --title "feat: 添加超棒功能" --body "实现了..." --base mai
 # .github/PULL_REQUEST_TEMPLATE.md
 
 ## 变更类型
-
 - [ ] 新功能 (feat)
 - [ ] Bug 修复 (fix)
 - [ ] 重构 (refactor)
@@ -165,28 +123,17 @@ gh pr create --title "feat: 添加超棒功能" --body "实现了..." --base mai
 - [ ] 文档更新 (docs)
 - [ ] 测试 (test)
 - [ ] CI/CD (ci)
-- [ ] 其他
 
 ## 描述
-
 请在此描述变更内容和动机。
 
 ## 关联 Issue
-
 Fixes #123
 
 ## 测试
-
 - [ ] 单元测试通过
 - [ ] 集成测试通过
 - [ ] 手动测试完成
-
-## 检查清单
-
-- [ ] 代码风格符合规范
-- [ ] 添加了必要的测试
-- [ ] 更新了文档
-- [ ] 所有 CI 检查通过
 ```
 
 ### PR 合并选项
@@ -196,8 +143,6 @@ Fixes #123
 | Create a merge commit | 保留所有提交，产生合并提交 | 团队合作分支 |
 | Squash and merge | 压缩为单个提交，历史干净 | 完成的功能 |
 | Rebase and merge | 变基到目标分支，无合并提交 | 个人分支 |
-
----
 
 ## 四、代码审查
 
@@ -214,28 +159,7 @@ Fixes #123
   "这个逻辑有 bug，需要修改"
 ```
 
-### 代码审查最佳实践
-
-```text
-审查者：
-✅ 审查代码逻辑，而非风格
-✅ 提供具体的改进建议
-✅ 使用代码片段来说明
-✅ 关注安全性、性能、可维护性
-❌ 用绝对语气（"你错了"）
-❌ 只点赞不发现问题
-❌ 一次性审查超过 400 行
-
-提交者：
-✅ 提交描述清晰
-✅ PR 尽量小（< 200 行）
-✅ 及时回复评论
-✅ 修改后重新请求审查
-❌ 提交未完成的代码
-❌ 忽视审查意见
-```
-
-### Suggest Changes（建议修改）
+### Suggest Changes
 
 GitHub 支持直接在评论中插入代码建议：
 
@@ -245,9 +169,7 @@ GitHub 支持直接在评论中插入代码建议：
 +const result = await response.json();
 ```
 
----
-
-## 五、GitHub Actions 基础
+## 五、GitHub Actions
 
 ### 基本工作流
 
@@ -273,23 +195,28 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
       - run: npm ci
-      - run: npm run lint
       - run: npm test
       - run: npm run build
 ```
 
----
+### 常用 Actions
+
+| Action | 用途 |
+|--------|------|
+| actions/checkout | 检出代码 |
+| actions/setup-node | 设置 Node.js |
+| actions/cache | 缓存依赖 |
+| actions/upload-artifact | 上传构建产物 |
+| actions/download-artifact | 下载构建产物 |
+| actions/deploy-pages | 部署到 GitHub Pages |
 
 ## 六、GitHub Pages
 
 ```bash
 # 从 main 分支发布
-# Settings → Pages → Source: Deploy from a branch
+# Settings -> Pages -> Source: Deploy from a branch
 # Branch: main, / (root) 或 /docs
-
-# 使用 GitHub Actions 发布
 ```
 
 ```yaml
@@ -323,8 +250,6 @@ jobs:
         uses: actions/deploy-pages@v2
 ```
 
----
-
 ## 七、安全
 
 ### Dependabot
@@ -337,18 +262,9 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-      day: "monday"
     open-pull-requests-limit: 10
-    labels:
-      - "dependencies"
-      - "automated"
 
   - package-ecosystem: "github-actions"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-
-  - package-ecosystem: "docker"
     directory: "/"
     schedule:
       interval: "weekly"
@@ -363,14 +279,7 @@ git secrets --register-aws
 
 # 扫描历史中的密钥
 git secrets --scan-history
-
-# 如果密钥已被推送
-# 1. 立即撤销/轮换密钥
-# 2. 使用 filter-repo 从 Git 历史中删除
-git filter-repo --path config/credentials.json --invert-paths
 ```
-
----
 
 ## 八、GitHub CLI 常用命令
 

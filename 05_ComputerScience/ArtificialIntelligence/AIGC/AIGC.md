@@ -1,13 +1,13 @@
 ---
 aliases: [AIGC]
-tags: ['ArtificialIntelligence', 'AIGC', 'AIGC']
+tags: ['ArtificialIntelligence', 'AIGC', 'AI生成内容']
 ---
 
 # AIGC（AI生成内容）
 
 ## 一、生成式AI概述
 
-AIGC（AI Generated Content）指利用人工智能技术自动生成各类内容，涵盖文本、图像、音频、视频、代码等多种模态。其核心驱动力来自深度生成模型的快速发展：
+AIGC（AI Generated Content）指利用人工智能技术自动生成各类内容，涵盖文本、图像、音频、视频、代码等多种模态。其核心驱动力来自深度生成模型的快速发展。
 
 ### 生成模型演进
 
@@ -63,7 +63,7 @@ $$
 
 ### 前沿大模型对比（2026春季）
 
-截至2026年4月，前沿大模型呈现三足鼎立格局：
+截至2026年5月，前沿大模型呈现三足鼎立格局：
 
 | 模型 | 开发商 | 综合评分 | 优势领域 | API价格（输入/输出 per 1M tokens） |
 |------|--------|---------|---------|-----------------------------------|
@@ -77,7 +77,7 @@ $$
 - **Agent能力**：GPT-5.5 在 Terminal-Bench 2.0 (82.7%) 和 OSWorld (78.7%) 领先
 - **编码能力**：Claude Mythos 在 SWE-Bench 达 93.9%，创历史最高
 - **上下文窗口**：三大模型均支持 1M+ tokens 上下文
-- **开源追赶**：DeepSeek V4、Qwen 3.6 Plus 正在缩小与闭源模型的差距
+- **开源追赶**：DeepSeek V4、Cwen 3.6 Plus 正在缩小与闭源模型的差距
 
 ### 文本生成应用
 
@@ -128,11 +128,11 @@ $$
 
 | 模型 | 类型 | 分辨率 | 特点 |
 |------|------|--------|------|
-| DALL-E 2 | 扩散 + CLIP | 1024×1024 | 文本理解强 |
+| DALL-E 2 | 扩散 + CLIP | 1024x1024 | 文本理解强 |
 | DALL-E 3 | 扩散 + 改进 | 高分辨率 | 图文对齐最佳 |
 | Stable Diffusion | 潜在扩散 | 512/1024 | 开源，可控性强 |
 | Midjourney | 扩散模型 | 高分辨率 | 艺术风格优秀 |
-| Imagen | 扩散模型 | 1024×1024 | 逼真度高 |
+| Imagen | 扩散模型 | 1024x1024 | 逼真度高 |
 | Adobe Firefly | 扩散模型 | 高分辨率 | 商业安全 |
 
 ### 潜在扩散模型 (Latent Diffusion)
@@ -151,9 +151,9 @@ $$
 |------|------|------|
 | Sora 2 (OpenAI) | Diffusion Transformer，物理模拟+音效同步 | 20s（已停运2026.04）|
 | Runway Gen-3 | 文本/图像到视频 | 约10s |
-| Pika 2.0 | 简单易用，风格多样化 | 约8s |
-| Stable Video Diffusion | 开源视频生成 | 约4s |
-| Emu3 (Meta) | 纯Next-Token Prediction统一视频生成 | 变长 |
+| Pika 2.0 | 简单易用，风格多样化 | 约5s |
+| Stable Video Diffusion | 开源视频生成 | 约5s |
+| Emu3 (Meta) | 纯Next-Token Prediction统一视频生成 | 可变长 |
 
 **视频生成重大事件（2024-2026）**：
 - **Sora (2024.02)**：OpenAI 首次展示，60s 高质量视频生成，被视为视频生成"GPT-1 时刻"
@@ -178,7 +178,7 @@ $$
 
 | 模型 | 基础模型 | 训练数据 | 代码语言支持 |
 |------|---------|---------|-------------|
-| GitHub Copilot | Codex (GPT-3派生) | GitHub公开代码 | 多语言 |
+| GitHub Copilot | Codex (GPT-3衍生) | GitHub公开代码 | 多语言 |
 | Code Llama | Llama 2 | 代码+自然语言 | Python, C++, Java等 |
 | StarCoder | 自研 | The Stack数据集 | 80+语言 |
 | DeepSeek Coder | 自研 | 87%代码+13%文本 | 多语言 |
@@ -200,8 +200,8 @@ $$
 
 | 模型 | 方法 | 特点 |
 |------|------|------|
-| **Emu3 (Meta 2026.01)** | 纯 Next-Token Prediction | 单一 Transformer 统一文本/图像/视频/机器人操控，发表于 Nature |
-| **Nemotron 3 Nano Omni (NVIDIA 2026.04)** | 30B-A3B MoE 混合专家 | 统一视觉/音频/语言，9x 吞吐量提升，开源 |
+| **Emu3 (Meta 2026.01)** | 纯Next-Token Prediction | 单一 Transformer 统一文本/图像/视频/机器人操控，发表于 Nature |
+| **Nemotron 3 Nano Omni (NVIDIA 2026.04)** | 30B-A3B MoE 混合专家 | 统一视觉/音频/语言，3x 吞吐量提升，开源 |
 | **Phi-4-reasoning-vision** | 15B 多模态推理 | 轻量级，数学/科学推理+UI理解，开源权重 |
 | **Vision Banana (Google 2026.04)** | 图像生成即视觉理解 | 将视觉任务视为图像生成，SOTA 分割/深度估计 |
 
@@ -249,7 +249,7 @@ $$
 | 多工具编排 | Gemini Antigravity、OpenAI Responses API | 函数调用、API编排、工作流自动化 |
 
 **关键架构创新**：
-- **Nemotron 3 Super (NVIDIA 2026.03)**：120B参数、12B激活的混合 Mamba-Transformer MoE，原生 1M 上下文窗口，支持 Agent 多步推理
+- **Nemotron 3 Super (NVIDIA 2026.03)**：120B参数、32B激活的混合 Mamba-Transformer MoE，原生1M 上下文窗口，支持 Agent 多步推理
 - **Multi-Token Prediction (MTP)**：一次前向传播预测多个未来 token，推理速度提升 3x
 - **Hybrid Mamba-Transformer**：Mamba层处理长序列（线性复杂度），Transformer层保留精确检索能力
 
@@ -270,7 +270,7 @@ $$
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]]
 - [[AIEthics]]
 
-## 参考资源
+## 参考资料
 
 - Ho, J. et al. (2020). "Denoising Diffusion Probabilistic Models"
 - Rombach, R. et al. (2022). "High-Resolution Image Synthesis with Latent Diffusion Models"

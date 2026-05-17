@@ -1,318 +1,300 @@
 ---
-aliases: [PenetrationTesting]
-tags: ['Cybersecurity', 'PenetrationTesting']
+aliases:
+  - 渗透测试
+  - Pentest
+  - 红队测试
+tags:
+  - cybersecurity
+  - pentest
+  - red-team
+  - vulnerability
+  - offensive-security
 ---
 
-# 渗透测试完全指南
+# 渗透测试 (Penetration Testing)
 
-## 概述
+渗透测试（Penetration Testing 或 Ethical Hacking）是通过模拟真实攻击者行为，评估信息系统安全性的授权安全评估活动。
 
-渗透测试（Penetration Testing）是通过模拟攻击者视角，系统性地评估目标系统安全性的实践方法。区别于自动化漏洞扫描，渗透测试强调人工分析与深度利用，遵循标准化方法论。
+## 概述 (Overview)
 
----
+渗透测试的核心目标是发现系统中存在的安全漏洞（Vulnerabilities），验证漏洞的可利用性，并提供修复建议。与漏洞扫描不同，渗透测试强调人工参与的深度分析和实际攻击链路的构建。
 
-## 一、渗透测试方法论
-
-### 1.1 标准流程
-
-渗透测试遵循结构化流程，从信息收集到报告输出形成完整闭环。
-
-```
-PTES 标准流程:
-  1. 前期交互 (Pre-engagement)
-     - 范围确定、规则约定、授权书签署
-  2. 情报收集 (Intelligence Gathering)
-     - 被动 OSINT / 主动扫描
-  3. 威胁建模 (Threat Modeling)
-     - 资产识别、攻击面分析
-  4. 漏洞分析 (Vulnerability Analysis)
-     - 自动化扫描 + 手动验证
-  5. 漏洞利用 (Exploitation)
-     - 获取初始访问权限
-  6. 后渗透 (Post-Exploitation)
-     - 权限提升、横向移动、数据窃取
-  7. 报告输出 (Reporting)
-     - 发现、风险等级、修复建议
+```mermaid
+graph LR
+    A[授权范围<br/>Scope] --> B[信息收集]
+    B --> C[漏洞分析]
+    C --> D[漏洞利用]
+    D --> E[后渗透]
+    E --> F[报告输出]
+    F --> G[修复验证]
 ```
 
-### 1.2 测试类型对比
+## 测试类型 (Types of Penetration Testing)
 
-| 类型 | 信息提供 | 模拟对象 | 深度 | 成本 |
-|------|----------|----------|------|------|
-| Black Box | 无 | 外部攻击者 | 中 | 中 |
-| White Box | 完整源码/架构 | 内部开发者 | 高 | 高 |
-| Gray Box | 部分凭据 | 已获权限的攻击者 | 中高 | 中高 |
+### 按知识范围分类
 
----
+| 类型 | 英文名 | 特点 | 适用场景 |
+|------|--------|------|----------|
+| 黑盒测试 | Black Box | 零先验知识 | 模拟外部攻击者 |
+| 灰盒测试 | Gray Box | 部分信息 | 模拟内部人员 |
+| 白盒测试 | White Box | 完整信息 | 深度代码审计 |
 
-## 二、信息收集与侦察
+### 按目标系统分类
 
-### 2.1 被动侦察 (OSINT)
-
-| 信息来源 | 工具/平台 | 获取内容 |
-|----------|-----------|----------|
-| DNS 枚举 | dig, nslookup, dnsrecon | 子域名、MX 记录、TXT 记录 |
-| 搜索引擎 | Google Dorking | 敏感文件、暴露面板 |
-| 证书透明度 | crt.sh, CertSpotter | 子域名 |
-| WHOIS 查询 | whois | 注册信息、IP 段 |
-| 社交媒体 | LinkedIn, Twitter | 员工信息、技术栈 |
-| 代码仓库 | GitHub, GitLab | 泄露的凭据、配置 |
-| Shodan | shodan.io | 暴露的服务、设备指纹 |
-
-```
-Google Dorking 示例:
-  site:example.com filetype:pdf          → 查找 PDF 文档
-  site:example.com inurl:admin           → 查找管理后台
-  site:example.com intitle:"index of"    → 目录遍历
-  filetype:env "DB_PASSWORD"             → 泄露的环境变量
-  inurl:wp-content/uploads               → WordPress 上传目录
+```mermaid
+graph TD
+    A[渗透测试类型] --> B[网络渗透]
+    A --> C[Web 应用渗透]
+    A --> D[移动应用渗透]
+    A --> E[无线渗透]
+    A --> F[社会工程学]
+    A --> G[物理渗透]
+    B --> B1[内网横向移动]
+    C --> C1[OWASP Top 10]
+    D --> D1[Android/iOS]
+    E --> E1[WiFi/蓝牙]
+    F --> F1[钓鱼/伪装]
+    G --> G1[门禁绕过]
 ```
 
-### 2.2 主动侦察
+## 方法论框架 (Methodology Framework)
 
-#### Nmap 扫描
+### PTES 框架
 
-Nmap 是最核心的网络侦察工具，支持多种扫描技术。
+渗透测试执行标准（PTES, Penetration Testing Execution Standards）定义了七个阶段：
 
-| 扫描类型 | 命令 | 特征 | 隐蔽性 |
-|----------|------|------|--------|
-| TCP SYN Scan | `-sS` | 半连接扫描，不完成三次握手 | 高 |
-| TCP Connect Scan | `-sT` | 完成三次握手 | 低 |
-| UDP Scan | `-sU` | 发送 UDP 探测包 | 低 |
-| FIN/NULL/Xmas | `-sF -sN -sX` | 发送特殊标记包 | 高（绕过非 Windows）|
-| ACK Scan | `-sA` | 映射防火墙规则 | 中 |
+1. 前期交互（Pre-engagement Interactions）
+2. 情报收集（Intelligence Gathering）
+3. 威胁建模（Threat Modeling）
+4. 漏洞分析（Vulnerability Analysis）
+5. 漏洞利用（Exploitation）
+6. 后渗透测试（Post Exploitation）
+7. 报告（Reporting）
 
-```
-NSE 脚本:
-  nmap --script vuln          → 漏洞扫描
-  nmap --script http-enum     → Web 目录枚举
-  nmap --script smb-enum      → SMB 信息枚举
-  nmap --script dns-brute     → DNS 子域名爆破
+### OWASP Testing Guide
 
-常用命令:
-  nmap -sS -sV -p- -T4 -A target
-  # SYN 扫描 + 版本检测 + 全端口 + 激进模式 + OS/服务检测
-```
+Web 应用安全测试框架，涵盖：
 
----
+| 类别 | 测试内容 |
+|------|----------|
+| 信息收集 | 指纹、目录枚举 |
+| 配置管理 | 平台配置错误 |
+| 身份管理 | 认证绕过、会话管理 |
+| 业务逻辑 | 工作流程绕过 |
+| 客户端 | XSS、CSRF、DOM 操作 |
+| API 测试 | 端点安全、速率限制 |
 
-## 三、漏洞扫描
+## 信息收集 (Reconnaissance)
 
-| 工具 | 类型 | 特点 | 适用场景 |
-|------|------|------|----------|
-| Nessus | 商业 | 最全面的漏洞库，GUI 友好 | 企业合规扫描 |
-| OpenVAS | 开源 | Greenbone 管理界面，功能强大 | 替代 Nessus 的开源方案 |
-| Nikto | Web 扫描器 | 快速检测已知 Web 漏洞 | Web 服务器初步检查 |
-| Nuclei | 模板化扫描 | YAML 模板，社区丰富 | DevOps 集成 |
+信息收集是渗透测试的基础阶段，分为被动和主动两种方式。
 
-```
-Nessus 策略配置:
-  - 扫描范围: 指定 IP/域名
-  - 扫描模板: 基本网络扫描 / Web 应用测试 / PCI DSS 合规
-  - 凭据扫描: 提供 SSH/Windows 凭据进行深度检测
+### 被动信息收集
 
-OpenVAS / Greenbone:
-  gvm-cli --gmp-username admin --gmp-password pass \
-    socket --socketpath /var/run/gvmd.sock \
-    --xml "<create_target><name>target</name><hosts>10.0.0.1</hosts></create_target>"
+不直接与目标交互，通过公开渠道获取信息：
+
+```mermaid
+graph LR
+    A[被动 recon] --> B[Whois 查询]
+    A --> C[DNS 枚举]
+    A --> D[搜索引擎]
+    A --> E[社交媒体]
+    A --> F[代码仓库]
+    A --> G[泄露数据库]
 ```
 
----
+常用工具：
 
-## 四、漏洞利用
-
-### 4.1 Metasploit Framework
-
-Metasploit 是最主流的渗透测试框架，提供完整的漏洞利用生命周期。
-
-```
-msfconsole 基本工作流:
-  1. search <漏洞名称>        → 查找模块
-  2. use exploit/<路径>       → 选择利用模块
-  3. show options             → 查看配置项
-  4. set RHOSTS <目标>        → 设置目标
-  5. run / exploit            → 执行利用
-
-  选择 Payload:
-    反向 Shell:  set PAYLOAD linux/x64/shell_reverse_tcp
-    Meterpreter: set PAYLOAD linux/x64/meterpreter_reverse_tcp
-    Bind Shell:  set PAYLOAD linux/x64/shell_bind_tcp
-```
-
-| 组件 | 说明 | 示例 |
+| 工具 | 功能 | 类型 |
 |------|------|------|
-| Exploit | 漏洞利用代码 | `exploit/multi/http/struts2_rest_xstream` |
-| Payload | 利用成功后执行的操作 | `meterpreter`, `shell`, `migrate` |
-| Auxiliary | 辅助模块（扫描、枚举、DoS） | `auxiliary/scanner/portscan/tcp` |
-| Post | 后渗透模块 | `post/linux/gather/hashdump` |
-| Encoder | Payload 编码（免杀） | `cmd/powershell_base64` |
+| theHarvester | 邮箱、子域名收集 | 开源 |
+| Maltego | 关系可视化 | 商业 |
+| Shodan | 联网设备搜索 | 商业 |
+| Censys | 互联网资产测绘 | 商业 |
 
-### 4.2 Web 应用测试工具
+### 主动信息收集
 
-#### Burp Suite
+直接与目标交互以获取更多细节：
 
-Burp Suite 是 Web 应用渗透测试的行业标准工具。
+$$Scan\ Range = \bigcup_{i=1}^{n} (IP_i, PortRange_i)$$
 
-| 模块 | 功能 | 快捷键 |
+#### 端口扫描技术
+
+| 技术 | 原理 | 隐蔽性 |
 |------|------|--------|
-| Proxy | 拦截/修改 HTTP 请求 | Ctrl+R 发送到 Repeater |
-| Repeater | 手动重放和修改请求 | Ctrl+U 发送到 Intruder |
-| Intruder | 自动化参数爆破 | 多个位置、字典载荷 |
-| Scanner | 自动化漏洞扫描 | 爬虫 + 主动扫描 |
-| Decoder | 编解码工具 | Base64/URL/Hex/ASCII |
-| Extender | BApp 商店扩展 | JSON Web Tokens, Turbo Intruder |
+| TCP Connect | 完整三次握手 | 低 |
+| SYN Scan | 半开扫描 | 中 |
+| FIN/NULL/Xmas | 异常包探测 | 高 |
+| UDP Scan | UDP 包探测 | 中 |
 
-#### SQLMap
+#### 工具
 
-```bash
-# SQLMap 自动化 SQL 注入
-sqlmap -u "http://target.com/page?id=1" --dbs
-sqlmap -u "http://target.com/page?id=1" -D dbname --tables
-sqlmap -u "http://target.com/page?id=1" -D dbname -T users --dump
+| 工具 | 特点 |
+|------|------|
+| Nmap | 最全面的端口扫描器 |
+| Masscan | 异步高速扫描 |
+| Zmap | 互联网级扫描 |
 
-# 进阶选项
-sqlmap -r request.txt --level 3 --risk 2
-sqlmap -u "http://target.com/page?id=1" --os-shell
-sqlmap --batch --random-agent --threads 10
+## 漏洞分析 (Vulnerability Analysis)
+
+### 自动化扫描
+
+| 工具 | 适用场景 | 特点 |
+|------|----------|------|
+| Nessus | 网络漏洞 | 漏洞库全面 |
+| OpenVAS | 网络漏洞 | 开源免费 |
+| Burp Suite | Web 应用 | 代理拦截、主动扫描 |
+| Acunetix | Web 应用 | 爬虫能力强 |
+| Metasploit | 综合框架 | 漏洞利用一体化 |
+
+### 手动分析
+
+自动化扫描后需人工验证和深入分析：
+
+```mermaid
+graph TD
+    A[扫描结果] --> B[误报过滤]
+    B --> C[漏洞验证]
+    C --> D[影响评估]
+    D --> E[利用路径分析]
+    E --> F[风险评级]
 ```
 
----
+## 漏洞利用 (Exploitation)
 
-## 五、权限提升
+在授权前提下，验证漏洞的实际可利用性。
 
-### 5.1 Linux 提权
+### 利用框架
 
-| 向量 | 描述 | 检查命令 |
+| 框架 | 特点 |
+|------|------|
+| Metasploit | 最全面的利用框架 |
+| Cobalt Strike | 红队工具，C2 控制 |
+| Sliver | 开源 C2 框架 |
+| SQLMap | SQL 注入自动化 |
+
+### 常见漏洞利用
+
+```mermaid
+graph TD
+    A[漏洞利用] --> B[远程代码执行<br/>RCE]
+    A --> C[SQL 注入]
+    A --> D[文件上传]
+    A --> E[反序列化]
+    A --> F[权限提升]
+    B --> G[获取 Shell]
+    C --> H[数据库接管]
+    D --> I[WebShell]
+    E --> J[任意对象构造]
+    F --> K[SYSTEM/Root]
+```
+
+### 权限提升 (Privilege Escalation)
+
+$$Target\ Privilege = \max(Privilege_{current}, Exploit_{privesc})$$
+
+#### Windows 权限提升
+
+| 向量 | 描述 |
+|------|------|
+| 内核漏洞 | 未修补的系统漏洞 |
+| 服务配置 | 不安全的服务权限 |
+| DLL 劫持 | 搜索顺序劫持 |
+| 注册表 | AlwaysInstallElevated |
+
+#### Linux 权限提升
+
+| 向量 | 描述 |
+|------|------|
+| SUID/SGID | 特殊权限文件滥用 |
+| Sudo 配置 | sudoers 配置错误 |
+| 内核漏洞 | 本地提权漏洞 |
+| 计划任务 | cron 配置不当 |
+
+## 后渗透测试 (Post-Exploitation)
+
+获取初始访问后的活动，评估实际影响范围。
+
+### 内网横向移动
+
+```mermaid
+graph LR
+    A[入口点] -->|凭证窃取| B[其他工作站]
+    A -->|Pass-the-Hash| C[服务器]
+    B -->|RDP 劫持| D[域控]
+    C -->|Kerberoasting| E[服务账户]
+    D --> F[域内完全控制]
+```
+
+### 持久化技术
+
+| 技术 | 描述 | 检测难度 |
 |------|------|----------|
-| SUID 提权 | 利用设置了 SUID 位的二进制 | `find / -perm -4000 2>/dev/null` |
-| 内核漏洞 | 利用内核 CVE | `uname -a` → searchsploit |
-| Sudo 配置 | `/etc/sudoers` 中的危险配置 | `sudo -l` |
-| Cron 任务 | 可写的计划任务脚本 | `cat /etc/crontab` |
-| 不安全的路径 | PATH 劫持 | `echo $PATH` |
-| Docker 逃逸 | 挂载宿主机目录 | `docker -v` |
+| 后门账户 | 创建隐藏用户 | 低 |
+| 计划任务 | 定时执行 payload | 中 |
+| 服务注册 | 系统服务后门 | 中 |
+| WMI 事件 | 无文件持久化 | 高 |
+| 注册表 Run 键 | 登录自启动 | 低 |
 
-```bash
-# SUID 提权示例
-./vuln_program  # 如果具有 SUID root，可利用它执行系统命令
+### 数据收集
 
-# 内核提权
-linux-exploit-suggester.sh  # 检测可利用的内核漏洞
+- 密码哈希和明文凭证
+- 敏感配置文件
+- 数据库访问权限
+- 网络拓扑信息
+- 业务系统数据
 
-# Docker 逃逸
-docker run -v /:/mnt -it alpine chroot /mnt
+## 报告输出 (Reporting)
+
+渗透测试报告是交付成果，需清晰传达风险和修复建议。
+
+### 报告结构
+
+```mermaid
+graph TD
+    A[渗透测试报告] --> B[执行摘要]
+    A --> C[技术发现]
+    A --> D[风险评级]
+    A --> E[修复建议]
+    A --> F[附录]
+    B --> B1[高管摘要]
+    B --> B2[风险矩阵]
+    C --> C1[漏洞详情]
+    C --> C2[复现步骤]
+    C --> C3[影响证明]
 ```
 
-### 5.2 Windows 提权
+### 风险评级标准
 
-| 向量 | 描述 | 工具 |
-|------|------|------|
-| Token Abuse | SeImpersonate 窃取系统 Token | JuicyPotato, RoguePotato |
-| 未引号服务路径 | 空格导致路径劫持 | `wmic service get name,pathname` |
-| 内核漏洞 | Windows 内核 CVE | Windows-Exploit-Suggester |
-| AlwaysInstallElevated | MSI 以 SYSTEM 权限安装 | 检查注册表 |
-| UAC 绕过 | 绕过用户账户控制 | UACME 项目 |
+| 等级 | CVSS 分数 | 描述 |
+|------|-----------|------|
+| 严重 | 9.0-10.0 | 可直接导致系统完全失控 |
+| 高危 | 7.0-8.9 | 可获取高级权限或大量数据 |
+| 中危 | 4.0-6.9 | 有限影响，需配合其他漏洞 |
+| 低危 | 0.1-3.9 | 信息泄露或轻微配置问题 |
+| 信息 | 0.0 | 非安全问题，仅供参考 |
 
----
+## 合规与道德 (Compliance and Ethics)
 
-## 六、横向移动
+### 法律框架
 
-| 技术 | 原理 | 工具 |
-|------|------|------|
-| Pass-the-Hash | 使用 NTLM 哈希直接认证 | Mimikatz, Impacket |
-| Pass-the-Ticket | Kerberos 票据窃取与重放 | Mimikatz, Rubeus |
-| SSH 密钥窃取 | 收集 `~/.ssh/id_rsa` | 手动 / 脚本 |
-| WMI 远程执行 | Windows Management Instrumentation | wmic, Impacket |
-| WinRM | Windows 远程管理 | evil-winrm |
-| PsExec | Sysinternals 远程执行 | Impacket-psexec |
+| 法规 | 适用范围 | 要求 |
+|------|----------|------|
+| 网络安全法 | 中国 | 等级保护、安全评估 |
+| GDPR | 欧盟 | 数据保护影响评估 |
+| PCI DSS | 支付行业 | 年度渗透测试 |
+| HIPAA | 医疗行业 | 安全风险评估 |
 
-```
-Mimikatz 常用命令:
-  sekurlsa::logonpasswords      → 提取明文密码
-  sekurlsa::tickets             → 提取 Kerberos 票据
-  lsadump::sam                  → 提取 SAM 哈希
-  token::elevate                → 提升 Token
-  lsadump::dcsync /user:krbtgt → DCSync 攻击
-```
+### 道德准则
 
----
+- 始终获得书面授权
+- 严格限定在约定范围内
+- 保护测试过程中接触的数据
+- 及时报告高危漏洞
+- 不造成实际业务损害
 
-## 七、密码攻击
+## 参考资源 (References)
 
-| 工具 | 类型 | 特点 | 性能 (H/s) |
-|------|------|------|------------|
-| Hashcat | GPU 加速 | 支持 200+ 哈希类型 | 最高（依赖 GPU）|
-| John the Ripper | CPU | 自动识别哈希类型 | 中等 |
-| Hydra | 在线爆破 | 支持多种协议 | 受限于网络 |
-| Medusa | 在线爆破 | 并行连接 | 类似 Hydra |
-
-```
-Hashcat 工作流:
-  hashcat -m 1000 -a 0 hash.txt wordlist.txt  # MD5 字典攻击
-  hashcat -m 1000 -a 3 hash.txt ?a?a?a?a?a?a  # 掩码攻击 (6位全部字符)
-  hashcat -m 1000 -a 1 hash.txt word1.txt word2.txt  # 组合攻击
-
-  -m: 哈希类型 (1000=NTLM, 0=MD5, 1400=SHA256)
-  -a: 攻击模式 (0=字典, 1=组合, 3=掩码, 6=混合)
-
-常用字典:
-  rockyou.txt         → 最经典的密码字典 (1400万+)
-  SecLists            → 全面的安全测试字典
-  CrackStation        → 彩虹表
-  Have I Been Pwned   → 真实泄露密码 (6亿+)
-```
-
----
-
-## 八、报告与修复
-
-### 8.1 报告结构
-
-```
-渗透测试报告标准结构:
-  1. 执行摘要 (Executive Summary)
-     - 面向管理层、非技术视角
-     - 整体风险评分、关键发现
-  2. 技术报告 (Technical Report)
-     - 每个漏洞的详细信息
-  3. 漏洞详情
-     - 漏洞名称 / CVE 编号 / CVSS 评分
-     - 复现步骤 (PoC)
-     - 影响分析
-     - 修复建议
-  4. 严重性分级
-
-CVSS 3.1 评分标准:
-  严重 (Critical):   9.0-10.0
-  高危 (High):       7.0-8.9
-  中危 (Medium):     4.0-6.9
-  低危 (Low):        0.1-3.9
-  信息 (Info):       0.0
-```
-
-### 8.2 修复优先级矩阵
-
-| 影响/可能性 | 高可能性 | 中可能性 | 低可能性 |
-|-------------|----------|----------|----------|
-| 高影响 | 立即修复 | 24-48h 内 | 下周前 |
-| 中影响 | 48h 内 | 本周内 | 本月内 |
-| 低影响 | 本周内 | 本月内 | 下季度 |
-
----
-
-## 相关条目
-
-- [[WebSecurity]]
-- [[NetworkSecurity]]
-- [[Cybersecurity]]
-- EthicalHacking
-
-## 参考资源
-
-- PTES 标准: http://www.pentest-standard.org
-- OWASP Testing Guide: https://owasp.org/www-project-web-security-testing-guide
-- Metasploit Unleashed: https://www.offensive-security.com/metasploit-unleashed
-- Hack The Box / TryHackMe 练习平台
-- 《The Hacker Playbook 3》— Peter Kim
-- 《Penetration Testing: A Hands-On Introduction to Hacking》— Georgia Weidman
-- MITRE ATT&CK: https://attack.mitre.org
-- PayloadsAllTheThings: https://github.com/swisskyrepo/PayloadsAllTheThings
+- [OWASP Testing Guide](https://owasp.org/www-project-web-security-testing-guide/)
+- [PTES Technical Guidelines](http://www.pentest-standard.org/)
+- [Metasploit Unleashed](https://www.offensive-security.com/metasploit-unleashed/)
+- [Hack The Box](https://www.hackthebox.com/)

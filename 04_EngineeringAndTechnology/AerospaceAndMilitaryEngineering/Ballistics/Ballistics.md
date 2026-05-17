@@ -1,224 +1,251 @@
 ---
-aliases: [Ballistics]
-tags: ['AerospaceAndMilitaryEngineering', 'Ballistics', 'Ballistics']
+aliases:
+  - Ballistics
+  - Internal Ballistics
+  - External Ballistics
+  - Terminal Ballistics
+tags:
+  - engineering
+  - aerospace
+  - military
+  - physics
+  - mechanics
+  - aerodynamics
+  - trajectory
 ---
 
-# 弹道学
+# 弹道学 (Ballistics)
 
-## 一、弹道学概述
+## 概述 (Overview)
 
-弹道学是研究抛射体运动规律的学科，按阶段分为三大分支：
+弹道学是研究抛射体（projectile）运动规律的学科，广泛应用于军事、航天、运动器械等领域。弹道学分为三个主要分支：内弹道学（internal ballistics）、外弹道学（external ballistics）和终点弹道学（terminal ballistics）。
 
-| 分支 | 研究范围 | 时间范围 | 关键问题 |
-|------|---------|---------|---------|
-| 内弹道学 | 膛内运动 | 毫秒级 | 火药燃烧、弹丸加速 |
-| 外弹道学 | 出膛到目标 | 秒级 | 飞行轨迹、环境修正 |
-| 终点弹道学 | 命中目标后 | 微秒级 | 侵彻、毁伤效应 |
 
-弹道学在军事领域具有基础性作用，直接影响火炮系统和轻武器的射击精度与毁伤效能。
+## 内弹道学 (Internal Ballistics)
 
-## 二、内弹道学
+### 发射过程 (Launch Process)
 
-### 2.1 火药燃烧
+内弹道学研究弹丸在枪炮身管内的运动规律。主要关注以下几个关键参数：
 
-火药在密闭空间快速燃烧，产生高温高压气体推动弹丸。几何燃烧定律：
+| 参数 | 符号 | 单位 | 说明 |
+|------|------|------|------|
+| 膛压 | $P$ | MPa | 火药燃气压力 |
+| 初速 | $v_0$ | m/s | 弹丸离开炮口时的速度 |
+| 膛线缠距 | $n$ | mm/转 | 膛线旋转一周前进的距离 |
+| 装药量 | $\omega$ | kg | 发射药的质量 |
 
-$$ \frac{d\psi}{dt} = \frac{S_1}{e_1} \cdot \frac{de}{dt} \cdot \psi^{\alpha} $$
 
-$\psi$为已燃百分数，$S_1$为初始燃烧面积，$e_1$为弧厚。
+### 火药燃气压力 (Propellant Gas Pressure)
 
-**火药分类**：
-- **黑火药**：硝石+硫磺+木炭，古老火药
-- **单基火药**：硝化纤维素为主要成分
-- **双基火药**：硝化纤维素+硝化甘油
-- **三基火药**：双基+硝基胍（降低火焰温度，减少烧蚀）
+火药燃烧产生的高温高压气体推动弹丸加速。压力变化遵循：
 
-**燃烧特性与形状**：
-| 形状 | 燃烧特性 | 用途 |
-|------|---------|------|
-| 球状/片状 | 减面燃烧（面积递减） | 手枪弹 |
-| 管状 | 恒面燃烧（面积不变） | 步枪弹 |
-| 多孔粒状 | 增面燃烧（面积递增） | 火炮 |
+$$P(t) = P_{max} \cdot e^{-\frac{t}{\tau}}$$
 
-### 2.2 内弹道压力曲线
+其中 $P_{max}$ 为最大膛压，$\tau$ 为压力衰减时间常数。
 
-弹丸在膛内运动分为四个阶段：
-1. **点火阶段**：底火引燃发射药，压力迅速上升
-2. **定容燃烧阶段**：弹丸尚未启动，药室容积不变，压力升至最大
-3. **变容燃烧阶段**：弹丸开始运动，容积增大，压力逐渐下降
-4. **后效阶段**：弹丸离开炮口，火药气体膨胀加速
+弹丸在膛内的运动方程为：
 
-最大膛压$p_{\max}$是火炮设计的关键参数，直接影响炮管壁厚和重量。炮口压力$p_g$影响后效期和炮口焰。
+$$m \frac{d^2x}{dt^2} = P \cdot A - F_f$$
 
-### 2.3 弹丸加速
+$m$ 为弹丸质量，$A$ 为炮膛截面积，$F_f$ 为摩擦阻力。
 
-牛顿第二定律：
 
-$$ m\frac{dv}{dt} = A \cdot p(t) - R_f $$
+### 膛线作用 (Rifling Effect)
 
-$m$为弹丸质量，$A$为弹底面积，$p(t)$为膛底压力，$R_f$为摩擦阻力。
+膛线赋予弹丸旋转稳定性。旋转角速度：
 
-出口初速$v_0$估算：
+$$\omega = \frac{2\pi v}{n}$$
 
-$$ v_0 = \sqrt{\frac{2\eta A l}{m} \cdot p_{\text{平均}}} $$
+陀螺稳定性条件要求：
 
-初速越高，射程越远、穿甲能力越强。$\eta$为效率系数，$l$为身管长度。
+$$\frac{\omega^2}{v^2} \cdot \frac{I_x}{I_y} > \frac{2\rho S l}{m}$$
 
-### 2.4 身管与膛线
+其中 $I_x$ 和 $I_y$ 分别为轴向和横向转动惯量。
 
-**身管设计**：需承受高温高压，要求高强度、耐烧蚀、抗疲劳。高射速火炮身管寿命通常较短。
 
-**膛线**：赋予弹丸高速旋转，陀螺效应保持飞行稳定。缠度$\eta = \pi d / L$（$d$口径，$L$导程）。多数火炮采用右旋膛线，渐速膛线可减少出膛扰动。
+## 外弹道学 (External Ballistics)
 
-### 2.5 内弹道方程组求解
+### 理想弹道 (Ideal Trajectory)
 
-内弹道方程组包含：几何燃烧方程 + 燃速方程 + 状态方程（诺贝尔-阿贝尔方程$p(v-\alpha)=RT$） + 弹丸运动方程 + 能量方程。通常采用龙格-库塔法数值求解。
+在真空中，弹丸的运动轨迹为抛物线。水平发射时的运动方程：
 
-## 三、外弹道学
+$$x = v_0 \cos\theta \cdot t$$
+$$y = v_0 \sin\theta \cdot t - \frac{1}{2}gt^2$$
 
-### 3.1 真空中弹道
+最大射程对应的抛射角 $\theta = 45°$。
 
-忽略空气阻力，弹丸在重力下做抛物线运动：
 
-$$ y = x\tan\theta - \frac{gx^2}{2v_0^2\cos^2\theta} $$
+### 空气阻力 (Air Resistance)
 
-最大射程对应射角45°。
+实际大气中，弹丸受到空气阻力作用。阻力公式：
 
-### 3.2 空气中弹道
+$$F_D = \frac{1}{2} \rho v^2 C_D A$$
 
-实际弹道受空气阻力，比真空弹道更低更短。阻力模型：
+其中 $\rho$ 为空气密度，$C_D$ 为阻力系数，$A$ 为弹丸参考面积。
 
-$$ F_d = \frac{1}{2}\rho v^2 C_D(Ma) A $$
+阻力系数与马赫数（Mach number）密切相关：
 
-**标准阻力定律**：描述阻力系数随马赫数变化，常用西亚切（小口径）、1943年（中大口径）、G1（步枪弹）。
+$$Ma = \frac{v}{a} = \frac{v}{\sqrt{\gamma RT}}$$
 
-### 3.3 弹道系数
+```mermaid
+graph LR
+    A[亚音速<br/>Subsonic] --> B[跨音速<br/>Transonic]
+    B --> C[超音速<br/>Supersonic]
+    C --> D[高超音速<br/>Hypersonic]
+    
+    style A fill:#90EE90
+    style B fill:#FFD700
+    style C fill:#FF6347
+    style D fill:#8B0000
+```
 
-$$ C = \frac{m}{i d^2} $$
 
-$m$为弹丸质量，$d$为口径，$i$为形状系数。弹道系数（BC）越大，弹道越平直，受风偏影响越小。
+### 弹道修正 (Trajectory Correction)
 
-### 3.4 环境因素修正
+实际射击中需要考虑多种修正因素：
 
-| 因素 | 影响 | 修正方式 |
-|------|------|---------|
-| 横风 | 侧向偏移，增大散布 | 风偏修正公式 |
-| 空气密度 | 阻力变化，射程改变 | 密度修正表 |
-| 科里奥利力 | 地球自转偏转 | 方向修正（北半球向右） |
-| 温度 | 推进剂燃速变化 | 初速修正 |
-| 海拔 | 空气密度降低 | 射角调小 |
+| 修正因素 | 影响 | 修正方法 |
+|----------|------|----------|
+| 科里奥利力 | 地球自转引起的偏转 | 方向和时间修正 |
+| 风速 | 横向漂移 | 风偏修正角 |
+| 温度 | 空气密度变化 | 射程修正 |
+| 海拔高度 | 气压变化 | 弹道系数修正 |
+| 地球曲率 | 远距离目标 | 仰角修正 |
 
-**科里奥利加速度**：$\mathbf{a}_c = -2\mathbf{\Omega} \times \mathbf{v}$（$\mathbf{\Omega}$为地球自转角速度）。
 
-**风偏估算**：$\text{偏移量} = \frac{w_x}{v_0} \cdot \frac{X}{\cos\theta}$，$w_x$为侧风速，$X$为水平射程。
+### 弹丸稳定性 (Projectile Stability)
 
-### 3.5 飞行稳定性
+弹丸在空中飞行需要保持稳定姿态。稳定性类型包括：
 
-**自旋稳定**：膛线赋予高速旋转，陀螺效应保持弹轴指向。
-**尾翼稳定**：气动压心位于质心后方，提供静稳定性。
+- **旋转稳定（Spin Stabilization）**：通过膛线赋予弹丸高速旋转
+- **尾翼稳定（Fin Stabilization）**：利用尾翼产生稳定力矩
+- **箭形稳定（Arrow Stabilization）**：重心靠前，压心靠后
 
-**陀螺稳定条件**：
+章动角（nutation angle）的变化规律：
 
-$$ n > \frac{1}{2\pi} \sqrt{\frac{M_{\alpha}}{I_x}} $$
+$$\theta(t) = \theta_0 e^{-\lambda t} \cos(\Omega t + \phi)$$
 
-**稳定性判据**：$S_g = \frac{I_x^2 \omega_x^2}{4I_y M_{\alpha}} > 1$保证弹丸飞行中不翻滚。
+其中 $\lambda$ 为阻尼系数，$\Omega$ 为进动频率。
 
-### 3.6 进动与章动
 
-- **进动**：弹轴绕速度方向缓慢圆锥旋转
-- **章动**：弹轴在进动圆周上的快速小幅振荡
+## 终点弹道学 (Terminal Ballistics)
 
-过大的进动角导致散布增大和射程缩短。合适的缠度和弹丸设计可使弹丸快速进入稳定飞行状态。
+### 侵彻机理 (Penetration Mechanism)
 
-## 四、终点弹道学
+弹丸击中目标后的侵彻过程涉及复杂的材料变形和破坏。
 
-### 4.1 侵彻力学
+侵彻深度估算公式（德马尔公式）：
 
-弹丸命中目标的高速冲击涉及应力波传播和材料破坏。
+$$h = \frac{m v^2}{2 \pi r^2 \sigma_y}$$
 
-**De Marre公式**估算侵彻深度：
+其中 $h$ 为侵彻深度，$\sigma_y$ 为目标材料屈服强度。
 
-$$ h = K \cdot \frac{m v^2}{d^2} \cdot \frac{1}{\sqrt{\sigma_t}} $$
+```mermaid
+graph TD
+    A[撞击<br/>Impact] --> B[应力波传播<br/>Stress Wave]
+    B --> C[材料变形<br/>Deformation]
+    C --> D{侵彻深度}
+    D -->|足够深| E[穿透<br/>Perforation]
+    D -->|不够深| F[嵌埋<br/>Embedding]
+    
+    style A fill:#FF6B6B
+    style E fill:#4ECDC4
+    style F fill:#FFE66D
+```
 
-$K$为经验系数，$\sigma_t$为靶板强度极限。
 
-**Johnson-Cook模型**描述高速冲击下材料动态屈服强度：
+### 能量传递 (Energy Transfer)
 
-$$ \sigma_y = (A + B\varepsilon^n)(1 + C\ln\dot{\varepsilon}^*)(1 - T^{*m}) $$
+弹丸传递给目标的动能：
 
-### 4.2 装甲类型
+$$E_k = \frac{1}{2} m (v_1^2 - v_2^2)$$
 
-| 类型 | 材料 | 防护机制 |
-|------|------|---------|
-| 均质装甲 | 轧制均质钢(RHA) | 高强度抗侵彻 |
-| 复合装甲 | 陶瓷+金属+纤维 | 陶瓷破碎穿甲弹芯 |
-| 反应装甲 | 炸药+金属板 | 爆炸反作用干扰射流 |
-| 间隙装甲 | 双层或多层间隔 | 破坏穿甲体姿态 |
-| 电磁装甲 | 电磁场 | 干扰射流或弹芯运动 |
+$v_1$ 为撞击前速度，$v_2$ 为穿透后剩余速度。
 
-### 4.3 聚能射流
+剩余速度公式：
 
-**门罗效应**：炸药凹槽装药爆炸产生高速金属射流（8-10km/s），可穿透数倍于装药口径的装甲。
+$$v_2 = \sqrt{v_1^2 - v_{50}^2}$$
 
-$$ p = L \sqrt{\frac{\rho_j}{\rho_t}} $$
+$v_{50}$ 为弹道极限速度。
 
-$p$为穿透深度，$L$为射流长度，$\rho_j$和$\rho_t$分别为射流和靶板密度。
 
-### 4.4 破片效应
+### 毁伤评估 (Damage Assessment)
 
-弹丸爆炸产生高速破片形成杀伤区域。**Gurney公式**估算破片初速：
+毁伤效果与多种因素相关：
 
-$$ v_0 = \sqrt{2E} \cdot \frac{m_e/m_f}{1 + 0.5 m_e/m_f} $$
+| 目标类型 | 关键参数 | 毁伤判据 |
+|----------|----------|----------|
+| 装甲目标 | 侵彻深度 | 穿透/未穿透 |
+| 人员目标 | 能量传递 | 空腔效应 |
+| 建筑目标 | 冲击波 | 结构破坏 |
+| 电子设备 | 冲击振动 | 功能失效 |
 
-$\sqrt{2E}$为Gurney常数（取决于炸药），$m_e$为炸药质量，$m_f$为壳体质量。Mott分布描述破片质量统计规律。
 
-## 五、弹道测量技术
+## 弹道测量技术 (Ballistic Measurement)
 
-| 技术 | 原理 | 测量参数 | 精度 |
-|------|------|---------|------|
-| 高速摄影 | 每秒百万帧以上 | 飞行姿态、速度 | 空间分辨率高 |
-| 多普勒雷达 | 多普勒频移 | 实时速度、加速度 | 速度精度高 |
-| 天幕靶 | 光幕被遮挡中断 | 通过时间 | 时间精度高 |
-| 弹道相机 | 闪光同步拍摄 | 弹道轨迹坐标 | 位置精度高 |
+### 测速方法 (Velocimetry)
 
-## 六、计算弹道学
+- **测时仪（Chronograph）**：测量弹丸通过两个探靶的时间
+- **多普勒雷达（Doppler Radar）**：利用多普勒频移测速
+- **高速摄影（High-speed Photography）**：直接记录弹丸运动
 
-**数值模型**：
-- **6自由度刚体模型**：3个平移+3个转动自由度，精度最高
-- **3自由度质点模型**：仅考虑质心运动，计算速度最快
-- **修正质点模型**：在质点模型上加入稳定性修正项
-- **蒙特卡洛模拟**：考虑初速散布、风扰动、弹道系数波动等随机因素，预测散布分布
+### 压力测量 (Pressure Measurement)
 
-**射表编制**：通过大量实弹射击结合数值计算，列出各种条件下（不同射角、装药号、气象条件）的弹道诸元。
+膛压测量使用压电传感器或应变片：
 
-**火控系统**：利用弹道模型实时解算射击诸元，自动修正目标运动和环境因素。
+$$P = \frac{E \cdot \varepsilon}{1 - \mu^2}$$
 
-## 七、历史人物
+其中 $E$ 为弹性模量，$\varepsilon$ 为应变，$\mu$ 为泊松比。
 
-**本杰明·罗宾斯（Benjamin Robins，1707-1751）**：
-- 现代弹道学之父
-- 《新弹道学原理》（1742年）奠定外弹道学基础
-- 发明弹道摆测量弹丸速度
-- 首次科学阐述空气阻力对弹道的影响
-- 发现马格努斯效应（旋转弹丸在气流中的侧向力）
 
-**恩斯特·马赫（Ernst Mach，1838-1916）**：
-- 激波照相技术先驱
-- 提出马赫数、马赫锥概念
-- 用纹影照相首次拍摄到弹丸周围的激波
+## 现代弹道学发展 (Modern Ballistics Development)
 
-**其他贡献者**：阿波罗·阿贝尔（弹道函数理论）、冯·布劳恩（火箭弹道学）、戈达德（火箭推进）。
+### 精确制导 (Precision Guidance)
 
-## 参考资源
+现代弹道学结合制导技术：
 
-1. Carlucci D E, Jacobson S S. Ballistics: Theory and Design of Guns and Ammunition. 3rd ed. CRC Press, 2018.
-2. McCoy R L. Modern Exterior Ballistics. Schiffer Publishing, 2012.
-3. 鲍廷钰, 邱文坚. 内弹道学. 北京理工大学出版社, 2005.
-4. 浦发. 外弹道学. 国防工业出版社, 2002.
-5. Zukas J A, Walters W P. Explosive Effects and Applications. Springer, 2003.
+| 制导方式 | 原理 | 精度提升 |
+|----------|------|----------|
+| GPS制导 | 卫星定位 | CEP < 10m |
+| 激光制导 | 半主动寻的 | CEP < 5m |
+| 红外制导 | 热成像追踪 | 末端精度高 |
+| 复合制导 | 多模式融合 | 全天候作战 |
 
-## 相关条目
-- [[弹道测量与仿真]]
-- [[WeaponSystems]]
-- [[Aerodynamics]]
-- [[FlightMechanics]]
+
+### 计算弹道学 (Computational Ballistics)
+
+CFD（计算流体力学）在弹道学中的应用：
+
+$$\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{u}) = 0$$
+$$\frac{\partial (\rho \mathbf{u})}{\partial t} + \nabla \cdot (\rho \mathbf{u} \otimes \mathbf{u}) = -\nabla p + \nabla \cdot \tau + \rho \mathbf{g}$$
+
+通过数值模拟可以精确预测复杂条件下的弹道轨迹。
+
+
+## 应用领域 (Applications)
+
+### 军事应用 (Military Applications)
+
+- 火炮系统设计
+- 弹药效能评估
+- 装甲防护设计
+- 反导系统开发
+
+### 民用应用 (Civil Applications)
+
+- 航天器返回弹道
+- 运动器材设计（高尔夫、棒球）
+- 气象火箭探测
+- 消防灭火弹
+
+
+## 参考文献 (References)
+
+1. Carlucci, D. E., & Jacobson, S. S. (2018). *Ballistics: Theory and Design of Guns and Ammunition*. CRC Press.
+2. McCoy, R. L. (1999). *Modern Exterior Ballistics*. Schiffer Publishing.
+3. 国防科技大学. (2015). 《弹道学基础》. 国防工业出版社.
+4. NATO STANAG 4425 - Ballistic Measurement Methods.
+
+---
+
+**相关概念**: [[Aerodynamics|空气动力学]] | [[Fluid Dynamics|流体力学]] | [[Fracture Mechanics|断裂力学]] | [[Terminal Ballistics|终点弹道学]]

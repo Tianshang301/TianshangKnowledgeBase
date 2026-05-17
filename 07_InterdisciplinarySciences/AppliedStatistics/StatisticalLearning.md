@@ -23,7 +23,7 @@ $$y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \cdots + \beta_p x_p + \varepsilon$$
 $$\hat{\beta} = (X^TX)^{-1}X^Ty$$
 
 **模型诊断：**
-- 残差分析：检查线性、正态性、同方差性
+- 残差分析：检查线性性、正态性、同方差性
 - 多重共线性：VIF < 10
 - 影响点：Cook距离
 
@@ -116,7 +116,7 @@ $$\text{解释率} = \frac{\lambda_i}{\sum_{j=1}^{p}\lambda_j}$$
 ### 聚类分析
 
 **K-Means聚类：**
-1. 随机初始化k个中心点
+1. 随机初始化K个中心点
 2. 将每个样本分配到最近的中心点
 3. 重新计算每个簇的中心点
 4. 重复2-3直到收敛
@@ -154,6 +154,7 @@ $$\text{解释率} = \frac{\lambda_i}{\sum_{j=1}^{p}\lambda_j}$$
 ### 分类模型评估
 
 **混淆矩阵：**
+
 |  | 预测正 | 预测负 |
 |--|--------|--------|
 | 实际正 | TP | FN |
@@ -179,10 +180,10 @@ $$\text{解释率} = \frac{\lambda_i}{\sum_{j=1}^{p}\lambda_j}$$
 
 ### 回归模型评估
 
-- **均方误差（MSE）**：$\frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2$
-- **均方根误差（RMSE）**：$\sqrt{MSE}$
-- **平均绝对误差（MAE）**：$\frac{1}{n}\sum_{i=1}^{n}|y_i - \hat{y}_i|$
-- **决定系数（R²）**：$1 - \frac{SS_{res}}{SS_{tot}}$
+- **均方误差（MSE）：** $\frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2$
+- **均方根误差（RMSE）：** $\sqrt{MSE}$
+- **平均绝对误差（MAE）：** $\frac{1}{n}\sum_{i=1}^{n}|y_i - \hat{y}_i|$
+- **决定系数（R²）：** $1 - \frac{SS_{res}}{SS_{tot}}$
 
 ## 正则化
 
@@ -267,7 +268,7 @@ rf_model <- randomForest(y ~ ., data = train_data, ntree = 500)
 # 交叉验证
 library(caret)
 train_control <- trainControl(method = "cv", number = 10)
-model <- train(y ~ ., data = train_data, method = "rf", 
+model <- train(y ~ ., data = train_data, method = "rf",
                trControl = train_control)
 ```
 
@@ -302,7 +303,7 @@ scores = cross_val_score(rf, X, y, cv=10, scoring='roc_auc')
 - [[Econometrics]]
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]]
 
-## 参考资源
+## 参考资料
 
 - Hastie T, et al. *The Elements of Statistical Learning*
 - James G, et al. *An Introduction to Statistical Learning*

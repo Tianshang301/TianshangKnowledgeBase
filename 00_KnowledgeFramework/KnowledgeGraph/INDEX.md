@@ -8,6 +8,6 @@ aliases: [KnowledgeGraph]
 
 ## 文件
 
-- [[ConceptMapping]] �?概念图谱
-- [[CrossDisciplinaryLinks]] �?跨域链接
-- [[SemanticWeb]] �?语义�?
+- [[ConceptMapping]] — 概念映射
+- [[CrossDisciplinaryLinks]] — 跨域链接
+- [[SemanticWeb]] — 语义网

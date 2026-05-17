@@ -3,7 +3,7 @@ aliases: [CryptographyInPractice]
 tags: ['Cybersecurity', 'CryptographyInPractice']
 ---
 
-# 密码学实践指南
+# 密码学实践 (Cryptography in Practice)
 
 ## 概述
 
@@ -13,7 +13,7 @@ tags: ['Cybersecurity', 'CryptographyInPractice']
 
 ## 一、对称加密
 
-### 1.1 AES（Advanced Encryption Standard）
+### 1.1 AES (Advanced Encryption Standard)
 
 AES 是目前最广泛使用的对称加密算法，支持 128/192/256 位密钥，分组大小为 128 位。
 
@@ -82,7 +82,7 @@ $$m = c^d \mod n \quad\text{(解密)}$$
 |----------|----------|------|----------|
 | 1024 bit | < 80 bit | 快 | **不安全，已弃用** |
 | 2048 bit | 112 bit | 中等 | **当前最低要求** |
-| 3072 bit | 128 bit | 慢 | 推荐（2030 年+）|
+| 3072 bit | 128 bit | 慢 | 推荐（2030 年）|
 | 4096 bit | 150 bit | 很慢 | 长期安全需求 |
 
 ### 2.2 椭圆曲线密码 (ECC)
@@ -132,7 +132,7 @@ TLS 1.3 握手 (简化):
   Client → Server: 完成
 
   1-RTT 即可完成握手
-  之前握手的历史: TLS 1.2 需要 2-RTT
+  之前握手的版本 TLS 1.2 需要 2-RTT
 
 核心组件:
   - 证书 (X.509): 身份认证
@@ -145,7 +145,7 @@ TLS 1.3 握手 (简化):
 
 ```
 TLS 1.2 示例: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
-  └─密钥交换 ──认证─── 对称加密 ────────── MAC
+  └──密钥交换 ──认证──── 对称加密 ────────── MAC
 
 TLS 1.3 简化套件 (只有 5 个):
   TLS_AES_128_GCM_SHA256
@@ -187,7 +187,7 @@ Certificate Pinning (已不推荐，推荐 CA 证书固定):
 | 密钥类型 | 算法 | 安全等级 | 推荐 |
 |----------|------|----------|------|
 | RSA | RSA | 2048+ bit | 兼容性好 |
-| ECDSA | ECDSA (NIST P-256/384/521) | 高 | 谨慎使用（后门疑虑）|
+| ECDSA | ECDSA (NIST P-256/384/521) | 高 | 谨慎使用（后门嫌疑）|
 | Ed25519 | EdDSA (Curve25519) | 高 | **首选** |
 | DSA | DSA | **不安全** | 禁用 |
 
@@ -210,7 +210,7 @@ Host Key Verification:
 GPG (GNU Privacy Guard) 是 OpenPGP 标准的开源实现，用于邮件加密和文件签名。
 
 ```
-GPG 工作流:
+GPG 工作流
   密钥生成:
     gpg --full-generate-key
     → 选择 RSA 4096 / Ed25519
@@ -221,7 +221,7 @@ GPG 工作流:
 
   签名/验证:
     gpg --sign file.txt           → 生成二进制签名
-    gpg --clearsign file.txt      → 生成明文签名
+    gpg --clearsign file.txt       → 生成明文签名
     gpg --verify file.txt.asc
 
   密钥服务器:
@@ -229,7 +229,7 @@ GPG 工作流:
     gpg --keyserver keys.openpgp.org --recv-key KEYID
 ```
 
-Web of Trust: PGP 的去中心化信任模型，通过密钥签名聚会（Key Signing Party）构建信任网络。每个用户自主决定信任哪些人的签名，与 CA 的层次化模型不同。
+Web of Trust: PGP 的去中心化信任模型，通过密钥签名聚会 (Key Signing Party) 构建信任网络。每个用户自主决定信任哪些人的签名，与 CA 的层次化模型不同。
 
 ---
 
@@ -237,13 +237,13 @@ Web of Trust: PGP 的去中心化信任模型，通过密钥签名聚会（Key S
 
 | 算法 | 输出长度 | 碰撞抗性 | 长度扩展攻击 | 推荐用途 |
 |------|----------|----------|-------------|----------|
-| MD5 | 128 bit | ❌ 已破解 | ❌ 易受攻击 | 已弃用 |
-| SHA-1 | 160 bit | ❌ SHAttered (2017) | ❌ | 已弃用 |
-| SHA-256 | 256 bit | ✅ 安全 | ❌ 可扩展 | 数字签名、区块链 |
-| SHA-512 | 512 bit | ✅ 安全 | ❌ 可扩展 | 高安全性需求 |
-| SHA-3 | 任意 | ✅ 安全 | ✅ 抗扩展 | 新一代标准 |
-| BLAKE2 | 任意 | ✅ 安全 | ✅ | 高性能场景 |
-| HMAC | 可变 | ✅ 安全 | N/A | 消息认证码 |
+| MD5 | 128 bit | ✗ 已破解 | ✗ 易受攻击 | 已弃用 |
+| SHA-1 | 160 bit | ✗ SHAttered (2017) | ✗ | 已弃用 |
+| SHA-256 | 256 bit | ✓ 安全 | ✗ 可扩展 | 数字签名、区块链 |
+| SHA-512 | 512 bit | ✓ 安全 | ✗ 可扩展 | 高安全性需求 |
+| SHA-3 | 任意 | ✓ 安全 | ✓ 抗扩展 | 新一代标准 |
+| BLAKE2 | 任意 | ✓ 安全 | ✓ | 高性能场景 |
+| HMAC | 可变 | ✓ 安全 | N/A | 消息认证码 |
 
 ```python
 # HMAC 示例
@@ -261,10 +261,10 @@ mac = hmac.new(key, message, hashlib.sha256).digest()
 
 | 攻击类型 | 原理 | 适用场景 |
 |----------|------|----------|
-| 暴力破解 | 遍历所有密钥 | 密钥空间不足（DES 56-bit） |
+| 暴力破解 | 遍历所有密钥 | 密钥空间不足，DES 56-bit |
 | 彩虹表 | 预计算哈希链的时空权衡 | 未加盐的哈希密码 |
 | 侧信道攻击 | 利用时间、功耗、电磁泄漏 | 智能卡、TEE |
-| 线性/差分分析 | 统计分析方法 | 分组密码（对 AES 无效） |
+| 线性/差分分析 | 统计分析/方法 | 分组密码（对 AES 无效）|
 | 量子攻击 | Grover 算法平方加速 | 需量子计算机（威胁对称加密）|
 
 ```

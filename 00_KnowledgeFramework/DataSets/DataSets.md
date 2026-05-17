@@ -1,200 +1,250 @@
 ---
-aliases: [DataSets]
-tags: ['DataSets', 'DataSets']
+aliases:
+  - 数据集
+  - Datasets
+  - 开放数据
+  - OpenData
+  - 科学数据集
+tags:
+  - datasets
+  - open-data
+  - scientific-data
+  - data-repositories
+  - data-licensing
+  - data-science
 ---
 
-# 数据集资源指南
-## 一、数据集类型
+# 数据集（Datasets）
 
-### 1.1 按数据类型分类
-| 类型 | 特征 | 典型维度 | 存储格式 |
-|------|------|---------|---------|
-| 表格数据 | 结构化行-列 | 样本 × 特征 | CSV, Parquet |
-| 图像数据 | 像素矩阵 | H × W × C | JPEG, PNG, TFRecord |
-| 文本数据 | 自然语言序列 | 文档 × 词数 | TXT, JSONL |
-| 音频数据 | 时序信号 | 采样点 × 通道 | WAV, MP3, FLAC |
-| 视频数据 | 帧序列 | T × H × W × C | MP4, AVI |
-| 时间序列 | 有序观测 | 时间步 × 变量 | CSV, TSV |
-| 图数据 | 节点-边结构 | 节点 × 邻接矩阵 | GraphML, GEXF |
+数据集是数据科学和人工智能的基础资源。本文涵盖开放数据运动、科学数据集、数据存储库和数据许可等核心主题。
 
-### 1.2 按学习范式分类
-- **监督学习**：带标签数据集（分类、回归）
-- **无监督学习**：无标签数据集（聚类、降维）
-- **半监督学习**：少量标签 + 大量无标签
-- **自监督学习**：自动生成伪标签
-- **强化学习**：环境交互序列（Atari, MuJoCo）
-## 二、公开数据集资源库
+## 一、开放数据运动
 
-### 2.1 综合平台
+### 1.1 开放数据原则
 
-| 平台 | 规模 | 特点 | 访问 |
-|------|------|------|------|
-| Kaggle | 50,000+ | 竞赛 + 社区 + Kernel | kaggle.com/datasets |
-| UCI ML Repository | 600+ | 经典数据集、学术起源 | archive.ics.uci.edu |
-| Hugging Face Datasets | 5,000+ | NLP 为主、多模态扩展 | huggingface.co/datasets |
-| Google Dataset Search | 25,000,000+ | 跨库搜索引擘 | datasetsearch.research.google.com |
-| Papers with Code | 5,000+ | 论文 + 数据集 + SOTA | paperswithcode.com/datasets |
-| Zenodo | 200,000+ | 学术数据、CERN 托管 | zenodo.org |
-| Figshare | 1,000,000+ | 通用学术数据 | figshare.com |
+根据**开放定义**（Open Definition），开放数据必须满足：
 
-### 2.2 领域特定数据集
-**计算机视觉**：
-| 数据集 | 任务 | 规模 | 年份 |
-|--------|------|------|------|
-| ImageNet | 分类 | 14M 图像, 21K 类别 | 2009 |
-| MS COCO | 检测/分割/描述 | 330K 图像, 80 类别 | 2014 |
-| CIFAR-10/100 | 分类 | 60K 图像, 10/100 类别 | 2009 |
-| MNIST | 手写数字识别 | 70K 图像, 10 类别 | 1998 |
-| Open Images | 检测/分割 | 9M 图像, 600 类别 | 2016 |
+1. **可获取性**（Availability）：数据应以方便且可修改的形式提供
+2. **再分发**（Redistribution）：允许自由再分发
+3. **再利用**（Reuse）：允许修改和衍生作品
+4. **无歧视**（No Discrimination）：对任何人或团体平等
+5. **互操作性**（Interoperability）：无格式锁定
 
-**自然语言处理**：
-| 数据集 | 任务 | 规模 | 指标 |
-|--------|------|------|------|
-| GLUE | 多任务理解 | 9 个子任务 | 综合得分 |
-| SuperGLUE | 进阶理解 | 8 个子任务 | 综合得分 |
-| SQuAD 2.0 | 阅读理解 | 150K 问答对 | EM / F1 |
-| Common Crawl | 网页文本 | PB 级 | — |
-| BookCorpus | 书籍文本 | 11K 本书 | — |
+**开放数据五大支柱**：
 
-**音频与语音**：
-| 数据集 | 任务 | 规模 | 语言 |
-|--------|------|------|------|
-| LibriSpeech | 语音识别 | 1000 小时 | 英语 |
-| AudioSet | 音频事件 | 2M 片段, 527 类 | — |
-| VoxCeleb | 说话人识别 | 7000+ 说话人 | 多语种 |
+```mermaid
+flowchart LR
+    A[开放数据] --> B[可获取性]
+    A --> C[可访问性]
+    A --> D[可互操作]
+    A --> E[可理解性]
+    A --> F[可信性]
+    B --> G[免费下载]
+    C --> H[标准化格式]
+    D --> I[通用API]
+    E --> J[完善文档]
+    F --> K[质量保证]
+```
 
-**医学领域**：
-| 数据集 | 任务 | 规模 | 类型 |
-|--------|------|------|------|
-| MIMIC-III | 临床记录 | 40K 患者 | EHR |
-| CheXpert | 胸部 X 光 | 224K 图像 | 影像 |
-| NIH ChestX-ray | 胸部 X 光 | 112K 图像 | 影像 |
-| TCGA | 癌症基因组 | 11K 样本 | 组学 |
+### 1.2 开放数据生态系统
 
-## 三、数据质量评估
-### 3.1 质量维度
+| 层面 | 参与者 | 职责 |
+|------|--------|------|
+| 数据生产者 | 政府、科研机构、企业 | 采集和发布数据 |
+| 数据存储库 | Zenodo, Figshare, Dryad | 托管和归档 |
+| 数据索引 | Google Dataset Search, DataCite | 发现和关联 |
+| 数据消费者 | 研究人员、开发者、公众 | 使用和分析 |
+| 资助者 | NSF, NIH, 欧盟Horizon | 提供资金和强制要求 |
 
-$$ \text{Data Quality} = f(\text{Completeness}, \text{Consistency}, \text{Accuracy}, \text{Timeliness}, \text{Uniqueness}) $$
+## 二、科学数据集
 
-| 维度 | 定义 | 评估方法 |
-|------|------|---------|
-| 完整性（Completeness）| 数据是否缺失 | 缺失率统计 |
-| 一致性（Consistency）| 数据是否矛盾 | 逻辑约束验证 |
-| 准确性（Accuracy）| 数据是否正确 | 抽样核查 |
-| 时效性（Timeliness）| 数据是否过时 | 时间戳检查 |
-| 独特性（Uniqueness）| 是否存在重复 | 重复检测 |
+### 2.1 数据管理生命周期
 
-### 3.2 数据偏差审计
+```
+研究规划 → 数据采集 → 数据处理 → 数据分析 → 
+数据归档 → 数据发布 → 数据重用 → 
+                      ↑         ↓
+                  数据引用 ← 数据更新
+```
 
-- **采样偏差**：样本不能代表总体
-- **标注偏差**：标注者之间的不一致
-- **标签偏差**：标签定义模糊或错误
-- **时间偏差**：数据采集时间影响结果
-- **报告偏差**：选择性报告正面结果
-## 四、数据标注方法
-| 方法 | 成本 | 质量 | 速度 | 适用场景 |
-|------|------|------|------|---------|
-| 专家标注 | 高 | 最高 | 慢 | 医学、法律 |
-| 众包标注 | 低 | 中等 | 快 | 通用标注 |
-| 主动学习 | 中等 | 高 | 中等 | 标签稀疏 |
-| 半监督 | 低 | 中等 | 很快 | 大量无标签数据 |
-| 自动标注 | 极低 | 取决于模型 | 极快 | 预标注 |
+**FAIR数据原则**：
 
-### 4.1 Amazon Mechanical Turk 工作流
-1. 设计 HIT（Human Intelligence Task）
-2. 设定资格要求（批准率 > 95%，任务数 > 500）
-3. 创建黄金标准问题（质量检查）
-4. 多数投票或 EM 算法聚合标注
-5. 标注者一致性评估（Cohen's kappa）
-$$ \kappa = \frac{p_o - p_e}{1 - p_e} $$
+| 原则 | 全称 | 要求 |
+|:----:|------|------|
+| F | Findable（可发现） | 分配唯一标识（DOI） |
+| A | Accessible（可访问） | 通过标准协议获取 |
+| I | Interoperable（可互操作） | 使用标准格式和词汇 |
+| R | Reusable（可重用） | 提供清晰许可和元数据 |
 
-## 五、数据预处理
+### 2.2 科学数据存储库
 
-### 5.1 常见预处理操作
-| 操作 | 描述 | 适用场景 |
-|------|------|---------|
-| 去重 | 移除重复样本 | 所有类型 |
-| 缺失值处理 | 删除/填充/插值 | 表格数据 |
-| 标准化 | Z-score: $x' = \frac{x - \mu}{\sigma}$ | 数值特征 |
-| 归一化 | Min-Max: $x' = \frac{x - x_{\min}}{x_{\max} - x_{\min}}$ | 有界特征 |
-| 数据增强 | 旋转变换/噪声添加 | 图像、音频 |
-| 分词 | Tokenization | 文本 |
-| 重采样 | 上采样/下采样 | 不平衡分类 |
+**通用存储库**：
 
-### 5.2 数据增强技术
-$$ \text{增强图像} = T_{\theta}(I), \quad T \in \{\text{旋转, 翻转, 裁剪, 色彩抖动}\} $$
+| 存储库 | 托管机构 | 容量 | 特色 | 费用 |
+|--------|---------|:----:|------|:----:|
+| Zenodo | CERN | 50GB/数据集 | DOI分配、GitHub集成 | 免费 |
+| Figshare | Digital Science | 不限 | 数据+代码+图表 | 免费（有限） |
+| Dryad | 学术联盟 | 不限 | 期刊集成 | 出版费 |
+| OSF | Center for Open Science | 不限 | 项目全生命周期 | 免费 |
+| Mendeley Data | Elsevier | 10GB | 基于云的平台 | 免费 |
 
-- **图像**：Random Crop, Flip, Rotation, Color Jitter, CutMix, MixUp
-- **文本**：回译（Back Translation）、同义词替换、随机插入
-- **音频**：SpecAugment（频率/时间掩码）、噪声添加
-- **表格**：SMOTE（合成少数类过采样）
+**领域专用存储库**：
 
-## 六、数据版本控制
-| 工具 | 类型 | 优点 | 缺点 |
-|------|------|------|------|
-| DVC | 数据版本管理 | Git 集成、S3/GCS 兼容 | 学习曲线 |
-| Git LFS | 大文件存储 | Git 原生 | 存储限制 |
-| Hugging Face Datasets | 数据集版本管理 | 缓存/流式加载 | 主要支持 HF |
-| Quilt | 数据包管理 | Pythonic API | 社区较小 |
+| 领域 | 存储库 | 特点 |
+|------|--------|------|
+| 生物信息学 | NCBI GenBank | DNA序列、基因表达 |
+| 神经科学 | NeuroVault | 脑成像数据 |
+| 地球科学 | PANGAEA | 地球与环境数据 |
+| 社会科学 | ICPSR | 社会调查数据 |
+| 天文学 | NASA ADS | 天文目录与图像 |
+| 材料科学 | Materials Project | 材料性质计算数据 |
+| 化学 | PubChem | 化学分子数据 |
 
-## 七、数据文档
+## 三、数据引用与归属
 
-### 7.1 Datasheets for Datasets 模板
+### 3.1 数据引用格式
 
-推荐的文档结构：
+推荐采用**JDDCP（Joint Declaration of Data Citation Principles）**格式：
 
-1. **动机**：为何创建此数据集？
-2. **组成**：数据来源、格式、规模
-3. **收集过程**：采集方法、时间、地点
-4. **预处理**：清洗/过滤/标注流程
-5. **用途**：适合的任务、已知限制
-6. **分布**：数据的统计摘要（类别分布等）
-7. **伦理**：隐私、同意、偏见
-8. **维护**：版本更新、联系人
+```
+Author(s). (Year). Title of Dataset (Version). Publisher.
+Identifier (e.g., DOI).
+```
 
-### 7.2 数据卡（Data Cards）
-Hugging Face 和 Google 推动的标准化文档格式，包含模型卡和数据卡，促进负责任的数据使用。
-## 八、数据许可
-| 许可证 | 缩写 | 允许商业使用 | 要求署名 | 要求相同方式共享 |
-|--------|------|:----------:|:--------:|:--------------:|
-| CC0 | 公共领域 | ✓ | ✗ | ✗ |
-| CC BY 4.0 | 署名 | ✓ | ✓ | ✗ |
-| CC BY-SA 4.0 | 署名-相同方式共享 | ✓ | ✓ | ✓ |
-| ODC-BY | Open Data Commons 署名 | ✓ | ✓ | ✗ |
-| ODbL | Open Database License | ✓ | ✓ | ✓ |
-| ODC PDDL | 公共领域 | ✓ | ✗ | ✗ |
+示例：
+```
+Deng, J., et al. (2009). ImageNet (v1.0). Stanford Vision Lab.
+https://doi.org/10.1145/3065386
+```
 
-## 九、合成数据生成
-### 9.1 生成方法
+### 3.2 数据引用度量
 
-$$ G(z) \rightarrow x_{\text{synthetic}}, \quad z \sim \mathcal{N}(0, I) $$
+$$ \text{Data Impact} = \sum_{i} w_i \cdot \text{Citation}_i + \text{Download}_i + \text{View}_i $$
 
-| 方法 | 原理 | 应用场景 |
-|------|------|---------|
-| GANs | 对抗训练生成器+判别器 | 图像、表格 |
-| 扩散模型 | 逐步去噪生成 | 图像（SOTA）|
-| VAE | 变分自编码器 | 连续潜在空间 |
-| 基于规则 | 手工定义分布 | 简单表格 |
-| 数据扰动 | 添加噪声/交换值 | 隐私保护 |
+**替代指标（Altmetrics）**：
+- Crossref Event Data
+- PlumX Metrics
+- Altmetric.com
 
-## 十、数据存储格式对比
-| 格式 | 类型 | 压缩率 | 读性能 | 写性能 | 生态支持 |
-|------|------|:------:|:------:|:------:|:--------:|
-| CSV | 文本 | 低 | 中 | 高 | 通用 |
-| Parquet | 列式二进制 | 高 | 高 | 中 | Pandas, Spark |
-| TFRecord | 二进制 | 中 | 中 | 低 | TensorFlow |
-| HDF5 | 层级二进制 | 中 | 高 | 中 | NumPy, MATLAB |
-| LMDB | 键值二进制 | 低 | 极高 | 高 | 深度学习 |
-| Feather | 二进制 | 中 | 极高 | 高 | R/Python 互操作 |
+## 四、数据许可详解
 
-## 参考资料
-- Gebru, T., et al. (2021). Datasheets for Datasets. *Communications of the ACM*, 64(12), 86-92.
-- Mitchell, M., et al. (2019). Model Cards for Model Reporting. *FAccT*.
-- Kaggle 数据集: https://www.kaggle.com/datasets
-- Hugging Face Datasets: https://huggingface.co/datasets
-- DVC 官方文档: https://dvc.org/doc
-- Google Dataset Search: https://datasetsearch.research.google.com
+### 4.1 数据共享协议谱系
+
+```mermaid
+flowchart LR
+    subgraph 开放许可
+        CC0 --> CC_BY[CC BY]
+        CC_BY --> CC_BY_SA[CC BY-SA]
+    end
+    subgraph 限制许可
+        CC_BY_NC[CC BY-NC] --> CC_BY_NC_SA[CC BY-NC-SA]
+        CC_BY_NC --> CC_BY_ND[CC BY-ND]
+    end
+    subgraph 专有许可
+        COPYRIGHT[保留所有权利]
+    end
+    CC0 -.->|最开放| OPEN
+    COPYRIGHT -.->|最封闭| CLOSED
+```
+
+### 4.2 数据许可选择指南
+
+| 使用场景 | 推荐许可 | 原因 |
+|---------|---------|------|
+| 公共研究数据 | CC0 | 最大程度促进再利用 |
+| 要求署名 | CC BY 4.0 | 保留作者归属权 |
+| 确保衍生作品开放 | CC BY-SA 4.0 | 防止闭源衍生 |
+| 非商业研究 | CC BY-NC 4.0 | 限制商业用途 |
+| 数据库共享 | ODbL | 专为数据库设计 |
+| 敏感数据 | 限制访问协议 | 保护隐私和安全 |
+
+## 五、数据质量管理
+
+### 5.1 质量评估框架
+
+$$ \text{DQ}_{\text{score}} = \sum_{i=1}^{n} w_i \cdot \text{metric}_i $$
+
+其中 $w_i$ 为各维度权重，需根据应用场景设定。
+
+**评估维度**：
+
+| 维度 | 指标 | 权重（推荐） | 评估方法 |
+|------|------|:-----------:|---------|
+| 完整性 | 缺失率 | 25% | 统计缺失值 |
+| 一致性 | 矛盾记录比 | 20% | 约束验证 |
+| 准确性 | 错误率 | 25% | 抽样核查 |
+| 时效性 | 数据年龄 | 15% | 检查时间戳 |
+| 独特性 | 重复记录比 | 15% | 重复检测 |
+
+### 5.2 数据清洗流程
+
+```
+原始数据 → 解析与导入 → 格式标准化 → 
+缺失值处理 → 异常值检测 → 重复记录处理 →
+数据转换 → 特征工程 → 质量验证 → 清洗完成
+```
+
+**常用清洗工具**：
+
+| 工具 | 类型 | 语言 | 特点 |
+|------|------|:----:|------|
+| pandas | 库 | Python | 数据框操作 |
+| dplyr | 包 | R | 数据操作 |
+| OpenRefine | GUI应用 | Java | 交互式清洗 |
+| Trifacta | 商业工具 | — | 智能清洗建议 |
+| Great Expectations | 库 | Python | 数据质量测试 |
+
+## 六、数据治理
+
+### 6.1 治理框架
+
+数据治理包含以下关键组件：
+
+1. **数据策略**：明确数据所有权和使用规则
+2. **数据标准**：格式、命名、文档规范
+3. **数据安全**：访问控制、加密、审计日志
+4. **数据质量**：持续监控和改进机制
+5. **数据合规**：遵守GDPR、HIPAA等法规
+6. **数据伦理**：确保公平性、透明度和问责
+
+### 6.2 伦理考量
+
+**数据隐私保护**：
+
+| 技术 | 原理 | 隐私保障 | 效用损失 |
+|------|------|:--------:|:--------:|
+| 匿名化 | 移除个人标识符 | 低 | 低 |
+| 差分隐私 | 添加校准噪声 | 高 | 中 |
+| k-匿名化 | 泛化准标识符 | 中 | 中 |
+| 合成数据 | 生成人工数据 | 高 | 高 |
+| 联邦学习 | 不共享原始数据 | 高 | 低 |
+
+**伦理审查清单**：
+
+- 数据采集是否获得知情同意？
+- 数据中是否存在群体偏见？
+- 数据使用是否可能造成歧视？
+- 是否记录了数据来源和处理步骤？
+- 是否提供了数据弃用机制？
+
+## 七、未来趋势
+
+1. **数据市场与数据交易**：数据即商品的经济模式
+2. **联邦数据**：分布式数据管理
+3. **AI驱动数据管理**：自动标注、清洗、增强
+4. **数据可追溯性**：区块链+数据血缘
+5. **实时数据管道**：流式数据处理
+6. **合成数据普及**：隐私保护的替代方案
+7. **数据民主化**：低代码/无代码数据工具
+
+## 参考资源
+
+- Wilkinson, M. D., et al. (2016). The FAIR Guiding Principles. *Scientific Data*, 3, 160018.
+- Open Data Institute: https://theodi.org
+- DataCite: https://datacite.org
+- re3data (Registry of Research Data Repositories): https://www.re3data.org
+- Creative Commons Data: https://creativecommons.org/about/program-areas/data
 
 ## 相关条目
 
-[[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]], OpenData, [[ResearchMethods]], DataManagement
+[[数据集选择指南]], [[OpenData]], [[DataScience]], [[ResearchMethods]], [[LicenseAndCopyright]]

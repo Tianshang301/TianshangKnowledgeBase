@@ -1,421 +1,259 @@
 ---
-aliases: [IR]
-tags: ['CompilerPrinciples', 'IR']
+aliases: [IR, IntermediateRepresentation, ThreeAddressCode, SSA]
+tags: ['05_ComputerScience', 'CompilerPrinciples', 'IR', 'IntermediateRepresentation']
 ---
 
-# 中间代码生成
+# 中间表示 (Intermediate Representation)
 
 ## 一、概述
 
-中间代码（Intermediate Representation, IR）是编译器中连接前端（词法/语法/语义分析）和后端（代码生成/优化）的桥梁。IR 独立于源语言和目标机器，便于优化和代码生成。
+中间表示 (Intermediate Representation, IR) 是编译器中连接前端（词法/语法/语义分析）和后端（代码生成/优化）的桥梁。IR 独立于源语言和目标机器，便于优化和代码生成。
 
 ### IR 的设计目标
 
 1. **易于生成**：从语法树翻译简单
 2. **易于优化**：支持数据流分析、控制流分析
-3. **长度适中**：比高级语言更底层，比汇编更高级
+3. **长度适** 中：比高级语言更底层，比汇编更高级
 4. **与机器无关**：可在不同目标架构间复用
 
----
+### IR 的分类
 
-## 二、三地址码 (Three-Address Code, TAC)
-
-每条指令最多包含三个地址（两个操作数，一个结果）。
-
-### 指令类型
-
-| 指令 | 格式 | 示例 | 含义 |
-|------|------|------|------|
-| 赋值 | `x = y op z` | `t1 = a + b` | 二元运算 |
-| 一元 | `x = op y` | `t1 = - a` | 一元运算 |
-| 复制 | `x = y` | `t1 = a` | 值复制 |
-| 无条件跳转 | `goto L` | `goto L1` | 跳转 |
-| 条件跳转 | `if x relop y goto L` | `if a < b goto L1` | 条件跳转 |
-| 参数传递 | `param x` | `param a` | 传递参数 |
-| 函数调用 | `call f, n` | `call foo, 2` | 调用函数 |
-| 函数返回 | `return x` | `return t1` | 返回值 |
-| 数组访问 | `x = y[i]` / `x[i] = y` | `t1 = a[i]` | 数组读写 |
-| 地址赋值 | `x = &y` / `x = *y` / `*x = y` | `t1 = &a` | 指针操作 |
-
-### IR 示例
-
-```c
-// 源代码
-int calculate(int a, int b, int c) {
-    int r = (a + b) * (c - 1);
-    if (r > 100)
-        return r;
-    else
-        return 0;
-}
+```mermaid
+flowchart TD
+    A["IR 分类"] --> B["高级 IR<br/>接近源语言"]
+    A --> C["中级 IR<br/>中间层次"]
+    A --> D["低级 IR<br/>接近机器"]
+    B --> B1["AST / DAG"]
+    C --> C1["三地址码 / SSA"]
+    D --> D1["汇编 / 机器码"]
+    D --> D2["LLVM IR"]
 ```
 
-```asm
-// 三地址码
-_calculate:
-    t1 = a + b
-    t2 = c - 1
-    t3 = t1 * t2
-    r = t3
-    if r > 100 goto L1
-    return 0
-    goto L2
-L1:
-    return r
-L2:
-    // 函数结束
-```
+## 二、抽象语法树 (AST)
 
-### 表示形式
+### 2.1 AST 结构
 
-**四元式 (Quadruples)**：
+AST 是语法分析的结果，省略了不重要的语法细节（如分号、括号）。
 
 ```
-| op  | arg1 | arg2 | result |
-|-----|------|------|--------|
-| +   | a    | b    | t1     |
-| -   | c    | 1    | t2     |
-| *   | t1   | t2   | t3     |
-| =   | t3   |      | r      |
-| >   | r    | 100  | L1     |
-| return | r  |      |        |
+表达式： (a + b) * 3
+
+AST:
+      (*)
+     /   \
+   (+)    3
+  /   \
+ a     b
 ```
 
-**三元式 (Triples)**：
+### 2.2 AST 的节点类型
 
-```
-| op  | arg1 | arg2 |
-|-----|------|------|
-| (0) | +    | a    | b    |
-| (1) | -    | c    | 1    |
-| (2) | *    | (0)  | (1)  |
-| (3) | =    | (2)  | r    |
-| (4) | >    | (3)  | 100  |
-```
+| 节点类型 | 示例 | 子节点 |
+|----------|------|--------|
+| BinaryOp | +, -, *, / | left, right |
+| UnaryOp | -, !, ~ | operand |
+| Number | 42, 3.14 | value |
+| Variable | a, b | name, symbol |
+| Assign | = | target, value |
+| IfStmt | if-else | cond, then, else |
+| WhileStmt | while | cond, body |
 
-**间接三元式**：将三元式的索引独立为指令列表，便于优化（调整指令顺序时只需修改索引表）。
+### 2.3 AST 树结构示例
 
----
-
-## 三、SSA 形式
-
-SSA（Static Single Assignment）是 IR 的一种特殊形式：每个变量只被赋值一次。
-
-```asm
-// 普通三地址码
-x = 1
-x = x + 1
-y = x * 2
-
-// SSA 形式
-x1 = 1
-x2 = x1 + 1
-y1 = x2 * 2
+```mermaid
+flowchart TD
+    A["IfStmt"] --> B["BinaryOp: <"]
+    A --> C["Assign"]
+    A --> D["Null (无 else)"]
+    B --> E["Var: i"]
+    B --> F["Number: 10"]
+    C --> G["Var: max"]
+    C --> H["Var: i"]
 ```
 
-### φ 函数
+## 三、三地址码 (Three-Address Code, TAC)
 
-在控制流汇合处，SSA 使用 φ（phi）函数选择正确版本。
+### 3.1 基本形式
 
-```c
-// 源代码
-int f(int x) {
-    int y;
-    if (x > 0)
-        y = 10;
-    else
-        y = 20;
-    return y;
-}
-```
+每条指令最多包含三个操作数（一个目标、两个源）：
+$$x = y \;\text{op}\; z$$
 
-```asm
-// SSA 形式
-_f:
-    if x0 > 0 goto L1
-    goto L2
-L1:
-    y1 = 10
-    goto L3
-L2:
-    y2 = 20
-    goto L3
-L3:
-    y3 = φ(y1, y2)   // 选择控制流到达的版本
-    return y3
-```
+### 3.2 指令类型
 
-### SSA 的优缺点
-
-| 优点 | 缺点 |
-|------|------|
-| 数据流分析简化（def-use 链直观） | φ 函数增加指令数量 |
-| 优化更易实现（常量传播、死代码删除） | 转回可执行代码需消除 φ |
-| 便于并行化 | |
-
----
-
-## 四、控制流图 (CFG)
-
-CFG 以基本块为节点，以控制流边连接。
-
-### 基本块
-
-**定义**：指令序列满足以下条件：
-1. **入口**：第一条指令之前无跳转目标
-2. **出口**：最后一条指令之后无控制流进入
-3. **连续**：块内无条件顺序执行
-
-**划分算法**：
-
-```
-1. 找出所有 Leader：
-   - 第一条指令
-   - 任何跳转目标指令
-   - 跳转指令的下一条指令
-
-2. 从每个 Leader 到下一个 Leader 前为基本块
-```
-
-**示例**：
-
-```asm
-// 基本块划分
-┌───────────────────────┐
-│ (BB0) 入口           │
-│   t1 = a + b         │
-│   t2 = c - 1         │
-│   t3 = t1 * t2       │
-│   if t3 > 100 goto L1│───────────┐
-└───────┬───────────────┘           │
-        │                           │
-┌───────▼───────────────┐           │
-│ (BB1)                 │           │
-│   return 0            │           │
-│   goto L2             │           │
-└───────┬───────────────┘           │
-        │                           │
-┌───────▼───────────────┐           │
-│ (BB2) L1:             │◄──────────┘
-│   return t3           │
-│ (BB3) L2:             │
-└───────────────────────┘
-```
-
-### 支配树 (Dominator Tree)
-
-```
-节点 d 支配节点 n：所有从入口到 n 的路径都经过 d。
-
-直接支配者 (idom)：最接近的支配者。
-
-支配边界：d 不能支配 n，但 d 支配 n 的某个前驱。
-```
-
-```
-CFG:     Dominator Tree:
-  0        0
- / \      / \
-1   2   1   2
- \ /
-  3
-   \
-    4
-```
-
-### 支配边界计算
-
-```
-算法：
-1. 对 CFG 中每个节点 n 计算 idom
-2. 对每个节点 n:
-   for 每个 n 的后继 s:
-     if idom(s) != n:
-       DF(n) += {s}
-3. 对 DFS 树自底向上：
-   对每个子节点 c of n:
-     for w in DF(c):
-       if idom(w) != n:
-         DF(n) += {w}
-```
-
----
-
-## 五、常见 IR
-
-### LLVM IR
-
-LLVM IR 是最流行的现代 IR，采用 SSA 形式，支持三地址码。
-
-```llvm
-; 计算阶乘
-define i32 @factorial(i32 %n) {
-entry:
-  %cmp = icmp sle i32 %n, 1
-  br i1 %cmp, label %return, label %recursive
-
-recursive:
-  %sub = sub i32 %n, 1
-  %result = call i32 @factorial(i32 %sub)
-  %mul = mul i32 %n, %result
-  ret i32 %mul
-
-return:
-  ret i32 1
-}
-```
-
-LLVM IR 三个层次：
-
-| 层次 | 格式 | 说明 |
+| 指令 | 形式 | 示例 |
 |------|------|------|
-| .ll | 文本 | 可读的 IR |
-| .bc | 二进制 | 位码格式 |
-| 内存表示 | 运行时 | JIT 使用 |
+| 赋值 | x = y | t1 = a |
+| 二元运算 | x = y op z | t2 = t1 + b |
+| 一元运算 | x = op y | t3 = -t2 |
+| 数组访问 | x = y[i] | t4 = a[i] |
+| 数组写入 | x[i] = y | a[i] = t4 |
+| 指针访问 | x = *y | t5 = *ptr |
+| 指针写入 | *x = y | *ptr = t5 |
+| 条件跳转 | if x relop y goto L | if t1 < 10 goto L1 |
+| 无条件跳转 | goto L | goto L2 |
+| 函数调用 | call f, args | call foo(a, b) |
+| 函数返回 | return x | return t6 |
 
-### GIMPLE (GCC)
+### 3.3 三地址码的表示方式
 
-GCC 的中间表示，从 GENERIC 树转换而来：
+| 表示法 | 四元组 | 三元组 | 间接三元组 |
+|--------|--------|--------|-----------|
+| 存储 | (op, arg1, arg2, result) | (op, arg1, arg2) | 指针表+三元组 |
+| 灵活性 | 易于修改 | 引用复杂 | 易于优化 |
+| 空间 | 较大 | 紧凑 | 较紧凑 |
 
-```c
-// 源代码
-int f(int n) {
-    int sum = 0;
-    for (int i = 0; i < n; i++)
-        sum += i;
-    return sum;
+四元组示例：
+```
+(+, a, b, t1)
+(*, t1, c, t2)
+(=, t2, , result)
+```
+
+## 四、静态单赋值形式 (SSA)
+
+### 4.1 SSA 核心思想
+
+SSA 形式要求每个变量只赋值一次，通过 $\phi$ 函数 (Phi Function) 处理控制流合并点。
+
+```mermaid
+flowchart TD
+    A["entry"] --> B{cond}
+    B -->|true| C["x1 = 1"]
+    B -->|false| D["x2 = 2"]
+    C --> E["x3 = phi(x1, x2)"]
+    D --> E
+    E --> F["return x3"]
+```
+
+### 4.2 转换为 SSA
+
+SSA 构建算法：
+
+1. **计算支配边界** (Dominance Frontier)
+2. **插入 $\phi$ 函数**：在支配边界处
+3. **变量重命名**：每次赋值生成新版本
+
+支配关系定义：
+$$d \text{ dominates } n \iff \text{所有从入口到 } n \text{ 的路径都经过 } d$$
+
+### 4.3 SSA 的优势
+
+| 优势 | 说明 |
+|------|------|
+| 明确的定值-使用链 | 每个使用点可直接定位到唯一定义 |
+| 简化数据流分析 | 无需到达定值分析 |
+| 优化效率提升 | 常量传播、死代码消除更简单 |
+| 便于增量更新 | $\phi$ 函数隔离控制流影响 |
+
+### 4.4 SSA 上的优化
+
+```mermaid
+flowchart LR
+    A["普通 IR"] --> B["转换为 SSA"]
+    B --> C["SSA 优化"]
+    C --> D["常量传播"]
+    C --> E["全局值编号"]
+    C --> F["死代码消除"]
+    C --> G["循环优化"]
+    D --> H["SSA 销毁"]
+    E --> H
+    F --> H
+    G --> H
+    H --> I["回归普通 IR"]
+```
+
+SSA 销毁：将 $\phi$ 函数转换为拷贝指令。
+
+## 五、控制流图 (Control Flow Graph, CFG)
+
+### 5.1 基本块 (Basic Block)
+
+基本块是满足以下条件的最大指令序列：
+1. **单入口**：只能从第一条指令进入
+2. **单出口**：只能在最后一条指令退出
+3. **连续执行**：内部无跳转/分支
+
+### 5.2 CFG 的构造
+
+```mermaid
+flowchart TD
+    A["B1: entry<br/>a = 1<br/>b = 2"] --> B["B2: if a < 10"]
+    B -->|true| C["B3: a = a + 1<br/>b = b * 2"]
+    B -->|false| D["B4: return b"]
+    C --> B
+```
+
+### 5.3 支配树 (Dominator Tree)
+
+```
+CFG 中节点 d 支配 n:
+- d 在从 entry 到 n 的所有路径上
+- 直接支配者：最接近的支配者
+- 支配树：直接支配关系构成的树
+```
+
+### 5.4 循环检测
+
+基于 CFG 的自然循环：
+- 存在回边 (Back Edge) $m \to n$，其中 $n$ 支配 $m$
+- 循环头 (Loop Header)：回边目标 $n$
+- 循环体：所有能被 $n$ 到达且不经过 $n$ 退出
+
+## 六、现代 IR 系统
+
+### 6.1 LLVM IR
+
+LLVM IR 同时是 SSA 形式和低级 IR：
+
+```
+define i32 @add(i32 %a, i32 %b) {
+entry:
+  %sum = add i32 %a, %b
+  ret i32 %sum
 }
 ```
 
-```gimple
-f (int n)
-{
-  int sum;
-  int i;
+| 特性 | LLVM IR |
+|------|---------|
+| 类型系统 | 强类型，支持指针、向量 |
+| 内存模型 | load/store 模型 |
+| SSA | 函数内 SSA |
+| 元数据 | 调试信息、优化提示 |
 
-  <bb 2> :
-  sum = 0;
-  i = 0;
-  goto <bb 4>;
+### 6.2 GCC GIMPLE
 
-  <bb 3> :
-  sum = sum + i;
-  i = i + 1;
+GCC 使用 GENERIC → GIMPLE → RTL 三级 IR：
 
-  <bb 4> :
-  if (i < n)
-    goto <bb 3>;
-  else
-    goto <bb 5>;
-
-  <bb 5> :
-  return sum;
-}
+```mermaid
+flowchart LR
+    A["源语言"] --> B["GENERIC<br/>高级树"]
+    B --> C["GIMPLE<br/>三地址码"]
+    C --> D["RTL<br/>(Register Transfer Language)"]
+    D --> E["目标代码"]
 ```
 
-### JVM 字节码
+GIMPLE 特点：
+- 不超过 3 个操作数
+- 无复杂的嵌套表达式
+- 显式的控制流
+- 支持 SSA 形式
 
-```java
-// 源代码
-public int add(int a, int b) {
-    return a + b;
-}
+### 6.3 Java Bytecode / .NET IL
+
+字节码是面向栈的 IR，适合跨平台：
+
+```
+iload_1     // 加载局部变量 1
+iload_2     // 加载局部变量 2
+iadd        // 栈顶两数相加
+ireturn     // 返回结果
 ```
 
-```bytecode
-// JVM 字节码
-public int add(int, int);
-  Code:
-   0: iload_1        // 加载局部变量 1 (a)
-   1: iload_2        // 加载局部变量 2 (b)
-   2: iadd           // 整数相加
-   3: ireturn        // 返回结果
-```
+## 七、IR 设计实践
 
----
-
-## 六、表达式翻译
-
-### 算术表达式
-
-```c
-// a + b * c - d / e
-```
-
-```asm
-t1 = b * c
-t2 = a + t1
-t3 = d / e
-t4 = t2 - t3
-```
-
-### 数组访问
-
-```c
-// a[i][j]  其中 a 是 10×20 的 int 数组
-// 地址 = base + (i * 20 + j) * 4
-```
-
-```asm
-t1 = i * 20
-t2 = t1 + j
-t3 = t2 * 4
-t4 = &a + t3
-result = *t4
-```
-
-### 控制流语句
-
-```c
-// if-else
-if (x > 0) {
-    y = x * 2;
-} else {
-    y = -x;
-}
-```
-
-```asm
-    if x > 0 goto L1
-    goto L2
-L1:
-    y = x * 2
-    goto L3
-L2:
-    y = -x
-L3:
-    // continue
-```
-
-```c
-// while 循环
-while (i < n) {
-    sum = sum + i;
-    i = i + 1;
-}
-```
-
-```asm
-L1:
-    if i < n goto L2
-    goto L3
-L2:
-    sum = sum + i
-    i = i + 1
-    goto L1
-L3:
-    // continue
-```
-
-### 函数调用
-
-```c
-// result = foo(a, b + c);
-```
-
-```asm
-param a
-t1 = b + c
-param t1
-result = call foo, 2
-```
+1. **选择合适粒度**：高级 IR 更适合前端优化，低级 IR 更适合后端
+2. **SSA 优先**：现代编译器普遍采用 SSA 作为核心 IR
+3. **可扩展性**：IR 应支持添加新的优化 pass
+4. **内存效率**：紧凑的 IR 表示减少内存占用
+5. **调试支持**：保留源位置信息便于调试
+6. **增量编译**：支持模块化和增量重构

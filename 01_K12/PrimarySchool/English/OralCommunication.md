@@ -3,7 +3,7 @@ aliases: [OralCommunication]
 tags: ['PrimarySchool', 'English', 'OralCommunication']
 ---
 
-# Primary English - Oral Communication
+# Primary English — Oral Communication
 
 > Focus on daily conversation, situational dialogues, and communicative competence for primary school students.
 
@@ -18,11 +18,11 @@ tags: ['PrimarySchool', 'English', 'OralCommunication']
 | Good morning! | 早上好！ |
 | Good afternoon! | 下午好！ |
 | Good evening! | 晚上好！ |
-| Hello! / Hi! | 你好！|
+| Hello! / Hi! | 你好！ |
 | How are you? | 你好吗？ |
-| I'm fine, thank you. | 我很好，谢谢你。|
-| Nice to meet you! | 很高兴认识你！|
-| Goodbye! / Bye! | 再见！|
+| I'm fine, thank you. | 我很好，谢谢你。 |
+| Nice to meet you! | 很高兴认识你！ |
+| Goodbye! / Bye! | 再见！ |
 | See you tomorrow! | 明天见！ |
 
 ### 1.2 Dialogue: Morning Greeting
@@ -70,26 +70,26 @@ Student: Nice to meet you too!
 
 | English | Chinese |
 |---------|---------|
-| May I come in? | 我可以进来吗？|
-| I'm sorry I'm late. | 对不起，我迟到了。|
-| Excuse me. | 打扰一下。|
-| May I ask a question? | 我可以问个问题吗？|
-| I don't understand. | 我不明白。|
-| Could you repeat that? | 你能再说一遍吗？|
-| Can I go to the bathroom? | 我可以去洗手间吗？|
-| I have a question. | 我有一个问题。|
+| May I come in? | 我可以进来吗？ |
+| I'm sorry I'm late. | 对不起，我迟到了。 |
+| Excuse me. | 打扰一下。 |
+| May I ask a question? | 我可以问个问题吗？ |
+| I don't understand. | 我不明白。 |
+| Could you repeat that? | 你能再说一遍吗？ |
+| Can I go to the bathroom? | 我可以去洗手间吗？ |
+| I have a question. | 我有一个问题。 |
 
 ### 3.2 For Teachers
 
 | English | Chinese |
 |---------|---------|
-| Open your books. | 打开书。|
-| Close your books. | 合上书。|
-| Listen carefully. | 仔细听。|
-| Repeat after me. | 跟我读。|
-| Raise your hand. | 举手。|
-| Work in pairs. | 两人一组练习。|
-| Time's up. | 时间到。|
+| Open your books. | 打开书。 |
+| Close your books. | 合上书。 |
+| Listen carefully. | 仔细听。 |
+| Repeat after me. | 跟我读。 |
+| Raise your hand. | 举手。 |
+| Work in pairs. | 两人一组练习。 |
+| Time's up. | 时间到。 |
 | Good job! / Well done! | 做得好！ |
 
 ### 3.3 Dialogue: In Class
@@ -247,6 +247,7 @@ What a nice day!
 ---
 
 ## 九、Making Phone Calls（打电话）
+
 ### 9.1 Useful Expressions
 
 ```
@@ -262,6 +263,7 @@ Sorry, wrong number.
 ---
 
 ## 十、At the Restaurant（在餐厅）
+
 ### 10.1 Dialogue
 
 ```
@@ -297,6 +299,15 @@ Waiter: Thank you. Enjoy your meal!
 3. **Picture Description** — Describe what you see in a picture
 4. **Story Telling** — Retell a simple story in your own words
 5. **Interview** — Ask your partner questions and report answers
+
+## Pronunciation Tips（发音提示）
+
+| Sound | Common Words | Tips |
+|-------|-------------|------|
+| /θ/ | think, three, mouth | 舌尖轻触上齿，送气 |
+| /ð/ | this, that, mother | 舌尖轻触上齿，振动声带 |
+| /ŋ/ | sing, long, running | 舌根抵软腭，鼻腔出气 |
+| /r/ | red, run, write | 舌尖卷起，不触碰上颚 |
 
 ## 相关条目
 

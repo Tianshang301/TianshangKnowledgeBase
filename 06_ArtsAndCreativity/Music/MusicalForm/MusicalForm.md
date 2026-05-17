@@ -1,184 +1,167 @@
 ---
-aliases: [MusicalForm]
-tags: ['Music', 'MusicalForm', 'MusicalForm']
+aliases:
+  - Musical Form
+  - 曲式
+tags:
+  - music
+  - musical-form
+  - theory
+  - composition
+  - analysis
 ---
 
-# 曲式学
+# 曲式 (Musical Form)
 
-## 一、曲式基础
+## 一、概述 (Overview)
 
-### 基本概念
+曲式 (Musical Form) 是音乐作品的结构组织方式，决定了音乐材料的安排、发展与再现。曲式分析是理解和诠释音乐作品的基础工具。常见曲式包括一段式、二段式、三段式、奏鸣曲式、回旋曲式、变奏曲式和赋格。
 
-| 概念 | 定义 |
-|:----:|:----:|
-| 乐句（Phrase）| 最小的完整音乐陈述，通常2-4小节 |
-| 乐段（Period）| 由两个乐句构成（前句+后句），形成完整的表达 |
-| 终止式（Cadence）| 乐句或乐段的结束方式 |
-| 段落（Section）| 由若干乐段构成的较大结构单元 |
+## 二、基本结构单位 (Basic Structural Units)
 
-### 乐段类型
-
-- **平行乐段**：两个乐句材料相同，结束不同（如：半终止→全终止）
-- **对比乐段**：两个乐句使用不同材料
-- **扩展乐段**：在标准结构的基础上增加延长或插入
-
-## 二、小型曲式
-
-### 一部曲式
-
-单一乐段构成，没有内部对比。常见于民歌、短曲和部分艺术歌曲。
-
-### 二部曲式（Binary Form）
-
-```
-A :‖: B :‖
+```mermaid
+flowchart TD
+  A[乐汇<br/>Motif] --> B[乐节<br/>Phrase Member]
+  B --> C[乐句<br/>Phrase]
+  C --> D[乐段<br/>Period]
+  D --> E[二段式<br/>Binary]
+  D --> F[三段式<br/>Ternary]
+  E --> G[大型曲式<br/>Large Forms]
+  F --> G
 ```
 
-| 类型 | 结构 | 特点 |
-|:----:|:----:|:----:|
-| 简单二部 | AB | 两部分对比，无重复 |
-| 再现二部 | ABA' | B段末尾包含A的再现材料 |
+**乐段结构 (Period Structure)**：
 
-### 三部曲式（Ternary Form）
+| 类型 | 结构 | 调性关系 |
+|------|------|----------|
+| 平行乐段 (Parallel) | aa' | 起句主调 → 落句主调 |
+| 对比乐段 (Contrasting) | ab | 起句主调 → 落句属调 |
+| 展开乐段 (Developing) | 材料持续发展 | 调性不稳定 |
 
-```
-A - B - A'
-```
+## 三、二段式 (Binary Form)
 
-ABA结构是最常见的曲式之一：
+**结构 (Structure)**：
+$$
+\text{Binary Form} = \text{Section A} + \text{Section B}
+$$
 
-- **A段**：呈示主题，在主调
-- **B段**：对比段，通常在属调或关系调
-- **A'段**：主题再现（可变化），回到主调
+- **简单二段式 (Simple Binary)**：A 段从主调转到属调，B 段从属调回到主调
+- **再现二段式 (Rounded Binary)**：B 段末尾再现 A 段材料
 
-**复合三部曲式**：每个部分本身也是三部曲式，常用于交响曲的第三乐章（谐谑曲或小步舞曲）。
+**特征 (Characteristics)**：
+- 比例均衡，通常每段 8-16 小节
+- 巴洛克舞曲（小步舞曲、加沃特舞曲）常用
 
-## 三、大型曲式
+## 四、三段式 (Ternary Form)
 
-### 奏鸣曲式（Sonata-Allegro Form）
+**结构 (Structure)**：
+$$
+\text{Ternary Form} = A - B - A
+$$
 
-```
-呈示部（Exposition）—— 展开部（Development）—— 再现部（Recapitulation）
-```
+其中 B 段（中段 Trio）与 A 段形成对比：
 
-| 部分 | 内容 | 调性 |
-|:----:|:----:|:----:|
-| 呈示部 | 主部主题→连接部→副部主题→结束部 | 主调→属调（或关系大调）|
-| 展开部 | 对呈示部材料进行发展、转调、重组 | 多调、不稳定 |
-| 再现部 | 主部→连接→副部→结束部 | 全部在主调 |
+| 段落 | 功能 | 调性 |
+|------|------|------|
+| A | 呈示主题 (Exposition) | 主调 (Tonic) |
+| B | 对比中段 (Contrast) | 下属/关系调 |
+| A' | 再现 (Recapitulation) | 主调 (Tonic) |
 
-呈示部常被要求重复。有时在呈示部前还有**引子**，在再现部后有**尾声**（Coda）。
+## 五、奏鸣曲式 (Sonata Form)
 
-### 回旋曲式（Rondo Form）
+### 5.1 结构 (Structure)
 
-```
-A - B - A - C - A - ... - A
-```
-
-叠部（A）反复出现，插部（B、C等）形成对比。常见于古典奏鸣曲的末乐章。
-
-### 奏鸣回旋曲式
-
-结合奏鸣曲式与回旋曲式的特征：
-
-```
-A - B - A - C - A - B' - A
-```
-
-既有回旋的反复，又有奏鸣的调性回归。
-
-### 变奏曲式（Theme and Variations）
-
-```
-Theme - Var.1 - Var.2 - Var.3 - ...
-```
-
-| 变奏方式 | 说明 |
-|:--------:|:----:|
-| 旋律变奏 | 对旋律进行装饰和改变 |
-| 和声变奏 | 保持旋律，改变和声配置 |
-| 节奏变奏 | 改变节奏型和速度 |
-| 性格变奏 | 改变音乐的情感和风格 |
-| 对位变奏 | 增加复调声部 |
-
-经典作品：莫扎特《小星星变奏曲》、贝多芬《迪亚贝利变奏曲》。
-
-## 四、赋格（Fugue）
-
-赋格是复调音乐的最高形式，基于一个主题在不同声部中的模仿。
-
-| 要素 | 说明 |
-|:----:|:----:|
-| 主题（Subject）| 核心旋律 |
-| 答题（Answer）| 主题在属调上的模仿 |
-| 对题（Countersubject）| 与主题同时进行的旋律 |
-| 间插段（Episode）| 连接各段进入的过渡材料 |
-| 紧接段（Stretto）| 各声部紧凑进入、重叠 |
-
-**赋格的结构**：呈示部→间插段→中间进入→间插段→最终进入→尾声
-
-## 五、古典套曲
-
-### 交响曲
-
-```
-第一乐章：快板（奏鸣曲式）
-第二乐章：慢板（三部曲式或变奏曲式）
-第三乐章：中速（小步舞曲或谐谑曲，三部曲式）
-第四乐章：快板（回旋曲式或奏鸣曲式）
+```mermaid
+flowchart LR
+  subgraph 呈示部 Exposition
+    A1[主部<br/>1st Subject]
+    B1[连接部<br/>Transition]
+    C1[副部<br/>2nd Subject]
+    D1[结束部<br/>Codetta]
+  end
+  subgraph 展开部 Development
+    E1[主题材料发展<br/>Thematic Development]
+  end
+  subgraph 再现部 Recapitulation
+    A2[主部<br/>1st Subject]
+    B2[连接部<br/>Transition]
+    C2[副部<br/>2nd Subject (主调)]
+    D2[结束部<br/>Codetta]
+  end
+  subgraph Coda
+    F1[尾声<br/>Coda]
+  end
+  A1 --> B1 --> C1 --> D1 --> E1 --> A2 --> B2 --> C2 --> D2 --> F1
 ```
 
-### 奏鸣曲
+### 5.2 调性布局 (Key Scheme)
 
-通常3-4个乐章，结构类似交响曲但为独奏或二重奏。例如贝多芬《钢琴奏鸣曲》各乐章对比鲜明。
+| 部分 | 主调 | 副调 |
+|------|------|------|
+| 呈示部 (Exposition) | 主调 (I) | 属调 (V) 或关系大调 |
+| 再现部 (Recapitulation) | 主调 (I) | 主调 (I) |
 
-### 弦乐四重奏
+## 六、回旋曲式 (Rondo Form)
 
-4个乐章，由两把小提琴、一把中提琴、一把大提琴演奏。海顿确立了四重奏的标准形式。
+**结构模式 (Structure Patterns)**：
 
-### 协奏曲
+- **五部回旋曲 (5-part Rondo)**：A - B - A - C - A
+- **七部回旋曲 (7-part Rondo)**：A - B - A - C - A - B' - A
 
+主部 (Refrain, A) 每次出现于主调，插部 (Episode, B/C) 提供调性与主题对比。
+
+## 七、变奏曲式 (Variation Form)
+
+**固定变奏 (Theme and Variations)**：
+$$
+\text{Theme} \to V_1 \to V_2 \to V_3 \to \cdots \to V_n
+$$
+
+**变奏手法 (Variation Techniques)**：
+
+| 手法 | 说明 |
+|------|------|
+| 旋律变奏 (Melodic) | 加花、装饰 |
+| 节奏变奏 (Rhythmic) | 改变节奏型 |
+| 和声变奏 (Harmonic) | 改变和声走向 |
+| 调式变奏 (Modal) | 大调/小调转换 |
+| 对位变奏 (Contrapuntal) | 加入复调手法 |
+
+## 八、赋格 (Fugue)
+
+**赋格结构 (Fugue Structure)**：
+
+```mermaid
+flowchart TD
+  A[呈示部<br/>Exposition] --> B[间插段<br/>Episode]
+  B --> C[中间部<br/>Middle Section]
+  C --> D[间插段<br/>Episode]
+  D --> E[紧接段<br/>Stretto]
+  E --> F[尾声<br/>Coda]
+  A --> G[主题 Subject]
+  A --> H[答题 Answer]
+  A --> I[对题 Counter-subject]
 ```
-第一乐章：快板（双呈示部奏鸣曲式）
-第二乐章：慢板
-第三乐章：快板（回旋曲式）
-```
 
-协奏曲的特色在于独奏乐器与乐队之间的对话与竞奏。
+**赋格的基本元素 (Elements of Fugue)**：
+- 主题 (Subject)：全曲核心旋律
+- 答题 (Answer)：主题在属调上的模仿
+- 对题 (Counter-subject)：与主题相伴的旋律
+- 间插段 (Episode)：主题材料的自由发展
+- 紧接段 (Stretto)：主题重叠进入，产生高潮
 
-## 六、歌曲形式
+## 九、曲式分析原则 (Analytical Principles)
 
-| 类型 | 结构 | 示例 |
-|:----:|:----:|:----:|
-| 分节歌（Strophic）| 每段歌词配相同旋律 | 民歌《茉莉花》|
-| 通谱歌（Through-composed）| 每段歌词配不同旋律 | 舒伯特《魔王》|
-| 主歌-副歌（Verse-Chorus）| ABAB结构，最常见 | 流行歌曲 |
-| 32小节AABA | 2个A段+B段+再现A | 爵士标准曲 |
+1. 调性布局 (Key Scheme) — 调性是曲式的重要标识
+2. 终止式 (Cadence) — 划分结构的标志点
+3. 主题材料 (Thematic Material) — 重复、对比与变奏
+4. 结构比例 (Structural Proportion) — 黄金分割、对称
 
-## 七、20世纪形式
+## 十、著名曲式分析案例 (Famous Analytical Examples)
 
-| 流派 | 形式特征 |
-|:----:|:--------:|
-| 十二音音乐 | 音列（tone row）的四种变形：原形、逆行、倒影、倒影逆行 |
-| 序列主义 | 将音高、节奏、力度、音色全部序列化 |
-| 机遇音乐 | 偶然性决定音乐要素，如抛硬币、翻谱 |
-| 简约主义 | 重复短小动机的渐变过程 |
-
-## 八、作品分析示例
-
-| 作品 | 曲式 | 分析要点 |
-|:----:|:----:|:--------:|
-| 贝多芬《第五交响曲》第一乐章 | 奏鸣曲式 | "命运动机"贯穿全曲、展开部密集发展、Coda极具张力 |
-| 莫扎特《G小调第40交响曲》K.550 | 奏鸣曲式 | 抒情主部、半音化副部、精致展开 |
-| 巴赫《C大调第一前奏曲》BWV 846 | 分解和弦式 | 和声进行而非旋律驱动 |
-| 巴赫《g小调赋格》BWV 578 | 四声部赋格 | 主题紧凑、对位精妙 |
-| 舒伯特《魔王》| 通谱歌 | 四个角色四种音区、钢琴伴奏的戏剧性 |
-
-## 相关条目
-
-- [[Harmony]]
-- [[06_ArtsAndCreativity/Music/MusicHistory/INDEX|MusicHistory]]
-- [[06_ArtsAndCreativity/Music/EarTraining/INDEX|EarTraining]]
-- [[06_ArtsAndCreativity/FineArts/Composition/INDEX|Composition]]
-
-## 参考资源
+| 作品 | 作曲家 | 曲式 |
+|------|--------|------|
+| 第 40 号交响曲 K.550 第一乐章 | Mozart | 奏鸣曲式 |
+| 《致爱丽丝》WoO 59 | Beethoven | 回旋曲式 (A-B-A-C-A) |
+| 《卡农》P.37 | Pachelbel | 固定低音变奏 |
+| 《C 大调前奏曲》BWV 846 | J.S. Bach | 赋格 |
+| 《军队进行曲》Op. 51 No. 1 | Schubert | 三段式 |

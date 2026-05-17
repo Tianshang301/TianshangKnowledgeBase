@@ -1,6 +1,8 @@
 ---
-aliases: [AcademicPapers]
-tags: ['AcademicPapers', 'AcademicPapers']
+aliases:
+  - AcademicPapers
+tags:
+  - AcademicPapers
 ---
 
 # 学术论文写作指南

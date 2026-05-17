@@ -14,5 +14,5 @@ aliases: [Python]
 - [[AsyncIO]] - 异步IO
 - [[Basics]] - Python基础
 - [[OOP]] - 面向对象
-- [[StandardLibrary]] - 标准�?
+- [[StandardLibrary]] - 标准库
 - [[Testing]] - 测试

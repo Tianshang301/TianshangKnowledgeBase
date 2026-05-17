@@ -1,225 +1,217 @@
 ---
-aliases: [Inference]
-tags: ['Mathematics', 'ProbabilityStatistics', 'Inference']
+aliases:
+  - 统计推断
+  - 参数估计
+  - 假设检验
+  - 置信区间
+  - p值
+  - Statistical Inference
+  - Hypothesis Testing
+  - Estimation
+  - Confidence Interval
+tags:
+  - Mathematics
+  - Statistics
+  - Inference
+  - Probability
+  - DataScience
+  - Estimation
+  - HypothesisTesting
+  - p-value
 ---
 
 # 统计推断
 
+## 一、统计推断概述
 
-
-## 一、点估计 (Point Estimation)
-
-
-
-### 最大似然估��?(MLE)
-
-
-
-$$\hat{\theta}_{\text{MLE}} = \arg\max_\theta L(\theta; x) = \arg\max_\theta \prod_{i=1}^n f(x_i \mid \theta)$$
-
-
-
-通常最大化对数似然 $\ell(\theta) = \ln L(\theta)$��?
-
-### 矩估��?(Method of Moments)
-
-
-
-令样本矩等于总体矩，解出参数��?
-
-$$\frac{1}{n}\sum_{i=1}^n X_i^k = E[X^k]$$
-
-
-
-### 估计量性质
-
-
-
-- **无偏��?*��?E[\hat{\theta}] = \theta$
-
-- **一致��?*��?\hat{\theta} \xrightarrow{P} \theta$��?n \to \infty$��?- **有效��?*：方差最小的无偏估计
-
-- **MSE**��?\text{MSE}(\hat{\theta}) = E[(\hat{\theta} - \theta)^2] = \text{Var}(\hat{\theta}) + \text{Bias}(\hat{\theta})^2$
-
-
-
-## 二、区间估��?
-
-### 总体均值的置信区间
-
-
-
-**方差已知��?z$-区间）：**
-
-$$\bar{X} \pm z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}}$$
-
-
-
-**方差未知��?t$-区间）：**
-
-$$\bar{X} \pm t_{\alpha/2, n-1} \cdot \frac{s}{\sqrt{n}}$$
-
-
-
-### 总体比例的置信区��?
-
-$$\hat{p} \pm z_{\alpha/2} \sqrt{\frac{\hat{p}(1-\hat{p})}{n}}$$
-
-
-
-### 总体方差的置信区��?
-
-$$\left( \frac{(n-1)s^2}{\chi^2_{\alpha/2, n-1}}, \frac{(n-1)s^2}{\chi^2_{1-\alpha/2, n-1}} \right)$$
-
-
-
-## 三、假设检��?
+统计推断（Statistical Inference）是利用样本数据对总体特征进行推断的方法。主要包括参数估计（Estimation）和假设检验（Hypothesis Testing）两大分支。
 
 ### 基本概念
 
+| 概念 | 符号 | 描述 |
+|------|------|------|
+| 总体（Population） | $N$ | 全部研究对象 |
+| 样本（Sample） | $n$ | 总体的子集 |
+| 参数（Parameter） | $\theta$ | 总体特征值 |
+| 统计量（Statistic） | $\hat{\theta}$ | 样本计算的估计值 |
+| 标准误（Standard Error） | $SE$ | 统计量的标准差 |
 
+---
 
-- $H_0$：零假设��?H_1$：备择假��?- **Type I Error**：拒绝真��?$H_0$��?\alpha$��?- **Type II Error**：接受错��?$H_0$��?\beta$��?- **Power**��?1 - \beta$，正确拒��?$H_0$ 的概��?
+## 二、参数估计
 
-### 检验步��?
+### 点估计（Point Estimation）
 
-1. 提出 $H_0$ ��?$H_1$
+点估计是用样本统计量的单一数值估计总体参数。
 
-2. 选择检验统计量
+**常用估计量：**
 
-3. 给定显著性水��?$\alpha$
+$$ \hat{\mu} = \bar{x} = \frac{1}{n}\sum_{i=1}^{n} x_i $$
 
-4. 计算 p-value 或拒绝域
+$$ \hat{\sigma}^2 = s^2 = \frac{1}{n-1}\sum_{i=1}^{n} (x_i - \bar{x})^2 $$
 
-5. 做出结论
+$$ \hat{p} = \frac{X}{n} $$
 
+### 估计量的评价标准
 
+| 标准 | 英文 | 描述 |
+|------|------|------|
+| 无偏性 | Unbiasedness | $E(\hat{\theta}) = \theta$ |
+| 一致性 | Consistency | $n \to \infty$ 时 $\hat{\theta} \to \theta$ |
+| 有效性 | Efficiency | 方差最小的无偏估计 |
+| 充分性 | Sufficiency | 包含样本中所有参数信息 |
 
-### 常见检��?
+### 区间估计（Interval Estimation）
 
-| 检��?| 用��?| 统计��?|
+置信区间（Confidence Interval, CI）给出参数的可能取值范围。
 
-|------|------|--------|
+**总体均值 $\mu$ 的置信区间：**
 
-| $z$-test | 单总体均值（$\sigma$ 已知��?| $z = \frac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$ |
+$$ \bar{x} \pm z_{\alpha/2} \cdot \frac{\sigma}{\sqrt{n}} \quad \text{（方差已知）} $$
 
-| $t$-test | 单总体均值（$\sigma$ 未知��?| $t = \frac{\bar{x} - \mu_0}{s/\sqrt{n}}$ |
+$$ \bar{x} \pm t_{\alpha/2, n-1} \cdot \frac{s}{\sqrt{n}} \quad \text{（方差未知）} $$
 
-| 配对 $t$-test | 配对数据差异 | $t = \frac{\bar{d}}{s_d/\sqrt{n}}$ |
+| 置信水平 | $z_{\alpha/2}$ | 含义 |
+|----------|----------------|------|
+| 90% | 1.645 | 有90%的信心包含总体参数 |
+| 95% | 1.960 | 最常用 |
+| 99% | 2.576 | 更保守的估计 |
 
-| 双样��?$t$-test | 两总体均值比��?| $t = \frac{\bar{x}_1 - \bar{x}_2}{\sqrt{s_1^2/n_1 + s_2^2/n_2}}$ |
+---
 
-| $\chi^2$ 检��?| 拟合优度/独立��?| $\chi^2 = \sum \frac{(O_i - E_i)^2}{E_i}$ |
+## 三、假设检验
 
-| $F$-test | 方差齐��?ANOVA | $F = \frac{s_1^2}{s_2^2}$ |
+### 假设检验框架
 
-
-
-### ANOVA
-
-
-
-单因素方差分析：
-
-
-
-$$F = \frac{\text{MSB}}{\text{MSW}} = \frac{\text{SSB}/(k-1)}{\text{SSW}/(n-k)}$$
-
-
-
-其中 SSB 为组间平方和，SSW 为组内平方和��?
-
-### p-value 解释
-
-
-
-p-value = ��?$H_0$ 为真的条件下，观察到当前或更极端结果的概率。p-value < $\alpha$ 时拒��?$H_0$��?
-
-## 四、非参数检��?
-
-| 检��?| 用��?| 对应参数检��?|
-
-|------|------|--------------|
-
-| Mann-Whitney $U$ | 两独立样本比��?| 双样��?$t$-test |
-
-| Wilcoxon 符号��?| 配对样本比较 | 配对 $t$-test |
-
-| Kruskal-Wallis | 多组独立样本比较 | ANOVA |
-
-| Spearman $\rho$ | 秩相��?| Pearson 相关 |
-
-
-
-## 五、多重检验校��?
-
-### Bonferroni 校正
-
-
-
-$$\alpha_{\text{adj}} = \frac{\alpha}{m}$$
-
-
-
-其中 $m$ 为比较次数。保守但简单��?
-
-### FDR (False Discovery Rate)
-
-
-
-Benjamini-Hochberg 方法��?1. ��?p-value 从小到大排序��?p_{(1)} \leq p_{(2)} \leq \cdots \leq p_{(m)}$
-
-2. 找到最��?$k$ 使得 $p_{(k)} \leq \frac{k}{m} \cdot q$
-
-3. 拒绝所��?$H_{(i)}$��?i = 1, \dots, k$
-
-
-
-```python
-
-import numpy as np
-
-from scipy import stats
-
-
-
-# 单样��?t-test
-
-data = np.array([2.3, 2.1, 2.5, 2.4, 2.2])
-
-t_stat, p_val = stats.ttest_1samp(data, popmean=2.0)
-
-
-
-# 双样��?t-test
-
-group1 = np.array([2.3, 2.1, 2.5])
-
-group2 = np.array([3.1, 3.3, 2.9])
-
-t_stat, p_val = stats.ttest_ind(group1, group2)
-
-
-
-# 卡方检��?from scipy.stats import chi2_contingency
-
-obs = np.array([[10, 20], [15, 25]])
-
-chi2, p, dof, expected = chi2_contingency(obs)
-
-
-
-# Mann-Whitney U
-
-u_stat, p_val = stats.mannwhitneyu(group1, group2)
-
+```mermaid
+graph TD
+    A[研究问题] --> B[建立假设]
+    B --> C[选择检验统计量]
+    C --> D[确定显著性水平]
+    D --> E[计算p值]
+    E --> F{是否拒绝H₀}
+    F -->|p < α| G[拒绝原假设]
+    F -->|p ≥ α| H[无法拒绝原假设]
 ```
 
+### 原假设与备择假设
 
+- 原假设 $H_0$（Null Hypothesis）：通常是"无差异"或"无效果"的声明
+- 备择假设 $H_1$ 或 $H_a$（Alternative Hypothesis）：与研究假设一致
 
-## 相关条目
+| 类型 | 假设形式 | 拒绝域 |
+|------|----------|--------|
+| 双侧检验 | $H_0: \mu = \mu_0, H_1: \mu \neq \mu_0$ | 两侧尾部 |
+| 左侧检验 | $H_0: \mu \geq \mu_0, H_1: \mu < \mu_0$ | 左侧尾部 |
+| 右侧检验 | $H_0: \mu \leq \mu_0, H_1: \mu > \mu_0$ | 右侧尾部 |
 
+---
 
+## 四、常见的假设检验
 
-[[02_NaturalSciences/Mathematics/MathematicalAnalysis/INDEX|MathematicalAnalysis]], [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]], [[02_NaturalSciences/Mathematics/Algebra/INDEX|Algebra]], StatisticalInference
+### 单样本检验
 
+| 检验 | 用途 | 检验统计量 |
+|------|------|------------|
+| z检验 | 方差已知，正态总体 | $z = \frac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$ |
+| t检验 | 方差未知，正态总体 | $t = \frac{\bar{x} - \mu_0}{s/\sqrt{n}}$ |
+| 比例检验 | 检验比例 | $z = \frac{\hat{p} - p_0}{\sqrt{p_0(1-p_0)/n}}$ |
+
+### 两样本检验
+
+| 检验 | 用途 | 检验统计量 |
+|------|------|------------|
+| 独立样本t检验 | 比较两组均值 | $t = \frac{\bar{x}_1 - \bar{x}_2}{\sqrt{s_p^2(1/n_1 + 1/n_2)}}$ |
+| 配对t检验 | 配对数据 | $t = \frac{\bar{d}}{s_d/\sqrt{n}}$ |
+| F检验 | 比较两组方差 | $F = \frac{s_1^2}{s_2^2}$ |
+
+**合并方差（Pooled Variance）：**
+
+$$ s_p^2 = \frac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1 + n_2 - 2} $$
+
+---
+
+## 五、p值与显著性
+
+### p值的含义
+
+p值（p-value）是在原假设成立的情况下，观察到当前或更极端结果的概率。
+
+$$ \text{p-value} = P(\text{observed data or more extreme} \mid H_0 \text{ is true}) $$
+
+### 显著性水平（Significance Level）
+
+| $\alpha$ | 解释 | 常用场景 |
+|----------|------|----------|
+| 0.10 | 弱证据 | 探索性研究 |
+| 0.05 | 标准证据 | 多数科学研究 |
+| 0.01 | 强证据 | 医学、药物试验 |
+
+### 两类错误
+
+```mermaid
+graph LR
+    subgraph 决策
+        D1[拒绝 H₀]
+        D2[接受 H₀]
+    end
+    subgraph 真实状态
+        T1[H₀ 为真]
+        T2[H₁ 为真]
+    end
+    T1 -->|决策拒绝| E1[第一类错误 α]
+    T1 -->|决策接受| C1[正确]
+    T2 -->|决策拒绝| C2[正确]
+    T2 -->|决策接受| E2[第二类错误 β]
+```
+
+| 错误类型 | 定义 | 概率 |
+|----------|------|------|
+| 第一类错误（Type I Error） | 拒绝真的 $H_0$ | $\alpha$ |
+| 第二类错误（Type II Error） | 接受假的 $H_0$ | $\beta$ |
+| 检验功效（Power） | 正确拒绝假的 $H_0$ | $1 - \beta$ |
+
+---
+
+## 六、方差分析（ANOVA）
+
+### 单因素方差分析
+
+$$ F = \frac{MS_{between}}{MS_{within}} = \frac{SS_{between} / (k-1)}{SS_{within} / (N-k)} $$
+
+| 变异来源 | 平方和 | 自由度 | 均方 |
+|----------|--------|--------|------|
+| 组间（Between） | $SS_{between}$ | $k-1$ | $MS_{between}$ |
+| 组内（Within） | $SS_{within}$ | $N-k$ | $MS_{within}$ |
+| 总计（Total） | $SS_{total}$ | $N-1$ | — |
+
+---
+
+## 七、卡方检验
+
+### 拟合优度检验（Goodness-of-Fit）
+
+$$ \chi^2 = \sum_{i=1}^{k} \frac{(O_i - E_i)^2}{E_i} $$
+
+### 独立性检验（Test of Independence）
+
+$$ \chi^2 = \sum_{i=1}^{r} \sum_{j=1}^{c} \frac{(O_{ij} - E_{ij})^2}{E_{ij}} $$
+
+其中 $E_{ij} = \frac{(\text{行合计})(\text{列合计})}{\text{总计}}$
+
+---
+
+## 八、实践注意事项
+
+### 常见误区
+
+1. p值不是 $H_0$ 为真的概率
+2. p值大不代表效应量（Effect Size）小
+3. 统计显著（Statistical Significance）不等于实际显著（Practical Significance）
+4. 多重比较（Multiple Comparisons）需要校正（如 Bonferroni Correction）
+
+### 报告建议
+
+- 报告效应量（Cohen's d, $\eta^2$ 等）
+- 报告置信区间而非仅p值
+- 预先进行功效分析（Power Analysis）确定样本量

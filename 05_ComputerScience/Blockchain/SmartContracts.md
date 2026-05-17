@@ -3,11 +3,11 @@ aliases: [SmartContracts]
 tags: ['Blockchain', 'SmartContracts']
 ---
 
-# 智能合约完全指南
+# 智能合约 (Smart Contracts)
 
 ## 概述
 
-智能合约（Smart Contract）是运行在区块链上的可编程代码，能够自动执行预设的逻辑。以太坊通过图灵完备的以太坊虚拟机（EVM）使智能合约得以普及，开启了去中心化应用（DApp）时代。
+智能合约 (Smart Contract) 是运行在区块链上的可编程代码，能够自动执行预设的逻辑。以太坊通过图灵完备的以太坊虚拟机（EVM）使智能合约得以普及，开启了去中心化应用（DApp）时代。
 
 ---
 
@@ -90,7 +90,7 @@ contract DataTypes {
 
 | 关键字 | 存储位置 | 持久性 | Gas 成本 |
 |--------|----------|--------|----------|
-| `storage` | 区块链状态 | 持久 | 高（修改需 SSTORE） |
+| `storage` | 区块链状态 | 持久 | 高（修改需 SSTORE）|
 | `memory` | 内存 | 临时（函数内）| 中 |
 | `calldata` | 交易输入数据 | 只读 | 低（不可修改）|
 
@@ -198,7 +198,7 @@ abstract contract Pausable is Ownable {
 |------|------|------|------|
 | ERC-20 | 同质化代币 | `transfer`, `approve`, `transferFrom`, `balanceOf` | USDT, UNI, LINK |
 | ERC-721 | NFT | `ownerOf`, `tokenURI`, `safeTransferFrom` | CryptoPunks, BAYC |
-| ERC-1155 | 多代币 | 批量铸造，同质化+非同质化混合 | 游戏物品 |
+| ERC-1155 | 多代币 | 批量铸造，同质化/非同质化混合 | 游戏物品 |
 
 ```solidity
 // ERC-20 核心接口
@@ -218,12 +218,12 @@ interface IERC20 {
 代理模式结构:
   用户 → 代理合约 (Proxy) → 逻辑合约 (Implementation)
             ↓
-       存储: 代理合约的存储（通过 delegatecall）
+        存储: 代理合约的存储（通过 delegatecall）
 
 工作流程:
   1. Proxy 使用 delegatecall 调用 Implementation
   2. 逻辑代码在 Implementation 中
-  3. 状态存储在 Proxy 中（不被抹除）
+  3. 状态存储在 Proxy 中（不会被抹除）
   4. 升级时部署新的 Implementation，更新 Proxy 指向
 
 常见实现:
@@ -242,7 +242,7 @@ interface IERC20 {
 
 ```
 攻击流程:
-  1. 合约 A 调用 合约 B（withdraw）
+  1. 合约 A 调用 合约 B (withdraw)
   2. 合约 B 的 fallback 再次调用 合约 A 的 withdraw
   3. 合约 A 的余额还未更新 → 重复提取
 
@@ -260,7 +260,7 @@ contract Vulnerable {
         uint256 bal = balances[msg.sender];
         require(bal > 0);
         (bool ok, ) = msg.sender.call{value: bal}("");  // 先转账
-        balances[msg.sender] = 0;                         // 后更新 ❌
+        balances[msg.sender] = 0;                         // 后更新 ✗
     }
 }
 
@@ -270,7 +270,7 @@ contract Secure {
     function withdraw() external {
         uint256 bal = balances[msg.sender];
         require(bal > 0);
-        balances[msg.sender] = 0;                         // 先更新 ✅
+        balances[msg.sender] = 0;                         // 先更新 ✓
         (bool ok, ) = msg.sender.call{value: bal}("");    // 后转账
         require(ok);
     }
@@ -296,7 +296,7 @@ contract Phishable {
     constructor() { owner = msg.sender; }
 
     function withdraw() external {
-        require(tx.origin == owner);  // ❌ 易受钓鱼攻击
+        require(tx.origin == owner);  // ✗ 易受钓鱼攻击
         payable(owner).transfer(address(this).balance);
     }
 }
@@ -304,7 +304,7 @@ contract Phishable {
 // 正确: 使用 msg.sender
 contract SafeContract {
     function withdraw() external {
-        require(msg.sender == owner);  // ✅ msg.sender 是直接调用者
+        require(msg.sender == owner);  // ✓ msg.sender 是直接调用者
     }
 }
 ```

@@ -1,13 +1,13 @@
 ---
 aliases: [Verilog硬件描述语言]
-tags: ['HardwareAndEmbeddedSystems', 'FPGA', 'Verilog硬件描述语言']
+tags: ['HardwareAndEmbeddedSystems', 'FPGA', 'Verilog']
 ---
 
-# Verilog硬件描述语言
+# Verilog 硬件描述语言
 
-## 一、Verilog语言基础
+## 一、Verilog 语言基础
 
-Verilog HDL用于数字电路的设计与建模，自1995年成为IEEE标准（IEEE 1364）。
+Verilog HDL 用于数字电路的设计与建模，自1995年成为 IEEE 标准（IEEE 1364）。
 
 设计流程：
 
@@ -46,7 +46,7 @@ endmodule
 
 ## 二、数据类型与运算符
 
-Verilog主要数据类型：
+Verilog 主要数据类型：
 
 | 类型 | 含义 | 位宽定义 | 默认值 |
 |------|------|----------|--------|
@@ -76,7 +76,7 @@ $$
 
 ## 三、组合逻辑电路
 
-使用`assign`连续赋值实现组合逻辑：
+使用 `assign` 连续赋值实现组合逻辑：
 
 ```verilog
 // 全加器
@@ -167,7 +167,7 @@ assign serial_out = parallel[WIDTH-1];
 endmodule
 ```
 
-阻塞赋值`=`与非阻塞赋值`<=`的区别：
+阻塞赋值 `=` 与非阻塞赋值 `<=` 的区别：
 
 | 特性 | 阻塞赋值 = | 非阻塞赋值 <= |
 |------|------------|---------------|
@@ -244,7 +244,7 @@ endmodule
 
 ## 六、仿真与测试
 
-Testbench编写：
+Testbench 编写：
 
 ```verilog
 `timescale 1ns / 1ps
@@ -275,19 +275,19 @@ initial begin
     reset_n = 0;
     enable  = 0;
     #20;
-    
+
     // 复位释放
     reset_n = 1;
     #10;
-    
+
     // 使能计数
     enable = 1;
     #500;
-    
+
     // 停止计数
     enable = 0;
     #100;
-    
+
     $finish;
 end
 
@@ -367,11 +367,11 @@ endmodule
 | 吞吐量 | 1数据/周期 | 1数据/周期 |
 | 延迟 | 1周期 | N周期 |
 | 最大频率 | 较低 | 较高 |
-| 面积 | 小 | 大（寄存器开销）|
+| 面积 | 小 | 大（寄存器开销） |
 
 ## 九、常见问题与调试
 
-时序违例常见原因：
+时序违反常见原因：
 
 ```
 1. 组合逻辑路径过长
@@ -408,12 +408,12 @@ endmodule
 - [[Combinational]]
 - [[Sequential]]
 
-## 参考资源
+## 参考资料
 
-1. IEEE Std 1364-2001 Verilog标准文档
-2. 《Verilog HDL高级数字设计》Michael D. Ciletti 著
-3. Xilinx Vivado设计套件用户指南
-4. Altera/Intel Quartus Prime手册
-5. OpenCores开源IP核库：https://opencores.org
-6. EDA Playground在线仿真平台
+1. IEEE Std 1364-2001 Verilog 标准文档
+2. 《Verilog HDL 高级数字设计》 Michael D. Ciletti 著
+3. Xilinx Vivado 设计套件用户指南
+4. Altera/Intel Quartus Prime 手册
+5. OpenCores 开源IP核库：https://opencores.org
+6. EDA Playground 在线仿真平台
 7. Verilog Tutorial：https://www.chipverify.com

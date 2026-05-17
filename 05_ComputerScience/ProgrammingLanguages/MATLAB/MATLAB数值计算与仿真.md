@@ -1,22 +1,22 @@
 ---
 aliases: [MATLAB数值计算与仿真]
-tags: ['ProgrammingLanguages', 'MATLAB', 'MATLAB数值计算与仿真']
+tags: ['ProgrammingLanguages', 'MATLAB', '数值计算']
 ---
 
-# MATLAB数值计算与仿真
+# MATLAB 数值计算与仿真
 
-## 一、MATLAB环境概述
+## 一、MATLAB 环境概述
 
-MATLAB（Matrix Laboratory）由MathWorks开发，是数值计算和仿真的行业标准工具。
+MATLAB（Matrix Laboratory）由 MathWorks 开发，是数值计算和仿真的行业标准工具。
 
 核心特性：
 
 | 特性 | 说明 |
 |------|------|
-| 数据类型 | 默认矩阵 (double), 支持多种数值类型 |
-| 脚本语言 | 解释执行，支持JIT加速 |
-| 图形系统 | 内置2D/3D可视化，支持交互式绘图 |
-| 工具箱 | 30+领域工具箱（信号处理、控制、优化等）|
+| 数据类型 | 默认矩阵 (double)，支持多种数值类型 |
+| 脚本语言 | 解释执行，支持 JIT 加速 |
+| 图形系统 | 内置 2D/3D 可视化，支持交互式绘图 |
+| 工具箱 | 30+ 领域工具箱（信号处理、控制、优化等） |
 | Simulink | 基于模型的仿真设计环境 |
 | 代码生成 | MATLAB Coder / Embedded Coder |
 
@@ -87,7 +87,7 @@ Q3 = integral3(h, 0, 1, 0, 1, 0, 1)
 微分方程求解：
 
 ```matlab
-% 常微分方程: dy/dt = -2y + cos(t), y(0) = 1
+% 常微分方程 dy/dt = -2y + cos(t), y(0) = 1
 odefun = @(t, y) -2*y + cos(t);
 [t, y] = ode45(odefun, [0 10], 1);
 
@@ -112,7 +112,7 @@ legend('Position', 'Velocity')
 优化问题：
 
 ```matlab
-% 无约束优化: 最小化 Rosenbrock 函数
+% 无约束优化 最小化 Rosenbrock 函数
 % f(x) = 100*(x2 - x1^2)^2 + (1 - x1)^2
 
 fun = @(x) 100*(x(2) - x(1)^2)^2 + (1 - x(1))^2;
@@ -172,7 +172,7 @@ $$
 ## 五、控制系统设计与仿真
 
 ```matlab
-% 传递函数: G(s) = 1/(s^2 + 2s + 1)
+% 传递函数 G(s) = 1/(s^2 + 2s + 1)
 s = tf('s');
 G = 1/(s^2 + 2*s + 1);
 
@@ -204,9 +204,9 @@ rlocus(G)
 title('Root Locus')
 ```
 
-## 六、Simulink仿真
+## 六、Simulink 仿真
 
-Simulink是基于模型的图形化仿真环境。
+Simulink 是基于模型的图形化仿真环境。
 
 基本建模步骤：
 
@@ -246,7 +246,7 @@ sim('my_model')
 
 ## 七、数据可视化
 
-2D绘图：
+2D 绘图：
 
 ```matlab
 x = linspace(0, 2*pi, 100);
@@ -277,7 +277,7 @@ plot(x, y2)
 title('cos(x)')
 ```
 
-3D绘图：
+3D 绘图：
 
 ```matlab
 % 3D曲面
@@ -304,7 +304,7 @@ title('Contour Plot')
 % 预分配数组（重要！）
 N = 10000;
 
-% 慢: 动态增长
+% 慢 动态增长
 tic
 x = [];
 for i = 1:N
@@ -312,7 +312,7 @@ for i = 1:N
 end
 toc
 
-% 快: 预分配
+% 快 预分配
 tic
 x = zeros(1, N);
 for i = 1:N
@@ -320,7 +320,7 @@ for i = 1:N
 end
 toc
 
-% 最快: 向量化
+% 最快 向量化
 tic
 x = (1:N).^2;
 toc
@@ -340,12 +340,12 @@ profile viewer
 | 条件筛选 | 0.3s | 0.002s | 150x |
 | 逐元素运算 | 0.08s | 0.0005s | 160x |
 
-## 参考资源
+## 参考资料
 
-1. MathWorks MATLAB文档：https://www.mathworks.com/help/matlab
-2. 《MATLAB数值分析》Cleve Moler 著
-3. 《精通MATLAB》Stephen J. Chapman 著
-4. MATLAB官方示例：https://www.mathworks.com/examples
-5. MATLAB Central文件交换：https://www.mathworks.com/matlabcentral
-6. 《Simulink仿真及代码生成技术》书籍
-7. Cleve's Corner博客
+1. MathWorks MATLAB 文档：https://www.mathworks.com/help/matlab
+2. 《MATLAB 数值分析》 Cleve Moler 著
+3. 《精通 MATLAB》 Stephen J. Chapman 著
+4. MATLAB 官方示例：https://www.mathworks.com/examples
+5. MATLAB Central 文件交换：https://www.mathworks.com/matlabcentral
+6. 《Simulink 仿真及代码生成技术》书籍
+7. Cleve's Corner 博客

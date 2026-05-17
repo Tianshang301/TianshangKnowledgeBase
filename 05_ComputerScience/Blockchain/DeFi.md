@@ -1,321 +1,201 @@
 ---
-aliases: [DeFi]
-tags: ['Blockchain', 'DeFi']
+aliases:
+  - DeFi
+  - 去中心化金融
+tags:
+  - blockchain
+  - finance
+  - smart-contract
+  - ethereum
+  - crypto
 ---
 
-# 去中心化金融完全指南
+# 去中心化金融 (Decentralized Finance, DeFi)
 
-## 概述
+去中心化金融（DeFi）是指建立在区块链（Blockchain）之上的开放式金融系统，通过智能合约（Smart Contracts）自动执行金融操作，无需传统金融中介（如银行、券商、交易所）。
 
-去中心化金融（DeFi）是区块链上金融原语的可组合生态系统。与传统金融不同，DeFi 没有中介机构，所有交易、借贷、交易对均由智能合约自动执行，实现 permissionless（无需许可）和 trustless（去信任化）的金融服务。
+## 概述 (Overview)
 
----
+DeFi 的核心愿景是构建一个开放、透明、无许可（Permissionless）的全球金融基础设施。用户可以直接通过加密钱包与智能合约交互，实现借贷、交易、投资等金融活动。
 
-## 一、DeFi 概述
+DeFi 生态系统总价值锁仓（TVL, Total Value Locked）是衡量其规模的重要指标：
 
-### 1.1 核心特征
+$$TVL = \sum_{i=1}^{n} Value(Asset_i) \times Quantity_i$$
 
-| 特征 | 传统金融 | DeFi |
-|------|----------|------|
-| 中介 | 银行、券商、清算所 | 智能合约 |
-| 账户 | 需 KYC 注册 | 钱包地址（匿名）|
-| 运营时间 | 工作日 9-17 点 | 24/7/365 |
-| 清算 | 人工 + 系统 | 自动（智能合约）|
-| 可组合性 | 封闭 API | 开源可组合（乐高积木）|
-| 资产托管 | 机构托管 | 用户自托管 |
+## 核心组件 (Core Components)
 
-### 1.2 DeFi 堆栈
+### 智能合约 (Smart Contracts)
 
+智能合约是 DeFi 的技术基石，是在区块链上自动执行的程序代码。其执行逻辑公开透明且不可篡改：
+
+```mermaid
+graph TD
+    A[用户发起交易] --> B[智能合约验证条件]
+    B -->|条件满足| C[自动执行操作]
+    B -->|条件不满足| D[回滚交易]
+    C --> E[更新链上状态]
+    E --> F[事件日志记录]
 ```
-Layer 4: 聚合层 (Aggregators)   — 1inch, Yearn
-Layer 3: 应用层 (Applications)  — Uniswap, Aave, MakerDAO
-Layer 2: 协议层 (Protocols)     — 借贷、DEX、衍生品
-Layer 1: 结算层 (Settlement)    — Ethereum, L2s, Solana
-Layer 0: 资产层 (Assets)        — ETH, USDC, DAI, WBTC
-```
 
----
+智能合约关键特性：
 
-## 二、去中心化交易所 (DEX)
+| 特性 | 说明 |
+|------|------|
+| 不可篡改（Immutable） | 部署后代码无法修改 |
+| 透明可审计 | 所有代码和状态公开可见 |
+| 自动执行 | 满足条件后无需人工干预 |
+| 可组合性 | 不同合约可相互调用组合 |
 
-### 2.1 自动做市商 (AMM)
+### 去中心化交易所 (DEX, Decentralized Exchange)
 
-AMM 使用流动性池而非传统订单簿来交易。Uniswap 开创了恒定乘积公式：
+DEX 允许用户直接在链上交易加密资产，无需将资产托管给中心化机构。
+
+#### 自动做市商 (AMM, Automated Market Maker)
+
+AMM 使用数学公式定价，替代传统订单簿模式：
 
 $$x \times y = k$$
 
-其中 $x$ 和 $y$ 是池中两种代币的数量，$k$ 为常数。交换代币时，$k$ 保持不变（不计手续费）。
+其中 $x$ 和 $y$ 分别代表两种代币的储备量，$k$ 为常数。
 
-```
-Uniswap V2 交易:
-  输入 Δx 个代币 X，输出 Δy 个代币 Y：
-  (x + Δx) × (y - Δy) = k
-  Δy = y - k / (x + Δx)
-
-  滑点 (Slippage):
-  交易量越大，相对价格影响越大
-  深度池（高流动性）滑点小
+```mermaid
+graph LR
+    A[流动性提供者<br/>LP] -->|存入代币| B[流动性池<br/>Liquidity Pool]
+    C[交易者<br/>Trader] -->|支付手续费| B
+    B -->|获得代币| C
+    B -->|分配手续费| A
 ```
 
-### 2.2 AMM 版本对比
+常见 DEX 协议：
 
-| 特性 | Uniswap V2 | Uniswap V3 | Curve |
-|------|------------|------------|-------|
-| 定价公式 | $x \cdot y = k$ | 集中流动性 | 混合恒定和/积 |
-| 资金效率 | 低（全范围 0-∞）| 高（自定义价格区间）| 中 |
-| 适合资产 | 通用 | 通用 | 稳定币/锚定资产 |
-| 流动性提供 | 被动 | 主动（需管理区间）| 被动 |
-| 手续费层级 | 0.30% | 0.05%/0.30%/1% | 动态 |
+| 协议 | 区块链 | 特点 |
+|------|--------|------|
+| Uniswap | Ethereum | AMM 先驱，V3 集中流动性 |
+| SushiSwap | 多链 | 社区驱动，扩展功能丰富 |
+| PancakeSwap | BNB Chain | 低手续费，高频交易 |
+| Curve | Ethereum | 稳定币兑换优化 |
+| dYdX | Ethereum | 去中心化衍生品交易 |
 
-### 2.3 订单簿 DEX
+### 借贷协议 (Lending Protocols)
 
-| DEX | 形式 | 特点 |
-|-----|------|------|
-| 0x | 链上结算 + 链下撮合 | 中继器模式，支持限价单 |
-| dYdX | Perpetual 合约 | 订单簿永续合约 |
-| Serum | Solana 链上订单簿 | 完全链上撮合 |
+DeFi 借贷允许用户超额抵押（Over-collateralization）借入资产或提供流动性赚取利息。
 
-### 2.4 聚合器
+#### 超额抵押模型
 
-聚合器从多个 DEX 获取报价，为用户找到最佳交易路径。
+$$Collateral\ Ratio = \frac{Collateral\ Value}{Borrowed\ Value} > Liquidation\ Threshold$$
 
+常见借贷协议：
+
+| 协议 | 特点 |
+|------|------|
+| Aave | 闪电贷（Flash Loans）、利率切换 |
+| Compound | 算法利率、治理代币 COMP |
+| MakerDAO | 超额抵押稳定币 DAI |
+
+## 收益农业 (Yield Farming)
+
+收益农业（Yield Farming 或 Liquidity Mining）是通过向 DeFi 协议提供流动性获取代币奖励的策略。
+
+### 收益来源
+
+```mermaid
+graph TD
+    A[收益来源] --> B[交易手续费]
+    A --> C[治理代币奖励]
+    A --> D[借贷利息]
+    A --> E[协议费用分成]
+    B --> F[年化收益率<br/>APY]
+    C --> F
+    D --> F
+    E --> F
 ```
-1inch 工作流:
-  1. 查询多个 DEX 的报价（Uniswap, SushiSwap, Curve...）
-  2. 路径拆分（大额交易分拆到多个池）
-  3. 返回最优价格
-  4. 用户确认 → 合约路由执行
 
-示例路径:
-  USDC → Curve → DAI → Uniswap → ETH
-  通过多跳找到比直接交易更优的价格
-```
+### APY 计算
 
----
+年化收益率（APY, Annual Percentage Yield）考虑复利效应：
 
-## 三、借贷协议
+$$APY = \left(1 + \frac{r}{n}\right)^n - 1$$
 
-### 3.1 核心机制
+其中 $r$ 为期间利率，$n$ 为复利次数。
 
-| 概念 | 定义 | 示例 |
+## 治理代币 (Governance Tokens)
+
+治理代币赋予持有者对协议参数修改、资金分配等事项的投票权。
+
+| 代币 | 协议 | 功能 |
 |------|------|------|
-| 超额抵押 | 借出资产价值 > 借入资产价值 | 抵押 150 ETH → 借 100 DAI |
-| LTV (Loan-to-Value) | 贷款价值比 | 75% 表示 100 ETH 最多借 75 ETH 等价物 |
-| 清算阈值 | 触发清算的 LTV 上限 | 80% 时触发清算 |
-| 清算罚金 | 清算时额外扣除的比例 | 5-15% |
-| 供给利率 | 存款获得的年化收益 | 动态（取决于资金利用率）|
-| 借款利率 | 借贷支付的年化成本 | 动态 > 供给利率 |
+| UNI | Uniswap | 协议治理、费用开关 |
+| COMP | Compound | 利率模型调整、资产上线 |
+| AAVE | Aave | 风险管理参数、升级提案 |
+| MKR | MakerDAO | 稳定费率调整、紧急关舱 |
 
-### 3.2 利率模型
+## 稳定币 (Stablecoins)
 
-```
-Aave V3 利率模型:
-  资金利用率 U = 已借出 / 总供给
+稳定币是锚定法币（通常美元）价值的加密代币，是 DeFi 的核心流动性基础。
 
-  最优利用率 U_optimal = 一般为 80%
-  当 U < U_optimal:
-    利率 = 基础利率 + U / U_optimal × (最优利率 - 基础利率)
-  当 U >= U_optimal:
-    利率 = 最优利率 + (U - U_optimal) / (1 - U_optimal) × 最大利率
+| 类型 | 代表 | 机制 | 风险 |
+|------|------|------|------|
+| 法币抵押型 | USDT, USDC | 1:1 美元储备 | 中心化信任风险 |
+| 加密资产抵押型 | DAI | 超额链上抵押 | 清算风险、智能合约风险 |
+| 算法型 | UST（已失败） | 算法调节供需 | 脱锚风险极高 |
 
-  关键: 利用率越高，利率越高 → 市场自动平衡
-```
+## 风险与挑战 (Risks and Challenges)
 
-### 3.3 协议对比
+### 智能合约风险
 
-| 特性 | Aave | Compound |
-|------|------|----------|
-| 代币 | AAVE | COMP |
-| 版本 | V3 | V3 |
-| 抵押类型 | 单一/隔离模式 | 单一模式 |
-| 利率模式 | 稳定 + 浮动 | 仅浮动 |
-| 闪电贷 | 支持 | 支持 |
-| 健康因子 | $HF = \frac{\sum 抵押品 \times 清算阈值}{\sum 借款}$ | 类似 |
-
----
-
-## 四、流动性挖矿与收益耕作
-
-流动性挖矿（Liquidity Mining）是通过提供流动性获得协议治理代币奖励的机制。收益耕作（Yield Farming）是在多个协议间优化收益的策略。
-
-```
-流动性挖矿流程:
-  1. 向 DEX 存入 LP (流动性凭证)
-  2. LP 自动赚取交易手续费
-  3. 协议额外发放治理代币奖励
-  4. 可质押 LP 获得更多奖励
-
-收益耕作策略示例:
-  存入 USDC → Aave 借出 ETH → Uniswap 添加 ETH/USDC 池 → 质押 LP 获得 UNI →...
-  每步都产生收益，但也累加风险
-
-风险提示:
-  - 无常损失 (Impermanent Loss)
-  - 智能合约风险
-  - 治理代币价格下跌
-  - Gas 成本（多步操作）
+```mermaid
+graph TD
+    A[智能合约风险] --> B[代码漏洞]
+    A --> C[重入攻击]
+    A --> D[预言机操纵]
+    A --> E[闪电贷攻击]
+    B --> F[资金损失]
+    C --> F
+    D --> F
+    E --> F
 ```
 
-### 无常损失 (Impermanent Loss)
-
-无常损失指 LP 提供的资金与简单持有相比产生的损失，源于 AMM 的自动平衡机制。
-
-```
-示例:
-  初始: 池中有 100 ETH + 200,000 USDC (k = 20,000,000)
-  价格: 1 ETH = 2,000 USDC
-
-  ETH 涨到 4,000 USDC:
-    套利者买入 ETH 直到池重新平衡
-    新池: ~70.7 ETH + ~282,842 USDC
-    LP 提取价值: 70.7 × 4000 + 282,842 = 565,684 USDC
-    持有价值: 100 × 4000 + 200,000 = 600,000 USDC
-    无常损失: ~5.7%
-
-  | 价格变化 | 无常损失 |
-  |----------|----------|
-  | ±25%     | ~0.5%    |
-  | ±50%     | ~2.0%    |
-  | ±75%     | ~4.5%    |
-  | ±100%    | ~5.7%    |
-  | ±200%    | ~13.4%   |
-  | ±300%    | ~20.0%   |
-```
-
----
-
-## 五、稳定币
-
-### 5.1 稳定币分类
-
-| 类型 | 抵押方式 | 代表 | 稳定性 | 风险 |
-|------|----------|------|--------|------|
-| 法币抵押 | 1:1 美元储备 | USDC, USDT, BUSD | 高 | 中心化、审计风险 |
-| 加密抵押 | 超额抵押加密资产 | DAI (MakerDAO) | 中高 | 抵押品波动 |
-| 算法稳定币 | 算法调节供需 | UST (已崩塌) | 低 | **死亡螺旋风险** |
-
-### 5.2 DAI 与 CDP
-
-DAI 是 MakerDAO 发行的去中心化稳定币，通过抵押债仓（Collateralized Debt Position, CDP）生成。
-
-```
-创建 DAI 流程:
-  1. 存入 150 ETH 到 Maker Vault
-  2. 根据抵押率和 ETH/USD 价格，铸造 DAI
-     抵押率 = 150 / (铸造的 DAI 数量)
-     最低抵押率 = 150% → 最多铸造 100 DAI
-
-  3. ETH 价格下跌 → 抵押率下降
-     低于 150% → 触发清算
-     清算罚金: 13%
-
-  稳定费: 每年支付一定比例的 DAI 作为利息
-  治理: MKR 持有者投票调整参数
-
-  DAI 价格稳定机制:
-    当 DAI > $1: 套利者铸造新 DAI 卖出
-    当 DAI < $1: 套利者买入 DAI 偿还债务
-```
-
-### 5.3 UST 崩溃复盘
-
-2022 年 5 月，Terra 生态的算法稳定币 UST 脱锚并归零，造成约 400 亿美元损失。
-
-```
-UST 机制:
-  UST (稳定币)  ↔  LUNA (波动性抵押品)
-  1 UST 始终可通过协议按 $1 兑换为等值 LUNA
-
-崩溃链:
-  1. 巨量 UST 被抛售 (Curve 池失衡)
-  2. 套利者买入 UST → 兑换 LUNA → 卖出 LUNA
-  3. LUNA 价格暴跌 → 更多 UST 恐慌抛售
-  4. 死亡螺旋: UST ↓ → 兑换更多 LUNA → LUNA ↓ → ...
-  5. Anchor (20% 利率) 加速了存款流失
-
-教训:
-  - 算法稳定币缺乏最终支撑
-  - 高收益不可持续（庞氏特征）
-  - 单一抵押品系统性风险
-```
-
----
-
-## 六、衍生品
-
-| 类型 | 描述 | 代表协议 |
-|------|------|----------|
-| 合成资产 | 追踪真实世界资产价格 | Synthetix |
-| 永续合约 | 无到期日的期货 | dYdX, Perpetual Protocol |
-| 期权 | 看涨/看跌期权 | Opyn, Lyra, Ribbon |
-| 预测市场 | 事件结果预测 | Augur, Polymarket |
-
-Synthetix 合成资产：通过超额抵押 SNX 代币，铸造追踪真实资产价格的合成代币（sUSD, sBTC, sETH 等）。
-
-```
-Synthetix 机制:
-  抵押率: 500% (1 sUSD = 0.2 SNX 的抵押)
-  交易: 用户直接在 Synthetix 内交易合成资产
-  无需对手方: 交易在债务池中完成
-  债务池: 所有 SNX 抵押者共同承担系统债务
-```
-
----
-
-## 七、MEV (最大可提取价值)
-
-MEV 是指区块生产者（矿工/验证者）通过重新排序、插入或审查交易提取的价值。
-
-| 类型 | 原理 | 示例 |
-|------|------|------|
-| Frontrunning | 抢在目标交易前执行 | 监控大额买单，提前买入 |
-| Sandwich Attack | 前后夹击目标交易 | 推高价格，目标买入后卖出 |
-| Backrunning | 在目标交易后执行 | 在 DEX 交易后套利 |
-| Liquidations | 抢先执行清算 | 监控借贷协议触发清算 |
-
-```
-Sandwich Attack 流程:
-  1. MEV 机器人检测到用户的买交易 Tx1
-  2. 机器人发起买交易 Tx0（前置，提高价格）
-  3. 用户的 Tx1 在更高价格成交
-  4. 机器人发起卖交易 Tx2（后置，获利）
-
-Flashbots: MEV 中继网络
-  - 允许 MEV 搜索者直接向矿工提交 Bundle
-  - 避免公开 Mempool 的竞争
-  - 部分 MEV 收益回馈给用户（通过 EIP-1559）
-```
-
----
-
-## 八、DeFi 风险总结
+### 其他主要风险
 
 | 风险类型 | 描述 | 缓解措施 |
 |----------|------|----------|
-| 智能合约风险 | 代码漏洞导致资金损失 | 审计、保险、多签 |
-| 预言机风险 | 价格被操纵 | TWAP、去中心化预言机 |
-| 无常损失 | AMM 提供流动性的机会成本 | 选择低波动对 |
-| 清算风险 | 抵押不足被清算 | 维持高抵押率、监控 |
-| 经济风险 | 代币通胀、死亡螺旋 | 理解代币经济模型 |
-| 监管风险 | 政策不确定性 | 合规化、法律咨询 |
-| 闪电贷攻击 | 无抵押借贷操纵市场 | 防操纵价格预言机 |
+| 无常损失 | AMM 中价格波动导致 LP 损失 | 选择相关资产对 |
+| 清算风险 | 抵押品不足被强制清算 | 维持高抵押率 |
+| 治理攻击 | 恶意提案通过投票 | 时间锁、否决权 |
+| 监管不确定性 | 政策变化影响运营 | 合规准备 |
 
----
+## DeFi 生态系统 (DeFi Ecosystem)
 
-## 相关条目
+```mermaid
+graph TB
+    A[DeFi 生态] --> B[基础设施层]
+    A --> C[协议层]
+    A --> D[应用层]
+    A --> E[聚合层]
+    B --> B1[以太坊<br/>Ethereum]
+    B --> B2[Layer 2<br/>Arbitrum/Optimism]
+    C --> C1[DEX]
+    C --> C2[借贷]
+    C --> C3[衍生品]
+    D --> D1[钱包<br/>MetaMask]
+    D --> D2[界面<br/>DeFiSaver]
+    E --> E1[收益聚合器<br/>Yearn]
+    E --> E2[DEX 聚合器<br/>1inch]
+```
 
-- [[Blockchain]]
-- [[SmartContracts]]
-- Economics/Finance
-- [[ConsensusMechanisms]]
+## 未来展望 (Future Outlook)
 
-## 参考资源
+DeFi 正在向以下方向发展：
 
-- Uniswap 白皮书 V2: https://uniswap.org/whitepaper.pdf
-- Uniswap 白皮书 V3: https://uniswap.org/whitepaper-v3.pdf
-- Aave 文档: https://docs.aave.com
-- MakerDAO 文档: https://makerdao.com/en/whitepaper
-- 《DeFi 与金融的未来》— 坎贝尔·哈维
-- Ethereum DeFi: https://ethereum.org/defi
-- MEV Info: https://mev.day
-- Flashbots: https://flashbots.net
+- **跨链互操作（Cross-chain Interoperability）**：多链资产无缝流转
+- **现实世界资产（RWA, Real World Assets）**：链上化传统金融资产
+- **机构级 DeFi（Institutional DeFi）**：合规化、KYC/AML 集成
+- **账户抽象（Account Abstraction）**：改善用户体验
+- **模块化架构**：执行层、结算层、数据可用性层分离
+
+## 参考资源 (References)
+
+- [DeFi Pulse](https://defipulse.com/)
+- [DeFi Llama](https://defillama.com/)
+- [Uniswap Documentation](https://docs.uniswap.org/)
+- [Aave Documentation](https://docs.aave.com/)

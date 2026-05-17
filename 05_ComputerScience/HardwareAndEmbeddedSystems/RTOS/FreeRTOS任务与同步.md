@@ -1,13 +1,13 @@
 ---
 aliases: [FreeRTOS任务与同步]
-tags: ['HardwareAndEmbeddedSystems', 'RTOS', 'FreeRTOS任务与同步']
+tags: ['HardwareAndEmbeddedSystems', 'RTOS', 'FreeRTOS']
 ---
 
-# FreeRTOS任务与同步
+# FreeRTOS 任务与同步
 
-## 一、FreeRTOS概述
+## 一、FreeRTOS 概述
 
-FreeRTOS是专为嵌入式系统设计的实时操作系统内核，2003年由Richard Barry创建。
+FreeRTOS 是专为嵌入式系统设计的实时操作系统内核，2003年由 Richard Barry 创建。
 
 核心特性：
 
@@ -15,16 +15,16 @@ FreeRTOS是专为嵌入式系统设计的实时操作系统内核，2003年由Ri
 |------|------|
 | 内核类型 | 抢占式实时内核 |
 | 调度策略 | 优先级抢占 + 时间片轮转 |
-| 任务数量 | 无理论上限（受ROM/RAM限制）|
-| 最小RAM需求 | 约500字节 |
-| 支持架构 | ARM, AVR, RISC-V, x86等40+架构 |
-| IPC机制 | 队列、信号量、互斥量、事件组、任务通知 |
-| 许可证 | MIT开源 |
+| 任务数量 | 无理论上限（仅由 ROM/RAM 限制） |
+| 最小 RAM 需求 | 约 400 字节 |
+| 支持架构 | ARM, AVR, RISC-V, x86 等 40+ 架构 |
+| IPC 机制 | 队列、信号量、互斥量、事件组、任务通知 |
+| 许可证 | MIT 开源 |
 | 官方版本 | FreeRTOS V10.x / FreeRTOS SMP |
 
 ## 二、任务创建与管理
 
-任务创建API：`xTaskCreate`
+任务创建 API：`xTaskCreate`
 
 ```c
 #include "FreeRTOS.h"
@@ -73,16 +73,21 @@ int main(void) {
 
 任务状态转换：
 
-```
-就绪态 (Ready) <--> 运行态 (Running)
-    |                    |
-    v                    v
-阻塞态 (Blocked)     挂起态 (Suspended)
+```mermaid
+flowchart TD
+    R[就绪态 Ready] -->|调度器选择| RU[运行态 Running]
+    RU -->|时间片用完/抢占| R
+    RU -->|等待事件| B[阻塞态 Blocked]
+    B -->|事件发生| R
+    RU -->|vTaskSuspend| S[挂起态 Suspended]
+    S -->|vTaskResume| R
+    B -->|vTaskSuspend| S
+    S -->|vTaskResume| B
 ```
 
 ## 三、任务优先级与调度
 
-FreeRTOS使用固定优先级抢占式调度：
+FreeRTOS 使用固定优先级抢占式调度：
 
 | 优先级值 | 含义 |
 |----------|------|
@@ -94,7 +99,7 @@ FreeRTOS使用固定优先级抢占式调度：
 
 1. 始终运行最高优先级的就绪任务
 2. 相同优先级任务按时间片轮转
-3. 高优先级任务阻塞后，低优先级任务获得CPU
+3. 高优先级任务阻塞后，低优先级任务获得 CPU
 
 ```c
 // 优先级继承示例
@@ -108,11 +113,9 @@ void vHighPriorityTask(void *pvParameters) {
 }
 ```
 
-`configUSE_TIME_SLICING` 控制时间片轮转，典型时间片为1ms。
-
 ## 四、队列
 
-队列是FreeRTOS中任务间通信的主要机制：
+队列是 FreeRTOS 中任务间通信的主要机制：
 
 ```c
 #include "queue.h"
@@ -149,7 +152,7 @@ int main(void) {
 }
 ```
 
-队列API总结：
+队列 API 总结：
 
 | 函数 | 功能 | 上下文 |
 |------|------|--------|
@@ -162,7 +165,7 @@ int main(void) {
 
 ## 五、信号量
 
-信号量是队列的特殊形式，用于同步和资源管理。
+信号量是队列的特殊形式，用于同步和资源管理：
 
 ```c
 #include "semphr.h"
@@ -189,14 +192,14 @@ void vISR_Handler(void) {
 
 | 类型 | 创建函数 | 初始值 | 用途 |
 |------|----------|--------|------|
-| 二进制信号量 | xSemaphoreCreateBinary | 0 | 事件同步 |
+| 二值信号量 | xSemaphoreCreateBinary | 0 | 事件同步 |
 | 计数信号量 | xSemaphoreCreateCounting | 用户定义 | 资源管理 |
 | 互斥量 | xSemaphoreCreateMutex | 1 | 互斥访问 |
 | 递归互斥量 | xSemaphoreCreateRecursiveMutex | 1 | 递归互斥 |
 
-互斥量与二进制信号量的区别：
+互斥量与二值信号量的区别：
 
-| 特性 | 互斥量 | 二进制信号量 |
+| 特性 | 互斥量 | 二值信号量 |
 |------|--------|-------------|
 | 优先级继承 | 是 | 否 |
 | 递归获取 | 支持（递归互斥量）| 不支持 |
@@ -245,11 +248,11 @@ void vProcessTask(void *pvParameters) {
 }
 ```
 
-事件组优势：可同时等待多个事件、可选择AND/OR条件、不占用额外内存。
+事件组优势：可同时等待多个事件、可选择 AND/OR 条件、不占用额外内存。
 
 ## 七、任务通知
 
-任务通知是FreeRTOS V8.2.0引入的高效IPC机制，每个任务有一个32位通知值。
+任务通知是 FreeRTOS V8.2.0 引入的高效 IPC 机制，每个任务有一个 32 位通知值：
 
 ```c
 void vTaskToNotify(void *pvParameters) {
@@ -277,7 +280,7 @@ void vNotifierTask(void *pvParameters) {
 }
 ```
 
-IPC机制性能对比：
+IPC 机制性能对比：
 
 | 机制 | 传输数据量 | 速度 | 功能丰富度 | 适用场景 |
 |------|-----------|------|-----------|----------|
@@ -325,15 +328,15 @@ void vCreateTimers(void) {
 
 ## 九、内存管理与临界区
 
-FreeRTOS提供5种内存分配方案（heap_1到heap_5）：
+FreeRTOS 提供 5 种内存分配方案（heap_1 到 heap_5）：
 
 | 方案 | 特点 | 适用场景 |
 |------|------|----------|
 | heap_1 | 简单分配，不支持释放 | 从不删除任务 |
 | heap_2 | 最佳匹配，支持释放 | 可变大小分配 |
-| heap_3 | 包装malloc/free | 使用标准库 |
+| heap_3 | 包装 malloc/free | 使用标准库 |
 | heap_4 | 首次匹配，合并碎片 | 通用场景 |
-| heap_5 | 同heap_4，支持非连续堆 | 多内存区域 |
+| heap_5 | 同 heap_4，支持非连续堆 | 多内存区域 |
 
 临界区保护：
 
@@ -357,12 +360,12 @@ taskEXIT_CRITICAL();
 - [[Concurrency]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/Microcontrollers/STM32/INDEX|STM32]]
 
-## 参考资源
+## 参考资料
 
-1. FreeRTOS官方文档：https://www.freertos.org/Documentation
-2. 《FreeRTOS内核实现与应用开发实战》书籍
-3. FreeRTOS V10.x源码及示例
-4. Master强化培训手册（FreeRTOS官方）
-5. STM32CubeMX + FreeRTOS配置指南
-6. Amazon FreeRTOS文档（已更名为FreeRTOS）
-7. FreeRTOS + Tracealyzer可视化分析工具
+1. FreeRTOS 官方文档：https://www.freertos.org/Documentation
+2. 《FreeRTOS 内核实现与应用开发实战》书籍
+3. FreeRTOS V10.x 源码及示例
+4. Master 强化培训手册（FreeRTOS 官方）
+5. STM32CubeMX + FreeRTOS 配置指南
+6. Amazon FreeRTOS 文档（已更名为 FreeRTOS）
+7. FreeRTOS + Tracealyzer 可视化分析工具
