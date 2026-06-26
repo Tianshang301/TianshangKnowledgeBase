@@ -1,6 +1,8 @@
 ---
 aliases: [README]
 tags: ['ArtificialIntelligence', 'README']
+created: 2026-05-16
+updated: 2026-06-27
 ---
 
 # 人工智能 / 机器学习知识索引
@@ -216,7 +218,7 @@ plt.scatter(kmeans.cluster_centers_[:, 0], kmeans.cluster_centers_[:, 1],
 | 随机森林 | 分类/回归 | 高精度、抗过拟合 | 模型大、慢 |
 | SVM | 分类/回归 | 核技巧、高维有效 | 大数据集慢 |
 | KNN | 分类/回归 | 无需训练 | 计算量大、维度灾难 |
-| K-Means | 聚类 | 简单、高效 | 需指定K、球形簇假设 |
+| K-Means | 聚类 | 简单、高效 | 需指定 K、球形簇假设 |
 | 朴素贝叶斯 | 分类 | 极快、小数据有效 | 特征独立假设 |
 
 ---
@@ -663,9 +665,12 @@ with mlflow.start_run():
 ## 相关文件
 
 - [[05_ComputerScience/ArtificialIntelligence/AIEthics/AIEthics]] — AI 伦理
-- [[05_ComputerScience/ArtificialIntelligence/AIEthics/AI安全与对齐]] — AI 安全与对齐
+- [[05_ComputerScience/ArtificialIntelligence/AIEthics/AI 安全与对齐]] — AI 安全与对齐
 - [[05_ComputerScience/ArtificialIntelligence/AIGC/AIGC]] — AIGC 概述
-- [[05_ComputerScience/ArtificialIntelligence/AIGC/AIGC模型架构与应用]] — AIGC 模型架构
+- [[05_ComputerScience/ArtificialIntelligence/AIGC/AIGC 模型架构与应用]] — AIGC 模型架构
+- [[05_ComputerScience/ArtificialIntelligence/AIAgents/AIAgents]] — AI Agent
+- [[05_ComputerScience/ArtificialIntelligence/ModelArchitectures/ModelArchitectures2026]] — 2026模型架构创新
+- [[05_ComputerScience/ArtificialIntelligence/IndustryApplications/IndustryAIApplications]] — 行业AI应用
 - [[05_ComputerScience/ArtificialIntelligence/ComputerVision/ComputerVision]] — 计算机视觉
 - [[05_ComputerScience/ArtificialIntelligence/ComputerVision/图像处理与特征提取]] — 图像处理与特征提取
 - [[05_ComputerScience/ArtificialIntelligence/KnowledgeRepresentation/KnowledgeRepresentation]] — 知识表示
@@ -676,4 +681,4 @@ with mlflow.start_run():
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/NeuralNetworksAndDeepLearning/INDEX]] — 神经网络与深度学习
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/ModelEvaluation/INDEX]] — 模型评估
 - [[05_ComputerScience/ArtificialIntelligence/NaturalLanguageProcessing/NaturalLanguageProcessing]] — 自然语言处理
-- [[05_ComputerScience/ArtificialIntelligence/NaturalLanguageProcessing/序列建模与Transformer]] — 序列建模与 Transformer
+- [[05_ComputerScience/ArtificialIntelligence/NaturalLanguageProcessing/序列建模与 Transformer]] — 序列建模与 Transformer
