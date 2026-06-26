@@ -1,6 +1,8 @@
 ---
 aliases: [Swift]
 tags: ['ProgrammingLanguages', 'Swift', 'Swift']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Swift

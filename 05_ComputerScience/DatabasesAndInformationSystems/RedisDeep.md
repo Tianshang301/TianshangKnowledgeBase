@@ -1,511 +1,585 @@
 ---
-aliases: [RedisDeep]
-tags: ['DatabasesAndInformationSystems', 'RedisDeep']
+aliases: [RedisDeep, Redis深度, Redis数据结构, Redis集群]
+tags: ['05_ComputerScience', 'Databases', 'Redis', 'Cache']
+created: 2026-06-27
+updated: 2026-06-27
 ---
 
-# Redis 缓存与数据结构服务器
+# Redis 深度指南 (Redis Deep Dive)
 
 ## 一、概述
 
-Redis（Remote Dictionary Server）是一个使用 ANSI C 编写的高性能 key-value 内存数据库，支持字符串、哈希、列表、集合、有序集合等丰富的数据结构。
+Redis（Remote Dictionary Server）是一个开源的内存数据结构存储，可用作数据库、缓存和消息中间件。它支持多种数据结构，提供高性能的读写能力。
 
-### 特性
+### 1.1 Redis 特性
 
-| 特性 | 说明 |
+| 特性 | 描述 |
 |------|------|
-| 内存存储 | 所有数据存储在内存中，读写速度极快（~100,000+ ops/sec） |
-| 持久化 | 支持 RDB 快照和 AOF 日志两种持久化方式 |
-| 数据结构丰富 | String、List、Set、Sorted Set、Hash、Bitmap、HyperLogLog、Geo、Stream |
-| 复制 | 主从复制，支持读写分离 |
-| 高可用 | Redis Sentinel 提供自动故障转移 |
-| 分布式 | Redis Cluster 提供数据分片和水平扩展 |
-| Lua 脚本 | 支持在服务器端执行 Lua 脚本 |
-| 事务 | MULTI/EXEC 提供基础事务支持 |
+| **高性能** | 读 110,000 次/秒，写 81,000 次/秒 |
+| **数据结构丰富** | String、Hash、List、Set、Sorted Set 等 |
+| **持久化** | RDB 快照 + AOF 日志 |
+| **高可用** | 主从复制、哨兵、集群 |
+| **原子性** | 单线程模型保证原子操作 |
+| **Lua 脚本** | 支持服务端 Lua 脚本 |
 
 ---
 
 ## 二、数据结构
 
-### String — 字符串
+### 2.1 String（字符串）
 
-最基础的数据类型，value 最大 512MB。
+```bash
+# 基础操作
+SET key value
+GET key
+DEL key
 
-```redis
-SET key "value"
-SET name "zhangsan"
-GET name                          # "zhangsan"
-SET counter 100
-INCR counter                      # 101
-INCRBY counter 5                  # 106
-DECR counter                      # 105
-SETEX session:token 3600 "abc123"  # 设置带过期时间的 key
-SETNX lock:1 "locked"             # 不存在才设置（分布式锁基础）
-MSET k1 v1 k2 v2                  # 批量设置
-MGET k1 k2                        # 批量获取
-GETSET name "lisi"                # 获取旧值，设置新值
-STRLEN name                       # 获取字符串长度
-APPEND name " hello"              # 追加字符串
+# 设置过期时间
+SETEX key 60 value  # 60秒过期
+SET key value EX 60
+
+# 不存在时设置
+SETNX key value
+
+# 批量操作
+MSET key1 value1 key2 value2
+MGET key1 key2
+
+# 计数器
+INCR counter
+INCRBY counter 10
+DECR counter
+
+# 追加
+APPEND key "suffix"
+
+# 位操作
+SETBIT key 10 1
+GETBIT key 10
+BITCOUNT key
 ```
 
-### List — 列表
+### 2.2 Hash（哈希表）
 
-基于双向链表实现，适合消息队列、最新消息列表。
+```bash
+# 基础操作
+HSET user:1 name "John" age 30
+HGET user:1 name
+HGETALL user:1
 
-```redis
-LPUSH queue "task1"              # 左端插入
-RPUSH queue "task2"              # 右端插入
-LPOP queue                       # 左端弹出
-RPOP queue                       # 右端弹出
-LRANGE queue 0 -1               # 获取全部元素
-LLEN queue                       # 列表长度
-LINDEX queue 0                  # 获取指定位置元素
-LTRIM queue 0 99                # 截取列表（保留前100个）
-BLPOP queue 5                   # 阻塞式左弹出（超时5秒）
+# 批量操作
+HMSET user:1 name "John" age 30 email "john@example.com"
+HMGET user:1 name age
+
+# 字段操作
+HDEL user:1 age
+HEXISTS user:1 name
+HLEN user:1
+
+# 计数器
+HINCRBY user:1 age 1
+
+# 所有字段和值
+HKEYS user:1
+HVALS user:1
 ```
 
-### Set — 集合
+### 2.3 List（列表）
 
-无序、去重，支持集合运算。
+```bash
+# 基础操作
+LPUSH queue task1 task2
+RPUSH queue task3
+LPOP queue
+RPOP queue
 
-```redis
-SADD tags "redis" "database" "nosql"  # 添加元素
-SMEMBERS tags                         # 获取所有元素
-SISMEMBER tags "redis"                # 判断是否存在
-SCARD tags                            # 集合大小
-SREM tags "nosql"                     # 删除元素
-SPOP tags 2                           # 随机弹出2个元素
+# 范围查询
+LRANGE queue 0 -1  # 所有元素
+LRANGE queue 0 9   # 前10个
 
-SINTER set1 set2                      # 交集
-SUNION set1 set2                      # 并集
-SDIFF set1 set2                       # 差集
+# 阻塞操作
+BLPOP queue 30  # 阻塞30秒
+BRPOP queue 30
 
-# 应用：共同关注
-SADD user:1:follow "A" "B" "C"
-SADD user:2:follow "B" "C" "D"
-SINTER user:1:follow user:2:follow    # 共同关注：B, C
+# 长度
+LLEN queue
+
+# 索引操作
+LINDEX queue 0
+LSET queue 0 "new_value"
+
+# 裁剪
+LTRIM queue 0 99  # 保留前100个
 ```
 
-### Sorted Set — 有序集合
+### 2.4 Set（集合）
 
-每个元素关联一个 score，按 score 排序。
+```bash
+# 基础操作
+SADD tags python javascript
+SMEMBERS tags
+SISMEMBER tags python
 
-```redis
-ZADD leaderboard 100 "player1" 200 "player2" 150 "player3"
-ZRANGE leaderboard 0 -1 WITHSCORES         # 升序
-ZREVRANGE leaderboard 0 -1 WITHSCORES      # 降序
-ZINCRBY leaderboard 50 "player1"           # 加分
-ZRANK leaderboard "player1"                # 排名（从0开始）
-ZSCORE leaderboard "player1"              # 获取分数
-ZREM leaderboard "player3"                # 删除元素
-ZCOUNT leaderboard 100 200                # 统计分数区间内元素数
-ZREVRANK leaderboard "player1"            # 降序排名
+# 集合运算
+SADD tags1 python java
+SADD tags2 python javascript
+SINTER tags1 tags2    # 交集
+SUNION tags1 tags2    # 并集
+SDIFF tags1 tags2     # 差集
 
-# 应用：排行榜
-ZINCRBY daily:revenue "shop_1" 1500       # 每日收入排行
+# 随机元素
+SRANDMEMBER tags 2  # 随机2个
+SPOP tags           # 随机弹出
+
+# 大小
+SCARD tags
 ```
 
-### Hash — 哈希
+### 2.5 Sorted Set（有序集合）
 
-适合存储对象，类似 Map。
+```bash
+# 基础操作
+ZADD leaderboard 100 "player1"
+ZADD leaderboard 200 "player2"
+ZADD leaderboard 150 "player3"
 
-```redis
-HSET user:1001 name "zhangsan" age 25 city "beijing"
-HGET user:1001 name                       # "zhangsan"
-HGETALL user:1001                         # 获取所有字段
-HMGET user:1001 name age                  # 获取多个字段
-HINCRBY user:1001 age 1                   # age 自增
-HDEL user:1001 city                       # 删除字段
-HEXISTS user:1001 email                   # 检查字段是否存在
-HKEYS user:1001                           # 获取所有字段名
-HVALS user:1001                           # 获取所有字段值
-HLEN user:1001                            # 字段数量
+# 范围查询
+ZRANGE leaderboard 0 -1 WITHSCORES
+ZREVRANGE leaderboard 0 9 WITHSCORES  # 前10名
+
+# 分数操作
+ZSCORE leaderboard "player1"
+ZINCRBY leaderboard 50 "player1"
+
+# 排名
+ZRANK leaderboard "player1"       # 升序排名
+ZREVRANK leaderboard "player1"    # 降序排名
+
+# 范围查询
+ZRANGEBYSCORE leaderboard 100 200
+ZCOUNT leaderboard 100 200
+
+# 大小
+ZCARD leaderboard
 ```
 
-### Bitmap — 位图
+### 2.6 HyperLogLog
 
-基于 String 的位操作，适合签到、活跃用户统计。
-
-```redis
-SETBIT user:sign:202401 0 1               # 1号签到
-SETBIT user:sign:202401 1 1               # 2号签到
-GETBIT user:sign:202401 0                 # 获取1号签到状态
-BITCOUNT user:sign:202401                 # 统计签到天数
-BITOP AND result bitmap1 bitmap2          # 位运算
-
-# 应用：日活跃用户（以 user_id 为偏移位）
-SETBIT dau:2024-06-01 100 1               # user_id 100 在 6月1日 活跃
-SETBIT dau:2024-06-01 200 1               # user_id 200 在 6月1日 活跃
-BITCOUNT dau:2024-06-01                   # 统计 6月1日 活跃用户数
+```bash
+# 基数统计（近似）
+PFADD unique_visitors "user1" "user2" "user3"
+PFCOUNT unique_visitors
+PFMERGE total_visitors unique_visitors1 unique_visitors2
 ```
 
-### HyperLogLog — 基数统计
+### 2.7 Bitmap
 
-用于大数据量的去重计数，误差约 0.81%，每个 key 仅占用 12KB。
-
-```redis
-PFADD unique:visitors:today "ip1" "ip2" "ip3" "ip1"
-PFCOUNT unique:visitors:today              # 结果：3（去重后）
-PFMERGE result visitors:day1 visitors:day2
+```bash
+# 用户签到
+SETBIT sign:user1:2026-06 26 1  # 6月27日签到
+GETBIT sign:user1:2026-06 26
+BITCOUNT sign:user1:2026-06      # 本月签到天数
 ```
 
-### Geo — 地理位置
+### 2.8 Geo
 
-```redis
-GEOADD cities 116.40 39.90 "beijing"
-GEOADD cities 121.47 31.23 "shanghai"
-GEOADD cities 113.27 23.13 "guangzhou"
+```bash
+# 地理位置
+GEOADD locations 116.4074 39.9042 "beijing"
+GEOADD locations 121.4737 31.2304 "shanghai"
 
-GEODIST cities beijing shanghai km         # 两地距离
-GEORADIUS cities 116.40 39.90 1000 km      # 北京周围1000km内的城市
-GEORADIUSBYMEMBER cities beijing 1500 km WITHCOORD WITHDIST
+# 距离计算
+GEODIST locations "beijing" "shanghai" km
+
+# 附近位置
+GEOSEARCH locations FROMLONLAT 116.4074 39.9042 BYRADIUS 100 km
 ```
 
-### Stream — 消息流
+### 2.9 Stream
 
-Redis 5.0 引入，支持消息持久化和消费组。
+```bash
+# 添加消息
+XADD mystream * name "John" age 30
+XADD mystream * name "Jane" age 25
 
-```redis
-# 生产者
-XADD mystream * sensor-id 1234 temperature 19.8
-XADD mystream MAXLEN ~ 10000 * sensor-id 5678 temperature 21.0
-
-# 消费者
+# 读取消息
 XRANGE mystream - +
-XREAD COUNT 10 STREAMS mystream 0
+XREVRANGE mystream + -
 
-# 消费组
-XGROUP CREATE mystream mygroup $
-XREADGROUP GROUP mygroup consumer1 COUNT 1 STREAMS mystream >
-XACK mystream mygroup message-id
-XPENDING mystream mygroup
+# 消费者组
+XGROUP CREATE mystream mygroup 0
+XREADGROUP GROUP mygroup consumer1 COUNT 10 BLOCK 5000 STREAMS mystream >
+
+# 确认消息
+XACK mystream mygroup 1234567890
 ```
 
 ---
 
 ## 三、持久化
 
-### RDB（默认）
+### 3.1 RDB 快照
 
-```redis
-# redis.conf
-save 900 1          # 900秒内有1次变更则快照
-save 300 10         # 300秒内有10次变更则快照
-save 60 10000       # 60秒内有10000次变更则快照
-dbfilename dump.rdb
-dir /var/lib/redis
+```bash
+# redis.conf 配置
+save 900 1      # 900秒内至少1个key变化
+save 300 10     # 300秒内至少10个key变化
+save 60 10000   # 60秒内至少10000个key变化
+
+# 手动触发
+SAVE      # 同步保存（阻塞）
+BGSAVE    # 后台保存（非阻塞）
 ```
 
+**RDB 优缺点**：
 | 优点 | 缺点 |
 |------|------|
 | 文件紧凑，适合备份 | 可能丢失最后一次快照后的数据 |
-| 恢复速度快 | 数据量大时 fork 可能阻塞 |
-| 适合灾难恢复 | |
+| 恢复速度快 | 大数据集保存时可能阻塞 |
+| 对性能影响小 | fork 子进程消耗内存 |
 
-### AOF
+### 3.2 AOF 日志
 
-```redis
-# redis.conf
+```bash
+# redis.conf 配置
 appendonly yes
-appendfilename "appendonly.aof"
-appendfsync everysec    # 可选：always / everysec / no
+appendfsync always     # 每次写入都同步
+appendfsync everysec   # 每秒同步（推荐）
+appendfsync no         # 由操作系统决定
+
+# AOF 重写
 auto-aof-rewrite-percentage 100
 auto-aof-rewrite-min-size 64mb
 ```
 
+**AOF 优缺点**：
 | 优点 | 缺点 |
 |------|------|
-| 数据更安全（最多丢1秒） | AOF 文件通常比 RDB 大 |
-| AOF 重写可压缩 | 恢复速度比 RDB 慢 |
-| 日志格式可读 | |
+| 数据安全性高 | 文件体积大 |
+| 可读性好 | 恢复速度慢 |
+| 可以误操作 | 写入性能略低 |
 
-### RDB + AOF 混合（Redis 4.0+）
+### 3.3 混合持久化
 
-```redis
+```bash
+# redis.conf 配置
 aof-use-rdb-preamble yes
 ```
 
-同时开启时，AOF 重写使用 RDB 格式作为前缀，兼具 RDB 的恢复速度和 AOF 的数据安全性。
-
 ---
 
-## 四、复制
+## 四、高可用
 
-### 主从复制
+### 4.1 主从复制
 
-```redis
-# 从库配置
-replicaof master_ip 6379
-replica-read-only yes
+```bash
+# 从节点配置
+replicaof 192.168.1.1 6379
+masterauth "password"
 
-# 或运行时
-SLAVEOF master_ip 6379   # 6.2+ 推荐 REPLICAOF
+# 查看复制信息
+INFO replication
 ```
 
-**复制过程**：
-1. 从库发送 SYNC/PSYNC 命令
-2. 主库执行 BGSAVE 生成 RDB 快照
-3. 主库将 RDB 发送给从库
-4. 从库加载 RDB
-5. 主库将持续推送增量命令给从库
+### 4.2 哨兵（Sentinel）
 
-### Redis Sentinel
-
-```redis
+```bash
 # sentinel.conf
-sentinel monitor mymaster 127.0.0.1 6379 2
+sentinel monitor mymaster 192.168.1.1 6379 2
 sentinel down-after-milliseconds mymaster 5000
+sentinel failover-timeout mymaster 60000
 sentinel parallel-syncs mymaster 1
-sentinel failover-timeout mymaster 15000
+
+# 启动哨兵
+redis-sentinel sentinel.conf
 ```
+
+### 4.3 Redis Cluster
 
 ```bash
-redis-sentinel /path/to/sentinel.conf
-```
-
-### 读写分离
-
-```
-应用层 → Sentinel → 获取主库/从库地址
-                  → 写请求发往 Master
-                  → 读请求发往 Replica
-```
-
----
-
-## 五、集群
-
-### Redis Cluster
-
-```redis
-# redis.conf
-cluster-enabled yes
-cluster-config-file nodes.conf
-cluster-node-timeout 5000
-```
-
-```bash
-# 创建集群（6个节点，3主3从）
-redis-cli --cluster create \
-    127.0.0.1:7000 127.0.0.1:7001 127.0.0.1:7002 \
-    127.0.0.1:7003 127.0.0.1:7004 127.0.0.1:7005 \
+# 创建集群
+redis-cli --cluster create 192.168.1.1:6379 192.168.1.2:6379 192.168.1.3:6379 \
+    192.168.1.4:6379 192.168.1.5:6379 192.168.1.6:6379 \
     --cluster-replicas 1
 
-# 集群命令
-redis-cli -c -p 7000              # -c 表示集群模式
-CLUSTER INFO                       # 集群状态
-CLUSTER NODES                      # 节点信息
-CLUSTER KEYSLOT keyname            # 查看 key 的哈希槽
-```
+# 集群信息
+CLUSTER INFO
+CLUSTER NODES
 
-### 哈希槽
+# 添加节点
+redis-cli --cluster add-node 192.168.1.7:6379 192.168.1.1:6379
 
-Redis Cluster 将 key 空间分为 **16384 个哈希槽**：
-
-```text
-HASH_SLOT = CRC16(key) % 16384
-```
-
-**分区方式**：
-
-```redis
-# 使用 hash tag 确保相关 key 在同一节点
-user:{1001}:profile
-user:{1001}:orders
+# 重新分片
+redis-cli --cluster reshard 192.168.1.1:6379
 ```
 
 ---
 
-## 六、常见使用场景
+## 五、Lua 脚本
 
-### 缓存
+### 5.1 基础使用
 
-```redis
-# 缓存数据库查询结果
-SETEX user:info:1001 3600 '{"name":"zhangsan","age":25}'
+```bash
+# 执行 Lua 脚本
+EVAL "return redis.call('GET', KEYS[1])" 1 mykey
 
-# 缓存穿透防护（缓存空值）
-SETEX empty:product:9999 60 "null"
+# 带参数
+EVAL "return redis.call('SET', KEYS[1], ARGV[1])" 1 mykey myvalue
 
-# 缓存雪崩防护（过期时间加随机值）
-SETEX cache:key 3600+RANDOM(0,300) "value"
+# 脚本缓存
+SCRIPT LOAD "return redis.call('GET', KEYS[1])"
+EVALSHA <sha1> 1 mykey
 ```
 
-### 限流
+### 5.2 分布式锁
 
-```redis
-# 简单限流：每分钟最多100次
-INCR rate:limit:user:1001
-EXPIRE rate:limit:user:1001 60
-
-# 滑动窗口限流（使用 ZSET）
-ZREM range:limit:user:1001 BYSCORE 0 (NOW - 60
-ZADD range:limit:user:1001 NOW NOW
-ZCOUNT range:limit:user:1001 -inf +inf
-# 超过阈值则拒绝
-```
-
-### 分布式锁
-
-```redis
-# Redlock 简易实现
-SET lock:resource1 "instance1" NX EX 10    # 获取锁，10秒自动释放
-
-# 释放锁（使用 Lua 保证原子性）
+```bash
+# 加锁脚本
 EVAL "
-    if redis.call('get', KEYS[1]) == ARGV[1] then
-        return redis.call('del', KEYS[1])
+    if redis.call('SET', KEYS[1], ARGV[1], 'NX', 'PX', ARGV[2]) then
+        return 1
     else
         return 0
     end
-" 1 lock:resource1 instance1
+" 1 lock_key unique_id 30000
+
+# 解锁脚本
+EVAL "
+    if redis.call('GET', KEYS[1]) == ARGV[1] then
+        return redis.call('DEL', KEYS[1])
+    else
+        return 0
+    end
+" 1 lock_key unique_id
 ```
 
-### 消息队列
+### 5.3 限流器
 
-```redis
-# List 实现简单队列
-RPUSH task:queue "task_data"
-BLPOP task:queue 0
-
-# Stream 实现可靠消息队列
-XGROUP CREATE task:stream consumer-group $
-XREADGROUP GROUP consumer-group consumer-1 COUNT 1 task:stream >
-XACK task:stream consumer-group message-id
-```
-
-### 排行榜
-
-```redis
-# 游戏排行榜
-ZADD game:scores 1500 "player_1001"
-ZADD game:scores 2000 "player_1002"
-ZADD game:scores 1800 "player_1003"
-ZREVRANGE game:scores 0 9 WITHSCORES     # Top 10
-```
-
-### Session 存储
-
-```redis
-# 分布式 Session
-SETEX session:token:abc123 86400 '{"user_id":1001,"role":"admin"}'
-GET session:token:abc123
+```bash
+# 滑动窗口限流
+EVAL "
+    local key = KEYS[1]
+    local limit = tonumber(ARGV[1])
+    local window = tonumber(ARGV[2])
+    local now = tonumber(ARGV[3])
+    
+    -- 移除过期请求
+    redis.call('ZREMRANGEBYSCORE', key, 0, now - window)
+    
+    -- 统计当前请求数
+    local count = redis.call('ZCARD', key)
+    
+    if count < limit then
+        -- 添加当前请求
+        redis.call('ZADD', key, now, now .. '-' .. math.random())
+        redis.call('EXPIRE', key, window)
+        return 1
+    else
+        return 0
+    end
+" 1 rate:api 100 60 1624857600
 ```
 
 ---
 
-## 七、过期与淘汰策略
+## 六、Redis 应用模式
 
-### 过期策略
+### 6.1 缓存模式
 
-| 策略 | 说明 |
-|------|------|
-| 定期删除 | 每100ms随机抽取20个key，删除其中过期的 |
-| 惰性删除 | 访问 key 时才检查是否过期 |
-| 定时删除 | 为每个过期 key 创建定时器（不常用） |
+```python
+import redis
+import json
 
-### 淘汰策略
-
-```redis
-# redis.conf
-maxmemory 4gb
-maxmemory-policy allkeys-lru
+class RedisCache:
+    def __init__(self, host='localhost', port=6379, db=0):
+        self.redis = redis.Redis(host=host, port=port, db=db)
+    
+    def get(self, key):
+        value = self.redis.get(key)
+        if value:
+            return json.loads(value)
+        return None
+    
+    def set(self, key, value, ttl=300):
+        self.redis.setex(key, ttl, json.dumps(value))
+    
+    def delete(self, key):
+        self.redis.delete(key)
+    
+    def get_or_set(self, key, factory, ttl=300):
+        value = self.get(key)
+        if value is None:
+            value = factory()
+            self.set(key, value, ttl)
+        return value
 ```
 
-| 策略 | 说明 |
-|------|------|
-| noeviction | 不淘汰，写入返回错误 |
-| allkeys-lru | 对所有 key 使用 LRU |
-| allkeys-lfu | 对所有 key 使用 LFU |
-| volatile-lru | 对过期集合中的 key 使用 LRU |
-| volatile-lfu | 对过期集合中的 key 使用 LFU |
-| volatile-ttl | 淘汰即将过期的 key |
-| volatile-random | 随机淘汰过期集合中的 key |
-| allkeys-random | 随机淘汰任意 key |
+### 6.2 分布式锁
+
+```python
+import redis
+import uuid
+import time
+
+class DistributedLock:
+    def __init__(self, redis_client, key, ttl=30):
+        self.redis = redis_client
+        self.key = f"lock:{key}"
+        self.ttl = ttl
+        self.token = str(uuid.uuid4())
+    
+    def acquire(self, timeout=10):
+        start = time.time()
+        while time.time() - start < timeout:
+            if self.redis.set(self.key, self.token, nx=True, px=self.ttl * 1000):
+                return True
+            time.sleep(0.1)
+        return False
+    
+    def release(self):
+        script = """
+        if redis.call('GET', KEYS[1]) == ARGV[1] then
+            return redis.call('DEL', KEYS[1])
+        else
+            return 0
+        end
+        """
+        self.redis.eval(script, 1, self.key, self.token)
+    
+    def __enter__(self):
+        self.acquire()
+        return self
+    
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self.release()
+
+# 使用
+redis_client = redis.Redis()
+with DistributedLock(redis_client, "my_resource"):
+    # 临界区代码
+    pass
+```
+
+### 6.3 限流器
+
+```python
+import redis
+import time
+
+class RedisRateLimiter:
+    def __init__(self, redis_client, key, max_requests, window_seconds):
+        self.redis = redis_client
+        self.key = f"rate:{key}"
+        self.max_requests = max_requests
+        self.window_seconds = window_seconds
+    
+    def allow(self):
+        now = time.time()
+        script = """
+        local key = KEYS[1]
+        local limit = tonumber(ARGV[1])
+        local window = tonumber(ARGV[2])
+        local now = tonumber(ARGV[3])
+        
+        redis.call('ZREMRANGEBYSCORE', key, 0, now - window)
+        local count = redis.call('ZCARD', key)
+        
+        if count < limit then
+            redis.call('ZADD', key, now, now)
+            redis.call('EXPIRE', key, window)
+            return 1
+        else
+            return 0
+        end
+        """
+        result = self.redis.eval(script, 1, self.key, self.max_requests, self.window_seconds, now)
+        return result == 1
+```
+
+### 6.4 发布订阅
+
+```python
+import redis
+
+class RedisPubSub:
+    def __init__(self, redis_client):
+        self.redis = redis_client
+        self.pubsub = self.redis.pubsub()
+    
+    def subscribe(self, channel, callback):
+        self.pubsub.subscribe(channel)
+        for message in self.pubsub.listen():
+            if message['type'] == 'message':
+                callback(message['data'])
+    
+    def publish(self, channel, message):
+        self.redis.publish(channel, message)
+
+# 使用
+redis_client = redis.Redis()
+pubsub = RedisPubSub(redis_client)
+
+# 订阅者
+def handler(message):
+    print(f"Received: {message}")
+
+pubsub.subscribe("my_channel", handler)
+
+# 发布者
+pubsub.publish("my_channel", "Hello World")
+```
 
 ---
 
-## 八、Lua 脚本
+## 七、Redis 性能优化
 
-```lua
--- 扣减库存脚本
-local key = KEYS[1]
-local qty = tonumber(ARGV[1])
+### 7.1 连接池
 
-local stock = redis.call('GET', key)
-if not stock then
-    return -1  -- 不存在
-end
+```python
+import redis
 
-if tonumber(stock) < qty then
-    return 0   -- 库存不足
-end
+pool = redis.ConnectionPool(
+    host='localhost',
+    port=6379,
+    db=0,
+    max_connections=100,
+    decode_responses=True
+)
 
-redis.call('DECRBY', key, qty)
-return 1       -- 成功
+redis_client = redis.Redis(connection_pool=pool)
 ```
 
-```redis
-EVAL "script" 1 stock:product:1001 2
-EVALSHA <sha1> 1 stock:product:1001 2  -- 缓存脚本后使用 SHA 调用
-SCRIPT LOAD "script"                    -- 加载脚本，返回 SHA
-SCRIPT EXISTS <sha1>
-SCRIPT FLUSH
+### 7.2 Pipeline
+
+```python
+pipe = redis_client.pipeline()
+
+for i in range(10000):
+    pipe.set(f"key:{i}", f"value:{i}")
+
+pipe.execute()  # 批量执行
 ```
 
-## 九、性能优化
+### 7.3 批量操作
 
-```ini
-# redis.conf 性能优化参数
+```python
+# MSET 比循环 SET 快
+redis_client.mset({f"key:{i}": f"value:{i}" for i in range(1000)})
 
-# 网络
-tcp-backlog 511
-timeout 300
-tcp-keepalive 300
-
-# 内存
-maxmemory 4gb
-maxmemory-policy allkeys-lru
-activedefrag yes                       # 主动碎片整理
-
-# 持久化
-save ""                                # 从库关闭持久化
-stop-writes-on-bgsave-error no
-
-# 慢查询
-slowlog-log-slower-than 10000          # 微秒
-slowlog-max-len 128
-
-# 连接
-maxclients 10000
+# MGET 比循环 GET 快
+values = redis_client.mget([f"key:{i}" for i in range(1000)])
 ```
 
-### 监控命令
-
-```redis
-INFO                     # 全面信息
-INFO memory              # 内存使用
-INFO stats               # 统计信息
-INFO commandstats        # 命令执行统计
-SLOWLOG GET 10           # 最近10条慢查询
-CLIENT LIST              # 客户端列表
-MONITOR                  # 实时监控（生产慎用）
-```
-
-### 性能建议
-
-| 建议 | 说明 |
-|------|------|
-| pipeline | 批量操作减少 RTT |
-| 连接池 | 复用连接，避免频繁创建 |
-| 大 key 拆分 | 单个 string 不超过 10KB，Hash 不超过 1000 字段 |
-| 合理过期时间 | 避免大量 key 同时过期 |
-| 从库持久化 | 主库关闭持久化提高性能，从库开启 |
-| 禁用危险命令 | `rename-command FLUSHALL ""` |
+---
 
 ## 相关条目
 
-- [[NoSQL]]
-- [[Optimization]]
-- [[MongoDBDeep]]
-- [[分布式数据库与NewSQL]]
-- [[Transaction]]
+- [[DatabasesAndInformationSystems]]
+- [[MessageQueues]]
+- [[HighConcurrencyDesign]]
+
+## 参考资源
+
+1. Redis. "Documentation." redis.io
+2. Redis. "Redis University." university.redis.com
+3. Carlson, J. "Redis in Action." Manning, 2013

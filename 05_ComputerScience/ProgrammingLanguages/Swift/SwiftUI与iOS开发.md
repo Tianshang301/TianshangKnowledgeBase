@@ -1,13 +1,13 @@
 ---
-aliases: [SwiftUI与iOS开发]
-tags: ['ProgrammingLanguages', 'Swift', 'SwiftUI与iOS开发']
+aliases: [SwiftUI 与 iOS 开发]
+tags: ['ProgrammingLanguages', 'Swift', 'SwiftUI 与 iOS 开发']
 ---
 
-# SwiftUI与iOS开发
+# SwiftUI 与 iOS 开发
 
-## 一、Swift语言基础
+## 一、Swift 语言基础
 
-Swift是Apple于2014年推出的编程语言，结合了现代语言特性与Objective-C的运行时能力。
+Swift 是 Apple 于2014年推出的编程语言，结合了现代语言特性与 Objective-C 的运行时能力。
 
 ```swift
 // 基本语法
@@ -38,23 +38,23 @@ extension String: Drawable {
 }
 ```
 
-Swift版本演进：
+Swift 版本演进：
 
 | 版本 | 年份 | 关键特性 |
 |------|------|----------|
 | Swift 1.0 | 2014 | 初始发布 |
 | Swift 2.0 | 2015 | Error handling, guard |
-| Swift 3.0 | 2016 | API命名规范统一 |
-| Swift 4.0 | 2017 | Codable, String改进 |
-| Swift 5.0 | 2019 | ABI稳定, Module稳定性 |
+| Swift 3.0 | 2016 | API 命名规范统一 |
+| Swift 4.0 | 2017 | Codable, String 改进 |
+| Swift 5.0 | 2019 | ABI 稳定, Module 稳定性 |
 | Swift 5.5 | 2021 | async/await, Actor |
 | Swift 5.9 | 2023 | 宏系统, 所有权 |
 
-## 二、SwiftUI声明式UI
+## 二、SwiftUI 声明式 UI
 
-SwiftUI是Apple的声明式UI框架，2019年随iOS 13发布。
+SwiftUI 是 Apple 的声明式 UI 框架，2019年随 iOS 13发布。
 
-核心概念：View是UI的基本构建块，通过组合和修饰器构建界面。
+核心概念：View 是 UI 的基本构建块，通过组合和修饰器构建界面。
 
 ```swift
 import SwiftUI
@@ -106,13 +106,13 @@ struct ContentView: View {
 
 ## 三、布局与容器
 
-SwiftUI布局系统基于三个核心容器：
+SwiftUI 布局系统基于三个核心容器：
 
 | 容器 | 方向 | 对齐 | 间距 | 适用场景 |
 |------|------|------|------|----------|
 | VStack | 垂直 | 水平对齐 | 垂直间距 | 列表式布局 |
 | HStack | 水平 | 垂直对齐 | 水平间距 | 行式布局 |
-| ZStack | Z轴叠放 | 齐 | 无间距 | 叠加效果 |
+| ZStack | Z 轴叠放 | 齐 | 无间距 | 叠加效果 |
 
 ```swift
 struct LayoutDemo: View {
@@ -140,7 +140,7 @@ struct LayoutDemo: View {
             .background(Color(.systemGray6))
             .cornerRadius(12)
 
-            // 使用GeometryReader自适应布局
+            // 使用 GeometryReader 自适应布局
             GeometryReader { geo in
                 HStack(spacing: 0) {
                     Rectangle()
@@ -160,7 +160,7 @@ struct LayoutDemo: View {
 
 ## 四、数据流与状态管理
 
-SwiftUI的数据驱动模型：
+SwiftUI 的数据驱动模型：
 
 ```swift
 // @State: 视图私有状态
@@ -205,9 +205,9 @@ struct AppView: View {
 }
 ```
 
-Property Wrapper对比：
+Property Wrapper 对比：
 
-| 包装器 | 所有权 | 生命周期 | 触发UI更新 | 用途 |
+| 包装器 | 所有权 | 生命周期 | 触发 UI 更新 | 用途 |
 |--------|--------|----------|-----------|------|
 | @State | 视图私有 | 视图生命周期 | 是 | 简单值类型 |
 | @Binding | 共享引用 | 源视图生命周期 | 是 | 传递状态 |
@@ -338,7 +338,7 @@ struct UserListView: View {
 }
 ```
 
-## 七、Core Data持久化
+## 七、Core Data 持久化
 
 ```swift
 import CoreData
@@ -370,7 +370,7 @@ class Category {
     }
 }
 
-// SwiftUI集成
+// SwiftUI 集成
 struct TaskListView: View {
     @Environment(\.modelContext) private var modelContext
     @Query(sort: \Task.dueDate, order: .forward) private var tasks: [Task]
@@ -472,7 +472,7 @@ final class UserViewModelTests: XCTestCase {
     }
 }
 
-// UI测试
+// UI 测试
 final class AppUITests: XCTestCase {
     let app = XCUIApplication()
 
@@ -497,10 +497,10 @@ final class AppUITests: XCTestCase {
 
 ## 参考资源
 
-1. Apple SwiftUI文档：https://developer.apple.com/documentation/swiftui
-2. 《Swift编程》第6版
-3. Hacking with Swift教程：https://www.hackingwithswift.com
-4. Swift官方文档：https://docs.swift.org
-5. Swift UI设计指南：Apple HIG
-6. WWDC SwiftUI相关视频
-7. Point-Free函数式Swift教程
+1. Apple SwiftUI 文档：https://developer.apple.com/documentation/swiftui
+2. 《Swift 编程》第6版
+3. Hacking with Swift 教程：https://www.hackingwithswift.com
+4. Swift 官方文档：https://docs.swift.org
+5. Swift UI 设计指南：Apple HIG
+6. WWDC SwiftUI 相关视频
+7. Point-Free 函数式 Swift 教程
