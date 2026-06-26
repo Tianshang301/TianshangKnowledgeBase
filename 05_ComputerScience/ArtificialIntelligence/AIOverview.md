@@ -125,6 +125,8 @@ graph TD
 - **迁移学习**（Transfer Learning）：在预训练模型基础上进行微调（Fine-tuning）
 - **提示工程**（Prompt Engineering）：通过精心设计的提示词引导大模型输出
 
+> **详细训练流程**：参见 [[AITrainingWorkflows|AI 训练工作流]]，涵盖数据采集、清洗、标注、GPU 加速、分布式训练和 MLOps 等完整流程。
+
 ## 5. 主要应用领域 (Applications)
 
 ### 5.1 医疗健康 (Healthcare)
