@@ -1,6 +1,8 @@
 ---
 aliases: [DrugDesign, 药物设计, 合理药物设计, RationalDrugDesign]
 tags: ['09_MedicineAndHealth', 'Pharmacy', 'MedicinalChemistry', 'DrugDiscovery']
+created: 2026-05-17
+updated: 2026-06-27
 ---
 
 # 药物设计
@@ -233,6 +235,96 @@ graph LR
     D --> I[毒性预测]
     D --> J[靶点亲和力预测]
 ```
+
+## AI 药物发现最新进展（2024-2026）
+
+### AlphaFold 3 与蛋白质结构预测
+
+| 模型 | 开发商 | 发布时间 | 核心能力 |
+|------|--------|---------|---------|
+| **AlphaFold 3** | Google DeepMind | 2024.05 | 预测蛋白质、DNA、RNA、小分子等所有生命分子结构 |
+| **AlphaFold 3 开源** | Google DeepMind | 2024.11 | 发布推理代码、模型权重和按需服务器 |
+| **Boltz-1** | MIT | 2024.11 | 首个达到 AlphaFold 3 精度的开源模型 |
+| **Protenix-v1** | ByteDance | 2026.02 | 全面复现 AlphaFold 3，开源代码 |
+| **RhoFold+** | 社区 | 2024.11 | RNA 3D 结构预测深度学习框架 |
+
+**AlphaFold 3 核心突破**：
+- 从蛋白质扩展到所有生命分子（蛋白质、DNA、RNA、小分子、离子）
+- 使用扩散模型（Diffusion Model）替代 AlphaFold 2 的结构模块
+- 预测精度比 AlphaFold 2 提升 50% 以上
+
+### AI 驱动的药物发现平台
+
+| 平台 | 公司 | 核心技术 | 代表成果 |
+|------|------|---------|---------|
+| **Insilico Medicine** | Insilico | 生成化学 + 靶点发现 | 全球首个 AI 发现药物进入 II 期临床 |
+| **Recursion Pharmaceuticals** | Recursion | 细胞图像分析 + 大规模表型筛选 | 收购 Cyclica 和 Valence Discovery |
+| **Exscientia** | Exscientia | 精密药物设计 | 首个 AI 设计药物进入人体临床 |
+| **Isomorphic Labs** | Google DeepMind | AlphaFold + 药物发现 | 与 Eli Lilly、Novartis 合作 |
+| **AbSci** | AbSci | 从头设计抗体 | 使用生成式 AI 设计新抗体 |
+
+### AI 药物发现关键里程碑
+
+| 时间 | 事件 | 意义 |
+|------|------|------|
+| 2024.05 | AlphaFold 3 发布 | 扩展到所有生命分子结构预测 |
+| 2024.11 | AlphaFold 3 开源 | 代码和权重公开，加速研究 |
+| 2024.11 | Boltz-1 发布 | 首个开源 AlphaFold 3 级别模型 |
+| 2025 | Insilico Medicine II 期临床 | 全球首个 AI 发现药物进入关键临床阶段 |
+| 2026.02 | ByteDance Protenix-v1 | 字节跳动进入 AI 药物发现领域 |
+
+### mRNA 疗法与疫苗技术
+
+| 技术 | 应用 | 代表产品 | 状态 |
+|------|------|---------|------|
+| **mRNA 疫苗** | 传染病预防 | Comirnaty (Pfizer), Spikevax (Moderna) | 已获批 |
+| **mRNA 癌症疫苗** | 个性化癌症治疗 | mRNA-4157 (Moderna + Merck) | III 期临床 |
+| **mRNA 蛋白替代** | 罕见病治疗 | mRNA-3927 (Moderna) | 临床试验 |
+| **自扩增 mRNA** | 降低剂量 | ARCT-154 (Arcturus) | 已获批（日本） |
+
+**mRNA 技术优势**：
+- 开发周期短：从序列到疫苗仅需数周
+- 易于修改：快速应对病毒变异
+- 无基因组整合风险：比 DNA 疗法更安全
+- 可编码任何蛋白质：应用范围广泛
+
+### 基因编辑疗法最新进展
+
+| 疗法 | 技术 | 适应症 | 状态 |
+|------|------|--------|------|
+| **Casgevy** | CRISPR-Cas9 | 镰状细胞病、β-地中海贫血 | 2023年获批（全球首个） |
+| **Lyfgenia** | 慢病毒载体 | 镰状细胞病 | 2023年获批 |
+| **Base Editing 疗法** | 碱基编辑 | 高胆固醇血症 | 临床试验 |
+| **Prime Editing 疗法** | 先导编辑 | 多种遗传病 | 临床前/早期临床 |
+
+**CRISPR 技术演进**：
+$$
+\text{CRISPR-Cas9} \rightarrow \text{Base Editing} \rightarrow \text{Prime Editing} \rightarrow \text{Epigenome Editing}
+$$
+
+### GLP-1 受体激动剂革命
+
+| 药物 | 公司 | 适应症 | 2024-2026 进展 |
+|------|------|--------|---------------|
+| **司美格鲁肽 (Semaglutide)** | Novo Nordisk | 糖尿病、肥胖 | 心血管获益证实，肾病适应症获批 |
+| **替尔泊肽 (Tirzepatide)** | Eli Lilly | 糖尿病、肥胖 | 双靶点（GLP-1/GIP），减重效果更优 |
+| **口服 GLP-1** | 多家公司 | 糖尿病、肥胖 | 口服制剂开发中 |
+| **Survodutide** | Boehringer Ingelheim | 肥胖、MASH | GLP-1/胰高血糖素双靶点 |
+
+**GLP-1 药物市场爆发**：
+- 2024年全球销售额超过 500 亿美元
+- 适应症从糖尿病扩展到肥胖、心血管疾病、肾病、MASH
+- 被《Science》评为 2023 年度突破
+
+### CAR-T 细胞疗法进展
+
+| 产品 | 公司 | 适应症 | 最新进展 |
+|------|------|--------|---------|
+| **奕凯达 (阿基仑赛)** | 复星凯特 | 大 B 细胞淋巴瘤 | 中国首个 CAR-T 产品 |
+| **倍诺达 (瑞基奥仑赛)** | 药明巨诺 | 大 B 细胞淋巴瘤 | 中国第二个 CAR-T |
+| **Abecma** | BMS | 多发性骨髓瘤 | BCMA 靶点 |
+| **Carvykti** | J&J | 多发性骨髓瘤 | BCMA 靶点，早期线使用 |
+| **通用型 CAR-T** | 多家公司 | 多种血液肿瘤 | 异体 CAR-T，降低成本 |
 
 ## 药物设计面临的挑战
 
