@@ -20,6 +20,7 @@ updated: 2026-05-16
 - [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/Plasticity|Plasticity]]
 - [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/SolidMechanics|SolidMechanics]]
 - [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringThermophysics/Thermodynamics|Thermodynamics]]
-- [[../INDEX]]
+- [[INDEX]]
+
 
 

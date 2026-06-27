@@ -18,7 +18,7 @@ updated: 2026-05-17
 - [[01_K12/JuniorHigh/Geography/PhysicalGeography|PhysicalGeography]]
 - [[02_NaturalSciences/EarthSciences/RegionalGeography|RegionalGeography]]
 - [[02_NaturalSciences/EarthSciences/UrbanGeography|UrbanGeography]]
-> **瀵艰埅**锛歔[../INDEX]] | [[../History/INDEX]] | [[../Anthropology/INDEX]]
+> **瀵艰埅**锛歔[../INDEX]] | [[History/INDEX]] | [[Anthropology/INDEX]]
 - [[浜烘枃鍦扮悊瀛]
 - [[鑷劧鍦扮悊瀛]
 
@@ -149,6 +149,7 @@ updated: 2026-05-17
 - [[GIS遥感与地图学]]
 - [[人文地理学]]
 - [[自然地理学]]
+
 
 
 

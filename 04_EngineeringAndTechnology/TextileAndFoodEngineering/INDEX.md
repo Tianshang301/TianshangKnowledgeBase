@@ -15,5 +15,6 @@ updated: 2026-05-16
 - [[04_EngineeringAndTechnology/TextileAndFoodEngineering/Biotechnology/INDEX]]
 - [[04_EngineeringAndTechnology/TextileAndFoodEngineering/FoodScience/INDEX]]
 - [[04_EngineeringAndTechnology/TextileAndFoodEngineering/TextileScience/INDEX]]
-- [[../INDEX]]
+- [[INDEX]]
+
 

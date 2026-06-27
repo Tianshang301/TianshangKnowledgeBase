@@ -14,5 +14,6 @@ updated: 2026-05-16
 - [[04_EngineeringAndTechnology/MetallurgicalEngineering/ExtractiveMetallurgy/INDEX]]
 - [[04_EngineeringAndTechnology/MetallurgicalEngineering/MaterialsProcessing/INDEX]]
 - [[04_EngineeringAndTechnology/MetallurgicalEngineering/PhysicalMetallurgy/INDEX]]
-- [[../INDEX]]
+- [[INDEX]]
+
 

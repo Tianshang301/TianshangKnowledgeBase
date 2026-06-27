@@ -22,6 +22,7 @@ updated: 2026-05-16
 - [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringMathematics/EngineeringStatistics|EngineeringStatistics]]
 - [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/SystemsEngineering/SystemsEngineering|SystemsEngineering]]
 - [[04_EngineeringAndTechnology/CivilEngineering/TechnicalDrawing|TechnicalDrawing]]
-- [[../INDEX]]
+- [[INDEX]]
+
 
 

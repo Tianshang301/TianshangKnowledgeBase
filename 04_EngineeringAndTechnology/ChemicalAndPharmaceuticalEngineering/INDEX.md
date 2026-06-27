@@ -21,6 +21,7 @@ updated: 2026-05-16
 - [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/ChemicalEngineering/ReactionEngineering|ReactionEngineering]]
 - [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/ChemicalEngineering/SeparationProcesses|SeparationProcesses]]
 - [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/ChemicalEngineering/TransportPhenomena|TransportPhenomena]]
-- [[../INDEX]]
+- [[INDEX]]
+
 
 

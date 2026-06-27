@@ -15,5 +15,6 @@ updated: 2026-05-16
 - [[04_EngineeringAndTechnology/Biotechnologies/EnzymeEngineering/INDEX]]
 - [[04_EngineeringAndTechnology/Biotechnologies/FermentationEngineering/INDEX]]
 - [[04_EngineeringAndTechnology/Biotechnologies/GeneticEngineering/INDEX]]
-- [[../INDEX]]
+- [[INDEX]]
+
 

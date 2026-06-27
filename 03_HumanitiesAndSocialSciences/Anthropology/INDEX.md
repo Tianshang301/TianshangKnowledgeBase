@@ -16,7 +16,7 @@ updated: 2026-05-17
 - [[03_HumanitiesAndSocialSciences/EthnicStudies/CulturalAnthropology/CulturalAnthropology|CulturalAnthropology]]
 - [[PhysicalAnthropology]]
 - [[03_HumanitiesAndSocialSciences/Sociology/SocialAnthropology|SocialAnthropology]]
-> **瀵艰埅**锛歔[../INDEX]] | [[../Archaeology/INDEX]] | [[../Sociology/INDEX]] | [[../Linguistics/INDEX]]
+> **瀵艰埅**锛歔[../INDEX]] | [[Archaeology/INDEX]] | [[Sociology/INDEX]] | [[Linguistics/INDEX]]
 - [[鏂囧寲浜虹被瀛]
 
 ## 娣卞叆闃呰涓庢墿灞曞垎鏋?
@@ -147,6 +147,7 @@ updated: 2026-05-17
 - [[亲属制度与全球化]]
 - [[体质人类学与考古学]]
 - [[文化人类学]]
+
 
 
 

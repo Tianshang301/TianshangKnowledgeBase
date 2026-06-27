@@ -20,11 +20,12 @@ updated: 2026-05-16
 - [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/ElectricalEngineering/PowerElectronics|PowerElectronics]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/Robotics/Robotics|Robotics]]
 - [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/MechanicalEngineering/Thermofluids|Thermofluids]]
-- [[../INDEX]]
+- [[INDEX]]
 - [[InstrumentScience/INDEX|InstrumentScience]]
 - [[MechanicalEngineering/INDEX|MechanicalEngineering]]
 - [[OpticalEngineering/INDEX|OpticalEngineering]]
 - [[PowerEngineering/INDEX|PowerEngineering]]
+
 
 
 

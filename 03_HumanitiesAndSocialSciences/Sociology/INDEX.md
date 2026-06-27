@@ -22,7 +22,7 @@ updated: 2026-05-17
 - [[03_HumanitiesAndSocialSciences/Psychology/SocialPsychology/INDEX]]
 - [[SocialStratification]]
 - [[03_HumanitiesAndSocialSciences/Sociology/UrbanSociology/INDEX]]
-> **瀵艰埅**锛歔[../INDEX]] | [[../Anthropology/INDEX]] | [[../PoliticalScience/INDEX]] | [[../Economics/INDEX]]
+> **瀵艰埅**锛歔[../INDEX]] | [[Anthropology/INDEX]] | [[PoliticalScience/INDEX]] | [[Economics/INDEX]]
 - [[绀句細瀛︾悊璁篯]
 
 ## 娣卞叆闃呰涓庢墿灞曞垎鏋?
@@ -156,5 +156,6 @@ updated: 2026-05-17
 - [[社会结构与社会制度]]
 - [[Ethnology/INDEX|Ethnology]]
 - [[SociologicalTheory/INDEX|SociologicalTheory]]
+
 
 

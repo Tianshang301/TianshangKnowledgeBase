@@ -16,5 +16,6 @@ updated: 2026-05-16
 - [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalEngineering/INDEX]]
 - [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/ResourceScience/INDEX]]
 - [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/SafetyScience/INDEX]]
-- [[../INDEX]]
+- [[INDEX]]
+
 

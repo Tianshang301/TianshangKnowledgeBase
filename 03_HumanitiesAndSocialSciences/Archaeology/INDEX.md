@@ -21,7 +21,7 @@ updated: 2026-05-17
 - [[03_HumanitiesAndSocialSciences/History/Archaeology/ArchaeologicalTheory|ArchaeologicalTheory]]
 - [[03_HumanitiesAndSocialSciences/History/Archaeology/ChineseArchaeology|ChineseArchaeology]]
 - [[03_HumanitiesAndSocialSciences/History/Archaeology/WorldArchaeology|WorldArchaeology]]
-> **瀵艰埅**锛歔[../INDEX]] | [[../History/INDEX]] | [[../Anthropology/INDEX]]
+> **瀵艰埅**锛歔[../INDEX]] | [[History/INDEX]] | [[Anthropology/INDEX]]
 
 ## 娣卞叆闃呰涓庢墿灞曞垎鏋?
 璇ラ鍩熺殑鐭ヨ瘑浣撶郴缁忚繃闀挎湡绉疮宸茬浉褰撲赴瀵屻€?
@@ -153,6 +153,7 @@ updated: 2026-05-17
 - [[HistoricalArchaeology/INDEX|HistoricalArchaeology]]
 - [[PrehistoricArchaeology/INDEX|PrehistoricArchaeology]]
 - [[UnderwaterArchaeology/INDEX|UnderwaterArchaeology]]
+
 
 
 

@@ -15,5 +15,6 @@ updated: 2026-05-16
 - [[04_EngineeringAndTechnology/GeologicalAndMiningEngineering/GeologicalEngineering/INDEX]]
 - [[04_EngineeringAndTechnology/GeologicalAndMiningEngineering/MiningEngineering/INDEX]]
 - [[04_EngineeringAndTechnology/GeologicalAndMiningEngineering/PetroleumEngineering/INDEX]]
-- [[../INDEX]]
+- [[INDEX]]
+
 

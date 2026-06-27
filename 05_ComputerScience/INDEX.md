@@ -188,4 +188,5 @@ updated: 2026-06-27
 - [[05_ComputerScience/ModelContextProtocol/MCPSecurityAndPatterns]] - MCP 瀹夊叏涓庢ā寮?
 - [[LearningPath]]
 - [[AIOverview]]
+- [[InformationTheory/INDEX|InformationTheory]]
 

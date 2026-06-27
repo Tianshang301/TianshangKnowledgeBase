@@ -19,11 +19,12 @@ updated: 2026-05-16
 - [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/RobustControl|RobustControl]]
 - [[SignalProcessing]]
 - [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/SystemIdentification|SystemIdentification]]
-- [[../INDEX]]
+- [[INDEX]]
 - [[Automation/INDEX|Automation]]
 - [[ControlTheory/INDEX|ControlTheory]]
 - [[Robotics/INDEX|Robotics]]
 - [[SystemsEngineering/INDEX|SystemsEngineering]]
 - [[ControlAndSystemsEngineering/HumanoidRobotics/HumanoidRobotics|HumanoidRobotics]]
+
 
 

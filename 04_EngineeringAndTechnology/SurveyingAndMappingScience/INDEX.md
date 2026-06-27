@@ -16,5 +16,6 @@ updated: 2026-05-16
 - [[04_EngineeringAndTechnology/SurveyingAndMappingScience/Geodesy/INDEX]]
 - [[04_EngineeringAndTechnology/SurveyingAndMappingScience/Photogrammetry/INDEX]]
 - [[04_EngineeringAndTechnology/SurveyingAndMappingScience/RemoteSensing/INDEX]]
-- [[../INDEX]]
+- [[INDEX]]
+
 

@@ -5,12 +5,12 @@ updated: 2026-05-17---
 
 # WesternPhilosophy
 
-鏈储寮曟眹闆嗕簡 WesternPhilosophy 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 > 璇︾粏鍐呭璇疯 [[WesternPhilosophyHistory]]銆? **瀵艰埅**锛歔[../INDEX]] | [[../Eastern/INDEX]]銆佽タ鏂瑰摬瀛﹀彶 绛夊唴瀹广€?
+鏈储寮曟眹闆嗕簡 WesternPhilosophy 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 > 璇︾粏鍐呭璇疯 [[WesternPhilosophyHistory]]銆? **瀵艰埅**锛歔[../INDEX]] | [[Eastern/INDEX]]銆佽タ鏂瑰摬瀛﹀彶 绛夊唴瀹广€?
 
 ## 鏂囦欢
 
 > 璇︾粏鍐呭璇疯 [[WesternPhilosophyHistory]]
-> **瀵艰埅**锛歔[../INDEX]] [[../Eastern/INDEX]]
+> **瀵艰埅**锛歔[../INDEX]] [[Eastern/INDEX]]
 - [[瑗挎柟鍝插鍙瞉]
 
 ## 娣卞叆闃呰涓庢墿灞曞垎鏋?
@@ -138,5 +138,6 @@ updated: 2026-05-17---
 ## 鐩稿叧鏉＄洰
 - [[INDEX|褰撳墠鐩綍绱㈠紩]]
 - [[西方哲学史]]
+
 
 

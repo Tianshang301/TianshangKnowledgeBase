@@ -14,7 +14,8 @@ updated: 2026-05-16
 - [[04_EngineeringAndTechnology/EnergyAndNuclearEngineering/EnergyScience/INDEX]]
 - [[04_EngineeringAndTechnology/EnergyAndNuclearEngineering/NuclearEngineering/INDEX]]
 - [[04_EngineeringAndTechnology/EnergyAndNuclearEngineering/RenewableEnergy/INDEX]]
-- [[../INDEX]]
+- [[INDEX]]
 - [[RenewableEnergy2026]]
+
 
 
