@@ -1,6 +1,8 @@
 ---
 aliases: [Regression]
 tags: ['Mathematics', 'ProbabilityStatistics', 'Regression']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 回归分析
@@ -35,7 +37,7 @@ OLS 解：
 
 $$\hat{\boldsymbol{\beta}} = (X^T X)^{-1} X^T \mathbf{y}$$
 
-### ANOVA表
+### ANOVA 表
 
 | 来源 | 平方和 | 自由度 | 均方 | $F$ |
 |:---|:---:|:---:|:---:|:---:|

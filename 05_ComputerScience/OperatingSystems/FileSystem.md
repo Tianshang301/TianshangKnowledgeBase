@@ -1,6 +1,8 @@
 ---
 aliases: [FileSystem]
 tags: ['OperatingSystems', 'FileSystem']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 文件系统详解 (File System)
@@ -14,32 +16,32 @@ tags: ['OperatingSystems', 'FileSystem']
 | 属性 | 说明 |
 |------|------|
 | **Name** | 文件名（仅用户可读） |
-| **Identifier** | inode号（仅系统可读的唯一标识） |
+| **Identifier** | inode 号（仅系统可读的唯一标识） |
 | **Type** | 普通文件、目录、链接等 |
 | **Location** | 指向存储设备位置的指针 |
 | **Size** | 当前大小（字节） |
 | **Protection** | 读写执行权限 |
 | **Timestamps** | 创建、修改、访问时间 |
-| **Ownership** | 用户ID、组ID |
+| **Ownership** | 用户 ID、组 ID |
 
 ### 文件操作
 
 | 操作 | POSIX API | 描述 |
 |------|-----------|------|
 | 创建 | `creat()` | 创建空文件 |
-| 打开 | `open()` | 打开文件获取fd |
+| 打开 | `open()` | 打开文件获取 fd |
 | 读 | `read()` | 从文件读取数据 |
 | 写 | `write()` | 写入数据到文件 |
 | 定位 | `lseek()` | 移动文件位置指针 |
-| 关闭 | `close()` | 关闭fd释放资源 |
-| 删除 | `unlink()` | 删除文件名和inode链接 |
+| 关闭 | `close()` | 关闭 fd 释放资源 |
+| 删除 | `unlink()` | 删除文件名和 inode 链接 |
 | 截断 | `ftruncate()` | 截断文件到指定长度 |
 | 重命名 | `rename()` | 修改文件名 |
-| 复制 | 无系统调用 | cp命令实现 |
+| 复制 | 无系统调用 | cp 命令实现 |
 
 ### 文件类型
 
-| 类型 | Linux表示 | 示例 |
+| 类型 | Linux 表示 | 示例 |
 |------|-----------|------|
 | 普通文件 | `-` | 文本、二进制、可执行 |
 | 目录 | `d` | 包含其他文件的索引 |
@@ -66,9 +68,9 @@ skip backward  → 指针后退
 ### 直接访问 (Direct Access / Random Access)
 
 ```
-read n    → 直接读取第n块
-write n   → 直接写入第n块
-seek(n)   → 指针定位到第n块
+read n    → 直接读取第 n 块
+write n   → 直接写入第 n 块
+seek(n)   → 指针定位到第 n 块
 ```
 
 磁盘设备典型使用此方法。
@@ -161,8 +163,8 @@ chdir("/home/user");        // 更改目录
    ├──→ /shared/doc.md     (硬链接)
    
 // 创建链接
-ln doc.md hardlink         // 硬链接 (同一inode)
-ln -s doc.md softlink      // 符号链接 (不同inode)
+ln doc.md hardlink         // 硬链接 (同一 inode)
+ln -s doc.md softlink      // 符号链接 (不同 inode)
 ```
 
 ### 3.5 通用图 (General Graph)
@@ -188,10 +190,10 @@ ln -s doc.md softlink      // 符号链接 (不同inode)
 ```
 
 ```bash
-# Linux挂载命令
-mount /dev/sdb1 /mnt/usb       # 挂载USB设备
+# Linux 挂载命令
+mount /dev/sdb1 /mnt/usb       # 挂载 USB 设备
 mount -t ext4 /dev/sda2 /data  # 指定文件系统类型
-mount -o loop image.iso /mnt/iso  # 挂载ISO镜像
+mount -o loop image.iso /mnt/iso  # 挂载 ISO 镜像
 umount /mnt/usb                # 卸载
 ```
 
@@ -217,11 +219,11 @@ proc       /proc      proc  defaults  0  0
 
 | 区域 | 功能 |
 |------|------|
-| **Boot Block** | 引导代码（MBR或GPT） |
-| **Super Block** | 文件系统元信息（块大小、inode数量、空闲块数等） |
-| **Inode Bitmap** | inode使用情况位图 |
+| **Boot Block** | 引导代码（MBR 或 GPT） |
+| **Super Block** | 文件系统元信息（块大小、inode 数量、空闲块数等） |
+| **Inode Bitmap** | inode 使用情况位图 |
 | **Data Bitmap** | 数据块使用情况位图 |
-| **Inode Table** | inode数组（每个文件/目录一个inode） |
+| **Inode Table** | inode 数组（每个文件/目录一个 inode） |
 | **Data Blocks** | 文件内容、目录项 |
 
 ### Inode (Index Node)
@@ -229,13 +231,13 @@ proc       /proc      proc  defaults  0  0
 ```c
 struct ext4_inode {
     __u16   i_mode;        // 文件类型和权限
-    __u16   i_uid;         // 用户ID
+    __u16   i_uid;         // 用户 ID
     __u32   i_size;        // 文件大小
     __u32   i_atime;       // 访问时间
-    __u32   i_ctime;       // 创建/修改inode时间
+    __u32   i_ctime;       // 创建/修改 inode 时间
     __u32   i_mtime;       // 修改文件内容时间
     __u32   i_dtime;       // 删除时间
-    __u16   i_gid;         // 组ID
+    __u16   i_gid;         // 组 ID
     __u16   i_links_count; // 硬链接数
     __u32   i_blocks;      // 占用块数
     __u32   i_flags;       // 文件标志
@@ -269,7 +271,7 @@ inode.i_block[15]:
 - 三级: 1024³ × 4KB = 4TB
 
 ```bash
-# 查看inode信息
+# 查看 inode 信息
 stat file.txt
 # 输出示例:
 #   File: file.txt
@@ -285,10 +287,10 @@ stat file.txt
 ### 6.1 连续分配 (Contiguous)
 
 ```
-文件A: 块0-3
-文件B: 块4-6
-文件C: 块7-10
-文件D: 块11-12
+文件 A: 块0-3
+文件 B: 块4-6
+文件 C: 块7-10
+文件 D: 块11-12
 
 ┌──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┐
 │ A│ A│ A│ A│ B│ B│ B│ C│ C│ C│ C│ D│ D│
@@ -306,7 +308,7 @@ stat file.txt
 文件数据块用指针链接。
 
 ```
-文件A: 块4 → 块7 → 块2 → 块9
+文件 A: 块4 → 块7 → 块2 → 块9
 目录项: [文件名, 指向起始块]
 
 ┌──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┬──┐
@@ -327,7 +329,7 @@ stat file.txt
 **文件分配表 (FAT):**
 
 ```
-FAT表:
+FAT 表:
 索引: 0   1   2   3   4   5   6   7   8   9
 内容: -1  -1   7   6   9   0  -1   4   2  -1   (EOF=-1, free=0)
 
@@ -341,7 +343,7 @@ FAT表:
 将所有块指针集中到索引块。
 
 ```
-文件A索引块(块3):
+文件 A 索引块(块3):
 ┌──────┐
 │[4]   │ → 数据块4
 │[7]   │ → 数据块7
@@ -379,14 +381,14 @@ ext4_extent[1]:
   ee_start = 1128
 ```
 
-大文件使用树形extent结构。
+大文件使用树形 extent 结构。
 
 ## 7. 空闲空间管理 (Free Space Management)
 
 ### 7.1 位图 (Bitmap)
 
 ```
-每个块用1bit表示: 1=已用, 0=空闲
+每个块用1bit 表示: 1=已用, 0=空闲
 
 ┌─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┬─┐
 │1│1│1│1│1│0│1│1│0│0│1│1│1│0│0│0│
@@ -395,7 +397,7 @@ ext4_extent[1]:
            空闲    空闲       空闲
 ```
 
-优点: 空间效率高(1个4KB块可管理128K个块=512MB)
+优点: 空间效率高(1个4KB 块可管理128K 个块=512MB)
 缺点: 大文件系统需大位图
 
 ### 7.2 链表 (Linked List)
@@ -416,7 +418,7 @@ ext4_extent[1]:
 
 ### 7.3 组 (Grouping / FFS-style)
 
-将n个空闲块地址存储在一个空闲块中，类似索引。
+将 n 个空闲块地址存储在一个空闲块中，类似索引。
 
 ### 7.4 ext4 使用 flex_bg + 位图
 
@@ -489,7 +491,7 @@ ext4_extent[1]:
 
 ### 8.5 LOOK / C-LOOK
 
-SCAN/C-SCAN的改进: 到达最后一个请求即反向, 不必到磁盘边缘。
+SCAN/C-SCAN 的改进: 到达最后一个请求即反向, 不必到磁盘边缘。
 
 ```
 LOOK (增大):

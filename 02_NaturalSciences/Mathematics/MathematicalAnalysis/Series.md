@@ -10,6 +10,8 @@ aliases:
   - Fourier Series
   - 泰勒级数
 tags:
+created: 2026-05-17
+updated: 2026-05-13
   - mathematics
   - series
   - convergence

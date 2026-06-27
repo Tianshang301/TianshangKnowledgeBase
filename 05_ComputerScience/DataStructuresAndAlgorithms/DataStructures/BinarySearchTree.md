@@ -1,6 +1,8 @@
 ---
 aliases: [BinarySearchTree]
 tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'BinarySearchTree']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 二叉搜索树 BST

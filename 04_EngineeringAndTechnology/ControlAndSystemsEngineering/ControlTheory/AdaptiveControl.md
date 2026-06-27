@@ -1,6 +1,8 @@
 ---
 aliases: [AdaptiveControl]
 tags: ['04_EngineeringAndTechnology', 'ControlAndSystemsEngineering', 'ControlTheory', 'AdaptiveControl']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 自适应控制

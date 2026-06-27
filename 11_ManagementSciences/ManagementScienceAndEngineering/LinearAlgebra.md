@@ -1,6 +1,8 @@
 ---
 aliases: [LinearAlgebra, 线性代数, 向量空间, 矩阵论]
 tags: ['11_ManagementSciences', 'ManagementScienceAndEngineering', 'Mathematics']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 线性代数 (Linear Algebra)

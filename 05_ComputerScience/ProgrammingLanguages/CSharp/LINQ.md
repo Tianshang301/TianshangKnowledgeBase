@@ -1,6 +1,8 @@
 ---
 aliases: [LINQ]
 tags: ['ProgrammingLanguages', 'CSharp', 'LINQ']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # LINQ 深入

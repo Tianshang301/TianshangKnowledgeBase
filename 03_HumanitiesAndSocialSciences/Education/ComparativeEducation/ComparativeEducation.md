@@ -1,6 +1,8 @@
 ---
 aliases: [ComparativeEducation]
 tags: ['Education', 'ComparativeEducation', 'ComparativeEducation']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 比较教育学
@@ -77,19 +79,19 @@ $$\text{教育成就} = f(\text{努力程度}, \text{家庭投入}, \text{补习
 - **公学（Public School）**：私立精英教育，如伊顿、哈罗
 - **学院学校（Academy）**：公立资助、独立运营，不受地方教育当局直接控制
 - **国家课程**（National Curriculum）：1988年设立统一课程标准
-- **OFSTED督导**：通过外部评估保障教育质量
+- **OFSTED 督导**：通过外部评估保障教育质量
 
 ## 三、国际评估与比较
 
-### 3.1 PISA国际学生评估项目
+### 3.1 PISA 国际学生评估项目
 
-PISA（Programme for International Student Assessment）由OECD组织，每三年评估15岁学生在**阅读**、**数学**和**科学**方面的素养。
+PISA（Programme for International Student Assessment）由 OECD 组织，每三年评估15岁学生在**阅读**、**数学**和**科学**方面的素养。
 
-PISA评估框架：
+PISA 评估框架：
 
 $$\text{素养} = \frac{\text{知识} + \text{技能}}{\text{在真实情境中的应用能力}}$$
 
-PISA结果对各国教育政策产生深远影响，引发"PISA冲击"（PISA Shock），推动教育改革。
+PISA 结果对各国教育政策产生深远影响，引发"PISA 冲击"（PISA Shock），推动教育改革。
 
 ### 3.2 其他国际评估
 
@@ -111,7 +113,7 @@ PISA结果对各国教育政策产生深远影响，引发"PISA冲击"（PISA Sh
 - **完全学校五日制**：取消周六上课
 
 **结果与反思**：
-- PISA排名下降引发"教育崩溃"担忧
+- PISA 排名下降引发"教育崩溃"担忧
 - 2010年代转向"脱宽松教育"，恢复部分传统内容
 - 启示：课程改革需在"宽松"与"扎实"间寻求平衡
 
@@ -152,9 +154,9 @@ NCLB（2001年）核心要求：
 全球化推动教育要素跨境流动：
 
 - **学生流动**：国际学生数量持续增长，2020年超过600万
-- **课程国际化**：IB课程、跨国合作办学
+- **课程国际化**：IB 课程、跨国合作办学
 - **资格互认**：学历学位互认协议
-- **教育服务贸易**：GATS框架下的教育服务开放
+- **教育服务贸易**：GATS 框架下的教育服务开放
 
 ### 5.2 人才流动：流失与增益
 

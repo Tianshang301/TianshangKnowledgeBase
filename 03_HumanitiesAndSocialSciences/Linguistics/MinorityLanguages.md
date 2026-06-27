@@ -6,6 +6,8 @@ aliases:
   - Language Preservation
   - Linguistic Diversity
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - linguistics
   - minority_languages
   - language_preservation

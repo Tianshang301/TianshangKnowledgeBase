@@ -1,6 +1,8 @@
 ---
 aliases: [Reactions]
 tags: ['JuniorHigh', 'Chemistry', 'Reactions']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 化学反应
@@ -76,13 +78,13 @@ tags: ['JuniorHigh', 'Chemistry', 'Reactions']
 ### 计算步骤
 1. **设**：写出配平的化学方程式
 2. **找**：找出已知量和未知量
-3. **设**：设未知量为x
+3. **设**：设未知量为 x
 4. **列**：根据化学方程式列出比例式
 5. **解**：求解
 6. **答**：写出答案
 ### 示例
 ```
-实验室用过氧化氢制取氧气，如果要制取3.2g氧气，需要过氧化氢的质量是多少？
+实验室用过氧化氢制取氧气，如果要制取3.2g 氧气，需要过氧化氢的质量是多少？
 
 解：
 2H₂O₂ → 2H₂O + O₂↑
@@ -107,10 +109,10 @@ K Ca Na Mg Al Zn Fe Sn Pb (H) Cu Hg Ag Pt Au
 ### 应用
 ```
 判断下列反应能否发生：
-1. Fe + CuSO₄ → ?  （能，Fe在Cu前面）
-2. Cu + FeSO₄ → ?  （不能，Cu在Fe后面）
-3. Zn + HCl → ?    （能，Zn在H前面）
-4. Cu + HCl → ?    （不能，Cu在H后面）
+1. Fe + CuSO₄ → ?  （能，Fe 在 Cu 前面）
+2. Cu + FeSO₄ → ?  （不能，Cu 在 Fe 后面）
+3. Zn + HCl → ?    （能，Zn 在 H 前面）
+4. Cu + HCl → ?    （不能，Cu 在 H 后面）
 ```
 
 ## 酸碱盐的性质

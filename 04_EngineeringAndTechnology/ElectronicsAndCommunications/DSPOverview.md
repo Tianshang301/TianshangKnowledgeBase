@@ -1,6 +1,8 @@
 ---
 aliases: [DigitalSignalProcessing, DSP, 数字信号处理, 信号处理]
 tags: ['04_EngineeringAndTechnology', 'ElectronicsAndCommunications', 'SignalProcessing', 'DSP']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 数字信号处理概论
@@ -74,7 +76,7 @@ $$ N\text{-点 DFT} \xrightarrow{\text{分治}} 2 \times (N/2)\text{-点 DFT} + 
 
 ```mermaid
 graph TD
-    subgraph FFT蝶形运算
+    subgraph FFT 蝶形运算
     A[x[0]] --> C[+]
     B[x[4]] --> D[× W_N^k]
     D --> E[-]

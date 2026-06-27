@@ -1,6 +1,8 @@
 ---
 aliases: [Communication]
 tags: ['JournalismAndCommunication', 'Communication', 'Communication']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 传播学
@@ -41,7 +43,7 @@ $$
 | 解码器 | 将信号还原为信息 | 解码错误 |
 | 信宿 | 接收并解释信息 | 理解偏差 |
 
-### 2.2 拉斯韦尔5W模式
+### 2.2 拉斯韦尔5W 模式
 
 $$
 \text{Who} \rightarrow \text{Says What} \rightarrow \text{In Which Channel} \rightarrow \text{To Whom} \rightarrow \text{With What Effect}
@@ -63,7 +65,7 @@ $$
 - 编码与解码同时进行
 - 经验范围重叠决定传播效果
 
-### 2.4 贝罗SMCR模型
+### 2.4 贝罗 SMCR 模型
 
 $$
 \text{Source} \rightarrow \text{Message} \rightarrow \text{Channel} \rightarrow \text{Receiver}

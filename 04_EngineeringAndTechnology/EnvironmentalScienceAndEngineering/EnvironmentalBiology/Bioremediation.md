@@ -1,6 +1,8 @@
 ---
 aliases: [Bioremediation, 生物修复]
 tags: ['EnvironmentalScienceAndEngineering', 'EnvironmentalBiology', 'Bioremediation']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 生物修复 (Bioremediation)

@@ -1,6 +1,8 @@
 ---
 aliases: [SupplyChain]
 tags: ['TransportationEngineering', 'Logistics', 'SupplyChain']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 供应链管理 (Supply Chain Management)

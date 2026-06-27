@@ -1,6 +1,8 @@
 ---
 aliases: [Arduino]
 tags: ['HardwareAndEmbeddedSystems', 'Arduino', 'Arduino']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Arduino
@@ -249,7 +251,7 @@ myservo.write(90);        // 转动到 90°
 
 ## 相关条目
 
-- [[Arduino传感器与执行器]]
+- [[Arduino 传感器与执行器]]
 - [[RaspberryPi]]
 - [[IoT]]
 - [[MCU51]]

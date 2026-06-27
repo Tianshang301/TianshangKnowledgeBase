@@ -1,6 +1,8 @@
 ---
 aliases: [LiteraryCriticism]
 tags: ['LiteraryCriticism', 'CriticalTheory', 'ComparativeLiterature', 'Aesthetics']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # LiteraryCriticism

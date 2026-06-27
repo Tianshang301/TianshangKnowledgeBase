@@ -2,6 +2,8 @@
 title: 计算机发展史 (History of Computing)
 aliases: [计算简史, 计算机历史]
 tags: [History, Computing, Evolution, Technology, CS]
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 计算机发展史 (History of Computing)

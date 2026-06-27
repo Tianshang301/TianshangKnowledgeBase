@@ -1,6 +1,8 @@
 ---
 aliases: [ArchaeologicalMethods]
 tags: ['Archaeology', 'ArchaeologicalMethods', 'ArchaeologicalMethods']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 考古学方法论
@@ -138,7 +140,7 @@ $$ t = -8033 \cdot \ln\left(\frac{A}{A_0}\right) $$
 | 分析方法 | 原理 | 应用 |
 |---------|------|------|
 | **岩相学（Petrography）** | 偏光显微镜薄片分析 | 原料来源、制作工艺 |
-| **X射线荧光（XRF）** | 元素特征 X 射线 | 产地溯源、配方比较 |
+| **X 射线荧光（XRF）** | 元素特征 X 射线 | 产地溯源、配方比较 |
 | **热释光（TL）** | 加热释放电子 | 烧制年代 |
 | **残留物分析** | GC-MS 鉴定有机化合物 | 陶器用途（盛酒、煮肉） |
 

@@ -1,6 +1,8 @@
 ---
 aliases: [DigitalElectronics]
 tags: ['ElectronicsAndCommunications', 'Electronics', 'DigitalElectronics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 数字电子
@@ -29,7 +31,7 @@ tags: ['ElectronicsAndCommunications', 'Electronics', 'DigitalElectronics']
 - 二进制→十进制：权展开求和
 - 二进制→十六进制：4位一组转换
 
-**BCD码**：
+**BCD 码**：
 - 8421码：最常用
 - 余3码：无权码
 - 格雷码：相邻码只有一位变化
@@ -50,19 +52,19 @@ tags: ['ElectronicsAndCommunications', 'Electronics', 'DigitalElectronics']
 - 异或门（XOR）：$Y = A \oplus B$
 - 同或门（XNOR）：$Y = \overline{A \oplus B}$
 
-**TTL门电路**：
+**TTL 门电路**：
 - 晶体管-晶体管逻辑
 - 标准74系列
 - 特点：速度快，功耗较高
 
-**CMOS门电路**：
+**CMOS 门电路**：
 - 互补金属氧化物半导体
-- 4000系列/74HC系列
+- 4000系列/74HC 系列
 - 特点：功耗极低，集成度高
 
 **门电路特性参数**：
 - 扇出系数：一个门能驱动同类门的最大数目
-- 传输延迟时间：$t_{pd}$（ns级）
+- 传输延迟时间：$t_{pd}$（ns 级）
 - 功耗：$P = V_{CC} \cdot I_{CC}$
 
 ### 组合逻辑电路
@@ -70,12 +72,12 @@ tags: ['ElectronicsAndCommunications', 'Electronics', 'DigitalElectronics']
 **编码器**：
 - 二进制编码器：$2^n$ 个输入，$n$ 个输出
 - 优先编码器：74LS148（8线-3线）
-- BCD编码器：74LS147（10线-4线）
+- BCD 编码器：74LS147（10线-4线）
 
 **译码器**：
 - 二进制译码器：74LS138（3线-8线）
-- BCD译码器：74LS47（BCD-7段）
-- 数码显示：LED数码管
+- BCD 译码器：74LS47（BCD-7段）
+- 数码显示：LED 数码管
 
 **多路选择器（MUX）**：
 - 从多个输入中选择一个输出
@@ -90,10 +92,10 @@ tags: ['ElectronicsAndCommunications', 'Electronics', 'DigitalElectronics']
 ### 时序逻辑电路
 
 **触发器**：
-- RS触发器：基本存储单元
-- D触发器：$Q^{n+1} = D$（边沿触发）
-- JK触发器：$Q^{n+1} = J\overline{Q^n} + \overline{K}Q^n$
-- T触发器：$Q^{n+1} = T\overline{Q^n} + \overline{T}Q^n$
+- RS 触发器：基本存储单元
+- D 触发器：$Q^{n+1} = D$（边沿触发）
+- JK 触发器：$Q^{n+1} = J\overline{Q^n} + \overline{K}Q^n$
+- T 触发器：$Q^{n+1} = T\overline{Q^n} + \overline{T}Q^n$
 
 **计数器**：
 - 同步计数器：所有触发器同时翻转
@@ -102,7 +104,7 @@ tags: ['ElectronicsAndCommunications', 'Electronics', 'DigitalElectronics']
 - 预置计数器：可预设初始值
 
 **寄存器**：
-- 数据寄存器：存储n位数据
+- 数据寄存器：存储 n 位数据
 - 移位寄存器：数据逐位移动
 - 并行/串行转换
 
@@ -124,7 +126,7 @@ tags: ['ElectronicsAndCommunications', 'Electronics', 'DigitalElectronics']
 - 占空比：$D = \frac{R_1+R_2}{R_1+2R_2}$
 
 **双稳态模式**：
-- RS触发器功能
+- RS 触发器功能
 - 施密特触发器特性
 
 ## 经典教材

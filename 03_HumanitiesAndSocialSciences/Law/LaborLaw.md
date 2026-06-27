@@ -1,6 +1,8 @@
 ---
 aliases: [LaborLaw, EmploymentLaw]
 tags: ['03_HumanitiesAndSocialSciences', 'Law', 'Labor']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 劳动法 (Labor Law)

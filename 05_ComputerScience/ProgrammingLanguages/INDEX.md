@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['ProgrammingLanguages', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # ProgrammingLanguages
@@ -10,7 +12,7 @@ tags: ['ProgrammingLanguages', 'INDEX']
 ## 文件
 
 - [[05_ComputerScience/ProgrammingLanguages/Assembly/INDEX|Assembly]]
-- [[05_ComputerScience/ProgrammingLanguages/C_Cpp/INDEX|C / C++]]
+- [[05_ComputerScience/ProgrammingLanguages/CCpp/INDEX|C / C++]]
 - [[05_ComputerScience/ProgrammingLanguages/CSharp/INDEX|C#]]
 - [[05_ComputerScience/ProgrammingLanguages/Go/INDEX|Go]]
 - [[05_ComputerScience/ProgrammingLanguages/Java/INDEX|Java]]

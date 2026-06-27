@@ -1,6 +1,8 @@
 ---
 aliases: [Advanced]
 tags: ['SoftwareEngineering', 'GitAndVersionControl', 'Advanced']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Git 高级技巧

@@ -1,6 +1,8 @@
 ---
 aliases: [CyberPhysicalSystems]
 tags: ['NetworkedInformationSystems', 'CyberPhysicalSystems']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 信息物理系统
@@ -9,7 +11,7 @@ tags: ['NetworkedInformationSystems', 'CyberPhysicalSystems']
 
 信息物理系统（Cyber-Physical Systems, CPS）是将计算和物理过程紧密集成的系统。它通过嵌入式计算和网络通信实现对物理过程的监控和控制，是工业4.0和智能制造的核心技术。
 
-## CPS概念与特征
+## CPS 概念与特征
 
 ### 基本概念
 
@@ -49,7 +51,7 @@ tags: ['NetworkedInformationSystems', 'CyberPhysicalSystems']
 - 人机协同
 - 资源共享
 
-## CPS架构
+## CPS 架构
 
 ### 三层架构
 
@@ -73,7 +75,7 @@ tags: ['NetworkedInformationSystems', 'CyberPhysicalSystems']
 
 ### 参考框架
 
-**NIST CPS参考框架：**
+**NIST CPS 参考框架：**
 - 全视图（Full View）
 - 使用视图（Use View）
 - 实现视图（Implementation View）
@@ -83,7 +85,7 @@ tags: ['NetworkedInformationSystems', 'CyberPhysicalSystems']
 - 层级：产品、资产、信息、功能、商务
 - 生命周期：类型、实例、运维
 
-## CPS安全
+## CPS 安全
 
 ### 安全挑战
 
@@ -122,7 +124,7 @@ tags: ['NetworkedInformationSystems', 'CyberPhysicalSystems']
 - 安全审计
 - 应急预案
 
-## 工业CPS（智能制造）
+## 工业 CPS（智能制造）
 
 ### 工业4.0
 
@@ -178,7 +180,7 @@ tags: ['NetworkedInformationSystems', 'CyberPhysicalSystems']
 - 生产仿真
 - 运维优化
 
-## 医疗CPS
+## 医疗 CPS
 
 ### 远程手术
 
@@ -209,7 +211,7 @@ tags: ['NetworkedInformationSystems', 'CyberPhysicalSystems']
 - 植入式设备
 - 手术辅助设备
 
-## 交通CPS
+## 交通 CPS
 
 ### 自动驾驶
 
@@ -217,7 +219,7 @@ tags: ['NetworkedInformationSystems', 'CyberPhysicalSystems']
 - 感知层：传感器融合
 - 决策层：路径规划
 - 控制层：车辆控制
-- 通信层：V2X通信
+- 通信层：V2X 通信
 
 **关键技术：**
 - 计算机视觉
@@ -247,7 +249,7 @@ tags: ['NetworkedInformationSystems', 'CyberPhysicalSystems']
 - 远程诊断
 - 自动驾驶
 
-## CPS开发方法
+## CPS 开发方法
 
 ### 设计方法
 

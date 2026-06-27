@@ -6,6 +6,8 @@ aliases:
   - 公法
   - Public Law
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - law
   - administrative-law
   - public-law

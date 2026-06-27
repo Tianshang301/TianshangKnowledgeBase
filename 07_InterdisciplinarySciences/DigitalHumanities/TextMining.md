@@ -1,6 +1,8 @@
 ---
 aliases: [TextMining]
 tags: ['DigitalHumanities', 'TextMining']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 文本挖掘（数字人文）
@@ -16,8 +18,8 @@ tags: ['DigitalHumanities', 'TextMining']
 - 基于深度学习：BiLSTM-CRF、BERT
 
 **常用工具?*
-- jieba：Python中文分词
-- HanLP：多语言NLP工具
+- jieba：Python 中文分词
+- HanLP：多语言 NLP 工具
 - pkuseg：北京大学分?
 ```python
 import jieba
@@ -49,7 +51,7 @@ def remove_stopwords(words, stopwords):
 - 名词（n）动词（v）形容词（a?- 副词（d）介词（p）连词（c?
 **工具?*
 - jieba.posseg
-- HanLP词标?- LTP词标?
+- HanLP 词标?- LTP 词标?
 ## 词频分析
 
 ### 词频统计
@@ -57,9 +59,9 @@ def remove_stopwords(words, stopwords):
 **基本统计?*
 - 词频列表
 - 词频分布
-- TF-IDF权重
+- TF-IDF 权重
 
-**TF-IDF计算?*
+**TF-IDF 计算?*
 $$TF-IDF(t,d) = TF(t,d) \times IDF(t)$$
 
 $$IDF(t) = \log\frac{N}{DF(t)}$$
@@ -111,13 +113,13 @@ $$P(w|d) = \sum_{k=1}^{K}P(w|z=k)P(z=k|d)$$
 
 **参数估计?*
 - 变分推断
-- Gibbs采样
+- Gibbs 采样
 - 在线学习
 
-### LDA应用
+### LDA 应用
 
 **参数设置?*
-- 主题数K：困惑度、一致?- 超参数：α（文?主题）β（主题-词）
+- 主题数 K：困惑度、一致?- 超参数：α（文?主题）β（主题-词）
 
 **结果解释?*
 - 主题词列?- 文档-主题分布
@@ -129,7 +131,7 @@ from gensim import corpora, models
 dictionary = corpora.Dictionary(texts)
 corpus = [dictionary.doc2bow(text) for text in texts]
 
-# 训练LDA模型
+# 训练 LDA 模型
 lda = models.LdaModel(corpus, num_topics=5, 
                        id2word=dictionary,
                        passes=15)
@@ -147,8 +149,8 @@ for topic in lda.print_topics():
 ### 情感词典方法
 
 **词典构建?*
-- 知网HowNet情感词典
-- 台湾大学NTUSD
+- 知网 HowNet 情感词典
+- 台湾大学 NTUSD
 - 大连理工大学情感词汇本体
 
 **情感计算?*
@@ -183,7 +185,7 @@ predictions = clf.predict(X_test)
 
 ### 深度学习情感分析
 
-**BERT微调?*
+**BERT 微调?*
 ```python
 from transformers import BertTokenizer, BertForSequenceClassification
 import torch
@@ -203,7 +205,7 @@ outputs = model(**inputs)
 识别文本中的人名、地名机构名、时间等实体?
 ### 标注体系
 
-**BIO标注?*
+**BIO 标注?*
 - B：实体开?- I：实体内?- O：非实体
 
 **示例?*
@@ -211,7 +213,7 @@ outputs = model(**inputs)
 北京/nr ?v 中国/ns ?uj 首都/n
 ```
 
-### NER方法
+### NER 方法
 
 **基于规则?*
 - 正则表达?- 词典匹配
@@ -229,7 +231,7 @@ outputs = model(**inputs)
 ```python
 from transformers import BertTokenizer, TokenClassificationPipeline
 
-# 加载NER模型
+# 加载 NER 模型
 tokenizer = BertTokenizer.from_pretrained('bert-base-chinese')
 pipeline = TokenClassificationPipeline(model=model, tokenizer=tokenizer)
 
@@ -239,12 +241,12 @@ result = pipeline("北京大学是中国著名高等学?)
 
 ## 文本挖掘在历史文献中的应?
 ### 历史文献数字?
-**OCR抢术：**
+**OCR 抢术：**
 - 古籍文字识别
 - 手写体识?- 多字体处?
 **数字化工具：**
 - Tesseract OCR
-- 百度OCR
+- 百度 OCR
 - ABBYY FineReader
 
 ### 历史文本分析
@@ -279,7 +281,7 @@ result = pipeline("北京大学是中国著名高等学?)
 - **MARKUS**：历史文献标?- **DocuSky**：台湾数位人?- **CBDB**：中国历代人物传记数据库
 - **CTEXT**：中国哲学书电子化计?
 ## 参资?
-- 《数字人文导论?- 《文本挖掘与分析?- 《Python自然语言处理?- 《数字人文研究期?
+- 《数字人文导论?- 《文本挖掘与分析?- 《Python 自然语言处理?- 《数字人文研究期?
 
 ## 相关条目
 

@@ -1,6 +1,8 @@
 ---
 aliases: [ChinaDisciplineSystem]
 tags: ['ClassificationMappings', 'ChinaDisciplineSystem']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # 中国高等教育学科门类体系

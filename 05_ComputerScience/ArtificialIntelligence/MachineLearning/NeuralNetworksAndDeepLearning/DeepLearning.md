@@ -1,6 +1,8 @@
 ---
 aliases: [DeepLearning, 深度学习]
 tags: ['05_ComputerScience', 'ArtificialIntelligence', 'MachineLearning', 'DeepLearning']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 深度学习
@@ -37,7 +39,7 @@ graph TD
   C --> H["VAE<br/>变分自编码器"]
   C --> I["GAN<br/>生成对抗网络"]
   C --> J["扩散模型<br/>Diffusion Models"]
-  D --> K["DQN<br/>深度Q网络"]
+  D --> K["DQN<br/>深度 Q 网络"]
   D --> L["PPO<br/>近端策略优化"]
   style A fill:#2d5a87,color:#fff
   style B fill:#3a7bd5,color:#fff

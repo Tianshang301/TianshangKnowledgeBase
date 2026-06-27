@@ -1,6 +1,8 @@
 ---
 aliases: [LearningPath]
 tags: ['ForeignLanguagesAndLiteratures', 'LearningPath']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 外语学习路线图

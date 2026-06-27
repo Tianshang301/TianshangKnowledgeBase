@@ -1,6 +1,8 @@
 ---
 aliases: [Scala]
 tags: ['05_ComputerScience', 'ProgrammingLanguages']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # Scala
@@ -104,7 +106,7 @@ trait Function1[-T, +R]
 def find[T <: Comparable[T]](list: List[T], target: T): Boolean
 ```
 
-$$Type\ Variance:\ \text{If } A \leq B \text{ then } 
+$$Type\ Variance:\ \text{If } A \leq B \text{ then }
 \begin{cases}
 F[A] \leq F[B] & \text{covariant } (+) \\
 F[B] \leq F[A] & \text{contravariant } (-) \\

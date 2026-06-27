@@ -1,6 +1,8 @@
 ---
 aliases: [PolymerMaterials]
 tags: ['MechanicsAndMaterials', 'MaterialsScience', 'PolymerMaterials']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 高分子材料
@@ -42,7 +44,7 @@ tags: ['MechanicsAndMaterials', 'MaterialsScience', 'PolymerMaterials']
 
 **缩聚反应（逐步聚合）**：
 - 单体：含两个或以上官能团
-- 反应伴随小分子（H₂O、HCl等）脱出
+- 反应伴随小分子（H₂O、HCl 等）脱出
 - 类型：均缩聚、混缩聚、共缩聚
 - 代表：聚酯（PET）、聚酰胺（PA/尼龙）、聚碳酸酯（PC）
 
@@ -98,8 +100,8 @@ tags: ['MechanicsAndMaterials', 'MaterialsScience', 'PolymerMaterials']
 **电性能**：优良的绝缘体，介电常数低
 
 **应用**：
-- 包装材料：PE薄膜、PET瓶
-- 建筑材料：PVC管材、EPS保温板
+- 包装材料：PE 薄膜、PET 瓶
+- 建筑材料：PVC 管材、EPS 保温板
 - 汽车工业：保险杠（PP+EPDM）、内饰
 - 电子电器：电路板（FR-4环氧）、电线电缆
 - 医疗器械：人工关节（UHMWPE）、导管

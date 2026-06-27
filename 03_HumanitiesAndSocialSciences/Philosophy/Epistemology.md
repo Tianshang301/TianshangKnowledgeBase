@@ -1,6 +1,8 @@
 ---
 aliases: [Epistemology]
 tags: ['03_HumanitiesAndSocialSciences', 'Philosophy', 'Epistemology']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # Epistemology
@@ -19,7 +21,7 @@ tags: ['03_HumanitiesAndSocialSciences', 'Philosophy', 'Epistemology']
 我们能知道什么？
 知识的界限在哪里？
 
-## 知识的传统定义：JTB理论
+## 知识的传统定义：JTB 理论
 
 从柏拉图的《泰阿泰德篇》开始。
 知识被分析为
@@ -28,15 +30,15 @@ tags: ['03_HumanitiesAndSocialSciences', 'Philosophy', 'Epistemology']
 三个必要条件：
 
 1. **真值条件**
-   如果S知道P，P必须为真。
+   如果 S 知道 P，P 必须为真。
    假信念不是知识。
 
 2. **信念条件**
-   S必须相信P。
+   S 必须相信 P。
    否则不能构成知识。
 
 3. **确证条件**
-   S必须有充分的确证。
+   S 必须有充分的确证。
    单纯真信念不能算知识。
 
 $$ K_S(p) \iff (p)
@@ -50,7 +52,7 @@ $$ K_S(p) \iff (p)
 仅3页的革命性文章。
 
 他提出反例。
-展示满足JTB所有条件
+展示满足 JTB 所有条件
 但直觉上不构成知识。
 
 **经典案例**：
@@ -67,7 +69,7 @@ $$ K_S(p) \iff (p)
 
 ```mermaid
 graph TD
-    A[JTB定义]
+    A[JTB 定义]
     A --> B[葛梯尔反例1963]
     B --> C[第四条件理论]
     B --> D[外在论转向]

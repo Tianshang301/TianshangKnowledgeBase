@@ -1,6 +1,8 @@
 ---
 aliases: [ConceptMapping]
 tags: ['KnowledgeGraph', 'ConceptMapping']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 概念映射方法
@@ -69,13 +71,13 @@ tags: ['KnowledgeGraph', 'ConceptMapping']
 - **类型**：开源本体编辑器
 - **特点**：
   - 可视化本体构建界面
-  - 支持OWL、RDF等标准
+  - 支持 OWL、RDF 等标准
   - 插件生态系统丰富
   - 支持推理和验证
 - **适用场景**：构建复杂的领域本体
 
-### Obsidian图谱
-- **类型**：基于Markdown的知识管理工具
+### Obsidian 图谱
+- **类型**：基于 Markdown 的知识管理工具
 - **特点**：
   - 双向链接支持
   - 图谱可视化
@@ -101,15 +103,15 @@ tags: ['KnowledgeGraph', 'ConceptMapping']
 - **特点**：简单、灵活、可扩展
 - **应用**：Linked Data、知识图谱
 
-### OWL（Web本体语言）
-- **基础**：基于RDF/RDFS
+### OWL（Web 本体语言）
+- **基础**：基于 RDF/RDFS
 - **特点**：
   - 丰富的表达能力
   - 支持推理
   - 类层次结构定义
   - 属性约束
 - **子语言**：OWL Lite、OWL DL、OWL Full
-- **应用**：复杂本体构建、语义Web
+- **应用**：复杂本体构建、语义 Web
 
 ### 属性图（Property Graph）
 - **结构**：节点和边都可以有属性
@@ -144,6 +146,6 @@ tags: ['KnowledgeGraph', 'ConceptMapping']
 ## 参考资源
 
 - 《本体工程与知识表示》
-- W3C语义Web标准文档
+- W3C 语义 Web 标准文档
 - Protégé官方教程
 - 知识图谱实践指南

@@ -1,6 +1,8 @@
 ---
 aliases: [WorldClassics]
 tags: ['CrossDisciplinaryK12', 'ClassicalLiterature', 'WorldClassics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 世界经典导读

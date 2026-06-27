@@ -1,6 +1,8 @@
 ---
 aliases: [HydrogenEnergy]
 tags: ['EnergyAndNuclearEngineering', 'RenewableEnergy', 'HydrogenEnergy']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 氢能
@@ -14,12 +16,12 @@ tags: ['EnergyAndNuclearEngineering', 'RenewableEnergy', 'HydrogenEnergy']
 
 **化石燃料制氢**：
 - 天然气蒸汽重整：$CH_4 + H_2O \to CO + 3H_2$
-- 成本最低，但产生CO₂
+- 成本最低，但产生 CO₂
 
 **电解水制氢**：
 - 碱性电解：$2H_2O \to 2H_2 + O_2$
-- PEM电解：效率高，响应快
-- SOEC电解：高温电解，效率最高
+- PEM 电解：效率高，响应快
+- SOEC 电解：高温电解，效率最高
 
 **其他制氢**：
 - 光解水制氢

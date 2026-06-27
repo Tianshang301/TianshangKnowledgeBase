@@ -1,6 +1,8 @@
 ---
 aliases: [Optimization]
 tags: ['DatabasesAndInformationSystems', 'Optimization']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 数据库性能优化
@@ -579,7 +581,7 @@ SELECT * FROM logs ORDER BY id LIMIT 1000000, 20;
 ```sql
 -- 记录上一页最后一条的 id
 SELECT * FROM logs
-WHERE id > 上一页最后ID
+WHERE id > 上一页最后 ID
 ORDER BY id
 LIMIT 20;
 ```

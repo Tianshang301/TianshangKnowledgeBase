@@ -1,6 +1,8 @@
 ---
 aliases: [ContemporaryPhilosophy]
 tags: ['03_HumanitiesAndSocialSciences', 'Philosophy', 'ContemporaryPhilosophy']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # ContemporaryPhilosophy
@@ -19,7 +21,7 @@ tags: ['03_HumanitiesAndSocialSciences', 'Philosophy', 'ContemporaryPhilosophy']
 - **统一科学（Unified Science）**：所有科学最终可以还原为物理语言，形成统一的科学体系。
 - **情感主义伦理学（Emotivism）**（Ayer）：道德判断不表达事实，只表达情感——"杀戮是错的"相当于"杀戮，呸！"
 
-逻辑实证主义在20世纪中期面临严重挑战。奎因（W. V. O. Quine）在《经验论的两个教条》（Two Dogmas of Empiricism, 1951）中摧毁了分析-综合命题的区分——没有"纯粹"的分析真理，所有信念都在经验法庭上接受整体性的审判（整体论Holism）。
+逻辑实证主义在20世纪中期面临严重挑战。奎因（W. V. O. Quine）在《经验论的两个教条》（Two Dogmas of Empiricism, 1951）中摧毁了分析-综合命题的区分——没有"纯粹"的分析真理，所有信念都在经验法庭上接受整体性的审判（整体论 Holism）。
 
 ### 日常语言哲学（Ordinary Language Philosophy）
 
@@ -119,7 +121,7 @@ graph TD
 
 **后结构主义**是对结构主义的批判性继承：
 - **德里达（Jacques Derrida）**的**解构**（Deconstruction）：批评西方哲学传统中的"逻各斯中心主义"（Logocentrism）和"在场形而上学"（Metaphysics of Presence）。通过拆解文本中的层级对立（言语/文字、自然/文化、男/女），显示其等级化的依赖关系可以被颠倒和颠覆。
-- **福柯（Michel Foucault）**：在其《词与物》（The Order of Things, 1966）、《规训与惩罚》（Discipline and Punish, 1975）和《性史》（The History of Sexuality, 1976）中探索了**权力-知识**（Power-Knowledge）关系。权力不仅是压制性的，更是生产性的——它生产知识、主体性和身体规训。福柯分析了从君主权力通过"展示惩罚"到规训社会通过"监视"（边沁的全景监狱Panopticon）的权力转变。**生命权力**（Biopower / Biopolitics）是对人口的生命过程的调控权力。
+- **福柯（Michel Foucault）**：在其《词与物》（The Order of Things, 1966）、《规训与惩罚》（Discipline and Punish, 1975）和《性史》（The History of Sexuality, 1976）中探索了**权力-知识**（Power-Knowledge）关系。权力不仅是压制性的，更是生产性的——它生产知识、主体性和身体规训。福柯分析了从君主权力通过"展示惩罚"到规训社会通过"监视"（边沁的全景监狱 Panopticon）的权力转变。**生命权力**（Biopower / Biopolitics）是对人口的生命过程的调控权力。
 - **德勒兹（Gilles Deleuze）**与加塔利合著的《反俄狄浦斯》（Anti-Oedipus, 1972）提出"欲望是机器"——欲望不是缺失而是生产性的。他们用**根茎**（Rhizome）——去中心、多入口的连接结构——对抗树状等级结构。
 
 ### 批判理论/法兰克福学派（Critical Theory / Frankfurt School）

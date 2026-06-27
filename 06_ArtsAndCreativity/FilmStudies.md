@@ -1,6 +1,8 @@
 ---
 aliases: [Film Studies, 电影研究, Film Theory, Cinema Studies]
 tags: ['06_ArtsAndCreativity', 'FilmStudies', 'Cinema', 'Arts']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 电影研究 (Film Studies)

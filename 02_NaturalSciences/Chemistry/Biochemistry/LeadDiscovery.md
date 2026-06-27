@@ -9,6 +9,8 @@ aliases:
   - 基于片段的药物设计
   - Fragment-Based Drug Design
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - chemistry/biochemistry
   - drug-discovery
   - medicinal-chemistry
@@ -160,7 +162,7 @@ $$
 ```mermaid
 flowchart TD;
     A[片段库<br/>1000-3000 片段]-->B[生物物理筛选];
-    B-->C{NMR/SPR/X射线};
+    B-->C{NMR/SPR/X 射线};
     C-->D[片段命中];
     D-->E[共晶结构解析];
     E-->F[片段增长/连接];

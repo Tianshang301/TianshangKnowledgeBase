@@ -8,6 +8,8 @@ aliases:
   - 失业
   - 就业
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - economics
   - labor_economics
   - labor_supply

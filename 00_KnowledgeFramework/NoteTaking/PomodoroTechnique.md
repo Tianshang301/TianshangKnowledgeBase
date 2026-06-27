@@ -5,6 +5,8 @@ aliases:
   - 时间管理法
   - 专注技巧
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - pomodoro
   - time-management
   - productivity

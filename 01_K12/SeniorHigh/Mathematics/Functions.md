@@ -1,6 +1,8 @@
 ---
 aliases: [Functions, 函数]
 tags: ['SeniorHigh', 'Mathematics', 'Functions']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 高中数学 · 函数（完整版）

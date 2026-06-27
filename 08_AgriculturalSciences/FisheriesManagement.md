@@ -1,6 +1,8 @@
 ---
 aliases: [FisheriesManagement]
 tags: ['AgriculturalSciences', 'Fisheries', 'ResourceManagement', 'Aquaculture']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # FisheriesManagement

@@ -1,6 +1,8 @@
 ---
 aliases: [SymPy]
 tags: ['05_ComputerScience', 'ArtificialIntelligence']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # SymPy — Python 符号数学库

@@ -1,6 +1,8 @@
 ---
 aliases: [HTTPAPI]
 tags: ['ProgrammingLanguages', 'Web', 'HTTPAPI']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # HTTP 协议与 API 设计
@@ -15,7 +17,7 @@ PUT     /users/123      # 完整替换资源 (幂等)
 PATCH   /users/123      # 部分更新资源
 DELETE  /users/123      # 删除资源
 HEAD    /users          # 获取响应头 (无响应体)
-OPTIONS /users          # 获取支持的HTTP方法
+OPTIONS /users          # 获取支持的 HTTP 方法
 ```
 
 ### 幂等性 (Idempotent)
@@ -163,11 +165,11 @@ GET     /categories/electronics/products # 分类下的产品
 GET     /search?q=keyword               # 搜索资源
 
 # 错误命名 (避免)
-GET     /getUsers                       # 动词在URL中
+GET     /getUsers                       # 动词在 URL 中
 GET     /users/list                     # 不必要的路径
 GET     /users/getUserById?id=123       # 查询参数表示资源
-POST    /users/createUser               # 动词在URL中
-GET     /users/123/delete               # 用DELETE方法代替
+POST    /users/createUser               # 动词在 URL 中
+GET     /users/123/delete               # 用 DELETE 方法代替
 ```
 
 ### API 版本管理
@@ -298,7 +300,7 @@ import rateLimit from 'express-rate-limit';
 
 const limiter = rateLimit({
     windowMs: 15 * 60 * 1000,   // 15分钟窗口
-    max: 100,                     // 每个IP最多100个请求
+    max: 100,                     // 每个 IP 最多100个请求
     standardHeaders: true,
     legacyHeaders: false,
     message: {
@@ -600,8 +602,8 @@ curl --connect-timeout 5 --max-time 30 https://api.example.com/users
 ## 九、API 设计最佳实践
 
 ```markdown
-1. **使用 HTTPS** - 所有API必须使用HTTPS, 不能有明文HTTP
-2. **版本管理** - URL路径版本 (/v1/, /v2/) 或请求头
+1. **使用 HTTPS** - 所有 API 必须使用 HTTPS, 不能有明文 HTTP
+2. **版本管理** - URL 路径版本 (/v1/, /v2/) 或请求头
 3. **合理命名** - 使用名词复数, 小写, 连字符 (-)
 4. **统一错误格式** - 所有错误使用相同结构
 5. **分页** - 为列表接口提供分页, 默认20条

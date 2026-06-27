@@ -1,6 +1,8 @@
 ---
 aliases: [CloseRangePhotogrammetry, 近景摄影测量, CRP, CloseRange]
 tags: ['SurveyingAndMappingScience', 'Photogrammetry', 'CloseRangePhotogrammetry', '3DReconstruction', 'Measurement']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 近景摄影测量 (Close-Range Photogrammetry)
@@ -211,7 +213,7 @@ $$y_u = y_d(1 + k_1 r^2 + k_2 r^4 + k_3 r^6) + p_1(r^2 + 2y_d^2) + 2p_2 x_d y_d$
 
 - 建筑立面测量
 - 结构变形监测
-- 竣工测量与BIM对比
+- 竣工测量与 BIM 对比
 
 ## 经典教材与规范
 

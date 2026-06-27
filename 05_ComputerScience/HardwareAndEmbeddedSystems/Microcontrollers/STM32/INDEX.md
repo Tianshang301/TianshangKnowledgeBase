@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'STM32', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # STM32
@@ -13,6 +15,6 @@ tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'STM32', 'INDEX']
 - [[FreeRTOS]]
 - [[GPIO]]
 - [[Timer]]
-- [[ADCDAC]] - AD/DA转换
+- [[ADCDAC]] - AD/DA 转换
 - [[Communication]] - 通信外设
 - [[Interrupt]] - 中断

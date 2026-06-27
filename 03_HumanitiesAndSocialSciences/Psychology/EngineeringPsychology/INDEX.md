@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['Psychology', 'EngineeringPsychology', 'INDEX']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 工程心理学

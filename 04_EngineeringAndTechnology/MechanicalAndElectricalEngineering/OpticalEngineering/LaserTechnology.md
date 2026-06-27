@@ -1,6 +1,8 @@
 ---
 aliases: [LaserTechnology]
 tags: ['MechanicalAndElectricalEngineering', 'OpticalEngineering', 'LaserTechnology']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 激光技术
@@ -39,12 +41,12 @@ $$N_2 > N_1 \Rightarrow \text{增益大于损耗}$$
 ### 激光器类型
 
 **固体激光器**：
-- Nd:YAG激光器：波长1064nm，常用
-- Yb:YAG激光器：高功率
-- Ti:Sapphire激光器：可调谐（650~1100nm），超短脉冲
+- Nd:YAG 激光器：波长1064nm，常用
+- Yb:YAG 激光器：高功率
+- Ti:Sapphire 激光器：可调谐（650~1100nm），超短脉冲
 
 **气体激光器**：
-- He-Ne激光器：632.8nm，稳定性好，用于测量
+- He-Ne 激光器：632.8nm，稳定性好，用于测量
 - CO₂激光器：10.6μm，高功率，用于加工
 - 准分子激光器：紫外波段，用于光刻
 
@@ -76,7 +78,7 @@ $$N_2 > N_1 \Rightarrow \text{增益大于损耗}$$
 - 精度高、速度快
 - 应用：产品标识、序列号
 
-**激光3D打印（增材制造）**：
+**激光3D 打印（增材制造）**：
 - 选择性激光烧结（SLS）
 - 选择性激光熔化（SLM）
 - 直接金属激光烧结（DMLS）
@@ -85,7 +87,7 @@ $$N_2 > N_1 \Rightarrow \text{增益大于损耗}$$
 
 **光纤通信**：
 - 激光作为光源，光纤作为传输介质
-- 通信容量大：单根光纤可达Tbit/s级
+- 通信容量大：单根光纤可达 Tbit/s 级
 - 波分复用（WDM）：多波长同时传输
 
 **自由空间光通信**：

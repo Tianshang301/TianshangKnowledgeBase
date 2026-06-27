@@ -1,6 +1,8 @@
 ---
 aliases: [PharmaceuticalEngineering, 制药工程]
 tags: ['04_EngineeringAndTechnology', 'ChemicalAndPharmaceuticalEngineering', 'PharmaceuticalEngineering', 'PharmaceuticalEngineering']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 制药工程 (Pharmaceutical Engineering)

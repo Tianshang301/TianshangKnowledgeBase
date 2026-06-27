@@ -2,6 +2,8 @@
 title: 工业物联网 (Industrial IoT)
 aliases: [IIoT, 工业物联网, 工业 4.0]
 tags: [IoT, Industrial, Industry40, Edge, SCADA, Sensors]
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 工业物联网 (Industrial IoT)

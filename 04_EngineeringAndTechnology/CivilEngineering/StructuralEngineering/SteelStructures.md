@@ -1,6 +1,8 @@
 ---
 aliases: [SteelStructures, 钢结构, 钢结设计]
 tags: ['CivilEngineering', 'StructuralEngineering', 'SteelStructures', 'MetalStructures']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 钢结构 (Steel Structures)
@@ -40,7 +42,7 @@ flowchart LR
 中国国家标准（GB 50017）规定的常用钢号：
 
 - **Q235**：碳素结构钢（Carbon Structural Steel），屈服强度 $f_y = 235\text{MPa}$，用于一般结构
-- **Q355**：低合金高强度钢（Low-Alloy High-Strength Steel），$f_y = 355\text{MPa}$，替代原Q345
+- **Q355**：低合金高强度钢（Low-Alloy High-Strength Steel），$f_y = 355\text{MPa}$，替代原 Q345
 - **Q390、Q420、Q460**：更高强度等级，用于大跨度及高层结构
 
 ### 力学性能指标
@@ -55,14 +57,14 @@ $$ \sigma = \begin{cases} E\varepsilon & \varepsilon \leq \varepsilon_y \\ f_y &
 
 ### 钢材牌号命名规则
 
-Q235B的含义：Q表示屈服点（Yield Point），235为屈服强度值（MPa），B为质量等级（A/B/C/D，冲击韧性依次提高）。
+Q235B 的含义：Q 表示屈服点（Yield Point），235为屈服强度值（MPa），B 为质量等级（A/B/C/D，冲击韧性依次提高）。
 
 ### 钢材选用原则
 
 | 受力类型 | 控制因素 | 优先选用 | 说明 |
 |---------|---------|---------|------|
 | 受拉构件 | 强度 | Q355以上 | 充分利用高强材料 |
-| 受压构件 | 稳定性 | Q235或Q355 | 稳定与模量有关，与强度关系小 |
+| 受压构件 | 稳定性 | Q235或 Q355 | 稳定与模量有关，与强度关系小 |
 | 疲劳构件 | 疲劳强度 | Q235C/D | 改善抗疲劳性能 |
 | 低温环境 | 冲击韧性 | Q235D/Q355D | 防止低温脆断 |
 | 焊接结构 | 可焊性 | Q235B/Q355B | 碳当量控制 |
@@ -84,8 +86,8 @@ $$ \tau_f = \frac{N}{h_e l_w} \leq f_f^w $$
 ### 螺栓连接
 
 **普通螺栓（Ordinary Bolt）**：
-- C级螺栓（粗制）：孔径比螺栓直径大1~1.5mm，用于次要连接
-- A/B级螺栓（精制）：配合精度高，用于主要受力连接
+- C 级螺栓（粗制）：孔径比螺栓直径大1~1.5mm，用于次要连接
+- A/B 级螺栓（精制）：配合精度高，用于主要受力连接
 
 **高强度螺栓（High-Strength Bolt）**：
 - 摩擦型（Friction-Type）：以板间摩擦力传递力，$N_v^b = 0.9n_f \mu P$
@@ -154,7 +156,7 @@ $$ N_{cr} = \frac{\pi^2 EI}{l_0^2} $$
 
 ### 截面分类
 
-按残余应力和初始几何缺陷的影响，截面分为a、b、c、d四类，a类稳定性能最好，d类最差。
+按残余应力和初始几何缺陷的影响，截面分为 a、b、c、d 四类，a 类稳定性能最好，d 类最差。
 
 ## 压弯构件
 
@@ -178,7 +180,7 @@ $$ \frac{N}{\varphi_y A} + \frac{\eta\beta_{tx}M_x}{\varphi_b W_{1x}} \leq f $$
 
 ### 防火设计
 
-钢材在550°C时屈服强度降至常温的约60%，因此需要防火保护（Fire Protection）：
+钢材在550°C 时屈服强度降至常温的约60%，因此需要防火保护（Fire Protection）：
 
 - 防火涂料（Fire-Resistant Coating）：厚涂型（非膨胀型）和薄涂型（膨胀型）
 - 防火保护层厚度根据耐火极限（Fire Resistance Rating）和截面系数确定

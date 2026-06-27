@@ -1,4 +1,11 @@
-﻿---
+---
+aliases: [NumericalComputation]
+tags: ['Mathematics', 'NumericalComputation.md']
+created: 2026-05-17
+updated: 2026-05-17
+---
+
+---
 aliases: [NumericalComputation]
 tags: ['Mathematics/NumericalComputation', 'ScientificComputing']
 ---

@@ -1,6 +1,8 @@
 ---
 aliases: [LoRaWAN]
 tags: ['05_ComputerScience', 'ComputerNetworks']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # LoRaWAN 协议 (Long Range Wide Area Network)

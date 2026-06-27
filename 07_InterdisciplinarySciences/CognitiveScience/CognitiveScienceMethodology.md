@@ -1,6 +1,8 @@
 ---
 aliases: [CognitiveScienceMethodology, 认知科学方法论]
 tags: ['CognitiveScience', 'CognitiveScienceMethodology', 'InterdisciplinaryMethodologies']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 认知科学方法论

@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['INDEX']
+created: 2026-05-16
+updated: 2026-06-27
 ---
 
 # 13_Others
@@ -43,4 +45,11 @@ tags: ['INDEX']
 - [[13_Others/ResearchMethodology/定量与定性研究方法]] - 定量与定性研究方法
 - [[13_Others/ScientificCommunication/ScientificCommunication]] - 科学传播
 - [[13_Others/ScientificCommunication/学术会议与论文发表]] - 学术会议与论文发表
+- [[13_Others/EntrepreneurshipSkills/EcommerceOperation]] - 电商运营
+- [[13_Others/EntrepreneurshipSkills/KnowledgeMonetization]] - 知识变现
+- [[13_Others/EntrepreneurshipSkills/MediaOperation]] - 媒体运营
+- [[13_Others/EntrepreneurshipSkills/PersonalBranding]] - 个人品牌
+- [[13_Others/OutdoorSurvival]] - 户外生存
+- [[13_Others/FirstAidSkills]] - 急救技能
+- [[13_Others/DisasterPreparedness]] - 灾害应急
 - [[LearningPath]]

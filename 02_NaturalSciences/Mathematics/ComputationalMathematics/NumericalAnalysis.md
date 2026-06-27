@@ -1,6 +1,8 @@
 ---
 aliases: [NumericalAnalysis, 数值分析, ScientificComputing, 科学计算, ApproximationTheory]
 tags: ['02_NaturalSciences', 'Mathematics', 'ComputationalMathematics', 'ScientificComputing']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 数值分析 Numerical Analysis

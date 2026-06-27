@@ -1,6 +1,8 @@
 ---
 aliases: [FilmStudies, 电影学, 电影研究, CinemaStudies, 电影理论]
 tags: ['06_ArtsAndCreativity', 'DramaAndFilm', 'FilmStudies']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 电影学（Film Studies）

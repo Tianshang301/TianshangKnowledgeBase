@@ -1,6 +1,7 @@
 ---
 aliases: [Java]
----
+created: 2026-05-16
+updated: 2026-05-13---
 
 # Java
 
@@ -11,7 +12,7 @@ aliases: [Java]
 - [[JVM]]
 - [[Maven]]
 - [[SpringBoot]]
-- [[Basics]] - Java基础
+- [[Basics]] - Java 基础
 - [[Collections]] - 集合
 - [[Concurrency]] - 并发
-- [[IONIO]] - I/O与NIO
+- [[IONIO]] - I/O 与 NIO

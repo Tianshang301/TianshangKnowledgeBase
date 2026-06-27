@@ -1,6 +1,8 @@
 ---
 aliases: [AtmosphericChemistry]
 tags: ['04_EngineeringAndTechnology', 'EnvironmentalScienceAndEngineering', 'EnvironmentalChemistry', 'AtmosphericChemistry']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 大气化学

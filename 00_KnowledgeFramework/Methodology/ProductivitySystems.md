@@ -4,8 +4,10 @@ aliases:
   - 效率系统
   - 时间管理方法
   - GTD
-  - PARA方法
+  - PARA 方法
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - productivity
   - gtd
   - para

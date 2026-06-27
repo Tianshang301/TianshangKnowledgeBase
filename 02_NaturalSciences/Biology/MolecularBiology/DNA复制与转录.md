@@ -1,6 +1,6 @@
 ---
-aliases: [DNA复制与转录]
-tags: ['Biology', 'MolecularBiology', 'DNA复制与转录']
+aliases: [DNA 复制与转录]
+tags: ['Biology', 'MolecularBiology', 'DNA 复制与转录']
 ---
 
 # DNA 复制与转录详解
@@ -156,7 +156,7 @@ $$v_{\text{转录}} \approx 20\text{-}50\ \text{nt/s} \quad (\text{Pol II})$$
 
 ## 相关条目
 
-- RNA转录与加工
+- RNA 转录与加工
 - 基因表达与调控
 - [[02_NaturalSciences/Biology/Genetics/INDEX|Genetics]]
 - [[02_NaturalSciences/Biology/CellBiology/INDEX|CellBiology]]

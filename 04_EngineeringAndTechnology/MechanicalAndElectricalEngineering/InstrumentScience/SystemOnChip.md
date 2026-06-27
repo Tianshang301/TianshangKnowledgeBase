@@ -1,4 +1,11 @@
-﻿---
+---
+aliases: [SystemOnChip]
+tags: ['MechanicalAndElectricalEngineering', 'InstrumentScience', 'SystemOnChip.md']
+created: 2026-05-17
+updated: 2026-05-17
+---
+
+---
 aliases: [SystemOnChip]
 tags: ['04_EngineeringAndTechnology', 'MechanicalAndElectricalEngineering', 'InstrumentScience']
 ---
@@ -103,7 +110,7 @@ NoC 是 SoC 多核时代的关键互连架构，提供可扩展性 (Scalability)
 ### 6.1 计算核心
 
 NPU 针对神经网络推理 (Inference) 优化，核心计算为乘累加 (MAC, Multiply-Accumulate)：
- y = \sum_{i=1}^n w_i \cdot x_i + b 
+ y = \sum_{i=1}^n w_i \cdot x_i + b
 
 **MAC 阵列 (Systolic Array, 脉动阵列)**：二维 MAC 阵列实现矩阵乘法高吞吐。
 **数据流 (Dataflow)**：
@@ -201,7 +208,7 @@ MediaTek APU：多核异构，支持 INT4。
 ### 10.2 ADC 性能指标
 
 **有效位数 (ENOB, Effective Number of Bits)**：
- ENOB = \frac{SINAD - 1.76}{6.02} 
+ ENOB = \frac{SINAD - 1.76}{6.02}
 
 SINAD 为信号-噪声-失真比 (Signal to Noise And Distortion ratio)。
 **无杂散动态范围 (SFDR, Spurious Free Dynamic Range)**：dBc 或 dBFS。
@@ -264,7 +271,7 @@ RISC-V 碎片化风险 (Fragmentation) 与生态系统建设。
 ### 13.1 DVFS (Dynamic Voltage and Frequency Scaling, 动态电压频率调整)
 
 根据负载动态调整核心电压 (Vdd) 和频率 (f)，降低功耗。
- P = P_{dynamic} + P_{static} = \alpha \cdot C_L \cdot V_{dd}^2 \cdot f + I_{leak} \cdot V_{dd} 
+ P = P_{dynamic} + P_{static} = \alpha \cdot C_L \cdot V_{dd}^2 \cdot f + I_{leak} \cdot V_{dd}
 
 **动态功耗 (Dynamic Power)**：开关活动因子 alpha * 负载电容 C_L * Vdd^2 * f。
 **静态功耗 (Static Power)**：漏电流 (Leakage Current, 亚阈值漏电 + 栅漏电) * Vdd。

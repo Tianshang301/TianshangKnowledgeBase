@@ -1,6 +1,8 @@
 ---
 aliases: [LearningPath, ManagementSciencePath, 管理科学, 管理学学习路线]
 tags: ['LearningPath', 'ManagementSciences', 'Education', 'CareerDevelopment']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 学习路径：管理科学 (Management Science Learning Path)
@@ -67,8 +69,8 @@ graph TD
 |------|---------|---------|
 | 运筹学 | 线性规划、整数规划、动态规划、排队论 | 数据分析师、算法工程师 |
 | 供应链管理 | 采购管理、库存控制、物流网络设计、ERP | 供应链经理、物流总监 |
-| 项目管理 | PMBOK框架、敏捷方法、WBS、关键路径法 | PMP认证、项目经理 |
-| 管理信息系统 | 数据库管理、系统分析、IT治理、区块链 | CIO、IT经理 |
+| 项目管理 | PMBOK 框架、敏捷方法、WBS、关键路径法 | PMP 认证、项目经理 |
+| 管理信息系统 | 数据库管理、系统分析、IT 治理、区块链 | CIO、IT 经理 |
 
 ### 公共管理 (Public Administration)
 
@@ -77,14 +79,14 @@ graph TD
 | 公共政策分析 | 政策过程、成本效益分析、政策评估 | 政策研究员 |
 | 公共财政 | 预算管理、税收制度、政府会计 | 财政公务员 |
 | 电子政务 | 数字政府、政务大数据、智慧城市 | 数字政府顾问 |
-| 非营利管理 | 非营利组织治理、募捐管理、志愿者管理 | NGO管理者 |
+| 非营利管理 | 非营利组织治理、募捐管理、志愿者管理 | NGO 管理者 |
 
 ### 图书情报与档案管理 (LIS & Archives)
 
 | 方向 | 核心课程 | 就业方向 |
 |------|---------|---------|
 | 信息组织 | 分类法、主题词表、元数据、本体 | 数据管理员、知识工程师 |
-| 知识管理 | SECI模型、知识图谱、组织学习 | CKO、知识管理顾问 |
+| 知识管理 | SECI 模型、知识图谱、组织学习 | CKO、知识管理顾问 |
 | 档案学 | 档案鉴定、数字化归档、电子文件管理 | 档案管理员 |
 | 图书馆学 | 信息检索、数字图书馆、阅读推广 | 图书管理员、信息专员 |
 
@@ -96,7 +98,7 @@ graph TD
 | 定性分析 | 案例研究、访谈、内容分析 | ★★★★ | 论文写作中实践 |
 | 沟通表达 | 报告撰写、演示汇报、谈判 | ★★★★★ | 参与案例竞赛 |
 | 领导力 | 团队管理、冲突解决、决策 | ★★★★★ | 社团/项目管理经历 |
-| 数字素养 | Excel高级、BI工具、ERP系统 | ★★★★ | 考取MOS/CPA等认证 |
+| 数字素养 | Excel 高级、BI 工具、ERP 系统 | ★★★★ | 考取 MOS/CPA 等认证 |
 
 ## 学历与认证 (Degrees & Certifications)
 
@@ -144,17 +146,17 @@ graph TD
 - **Coursera / edX** — 沃顿、斯坦福、LBS 在线课程
 - **PMBOK Guide** — 项目管理知识体系
 - **McKinsey Quarterly** — 管理咨询洞见
-- **中国大学MOOC** — 国内名校管理课程
-- **得到App** — 管理通识与商业洞察
+- **中国大学 MOOC** — 国内名校管理课程
+- **得到 App** — 管理通识与商业洞察
 
 ## 职业发展路径 (Career Paths)
 
 ```mermaid
 graph LR
   A["本科<br/>BBA/BSc"] --> B["初级岗位<br/>Analyst/Associate"]
-  B --> C["MBA深造"]
+  B --> C["MBA 深造"]
   C --> D["中层管理<br/>Manager"]
-  D --> E["高管/MBA导师<br/>Director/CXO"]
+  D --> E["高管/MBA 导师<br/>Director/CXO"]
   B --> F["专业认证<br/>CFA/PMP"]
   F --> G["资深专家<br/>Senior Specialist"]
   G --> H["首席官<br/>CFO/COO/CIO"]

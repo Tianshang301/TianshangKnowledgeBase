@@ -1,6 +1,8 @@
 ---
-aliases: [UNESCOFramework, UNESCO学科分类, UNESCO Basic Sciences Classification]
+aliases: [UNESCOFramework, UNESCO 学科分类, UNESCO Basic Sciences Classification]
 tags: ['ClassificationMappings', 'UNESCO', 'KnowledgeFramework', 'Taxonomy']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 联合国教科文组织基础科学分类体系 (UNESCO Basic Sciences Classification Framework)

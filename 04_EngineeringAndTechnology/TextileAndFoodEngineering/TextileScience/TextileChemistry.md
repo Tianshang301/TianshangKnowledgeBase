@@ -1,6 +1,8 @@
 ---
 aliases: [TextileChemistry]
 tags: ['04_EngineeringAndTechnology', 'TextileAndFoodEngineering', 'TextileScience', 'TextileChemistry']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 纺织化学

@@ -1,6 +1,8 @@
 ---
 aliases: [Pointers]
-tags: ['ProgrammingLanguages', 'C_Cpp', 'Pointers']
+tags: ['ProgrammingLanguages', 'CCpp', 'Pointers']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 指针与内存管理
@@ -51,7 +53,7 @@ int* ptrArr[5];            // 指针数组
 
 // 二维数组与指针
 int matrix[3][4] = {{1,2,3,4},{5,6,7,8}};
-int (*row)[4] = matrix;   // 指向包含4个int的数组
+int (*row)[4] = matrix;   // 指向包含4个 int 的数组
 (*row)[0];                // 1
 *(*(matrix + 1) + 2);     // 7
 ```

@@ -1,6 +1,8 @@
 ---
 aliases: [TaxAccounting]
 tags: ['BusinessAdministration', 'Accounting', 'TaxAccounting']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 税务会计
@@ -126,7 +128,7 @@ tags: ['BusinessAdministration', 'Accounting', 'TaxAccounting']
 
 ### 纳税信用管理
 
-纳税信用评价是企业税务管理的重要内容。纳税信用等级分为A、B、M、C、D五级。A级纳税人享受发票领用简化、出口退税加快等激励措施。D级纳税人面临发票限量供应、严格稽查等限制。纳税信用影响企业的融资和商业合作。
+纳税信用评价是企业税务管理的重要内容。纳税信用等级分为 A、B、M、C、D 五级。A 级纳税人享受发票领用简化、出口退税加快等激励措施。D 级纳税人面临发票限量供应、严格稽查等限制。纳税信用影响企业的融资和商业合作。
 
 ### 税务稽查重点
 

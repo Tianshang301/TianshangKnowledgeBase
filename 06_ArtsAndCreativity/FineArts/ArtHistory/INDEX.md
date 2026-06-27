@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['FineArts', 'ArtHistory', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 艺术史

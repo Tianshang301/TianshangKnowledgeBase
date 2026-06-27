@@ -1,6 +1,8 @@
 ---
 aliases: [AttributiveClauses, RelativeClauses, 定语从句]
 tags: ['EnglishGrammar', 'K12', 'SeniorHigh', 'Syntax', 'Clause']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 定语从句 (Attributive Clauses)

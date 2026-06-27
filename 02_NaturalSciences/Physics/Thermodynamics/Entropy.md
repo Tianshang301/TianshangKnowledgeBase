@@ -1,6 +1,8 @@
 ---
 aliases: [Entropy, 熵, 热力学熵, StatisticalEntropy, InformationEntropy, BoltzmannEntropy, ShannonEntropy]
 tags: ['02_NaturalSciences', 'Physics', 'Thermodynamics', 'StatisticalMechanics', 'InformationTheory', 'Entropy']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 熵 (Entropy)
@@ -47,7 +49,7 @@ $$ dS > \frac{\delta Q}{T} $$
 
 | 过程类型 | 熵变公式 | 条件 |
 |---------|---------|------|
-| 等温可逆膨胀 | $\Delta S = nR \ln\frac{V_2}{V_1}$ | 理想气体，T恒定 |
+| 等温可逆膨胀 | $\Delta S = nR \ln\frac{V_2}{V_1}$ | 理想气体，T 恒定 |
 | 等容加热 | $\Delta S = nC_V \ln\frac{T_2}{T_1}$ | 定容比热容 |
 | 等压加热 | $\Delta S = nC_P \ln\frac{T_2}{T_1}$ | 定压比热容 |
 | 相变 (可逆) | $\Delta S = \frac{\Delta H_{\text{phase}}}{T_{\text{phase}}}$ | 熔点/沸点处 |
@@ -146,7 +148,7 @@ $$ \Delta G = \Delta H - T\Delta S $$
 | 1 mol 水 (298K, 液态) | 69.9 J/(mol·K) |
 | 1 mol 冰 (273K) | 47.9 J/(mol·K) |
 | 1 个黑体辐射光子 | ~$3.6 \times 10^{-23}$ J/K |
-| 1 bit 信息 (Landauer极限) | $k_B \ln 2 \approx 9.57 \times 10^{-24}$ J/K |
+| 1 bit 信息 (Landauer 极限) | $k_B \ln 2 \approx 9.57 \times 10^{-24}$ J/K |
 
 ### 熵与宇宙
 
@@ -167,8 +169,8 @@ $$ \Delta G = \Delta H - T\Delta S $$
 
 1. 为什么打开一瓶香水，香味分子会自发扩散到整个房间？
 2. 冰箱能降低内部温度，是否违反了热力学第二定律？
-3. 计算机存储 1 GB 的信息，理论上最少需要消耗多少能量？（Landauer原理）
-4. DNA复制过程高度有序（熵减），如何与熵增原理相容？
+3. 计算机存储 1 GB 的信息，理论上最少需要消耗多少能量？（Landauer 原理）
+4. DNA 复制过程高度有序（熵减），如何与熵增原理相容？
 5. 信息熵为 $H=0$ 意味着什么？信息熵最大时对应什么概率分布？
 
 ## 相关条目 (Related Entries)

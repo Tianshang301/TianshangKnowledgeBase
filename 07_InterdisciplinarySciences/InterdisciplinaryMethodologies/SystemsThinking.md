@@ -1,6 +1,8 @@
 ---
 aliases: [SystemsThinking]
 tags: ['InterdisciplinaryMethodologies', 'SystemsThinking']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 系统思维

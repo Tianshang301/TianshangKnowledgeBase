@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['Sociology', 'Ethnology', 'INDEX']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 民族社会学

@@ -1,6 +1,8 @@
 ---
 aliases: [GovernmentReform]
 tags: ['PublicAdministration', 'GovernmentReform']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 政府改革
@@ -145,7 +147,7 @@ tags: ['PublicAdministration', 'GovernmentReform']
 
 ### 新加坡的电子政府改革
 
-新加坡的电子政府建设全球领先。SingPass统一数字身份方便公民办事。政府数据开放平台促进创新。智慧国计划（Smart Nation）推动数字政府建设。
+新加坡的电子政府建设全球领先。SingPass 统一数字身份方便公民办事。政府数据开放平台促进创新。智慧国计划（Smart Nation）推动数字政府建设。
 
 ## 政府改革的具体措施
 

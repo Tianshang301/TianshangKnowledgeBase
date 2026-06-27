@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['ComputerOrganizationAndArchitecture', 'InstructionSet', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 指令集体系结构
@@ -10,4 +12,4 @@ tags: ['ComputerOrganizationAndArchitecture', 'InstructionSet', 'INDEX']
 ## 文件
 
 - [[InstructionSet]]
-- [[RISC-V指令集架构]]
+- [[RISC-V 指令集架构]]

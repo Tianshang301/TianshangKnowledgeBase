@@ -1,6 +1,8 @@
 ---
 aliases: [MineralProcessing]
 tags: ['MiningAndMineralEngineering', 'MineralProcessing', 'MineralProcessing']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 矿物加工
@@ -12,7 +14,7 @@ tags: ['MiningAndMineralEngineering', 'MineralProcessing', 'MineralProcessing']
 ### 1.1 破碎（Crushing）
 
 - **颚式破碎机（Jaw Crusher）**：适用于粗碎，给料粒度可达1.5m，排料粒度100–300mm
-- **旋回破碎机（Gyratory Crusher）**：大型粗碎设备，生产能力5000t/h以上
+- **旋回破碎机（Gyratory Crusher）**：大型粗碎设备，生产能力5000t/h 以上
 - **圆锥破碎机（Cone Crusher）**：中碎和细碎，产品粒度均匀，层压破碎原理
 - **反击式破碎机（Impact Crusher）**：利用高速冲击破碎，适用于中等硬度矿石
 - **辊式破碎机（Roll Crusher）**：对辊破碎、齿辊破碎
@@ -51,7 +53,7 @@ $$
 | 一段闭路 | 检查筛分返回再碎，产品均匀 | 中细碎 |
 | 两段一闭路 | 两段破碎+筛分闭路 | 中小型选厂 |
 | 三段一闭路 | 最常用，产品粒度<12mm | 大型选矿厂 |
-| SABC流程 | SAG+球磨+破碎 | 特大型选厂 |
+| SABC 流程 | SAG+球磨+破碎 | 特大型选厂 |
 
 **粉碎设备对比**
 
@@ -61,7 +63,7 @@ $$
 | 旋回破碎机 | ≤1500mm | 100–300mm | 4–6 | 高 | 低 |
 | 圆锥破碎机 | ≤300mm | 5–50mm | 5–20 | 中高 | 中 |
 | 球磨机 | ≤25mm | 0.01–0.5mm | 50–200 | 中 | 高 |
-| SAG磨机 | ≤300mm | 0.1–1mm | 300–1000 | 很高 | 很高 |
+| SAG 磨机 | ≤300mm | 0.1–1mm | 300–1000 | 很高 | 很高 |
 
 ## 二、筛分与分级
 
@@ -90,7 +92,7 @@ $$
 - **Gaudin-Schuhmann**：$Y = \left(\frac{d}{d_{max}}\right)^m$，$Y$ 为累积筛下率
 - **Rosin-Rammler**：$R = \exp\left[-\left(\frac{d}{d_0}\right)^n\right]$，$R$ 为累积筛余率
 
-**Tromp曲线（分配曲线）**：$E_c = \frac{m_c}{m_f} \times 100\%$，表示各粒度级进入粗产品的分配率
+**Tromp 曲线（分配曲线）**：$E_c = \frac{m_c}{m_f} \times 100\%$，表示各粒度级进入粗产品的分配率
 
 ## 三、重力选矿
 
@@ -129,8 +131,8 @@ $$
 | 药剂类型 | 功能 | 代表性药剂 |
 |---------|------|-----------|
 | 捕收剂（Collector） | 使目标矿物表面疏水 | 黄药（xanthate）、黑药（dithiophosphate）、脂肪酸 |
-| 起泡剂（Frother） | 产生稳定的气泡层 | MIBC、松醇油、PEG醚 |
-| 调整剂（Modifier） | 调整矿浆pH和表面化学 | 石灰（pH调节）、NaCN（抑制剂）、CuSO₄（活化剂） |
+| 起泡剂（Frother） | 产生稳定的气泡层 | MIBC、松醇油、PEG 醚 |
+| 调整剂（Modifier） | 调整矿浆 pH 和表面化学 | 石灰（pH 调节）、NaCN（抑制剂）、CuSO₄（活化剂） |
 | 絮凝剂（Flocculant） | 细颗粒团聚 | 聚丙烯酰胺（PAM） |
 
 ### 4.3 浮选动力学
@@ -149,7 +151,7 @@ $$
 
 ### 4.4 浮选设备
 
-- **机械搅拌式浮选机**：XCF/KYF系列充气机械搅拌式
+- **机械搅拌式浮选机**：XCF/KYF 系列充气机械搅拌式
 - **詹姆斯浮选槽（Jameson Cell）**：自吸式、细气泡、高气含率，适用于细粒浮选
 - **浮选柱（Column Flotation）**：逆流原理，泡沫层厚，精选效果好
   - 气泡发生器类型：多孔介质、气-水混合喷射
@@ -233,7 +235,7 @@ $$
 4Au + 8NaCN + O_2 + 2H_2O \rightarrow 4NaAu(CN)_2 + 4NaOH
 $$
 
-浸出条件：pH > 10（防止HCN逸出），NaCN浓度0.01–0.1%，溶解氧含量（可用H₂O₂增氧）。
+浸出条件：pH > 10（防止 HCN 逸出），NaCN 浓度0.01–0.1%，溶解氧含量（可用 H₂O₂增氧）。
 炭浆法（CIP）/炭浸法（CIL）从矿浆中吸附金氰络合物。
 
 ## 八、尾矿管理
@@ -252,7 +254,7 @@ $$
 
 ### 8.3 环境管理
 
-- 防渗层（HDPE膜）防止渗漏污染地下水
+- 防渗层（HDPE 膜）防止渗漏污染地下水
 - 尾矿库监测（浸润线、位移、渗流量）
 - 闭库后生态复垦
 

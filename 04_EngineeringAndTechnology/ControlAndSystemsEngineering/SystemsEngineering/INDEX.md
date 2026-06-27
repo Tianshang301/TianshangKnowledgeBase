@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['ControlAndSystemsEngineering', 'SystemsEngineering', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 系统工程

@@ -1,6 +1,8 @@
 ---
 aliases: [BitManipulation]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'BitManipulation']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 位运算技巧

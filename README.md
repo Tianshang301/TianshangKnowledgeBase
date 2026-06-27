@@ -1,11 +1,13 @@
 ---
 aliases: [README]
 tags: ['00_KnowledgeFramework', 'README']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # TianshangKnowledgeBase（天殇知识库）
 
-欢迎来到 **TianshangKnowledgeBase** – 个人综合知识库。  
+欢迎来到 **TianshangKnowledgeBase** – 个人综合知识库。
 本知识库依据 **联合国教科文组织（UNESCO）基础学科分类** 与 **中华人民共和国教育部学科门类体系** 构建，覆盖从小学到大学本科及以上所有主要学科领域。
 
 > 让知识有序生长，日有所进。
@@ -95,5 +97,5 @@ TianshangKnowledgeBase/
 
 ---
 
-**让知识有序生长，日有所进。**  
+**让知识有序生长，日有所进。**
 —— TianshangKnowledgeBase

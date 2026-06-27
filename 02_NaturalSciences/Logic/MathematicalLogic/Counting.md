@@ -1,6 +1,8 @@
 ---
 aliases: [Counting]
 tags: ['Logic', 'MathematicalLogic', 'Counting']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 组合计数详解

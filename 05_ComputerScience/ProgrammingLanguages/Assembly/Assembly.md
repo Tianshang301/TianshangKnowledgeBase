@@ -1,6 +1,8 @@
 ---
 aliases: [Assembly]
 tags: ['ProgrammingLanguages', 'Assembly', 'Assembly']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 汇编语言

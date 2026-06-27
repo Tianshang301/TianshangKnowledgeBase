@@ -1,6 +1,8 @@
 ---
 aliases: [CMake]
-tags: ['ProgrammingLanguages', 'C_Cpp', 'CMake']
+tags: ['ProgrammingLanguages', 'CCpp', 'CMake']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # CMake 构建系统

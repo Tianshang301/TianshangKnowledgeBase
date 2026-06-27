@@ -1,4 +1,11 @@
-﻿---
+---
+aliases: [ComputationalGeometry]
+tags: ['Mathematics', 'ComputationalGeometry.md']
+created: 2026-05-17
+updated: 2026-05-17
+---
+
+---
 aliases: [ComputationalGeometry]
 tags: ['Mathematics/ComputationalGeometry', 'ComputerScience']
 ---

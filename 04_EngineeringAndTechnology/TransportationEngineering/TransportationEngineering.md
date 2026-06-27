@@ -1,6 +1,8 @@
 ---
 aliases: [TransportationEngineering]
 tags: ['TransportationEngineering', 'TransportationEngineering']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 交通运输工程
@@ -78,7 +80,7 @@ $$ \sum_a \int_0^{x_a} t_a(\omega)d\omega \to \min $$
 1. 基础阶段：力学、工程制图、材料学
 2. 专业基础：交通工程、道路工程、桥梁工程
 3. 专业核心：路线设计、交通规划、轨道工程
-4. 专业拓展：智能交通、BIM技术
+4. 专业拓展：智能交通、BIM 技术
 
 ## 经典教材
 - 王炜《交通工程学》

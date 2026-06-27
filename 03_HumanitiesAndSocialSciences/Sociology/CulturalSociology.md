@@ -1,6 +1,8 @@
 ---
 aliases: [CulturalSociology]
 tags: ['03_HumanitiesAndSocialSciences', 'Sociology', 'CulturalSociology']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # CulturalSociology
@@ -41,7 +43,7 @@ graph TD
 
 涂尔干（Émile Durkheim）在《宗教生活的基本形式》（1912）中揭示了宗教仪式的社会功能——通过集体欢腾（Collective Effervescence）和仪式实践强化集体意识（Collective Conscience），维持社会团结。核心论点是：宗教是社会自身的象征再现——宗教崇拜的终极对象是社会本身。这一分析为文化社会学提供了强有力的方法论工具：文化分析应寻找潜伏在社会实践下的象征编码。
 
-帕森斯（Talcott Parsons）将文化整合进AGIL模型——文化系统执行**模式维持**（Latent Pattern Maintenance）功能：通过社会化（Socialization）将文化价值观内在化为个体的动机结构。
+帕森斯（Talcott Parsons）将文化整合进 AGIL 模型——文化系统执行**模式维持**（Latent Pattern Maintenance）功能：通过社会化（Socialization）将文化价值观内在化为个体的动机结构。
 
 ### 冲突论视角
 
@@ -86,7 +88,7 @@ $$ \text{(Habitus)} \times \text{(Capital)} + \text{(Field)} = \text{Practice} $
 
 ## 文化全球化
 
-- **文化同质化（Cultural Homogenization）**：跨国公司传播全球统一的消费文化（麦当劳化Ritzer, 1993；迪士尼化Bryman, 2004）
+- **文化同质化（Cultural Homogenization）**：跨国公司传播全球统一的消费文化（麦当劳化 Ritzer, 1993；迪士尼化 Bryman, 2004）
 - **文化异质化（Cultural Heterogenization）**：全球化反而激活了本地文化的复兴和强调
 - **文化杂糅/混杂（Cultural Hybridity）**：全球与本地互动的产物（世界音乐、融合菜）——文化不是被西方化而是创造性挪用
 - **文化本地化**（Glocalization, Robertson, 1992）：全球性产品调整以适应本地市场

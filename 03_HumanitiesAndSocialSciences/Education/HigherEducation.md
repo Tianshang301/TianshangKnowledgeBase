@@ -1,6 +1,8 @@
 ---
 aliases: [HigherEducation]
 tags: ['03_HumanitiesAndSocialSciences', 'Education']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 高等教育学 (Higher Education)
@@ -175,7 +177,7 @@ flowchart LR
 
 - **经费压力**：政府投入不足，办学成本上升
 - **就业压力**：毕业生就业难，供需结构性矛盾
-- **技术冲击**：MOOC和在线教育对传统模式的挑战
+- **技术冲击**：MOOC 和在线教育对传统模式的挑战
 - **质量问责**：社会对高等教育质量的质疑
 - **学术不端**：科研诚信问题的日益凸显
 - **心理健康**：大学生心理健康问题的增长

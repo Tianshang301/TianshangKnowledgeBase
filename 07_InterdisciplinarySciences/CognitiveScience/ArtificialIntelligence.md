@@ -1,14 +1,16 @@
 ---
 aliases: [ArtificialIntelligence]
 tags: ['CognitiveScience', 'ArtificialIntelligence']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 人工智能（认知科学视角）
 
 ## 概述
 
-人工智能是计算机科学的一个分支，旨在创建能够执行通常霢要人类智能才能完成的任务的系统从认知科学视角看，AI研究试图理解和模拟人类认知过程，包括推理、学习感知和语言理解?
-## AI的历史与流派
+人工智能是计算机科学的一个分支，旨在创建能够执行通常霢要人类智能才能完成的任务的系统从认知科学视角看，AI 研究试图理解和模拟人类认知过程，包括推理、学习感知和语言理解?
+## AI 的历史与流派
 
 ### 符号主义（Symbolicism?
 **核心思想?*
@@ -16,7 +18,7 @@ tags: ['CognitiveScience', 'ArtificialIntelligence']
 - 知识用符号和规则表示
 - 推理是符号变?
 **发展?*
-- 1956年达特茅斯会议：AI诞生
+- 1956年达特茅斯会议：AI 诞生
 - 专家系统?970-80年代?- 知识表示和推?
 **代表方法?*
 - 逻辑编程（Prolog?- 专家系统
@@ -91,7 +93,7 @@ tags: ['CognitiveScience', 'ArtificialIntelligence']
 - 脚本
 
 **产生式系统：**
-- IF-THEN规则
+- IF-THEN 规则
 - 工作存储
 - 冲突解决
 
@@ -136,7 +138,7 @@ tags: ['CognitiveScience', 'ArtificialIntelligence']
 
 ### 大语訢模型
 
-**Transformer架构?*
+**Transformer 架构?*
 - 自注意力机制
 - 位置编码
 - 多头注意?
@@ -145,7 +147,7 @@ tags: ['CognitiveScience', 'ArtificialIntelligence']
 - 有监督微?- 迁移学习
 
 **代表模型?*
-- GPT系列
+- GPT 系列
 - BERT
 - T5
 - PaLM
@@ -177,7 +179,7 @@ tags: ['CognitiveScience', 'ArtificialIntelligence']
 - Faster R-CNN
 
 **单阶段方法：**
-- YOLO系列
+- YOLO 系列
 - SSD
 - RetinaNet
 
@@ -189,17 +191,17 @@ tags: ['CognitiveScience', 'ArtificialIntelligence']
 - 跳跃连接
 - 医学图像分割
 - 小样本学?
-## 强AI与弱AI的哲学辩?
-### 弱AI（Narrow AI?
+## 强 AI 与弱 AI 的哲学辩?
+### 弱 AI（Narrow AI?
 **定义?*
 - 专门执行特定任务
 - 无意识和理解
-- 当前AI系统的实际状?
+- 当前 AI 系统的实际状?
 **例子?*
-- 围棋AI（AlphaGo?- 语音助手
+- 围棋 AI（AlphaGo?- 语音助手
 - 推荐系统
 
-### 强AI（General AI?
+### 强 AI（General AI?
 **定义?*
 - 具有人类水平的用智能
 - 有意识和理解能力
@@ -208,7 +210,7 @@ tags: ['CognitiveScience', 'ArtificialIntelligence']
 - 图灵测试
 - 中文房间论证
 - 意识的困难问?
-### AI意识问题
+### AI 意识问题
 
 **意识的类型：**
 - 现象意识：主观体?- 可获取意识：可报告的内容
@@ -216,7 +218,7 @@ tags: ['CognitiveScience', 'ArtificialIntelligence']
 **机器意识的可能：**
 - 功能主义：意识是功能状?- 生物自然主义：意识需要生物基硢
 - 整合信息论：意识是信息整?
-## AI伦理
+## AI 伦理
 
 ### 偏见与公?
 **偏见来源?*
@@ -232,9 +234,9 @@ tags: ['CognitiveScience', 'ArtificialIntelligence']
 - 数据预处?- 算法去偏
 - 后处理调?
 ### 透明性与可解释?
-**可解释AI（XAI）：**
+**可解释 AI（XAI）：**
 - LIME：局部可解释模型
-- SHAP：Shapley值解?- 注意力可视化
+- SHAP：Shapley 值解?- 注意力可视化
 
 **重要性：**
 - 建立信任
@@ -245,15 +247,15 @@ tags: ['CognitiveScience', 'ArtificialIntelligence']
 - 差分隐私
 - 联邦学习
 - 同加?
-**AI安全?*
+**AI 安全?*
 - 对抗样本
 - 鲁棒?- 可靠?
-### 负责任的AI
+### 负责任的 AI
 
 **原则?*
 - 公平?- 透明?- 隐私?- 安全?- 可问责?
 **治理框架?*
-- AI伦理委员?- 影响评估
+- AI 伦理委员?- 影响评估
 - 持续监控
 
 ## 参资?

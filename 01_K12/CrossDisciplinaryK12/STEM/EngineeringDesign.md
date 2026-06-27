@@ -1,6 +1,8 @@
 ---
 aliases: [EngineeringDesign]
 tags: ['CrossDisciplinaryK12', 'STEM', 'EngineeringDesign']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 工程设计
@@ -133,7 +135,7 @@ tags: ['CrossDisciplinaryK12', 'STEM', 'EngineeringDesign']
 
 ## 参考资料
 - 工程设计教材
-- STEM教育网站
+- STEM 教育网站
 - 机器人制作教程。
 - 科学实验指导
 

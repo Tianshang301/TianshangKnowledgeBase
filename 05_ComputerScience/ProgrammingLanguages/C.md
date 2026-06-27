@@ -1,6 +1,8 @@
 ---
-aliases: [C, C语言]
+aliases: [C, C 语言]
 tags: ['05_ComputerScience', 'ProgrammingLanguages']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # C 语言 (C Programming Language)

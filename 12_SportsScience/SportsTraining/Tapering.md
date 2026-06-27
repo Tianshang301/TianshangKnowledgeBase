@@ -1,6 +1,8 @@
 ---
 aliases: [Tapering, 减量训练, 赛前减量, Peaking]
 tags: ['SportsScience', 'SportsTraining', 'Periodization', 'PerformanceOptimization']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 减量训练 (Tapering)

@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['Economics', 'Econometrics', 'INDEX']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 计量经济学

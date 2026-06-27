@@ -1,6 +1,8 @@
 ---
-aliases: [VHDL, VHDL硬件描述]
+aliases: [VHDL, VHDL 硬件描述]
 tags: ['04_EngineeringAndTechnology', 'MechanicalAndElectricalEngineering', 'InstrumentScience', 'VHDL']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # VHDL 硬件描述 (VHDL Hardware Description)

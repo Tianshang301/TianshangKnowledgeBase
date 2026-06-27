@@ -1,6 +1,8 @@
 ---
 aliases: [MathematicalPhysics]
 tags: ['Physics/MathematicalPhysics', 'Interdisciplinary']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # MathematicalPhysics

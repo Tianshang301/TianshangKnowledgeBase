@@ -1,6 +1,8 @@
 ---
 aliases: [InstructionSet]
 tags: ['ComputerOrganizationAndArchitecture', 'InstructionSet', 'InstructionSet']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 指令集 (Instruction Set Architecture)
@@ -23,7 +25,7 @@ tags: ['ComputerOrganizationAndArchitecture', 'InstructionSet', 'InstructionSet'
 按架构类型：
   ┌──────────────────────────────────────┐
   │  堆栈架构 (Stack)       ─── JVM      │
-  │  累加器架构 (Accumulator) ─── 早期CPU │
+  │  累加器架构 (Accumulator) ─── 早期 CPU │
   │  寄存器-存储器架构       ─── x86     │
   │  加载-存储架构 (Load/Store) ─── ARM,  │
   │                              MIPS,   │
@@ -305,12 +307,12 @@ J-type: [imm[20|10:1|11|19:12](20)][rd(5)][opcode(7)]
 | 特性 | MIPS | x86-64 | ARMv8-A | RISC-V |
 |------|------|--------|---------|--------|
 | 架构类型 | Load/Store | Reg-Mem | Load/Store | Load/Store |
-| 指令长度 | 32-bit | 1-15字节 | 32-bit (Thumb: 16/32) | 32/16-bit (C扩展) |
+| 指令长度 | 32-bit | 1-15字节 | 32-bit (Thumb: 16/32) | 32/16-bit (C 扩展) |
 | 寄存器数 | 32 | 16 | 31 | 32 |
 | 寻址方式 | 3种 | 10+种 | 几种 | 几种 |
 | 条件执行 | 无 | 标志位 | 条件码 (大部分指令) | 无 (用分支) |
-| 浮点 | 协处理器 | SSE/AVX | VFP/NEON | F/D扩展 |
-| 原子操作 | LL/SC | LOCK前缀 | LL/SC/LSE | A扩展 |
+| 浮点 | 协处理器 | SSE/AVX | VFP/NEON | F/D 扩展 |
+| 原子操作 | LL/SC | LOCK 前缀 | LL/SC/LSE | A 扩展 |
 | 授权 | 专有 (MIPS) | 专有 (Intel/AMD) | 授权 (ARM) | 开源 |
 | 应用场景 | 教学/嵌入式 | PC/服务器 | 移动/嵌入式 | 新兴 (所有领域) |
 

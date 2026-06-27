@@ -1,6 +1,8 @@
 ---
 aliases: [OperationsResearch, 运筹学]
 tags: ['EngineeringFundamentals', 'EngineeringMathematics', 'OperationsResearch']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 运筹学 (Operations Research)
@@ -31,7 +33,7 @@ $$
 
 ```mermaid
 graph TD
-  A[标准形LP] --> B[确定初始基本可行解]
+  A[标准形 LP] --> B[确定初始基本可行解]
   B --> C[计算检验数 $\sigma_j = c_j - c_B B^{-1} P_j$]
   C --> D{所有 $\sigma_j \leq 0$?}
   D -->|是| E[最优解找到]

@@ -1,6 +1,8 @@
 ---
 aliases: [Hydration, 水合状态, 补水]
 tags: ['12_SportsScience', 'SportsMedicine', 'Hydration', 'FluidBalance', 'Performance']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 水合状态（Hydration）

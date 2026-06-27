@@ -1,6 +1,8 @@
 ---
 aliases: [AcademicWriting]
 tags: ['AcademicWriting', 'AcademicWriting']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 学术写作
@@ -208,13 +210,13 @@ tags: ['AcademicWriting', 'AcademicWriting']
 | 结构 | 逐篇介绍研究 | 按主题/观点组织 |
 | 分析 | 复述研究发现 | 比较、对比、批判 |
 | 价值 | 展示知悉文献 | 构建新见解 |
-| 逻辑 | "Smith found... then Jones found..." | "关于X有两种观点：A支持...而B反对..." |
+| 逻辑 | "Smith found... then Jones found..." | "关于 X 有两种观点：A 支持...而 B 反对..." |
 
 ### 9.2 主题组织方法
 
 1. **时间线组织**：按研究发展历史组织
 2. **主题分类**：按不同研究方向/主题组织
-3. **方法论分类**：按研究方法区分（定量vs定性）
+3. **方法论分类**：按研究方法区分（定量 vs 定性）
 4. **理论框架分类**：按不同理论视角组织
 
 ### 9.3 识别研究空白

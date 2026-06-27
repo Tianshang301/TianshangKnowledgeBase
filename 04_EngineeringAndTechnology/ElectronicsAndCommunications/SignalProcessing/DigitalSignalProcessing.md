@@ -1,6 +1,8 @@
 ---
 aliases: [DigitalSignalProcessing]
 tags: ['ElectronicsAndCommunications', 'SignalProcessing', 'DigitalSignalProcessing']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 数字信号处理
@@ -11,7 +13,7 @@ tags: ['ElectronicsAndCommunications', 'SignalProcessing', 'DigitalSignalProcess
 ## 研究对象
 - 采样与量化理论
 - 离散时间信号与系统
-- Z变换与离散傅里叶变换
+- Z 变换与离散傅里叶变换
 - 数字滤波器设计
 
 ## 核心内容
@@ -38,7 +40,7 @@ $$SNR = 6.02B + 1.76 \text{ dB}$$
 
 ### 离散傅里叶变换（DFT/FFT）
 
-**DFT定义**：
+**DFT 定义**：
 
 $$X(k) = \sum_{n=0}^{N-1} x(n)W_N^{kn}, \quad W_N = e^{-j2\pi/N}$$
 
@@ -48,7 +50,7 @@ $$x(n) = \frac{1}{N}\sum_{k=0}^{N-1} X(k)W_N^{-kn}$$
 
 **FFT（快速傅里叶变换）**：
 - 基2-FFT：$O(N\log_2 N)$ 复杂度
-- Cooley-Tukey算法
+- Cooley-Tukey 算法
 - 应用：频谱分析、快速卷积
 
 **频谱分辨率**：
@@ -57,7 +59,7 @@ $$\Delta f = \frac{f_s}{N}$$
 
 ### 数字滤波器
 
-**FIR滤波器（有限脉冲响应）**：
+**FIR 滤波器（有限脉冲响应）**：
 
 $$y(n) = \sum_{k=0}^{M} b_k x(n-k)$$
 
@@ -65,7 +67,7 @@ $$y(n) = \sum_{k=0}^{M} b_k x(n-k)$$
 - 稳定性：始终稳定
 - 设计方法：窗函数法、频率采样法、等波纹法
 
-**IIR滤波器（无限脉冲响应）**：
+**IIR 滤波器（无限脉冲响应）**：
 
 $$y(n) = \sum_{k=0}^{M} b_k x(n-k) - \sum_{k=1}^{N} a_k y(n-k)$$
 
@@ -79,7 +81,7 @@ $$y(n) = \sum_{k=0}^{M} b_k x(n-k) - \sum_{k=1}^{N} a_k y(n-k)$$
 - 带通滤波器（BPF）
 - 带阻滤波器（BSF）
 
-### Z变换
+### Z 变换
 
 **定义**：
 
@@ -105,23 +107,23 @@ $$S_{xx}(f) = |X(f)|^2$$
 **周期图法**：$\hat{S}_{xx}(f) = \frac{1}{N}|X(k)|^2$
 
 **改进方法**：
-- Bartlett法（平均周期图）
-- Welch法（加窗+分段平均）
+- Bartlett 法（平均周期图）
+- Welch 法（加窗+分段平均）
 
 ### 数字音频处理
 
 **音频采样**：
-- CD音质：44.1kHz采样，16bit量化
-- 电话：8kHz采样，8bit量化
+- CD 音质：44.1kHz 采样，16bit 量化
+- 电话：8kHz 采样，8bit 量化
 
 **音频编码**：
 - PCM：脉冲编码调制
-- ADPCM：自适应差分PCM
+- ADPCM：自适应差分 PCM
 - MP3/AAC：感知音频编码
 
 ### 图像信号处理基础
 
-**二维DFT**：
+**二维 DFT**：
 
 $$F(u,v) = \sum_{x=0}^{M-1}\sum_{y=0}^{N-1}f(x,y)e^{-j2\pi(ux/M+vy/N)}$$
 

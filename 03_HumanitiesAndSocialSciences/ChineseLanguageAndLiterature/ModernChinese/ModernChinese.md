@@ -1,6 +1,8 @@
 ---
 aliases: [ModernChinese]
 tags: ['ChineseLanguageAndLiterature', 'ModernChinese', 'ModernChinese']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 现代汉语
@@ -15,8 +17,8 @@ tags: ['ChineseLanguageAndLiterature', 'ModernChinese', 'ModernChinese']
 
 | 声母类别 | 开口呼 | 齐齿呼 | 合口呼 | 撮口呼 |
 |----------|--------|--------|--------|--------|
-| b p m | + | + | +（限于u） | - |
-| f | +（限于o/ou） | - | +（限于u） | - |
+| b p m | + | + | +（限于 u） | - |
+| f | +（限于 o/ou） | - | +（限于 u） | - |
 | d t | + | + | + | - |
 | n l | + | + | + | + |
 | g k h | + | - | + | - |
@@ -35,11 +37,11 @@ tags: ['ChineseLanguageAndLiterature', 'ModernChinese', 'ModernChinese']
 
 | 原字 | 后接声调 | 变调 | 例词 |
 |------|----------|------|------|
-| 一 | 去声 | 阳平35 | 一个yí gè |
-| 一 | 非去声（阴/阳/上） | 去声51 | 一天yì tiān |
+| 一 | 去声 | 阳平35 | 一个 yí gè |
+| 一 | 非去声（阴/阳/上） | 去声51 | 一天 yì tiān |
 | 一 | 嵌在词语中间 | 轻声 | 看一看 |
-| 不 | 去声 | 阳平35 | 不对bú duì |
-| 不 | 非去声 | 去声51 | 不好bù hǎo |
+| 不 | 去声 | 阳平35 | 不对 bú duì |
+| 不 | 非去声 | 去声51 | 不好 bù hǎo |
 | 不 | 嵌在词语中间 | 轻声 | 差不多 |
 
 **轻声**：音节失去原调，读得又轻又短。语法作用：区分词义和词性——"东西"dōngxi（事物）vs dōngxī（方向）；"地道"dìdao（纯正）vs dìdào（地下通道）。
@@ -120,7 +122,7 @@ tags: ['ChineseLanguageAndLiterature', 'ModernChinese', 'ModernChinese']
 | 祈使句 | 请求/命令 | 吧、啊 | "你快过来吧！" |
 | 感叹句 | 强烈情感 | 啊、啦 | "太好了！" |
 
-**疑问句类型**：是非问（用"吗"）、特指问（用疑问词）、选择问（A还是B）、正反问（V不V）。
+**疑问句类型**：是非问（用"吗"）、特指问（用疑问词）、选择问（A 还是 B）、正反问（V 不 V）。
 
 ### 3.4 复句
 

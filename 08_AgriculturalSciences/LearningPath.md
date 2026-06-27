@@ -1,6 +1,8 @@
 ---
 aliases: [农业科学学习路径, 农学学习路线, Agricultural Sciences Learning Path, Ag Learning Roadmap]
 tags: [农业科学, 学习路径, 农学, 园艺, 畜牧, 林学, 农业工程, 职业发展]
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 农业科学学习路径 (Agricultural Sciences Learning Path)

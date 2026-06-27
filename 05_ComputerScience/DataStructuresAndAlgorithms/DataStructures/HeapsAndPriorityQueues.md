@@ -1,6 +1,8 @@
 ---
 aliases: [HeapsAndPriorityQueues, 堆与优先队列, BinaryHeap]
 tags: ['05_ComputerScience', 'DataStructuresAndAlgorithms', 'DataStructures', 'HeapsAndPriorityQueues', 'Algorithm']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 堆与优先队列 (Heaps and Priority Queues)
@@ -224,7 +226,7 @@ graph TD
 
 ### 堆的优化技巧
 
-- **d叉堆**：减少树高，适合缓存友好的场景
+- **d 叉堆**：减少树高，适合缓存友好的场景
 - **软堆**：允许一定误差，用于近似算法
 - **配对堆**：实现简单，实际性能优异
 
@@ -233,7 +235,7 @@ graph TD
 - 《算法导论》(Introduction to Algorithms) — Cormen 等，第6章 堆排序
 - 《数据结构与算法分析》(Data Structures and Algorithm Analysis) — Mark Allen Weiss
 - 《算法》(Algorithms) — Robert Sedgewick
-- LeetCode 堆相关题目：215. 数组中的第K个最大元素，23. 合并K个升序链表
+- LeetCode 堆相关题目：215. 数组中的第 K 个最大元素，23. 合并 K 个升序链表
 
 ## 相关条目
 

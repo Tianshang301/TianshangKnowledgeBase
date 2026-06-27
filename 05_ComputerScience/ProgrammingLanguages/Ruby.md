@@ -1,6 +1,8 @@
 ---
 aliases: [Ruby]
 tags: ['05_ComputerScience', 'ProgrammingLanguages']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # Ruby (Ruby Programming Language)

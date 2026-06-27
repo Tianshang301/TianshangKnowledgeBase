@@ -1,6 +1,8 @@
 ---
 aliases: [README]
 tags: ['SoftwareEngineering', 'README']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # IDE 配置与效率技巧

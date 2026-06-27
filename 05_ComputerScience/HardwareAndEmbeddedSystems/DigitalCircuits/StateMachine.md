@@ -1,6 +1,8 @@
 ---
 aliases: [StateMachine]
 tags: ['HardwareAndEmbeddedSystems', 'DigitalCircuits', 'StateMachine']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 状态机设计

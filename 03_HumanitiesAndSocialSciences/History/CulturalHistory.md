@@ -1,6 +1,8 @@
 ---
 aliases: [CulturalHistory, 文化史, IntellectualHistory, CivilizationHistory, ArtHistory]
 tags: ['History', 'CulturalHistory', 'IntellectualHistory', 'Civilization', 'ArtMovements', 'CulturalExchange']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 文化史（Cultural History）

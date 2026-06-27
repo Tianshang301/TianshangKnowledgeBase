@@ -1,6 +1,8 @@
 ---
 aliases: [OnlineLearning, 在线学习策略]
 tags: ['00_KnowledgeFramework', 'LearningPaths', 'Online']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 在线学习策略 (Online Learning)
@@ -14,10 +16,10 @@ tags: ['00_KnowledgeFramework', 'LearningPaths', 'Online']
 | 平台 | 特点 | 适合 |
 |------|------|------|
 | Coursera | 体系化专项课程，有学位项目，提供证书 | 系统学习、获得认证 |
-| edX | 名校课程多，MicroMasters项目 | 深度学习、学术路线 |
+| edX | 名校课程多，MicroMasters 项目 | 深度学习、学术路线 |
 | MIT OCW | 全部免费，无截止日期，课程完整 | 自学为主，时间灵活 |
 | Udacity | 纳米学位，项目驱动，有导师辅助 | 职业技能提升 |
-| Khan Academy | 免费，覆盖K12到大学内容 | 基础夯实，查漏补缺 |
+| Khan Academy | 免费，覆盖 K12到大学内容 | 基础夯实，查漏补缺 |
 | FutureLearn | 英国大学课程，社交学习 | 人文社科学科学习 |
 | Udemy | 课程量大，经常打折 | 特定技能速成 |
 
@@ -32,7 +34,7 @@ tags: ['00_KnowledgeFramework', 'LearningPaths', 'Online']
 
 ### 讲座与技术分享
 
-- **YouTube技术频道**：3Blue1Brown（数学可视化）、Computerphile（计算机科学）、The Cherno（C++）
+- **YouTube 技术频道**：3Blue1Brown（数学可视化）、Computerphile（计算机科学）、The Cherno（C++）
 - **Conference Talks**：PyCon、JSConf、Google I/O、WWDC
 - **播客**：Lex Fridman Podcast、Software Engineering Daily、Data Skeptic
 - **Newsletter**：TLDR、Hacker Newsletter、The Batch（DeepLearning.AI）
@@ -41,8 +43,8 @@ tags: ['00_KnowledgeFramework', 'LearningPaths', 'Online']
 
 ### 课程选择原则
 
-1. **评价优先**：参考Rating和评论，优先选高评分课程
-2. **前置知识**：确认已具备prerequisites，避免半途而废
+1. **评价优先**：参考 Rating 和评论，优先选高评分课程
+2. **前置知识**：确认已具备 prerequisites，避免半途而废
 3. **作业设计**：有编程/项目作业的课程优于纯视频课程
 4. **社区活跃**：讨论区活跃的课程获得帮助更及时
 5. **讲师背景**：查看讲师是否在该领域有实际经验
@@ -65,7 +67,7 @@ tags: ['00_KnowledgeFramework', 'LearningPaths', 'Online']
 
 #### 长期规划
 
-- **里程碑**：设立阶段性目标（如3个月内完成CS229）
+- **里程碑**：设立阶段性目标（如3个月内完成 CS229）
 - **季度评审**：每季度评估学习进展，调整学习计划
 - **年度路线**：制定年度学习路线图，确保系统性和连续性
 
@@ -81,7 +83,7 @@ tags: ['00_KnowledgeFramework', 'LearningPaths', 'Online']
 #### 阅读笔记
 
 - **摘录+批注**：摘录原文后加上自己的理解和疑问
-- **概念卡片**：为每个重要概念制作Anki卡片
+- **概念卡片**：为每个重要概念制作 Anki 卡片
 - **结构笔记**：按章节组织笔记，建立知识框架
 - **联想笔记**：记录与已有知识的联系和延伸思考
 
@@ -97,7 +99,7 @@ tags: ['00_KnowledgeFramework', 'LearningPaths', 'Online']
 - 1.25x-1.5x：常规讲解，语速适中的课程
 - 1.5x-2.0x：熟悉的领域，复习性质的内容
 - 1.0x：复杂概念、数学推导、第一次接触的内容
-- **工具推荐**：Video Speed Controller浏览器插件
+- **工具推荐**：Video Speed Controller 浏览器插件
 
 ### 课程完成策略
 
@@ -115,21 +117,21 @@ tags: ['00_KnowledgeFramework', 'LearningPaths', 'Online']
 | 缺乏动力 | 加入学习小组，或设定期末展示目标 |
 | 无法坚持 | 每日打卡，建立习惯性，连续记录天数 |
 | 遇到瓶颈 | 切换学习方式（视频→书本→项目），绕过之后再回看 |
-| 孤独感 | 加入Discord/Slack学习社区，找学习伙伴 |
+| 孤独感 | 加入 Discord/Slack 学习社区，找学习伙伴 |
 | 难以应用 | 主动寻找与工作/项目的结合点，学以致用 |
 
 ## 证书与学分
 
-- **Coursera专项课程证书**：适合简历展示
+- **Coursera 专项课程证书**：适合简历展示
 - **edX MicroMasters**：部分大学认可学分
 - **Udacity Nanodegree**：项目导向，就业导向
-- **开源贡献记录**：在GitHub上的贡献比证书更有说服力
+- **开源贡献记录**：在 GitHub 上的贡献比证书更有说服力
 
 ## 高级学习技巧
 
 ### 间隔重复系统（Spaced Repetition）
 
-利用Anki等工具实现科学复习。遗忘曲线（Ebbinghaus Forgetting Curve）表明，新学知识在24小时内忘记约50%，72小时内忘记约70%。通过间隔重复（1天→3天→7天→14天→30天），可将长期记忆保持率提升至80%以上。
+利用 Anki 等工具实现科学复习。遗忘曲线（Ebbinghaus Forgetting Curve）表明，新学知识在24小时内忘记约50%，72小时内忘记约70%。通过间隔重复（1天→3天→7天→14天→30天），可将长期记忆保持率提升至80%以上。
 
 ### 费曼学习法（Feynman Technique）
 
@@ -146,8 +148,8 @@ tags: ['00_KnowledgeFramework', 'LearningPaths', 'Online']
 
 | 领域 | 推荐课程 | 平台 |
 |------|---------|------|
-| 机器学习 | Andrew Ng机器学习专项课程 | Coursera |
-| 深度学习 | fast.ai深度学习实战 | fast.ai |
+| 机器学习 | Andrew Ng 机器学习专项课程 | Coursera |
+| 深度学习 | fast.ai 深度学习实战 | fast.ai |
 | 计算机科学 | CS50计算机科学导论 | edX |
 | 系统设计 | MIT 6.824分布式系统 | MIT OCW |
 | 数据科学 | 数据科学专项课程 | Coursera |
@@ -164,4 +166,4 @@ tags: ['00_KnowledgeFramework', 'LearningPaths', 'Online']
 - [[SelfStudy]]
 - [[SelfStudyPath]]
 - [[UniversityPath]]
-- [[../INDEX|00_KnowledgeFramework索引]]
+- [[../INDEX|00_KnowledgeFramework 索引]]

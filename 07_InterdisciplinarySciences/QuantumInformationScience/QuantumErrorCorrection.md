@@ -1,6 +1,8 @@
 ---
 aliases: [QuantumErrorCorrection, 量子纠错]
 tags: ['QuantumInformationScience', 'QuantumComputing', 'QuantumErrorCorrection']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 量子纠错
@@ -23,7 +25,7 @@ graph TD
   C --> G["退极化信道<br/>Depolarizing Channel"]
   C --> H["振幅阻尼<br/>Amplitude Damping"]
   C --> I["相位阻尼<br/>Phase Damping"]
-  D --> J["Pauli错误<br/>完整基组"]
+  D --> J["Pauli 错误<br/>完整基组"]
   E --> J
   F --> J
   G --> K["混合态噪声<br/>Mixed State"]

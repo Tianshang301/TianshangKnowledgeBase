@@ -1,6 +1,8 @@
 ---
 aliases: [UnitOperations]
 tags: ['ChemicalAndPharmaceuticalEngineering', 'ChemicalEngineering', 'UnitOperations']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 化工单元操作
@@ -50,7 +52,7 @@ $$\frac{p_1}{\rho} + \frac{u_1^2}{2} + gz_1 = \frac{p_2}{\rho} + \frac{u_2^2}{2}
 
 **芬斯克方程（全回流最少理论板数）**：$N_{min} = \frac{\ln\left[\frac{x_D(1-x_W)}{x_W(1-x_D)}\right]}{\ln\alpha}$
 
-**最小回流比（Underwood法）**：$\sum\frac{\alpha_i x_{F,i}}{\alpha_i - \theta} = 1 - q$
+**最小回流比（Underwood 法）**：$\sum\frac{\alpha_i x_{F,i}}{\alpha_i - \theta} = 1 - q$
 
 ## 分离方法对比
 

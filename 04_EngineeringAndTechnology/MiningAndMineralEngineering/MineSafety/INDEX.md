@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['MiningAndMineralEngineering', 'MineSafety', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 矿山安全

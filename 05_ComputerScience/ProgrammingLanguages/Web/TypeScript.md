@@ -1,6 +1,8 @@
 ---
 aliases: [TypeScript]
 tags: ['ProgrammingLanguages', 'Web', 'TypeScript']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # TypeScript 快速指南

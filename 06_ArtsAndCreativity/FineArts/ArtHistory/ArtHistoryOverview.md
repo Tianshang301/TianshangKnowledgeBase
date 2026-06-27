@@ -1,6 +1,8 @@
 ---
 aliases: [ArtHistory, 艺术史, 美术史, HistoryOfArt]
 tags: ['06_ArtsAndCreativity', 'FineArts', 'ArtHistory', 'VisualCulture']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 艺术史概论
@@ -177,7 +179,7 @@ $$ \text{消失点} = \text{平行线在画面上的交点} $$
 |:---|:---|:---|
 | 数字绘画 | 使用数位板和绘图软件创作 | David Hockney iPad 作品 |
 | 生成艺术 | 算法自主产生图像 | Casey Reas, Processing 社区 |
-| 沉浸式装置 | 投影映射、VR/AR体验 | TeamLab 边界系列 |
+| 沉浸式装置 | 投影映射、VR/AR 体验 | TeamLab 边界系列 |
 | AI 艺术 | 机器学习模型生成 | DALL·E, Midjourney, Stable Diffusion |
 | NFT 艺术 | 区块链认证的数字资产 | Beeple《Everydays》6900 万美元 |
 | 网络艺术（Net Art） | 以互联网为媒介 | Olia Lialina《我的男友从战场归来》 |

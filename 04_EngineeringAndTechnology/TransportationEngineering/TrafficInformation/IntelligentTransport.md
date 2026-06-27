@@ -1,6 +1,8 @@
 ---
 aliases: [IntelligentTransport]
 tags: ['TransportationEngineering', 'TrafficInformation', 'IntelligentTransport']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 智能交通 (Intelligent Transportation)

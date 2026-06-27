@@ -1,6 +1,8 @@
 ---
 aliases: [CrossDisciplinaryLinks]
 tags: ['KnowledgeGraph', 'CrossDisciplinaryLinks']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 跨学科关联索引
@@ -62,7 +64,7 @@ tags: ['KnowledgeGraph', 'CrossDisciplinaryLinks']
 ### 计算社会科学 (Computational Social Science)
 - **交叉学科**：社会科学 × 计算机科学 × 统计学
 - **研究内容**：社会网络分析、计算传播学、数字社会学
-- **核心方法**：大数据分析、Agent建模、网络分析
+- **核心方法**：大数据分析、Agent 建模、网络分析
 - **应用领域**：舆情分析、政策评估、社会预测
 
 ## 跨学科研究的挑战与机遇

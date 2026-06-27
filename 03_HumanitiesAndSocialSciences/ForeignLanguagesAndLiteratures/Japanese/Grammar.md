@@ -1,6 +1,8 @@
 ---
 aliases: [Grammar]
 tags: ['ForeignLanguagesAndLiteratures', 'Japanese', 'Grammar']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 日语语法详解

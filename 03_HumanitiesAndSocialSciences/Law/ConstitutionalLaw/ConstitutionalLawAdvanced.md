@@ -1,6 +1,8 @@
 ---
 aliases: [ConstitutionalLawAdvanced]
 tags: ['Law', 'ConstitutionalLaw', 'ConstitutionalLawAdvanced']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 宪法学进阶
@@ -214,7 +216,7 @@ tags: ['Law', 'ConstitutionalLaw', 'ConstitutionalLawAdvanced']
 **著名判决**：
 - **吕特判决**（1958）：基本权利不仅是主观防御权，更是客观价值秩序
 - **第二次堕胎判决**（1993）：生命权保护与女性自决权的平衡
-- **欧洲央行OMT判决**（2014）：欧盟行为的合宪性控制（Ultra-vires控制）
+- **欧洲央行 OMT 判决**（2014）：欧盟行为的合宪性控制（Ultra-vires 控制）
 
 ---
 

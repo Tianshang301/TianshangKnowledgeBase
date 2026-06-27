@@ -1,6 +1,8 @@
 ---
 aliases: [Dynamics, 动力学]
 tags: ['EngineeringFundamentals', 'EngineeringMechanics', 'Dynamics']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 动力学 (Dynamics)

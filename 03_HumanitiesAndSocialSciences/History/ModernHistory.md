@@ -1,6 +1,8 @@
 ---
 aliases: [ModernHistory]
 tags: ['History', 'ModernHistory', 'EarlyModern', 'Enlightenment', 'IndustrialRevolution']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # ModernHistory

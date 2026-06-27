@@ -1,6 +1,8 @@
 ---
 aliases: [Mineralogy, 矿物学]
 tags: ['04_EngineeringAndTechnology', 'GeologicalAndMiningEngineering', 'GeologicalEngineering', 'Mineralogy']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 矿物学 (Mineralogy)

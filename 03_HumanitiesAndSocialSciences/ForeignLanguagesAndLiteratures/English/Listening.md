@@ -1,6 +1,8 @@
 ---
 aliases: [Listening]
 tags: ['ForeignLanguagesAndLiteratures', 'English', 'Listening']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 英语听力训练指南

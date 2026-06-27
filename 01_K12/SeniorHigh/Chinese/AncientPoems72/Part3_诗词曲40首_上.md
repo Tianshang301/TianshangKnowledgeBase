@@ -1,6 +1,6 @@
 ---
 aliases: [Part3_诗词曲40首_上]
-tags: ['SeniorHigh', 'Chinese', 'AncientPoems_72', 'Part3_诗词曲40首_上']
+tags: ['SeniorHigh', 'Chinese', 'AncientPoems72', 'Part3_诗词曲40首_上']
 ---
 
 # 高中必背古诗?2?· 诗词?0首（上：1-20?
@@ -187,7 +187,7 @@ tags: ['SeniorHigh', 'Chinese', 'AncientPoems_72', 'Part3_诗词曲40首_上']
 
 - "春江潮水连海平，海上明月共潮? ?弢篇壮?- "江畔何人初见月？江月何年初照? ?宇宙之问
 
-- "人生代代无穷已，江月年年望相? ?永恒vs短暂
+- "人生代代无穷已，江月年年望相? ?永恒 vs 短暂
 
 - "此时相望不相闻，愿月华流照君" ?相?- "不知乘月几人归，落月摇情满江? ?结尾余韵
 

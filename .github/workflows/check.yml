@@ -15,6 +15,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: File count
         run: echo "Markdown files: $(find . -name '*.md' -not -path './.git/*' | wc -l)"
+
       - name: Check for U+FFFD
         run: |
           exit_code=0
@@ -27,22 +28,75 @@ jobs:
             echo "No U+FFFD found."
           fi
           exit $exit_code
-      - name: Check broken wiki-links
+
+      - name: Check broken wiki-links (full coverage)
         run: |
           exit_code=0
           find . -name '*.md' -not -path './.git/*' | while read f; do
             dir=$(dirname "$f")
-            grep -oP '\[\[\K[^\]|#]+(?=[|\]])' "$f" 2>/dev/null | while read link; do
-              if ! echo "$link" | grep -q '[/\\]' && [ "$link" != "INDEX" ] && [ "$link" != "LearningPath" ]; then
-                target="$dir/$link.md"
-                if [ ! -f "$target" ]; then
-                  echo "BROKEN: $link (from $f)"
+            grep -oP '\[\[\K[^\]|#]+' "$f" 2>/dev/null | while read link; do
+              target=$(echo "$link" | cut -d'|' -f1 | cut -d'#' -f1 | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+              [ -z "$target" ] && continue
+              [ "$target" = "INDEX" -o "$target" = "LearningPath" -o "$target" = "README" -o "$target" = "404" ] && continue
+
+              if ! echo "$target" | grep -q '/'; then
+                # Type 1: simple-name [[Link]] — check source dir first, then vault root
+                if [ ! -f "$dir/$target.md" ] && [ ! -f "$target.md" ]; then
+                  echo "BROKEN: $target (from $f)"
                   exit_code=1
+                fi
+              else
+                # Type 2: path-based [[Dir/Subdir/File]] — absolute from root
+                if [ ! -f "$target.md" ]; then
+                  # Type 3: relative path [[../Sibling/File]]
+                  resolved="$dir/$target.md"
+                  if [ ! -f "$resolved" ]; then
+                    echo "BROKEN: $target (from $f)"
+                    exit_code=1
+                  fi
                 fi
               fi
             done
           done
           exit $exit_code
+
+      - name: Validate frontmatter (aliases + tags)
+        run: |
+          exit_code=0
+          find . -name '*.md' -not -path './.git/*' | while read f; do
+            header=$(head -1 "$f")
+            if [ "$header" != "---" ]; then
+              echo "MISSING FM: $f"
+              exit_code=1
+              continue
+            fi
+            if ! grep -q '^aliases:' "$f"; then
+              echo "MISSING aliases: $f"
+              exit_code=1
+            fi
+            if ! grep -q '^tags:' "$f"; then
+              echo "MISSING tags: $f"
+              exit_code=1
+            fi
+          done
+          exit $exit_code
+
+      - name: Check file naming convention (UpperCamelCase)
+        run: |
+          exit_code=0
+          find . -name '*.md' -not -path './.git/*' -not -path './.obsidian/*' | while read f; do
+            base=$(basename "$f" .md)
+            if echo "$base" | grep -qP '^[A-Za-z0-9_]+$'; then
+              if ! echo "$base" | grep -qP '^[A-Z][a-zA-Z0-9]*$'; then
+                case "$base" in
+                  INDEX|README|LearningPath|404) ;;
+                  *) echo "NON-CONFORMING: $f"; exit_code=1 ;;
+                esac
+              fi
+            fi
+          done
+          exit $exit_code
+
       - name: Check trailing whitespace
         run: |
           if grep -rnP '\s+$' --include='*.md' . 2>/dev/null; then
@@ -50,6 +104,7 @@ jobs:
             exit 1
           fi
           echo "No trailing whitespace."
+
       - name: Verify INDEX.md in every directory
         run: |
           exit_code=0
@@ -60,6 +115,26 @@ jobs:
             fi
           done
           exit $exit_code
+
+      - name: Warn about orphan files (no incoming wiki-links)
+        run: |
+          orphans=0
+          find . -name '*.md' -not -path './.git/*' -not -name 'INDEX.md' -not -name 'README.md' -not -name '404.md' -not -name 'LearningPath.md' | while read f; do
+            base=$(basename "$f" .md)
+            if ! grep -qr "\[\[$base" --include='*.md' . 2>/dev/null; then
+              rel=$(echo "$f" | sed 's|^\./||;s|\.md$||')
+              if ! grep -qr "\[\[$rel" --include='*.md' . 2>/dev/null; then
+                echo "ORPHAN: $f"
+                orphans=$((orphans + 1))
+              fi
+            fi
+          done
+          if [ "$orphans" -gt 0 ]; then
+            echo "WARNING: $orphans orphan files found (no incoming wiki-links)"
+          else
+            echo "No orphan files found."
+          fi
+
       - name: Run markdownlint
         uses: DavidAnson/markdownlint-cli2-action@v15
         with:

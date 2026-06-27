@@ -1,6 +1,8 @@
 ---
 aliases: [CeramicMaterials]
 tags: ['MechanicsAndMaterials', 'MaterialsScience', 'CeramicMaterials']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 陶瓷材料
@@ -91,11 +93,11 @@ tags: ['MechanicsAndMaterials', 'MaterialsScience', 'CeramicMaterials']
 
 **应力-应变关系**：几乎呈线弹性，无塑性变形。
 
-**强度统计分布（Weibull分布）**：
+**强度统计分布（Weibull 分布）**：
 
 $$P_f = 1 - \exp\left[-\left(\frac{\sigma}{\sigma_0}\right)^m\right]$$
 
-其中 $m$ 为Weibull模数，$m$ 值越大，强度分散性越小。
+其中 $m$ 为 Weibull 模数，$m$ 值越大，强度分散性越小。
 
 **增韧机制**：
 - 相变增韧（ZrO₂四方→单斜相变）
@@ -117,9 +119,9 @@ $$P_f = 1 - \exp\left[-\left(\frac{\sigma}{\sigma_0}\right)^m\right]$$
 - 氧化锆陶瓷：牙科修复体
 
 **切削工具陶瓷**：
-- Al₂O₃-TiC复合陶瓷
+- Al₂O₃-TiC 复合陶瓷
 - Si₃N₄基陶瓷
-- SiAlON陶瓷
+- SiAlON 陶瓷
 
 ## 经典教材
 - 金志浩《工程陶瓷材料》

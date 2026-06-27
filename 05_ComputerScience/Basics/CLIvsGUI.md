@@ -1,6 +1,8 @@
 ---
 aliases: [CLIvsGUI]
 tags: ['Basics', 'CLIvsGUI']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # 命令行 vs 图形界面

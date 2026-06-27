@@ -1,6 +1,8 @@
 ---
 aliases: [AnimalGenetics]
 tags: ['AnimalScience', 'AnimalGenetics']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # AnimalGenetics
@@ -74,7 +76,7 @@ $$ r_G = \frac{Cov(G_X, G_Y)}{\sqrt{V_{GX} \times V_{GY}}} $$
 | 半同胞相关法 | 利用半同胞组内相关 | 遗传力初步估计 |
 | 全同胞相关法 | 利用全同胞组内相关 | 需区分共同环境效应 |
 | 亲子回归法 | 后代对亲本的回归系数 | 单亲或双亲回归 |
-| REML法 | 约束最大似然估计 | 精确估计，可处理不平衡数据 |
+| REML 法 | 约束最大似然估计 | 精确估计，可处理不平衡数据 |
 
 ### 育种值估计
 

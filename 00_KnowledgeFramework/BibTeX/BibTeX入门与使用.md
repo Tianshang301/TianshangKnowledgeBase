@@ -1,6 +1,6 @@
 ---
-aliases: [BibTeX入门与使用]
-tags: ['BibTeX', 'BibTeX入门与使用', 'LaTeX', 'Bibliography']
+aliases: [BibTeX 入门与使用]
+tags: ['BibTeX', 'BibTeX 入门与使用', 'LaTeX', 'Bibliography']
 ---
 
 # BibTeX 入门与使用

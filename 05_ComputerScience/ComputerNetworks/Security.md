@@ -1,6 +1,8 @@
 ---
 aliases: [Security]
 tags: ['ComputerNetworks', 'Security']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 网络安全详解 (Network Security)
@@ -14,7 +16,7 @@ tags: ['ComputerNetworks', 'Security']
 | 算法 | 密钥长度 | 块大小 | 状态 | 说明 |
 |------|---------|--------|------|------|
 | **DES** | 56位 | 64位 | 不安全 | 1997年被破解 |
-| **3DES** | 112/168位 | 64位 | 已弃用 | DES三次, 速度慢 |
+| **3DES** | 112/168位 | 64位 | 已弃用 | DES 三次, 速度慢 |
 | **AES** | 128/192/256位 | 128位 | 安全 | 当前标准 |
 | **SM4** | 128位 | 128位 | 安全 | 中国国家标准 |
 | **ChaCha20** | 256位 | 流密码 | 安全 | 移动端性能好 |
@@ -24,7 +26,7 @@ tags: ['ComputerNetworks', 'Security']
 | 模式 | 描述 | 特点 | 适用 |
 |------|------|------|------|
 | **ECB** | 电子密码本 | 简单, 不安全(相同明文→相同密文) | 不推荐 |
-| **CBC** | 密码分组链接 | 需要IV, 串行加密 | 文件加密 |
+| **CBC** | 密码分组链接 | 需要 IV, 串行加密 | 文件加密 |
 | **CFB** | 密文反馈 | 流模式, 可加密任意长度 | 实时通信 |
 | **OFB** | 输出反馈 | 流模式, 可预处理 | 卫星通信 |
 | **CTR** | 计数器 | 流模式, 可并行 | 磁盘加密 |
@@ -39,7 +41,7 @@ import os
 # AES-256-GCM 加密
 key = AESGCM.generate_key(bit_length=256)  # 32字节
 aesgcm = AESGCM(key)
-nonce = os.urandom(12)  # 推荐96位nonce
+nonce = os.urandom(12)  # 推荐96位 nonce
 ciphertext = aesgcm.encrypt(nonce, b"Hello, World!", None)
 plaintext = aesgcm.decrypt(nonce, ciphertext, None)
 print(plaintext.decode())  # Hello, World!
@@ -97,11 +99,11 @@ plaintext = private_key.decrypt(
 ```
 ECC 优势: 更短的密钥达到相同安全级别
 
-安全级别  RSA密钥长度  ECC密钥长度
+安全级别  RSA 密钥长度  ECC 密钥长度
 80bit     1024位       160位
 112bit    2048位       224位
-128bit    3072位       256位 (如P-256)
-256bit    15360位      512位 (如P-521)
+128bit    3072位       256位 (如 P-256)
+256bit    15360位      512位 (如 P-521)
 ```
 
 ### Diffie-Hellman 密钥交换
@@ -109,10 +111,10 @@ ECC 优势: 更短的密钥达到相同安全级别
 ```
 Alice                          Bob
    │                             │
-   │ 选择素数p=23, 生成元g=5     │
+   │ 选择素数 p=23, 生成元 g=5     │
    │────────────────────────────►│
    │                             │
-   │ 选随机数a=6                 │  选随机数b=15
+   │ 选随机数 a=6                 │  选随机数 b=15
    │ A = g^a mod p              │  B = g^b mod p
    │   = 5^6 mod 23 = 8         │    = 5^15 mod 23 = 19
    │                             │
@@ -131,7 +133,7 @@ Alice                          Bob
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.asymmetric import ec
 
-# 使用ECDSA签名
+# 使用 ECDSA 签名
 private_key = ec.generate_private_key(ec.SECP256R1())
 public_key = private_key.public_key()
 
@@ -158,12 +160,12 @@ except:
 | 算法 | 输出长度 | 安全 | 用途 |
 |------|---------|------|------|
 | **MD5** | 128位 | 不安全(碰撞可构造) | 已废弃 |
-| **SHA-1** | 160位 | 不安全(SHAttered攻击) | 已废弃 |
+| **SHA-1** | 160位 | 不安全(SHAttered 攻击) | 已废弃 |
 | **SHA-256** | 256位 | 安全 | TLS, 签名 |
 | **SHA-384** | 384位 | 安全 | 美国政府标准 |
-| **SHA-512** | 512位 | 安全 | 高性能(64位CPU) |
+| **SHA-512** | 512位 | 安全 | 高性能(64位 CPU) |
 | **SHA-3** | 可变 | 安全 | 新一代标准 |
-| **BLAKE2** | 可变 | 安全 | 比SHA-3快 |
+| **BLAKE2** | 可变 | 安全 | 比 SHA-3快 |
 | **bcrypt** | 可变 | 安全 | 密码存储(慢哈希) |
 | **Argon2** | 可变 | 安全 | 密码存储(当前推荐) |
 
@@ -207,7 +209,7 @@ else:
 │   ├── Subject Alternative Names (SAN)
 │   ├── Key Usage (digitalSignature, keyEncipherment)
 │   ├── Extended Key Usage (serverAuth, clientAuth)
-│   └── CA标志
+│   └── CA 标志
 └── 签名 (由颁发者私钥签名)
 ```
 
@@ -246,8 +248,8 @@ openssl req -x509 -newkey rsa:2048 -nodes \
   -subj "/CN=localhost" \
   -addext "subjectAltName=DNS:localhost,DNS:*.example.com,IP:127.0.0.1"
 
-# 创建CA并签发证书
-# 1. 创建CA私钥和自签名证书
+# 创建 CA 并签发证书
+# 1. 创建 CA 私钥和自签名证书
 openssl req -x509 -newkey rsa:4096 -nodes \
   -keyout ca-key.pem -out ca-cert.pem \
   -days 3650 -subj "/CN=My CA"
@@ -257,7 +259,7 @@ openssl req -newkey rsa:2048 -nodes \
   -keyout server-key.pem -out server.csr \
   -subj "/CN=myserver.local"
 
-# 3. 用CA签发服务器证书
+# 3. 用 CA 签发服务器证书
 openssl x509 -req -in server.csr \
   -CA ca-cert.pem -CAkey ca-key.pem -CAcreateserial \
   -out server-cert.pem -days 365 \
@@ -272,15 +274,15 @@ openssl x509 -req -in server.csr \
 客户端                                   服务器
    │                                        │
    │ ClientHello                            │
-   │   最高支持TLS 1.2                      │
-   │   密码套件列表(如TLS_RSA_WITH_AES_128_GCM_SHA256)│
-   │   随机数random_C                       │
+   │   最高支持 TLS 1.2                      │
+   │   密码套件列表(如 TLS_RSA_WITH_AES_128_GCM_SHA256)│
+   │   随机数 random_C                       │
    │───────────────────────────────────────►│
    │                                        │
    │ ServerHello                            │
-   │   选择TLS 1.2                          │
+   │   选择 TLS 1.2                          │
    │   选择密码套件                          │
-   │   随机数random_S                       │
+   │   随机数 random_S                       │
    │   服务器证书                           │
    │   ServerHelloDone                      │
    │◄───────────────────────────────────────│
@@ -290,7 +292,7 @@ openssl x509 -req -in server.csr \
    │ 用服务器公钥加密                        │
    │                                        │
    │ ClientKeyExchange                      │
-   │   加密的premaster secret                │
+   │   加密的 premaster secret                │
    │───────────────────────────────────────►│
    │                                        │
    │ (双方计算主密钥: master_secret)          │
@@ -310,62 +312,62 @@ openssl x509 -req -in server.csr \
 
 | 特性 | TLS 1.2 | TLS 1.3 |
 |------|---------|---------|
-| 握手往返 | 2-RTT | 1-RTT (0-RTT复用) |
+| 握手往返 | 2-RTT | 1-RTT (0-RTT 复用) |
 | 支持的密码套件 | 37 | 5 |
-| 静态RSA密钥交换 | 支持 | 不支持(PFS强制) |
+| 静态 RSA 密钥交换 | 支持 | 不支持(PFS 强制) |
 | 0-RTT | 不支持 | 支持 |
 | 会话恢复 | Session ID/Ticket | PSK |
-| 移除不安全特性 | - | 移除RC4, 3DES, CBC, EXPORT等 |
+| 移除不安全特性 | - | 移除 RC4, 3DES, CBC, EXPORT 等 |
 
 ## 6. 常见攻击
 
 ### 6.1 中间人攻击 (MITM)
 
 ```
-正常通信:                        MITM攻击:
+正常通信:                        MITM 攻击:
 客户端 ←→ 服务器                 客户端 ←→ 攻击者 ←→ 服务器
   (直接加密)                      (客户端以为和服务器通信)
                                   (攻击者解密/修改/重加密)
 
-常见MITM:
-- ARP欺骗 (局域网)
-- DNS欺骗 (缓存投毒)
-- Rogue AP (假WiFi)
-- SSL剥离 (强制降级到HTTP)
+常见 MITM:
+- ARP 欺骗 (局域网)
+- DNS 欺骗 (缓存投毒)
+- Rogue AP (假 WiFi)
+- SSL 剥离 (强制降级到 HTTP)
 ```
 
 ### 6.2 DDoS (分布式拒绝服务)
 
 | 攻击类型 | 描述 | 防御 |
 |---------|------|------|
-| SYN Flood | 大量SYN包不完成握手 | SYN Cookie |
-| UDP Flood | 大流量UDP包 | 速率限制 |
-| HTTP Flood | 大量HTTP请求 | WAF, 验证码 |
-| DNS Amplification | 伪造源IP的DNS查询 | 关闭递归 |
-| Slowloris | 慢速HTTP请求耗尽连接 | 限制超时 |
+| SYN Flood | 大量 SYN 包不完成握手 | SYN Cookie |
+| UDP Flood | 大流量 UDP 包 | 速率限制 |
+| HTTP Flood | 大量 HTTP 请求 | WAF, 验证码 |
+| DNS Amplification | 伪造源 IP 的 DNS 查询 | 关闭递归 |
+| Slowloris | 慢速 HTTP 请求耗尽连接 | 限制超时 |
 
 ### 6.3 其他攻击
 
 | 攻击 | 描述 | 防御 |
 |------|------|------|
-| DNS欺骗/投毒 | 污染DNS缓存 | DNSSEC |
-| Session Hijacking | 窃取会话Cookie | HttpOnly, Secure flag |
+| DNS 欺骗/投毒 | 污染 DNS 缓存 | DNSSEC |
+| Session Hijacking | 窃取会话 Cookie | HttpOnly, Secure flag |
 | CSRF | 跨站请求伪造 | CSRF Token, SameSite Cookie |
 | XSS | 跨站脚本攻击 | 输入验证, CSP |
-| SQL注入 | 恶意SQL输入 | 参数化查询 |
+| SQL 注入 | 恶意 SQL 输入 | 参数化查询 |
 | Path Traversal | 路径穿越 | 路径过滤 |
 
 ### SYN Flood 示例
 
 ```
-攻击者: 发送大量SYN包(源IP伪造)
-服务器: 每个SYN创建半开连接(SYN_RCVD), 发送SYN+ACK, 等待ACK
+攻击者: 发送大量 SYN 包(源 IP 伪造)
+服务器: 每个 SYN 创建半开连接(SYN_RCVD), 发送 SYN+ACK, 等待 ACK
         半开连接占满队列后, 合法连接被拒绝
 
 防御 - SYN Cookie:
-1. 收到SYN时不分配连接, 而是用源/目标IP+端口+seq计算Cookie
-2. 作为初始seq号发回(SYN+ACK)
-3. 收到ACK时验证Cookie值
+1. 收到 SYN 时不分配连接, 而是用源/目标 IP+端口+seq 计算 Cookie
+2. 作为初始 seq 号发回(SYN+ACK)
+3. 收到 ACK 时验证 Cookie 值
 4. 若合法才分配连接
 ```
 
@@ -381,19 +383,19 @@ sysctl -w net.ipv4.tcp_syncookies=1
 
 | 类型 | 工作层 | 特点 | 性能 |
 |------|--------|------|------|
-| **包过滤** | L3/L4 | 检查IP/端口, 速度快 | 高 |
+| **包过滤** | L3/L4 | 检查 IP/端口, 速度快 | 高 |
 | **状态检测** | L3-L4 | 跟踪连接状态, 自动允许回包 | 中 |
 | **应用层** | L7 | 深度包检测(DPI), 检查内容 | 低 |
-| **WAF** | L7 | 专门保护HTTP应用 | 中 |
+| **WAF** | L7 | 专门保护 HTTP 应用 | 中 |
 
 ### iptables / nftables 示例
 
 ```bash
 # iptables 规则示例
-# 放行SSH
+# 放行 SSH
 iptables -A INPUT -p tcp --dport 22 -j ACCEPT
 
-# 放行HTTP/HTTPS
+# 放行 HTTP/HTTPS
 iptables -A INPUT -p tcp -m multiport --dports 80,443 -j ACCEPT
 
 # 放行已建立连接
@@ -402,7 +404,7 @@ iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
 # 拒绝所有其他入站
 iptables -P INPUT DROP
 
-# NAT转发
+# NAT 转发
 iptables -t nat -A PREROUTING -p tcp --dport 80 -j DNAT --to-destination 10.0.1.10:8080
 iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 
@@ -416,10 +418,10 @@ iptables-save > /etc/iptables/rules.v4
 |------|------|------|
 | **IDS** (入侵检测) | 监控告警(被动) | Snort, Suricata |
 | **IPS** (入侵防御) | 监控并阻止(主动) | Snort inline, Suricata IPS |
-| **WAF** (Web应用防火墙) | 保护HTTP应用 | ModSecurity, Cloudflare WAF |
+| **WAF** (Web 应用防火墙) | 保护 HTTP 应用 | ModSecurity, Cloudflare WAF |
 
 ```bash
-# ModSecurity规则示例
+# ModSecurity 规则示例
 SecRule REQUEST_URI "@contains /admin" \
     "id:1001,phase:1,deny,status:403,msg:'Admin access blocked'"
 
@@ -432,7 +434,7 @@ SecRule REQUEST_BODY "@rx (javascript:|<script|onerror=)" \
 
 ## 9. VPN (Virtual Private Network)
 
-### 常见VPN协议
+### 常见 VPN 协议
 
 | 协议 | 端口 | 加密 | 速度 | 安全性 |
 |------|------|------|------|--------|
@@ -447,12 +449,12 @@ SecRule REQUEST_BODY "@rx (javascript:|<script|onerror=)" \
 ```
 传输模式 (Transport Mode):
 ┌────────────────┐
-│ IP头 │ ESP头│ 数据 │ ESP尾│ ESP认证│
+│ IP 头 │ ESP 头│ 数据 │ ESP 尾│ ESP 认证│
 └────────────────┘
 
 隧道模式 (Tunnel Mode):
 ┌────────────────────────────────┐
-│ 外IP头 │ ESP头│ 内IP头 │ 数据 │ ESP尾│ ESP认证│
+│ 外 IP 头 │ ESP 头│ 内 IP 头 │ 数据 │ ESP 尾│ ESP 认证│
 └────────────────────────────────┘
 ```
 
@@ -480,7 +482,7 @@ DNS = 1.1.1.1
 [Peer]
 PublicKey = <服务器公钥>
 Endpoint = vpn.example.com:51820
-AllowedIPs = 0.0.0.0/0, ::/0  # 全流量VPN
+AllowedIPs = 0.0.0.0/0, ::/0  # 全流量 VPN
 PersistentKeepalive = 25
 ```
 

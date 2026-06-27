@@ -1,6 +1,8 @@
 ---
 aliases: [CoastalEngineering, 海岸工程, CoastalZoneManagement]
 tags: ['HydraulicAndMarineEngineering', 'HarborAndCoastalEngineering', 'CoastalEngineering', 'Waves', 'Erosion']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 海岸工程（Coastal Engineering）

@@ -1,6 +1,8 @@
 ---
 aliases: [SoftwareDevelopmentLifecycle]
 tags: ['SoftwareEngineering', 'SoftwareDevelopmentLifecycle', 'SoftwareDevelopmentLifecycle']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 软件开发生命周期 (Software Development Lifecycle)
@@ -11,12 +13,12 @@ tags: ['SoftwareEngineering', 'SoftwareDevelopmentLifecycle', 'SoftwareDevelopme
 
 | 阶段 | 主要活动 | 产出物 |
 |------|---------|--------|
-| **需求分析** | 收集用户需求，编写需求规格 | SRS文档 |
-| **设计** | 架构设计、详细设计 | 设计文档、UML图 |
+| **需求分析** | 收集用户需求，编写需求规格 | SRS 文档 |
+| **设计** | 架构设计、详细设计 | 设计文档、UML 图 |
 | **实现** | 编码、单元测试 | 代码、单元测试报告 |
 | **测试** | 集成测试、系统测试 | 测试报告、缺陷报告 |
 | **部署** | 发布到生产环境 | 部署文档、Release Notes |
-| **维护** | Bug修复、功能增强 | 变更记录 |
+| **维护** | Bug 修复、功能增强 | 变更记录 |
 
 ## 二、瀑布模型 (Waterfall Model)
 
@@ -35,7 +37,7 @@ tags: ['SoftwareEngineering', 'SoftwareDevelopmentLifecycle', 'SoftwareDevelopme
 | 简单易理解 | 风险暴露晚 |
 | 适合需求稳定的项目 | 不适合复杂或创新项目 |
 
-## 三、V模型 (V-Model)
+## 三、V 模型 (V-Model)
 
 ### 验证与确认
 
@@ -55,7 +57,7 @@ tags: ['SoftwareEngineering', 'SoftwareDevelopmentLifecycle', 'SoftwareDevelopme
     └────────── 编码 ────────────────┘
 ```
 
-V模型强调每个开发阶段都有对应的测试阶段，验证（Verification）和确认（Validation）并重。
+V 模型强调每个开发阶段都有对应的测试阶段，验证（Verification）和确认（Validation）并重。
 
 ## 四、迭代与增量模型 (Iterative & Incremental)
 
@@ -67,7 +69,7 @@ V模型强调每个开发阶段都有对应的测试阶段，验证（Verificati
 部分功能  更多功能  完整功能
 ```
 
-每次迭代包含完整的SDLC流程，产出可工作的软件增量。
+每次迭代包含完整的 SDLC 流程，产出可工作的软件增量。
 
 ### 增量模型
 
@@ -133,7 +135,7 @@ V模型强调每个开发阶段都有对应的测试阶段，验证（Verificati
 | 风险 | 早期暴露 | 后期发现 |
 | 适用场景 | 需求不明确、复杂 | 需求稳定、可预测 |
 
-## 七、Rational统一过程 (RUP)
+## 七、Rational 统一过程 (RUP)
 
 ### 4个阶段
 
@@ -203,7 +205,7 @@ V模型强调每个开发阶段都有对应的测试阶段，验证（Verificati
 ### 需求跟踪矩阵 (Traceability Matrix)
 
 ```
-需求ID │ 需求描述 │ 设计文档 │ 测试用例 │ 代码模块
+需求 ID │ 需求描述 │ 设计文档 │ 测试用例 │ 代码模块
 ───────┼─────────┼─────────┼─────────┼─────────
 REQ-01 │ 用户登录 │ DS-01   │ TC-01   │ auth.c
 REQ-02 │ 注册     │ DS-02   │ TC-02   │ reg.c
@@ -217,7 +219,7 @@ REQ-03 │ 密码重置 │ DS-03   │ TC-03   │ auth.c
 | 方面 | 架构设计 | 详细设计 |
 |------|---------|---------|
 | 关注点 | 系统结构、模块划分 | 模块内部实现 |
-| 产出 | 架构文档、UML组件图 | 类图、时序图、伪代码 |
+| 产出 | 架构文档、UML 组件图 | 类图、时序图、伪代码 |
 | 粒度 | 粗粒度 | 细粒度 |
 | 决策 | 技术栈、部署策略 | 算法、数据结构 |
 
@@ -228,7 +230,7 @@ REQ-03 │ 密码重置 │ DS-03   │ TC-03   │ auth.c
 | **蓝绿部署 (Blue-Green)** | 两套环境（蓝/绿），快速切换 | 切换快，资源翻倍 |
 | **金丝雀发布 (Canary)** | 先小比例流量新版本，逐步扩大 | 风险可控，时间长 |
 | **滚动更新 (Rolling)** | 逐步替换实例 | 兼容性要求高 |
-| **A/B测试** | 两版本并行，对比效果 | 需要数据驱动决策 |
+| **A/B 测试** | 两版本并行，对比效果 | 需要数据驱动决策 |
 
 ## 相关条目
 

@@ -1,6 +1,8 @@
 ---
 aliases: [Sequential]
 tags: ['HardwareAndEmbeddedSystems', 'DigitalCircuits', 'Sequential']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 时序逻辑电路
@@ -291,10 +293,10 @@ endmodule
 
 | 分频比 | 触发器数 | 实现方式 |
 |--------|---------|----------|
-| 2分频 | 1 | 1个T触发器 (Q0翻转) |
-| 4分频 | 2 | 2级TFF级联 |
-| N分频 | log₂N | 计数器 + 译码复位 |
-| 非2^n分频 | 取决于设计 | 模N计数器 |
+| 2分频 | 1 | 1个 T 触发器 (Q0翻转) |
+| 4分频 | 2 | 2级 TFF 级联 |
+| N 分频 | log₂N | 计数器 + 译码复位 |
+| 非2^n 分频 | 取决于设计 | 模 N 计数器 |
 
 ```verilog
 // 通用分频器
@@ -345,7 +347,7 @@ always @(posedge clk or posedge rst)
 
 当建立/保持时间不满足时，触发器的输出可能进入不确定状态。
 
-**解决方法**: 
+**解决方法**:
 - 使用两级同步器 (2-FF synchronizer)
 - 降低时钟频率
 - 使用边沿检测器

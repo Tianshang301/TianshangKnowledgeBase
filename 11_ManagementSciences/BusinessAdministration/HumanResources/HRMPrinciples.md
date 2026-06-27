@@ -1,6 +1,8 @@
 ---
 aliases: [HRMPrinciples]
 tags: ['BusinessAdministration', 'HumanResources', 'HRMPrinciples']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # 人力资源管理原理
@@ -149,7 +151,7 @@ tags: ['BusinessAdministration', 'HumanResources', 'HRMPrinciples']
 
 ### 员工援助计划
 
-员工援助计划（EAP）为员工提供心理咨询和支持服务。EAP帮助员工解决个人问题对工作的影响。EAP包括咨询热线、面对面咨询和转介服务。EAP提高员工福祉并降低缺勤率。
+员工援助计划（EAP）为员工提供心理咨询和支持服务。EAP 帮助员工解决个人问题对工作的影响。EAP 包括咨询热线、面对面咨询和转介服务。EAP 提高员工福祉并降低缺勤率。
 
 ### 离职管理
 
@@ -171,9 +173,9 @@ tags: ['BusinessAdministration', 'HumanResources', 'HRMPrinciples']
 
 ## 人力资源管理的数字化
 
-### HRIS系统
+### HRIS 系统
 
-人力资源信息系统（HRIS）整合员工数据管理功能。HRIS模块包括招聘、培训、绩效和薪酬等。HRIS提高了人力资源管理的效率和准确性。云HRIS系统降低了IT维护成本。
+人力资源信息系统（HRIS）整合员工数据管理功能。HRIS 模块包括招聘、培训、绩效和薪酬等。HRIS 提高了人力资源管理的效率和准确性。云 HRIS 系统降低了 IT 维护成本。
 
 ### 人力资源分析
 

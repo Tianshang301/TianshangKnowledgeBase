@@ -1,6 +1,8 @@
 ---
 aliases: [HydraulicEngineering]
 tags: ['04_EngineeringAndTechnology', 'HydraulicAndMarineEngineering', 'HydraulicEngineering', 'HydraulicEngineering']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 水利工程

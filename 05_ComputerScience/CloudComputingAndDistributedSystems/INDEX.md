@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['CloudComputingAndDistributedSystems', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # CloudComputingAndDistributedSystems
@@ -12,4 +14,4 @@ tags: ['CloudComputingAndDistributedSystems', 'INDEX']
 - [[CloudComputingAndDistributedSystems]] - 云计算与分布式系统
 - [[ConsensusAndCoordination]] - 共识与协调
 - [[DistributedStorage]] - 分布式存储
-- [[KubernetesInDepth]] - Kubernetes深入
+- [[KubernetesInDepth]] - Kubernetes 深入

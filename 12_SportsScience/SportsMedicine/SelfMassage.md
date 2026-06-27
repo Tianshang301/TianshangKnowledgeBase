@@ -1,6 +1,8 @@
 ---
 aliases: [SelfMassage, 自我按摩]
 tags: ['12_SportsScience', 'SportsMedicine', 'SelfMassage', 'Recovery']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 自我按摩 (Self-Massage)

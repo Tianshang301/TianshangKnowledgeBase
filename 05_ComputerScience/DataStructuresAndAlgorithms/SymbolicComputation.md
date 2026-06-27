@@ -1,6 +1,8 @@
 ---
 aliases: [SymbolicComputation, 符号计算, 计算机代数, ComputerAlgebra, CAS]
 tags: ['05_ComputerScience', 'DataStructuresAndAlgorithms', 'SymbolicComputation']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 符号计算

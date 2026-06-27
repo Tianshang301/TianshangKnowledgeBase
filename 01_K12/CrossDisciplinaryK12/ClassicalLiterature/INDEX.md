@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['CrossDisciplinaryK12', 'ClassicalLiterature', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 古典文学入门

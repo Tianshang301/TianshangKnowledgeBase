@@ -1,6 +1,8 @@
 ---
 aliases: [TransportLayer]
 tags: ['ComputerNetworks', 'TransportLayer']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 传输层详解 (Transport Layer)
@@ -44,7 +46,7 @@ tags: ['ComputerNetworks', 'TransportLayer']
 | URG | Urgent | 紧急指针有效 |
 | ECE | ECN Echo | 拥塞指示 |
 | CWR | Congestion Window Reduced | 已降低拥塞窗口 |
-| NS | Nonce Sum | ECN-nonce保护 |
+| NS | Nonce Sum | ECN-nonce 保护 |
 
 ### 三次握手 (Three-Way Handshake)
 
@@ -98,15 +100,15 @@ tcpdump -i eth0 -nn 'tcp port 80 and (tcp-syn|tcp-ack)'
 ### TIME_WAIT 状态
 
 **原因:**
-- 确保最后一个ACK到达服务器（防止丢失导致服务器重发FIN）
+- 确保最后一个 ACK 到达服务器（防止丢失导致服务器重发 FIN）
 - 让过期的报文段在网络中消失
 
 **持续时间:** 2 × MSL (Maximum Segment Lifetime)
-- Linux默认: 60秒 (MSL=30s)
+- Linux 默认: 60秒 (MSL=30s)
 - Windows: 240秒 (MSL=120s)
 
 ```bash
-# 查看TIME_WAIT连接数
+# 查看 TIME_WAIT 连接数
 netstat -an | grep TIME_WAIT | wc -l
 ss -tan | grep TIME_WAIT | wc -l
 
@@ -182,7 +184,7 @@ netstat -an | awk '/^tcp/ {print $6}' | sort | uniq -c
 
 ```
 拥塞窗口 (cwnd) 初始 = 1 MSS
-每收到一个ACK, cwnd加倍 (指数增长)
+每收到一个 ACK, cwnd 加倍 (指数增长)
 
 cwnd: 1 → 2 → 4 → 8 → 16 → ... (指数)
             ↑
@@ -194,35 +196,35 @@ cwnd: 1 → 2 → 4 → 8 → 16 → ... (指数)
 #### 拥塞避免 (Congestion Avoidance)
 
 ```
-cwnd >= ssthresh 后, 每个RTT cwnd += 1 (线性增长)
+cwnd >= ssthresh 后, 每个 RTT cwnd += 1 (线性增长)
 ```
 
 #### 快速重传 (Fast Retransmit)
 
-收到3个重复ACK → 立即重传丢失报文段, 不等超时。
+收到3个重复 ACK → 立即重传丢失报文段, 不等超时。
 
 ```
 发送方发送: seq=1, 2, 3, 4, 5
 接收方收到: seq=1, 3, 4, 5 (2丢失)
-发送ACK: ACK=2 (对1的确认), ACK=2, ACK=2 (重复)
-→ 发送方收到3个重复ACK → 立即重传seq=2
+发送 ACK: ACK=2 (对1的确认), ACK=2, ACK=2 (重复)
+→ 发送方收到3个重复 ACK → 立即重传 seq=2
 ```
 
 #### 快速恢复 (Fast Recovery)
 
-快速重传后, 将ssthresh = cwnd/2, cwnd = ssthresh + 3, 进入拥塞避免。
+快速重传后, 将 ssthresh = cwnd/2, cwnd = ssthresh + 3, 进入拥塞避免。
 
 #### TCP Reno vs CUBIC
 
 | 特性 | TCP Reno | TCP CUBIC |
 |------|---------|-----------|
-| 窗口增长 | 线性(每个RTT+1) | 三次函数(凹-凸-凹) |
-| 高带宽延迟 | 效率低 | 效率高(默认Linux) |
+| 窗口增长 | 线性(每个 RTT+1) | 三次函数(凹-凸-凹) |
+| 高带宽延迟 | 效率低 | 效率高(默认 Linux) |
 | 公平性 | 好 | 好 |
-| 适用 | 低延迟网络 | 高BDP网络 |
+| 适用 | 低延迟网络 | 高 BDP 网络 |
 
 ```bash
-# Linux查看拥塞控制算法
+# Linux 查看拥塞控制算法
 sysctl net.ipv4.tcp_congestion_control
 # 输出: net.ipv4.tcp_congestion_control = cubic
 
@@ -274,8 +276,8 @@ sysctl -w net.ipv4.tcp_congestion_control=bbr
 
 ## 4. 多路复用/多路分解 (Multiplexing/Demultiplexing)
 
-**多路复用:** 发送方多个socket用同一传输协议发送数据包
-**多路分解:** 接收方根据目标端口号将数据分发给对应socket
+**多路复用:** 发送方多个 socket 用同一传输协议发送数据包
+**多路分解:** 接收方根据目标端口号将数据分发给对应 socket
 
 ```
 应用层:    HTTP(80)    DNS(53)    SSH(22)    HTTP(8080)
@@ -286,15 +288,15 @@ sysctl -w net.ipv4.tcp_congestion_control=bbr
             └─────────────────────────────────────┘
                             │
                             ▼
-网络层:                  IP层
+网络层:                  IP 层
 ```
 
 ## 5. 端口号
 
 | 范围 | 类型 | 描述 | 示例 |
 |------|------|------|------|
-| 0-1023 | **Well-Known** (系统端口) | 需要root权限 | 80(HTTP), 443(HTTPS), 22(SSH) |
-| 1024-49151 | **Registered** (注册端口) | IANA注册 | 3306(MySQL), 5432(PostgreSQL), 6379(Redis) |
+| 0-1023 | **Well-Known** (系统端口) | 需要 root 权限 | 80(HTTP), 443(HTTPS), 22(SSH) |
+| 1024-49151 | **Registered** (注册端口) | IANA 注册 | 3306(MySQL), 5432(PostgreSQL), 6379(Redis) |
 | 49152-65535 | **Dynamic/Ephemeral** (动态/临时) | 客户端临时使用 | 操作系统自动分配 |
 
 ```bash
@@ -302,9 +304,9 @@ sysctl -w net.ipv4.tcp_congestion_control=bbr
 cat /etc/services | grep 80/tcp
 
 # 查看端口使用情况
-netstat -tlnp        # TCP监听端口
-netstat -ulnp        # UDP监听端口
-ss -tlnp             # 更高效的netstat替代
+netstat -tlnp        # TCP 监听端口
+netstat -ulnp        # UDP 监听端口
+ss -tlnp             # 更高效的 netstat 替代
 lsof -i :80          # 查看80端口占用
 
 # Windows
@@ -325,9 +327,9 @@ tcpdump host 192.168.1.1           # 特定主机
 tcpdump port 80                    # 特定端口
 tcpdump src port 80                # 源端口
 tcpdump dst port 80                # 目的端口
-tcpdump tcp                        # 仅TCP
-tcpdump udp                        # 仅UDP
-tcpdump icmp                       # 仅ICMP
+tcpdump tcp                        # 仅 TCP
+tcpdump udp                        # 仅 UDP
+tcpdump icmp                       # 仅 ICMP
 
 # 逻辑组合
 tcpdump "tcp port 80 and host 192.168.1.1"
@@ -339,7 +341,7 @@ tcpdump -n                         # 不解析域名(更快)
 tcpdump -nn                        # 不解析域名和端口
 tcpdump -v                         # 详细输出
 tcpdump -X                         # 十六进制+ASCII
-tcpdump -A                         # 仅ASCII
+tcpdump -A                         # 仅 ASCII
 tcpdump -c 100                     # 只抓100个包
 
 # 保存和读取
@@ -349,20 +351,20 @@ tcpdump -r capture.pcap            # 读取文件
 # 示例: 抓取三次握手
 tcpdump -i eth0 -nn 'tcp port 80 and (tcp[tcpflags] & (tcp-syn) != 0)'
 
-# 示例: 抓取HTTP请求
+# 示例: 抓取 HTTP 请求
 tcpdump -i eth0 -A 'tcp port 80 and (((ip[2:2] - ((ip[0]&0xf)<<2)) - ((tcp[12]&0xf0)>>2)) != 0)'
 ```
 
 ### Wireshark 过滤器
 
-**捕获过滤器 (BPF语法，同tcpdump):**
+**捕获过滤器 (BPF 语法，同 tcpdump):**
 ```
 tcp port 80
 host 192.168.1.1
 not arp
 ```
 
-**显示过滤器 (Wireshark特有):**
+**显示过滤器 (Wireshark 特有):**
 ```
 tcp.port == 80
 ip.src == 192.168.1.1

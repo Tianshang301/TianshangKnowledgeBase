@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['ComputerOrganizationAndArchitecture', 'MemoryHierarchy', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 存储器层次结构

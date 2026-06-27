@@ -1,6 +1,8 @@
 ---
 aliases: [Languages]
 tags: ['OperatingSystems', 'Linux', 'Languages']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 各语言正则实现对比
@@ -140,7 +142,7 @@ const price = "$100";
 console.log(price.match(/(?<=\$)\d+/));  // ["100"]
 
 // Unicode 属性转义（ES2018+）
-const chinese = "你好World";
+const chinese = "你好 World";
 console.log(chinese.match(/\p{Script=Han}+/gu));  // ["你好"]
 
 // 粘性匹配（y 标志）

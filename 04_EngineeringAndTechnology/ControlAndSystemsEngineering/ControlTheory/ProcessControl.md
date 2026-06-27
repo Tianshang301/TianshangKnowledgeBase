@@ -4,6 +4,8 @@ aliases:
   - 过程控制工程
   - 工业控制
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - process-control
   - pid
   - feedback

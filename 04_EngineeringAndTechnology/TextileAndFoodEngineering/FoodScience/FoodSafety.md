@@ -1,6 +1,8 @@
 ---
 aliases: [FoodSafety]
 tags: ['TextileAndFoodEngineering', 'FoodScience', 'FoodSafety']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 食品安全
@@ -13,7 +15,7 @@ tags: ['TextileAndFoodEngineering', 'FoodScience', 'FoodSafety']
 ### 食品危害类型
 
 **生物性危害**：
-- 细菌：沙门氏菌、大肠杆菌O157:H7、李斯特菌
+- 细菌：沙门氏菌、大肠杆菌 O157:H7、李斯特菌
 - 病毒：诺如病毒、甲肝病毒
 - 寄生虫：弓形虫、旋毛虫
 
@@ -40,7 +42,7 @@ tags: ['TextileAndFoodEngineering', 'FoodScience', 'FoodSafety']
 
 ### 食品安全管理体系
 
-**HACCP体系**：
+**HACCP 体系**：
 - 危害分析
 - 确定关键控制点（CCP）
 - 建立关键限值
@@ -62,8 +64,8 @@ tags: ['TextileAndFoodEngineering', 'FoodScience', 'FoodSafety']
 
 **微生物检测**：
 - 平板计数法
-- PCR检测
-- ELISA检测
+- PCR 检测
+- ELISA 检测
 
 **快速检测**：
 - 免疫层析法

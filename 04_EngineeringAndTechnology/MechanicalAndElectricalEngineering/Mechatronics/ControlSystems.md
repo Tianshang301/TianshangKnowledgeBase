@@ -1,6 +1,8 @@
 ---
 aliases: [ControlSystems]
 tags: ['MechanicalAndElectricalEngineering', 'Mechatronics', 'ControlSystems']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 控制系统
@@ -11,7 +13,7 @@ tags: ['MechanicalAndElectricalEngineering', 'Mechatronics', 'ControlSystems']
 ## 研究对象
 - 开环与闭环控制系统
 - 控制系统的数学模型
-- PID控制器设计
+- PID 控制器设计
 - 系统稳定性与性能分析
 
 ## 核心内容
@@ -55,9 +57,9 @@ $$G(s) = \frac{Y(s)}{U(s)} = \frac{b_m s^m + \cdots + b_1 s + b_0}{a_n s^n + \cd
 
 $$\Phi(s) = \frac{G(s)}{1+G(s)H(s)}$$
 
-### PID控制原理
+### PID 控制原理
 
-**PID控制器**：
+**PID 控制器**：
 
 $$u(t) = K_p e(t) + K_i \int_0^t e(\tau)d\tau + K_d \frac{de(t)}{dt}$$
 
@@ -65,13 +67,13 @@ $$u(t) = K_p e(t) + K_i \int_0^t e(\tau)d\tau + K_d \frac{de(t)}{dt}$$
 - **积分（I）**：$K_i$ 消除稳态误差，但可能引起超调
 - **微分（D）**：$K_d$ 预测误差变化趋势，改善动态性能
 
-**PID参数整定方法**：
-- 临界比例度法（Ziegler-Nichols法）
+**PID 参数整定方法**：
+- 临界比例度法（Ziegler-Nichols 法）
 - 衰减曲线法
 - 试凑法
 - 自动整定（继电反馈法）
 
-**PID改进算法**：
+**PID 改进算法**：
 - 积分分离：大误差时取消积分作用
 - 抗积分饱和：限制积分输出
 - 不完全微分：抑制高频噪声
@@ -83,22 +85,22 @@ $$u(t) = K_p e(t) + K_i \int_0^t e(\tau)d\tau + K_d \frac{de(t)}{dt}$$
 2. **分析性能指标**：稳态精度、动态响应、稳定性
 3. **选择控制方案**：开环/闭环、PID/状态反馈/最优控制
 4. **设计控制器**：参数整定、补偿网络设计
-5. **仿真验证**：MATLAB/Simulink仿真
-6. **硬件实现**：单片机/PLC/DSP编程
+5. **仿真验证**：MATLAB/Simulink 仿真
+6. **硬件实现**：单片机/PLC/DSP 编程
 7. **调试与优化**：现场调试、参数微调
 
-### MATLAB/Simulink仿真基础
+### MATLAB/Simulink 仿真基础
 
-**MATLAB控制系统工具箱**：
+**MATLAB 控制系统工具箱**：
 - `tf()`：创建传递函数
 - `zpk()`：零极点增益模型
 - `step()`：阶跃响应
-- `bode()`：Bode图
-- `nyquist()`：Nyquist图
+- `bode()`：Bode 图
+- `nyquist()`：Nyquist 图
 - `rlocus()`：根轨迹
 - `margin()`：稳定裕度
 
-**Simulink仿真**：
+**Simulink 仿真**：
 - 模块库：Sources、Sinks、Continuous、Discrete
 - 仿真参数设置：求解器、步长、仿真时间
 - 结果分析：Scope、To Workspace
@@ -107,7 +109,7 @@ $$u(t) = K_p e(t) + K_i \int_0^t e(\tau)d\tau + K_d \frac{de(t)}{dt}$$
 ```matlab
 [num, den] = tfdata(sys, 'v');  % 获取传递函数分子分母
 step(sys);  % 阶跃响应
-bode(sys);  % Bode图
+bode(sys);  % Bode 图
 margin(sys);  % 稳定裕度
 ```
 

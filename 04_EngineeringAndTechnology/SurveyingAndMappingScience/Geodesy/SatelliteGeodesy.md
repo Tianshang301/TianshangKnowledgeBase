@@ -1,6 +1,8 @@
 ---
 aliases: [SatelliteGeodesy]
 tags: ['SurveyingAndMappingScience', 'Geodesy', 'SatelliteGeodesy']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 卫星大地测量 (Satellite Geodesy)

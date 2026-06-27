@@ -1,6 +1,8 @@
 ---
 aliases: [Backtracking]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'Backtracking']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 回溯算法详解

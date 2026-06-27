@@ -1,6 +1,8 @@
 ---
 aliases: [Metallography, 金相学, 金相分析, Metallographic Analysis, Microscopy]
 tags: ['MetallurgicalEngineering', 'PhysicalMetallurgy', 'Metallography', 'Microscopy']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 金相分析
@@ -29,8 +31,8 @@ graph TD
 |------|------|-------------|---------|
 | 取样（Sectioning） | 获取代表性试样 | 砂轮切割、线切割 | 避免过热损伤 |
 | 镶嵌（Mounting） | 便于手持和抛光 | 热镶嵌（电木粉）、冷镶嵌（环氧树脂） | 边缘保护 |
-| 粗磨（Rough Grinding） | 去除切割损伤层 | SiC砂纸 60# — 400# | 逐级过渡 |
-| 精磨（Fine Grinding） | 减小表面粗糙度 | SiC砂纸 600# — 1200# | 旋转90°消除划痕 |
+| 粗磨（Rough Grinding） | 去除切割损伤层 | SiC 砂纸 60# — 400# | 逐级过渡 |
+| 精磨（Fine Grinding） | 减小表面粗糙度 | SiC 砂纸 600# — 1200# | 旋转90°消除划痕 |
 | 抛光（Polishing） | 获得镜面光洁度 | 金刚石喷雾 6µm — 1µm | 保持湿润 |
 | 侵蚀（Etching） | 显示组织衬度 | 硝酸酒精（Nital）、苦味酸（Picral） | 侵蚀时间适中 |
 
@@ -41,7 +43,7 @@ graph TD
 | 碳钢/低合金钢 | Nital | 2% — 5% HNO₃ + 乙醇 | 5 — 15 s |
 | 不锈钢 | 王水甘油 | HCl:HNO₃:甘油 = 3:1:2 | 30 — 60 s |
 | 铸铁 | Nital + Picral | 4% Picral + 2% Nital | 10 — 20 s |
-| 铝合金 | Keller试剂 | HF:HCl:HNO₃:H₂O | 5 — 15 s |
+| 铝合金 | Keller 试剂 | HF:HCl:HNO₃:H₂O | 5 — 15 s |
 | 铜合金 | 氯化铁试剂 | FeCl₃ + HCl + H₂O | 5 — 30 s |
 
 ## 光学显微镜
@@ -52,12 +54,12 @@ graph TD
 
 暗场成像（Dark Field, DF）利用环形光照射，仅散射光进入物镜，适用于观察晶界、析出相等细微结构。
 
-### 偏振光与DIC
+### 偏振光与 DIC
 
 | 技术 | 原理 | 应用 |
 |------|------|------|
-| 偏振光（Polarized Light） | 利用各向异性组织的双折射效应 | 铀化物、Ti合金等 |
-| 微分干涉差（DIC） | Nomarski棱镜产生光程差 | 表面浮凸、细微划痕 |
+| 偏振光（Polarized Light） | 利用各向异性组织的双折射效应 | 铀化物、Ti 合金等 |
+| 微分干涉差（DIC） | Nomarski 棱镜产生光程差 | 表面浮凸、细微划痕 |
 | 相衬（Phase Contrast） | 将相位差转化为振幅差 | 低衬度侵蚀试样 |
 
 ## 扫描电子显微镜
@@ -92,7 +94,7 @@ $$
 
 ## 相鉴定与定量分析
 
-### X射线衍射
+### X 射线衍射
 
 Bragg 定律是 XRD 相鉴定的基础：
 

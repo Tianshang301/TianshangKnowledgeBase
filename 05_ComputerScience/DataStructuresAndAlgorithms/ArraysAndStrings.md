@@ -1,6 +1,8 @@
 ---
 aliases: [ArraysAndStrings, ArrayAndString]
 tags: ['05_ComputerScience', 'DataStructuresAndAlgorithms', 'Array', 'String']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 数组与字符串 (Arrays and Strings)
@@ -73,7 +75,7 @@ def two_sum_sorted(nums, target):
 |------|----------|-----------|
 | 无重复字符最长子串 | 动态大小 | $O(n)$ |
 | 最小覆盖子串 | 动态大小 | $O(n)$ |
-| 长度为k的最大平均值 | 固定大小 | $O(n)$ |
+| 长度为 k 的最大平均值 | 固定大小 | $O(n)$ |
 
 滑动窗口通用模板：
 $$窗口右移 \to 更新状态 \to 收缩左边界 \to 更新答案$$
@@ -87,7 +89,7 @@ $$窗口右移 \to 更新状态 \to 收缩左边界 \to 更新答案$$
 | 编码 | 字节数 | 特点 |
 |------|--------|------|
 | ASCII | 1字节 | 128个字符 |
-| UTF-8 | 1-4字节 | 变长，向后兼容ASCII |
+| UTF-8 | 1-4字节 | 变长，向后兼容 ASCII |
 | UTF-16 | 2或4字节 | Java/C#内部使用 |
 | UTF-32 | 4字节 | 定长，空间占用大 |
 
@@ -143,7 +145,7 @@ Manacher 算法在 $O(n)$ 时间内找到所有回文子串，核心是维护最
 |------|------|------|
 | 1 | 两数之和 (Two Sum) | 哈希表 |
 | 15 | 三数之和 (3Sum) | 排序+双指针 |
-| 53 | 最大子序和 (Maximum Subarray) | Kadane算法 |
+| 53 | 最大子序和 (Maximum Subarray) | Kadane 算法 |
 | 56 | 合并区间 (Merge Intervals) | 排序+贪心 |
 | 88 | 合并有序数组 (Merge Sorted Array) | 双指针从后 |
 

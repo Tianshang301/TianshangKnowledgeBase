@@ -7,6 +7,8 @@ aliases:
   - 毒理学预测
   - Absorption Distribution Metabolism Excretion Toxicity
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - chemistry/biochemistry
   - drug-discovery
   - pharmacokinetics

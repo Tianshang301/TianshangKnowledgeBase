@@ -1,6 +1,8 @@
 ---
 aliases: [DataStructuresAndAlgorithms]
 tags: ['ComputerAndInformationSciences', 'DataStructuresAndAlgorithms']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 数据结构与算法
@@ -9,15 +11,15 @@ tags: ['ComputerAndInformationSciences', 'DataStructuresAndAlgorithms']
 
 ### 1.1 数组
 
-连续内存空间存储相同类型元素，支持$O(1)$随机访问，$O(n)$插入/删除。动态数组（如C++ vector、Java ArrayList）在容量不足时倍增扩容（摊还$O(1)$插入）。
+连续内存空间存储相同类型元素，支持$O(1)$随机访问，$O(n)$插入/删除。动态数组（如 C++ vector、Java ArrayList）在容量不足时倍增扩容（摊还$O(1)$插入）。
 
 ### 1.2 链表
 
-节点通过指针链接，分为单链表、双向链表、循环链表。$O(n)$随机访问，$O(1)$插入/删除（已知位置）。应用：LRU缓存（双向链表+哈希表）、多项式表示、大数运算。
+节点通过指针链接，分为单链表、双向链表、循环链表。$O(n)$随机访问，$O(1)$插入/删除（已知位置）。应用：LRU 缓存（双向链表+哈希表）、多项式表示、大数运算。
 
 ### 1.3 栈
 
-后进先出（LIFO），基本操作：push、pop、peek。由数组或链表实现。应用：函数调用栈、表达式求值（中缀转后缀）、括号匹配、DFS非递归、浏览器前进后退。
+后进先出（LIFO），基本操作：push、pop、peek。由数组或链表实现。应用：函数调用栈、表达式求值（中缀转后缀）、括号匹配、DFS 非递归、浏览器前进后退。
 
 ### 1.4 队列
 
@@ -35,7 +37,7 @@ tags: ['ComputerAndInformationSciences', 'DataStructuresAndAlgorithms']
 | 算法 | 预处理 | 匹配 | 特点 |
 |------|--------|------|------|
 | 朴素 | $O(1)$ | $O(nm)$ | 无预处理，简单粗暴 |
-| KMP | $O(m)$ | $O(n)$ | next数组避免回溯，$m$为模式串长 |
+| KMP | $O(m)$ | $O(n)$ | next 数组避免回溯，$m$为模式串长 |
 | BM | $O(m+\sigma)$ | $O(n/m)$平均 | 坏字符+好后缀规则，从右向左匹配 |
 | Rabin-Karp | $O(m)$ | $O(n)$平均 | 滚动哈希，适合多模式匹配 |
 
@@ -52,22 +54,22 @@ tags: ['ComputerAndInformationSciences', 'DataStructuresAndAlgorithms']
 
 左子树所有节点 < 根节点 < 右子树所有节点。查找、插入、删除平均$O(\log n)$，最坏$O(n)$（退化为链表）。
 
-**AVL树**：任意节点左右子树高度差绝对值不超过1。四种旋转操作（LL、RR、LR、RL）维持平衡。保证$O(\log n)$操作时间。
+**AVL 树**：任意节点左右子树高度差绝对值不超过1。四种旋转操作（LL、RR、LR、RL）维持平衡。保证$O(\log n)$操作时间。
 
-**红黑树**：近似平衡，保证最长路径不超过最短路径的2倍。规则：根黑叶黑、红子不相邻、黑高相同。C++ map/set、Java TreeMap、Linux CFS调度器使用。
+**红黑树**：近似平衡，保证最长路径不超过最短路径的2倍。规则：根黑叶黑、红子不相邻、黑高相同。C++ map/set、Java TreeMap、Linux CFS 调度器使用。
 
 ### 2.3 堆
 
 完全二叉树，最大堆/最小堆。数组存储：
 - 节点$i$的左子：$2i+1$，右子：$2i+2$，父节点：$\lfloor (i-1)/2 \rfloor$
 - 插入$O(\log n)$（上滤），取最值$O(1)$，删除最值$O(\log n)$（下滤）
-- 建堆（Floyd算法）$O(n)$
+- 建堆（Floyd 算法）$O(n)$
 
-应用：优先队列、堆排序、Top-K问题、中位数维护（最大堆+最小堆）。
+应用：优先队列、堆排序、Top-K 问题、中位数维护（最大堆+最小堆）。
 
-### 2.4 B树与B+树
+### 2.4 B 树与 B+树
 
-| 特性 | B树 | B+树 |
+| 特性 | B 树 | B+树 |
 |------|-----|------|
 | 数据存储 | 所有节点 | 仅叶子节点 |
 | 内节点 | 仅有键 | 仅有键（路由用） |
@@ -106,7 +108,7 @@ tags: ['ComputerAndInformationSciences', 'DataStructuresAndAlgorithms']
 
 ### 3.2 核心排序算法要点
 
-- **快速排序**：分治策略，选取pivot分区（Lomuto/Hoare分区法），递归排序左右子数组。优化：三数取中、随机pivot、小规模转插入排序
+- **快速排序**：分治策略，选取 pivot 分区（Lomuto/Hoare 分区法），递归排序左右子数组。优化：三数取中、随机 pivot、小规模转插入排序
 - **归并排序**：分治策略，有序子数组合并，关键操作在"合"。适合外部排序（归并段+多路归并）
 - **堆排序**：建堆$O(n)$，每次取堆顶并调整$O(\log n)$，共$n$次。不稳定
 - **计数排序**：非比较排序，统计元素出现次数，适用于已知范围整数，$O(n+k)$
@@ -119,7 +121,7 @@ tags: ['ComputerAndInformationSciences', 'DataStructuresAndAlgorithms']
 |------|-----------|------|------|
 | 线性搜索 | $O(n)$ | 无 | 简单但慢 |
 | 二分搜索 | $O(\log n)$ | 有序数组 | 高效，常与排序配合 |
-| 二叉搜索树 | $O(h)$ | BST结构 | 动态插入删除 |
+| 二叉搜索树 | $O(h)$ | BST 结构 | 动态插入删除 |
 | 哈希表 | $O(1)$平均 | 良好散列函数 | 常数时间期望 |
 
 ### 4.2 哈希表
@@ -132,7 +134,7 @@ tags: ['ComputerAndInformationSciences', 'DataStructuresAndAlgorithms']
 
 **再散列**：装载因子超过阈值（通常0.75）时扩展容量并重新映射。
 
-**一致性哈希**：分布式缓存（Memcached、Redis集群）中，节点增减仅影响相邻节点，最小化数据迁移。
+**一致性哈希**：分布式缓存（Memcached、Redis 集群）中，节点增减仅影响相邻节点，最小化数据迁移。
 
 ## 五、图算法
 
@@ -151,10 +153,10 @@ tags: ['ComputerAndInformationSciences', 'DataStructuresAndAlgorithms']
 |------|-----------|------|
 | Dijkstra | $O(V^2)$ / $O((E+V)\log V)$堆优化 | 非负权边 |
 | Bellman-Ford | $O(VE)$ | 允许负权边，可检测负环 |
-| Floyd-Warshall | $O(V^3)$ | 全源最短路径，DP思想 |
-| SPFA | $O(VE)$平均 | Bellman-Ford队列优化 |
+| Floyd-Warshall | $O(V^3)$ | 全源最短路径，DP 思想 |
+| SPFA | $O(VE)$平均 | Bellman-Ford 队列优化 |
 
-Dijkstra算法：贪心策略，每次选择当前距离最小的未处理顶点，松弛其邻边。
+Dijkstra 算法：贪心策略，每次选择当前距离最小的未处理顶点，松弛其邻边。
 
 ### 5.3 最小生成树
 
@@ -165,17 +167,17 @@ Dijkstra算法：贪心策略，每次选择当前距离最小的未处理顶点
 
 ### 5.4 关键路径
 
-AOE网（Activity On Edge）：顶点表示事件，边表示活动。计算最早开始时间ES（正向拓扑）、最晚开始时间LS（反向拓扑），关键路径为LS=ES的活动序列，决定项目最短工期。
+AOE 网（Activity On Edge）：顶点表示事件，边表示活动。计算最早开始时间 ES（正向拓扑）、最晚开始时间 LS（反向拓扑），关键路径为 LS=ES 的活动序列，决定项目最短工期。
 
 ## 六、算法设计范式
 
 ### 6.1 分治法
 
-分解→递归求解→合并结果。典型应用：快速排序、归并排序、大整数乘法（Karatsuba）、Strassen矩阵乘法、最近点对。
+分解→递归求解→合并结果。典型应用：快速排序、归并排序、大整数乘法（Karatsuba）、Strassen 矩阵乘法、最近点对。
 
 $$ T(n) = aT(n/b) + f(n) $$
 
-**Master定理**：若$f(n)=O(n^{\log_b a-\epsilon})$则$T(n)=\Theta(n^{\log_b a})$；若$f(n)=\Theta(n^{\log_b a})$则$T(n)=\Theta(n^{\log_b a}\log n)$；若$f(n)=\Omega(n^{\log_b a+\epsilon})$且$af(n/b)\leq cf(n)$则$T(n)=\Theta(f(n))$。
+**Master 定理**：若$f(n)=O(n^{\log_b a-\epsilon})$则$T(n)=\Theta(n^{\log_b a})$；若$f(n)=\Theta(n^{\log_b a})$则$T(n)=\Theta(n^{\log_b a}\log n)$；若$f(n)=\Omega(n^{\log_b a+\epsilon})$且$af(n/b)\leq cf(n)$则$T(n)=\Theta(f(n))$。
 
 ### 6.2 动态规划
 
@@ -184,18 +186,18 @@ $$ T(n) = aT(n/b) + f(n) $$
 **典型问题**：
 - **01背包**：$dp[i][w] = \max(dp[i-1][w], dp[i-1][w-w_i] + v_i)$
 - **最长公共子序列（LCS）**：$dp[i][j] = \begin{cases} dp[i-1][j-1]+1 & x_i=y_j \\ \max(dp[i-1][j], dp[i][j-1]) & x_i \neq y_j \end{cases}$
-- **最长递增子序列（LIS）**：$O(n^2)$ DP或$O(n\log n)$贪心+二分
+- **最长递增子序列（LIS）**：$O(n^2)$ DP 或$O(n\log n)$贪心+二分
 - **矩阵链乘**：$dp[i][j] = \min_{i \leq k < j} \{dp[i][k] + dp[k+1][j] + p_{i-1}p_kp_j\}$
 
 ### 6.3 贪心算法
 
-每一步选择当前最优解，需证明贪心选择性质和最优子结构。典型应用：Huffman编码（最优前缀码）、活动选择（最早结束优先）、Dijkstra、Prim、Kruskal。
+每一步选择当前最优解，需证明贪心选择性质和最优子结构。典型应用：Huffman 编码（最优前缀码）、活动选择（最早结束优先）、Dijkstra、Prim、Kruskal。
 
 ### 6.4 回溯与分支限界
 
-**回溯法**：DFS搜索解空间树，约束函数+限界函数剪枝。N皇后、数独、子集和、全排列、图着色。
+**回溯法**：DFS 搜索解空间树，约束函数+限界函数剪枝。N 皇后、数独、子集和、全排列、图着色。
 
-**分支限界法**：优先队列扩展节点，常用于求解最优解（如TSP）。
+**分支限界法**：优先队列扩展节点，常用于求解最优解（如 TSP）。
 
 ## 七、复杂度分析
 
@@ -215,14 +217,14 @@ $$ T(n) = aT(n/b) + f(n) $$
 
 聚集法（总时间平均）、记账法（不同操作分配不同摊还代价）、势能法（定义势能函数$\Phi$）。示例：动态数组倍增插入的摊还代价为$O(1)$。
 
-### 7.3 NP完全性
+### 7.3 NP 完全性
 
-- **P类**：多项式时间内可求解的问题
-- **NP类**：多项式时间内可验证解的问题
-- **NPC（NP完全）**：NP中最难的问题，任何NP问题可多项式归约到它
-- **NPH（NP难）**：至少与NPC一样难，不一定在NP中
+- **P 类**：多项式时间内可求解的问题
+- **NP 类**：多项式时间内可验证解的问题
+- **NPC（NP 完全）**：NP 中最难的问题，任何 NP 问题可多项式归约到它
+- **NPH（NP 难）**：至少与 NPC 一样难，不一定在 NP 中
 
-典型NPC问题：SAT（布尔可满足性）、旅行商问题（TSP）、顶点覆盖、哈密顿回路、子集和、图着色。
+典型 NPC 问题：SAT（布尔可满足性）、旅行商问题（TSP）、顶点覆盖、哈密顿回路、子集和、图着色。
 
 **归约链**：SAT → 3SAT → 顶点覆盖 → 哈密顿回路 → TSP
 
@@ -230,6 +232,6 @@ $$ T(n) = aT(n/b) + f(n) $$
 
 1. Cormen T H, Leiserson C E, Rivest R L, Stein C. Introduction to Algorithms. 4th ed. MIT Press, 2022.
 2. Sedgewick R, Wayne K. Algorithms. 4th ed. Addison-Wesley, 2011.
-3. 严蔚敏, 吴伟民. 数据结构（C语言版）. 清华大学出版社, 2012.
+3. 严蔚敏, 吴伟民. 数据结构（C 语言版）. 清华大学出版社, 2012.
 4. Skiena S S. The Algorithm Design Manual. 3rd ed. Springer, 2020.
 5. Kleinberg J, Tardos E. Algorithm Design. Pearson, 2005.

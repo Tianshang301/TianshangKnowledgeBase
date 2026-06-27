@@ -1,6 +1,8 @@
 ---
 aliases: [ContemporaryChineseLiterature]
 tags: ['ChineseLiterature', 'ModernChineseLiterature', 'ContemporaryLiterature', 'CulturalStudies']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # ContemporaryChineseLiterature

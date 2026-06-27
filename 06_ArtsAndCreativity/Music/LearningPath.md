@@ -1,6 +1,8 @@
 ---
 aliases: [LearningPath]
 tags: ['Music', 'LearningPath']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 音乐学习路线图

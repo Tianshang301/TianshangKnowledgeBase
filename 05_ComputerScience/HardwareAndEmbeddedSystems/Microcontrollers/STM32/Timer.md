@@ -1,6 +1,8 @@
 ---
 aliases: [Timer]
 tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'STM32', 'Timer']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # STM32 定时器详解
@@ -9,7 +11,7 @@ tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'STM32', 'Timer']
 
 | 类型 | 定时器 | 位数 | 主要特性 |
 |------|--------|------|----------|
-| 基本定时器 | TIM6, TIM7 | 16位 | 基本定时、DAC触发 |
+| 基本定时器 | TIM6, TIM7 | 16位 | 基本定时、DAC 触发 |
 | 通用定时器 | TIM2~TIM5, TIM9~TIM14 | 16/32位 | 输入捕获、输出比较、PWM、编码器 |
 | 高级定时器 | TIM1, TIM8 | 16位 | 通用功能 + 死区插入、互补输出、刹车 |
 

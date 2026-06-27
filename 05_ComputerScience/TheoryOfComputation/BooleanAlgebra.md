@@ -1,6 +1,8 @@
 ---
 aliases: [BooleanAlgebra]
 tags: ['05_ComputerScience', 'TheoryOfComputation']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 布尔代数 (Boolean Algebra)

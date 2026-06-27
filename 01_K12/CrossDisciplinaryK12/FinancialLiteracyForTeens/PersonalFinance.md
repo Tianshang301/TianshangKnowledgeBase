@@ -1,6 +1,8 @@
 ---
 aliases: [PersonalFinance, 个人理财, 青少年理财, FinancialLiteracy, MoneyManagement, 金钱管理]
 tags: ['CrossDisciplinaryK12', 'FinancialLiteracyForTeens', 'PersonalFinance', 'FinancialEducation', 'LifeSkills']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 个人理财 (Personal Finance)
@@ -77,9 +79,9 @@ $$ \text{收入} - \text{支出} = \text{储蓄} $$
 | 方法 | 说明 | 适合场景 | 工具 |
 |:----:|------|:--------:|------|
 | 随手记 | 每笔消费实时记录 | 日常小额支出 | 笔记本、手机便签 |
-| 分类账本 | 按类别（食/行/玩）汇总 | 月度预算跟踪 | 记账App（随手记/挖财） |
+| 分类账本 | 按类别（食/行/玩）汇总 | 月度预算跟踪 | 记账 App（随手记/挖财） |
 | 信封预算法 | 每类支出放一个信封 | 控制超支 | 实体信封 |
-| 电子账单 | 自动分类银行/支付流水 | 电子支付为主 | 支付宝账单、银行App |
+| 电子账单 | 自动分类银行/支付流水 | 电子支付为主 | 支付宝账单、银行 App |
 
 ## 储蓄与复利 (Saving & Compound Interest)
 

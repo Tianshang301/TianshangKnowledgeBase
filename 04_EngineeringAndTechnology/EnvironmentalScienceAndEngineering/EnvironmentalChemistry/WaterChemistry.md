@@ -1,6 +1,8 @@
 ---
 aliases: [WaterChemistry, 水化学, AquaticChemistry]
 tags: ['EnvironmentalScienceAndEngineering', 'EnvironmentalChemistry', 'WaterChemistry', 'WaterQuality', 'Pollution']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 水化学（Water Chemistry）

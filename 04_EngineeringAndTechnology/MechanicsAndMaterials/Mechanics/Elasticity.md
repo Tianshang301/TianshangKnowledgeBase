@@ -1,6 +1,8 @@
 ---
 aliases: [Elasticity]
 tags: ['04_EngineeringAndTechnology', 'MechanicsAndMaterials', 'Mechanics', 'Elasticity']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 弹性力学

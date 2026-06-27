@@ -1,6 +1,8 @@
 ---
 aliases: [RailwayEngineering, 铁道工程, Railway, TrackEngineering]
 tags: ['TransportationEngineering', 'RoadAndRailway', 'RailwayEngineering', 'Track', 'HighSpeedRail']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 铁道工程 (Railway Engineering)
@@ -54,7 +56,7 @@ graph TD
     B --> B1[60kg/m]
     B --> B2[75kg/m]
     C --> C1[弹条型]
-    C --> C2[W型]
+    C --> C2[W 型]
     D --> D1[混凝土枕]
     D --> D2[木枕]
     E --> E1[有砟轨道]
@@ -168,7 +170,7 @@ graph LR
     A --> A1[通用机车信号]
     B --> B1[主体化机车信号]
     C --> C1[基于轨道电路+应答器]
-    D --> D1[基于GSM-R无线通信]
+    D --> D1[基于 GSM-R 无线通信]
     E --> E1[基于移动闭塞]
     style D fill:#90EE90
     style E fill:#FFB6C1

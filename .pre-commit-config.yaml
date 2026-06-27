@@ -1,0 +1,48 @@
+repos:
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v3.0.0
+    hooks:
+      - id: prettier
+        types: [markdown]
+        stages: [pre-commit]
+
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.37.0
+    hooks:
+      - id: markdownlint
+        args: ['--config', '.markdownlint.json']
+        stages: [pre-commit]
+
+  - repo: local
+    hooks:
+      - id: check-ufffd
+        name: Check U+FFFD replacement characters
+        entry: grep -rl $'\ufffd' --include='*.md' .
+        language: system
+        fail_fast: false
+        stages: [pre-commit]
+
+      - id: check-trailing-whitespace
+        name: Check trailing whitespace
+        entry: grep -rnP '\s+$' --include='*.md' .
+        language: system
+        fail_fast: false
+        stages: [pre-commit]
+
+      - id: check-frontmatter
+        name: Check YAML frontmatter
+        entry: |
+          bash -c '
+          exit_code=0
+          for f in "$@"; do
+            if [ "$(head -1 "$f")" != "---" ]; then
+              echo "MISSING FM: $f"; exit_code=1
+            elif ! grep -q "^aliases:" "$f" || ! grep -q "^tags:" "$f"; then
+              echo "INCOMPLETE FM: $f"; exit_code=1
+            fi
+          done
+          exit $exit_code
+          '
+        language: system
+        files: '\.md$'
+        stages: [pre-commit]

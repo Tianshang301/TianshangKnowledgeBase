@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['13_Others']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # Career

@@ -6,6 +6,8 @@ aliases:
   - OpenData
   - 科学数据集
 tags:
+created: 2026-05-17
+updated: 2026-05-13
   - datasets
   - open-data
   - scientific-data
@@ -41,7 +43,7 @@ flowchart LR
     A --> F[可信性]
     B --> G[免费下载]
     C --> H[标准化格式]
-    D --> I[通用API]
+    D --> I[通用 API]
     E --> J[完善文档]
     F --> K[质量保证]
 ```
@@ -54,7 +56,7 @@ flowchart LR
 | 数据存储库 | Zenodo, Figshare, Dryad | 托管和归档 |
 | 数据索引 | Google Dataset Search, DataCite | 发现和关联 |
 | 数据消费者 | 研究人员、开发者、公众 | 使用和分析 |
-| 资助者 | NSF, NIH, 欧盟Horizon | 提供资金和强制要求 |
+| 资助者 | NSF, NIH, 欧盟 Horizon | 提供资金和强制要求 |
 
 ## 二、科学数据集
 
@@ -67,7 +69,7 @@ flowchart LR
                   数据引用 ← 数据更新
 ```
 
-**FAIR数据原则**：
+**FAIR 数据原则**：
 
 | 原则 | 全称 | 要求 |
 |:----:|------|------|
@@ -82,7 +84,7 @@ flowchart LR
 
 | 存储库 | 托管机构 | 容量 | 特色 | 费用 |
 |--------|---------|:----:|------|:----:|
-| Zenodo | CERN | 50GB/数据集 | DOI分配、GitHub集成 | 免费 |
+| Zenodo | CERN | 50GB/数据集 | DOI 分配、GitHub 集成 | 免费 |
 | Figshare | Digital Science | 不限 | 数据+代码+图表 | 免费（有限） |
 | Dryad | 学术联盟 | 不限 | 期刊集成 | 出版费 |
 | OSF | Center for Open Science | 不限 | 项目全生命周期 | 免费 |
@@ -92,7 +94,7 @@ flowchart LR
 
 | 领域 | 存储库 | 特点 |
 |------|--------|------|
-| 生物信息学 | NCBI GenBank | DNA序列、基因表达 |
+| 生物信息学 | NCBI GenBank | DNA 序列、基因表达 |
 | 神经科学 | NeuroVault | 脑成像数据 |
 | 地球科学 | PANGAEA | 地球与环境数据 |
 | 社会科学 | ICPSR | 社会调查数据 |
@@ -190,7 +192,7 @@ $$ \text{DQ}_{\text{score}} = \sum_{i=1}^{n} w_i \cdot \text{metric}_i $$
 |------|------|:----:|------|
 | pandas | 库 | Python | 数据框操作 |
 | dplyr | 包 | R | 数据操作 |
-| OpenRefine | GUI应用 | Java | 交互式清洗 |
+| OpenRefine | GUI 应用 | Java | 交互式清洗 |
 | Trifacta | 商业工具 | — | 智能清洗建议 |
 | Great Expectations | 库 | Python | 数据质量测试 |
 
@@ -204,7 +206,7 @@ $$ \text{DQ}_{\text{score}} = \sum_{i=1}^{n} w_i \cdot \text{metric}_i $$
 2. **数据标准**：格式、命名、文档规范
 3. **数据安全**：访问控制、加密、审计日志
 4. **数据质量**：持续监控和改进机制
-5. **数据合规**：遵守GDPR、HIPAA等法规
+5. **数据合规**：遵守 GDPR、HIPAA 等法规
 6. **数据伦理**：确保公平性、透明度和问责
 
 ### 6.2 伦理考量
@@ -231,7 +233,7 @@ $$ \text{DQ}_{\text{score}} = \sum_{i=1}^{n} w_i \cdot \text{metric}_i $$
 
 1. **数据市场与数据交易**：数据即商品的经济模式
 2. **联邦数据**：分布式数据管理
-3. **AI驱动数据管理**：自动标注、清洗、增强
+3. **AI 驱动数据管理**：自动标注、清洗、增强
 4. **数据可追溯性**：区块链+数据血缘
 5. **实时数据管道**：流式数据处理
 6. **合成数据普及**：隐私保护的替代方案

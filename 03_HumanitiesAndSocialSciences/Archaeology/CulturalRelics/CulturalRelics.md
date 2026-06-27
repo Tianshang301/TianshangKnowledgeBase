@@ -1,6 +1,8 @@
 ---
 aliases: [CulturalRelics, WenwuXue]
 tags: ['03_HumanitiesAndSocialSciences', 'Archaeology', 'CulturalRelics']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 文物学 (Cultural Relics Studies)
@@ -61,7 +63,7 @@ tags: ['03_HumanitiesAndSocialSciences', 'Archaeology', 'CulturalRelics']
 
 **科技方法**：
 - 热释光（TL）：测定最后一次受热年代
-- XRF成分分析：胎釉元素组成比对
+- XRF 成分分析：胎釉元素组成比对
 - 岩相学：原料产地溯源
 
 ## 三、青铜器
@@ -92,7 +94,7 @@ tags: ['03_HumanitiesAndSocialSciences', 'Archaeology', 'CulturalRelics']
 **锈蚀分析**：
 - 有害锈：粉状锈（碱式氯化铜），会蔓延破坏器物
 - 无害锈：铜绿（碱式碳酸铜），稳定保护层
-- 分析手段：XRD鉴定锈蚀物相，SEM观察微观结构
+- 分析手段：XRD 鉴定锈蚀物相，SEM 观察微观结构
 
 ## 四、玉器
 
@@ -108,7 +110,7 @@ tags: ['03_HumanitiesAndSocialSciences', 'Archaeology', 'CulturalRelics']
 ### 4.2 史前玉文化
 
 **红山文化**（约6500-5000年前）：
-- 特征器物：C形龙、猪龙、勾云形器
+- 特征器物：C 形龙、猪龙、勾云形器
 - 工艺：片切割、线切割、钻孔、打磨
 - 功能：祭祀、身份象征
 
@@ -134,12 +136,12 @@ tags: ['03_HumanitiesAndSocialSciences', 'Archaeology', 'CulturalRelics']
 | 纸 | 纤维种类（麻、楮、檀、竹）、帘纹、厚度 |
 | 绢 | 经纬密度、丝线粗细、织造方式 |
 | 墨 | 烟炱种类（松烟、油烟）、胶料成分 |
-| 颜料 | 天然矿物vs合成颜料（出现年代） |
+| 颜料 | 天然矿物 vs 合成颜料（出现年代） |
 
 **鉴定方法**：
 - 风格鉴定：笔墨特征、构图习惯、款识书法
 - 文献考证：著录、题跋、印章流传
-- 科技检测：碳14（纸绢）、拉曼光谱（颜料）、X射线（底层草稿）
+- 科技检测：碳14（纸绢）、拉曼光谱（颜料）、X 射线（底层草稿）
 
 ### 5.2 纺织品
 

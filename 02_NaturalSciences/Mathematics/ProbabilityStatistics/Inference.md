@@ -4,12 +4,14 @@ aliases:
   - 参数估计
   - 假设检验
   - 置信区间
-  - p值
+  - p 值
   - Statistical Inference
   - Hypothesis Testing
   - Estimation
   - Confidence Interval
 tags:
+created: 2026-05-17
+updated: 2026-05-13
   - Mathematics
   - Statistics
   - Inference
@@ -88,8 +90,8 @@ graph TD
     A[研究问题] --> B[建立假设]
     B --> C[选择检验统计量]
     C --> D[确定显著性水平]
-    D --> E[计算p值]
-    E --> F{是否拒绝H₀}
+    D --> E[计算 p 值]
+    E --> F{是否拒绝 H₀}
     F -->|p < α| G[拒绝原假设]
     F -->|p ≥ α| H[无法拒绝原假设]
 ```
@@ -113,17 +115,17 @@ graph TD
 
 | 检验 | 用途 | 检验统计量 |
 |------|------|------------|
-| z检验 | 方差已知，正态总体 | $z = \frac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$ |
-| t检验 | 方差未知，正态总体 | $t = \frac{\bar{x} - \mu_0}{s/\sqrt{n}}$ |
+| z 检验 | 方差已知，正态总体 | $z = \frac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$ |
+| t 检验 | 方差未知，正态总体 | $t = \frac{\bar{x} - \mu_0}{s/\sqrt{n}}$ |
 | 比例检验 | 检验比例 | $z = \frac{\hat{p} - p_0}{\sqrt{p_0(1-p_0)/n}}$ |
 
 ### 两样本检验
 
 | 检验 | 用途 | 检验统计量 |
 |------|------|------------|
-| 独立样本t检验 | 比较两组均值 | $t = \frac{\bar{x}_1 - \bar{x}_2}{\sqrt{s_p^2(1/n_1 + 1/n_2)}}$ |
-| 配对t检验 | 配对数据 | $t = \frac{\bar{d}}{s_d/\sqrt{n}}$ |
-| F检验 | 比较两组方差 | $F = \frac{s_1^2}{s_2^2}$ |
+| 独立样本 t 检验 | 比较两组均值 | $t = \frac{\bar{x}_1 - \bar{x}_2}{\sqrt{s_p^2(1/n_1 + 1/n_2)}}$ |
+| 配对 t 检验 | 配对数据 | $t = \frac{\bar{d}}{s_d/\sqrt{n}}$ |
+| F 检验 | 比较两组方差 | $F = \frac{s_1^2}{s_2^2}$ |
 
 **合并方差（Pooled Variance）：**
 
@@ -131,11 +133,11 @@ $$ s_p^2 = \frac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1 + n_2 - 2} $$
 
 ---
 
-## 五、p值与显著性
+## 五、p 值与显著性
 
-### p值的含义
+### p 值的含义
 
-p值（p-value）是在原假设成立的情况下，观察到当前或更极端结果的概率。
+p 值（p-value）是在原假设成立的情况下，观察到当前或更极端结果的概率。
 
 $$ \text{p-value} = P(\text{observed data or more extreme} \mid H_0 \text{ is true}) $$
 
@@ -205,13 +207,13 @@ $$ \chi^2 = \sum_{i=1}^{r} \sum_{j=1}^{c} \frac{(O_{ij} - E_{ij})^2}{E_{ij}} $$
 
 ### 常见误区
 
-1. p值不是 $H_0$ 为真的概率
-2. p值大不代表效应量（Effect Size）小
+1. p 值不是 $H_0$ 为真的概率
+2. p 值大不代表效应量（Effect Size）小
 3. 统计显著（Statistical Significance）不等于实际显著（Practical Significance）
 4. 多重比较（Multiple Comparisons）需要校正（如 Bonferroni Correction）
 
 ### 报告建议
 
 - 报告效应量（Cohen's d, $\eta^2$ 等）
-- 报告置信区间而非仅p值
+- 报告置信区间而非仅 p 值
 - 预先进行功效分析（Power Analysis）确定样本量

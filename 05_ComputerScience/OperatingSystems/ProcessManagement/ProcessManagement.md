@@ -1,6 +1,8 @@
 ---
 aliases: [ProcessManagement]
 tags: ['OperatingSystems', 'ProcessManagement', 'ProcessManagement']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 进程管理详解 (Process Management)
@@ -33,7 +35,7 @@ tags: ['OperatingSystems', 'ProcessManagement', 'ProcessManagement']
 | 本质 | 静态文件 | 动态执行 |
 | 存储 | 磁盘 | 内存 |
 | 生命周期 | 永久 | 创建→终止 |
-| 对应关系 | 1个程序可对应多进程 | 唯一PID |
+| 对应关系 | 1个程序可对应多进程 | 唯一 PID |
 
 ## 二、进程状态 (Process States)
 
@@ -45,11 +47,11 @@ tags: ['OperatingSystems', 'ProcessManagement', 'ProcessManagement']
          └──┬───┘
             │ admit
             ▼
-   ┌────┐  dispatch  ┌───────┐  I/O请求  ┌───────┐
+   ┌────┐  dispatch  ┌───────┐  I/O 请求  ┌───────┐
    │Ready│───────────►│Running│──────────►│Waiting│
    └─────┘            └───┬───┘           └───┬───┘
         ▲                 │                    │
-        │              timeout                 │ I/O完成
+        │              timeout                 │ I/O 完成
         │                 │                    │
         │                 ▼                    │
         │            ┌───────┐                 │
@@ -60,12 +62,12 @@ tags: ['OperatingSystems', 'ProcessManagement', 'ProcessManagement']
 | 状态 | 说明 |
 |------|------|
 | **New (新建)** | 进程正在创建 |
-| **Ready (就绪)** | 在内存中，等待CPU调度 |
-| **Running (运行)** | 占用CPU执行 |
-| **Waiting (等待/阻塞)** | 等待I/O或事件 |
+| **Ready (就绪)** | 在内存中，等待 CPU 调度 |
+| **Running (运行)** | 占用 CPU 执行 |
+| **Waiting (等待/阻塞)** | 等待 I/O 或事件 |
 | **Terminated (终止)** | 执行完毕 |
 
-### Linux进程状态
+### Linux 进程状态
 
 | 状态 | 内核宏 | 描述 |
 |------|--------|------|
@@ -77,9 +79,9 @@ tags: ['OperatingSystems', 'ProcessManagement', 'ProcessManagement']
 
 ## 三、进程控制块 (Process Control Block)
 
-PCB是内核管理进程的数据结构，每个进程一个。
+PCB 是内核管理进程的数据结构，每个进程一个。
 
-### PCB关键内容
+### PCB 关键内容
 
 ```
 ┌─────────────────────────┐
@@ -87,15 +89,15 @@ PCB是内核管理进程的数据结构，每个进程一个。
 ├─────────────────────────┤
 │ 程序计数器 (PC)          │
 ├─────────────────────────┤
-│ CPU寄存器              │
+│ CPU 寄存器              │
 ├─────────────────────────┤
 │ 调度信息 (优先级、队列)    │
 ├─────────────────────────┤
 │ 内存管理信息 (页表)       │
 ├─────────────────────────┤
-│ I/O状态 (打开的文件)      │
+│ I/O 状态 (打开的文件)      │
 ├─────────────────────────┤
-│ 记账信息 (CPU时间等)     │
+│ 记账信息 (CPU 时间等)     │
 └─────────────────────────┘
 ```
 
@@ -119,15 +121,15 @@ struct task_struct {
 
 ## 四、上下文切换 (Context Switch)
 
-CPU从一进程切换到另一进程时的操作。
+CPU 从一进程切换到另一进程时的操作。
 
 ### 切换开销
 
 | 开销类型 | 说明 |
 |---------|------|
 | 寄存器保存/恢复 | PC, SP, 通用寄存器等 |
-| 页表切换 | TLB刷新 |
-| Cache污染 | 新进程需重新加载cache |
+| 页表切换 | TLB 刷新 |
+| Cache 污染 | 新进程需重新加载 cache |
 | 内核栈切换 | 需切换到内核栈 |
 
 ```c
@@ -155,22 +157,22 @@ int main() {
         return 1;
     } else if (pid == 0) {
         // 子进程
-        printf("子进程: PID=%d, 父PID=%d\n", getpid(), getppid());
+        printf("子进程: PID=%d, 父 PID=%d\n", getpid(), getppid());
         execlp("/bin/ls", "ls", "-l", NULL);
         perror("execlp");
         return 1;
     } else {
         // 父进程
-        printf("父进程: 子PID=%d\n", pid);
+        printf("父进程: 子 PID=%d\n", pid);
         wait(NULL);  // 回收子进程
     }
     return 0;
 }
 ```
 
-| fork返回值 | 说明 |
+| fork 返回值 | 说明 |
 |-----------|------|
-| `pid > 0` | 父进程，返回子PID |
+| `pid > 0` | 父进程，返回子 PID |
 | `pid == 0` | 子进程 |
 | `pid < 0` | 创建失败 |
 
@@ -178,8 +180,8 @@ int main() {
 
 | 函数 | 路径搜索 | 参数格式 | 环境变量 |
 |------|---------|---------|---------|
-| `execlp` | PATH搜索 | 列表 | 继承 |
-| `execvp` | PATH搜索 | 数组 | 继承 |
+| `execlp` | PATH 搜索 | 列表 | 继承 |
+| `execvp` | PATH 搜索 | 数组 | 继承 |
 | `execle` | 精确路径 | 列表 | 自定义 |
 | `execve` | 精确路径 | 数组 | 自定义（系统调用） |
 
@@ -187,8 +189,8 @@ int main() {
 
 | 类型 | 父进程 | 子进程 | 影响 |
 |------|--------|--------|------|
-| **僵尸 (Zombie)** | 未调用wait | 已终止 | 占用PCB，泄漏资源 |
-| **孤儿 (Orphan)** | 先终止 | 仍在运行 | 被init(PID=1)收养 |
+| **僵尸 (Zombie)** | 未调用 wait | 已终止 | 占用 PCB，泄漏资源 |
+| **孤儿 (Orphan)** | 先终止 | 仍在运行 | 被 init(PID=1)收养 |
 
 ```c
 // 避免僵尸：信号处理
@@ -205,7 +207,7 @@ int main() {
 
 ## 六、进程间通信 (IPC)
 
-### IPC方式对比
+### IPC 方式对比
 
 | 方式 | 速度 | 网络支持 | 适用场景 |
 |------|------|---------|---------|
@@ -241,7 +243,7 @@ if (fork() == 0) {
 }
 ```
 
-## 七、CPU调度 (CPU Scheduling)
+## 七、CPU 调度 (CPU Scheduling)
 
 ### 调度目标
 
@@ -251,8 +253,8 @@ if (fork() == 0) {
 | **周转时间** | 进程从提交到完成的时间 | 最小化 |
 | **等待时间** | 进程在就绪队列中等待总和 | 最小化 |
 | **响应时间** | 从提交到首次响应的时间 | 最小化 |
-| **CPU利用率** | CPU忙碌时间比例 | 最大化 |
-| **公平性** | 各进程分配CPU公平程度 | 均衡 |
+| **CPU 利用率** | CPU 忙碌时间比例 | 最大化 |
+| **公平性** | 各进程分配 CPU 公平程度 | 均衡 |
 
 ### 调度算法对比
 
@@ -264,12 +266,12 @@ if (fork() == 0) {
 | **优先级** | 优先级高的先执行 | 可选 | ✓ | 通用 |
 | **RR** | 时间片轮转 | ✓ | ✗ | 分时系统 |
 | **多级队列** | 多队列不同算法 | ✓ | 可能 | 通用 |
-| **多级反馈队列** | 动态调整队列 | ✓ | ✗ | 通用OS |
+| **多级反馈队列** | 动态调整队列 | ✓ | ✗ | 通用 OS |
 
 ### Round Robin 时间片选择
 
 ```
-时间片太大 → 退化为FCFS
+时间片太大 → 退化为 FCFS
 时间片太小 → 上下文切换开销过大
 
 经验值：10-100ms（切换开销约0.1-1ms，占1%以内）
@@ -278,14 +280,14 @@ if (fork() == 0) {
 ### Linux CFS (Completely Fair Scheduler)
 
 ```c
-// CFS核心思想：用红黑树维护进程，选择 vruntime 最小的进程
+// CFS 核心思想：用红黑树维护进程，选择 vruntime 最小的进程
 // vruntime = 实际运行时间 × (nice_0_weight / process_weight)
 
 // 调度延迟
 // sched_latency_ns = 6ms (默认)
 // 每个进程至少运行 min_granularity = 0.75ms
 
-// CFS时间片 = sched_latency / 进程数
+// CFS 时间片 = sched_latency / 进程数
 // 进程数 > sched_latency / min_granularity → 使用 min_granularity
 ```
 

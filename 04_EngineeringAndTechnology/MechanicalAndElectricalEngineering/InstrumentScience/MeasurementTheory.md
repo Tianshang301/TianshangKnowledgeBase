@@ -1,6 +1,8 @@
 ---
 aliases: [MeasurementTheory]
 tags: ['MechanicalAndElectricalEngineering', 'InstrumentScience', 'MeasurementTheory']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 测量理论
@@ -45,11 +47,11 @@ $$\Delta x = x - x_0$$
 
 **测量不确定度**：表征合理地赋予被测量之值的分散性参数。
 
-**A类不确定度**（统计方法）：
+**A 类不确定度**（统计方法）：
 
 $$u_A = \sqrt{\frac{\sum_{i=1}^{n}(x_i-\bar{x})^2}{n(n-1)}}$$
 
-**B类不确定度**（非统计方法）：
+**B 类不确定度**（非统计方法）：
 
 $$u_B = \frac{a}{k}$$
 

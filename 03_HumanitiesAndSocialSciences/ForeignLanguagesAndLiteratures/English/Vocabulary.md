@@ -1,6 +1,8 @@
 ---
 aliases: [Vocabulary]
 tags: ['ForeignLanguagesAndLiteratures', 'English', 'Vocabulary']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 英语词汇积累指南

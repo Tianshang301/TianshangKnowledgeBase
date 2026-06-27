@@ -1,6 +1,8 @@
 ---
 aliases: [SolidWasteManagement]
 tags: ['EnvironmentalScienceAndEngineering', 'EnvironmentalEngineering', 'SolidWasteManagement']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 固体废物管理 (Solid Waste Management)

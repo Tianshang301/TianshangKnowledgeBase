@@ -1,6 +1,8 @@
 ---
 aliases: [Transaction]
 tags: ['DatabasesAndInformationSystems', 'Transaction']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 数据库事务与隔离详解

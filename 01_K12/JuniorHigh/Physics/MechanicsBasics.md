@@ -5,6 +5,8 @@ aliases:
   - 运动学
   - 机械能
 tags:
+created: 2026-05-17
+updated: 2026-05-16
   - K12
   - 初中物理
   - 力学

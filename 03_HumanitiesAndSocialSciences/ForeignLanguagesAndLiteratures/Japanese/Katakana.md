@@ -1,6 +1,8 @@
 ---
 aliases: [Katakana]
 tags: ['ForeignLanguagesAndLiteratures', 'Japanese', 'Katakana']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 片假名完全指南

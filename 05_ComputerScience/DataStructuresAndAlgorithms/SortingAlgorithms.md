@@ -1,6 +1,8 @@
 ---
 aliases: [SortingAlgorithms]
 tags: ['05_ComputerScience', 'DataStructuresAndAlgorithms']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 排序算法 (Sorting Algorithms)
@@ -51,7 +53,7 @@ $$T(n) = \sum_{i=0}^{n-1} (n-i-1) = \frac{n(n-1)}{2} = O(n^2)$$
 
 将每个元素插入到已排序部分的正确位置。
 
-$$T(n) = 
+$$T(n) =
 \begin{cases}
 O(n) & \text{已有序} \\
 O(n^2) & \text{逆序}

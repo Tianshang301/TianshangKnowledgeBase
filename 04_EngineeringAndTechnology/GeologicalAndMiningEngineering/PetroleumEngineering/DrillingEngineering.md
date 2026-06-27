@@ -1,6 +1,8 @@
 ---
 aliases: [DrillingEngineering, 钻井工程]
 tags: ['04_EngineeringAndTechnology', 'GeologicalAndMiningEngineering', 'PetroleumEngineering', 'DrillingEngineering']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 钻井工程 (Drilling Engineering)

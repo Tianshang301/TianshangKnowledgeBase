@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['DatabasesAndInformationSystems', 'DataWarehousing', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 数据仓库
@@ -10,4 +12,4 @@ tags: ['DatabasesAndInformationSystems', 'DataWarehousing', 'INDEX']
 ## 文件
 
 - [[DataWarehousing]]
-- [[OLAP与多维数据分析]]
+- [[OLAP 与多维数据分析]]

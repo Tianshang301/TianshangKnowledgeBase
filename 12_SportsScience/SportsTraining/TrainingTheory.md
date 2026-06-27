@@ -1,6 +1,8 @@
 ---
 aliases: [TrainingTheory]
 tags: ['SportsTraining', 'TrainingTheory']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 训练理论
@@ -138,7 +140,7 @@ tags: ['SportsTraining', 'TrainingTheory']
 - 训练强度通常为最大心率的85-95%
 
 ### 三、重复训练法
-- 运动时间较长（3-30分钟），休息充分（恢复至心率120bpm以下）
+- 运动时间较长（3-30分钟），休息充分（恢复至心率120bpm 以下）
 - 主要用于发展专项耐力和比赛节奏适应
 
 ### 四、法特莱克训练法（Fartlek）

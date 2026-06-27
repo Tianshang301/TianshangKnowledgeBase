@@ -1,6 +1,8 @@
 ---
 aliases: [DesignPatterns]
 tags: ['SoftwareEngineering', 'DesignPatterns', 'DesignPatterns']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 设计模式

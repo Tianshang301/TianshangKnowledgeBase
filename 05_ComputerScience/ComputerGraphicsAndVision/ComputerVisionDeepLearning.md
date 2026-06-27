@@ -1,6 +1,8 @@
 ---
 aliases: [ComputerVisionDeepLearning]
 tags: ['ComputerGraphicsAndVision', 'ComputerVisionDeepLearning']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 深度学习计算机视觉

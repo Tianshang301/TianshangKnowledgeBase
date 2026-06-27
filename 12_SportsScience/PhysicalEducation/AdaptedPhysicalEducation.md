@@ -1,6 +1,8 @@
 ---
 aliases: [AdaptedPhysicalEducation]
 tags: ['PhysicalEducation', 'AdaptedPhysicalEducation']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 适应性体育教育
@@ -25,7 +27,7 @@ tags: ['PhysicalEducation', 'AdaptedPhysicalEducation']
 
 普通学校有义务提供合理便利和个别化支持。
 
-世界卫生组织ICF框架将残疾理解为健康状况与环境因素的互动结果。
+世界卫生组织 ICF 框架将残疾理解为健康状况与环境因素的互动结果。
 
 我国已颁布《残疾人保障法》《残疾人教育条例》《体育法》等推动融合体育教育。
 
@@ -84,9 +86,9 @@ tags: ['PhysicalEducation', 'AdaptedPhysicalEducation']
 
 包含当前能力水平描述、年度目标、短期目标、教学调整策略等要素。
 
-IEP中还应明确支持服务和参与普通体育教育的程度。
+IEP 中还应明确支持服务和参与普通体育教育的程度。
 
-定期评估和调整IEP是确保教育效果的关键。
+定期评估和调整 IEP 是确保教育效果的关键。
 
 动态评估方法可以更好地反映学生的学习和进步潜力。
 

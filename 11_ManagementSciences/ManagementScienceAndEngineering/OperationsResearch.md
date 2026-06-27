@@ -1,6 +1,8 @@
 ---
 aliases: [OperationsResearch]
 tags: ['ManagementScienceAndEngineering', 'OperationsResearch']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 运筹学
@@ -88,9 +90,9 @@ tags: ['ManagementScienceAndEngineering', 'OperationsResearch']
   - 平均等待时间：Wq = ρ/(μ-λ)
   - 平均逗留时间：W = 1/(μ-λ)
 
-### M/M/c模型
+### M/M/c 模型
 - **多服务台模型**
-- **关键参数**：服务台数c、到达率λ、服务率μ
+- **关键参数**：服务台数 c、到达率λ、服务率μ
 
 ### 排队系统优化
 - **经济分析**：服务成本与等待成本的平衡
@@ -99,15 +101,15 @@ tags: ['ManagementScienceAndEngineering', 'OperationsResearch']
 ## 图与网络
 
 ### 最短路径问题
-- **Dijkstra算法**：求解从源点到所有其他节点的最短路径
-- **Floyd算法**：求解所有节点对之间的最短路径
+- **Dijkstra 算法**：求解从源点到所有其他节点的最短路径
+- **Floyd 算法**：求解所有节点对之间的最短路径
 
 ### 最小生成树
-- **Prim算法**：从某一顶点开始逐步扩展
-- **Kruskal算法**：按边权从小到大选择
+- **Prim 算法**：从某一顶点开始逐步扩展
+- **Kruskal 算法**：按边权从小到大选择
 
 ### 最大流问题
-- **Ford-Fulkerson方法**：通过增广路径逐步增加流量
+- **Ford-Fulkerson 方法**：通过增广路径逐步增加流量
 - **容量限制**：0 ≤ f(e) ≤ c(e)
 - **流量守恒**：流入量 = 流出量
 

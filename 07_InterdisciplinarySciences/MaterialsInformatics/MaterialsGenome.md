@@ -1,6 +1,8 @@
 ---
 aliases: [MaterialsGenome]
 tags: ['MaterialsInformatics', 'MaterialsGenome']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 材料基因?
@@ -31,17 +33,17 @@ tags: ['MaterialsInformatics', 'MaterialsGenome']
 
 **国际合作?*
 - Materials Genome Initiative for Global Competitiveness
-- 欧盟Materials Genome Project
+- 欧盟 Materials Genome Project
 - 中国材料基因工程
 
 ## 高量计算
 
 ### 第一性原理计?
 **密度泛函理论（DFT）：**
-- Kohn-Sham方程
+- Kohn-Sham 方程
 - 交换关联泛函（LDA、GGA、杂化泛函）
 - 平面波基?
-**高量DFT工作流：**
+**高量 DFT 工作流：**
 1. 结构准备：晶体结构数据库
 2. 自洽计算：电子结?3. 性质计算：弹性常数声子谱?4. 数据存储：自动化数据?
 ### 热力学计?
@@ -56,8 +58,8 @@ tags: ['MaterialsInformatics', 'MaterialsGenome']
 **方法?*
 - 高维神经网络势（HDNNP?- 矢量神经网络（SchNet?- 图神经网络（GNN?
 **优势?*
-- 接近DFT精度
-- MD模拟速度
+- 接近 DFT 精度
+- MD 模拟速度
 - 大尺度模?
 ## 高量实验
 
@@ -74,11 +76,11 @@ tags: ['MaterialsInformatics', 'MaterialsGenome']
 
 ### 表征抢?
 **高量表征?*
-- 自动化X射线衍射（XRD?- 高量光谱分析
+- 自动化 X 射线衍射（XRD?- 高量光谱分析
 - 自动化电化学测试
 
 **同步辐射抢术：**
-- 高量X射线吸收
+- 高量 X 射线吸收
 - 原位表征
 - 微束分析
 
@@ -99,7 +101,7 @@ tags: ['MaterialsInformatics', 'MaterialsGenome']
 
 **特点?*
 - 免费弢?- 14?材料数据
-- API访问
+- API 访问
 
 **数据内容?*
 - 晶体结构
@@ -196,7 +198,7 @@ with MPRester("API_KEY") as mpr:
 
 - 更精确的机器学习模型
 - 物理信息神经网络
-- 可解释的材料AI
+- 可解释的材料 AI
 
 ### 实验整合
 
@@ -205,8 +207,8 @@ with MPRester("API_KEY") as mpr:
 
 ## 参资?
 - Materials Project：https://www.materialsproject.org/
-- pymatgen文档：https://pymatgen.org/
-- 《材料信息学?- Materials Genome Initiative官方报告
+- pymatgen 文档：https://pymatgen.org/
+- 《材料信息学?- Materials Genome Initiative 官方报告
 
 ## 相关条目
 

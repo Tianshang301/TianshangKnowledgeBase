@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['AerospaceAndMilitaryEngineering', 'Aerodynamics', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 空气动力学

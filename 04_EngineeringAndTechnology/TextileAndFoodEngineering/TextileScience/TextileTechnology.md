@@ -1,6 +1,8 @@
 ---
 aliases: [TextileTechnology]
 tags: ['TextileAndFoodEngineering', 'TextileScience', 'TextileTechnology']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 纺织工艺

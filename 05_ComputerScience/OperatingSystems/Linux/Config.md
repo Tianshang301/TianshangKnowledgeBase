@@ -1,6 +1,8 @@
 ---
 aliases: [Config]
 tags: ['OperatingSystems', 'Linux', 'Config']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Vim 配置指南
@@ -188,7 +190,7 @@ nnoremap <Leader>t :terminal<CR>
 ```vim
 " 常用缩写
 iabbrev @@ zhangsan@example.com
-iabbrev ssig -- \n张三\n高级工程师
+iabbrev ssig -- \n 张三\n 高级工程师
 iabbrev #i #include <stdio.h>
 iabbrev #d #define
 iabbrev main() int main(int argc, char *argv[]) {\n    \n    return 0;\n}

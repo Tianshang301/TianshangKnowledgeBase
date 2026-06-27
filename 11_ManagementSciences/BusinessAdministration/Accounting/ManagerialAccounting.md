@@ -1,6 +1,8 @@
 ---
 aliases: [ManagerialAccounting]
 tags: ['BusinessAdministration', 'Accounting', 'ManagerialAccounting']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 管理会计
@@ -54,7 +56,7 @@ tags: ['BusinessAdministration', 'Accounting', 'ManagerialAccounting']
 
 ### 作业成本法
 
-作业成本法（ABC）以作业为成本归集对象，按照成本动因将成本分配到产品。ABC法提高了间接费用的分配准确性，适用于间接费用比例高、产品多样化的企业。ABC法可以揭示不同产品对资源的真实消耗。
+作业成本法（ABC）以作业为成本归集对象，按照成本动因将成本分配到产品。ABC 法提高了间接费用的分配准确性，适用于间接费用比例高、产品多样化的企业。ABC 法可以揭示不同产品对资源的真实消耗。
 
 ## 本量利分析
 
@@ -96,7 +98,7 @@ tags: ['BusinessAdministration', 'Accounting', 'ManagerialAccounting']
 
 ### 经济增加值
 
-经济增加值（EVA）是税后净营业利润减去资本成本后的差额。EVA考虑了资本成本，比传统利润指标更能反映价值创造。EVA用于评价企业整体和管理层的绩效。
+经济增加值（EVA）是税后净营业利润减去资本成本后的差额。EVA 考虑了资本成本，比传统利润指标更能反映价值创造。EVA 用于评价企业整体和管理层的绩效。
 
 ## 决策分析
 

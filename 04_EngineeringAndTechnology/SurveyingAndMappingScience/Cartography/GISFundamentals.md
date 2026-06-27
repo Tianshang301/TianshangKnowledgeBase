@@ -1,6 +1,8 @@
 ---
-aliases: [GISFundamentals, GIS基础, GeographicInformationSystem, 地理信息系统]
+aliases: [GISFundamentals, GIS 基础, GeographicInformationSystem, 地理信息系统]
 tags: ['SurveyingAndMappingScience', 'Cartography', 'GIS', 'SpatialData', 'RemoteSensing']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # GIS 基础（GIS Fundamentals）
@@ -13,7 +15,7 @@ GIS 的起源可追溯至 20 世纪 60 年代，加拿大地理信息系统（CG
 
 ```mermaid
 graph TD
-    A[GIS系统] --> B[硬件<br/>Hardware]
+    A[GIS 系统] --> B[硬件<br/>Hardware]
     A --> C[软件<br/>Software]
     A --> D[数据<br/>Data]
     A --> E[人员<br/>People]

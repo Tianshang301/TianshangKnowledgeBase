@@ -1,6 +1,8 @@
 ---
 aliases: [Basics]
-tags: ['ProgrammingLanguages', 'C_Cpp', 'Basics']
+tags: ['ProgrammingLanguages', 'CCpp', 'Basics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # C/C++ 基础语法

@@ -1,6 +1,8 @@
 ---
 aliases: [HIIT, 高强度间歇训练, HighIntensityIntervalTraining]
 tags: ['12_SportsScience', 'SportsTraining', 'HIIT', 'IntervalTraining', 'Cardio']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 高强度间歇训练（HIIT）
@@ -160,7 +162,7 @@ $$\text{EPOC} = \int_{t_0}^{t_1} (\dot{V}O_{2\text{ post}} - \dot{V}O_{2\text{ r
 
 ```mermaid
 graph TD
-    A[选择HIIT模式] --> B{是否有<br/>运动基础?}
+    A[选择 HIIT 模式] --> B{是否有<br/>运动基础?}
     B -->|是| C{是否有<br/>伤病史?}
     B -->|否| D[自行车 椭圆机<br/>低冲击模式]
     C -->|是| E[游泳 自行车<br/>非负重模式]

@@ -1,6 +1,8 @@
 ---
 aliases: [MachineDesign]
 tags: ['MechanicalAndElectricalEngineering', 'MechanicalEngineering', 'MachineDesign']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 机械设计
@@ -23,14 +25,14 @@ tags: ['MechanicalAndElectricalEngineering', 'MechanicalEngineering', 'MachineDe
 - 疲劳强度：考虑应力循环特性，利用疲劳极限图
 - $\sigma_{-1}$（对称循环疲劳极限）、$\sigma_0$（脉动循环疲劳极限）
 
-**S-N曲线**（疲劳寿命曲线）：
+**S-N 曲线**（疲劳寿命曲线）：
 $$\sigma^m N = C$$
 
 其中 $\sigma$ 为应力幅，$N$ 为循环次数，$m$ 为曲线斜率参数，$C$ 为材料常数。
 
 **疲劳极限**：$\sigma_{-1}$ — 无限寿命下的最大应力（钢 $N>10^7$ 次）
 
-**Goodman修正**（平均应力影响）：
+**Goodman 修正**（平均应力影响）：
 $$\frac{\sigma_a}{\sigma_{-1}} + \frac{\sigma_m}{\sigma_b} = 1$$
 
 其中 $\sigma_a$ 为应力幅，$\sigma_m$ 为平均应力，$\sigma_b$ 为抗拉强度。
@@ -139,9 +141,9 @@ $$\frac{F_1}{F_2} = e^{\mu\alpha}$$
 
 其中 $F_1,F_2$ 为紧边/松边拉力，$\mu$ 为摩擦系数，$\alpha$ 为小轮包角。
 
-**有效拉力**：$F_e = F_1 - F_2 = \frac{1000P}{v}$（$P$ 为功率kW）
+**有效拉力**：$F_e = F_1 - F_2 = \frac{1000P}{v}$（$P$ 为功率 kW）
 
-**V带传动设计功率**：$P_{ca} = K_A P$
+**V 带传动设计功率**：$P_{ca} = K_A P$
 
 ### 键连接设计
 

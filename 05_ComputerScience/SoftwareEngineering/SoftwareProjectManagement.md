@@ -1,6 +1,8 @@
 ---
 aliases: [SoftwareProjectManagement]
 tags: ['05_ComputerScience', 'SoftwareEngineering']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 软件项目管理 (Software Project Management, SPM)

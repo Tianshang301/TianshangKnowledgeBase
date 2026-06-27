@@ -1,6 +1,8 @@
 ---
 aliases: [Basics]
 tags: ['ProgrammingLanguages', 'Python', 'Basics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Python 基础语法详解
@@ -64,14 +66,14 @@ type(3.14) is float     # True
 ### 切片
 
 ```python
-s = "Python编程"
+s = "Python 编程"
 
 s[0]       # 'P'
 s[-1]      # '程'
 s[0:3]     # 'Pyt'
-s[::2]     # 'Pto编'
-s[::-1]    # '程编nohtyP'
-s[1:-1]    # 'ython编'
+s[::2]     # 'Pto 编'
+s[::-1]    # '程编 nohtyP'
+s[1:-1]    # 'ython 编'
 ```
 
 ### 常用方法
@@ -331,7 +333,7 @@ while i < 10:
     if i == 7:
         break     # 到7退出
 else:
-    print("未被打断")  # break时不会执行
+    print("未被打断")  # break 时不会执行
 ```
 
 ## 八、函数
@@ -367,7 +369,7 @@ def func(a, b, *args, c=10, **kwargs):
 def func(a, b, *, verbose=False):
     pass
 
-func(1, 2, verbose=True)  # verbose必须用关键字
+func(1, 2, verbose=True)  # verbose 必须用关键字
 ```
 
 ### 作用域
@@ -396,7 +398,7 @@ print(x)  # 全局
 square = lambda x: x**2
 square(5)  # 25
 
-# 常用场景 - sort的key
+# 常用场景 - sort 的 key
 students = [("张三", 85), ("李四", 92), ("王五", 78)]
 students.sort(key=lambda s: s[1], reverse=True)
 
@@ -485,7 +487,7 @@ class MyError(Exception):
 raise MyError("自定义错误信息")
 
 # 断言
-assert x > 0, "x必须大于0"
+assert x > 0, "x 必须大于0"
 ```
 
 ## 十二、模块与包

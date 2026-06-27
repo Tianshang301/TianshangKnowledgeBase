@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['OperatingSystems', 'MemoryManagement', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 内存管理

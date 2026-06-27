@@ -1,6 +1,8 @@
 ---
 aliases: [SupplyChainManagement]
 tags: ['ManagementScienceAndEngineering', 'SupplyChainManagement']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 供应链管理
@@ -58,7 +60,7 @@ tags: ['ManagementScienceAndEngineering', 'SupplyChainManagement']
 
 ### 库存管理方法
 
-经济订货批量（EOQ）确定最优订货量。定期订货法按固定间隔订货。连续检查法持续监控库存水平。ABC分类法按价值管理库存。供应商管理库存（VMI）由供应商负责管理库存。
+经济订货批量（EOQ）确定最优订货量。定期订货法按固定间隔订货。连续检查法持续监控库存水平。ABC 分类法按价值管理库存。供应商管理库存（VMI）由供应商负责管理库存。
 
 ### 牛鞭效应
 
@@ -152,9 +154,9 @@ tags: ['ManagementScienceAndEngineering', 'SupplyChainManagement']
 
 供应链绩效指标包括服务水平、成本和资产效率。订单履行率衡量客户服务水平。供应链总成本包括采购、生产和物流成本。库存周转率衡量资产使用效率。
 
-### SCOR模型
+### SCOR 模型
 
-供应链运作参考模型（SCOR）提供标准化的绩效评价框架。SCOR包括计划、采购、制造、配送和退货五个管理流程。SCOR指标包括可靠性、响应性、敏捷性、成本和资产管理效率。
+供应链运作参考模型（SCOR）提供标准化的绩效评价框架。SCOR 包括计划、采购、制造、配送和退货五个管理流程。SCOR 指标包括可靠性、响应性、敏捷性、成本和资产管理效率。
 
 ### 供应链平衡计分卡
 
@@ -168,7 +170,7 @@ tags: ['ManagementScienceAndEngineering', 'SupplyChainManagement']
 
 ### 供应商早期参与
 
-供应商早期参与（ESI）在产品设计阶段让供应商参与。供应商提供材料和技术建议。ESI缩短产品开发周期。ESI降低采购成本。
+供应商早期参与（ESI）在产品设计阶段让供应商参与。供应商提供材料和技术建议。ESI 缩短产品开发周期。ESI 降低采购成本。
 
 ### 供应商发展
 

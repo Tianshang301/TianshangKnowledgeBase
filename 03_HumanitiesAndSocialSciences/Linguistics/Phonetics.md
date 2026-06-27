@@ -1,6 +1,8 @@
 ---
 aliases: [Phonetics, 语音学, SpeechSounds]
 tags: ['Linguistics', 'Phonetics', 'ArticulatoryPhonetics', 'AcousticPhonetics', 'IPA']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 语音学 (Phonetics)

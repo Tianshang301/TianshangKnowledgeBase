@@ -1,26 +1,28 @@
 ---
 aliases: [CRISPRCas9]
 tags: ['Biotechnologies', 'GeneticEngineering', 'CRISPRCas9']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # CRISPR-Cas9基因编辑
 
 ## 定义
-CRISPR-Cas9是一种革命性的基因编辑技术，利用RNA引导的核酸酶对基因组进行精确修改。
+CRISPR-Cas9是一种革命性的基因编辑技术，利用 RNA 引导的核酸酶对基因组进行精确修改。
 
 ## 核心内容
 
-### CRISPR系统原理
+### CRISPR 系统原理
 
-**CRISPR序列**：Clustered Regularly Interspaced Short Palindromic Repeats（成簇的规律间隔短回文重复序列）
+**CRISPR 序列**：Clustered Regularly Interspaced Short Palindromic Repeats（成簇的规律间隔短回文重复序列）
 
-**Cas9蛋白**：具有DNA切割活性的核酸酶
+**Cas9蛋白**：具有 DNA 切割活性的核酸酶
 
-**sgRNA**：单向导RNA，由crRNA和tracrRNA融合而成
+**sgRNA**：单向导 RNA，由 crRNA 和 tracrRNA 融合而成
 
 **工作原理**：
-1. sgRNA与目标DNA互补配对
-2. Cas9蛋白切割目标DNA双链
+1. sgRNA 与目标 DNA 互补配对
+2. Cas9蛋白切割目标 DNA 双链
 3. 细胞修复机制修复断裂
 
 ### 基因编辑策略
@@ -42,27 +44,27 @@ CRISPR-Cas9是一种革命性的基因编辑技术，利用RNA引导的核酸酶
 - 精确插入目标序列
 
 **基因调控**：
-- dCas9（死亡Cas9）：失去切割活性
+- dCas9（死亡 Cas9）：失去切割活性
 - CRISPRi：基因沉默
 - CRISPRa：基因激活
 
-### sgRNA设计
+### sgRNA 设计
 
 **靶序列选择**：
-- 20bp目标序列
-- PAM序列：NGG（SpCas9）
+- 20bp 目标序列
+- PAM 序列：NGG（SpCas9）
 - 脱靶预测
 
 **靶向效率评分**：
 $$S = w_{GC} \cdot f(G\%) + w_{pos} \cdot \sum_{i} p_i$$
 
-其中 $f(G\%)$ 为GC含量评分（40–60%最优），$p_i$ 为位置依赖性权重因子。
+其中 $f(G\%)$ 为 GC 含量评分（40–60%最优），$p_i$ 为位置依赖性权重因子。
 
 | 脱靶类型 | 错配容忍度 | 风险评估 | 检测方法 |
 |:---|:---:|:---|:---|
-| 种子区错配（8–12 bp近PAM） | 低 | 高 | GUIDE-seq |
-| 远端错配（>12 bp离PAM） | 高 | 中低 | CIRCLE-seq |
-| PAM远端突出 | 高 | 低 | Digenome-seq |
+| 种子区错配（8–12 bp 近 PAM） | 低 | 高 | GUIDE-seq |
+| 远端错配（>12 bp 离 PAM） | 高 | 中低 | CIRCLE-seq |
+| PAM 远端突出 | 高 | 低 | Digenome-seq |
 
 **设计工具**：
 - Benchling
@@ -89,8 +91,8 @@ $$S = w_{GC} \cdot f(G\%) + w_{pos} \cdot \sum_{i} p_i$$
 - Digenome-seq
 
 **降低脱靶**：
-- 优化sgRNA
-- 使用高保真Cas9变体
+- 优化 sgRNA
+- 使用高保真 Cas9变体
 - 控制递送剂量
 
 ### 应用

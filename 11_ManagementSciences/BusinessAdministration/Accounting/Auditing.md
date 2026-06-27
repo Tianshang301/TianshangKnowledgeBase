@@ -1,6 +1,8 @@
 ---
 aliases: [Auditing]
 tags: ['BusinessAdministration', 'Accounting', 'Auditing']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 审计学
@@ -145,9 +147,9 @@ tags: ['BusinessAdministration', 'Accounting', 'Auditing']
 
 ## 审计行业的发展趋势
 
-### 审计与ESG
+### 审计与 ESG
 
-环境、社会和治理（ESG）审计需求快速增长。投资者要求企业披露ESG信息并经过鉴证。温室气体排放审计和可持续报告审计成为新业务领域。ESG审计需要新的标准和专业能力。
+环境、社会和治理（ESG）审计需求快速增长。投资者要求企业披露 ESG 信息并经过鉴证。温室气体排放审计和可持续报告审计成为新业务领域。ESG 审计需要新的标准和专业能力。
 
 ### 区块链对审计的影响
 
@@ -181,7 +183,7 @@ tags: ['BusinessAdministration', 'Accounting', 'Auditing']
 
 ### 审计软件应用
 
-审计软件提高了审计工作效率。通用审计软件如ACL和IDEA用于数据分析。审计工作底稿系统无纸化管理审计文档。项目管理工具跟踪审计进度。
+审计软件提高了审计工作效率。通用审计软件如 ACL 和 IDEA 用于数据分析。审计工作底稿系统无纸化管理审计文档。项目管理工具跟踪审计进度。
 
 ### 大数据审计
 

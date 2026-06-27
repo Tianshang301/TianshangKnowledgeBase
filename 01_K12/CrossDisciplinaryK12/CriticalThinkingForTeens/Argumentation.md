@@ -1,6 +1,8 @@
 ---
 aliases: [Argumentation]
 tags: ['CrossDisciplinaryK12', 'CriticalThinkingForTeens', 'Argumentation']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 论证技巧
@@ -36,7 +38,7 @@ tags: ['CrossDisciplinaryK12', 'CriticalThinkingForTeens', 'Argumentation']
 |------|------|------|
 | 简单论证 | 只有一个论点 | 因为下雨，所以带伞 |
 | 复合论证 | 多个论据支持一个论点 | 多个理由支持一个观点 |
-| 链式论证 | 论据层层递进 | A证明B，B证明C |
+| 链式论证 | 论据层层递进 | A 证明 B，B 证明 C |
 
 ## 论证类型
 

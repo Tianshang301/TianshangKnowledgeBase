@@ -1,6 +1,8 @@
 ---
 aliases: [CareerOrientedPath]
 tags: ['LearningPaths', 'CareerOrientedPath']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # 职业导向学习路径
@@ -8,7 +10,7 @@ tags: ['LearningPaths', 'CareerOrientedPath']
 ## 概述
 
 职业导向学习以就业和职业发展为目标。本文档提供 IT、科研、工程等主要职业路径的规划，以及技能树构建、行业认证和职业转型策略。
-## IT行业路径
+## IT 行业路径
 
 ### 技术发展路线
 ```
@@ -16,12 +18,12 @@ tags: ['LearningPaths', 'CareerOrientedPath']
 ```
 
 ### 前端开发路径
-- **初级**：HTML/CSS/JavaScript基础
-- **中级**：React/Vue框架、响应式设计
+- **初级**：HTML/CSS/JavaScript 基础
+- **中级**：React/Vue 框架、响应式设计
 - **高级**：性能优化、架构设计
 - **专家**：技术选型、团队管理
 ### 后端开发路径
-- **初级**：Java/Python/Go基础、数据库
+- **初级**：Java/Python/Go 基础、数据库
 - **中级**：微服务架构、分布式系统
 - **高级**：系统设计、性能调优
 - **专家**：技术架构、技术战略
@@ -29,7 +31,7 @@ tags: ['LearningPaths', 'CareerOrientedPath']
 - **初级**：统计学基础、Python/R
 - **中级**：机器学习、数据可视化
 - **高级**：深度学习、大数据处理
-- **专家**：AI架构、数据战略
+- **专家**：AI 架构、数据战略
 ### 网络安全路径
 - **初级**：网络基础、安全概念
 - **中级**：渗透测试、安全审计
@@ -77,7 +79,7 @@ tags: ['LearningPaths', 'CareerOrientedPath']
 
 ### 工程师发展路线
 ```
-设计工程师 → 项目工程师 → 项目经理 → 工程总监 → 技术VP
+设计工程师 → 项目工程师 → 项目经理 → 工程总监 → 技术 VP
 ```
 
 ### 各阶段规划
@@ -130,14 +132,14 @@ tags: ['LearningPaths', 'CareerOrientedPath']
 
 ## 行业认证体系
 
-### IT认证
+### IT 认证
 | 认证 | 领域 | 适合人群 |
 |------|------|----------|
-| AWS认证 | 云计算 | 云架构师 |
+| AWS 认证 | 云计算 | 云架构师 |
 | 思科认证 | 网络 | 网络工程师 |
 | PMP | 项目管理 | 项目经理 |
 | CISSP | 信息安全 | 安全专家 |
-| Oracle认证 | 数据库 | 数据库管理员 |
+| Oracle 认证 | 数据库 | 数据库管理员 |
 
 ### 工程认证
 | 认证 | 领域 | 适合人群 |

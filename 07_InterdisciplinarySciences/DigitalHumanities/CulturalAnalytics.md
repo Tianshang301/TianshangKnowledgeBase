@@ -1,6 +1,8 @@
 ---
 aliases: [CulturalAnalytics]
 tags: ['DigitalHumanities', 'CulturalAnalytics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 文化分析
@@ -118,7 +120,7 @@ plt.show()
 - 关系数据：关注、点赞、转发
 
 **数据获取：**
-- API接口
+- API 接口
 - 网络爬虫
 - 数据集下载
 
@@ -158,7 +160,7 @@ plt.show()
 **研究内容：**
 - 创作模式
 - 读者互动
-- IP转化
+- IP 转化
 
 **分析方法：**
 - 文本挖掘
@@ -171,7 +173,7 @@ plt.show()
 - 数字绘画
 - 生成艺术
 - 交互艺术
-- NFT艺术
+- NFT 艺术
 
 **研究视角：**
 - 技术与艺术融合
@@ -186,7 +188,7 @@ plt.show()
 - 文化传播
 
 **技术：**
-- 3D建模
+- 3D 建模
 - VR/AR
 - 数字孪生
 

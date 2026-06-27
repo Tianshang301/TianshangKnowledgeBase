@@ -1,9 +1,11 @@
 ---
 aliases:
-  - Zotero使用
+  - Zotero 使用
   - 文献管理
   - 参考文献管理
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - reference-management
   - zotero
   - citation

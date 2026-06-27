@@ -1,6 +1,8 @@
 ---
 aliases: [NetworkLayer]
 tags: ['ComputerNetworks', 'NetworkLayer']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 网络层详解 (Network Layer)
@@ -19,9 +21,9 @@ tags: ['ComputerNetworks', 'NetworkLayer']
 ├─────────────────────────────────────────────────────────────────┤
 │   TTL (8)      │   上层协议 (8)  │       头部校验和 (16)       │
 ├─────────────────────────────────────────────────────────────────┤
-│                       源IP地址 (32)                             │
+│                       源 IP 地址 (32)                             │
 ├─────────────────────────────────────────────────────────────────┤
-│                      目的IP地址 (32)                            │
+│                      目的 IP 地址 (32)                            │
 ├─────────────────────────────────────────────────────────────────┤
 │                       选项 (可变, 0-40B)                        │
 └─────────────────────────────────────────────────────────────────┘
@@ -40,38 +42,38 @@ tags: ['ComputerNetworks', 'NetworkLayer']
 | TTL | 8bit | 生存时间(跳数), 每经过一个路由器减1 |
 | 上层协议 | 8bit | 1=ICMP, 6=TCP, 17=UDP |
 | 头部校验和 | 16bit | 仅校验头部 |
-| 源/目的IP | 32bit | IPv4地址 |
+| 源/目的 IP | 32bit | IPv4地址 |
 
 ### IP 分片 (Fragmentation)
 
-当数据包大于链路MTU时，路由器进行分片。
+当数据包大于链路 MTU 时，路由器进行分片。
 
 ```
-原始数据包: [IP头(20B)][数据(4000B)]  → 总长度=4020
+原始数据包: [IP 头(20B)][数据(4000B)]  → 总长度=4020
 MTU=1500 → 每片数据最大 1500-20=1480B
 
-分片1: 标识=X, MF=1, 偏移=0,     [IP头(20B)][数据(1480B)]
-分片2: 标识=X, MF=1, 偏移=185,   [IP头(20B)][数据(1480B)]
-分片3: 标识=X, MF=0, 偏移=370,   [IP头(20B)][数据(1040B)]
+分片1: 标识=X, MF=1, 偏移=0,     [IP 头(20B)][数据(1480B)]
+分片2: 标识=X, MF=1, 偏移=185,   [IP 头(20B)][数据(1480B)]
+分片3: 标识=X, MF=0, 偏移=370,   [IP 头(20B)][数据(1040B)]
 
 # 偏移=1480/8=185 (片偏移以8字节为单位)
 ```
 
-**路径MTU发现 (PMTUD):** 设置DF=1, 若需要分片则路由器返回ICMP "需要分片"错误。
+**路径 MTU 发现 (PMTUD):** 设置 DF=1, 若需要分片则路由器返回 ICMP "需要分片"错误。
 
 ### TTL (Time To Live)
 
 ```bash
-# ping中TTL的作用
+# ping 中 TTL 的作用
 ping -c 1 www.baidu.com
 # 64 bytes from 39.156.66.10: icmp_seq=1 ttl=52 time=10ms
-#   请求时 TTL=64 (Linux默认)
+#   请求时 TTL=64 (Linux 默认)
 #   响应中 TTL=52 → 中间经过 64-52=12 跳
 
-# traceroute 利用TTL
+# traceroute 利用 TTL
 traceroute www.baidu.com
-# 发送TTL=1 → 第一跳返回ICMP超时
-# 发送TTL=2 → 第二跳返回ICMP超时
+# 发送 TTL=1 → 第一跳返回 ICMP 超时
+# 发送 TTL=2 → 第二跳返回 ICMP 超时
 # ...直到到达目的地
 ```
 
@@ -88,11 +90,11 @@ traceroute www.baidu.com
 │         载荷长度 (16)              │  下一头部(8) │  跳数限制(8) │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                               │
-│                      源IPv6地址 (128)                          │
+│                      源 IPv6地址 (128)                          │
 │                                                               │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                               │
-│                      目的IPv6地址 (128)                         │
+│                      目的 IPv6地址 (128)                         │
 │                                                               │
 └─────────────────────────────────────────────────────────────────┘
 ```
@@ -109,7 +111,7 @@ traceroute www.baidu.com
 # 连续零用 :: 代替 (只能一次!)
 2001:db8:85a3::8a2e:370:7334
 
-# IPv4映射IPv6
+# IPv4映射 IPv6
 ::ffff:192.168.1.1
 ```
 
@@ -126,14 +128,14 @@ traceroute www.baidu.com
 | 自动配置 | DHCP | SLAAC + DHCPv6 |
 | NAT | 普遍使用 | 基本不需要 |
 | IPsec | 可选 | 设计上支持 |
-| DNS记录 | A | AAAA |
+| DNS 记录 | A | AAAA |
 
 ## 3. 子网划分 (Subnetting) & CIDR
 
 ### CIDR (Classless Inter-Domain Routing)
 
 ```
-格式: IP地址/前缀长度
+格式: IP 地址/前缀长度
 192.168.1.0/24       # 前24位是网络号, 后8位是主机号
 
 子网掩码:
@@ -174,23 +176,23 @@ sipcalc 192.168.1.0/24       # 显示网络信息
 
 ## 4. NAT (Network Address Translation)
 
-将私有IP转换为公网IP。
+将私有 IP 转换为公网 IP。
 
 ### NAT 类型
 
 | 类型 | 描述 | 特点 |
 |------|------|------|
-| **静态NAT** | 一对一映射 | 内部IP↔公网IP固定对应 |
-| **动态NAT** | 池中映射 | 从公网IP池动态分配 |
+| **静态 NAT** | 一对一映射 | 内部 IP↔公网 IP 固定对应 |
+| **动态 NAT** | 池中映射 | 从公网 IP 池动态分配 |
 | **PAT/NAPT** | 端口地址转换 | 多对一(端口复用) |
 
 ### PAT 工作原理
 
 ```
-内部主机           NAT路由器          外部服务器
+内部主机           NAT 路由器          外部服务器
 192.168.1.10:5000 ──► 203.0.113.1:10000 ──► 93.184.216.34:80
                          │
-                    NAT转换表:
+                    NAT 转换表:
                     ┌──────────────────────┐
                     │ 内:192.168.1.10:5000  │
                     │ 外:203.0.113.1:10000  │
@@ -199,7 +201,7 @@ sipcalc 192.168.1.0/24       # 显示网络信息
 
 **NAT 问题:**
 - 端到端连接受阻 (外部无法主动连接内部)
-- 解决方案: UPnP, STUN/TURN/ICE (NAT穿透)
+- 解决方案: UPnP, STUN/TURN/ICE (NAT 穿透)
 
 ## 5. ICMP (Internet Control Message Protocol)
 
@@ -209,22 +211,22 @@ sipcalc 192.168.1.0/24       # 显示网络信息
 
 | 类型 | 代码 | 含义 | 用途 |
 |------|------|------|------|
-| 0 | 0 | Echo Reply | ping响应 |
+| 0 | 0 | Echo Reply | ping 响应 |
 | 3 | 0 | 网络不可达 | 路由错误 |
 | 3 | 1 | 主机不可达 | |
 | 3 | 3 | 端口不可达 | |
-| 8 | 0 | Echo Request | ping请求 |
-| 11 | 0 | TTL超时 | traceroute |
+| 8 | 0 | Echo Request | ping 请求 |
+| 11 | 0 | TTL 超时 | traceroute |
 
 ```bash
 # ping (ICMP Echo)
 ping www.baidu.com
 ping -c 5 -s 1400 www.baidu.com  # 指定包大小
 
-# traceroute (利用ICMP TTL超时)
+# traceroute (利用 ICMP TTL 超时)
 traceroute www.baidu.com
-traceroute -I www.baidu.com       # 使用ICMP
-traceroute -T www.baidu.com       # 使用TCP SYN
+traceroute -I www.baidu.com       # 使用 ICMP
+traceroute -T www.baidu.com       # 使用 TCP SYN
 
 # Windows
 tracert www.baidu.com
@@ -233,59 +235,59 @@ pathping www.baidu.com            # 结合 traceroute 和 ping
 
 ## 6. ARP (Address Resolution Protocol)
 
-将IP地址解析为MAC地址。
+将 IP 地址解析为 MAC 地址。
 
 ### ARP 请求/响应
 
 ```
-主机A (192.168.1.2) 想发送给 主机B (192.168.1.3)
+主机 A (192.168.1.2) 想发送给 主机 B (192.168.1.3)
 
-ARP请求 (广播):
+ARP 请求 (广播):
 ┌─────────────────────┐
-│ 发送者MAC: AA:AA:AA│
-│ 发送者IP:  192.168.1.2 │
-│ 目标MAC:  00:00:00:00:00:00 (未知)│
-│ 目标IP:   192.168.1.3 │
+│ 发送者 MAC: AA:AA:AA│
+│ 发送者 IP:  192.168.1.2 │
+│ 目标 MAC:  00:00:00:00:00:00 (未知)│
+│ 目标 IP:   192.168.1.3 │
 └─────────────────────┘
            ↓ (广播到所有主机)
 
-主机B响应:
+主机 B 响应:
 ┌─────────────────────┐
-│ 发送者MAC: BB:BB:BB│
-│ 发送者IP:  192.168.1.3 │
-│ 目标MAC:  AA:AA:AA│
-│ 目标IP:   192.168.1.2 │
+│ 发送者 MAC: BB:BB:BB│
+│ 发送者 IP:  192.168.1.3 │
+│ 目标 MAC:  AA:AA:AA│
+│ 目标 IP:   192.168.1.2 │
 └─────────────────────┘
 
-ARP缓存:
-主机A: 192.168.1.3 → BB:BB:BB (TTL=300秒)
+ARP 缓存:
+主机 A: 192.168.1.3 → BB:BB:BB (TTL=300秒)
 ```
 
 ```bash
-# 查看ARP缓存
+# 查看 ARP 缓存
 arp -a
 ip neigh show
 
 # 172.31.0.1 dev eth0 lladdr 12:34:56:78:9a:bc REACHABLE
 
-# 静态ARP (防止ARP欺骗)
+# 静态 ARP (防止 ARP 欺骗)
 arp -s 192.168.1.1 12:34:56:78:9a:bc
 ip neigh add 192.168.1.1 lladdr 12:34:56:78:9a:bc nud permanent
 
-# 清除ARP缓存
+# 清除 ARP 缓存
 arp -d 192.168.1.1
 ip neigh flush all
 ```
 
 ### ARP 欺骗 (ARP Spoofing)
 
-攻击者发送伪造ARP响应，将受害者的IP映射到攻击者MAC。
+攻击者发送伪造 ARP 响应，将受害者的 IP 映射到攻击者 MAC。
 
 ```
 正常: 网关(192.168.1.1) → MAC: GG:GG:GG
-欺骗: 攻击者告诉主机A "网关的MAC是攻击者的MAC"
+欺骗: 攻击者告诉主机 A "网关的 MAC 是攻击者的 MAC"
 
-主机A                             攻击者                           网关
+主机 A                             攻击者                           网关
  │                                │                                │
  │ 谁是192.168.1.1? (广播)        │                                │
  │───────────────────────────────►│                                │
@@ -299,37 +301,37 @@ ip neigh flush all
  │                                │ 可嗅探/修改数据                │
 ```
 
-**防御:** 静态ARP、DAI (Dynamic ARP Inspection)、Port Security
+**防御:** 静态 ARP、DAI (Dynamic ARP Inspection)、Port Security
 
 ## 7. 路由算法 (Routing Algorithms)
 
 ### 7.1 距离向量算法 (Distance Vector)
 
 **RIP (Routing Information Protocol):**
-- 使用Bellman-Ford算法
+- 使用 Bellman-Ford 算法
 - 跳数作为度量 (最大15跳)
 - 每30秒广播完整路由表
 - 问题: 计数到无穷 (Count-to-Infinity)
 
 ```
-路由器A        路由器B        路由器C
+路由器 A        路由器 B        路由器 C
   │              │              │
   │──10.0.0.0/24─│──10.0.0.4/30─│
   │              │              │
 
-A的路由表:
+A 的路由表:
 目标网络    下一跳    距离
 10.0.0.0/24  本地      0
 10.0.0.4/30  直接      1
-192.168.1.0/24  B      2  (B告诉A它到192.168.1.0距离1)
+192.168.1.0/24  B      2  (B 告诉 A 它到192.168.1.0距离1)
 ```
 
 ### 7.2 链路状态算法 (Link State)
 
 **OSPF (Open Shortest Path First):**
-- 使用Dijkstra算法
+- 使用 Dijkstra 算法
 - 链路状态通告 (LSA) 洪泛
-- 收敛快（SFP树计算）
+- 收敛快（SFP 树计算）
 - 区域划分 (Area 0 = 骨干区域)
 
 ```python
@@ -365,13 +367,13 @@ def dijkstra(graph, start):
 
 ```bash
 # 查看路由
-ip route show                    # Linux路由表
-route -n                         # 路由表(-n不解析)
+ip route show                    # Linux 路由表
+route -n                         # 路由表(-n 不解析)
 netstat -rn
 
-# BGP信息
-birdc show protocols             # BIRD BGP状态
-birdc show route all             # 查看BGP路由
+# BGP 信息
+birdc show protocols             # BIRD BGP 状态
+birdc show route all             # 查看 BGP 路由
 ```
 
 ## 8. 路由 vs 转发

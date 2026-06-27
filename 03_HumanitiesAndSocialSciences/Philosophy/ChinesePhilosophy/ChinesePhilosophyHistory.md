@@ -1,6 +1,8 @@
 ---
 aliases: [ChinesePhilosophyHistory]
 tags: ['Philosophy', 'ChinesePhilosophy', 'ChinesePhilosophyHistory']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 中国哲学史

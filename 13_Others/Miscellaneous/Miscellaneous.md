@@ -1,6 +1,8 @@
 ---
 aliases: [Miscellaneous]
 tags: ['Miscellaneous', 'Miscellaneous']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 杂项实用技能
@@ -83,7 +85,7 @@ tags: ['Miscellaneous', 'Miscellaneous']
 |---------|------|
 | 强密码 | 字母+数字+符号，至少12位 |
 | 双因素认证 | 增加账户安全性 |
-| 公共WiFi | 避免进行敏感操作 |
+| 公共 WiFi | 避免进行敏感操作 |
 | 防钓鱼 | 不点击可疑链接 |
 | 软件更新 | 及时修复安全漏洞 |
 

@@ -1,6 +1,8 @@
 ---
 aliases: [NumPy]
 tags: ['ProgrammingLanguages', 'Python', 'NumPy']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # NumPy 快速指南

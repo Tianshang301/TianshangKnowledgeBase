@@ -1,6 +1,8 @@
 ---
 aliases: [Async]
 tags: ['ProgrammingLanguages', 'CSharp', 'Async']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # C# 异步编程

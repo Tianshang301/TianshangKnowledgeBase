@@ -1,6 +1,8 @@
 ---
 aliases: [LinkedList]
 tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'LinkedList']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 链表详解
@@ -370,14 +372,14 @@ def add_two_numbers(l1, l2):
 | LeetCode 160. 相交链表 | 🟢 简单 | 双指针 |
 | LeetCode 203. 移除链表元素 | 🟢 简单 | 哑节点 |
 | LeetCode 83. 删除排序链表重复 | 🟢 简单 | 遍历 |
-| LeetCode 19. 删除倒数第N个 | 🟡 中等 | 快慢指针 |
+| LeetCode 19. 删除倒数第 N 个 | 🟡 中等 | 快慢指针 |
 | LeetCode 2. 两数相加 | 🟡 中等 | 模拟加法 |
 | LeetCode 142. 环形链表 II | 🟡 中等 | Floyd |
 | LeetCode 148. 排序链表 | 🟡 中等 | 归并排序 |
 | LeetCode 234. 回文链表 | 🟡 中等 | 快慢+反转 |
 | LeetCode 146. LRU 缓存 | 🟡 中等 | 哈希+双向链表 |
-| LeetCode 23. 合并K个升序链表 | 🔴 困难 | 优先队列 |
-| LeetCode 25. K个一组翻转链表 | 🔴 困难 | 递归 |
+| LeetCode 23. 合并 K 个升序链表 | 🔴 困难 | 优先队列 |
+| LeetCode 25. K 个一组翻转链表 | 🔴 困难 | 递归 |
 
 ## 相关条目
 

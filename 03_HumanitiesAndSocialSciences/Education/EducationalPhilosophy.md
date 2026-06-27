@@ -6,6 +6,8 @@ aliases:
   - Philosophy of Education
   - 教育理论
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - education
   - philosophy
   - pedagogy
@@ -51,7 +53,7 @@ graph TD
 
 进步主义教育倡导问题本位学习 (Problem-based Learning, PBL) 与项目式学习 (Project-based Learning)。学习者围绕真实世界的问题开展探究，在解决问题的过程中建构知识、发展技能与培养态度。
 
-PBL的核心特征：
+PBL 的核心特征：
 
 | 特征 | 说明 | 教育价值 |
 | :--- | :--- | :--- |

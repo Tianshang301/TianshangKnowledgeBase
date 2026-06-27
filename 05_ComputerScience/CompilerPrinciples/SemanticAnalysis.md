@@ -1,6 +1,8 @@
 ---
 aliases: [SemanticAnalysis, TypeChecking, AttributeGrammar]
 tags: ['05_ComputerScience', 'CompilerPrinciples', 'SemanticAnalysis', 'TypeChecker']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 语义分析 (Semantic Analysis)

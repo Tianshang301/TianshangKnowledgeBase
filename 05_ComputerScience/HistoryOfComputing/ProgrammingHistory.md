@@ -7,6 +7,8 @@ aliases:
   - Programming Language Evolution
   - PL History
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - ComputerScience
   - HistoryOfComputing
   - ProgrammingLanguages
@@ -56,7 +58,7 @@ graph LR
 
 ```asm
 ; 汇编语言示例：x86加法
-MOV AX, 5      ; 将5存入AX寄存器
+MOV AX, 5      ; 将5存入 AX 寄存器
 ADD AX, 3      ; AX = AX + 3
 ```
 
@@ -131,8 +133,8 @@ flowchart TB
 
 | 语言 | 年份 | 开发者 | 特色 |
 |------|------|--------|------|
-| C++ | 1983 | 斯特劳斯特鲁普 | C + 类、兼容C |
-| Objective-C | 1984 | 考克斯 | C + Smalltalk消息传递 |
+| C++ | 1983 | 斯特劳斯特鲁普 | C + 类、兼容 C |
+| Objective-C | 1984 | 考克斯 | C + Smalltalk 消息传递 |
 | Eiffel | 1985 | 迈耶 | 设计契约（Design by Contract） |
 | Java | 1995 | 高斯林 | 跨平台、JVM、垃圾回收 |
 
@@ -142,9 +144,9 @@ flowchart TB
 |------|------|------|------|
 | Perl | 1987 | 文本处理 | 正则表达式集成 |
 | Python | 1991 | 通用 | 简洁、可读性高 |
-| Ruby | 1995 | Web开发 | 优雅、约定优于配置 |
-| JavaScript | 1995 | 浏览器脚本 | Web前端统治地位 |
-| PHP | 1995 | Web后端 | 嵌入HTML |
+| Ruby | 1995 | Web 开发 | 优雅、约定优于配置 |
+| JavaScript | 1995 | 浏览器脚本 | Web 前端统治地位 |
+| PHP | 1995 | Web 后端 | 嵌入 HTML |
 
 ### OOP 四大特性
 
@@ -158,12 +160,12 @@ $$ \text{封装（Encapsulation）} + \text{继承（Inheritance）} + \text{多
 
 | 语言 | 年份 | 设计者 | 核心特性 |
 |------|------|--------|----------|
-| C# | 2000 | 微软 | .NET生态、类型安全 |
+| C# | 2000 | 微软 | .NET 生态、类型安全 |
 | Scala | 2004 | 奥德斯基 | 函数式+面向对象融合 |
 | Go | 2009 | 谷歌 | 并发原语、编译快速 |
-| Rust | 2010 | 莫齐拉 | 内存安全、无GC |
-| Kotlin | 2011 | JetBrains | JVM语言、空安全 |
-| TypeScript | 2012 | 微软 | JavaScript超集、类型系统 |
+| Rust | 2010 | 莫齐拉 | 内存安全、无 GC |
+| Kotlin | 2011 | JetBrains | JVM 语言、空安全 |
+| TypeScript | 2012 | 微软 | JavaScript 超集、类型系统 |
 | Swift | 2014 | 苹果 | 安全、现代、快速 |
 | Zig | 2015 | 凯利 | 手动内存管理、无隐式控制流 |
 
@@ -185,7 +187,7 @@ $$ \text{封装（Encapsulation）} + \text{继承（Inheritance）} + \text{多
 ### 发展趋势
 
 1. **安全性优先**：类型系统越来越强大（Rust, TypeScript）
-2. **并发模型改进**：goroutine, async/await, Actor模型
+2. **并发模型改进**：goroutine, async/await, Actor 模型
 3. **生态整合**：包管理器（npm, cargo, pip）标准化
 4. **跨平台编译**：LLVM 使新语言开发更容易
 5. **DSL 增长**：领域特定语言适应各行业

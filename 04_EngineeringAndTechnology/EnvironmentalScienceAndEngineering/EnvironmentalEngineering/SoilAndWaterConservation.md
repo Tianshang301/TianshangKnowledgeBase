@@ -1,6 +1,8 @@
 ---
 aliases: [SoilAndWaterConservation]
 tags: ['04_EngineeringAndTechnology', 'EnvironmentalScienceAndEngineering', 'EnvironmentalEngineering', 'SoilAndWaterConservation']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 水土保持

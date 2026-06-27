@@ -1,6 +1,8 @@
 ---
 aliases: [Statics, 静力学]
 tags: ['EngineeringFundamentals', 'EngineeringMechanics', 'Statics']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 静力学 (Statics)

@@ -1,4 +1,11 @@
-﻿---
+---
+aliases: [ComputationalMathematics]
+tags: ['Mathematics', 'ComputationalMathematics.md']
+created: 2026-05-17
+updated: 2026-05-17
+---
+
+---
 aliases: [ComputationalMathematics]
 tags: ['Mathematics/ComputationalMathematics', 'ScientificComputing']
 ---

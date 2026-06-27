@@ -1,6 +1,8 @@
 ---
 aliases: [DataMining, 数据挖掘, 知识发现, KDD]
 tags: ['07_InterdisciplinarySciences', 'DataScience', 'MachineLearning', 'DatabaseSystems']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 数据挖掘 Data Mining
@@ -109,11 +111,11 @@ $$
 flowchart TD
     A[设定最小支持度] --> B[扫描数据库]
     B --> C[生成频繁1项集]
-    C --> D[生成候选k项集]
+    C --> D[生成候选 k 项集]
     D --> E[剪枝：剔除不满足<br/>向下封闭性的项集]
     E --> F[扫描数据库计算支持度]
     F --> G{满足最小<br/>支持度？}
-    G -->|是| H[加入频繁k项集]
+    G -->|是| H[加入频繁 k 项集]
     G -->|否| I[剪除]
     H --> J{k+1 > max？}
     J -->|否| D

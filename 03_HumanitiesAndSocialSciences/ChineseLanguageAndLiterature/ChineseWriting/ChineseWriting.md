@@ -1,6 +1,8 @@
 ---
 aliases: [ChineseWriting]
 tags: ['ChineseLanguageAndLiterature', 'ChineseWriting', 'ChineseWriting']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 中文写作
@@ -12,14 +14,14 @@ tags: ['ChineseLanguageAndLiterature', 'ChineseWriting', 'ChineseWriting']
 | 阶段 | 核心任务 | 具体方法 | 时间分配建议 |
 |------|----------|----------|-------------|
 | **立意** | 确定中心思想 | 头脑风暴、思维导图、自由写作 | 10% |
-| **构思** | 搭建结构框架 | 提纲法、金字塔原理、SCQA模型 | 15% |
+| **构思** | 搭建结构框架 | 提纲法、金字塔原理、SCQA 模型 | 15% |
 | **起草** | 写出初稿 | 不求完美，快速成文 | 40% |
 | **修改** | 提升内容质量 | 增删调改，从宏观到微观 | 25% |
 | **润色** | 打磨语言表达 | 炼字炼句，调整语气，检查标点 | 10% |
 
 **金字塔原理**（芭芭拉·明托）：结论先行，以上统下，分类清楚，排序逻辑。中心论点→分论点→论据层层支撑。适用于议论文和报告写作。
 
-**SCQA模型**：情境（Situation）→冲突（Complication）→问题（Question）→答案（Answer）。常用于引言写作。
+**SCQA 模型**：情境（Situation）→冲突（Complication）→问题（Question）→答案（Answer）。常用于引言写作。
 
 ### 1.2 写作意识
 

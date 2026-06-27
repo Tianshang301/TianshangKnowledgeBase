@@ -1,5 +1,5 @@
 ---
-aliases: [FreeRTOS任务与同步]
+aliases: [FreeRTOS 任务与同步]
 tags: ['HardwareAndEmbeddedSystems', 'RTOS', 'FreeRTOS']
 ---
 
@@ -158,7 +158,7 @@ int main(void) {
 |------|------|--------|
 | xQueueCreate | 创建队列 | 启动前 |
 | xQueueSend | 发送到队尾 | 任务/ISR |
-| xQueueSendFromISR | ISR中发送 | ISR |
+| xQueueSendFromISR | ISR 中发送 | ISR |
 | xQueueReceive | 接收（阻塞） | 任务 |
 | xQueuePeek | 查看不移除 | 任务 |
 | uxQueueMessagesWaiting | 查询消息数 | 任务 |
@@ -309,7 +309,7 @@ void vCreateTimers(void) {
         "OneShot",                     // 名称
         pdMS_TO_TICKS(5000),           // 周期
         pdFALSE,                       // 不自动重载
-        (void*)0,                      // 定时器ID
+        (void*)0,                      // 定时器 ID
         vTimerCallback                 // 回调
     );
     xTimerStart(xTimer, 0);
@@ -343,10 +343,10 @@ FreeRTOS 提供 5 种内存分配方案（heap_1 到 heap_5）：
 ```c
 // 方式1: 停止调度器
 vTaskSuspendAll();
-// 临界区代码（不可调用FreeRTOS API）
+// 临界区代码（不可调用 FreeRTOS API）
 xTaskResumeAll();
 
-// 方式2: 关中断（ISR中使用）
+// 方式2: 关中断（ISR 中使用）
 taskENTER_CRITICAL();
 // 临界区代码
 taskEXIT_CRITICAL();

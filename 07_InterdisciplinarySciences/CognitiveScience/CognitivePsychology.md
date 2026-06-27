@@ -1,6 +1,8 @@
 ---
 aliases: [CognitivePsychology]
 tags: ['CognitiveScience', 'CognitivePsychology']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 认知心理?
@@ -62,7 +64,7 @@ tags: ['CognitiveScience', 'CognitivePsychology']
 - 串行模型：阶段加?- 并行模型：同时加?- 交互濢活模?
 ## 记忆模型
 
-### Atkinson-Shiffrin模型（多存储模型?
+### Atkinson-Shiffrin 模型（多存储模型?
 **三个存储系统?*
 
 **感觉寄存器：**
@@ -77,7 +79,7 @@ tags: ['CognitiveScience', 'CognitivePsychology']
 - 复述：短时维?- 编码：短时→长时
 - 提取：长时→短时
 
-### Baddeley工作记忆模型
+### Baddeley 工作记忆模型
 
 **组成?*
 
@@ -116,7 +118,7 @@ tags: ['CognitiveScience', 'CognitivePsychology']
 
 **框架效应?*
 - 同一问题不同表述导致不同决策
-- 例：90%存活率vs10%死亡?
+- 例：90%存活率 vs10%死亡?
 **损失厌恶?*
 - 损失比收益感受更强烈
 - 损失约是收益??
@@ -161,7 +163,7 @@ $$v(x) = \begin{cases} x^{\alpha} & x \geq 0 \\ -\lambda(-x)^{\beta} & x < 0 \en
 - 动机水平
 - 专业知识
 
-## R语言实现（认知实验）
+## R 语言实现（认知实验）
 
 ```r
 # 反应时分?library(ggplot2)

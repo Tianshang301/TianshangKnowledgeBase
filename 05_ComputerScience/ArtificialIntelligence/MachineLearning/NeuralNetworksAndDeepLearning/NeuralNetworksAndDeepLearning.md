@@ -1,6 +1,8 @@
 ---
 aliases: [NeuralNetworksAndDeepLearning]
 tags: ['ArtificialIntelligence', 'MachineLearning', 'NeuralNetworksAndDeepLearning', 'NeuralNetworksAndDeepLearning']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 神经网络与深度学习
@@ -21,7 +23,7 @@ $$
 
 ### 多层感知机 (MLP)
 
-通过引入隐藏层和非线性激活函数，MLP可以学习复杂非线性映射：
+通过引入隐藏层和非线性激活函数，MLP 可以学习复杂非线性映射：
 
 $$
 \mathbf{h}^{(1)} = \sigma_1(\mathbf{W}^{(1)}\mathbf{x} + \mathbf{b}^{(1)})
@@ -40,19 +42,19 @@ $$
 | Sigmoid | $\sigma(x) = \frac{1}{1+e^{-x}}$ | 平滑，输出[0,1] | 梯度消失，非零中心 |
 | Tanh | $\tanh(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}$ | 零中心 | 梯度消失 |
 | ReLU | $\text{ReLU}(x) = \max(0, x)$ | 简单，无梯度消失 | Dead ReLU |
-| LeakyReLU | $\max(\alpha x, x), \alpha \approx 0.01$ | 缓解Dead ReLU | 超参数\alpha |
-| GELU | $x \cdot \Phi(x)$ | 平滑ReLU | 计算稍复杂 |
+| LeakyReLU | $\max(\alpha x, x), \alpha \approx 0.01$ | 缓解 Dead ReLU | 超参数\alpha |
+| GELU | $x \cdot \Phi(x)$ | 平滑 ReLU | 计算稍复杂 |
 | Swish | $x \cdot \sigma(x)$ | 自门控 | 计算代价 |
 
-### ReLU的变体
+### ReLU 的变体
 
-**ELU**: 
+**ELU**:
 
 $$
 \text{ELU}(x) = \begin{cases} x & x > 0 \\ \alpha(e^x - 1) & x \leq 0 \end{cases}
 $$
 
-**PReLU**: 带可学习参数的LeakyReLU
+**PReLU**: 带可学习参数的 LeakyReLU
 
 ## 三、反向传播
 
@@ -82,7 +84,7 @@ $$
 \frac{\partial L}{\partial \mathbf{W}^{(1)}} \propto \prod_{i=2}^L \frac{\partial \mathbf{h}^{(i)}}{\partial \mathbf{h}^{(i-1)}}
 $$
 
-缓解方法：适当的初始化（Xavier、He初始化）、Batch Normalization、残差连接。
+缓解方法：适当的初始化（Xavier、He 初始化）、Batch Normalization、残差连接。
 
 ## 四、优化器
 
@@ -94,10 +96,10 @@ $$
 | Momentum | $v_t = \gamma v_{t-1} + \eta \nabla L(\theta_t)$ | 加速收敛，冲过局部极小 |
 | NAG | $v_t = \gamma v_{t-1} + \eta \nabla L(\theta_t - \gamma v_{t-1})$ | 前瞻更新 |
 | AdaGrad | $\theta_{t+1} = \theta_t - \frac{\eta}{\sqrt{G_t + \epsilon}} \nabla L(\theta_t)$ | 自适应学习率 |
-| RMSprop | $\theta_{t+1} = \theta_t - \frac{\eta}{\sqrt{v_t + \epsilon}} \nabla L(\theta_t)$ | 缓解AdaGrad学习率归零 |
+| RMSprop | $\theta_{t+1} = \theta_t - \frac{\eta}{\sqrt{v_t + \epsilon}} \nabla L(\theta_t)$ | 缓解 AdaGrad 学习率归零 |
 | Adam | $m_t, v_t$ 一阶/二阶动量估计 | 最常用默认优化器 |
 
-### Adam优化器
+### Adam 优化器
 
 $$
 m_t = \beta_1 m_{t-1} + (1 - \beta_1) g_t
@@ -140,7 +142,7 @@ $$
 
 ### Batch Normalization
 
-对每个mini-batch进行标准化：
+对每个 mini-batch 进行标准化：
 
 $$
 \mu_B = \frac{1}{m} \sum_{i=1}^m x_i, \quad \sigma_B^2 = \frac{1}{m} \sum_{i=1}^m (x_i - \mu_B)^2
@@ -166,12 +168,12 @@ $$
 Y(i,j) = \sum_{m=0}^{K-1} \sum_{n=0}^{K-1} X(i+m, j+n) \cdot W(m,n) + b
 $$
 
-### 经典CNN架构
+### 经典 CNN 架构
 
 | 架构 | 深度 | 参数量 | 创新点 |
 |------|------|--------|--------|
-| LeNet-5 | 5 | 60K | 首个CNN，手写数字识别 |
-| AlexNet | 8 | 60M | ReLU、Dropout、GPU并行 |
+| LeNet-5 | 5 | 60K | 首个 CNN，手写数字识别 |
+| AlexNet | 8 | 60M | ReLU、Dropout、GPU 并行 |
 | VGG-16 | 16 | 138M | 3×3小卷积核堆叠 |
 | ResNet-50 | 50 | 25.6M | 残差学习 |
 | DenseNet | 121 | 8M | 密集连接 |
@@ -187,7 +189,7 @@ $$
 
 ### LSTM (Long Short-Term Memory)
 
-LSTM通过门控机制解决长期依赖问题：
+LSTM 通过门控机制解决长期依赖问题：
 
 $$
 \mathbf{i}_t = \sigma(\mathbf{W}_i [\mathbf{h}_{t-1}, \mathbf{x}_t] + \mathbf{b}_i)
@@ -201,9 +203,9 @@ $$
 
 ### GRU (Gated Recurrent Unit)
 
-简化LSTM，合并遗忘门和输入门。
+简化 LSTM，合并遗忘门和输入门。
 
-## 八、注意力机制与Transformer
+## 八、注意力机制与 Transformer
 
 ### Scaled Dot-Product Attention
 
@@ -217,7 +219,7 @@ $$
 \text{MultiHead}(Q, K, V) = \text{Concat}(\text{head}_1, ..., \text{head}_h) W^O
 $$
 
-Transformer架构已成为NLP和CV领域的主流架构。
+Transformer 架构已成为 NLP 和 CV 领域的主流架构。
 
 ## 九、生成模型
 
@@ -238,8 +240,8 @@ $$
 | 技术 | 描述 | 效果 |
 |------|------|------|
 | 混合精度训练 | FP16 + FP32混合 | 加速2-3x，显存减半 |
-| 梯度累积 | 多步梯度累加 | 突破batch size限制 |
-| 分布式训练 | 数据并行/模型并行 | 多GPU/多机扩展 |
+| 梯度累积 | 多步梯度累加 | 突破 batch size 限制 |
+| 分布式训练 | 数据并行/模型并行 | 多 GPU/多机扩展 |
 | 模型量化 | INT8/FP16推理 | 加速推理，减小模型 |
 | 知识蒸馏 | 大模型教小模型 | 保持性能同时压缩 |
 | 剪枝 (Pruning) | 移除冗余参数 | 模型瘦身 |
@@ -249,8 +251,8 @@ $$
 
 | 硬件 | 适用场景 | 特点 |
 |------|---------|------|
-| GPU (NVIDIA) | 训练与推理 | CUDA生态成熟 |
-| TPU (Google) | 大模型训练 | MXU矩阵加速 |
+| GPU (NVIDIA) | 训练与推理 | CUDA 生态成熟 |
+| TPU (Google) | 大模型训练 | MXU 矩阵加速 |
 | IPU (Graphcore) | 图计算 | 灵活并行 |
 | NPU (华为) | 推理加速 | 低功耗，高吞吐 |
 | 神经形态芯片 | 脉冲神经网络 | 超低功耗 |

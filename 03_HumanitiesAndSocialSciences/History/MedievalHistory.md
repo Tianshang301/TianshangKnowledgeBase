@@ -1,6 +1,8 @@
 ---
 aliases: [MedievalHistory]
 tags: ['History', 'MedievalHistory', 'MiddleAges', 'Feudalism']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # MedievalHistory

@@ -1,6 +1,6 @@
 ---
 aliases: [Part1_必修文言文10篇]
-tags: ['SeniorHigh', 'Chinese', 'AncientPoems_72', 'Part1_必修文言文10篇']
+tags: ['SeniorHigh', 'Chinese', 'AncientPoems72', 'Part1_必修文言文10篇']
 ---
 
 # 高中必背古诗?2?· 必修文言文（10篇）

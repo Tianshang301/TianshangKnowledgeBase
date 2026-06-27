@@ -1,6 +1,8 @@
 ---
 aliases: [HeatTransfer]
 tags: ['EngineeringFundamentals', 'EngineeringThermophysics', 'HeatTransfer']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 传热学
@@ -91,7 +93,7 @@ $h$ 为表面传热系数。
 
 ### 热辐射
 
-**Stefan-Boltzmann定律**：
+**Stefan-Boltzmann 定律**：
 
 $$E = \varepsilon\sigma T^4$$
 
@@ -115,13 +117,13 @@ $$Q = UA\Delta T_m$$
 
 $$\Delta T_m = \frac{\Delta T_1-\Delta T_2}{\ln(\Delta T_1/\Delta T_2)}$$
 
-**效能-NTU法**：
+**效能-NTU 法**：
 
 $$\varepsilon = f(NTU, C_{min}/C_{max})$$
 
 ### 传质
 
-**Fick定律**：
+**Fick 定律**：
 
 $$J_A = -D_{AB}\frac{dc_A}{dx}$$
 

@@ -1,6 +1,8 @@
 ---
-aliases: [GitHub, GitHub使用]
+aliases: [GitHub, GitHub 使用]
 tags: ['SoftwareEngineering', 'GitAndVersionControl', 'GitHub']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # GitHub 使用 (GitHub Usage)

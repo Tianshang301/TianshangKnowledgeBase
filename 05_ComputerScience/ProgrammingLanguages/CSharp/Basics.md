@@ -1,6 +1,8 @@
 ---
 aliases: [Basics]
 tags: ['ProgrammingLanguages', 'CSharp', 'Basics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # C# 基础语法
@@ -136,7 +138,7 @@ public class Person {
         get => _email;
         set {
             if (string.IsNullOrWhiteSpace(value))
-                throw new ArgumentException("Email不能为空");
+                throw new ArgumentException("Email 不能为空");
             _email = value;
         }
     }
@@ -214,8 +216,8 @@ string result = number switch {
 // 元组模式
 string Describe((int x, int y) point) => point switch {
     (0, 0) => "原点",
-    (0, _) => "Y轴",
-    (_, 0) => "X轴",
+    (0, _) => "Y 轴",
+    (_, 0) => "X 轴",
     _ => "普通点"
 };
 

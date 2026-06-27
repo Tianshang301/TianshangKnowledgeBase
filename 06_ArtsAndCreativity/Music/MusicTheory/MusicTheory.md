@@ -1,6 +1,8 @@
 ---
 aliases: [MusicTheory, 音乐理论, MusicTheoryBasics, 乐理基础]
 tags: ['06_ArtsAndCreativity', 'Music', 'MusicTheory', 'Harmony', 'Rhythm']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 音乐理论 (Music Theory)
@@ -84,10 +86,10 @@ flowchart LR
         G[全音音阶<br/>Whole-tone]
     end
     A --> |关系大小调 Relative| B
-    B --> |升VII级| C
-    C --> |上行升VI VII| D
+    B --> |升 VII 级| C
+    C --> |上行升 VI VII| D
     A --> |取5音| E
-    E --> |加b5| F
+    E --> |加 b5| F
 ```
 
 ---
@@ -299,7 +301,7 @@ flowchart LR
 | 伊奥尼亚 (Ionian) | W-W-H-W-W-W-H | 大调明亮 |
 | 多利亚 (Dorian) | W-H-W-W-W-H-W | 小调爵士风味 |
 | 弗里几亚 (Phrygian) | H-W-W-W-H-W-W | 西班牙色彩 |
-| 利底亚 (Lydian) | W-W-W-H-W-W-H | 升IV的梦幻感 |
+| 利底亚 (Lydian) | W-W-W-H-W-W-H | 升 IV 的梦幻感 |
 | 混合利底亚 (Mixolydian) | W-W-H-W-W-H-W | 属七音阶 |
 | 爱奥利亚 (Aeolian) | W-H-W-W-H-W-W | 自然小调 |
 | 洛克利亚 (Locrian) | H-W-W-H-W-W-W | 减五度的紧张感 |

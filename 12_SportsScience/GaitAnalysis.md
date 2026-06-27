@@ -1,6 +1,8 @@
 ---
 aliases: [GaitAnalysis, 步态分析, Gait, 步行生物力学]
 tags: ['SportsScience', 'Biomechanics', 'Rehabilitation', 'Kinesiology']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 步态分析
@@ -72,7 +74,7 @@ flowchart LR
 | 运动学 | 髋屈曲 | Hip Flexion | 摆动相最大屈髋角度 | 25-35° |
 | 运动学 | 膝屈曲 | Knee Flexion | 摆动相最大屈膝角度 | 55-70° |
 | 运动学 | 踝背屈 | Ankle Dorsiflexion | 支撑中期踝关节角度 | 5-10° |
-| 动力学 | 垂直GRF峰值 | Vertical GRF Peak | 体重归一化受力 | 1.0-1.2 BW |
+| 动力学 | 垂直 GRF 峰值 | Vertical GRF Peak | 体重归一化受力 | 1.0-1.2 BW |
 | 肌电 | 胫骨前肌 | Tibialis Anterior | 足跟着地前激活 | 摆动末期 |
 
 ## 时空参数
@@ -86,7 +88,7 @@ $$\text{步速 (m/s)} = \text{步长 (m)} \times \frac{\text{步频 (steps/min)}
 
 步长和步频呈非线性关系。
 自然行走时，人倾向于选择能耗最优的组合。
-约1.2~1.5 m/s的步速使单位距离能耗最低。
+约1.2~1.5 m/s 的步速使单位距离能耗最低。
 
 步宽的变异系数（Step Width Variability）
 是平衡控制的重要指标。
@@ -99,7 +101,7 @@ $$\text{步速 (m/s)} = \text{步长 (m)} \times \frac{\text{步频 (steps/min)}
 $$SI = \frac{2(X_R - X_L)}{X_R + X_L} \times 100\%$$
 
 其中 $X_R$ 和 $X_L$ 分别为右左参数值。
-SI越接近0表示对称性越好。
+SI 越接近0表示对称性越好。
 
 ## 运动学参数
 
@@ -144,7 +146,7 @@ SI越接近0表示对称性越好。
 （Anterior-Posterior Shear）
 和内外侧剪切力（Medial-Lateral Shear）。
 
-垂直GRF呈特征性双峰曲线：
+垂直 GRF 呈特征性双峰曲线：
 
 $$F_{z1} \approx 1.1 \times BW \quad (\text{负重响应峰值})$$
 
@@ -159,7 +161,7 @@ $$F_{z3} \approx 1.1 \times BW \quad (\text{蹬地推进峰值})$$
 
 关节力矩（Joint Moment）
 通过逆动力学（Inverse Dynamics）计算。
-结合GRF和运动学数据。
+结合 GRF 和运动学数据。
 踝关节在支撑末期产生最大跖屈力矩。
 约1.5 Nm/kg，是行走最主要的动力来源。
 
@@ -169,26 +171,26 @@ $$F_{z3} \approx 1.1 \times BW \quad (\text{蹬地推进峰值})$$
 
 临床目视观察（Visual Observation）
 是最基础的步态评估方法。
-使用Rancho Los Amigos步态观察清单。
+使用 Rancho Los Amigos 步态观察清单。
 系统评估各关节的异常表现。
 
 功能性评估量表：
-Tinetti平衡与步态量表。
+Tinetti 平衡与步态量表。
 计时起走测试（Timed Up and Go, TUG）。
 6分钟步行测试（6MWT）。
-Berg平衡量表（BBS）。
+Berg 平衡量表（BBS）。
 
 ### 客观评估方法
 
 | 方法 | 主要设备 | 测量内容 | 优势 | 局限 |
 |------|---------|---------|------|------|
 | 三维运动捕捉 | 红外摄像机+反光标记 | 关节角度/位移 | 精度高（<1mm） | 设备昂贵 |
-| 测力台 | 压电/应变式力板 | GRF三方向分量 | 力数据精确 | 单步限制 |
+| 测力台 | 压电/应变式力板 | GRF 三方向分量 | 力数据精确 | 单步限制 |
 | 压力分布 | 压感鞋垫/走道 | 足底区域压力 | 便携、直观 | 校准频繁 |
 | 表面肌电图 | 表面电极 | 肌肉激活时序 | 实时肌肉活动 | 串扰问题 |
 | 惯性传感器 | IMU | 运动学参数 | 便携、户外可用 | 漂移问题 |
 | 计算机视觉 | 深度相机 | 无标记点运动 | 无接触、便捷 | 遮挡问题 |
-| 测力跑步机 | 集成力传感器 | 连续步GRF | 多步数据 | 自然度降低 |
+| 测力跑步机 | 集成力传感器 | 连续步 GRF | 多步数据 | 自然度降低 |
 
 ### 时空参数计算公式
 
@@ -230,7 +232,7 @@ $$T_{GC} = \frac{2 \times \text{Step Length}}{\text{Gait Velocity}}$$
 运动损伤预防方面：
 步态异常是前交叉韧带（ACL）损伤的独立危险因素。
 女性运动员的膝关节外展力矩较高。
-这是其ACL损伤率高于男性的原因之一。
+这是其 ACL 损伤率高于男性的原因之一。
 
 假肢与矫形器（Prostheses and Orthoses）的效果评估：
 通过佩戴前后的时空参数对比。
@@ -245,7 +247,7 @@ $$ \text{步行}：\text{始终存在双支撑期} $$
 $$ \text{跑步}：\text{存在腾空期——双足均离地} $$
 
 跑步步态中：
-垂直GRF峰值可达体重的2.5~3倍。
+垂直 GRF 峰值可达体重的2.5~3倍。
 步行仅1.1倍。
 触地时间（Ground Contact Time, GCT）缩短。
 步行约0.6s，跑步约0.2~0.3s。

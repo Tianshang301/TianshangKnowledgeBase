@@ -1,6 +1,8 @@
 ---
 aliases: [VeterinaryInternalMedicine]
 tags: ['VeterinaryMedicine', 'VeterinaryInternalMedicine']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 兽医内科学
@@ -30,7 +32,7 @@ tags: ['VeterinaryMedicine', 'VeterinaryInternalMedicine']
 **诊断方法：**
 - 粪便检查：寄生虫卵、细菌培养
 - 血液检查：白细胞计数、炎症指标
-- 影像学检查：X线、B超排除肠套叠
+- 影像学检查：X 线、B 超排除肠套叠
 
 **治疗原则：**
 - 补液纠正脱水与电解质紊乱
@@ -132,7 +134,7 @@ tags: ['VeterinaryMedicine', 'VeterinaryInternalMedicine']
 **诊断：**
 - 尿液分析：蛋白尿、血尿、管型尿
 - 血液生化：尿素氮、肌酐升高
-- B超检查：肾脏形态结构异常
+- B 超检查：肾脏形态结构异常
 
 **治疗：**
 - 抗感染治疗
@@ -147,7 +149,7 @@ tags: ['VeterinaryMedicine', 'VeterinaryInternalMedicine']
 **病因：**
 - 饮水不足，尿液浓缩
 - 高钙低磷日粮，矿物质代谢紊乱
-- 尿液pH异常，结晶析出
+- 尿液 pH 异常，结晶析出
 - 尿路感染
 
 **临床表现：**
@@ -218,14 +220,14 @@ tags: ['VeterinaryMedicine', 'VeterinaryInternalMedicine']
 - 中毒：铅中毒、有机磷中毒
 
 **临床表现：**
-- 高热，体温可达40°C以上
+- 高热，体温可达40°C 以上
 - 惊厥、抽搐，意识障碍
 - 共济失调，步态不稳
 - 瞳孔异常，眼球震颤
 
 **诊断：**
 - 脑脊液检查（细胞计数、蛋白含量）
-- MRI或CT影像学检查
+- MRI 或 CT 影像学检查
 - 血清学检测病原抗体
 
 **治疗：**
@@ -238,7 +240,7 @@ tags: ['VeterinaryMedicine', 'VeterinaryInternalMedicine']
 
 **病因：**
 - 外伤（车祸、跌落）
-- 椎间盘突出（犬的II型椎间盘病）
+- 椎间盘突出（犬的 II 型椎间盘病）
 - 骨折或脱位
 - 脊髓肿瘤
 
@@ -261,11 +263,11 @@ tags: ['VeterinaryMedicine', 'VeterinaryInternalMedicine']
 **有机磷中毒：**
 - 来源：农药污染饲料或饮水
 - 症状：流涎、瞳孔缩小、肌肉震颤、呼吸困难
-- 治疗：阿托品阻断M胆碱受体，解磷定复活胆碱酯酶
+- 治疗：阿托品阻断 M 胆碱受体，解磷定复活胆碱酯酶
 
 **灭鼠药中毒：**
 - 华法林中毒：凝血功能障碍，出血倾向
-- 治疗：维生素K1注射，输新鲜血浆
+- 治疗：维生素 K1注射，输新鲜血浆
 
 **霉变饲料中毒：**
 - 黄曲霉毒素：肝脏损伤，免疫抑制
@@ -282,8 +284,8 @@ tags: ['VeterinaryMedicine', 'VeterinaryInternalMedicine']
 ## 参考资源
 
 - 《兽医内科学》（第五版），中国农业大学出版社
-- 《小动物内科学》（第二版），Ettinger著
-- 《大动物内科学》，Smith著
+- 《小动物内科学》（第二版），Ettinger 著
+- 《大动物内科学》，Smith 著
 - 《兽医临床诊断学》，东北农业大学编
 
 ## 相关条目

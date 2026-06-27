@@ -1,13 +1,15 @@
 ---
 aliases: [InternetOfThings]
 tags: ['NetworkedInformationSystems', 'InternetOfThings']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 物联?
 ## 概述
 
 物联网（Internet of Things, IoT）是将各种物理设备过网络连接起来，实现智能化识别、定位跟踪监控和管理的网络系统它融合了传感器抢术信抢术云计算和人工智能?
-## IoT架构
+## IoT 架构
 
 ### 三层架构
 
@@ -15,12 +17,12 @@ tags: ['NetworkedInformationSystems', 'InternetOfThings']
 - 传感器：温度、湿度光照压?- 执行器：弢关电机阀?- 标签：RFID、NFC
 - 摄像头：图像、视频采?
 **网络层：**
-- 短距离信：蓝牙ZigBee、Wi-Fi
+- 短距离信：蓝牙 ZigBee、Wi-Fi
 - 广域网：4G/5G、NB-IoT、LoRa
 - 卫星通信：偏远地区覆?
 **应用层：**
 - 数据处理：边缘计算云计算
-- 应用服务：监控分析控?- 用户界面：移动应用Web界面
+- 应用服务：监控分析控?- 用户界面：移动应用 Web 界面
 
 ### 五层架构
 
@@ -35,7 +37,7 @@ tags: ['NetworkedInformationSystems', 'InternetOfThings']
 
 **特点?*
 - 轻量级协?- 发布/订阅模式
-- 低带宽消?- QoS支持
+- 低带宽消?- QoS 支持
 
 **架构?*
 - Broker：消息代?- Publisher：发布?- Subscriber：订阅?
@@ -46,7 +48,7 @@ tags: ['NetworkedInformationSystems', 'InternetOfThings']
 ```python
 import paho.mqtt.client as mqtt
 
-# 连接Broker
+# 连接 Broker
 client = mqtt.Client()
 client.connect("broker.example.com", 1883)
 
@@ -61,13 +63,13 @@ client.on_message = lambda client, userdata, msg: print(msg.payload)
 ### CoAP
 
 **特点?*
-- RESTful协议
-- UDP传输
+- RESTful 协议
+- UDP 传输
 - 低功?- 支持多播
 
 **应用场景?*
 - 低功耗设?- 资源受限环境
-- M2M通信
+- M2M 通信
 
 ### LoRaWAN
 
@@ -136,7 +138,7 @@ client.on_message = lambda client, userdata, msg: print(msg.payload)
 - 全球覆盖
 - 丰富服务
 - 企业级安?
-### 阿里云IoT
+### 阿里云 IoT
 
 **组件?*
 - 物联网平台：设备管理
@@ -149,7 +151,7 @@ client.on_message = lambda client, userdata, msg: print(msg.payload)
 
 - **Azure IoT**：微软云
 - **Google Cloud IoT**：谷歌云
-- **华为云IoT**：华为云
+- **华为云 IoT**：华为云
 - **ThingsBoard**：开源平?
 ## 物联网安?
 ### 安全挑战
@@ -176,9 +178,9 @@ client.on_message = lambda client, userdata, msg: print(msg.payload)
 - 固件签名
 
 **网络层：**
-- TLS/DTLS加密
+- TLS/DTLS 加密
 - 证书认证
-- VPN隧道
+- VPN 隧道
 
 **平台层：**
 - 访问控制
@@ -247,8 +249,8 @@ $$D_{\text{total}} = D_{\text{prop}} + D_{\text{trans}} + D_{\text{proc}} + D_{\
 | **确定性网?(DetNet)** | 精确预留 | $< 1$ ms | $99.9999\%$ | 远程手术、实时控?|
 
 ## 参资?
-- 《物联网抢术与应用?- 《边缘计算：原理与实践?- AWS IoT文档
-- 阿里云IoT文档
+- 《物联网抢术与应用?- 《边缘计算：原理与实践?- AWS IoT 文档
+- 阿里云 IoT 文档
 
 ## 相关条目
 

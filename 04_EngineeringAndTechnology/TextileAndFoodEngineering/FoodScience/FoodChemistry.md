@@ -1,6 +1,8 @@
 ---
 aliases: [FoodChemistry]
 tags: ['TextileAndFoodEngineering', 'FoodScience', 'FoodChemistry']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 食品化学
@@ -66,7 +68,7 @@ $$还原糖 + 氨基酸 \to 类黑精 + 风味物质$$
 
 **脂溶性维生素**：A、D、E、K
 
-**水溶性维生素**：B族、C
+**水溶性维生素**：B 族、C
 
 **加工损失**：热降解、氧化、溶出
 

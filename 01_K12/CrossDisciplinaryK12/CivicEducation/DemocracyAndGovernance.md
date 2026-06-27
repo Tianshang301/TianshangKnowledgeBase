@@ -1,6 +1,8 @@
 ---
 aliases: [DemocracyAndGovernance, 民主与治理, 公民教育, CivicEducation, 民主制度]
 tags: ['CrossDisciplinaryK12', 'CivicEducation', 'DemocracyAndGovernance', 'SocialStudies', 'Citizenship']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 民主与治理 (Democracy and Governance)

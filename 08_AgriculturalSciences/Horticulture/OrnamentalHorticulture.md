@@ -1,6 +1,8 @@
 ---
 aliases: [OrnamentalHorticulture]
 tags: ['Horticulture', 'OrnamentalHorticulture']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 观赏园艺
@@ -110,7 +112,7 @@ tags: ['Horticulture', 'OrnamentalHorticulture']
 - 加温方式：热风、热水、电热
 
 **光照调控：**
-- 补光系统：高压钠灯、LED植物灯
+- 补光系统：高压钠灯、LED 植物灯
 - 遮阳系统：外遮阳、内遮阳
 - 光周期控制：暗幕帘自动开闭
 
@@ -197,7 +199,7 @@ $$
 P_n = \frac{\Phi_{PSII} \times I \times \alpha}{4}
 $$
 
-其中 $P_n$ 为净光合速率，$\Phi_{PSII}$ 为光系统II量子效率，$I$ 为光强，$\alpha$ 为叶片吸收系数。
+其中 $P_n$ 为净光合速率，$\Phi_{PSII}$ 为光系统 II 量子效率，$I$ 为光强，$\alpha$ 为叶片吸收系数。
 
 **色素合成调控：**
 

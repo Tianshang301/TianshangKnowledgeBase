@@ -7,6 +7,8 @@ aliases:
   - 绿色经济
   - 气候经济学
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - economics
   - environmental_economics
   - market_failure

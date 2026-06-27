@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['Philosophy', 'MarxistPhilosophy', 'INDEX']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 马克思主义哲学

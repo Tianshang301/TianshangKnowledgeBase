@@ -1,17 +1,19 @@
 ---
 aliases: [CADCAM]
 tags: ['MechanicalAndElectricalEngineering', 'MechanicalEngineering', 'CADCAM']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # CAD/CAM
 
 ## 定义
-CAD（计算机辅助设计）是利用计算机软件进行产品设计、分析和绘图的技术。CAM（计算机辅助制造）是利用计算机软件生成数控加工程序的技术。CAD/CAM是现代制造业的核心技术。
+CAD（计算机辅助设计）是利用计算机软件进行产品设计、分析和绘图的技术。CAM（计算机辅助制造）是利用计算机软件生成数控加工程序的技术。CAD/CAM 是现代制造业的核心技术。
 
 ## 研究对象
 - 三维建模理论与方法
-- CAD软件应用与二次开发
-- CAM编程与刀路规划
+- CAD 软件应用与二次开发
+- CAM 编程与刀路规划
 - 数控加工工艺
 - 产品数据管理
 
@@ -41,12 +43,12 @@ $$MRR = \frac{a_p \cdot a_e \cdot v_f \cdot a}{1000}$$
 
 ## 核心内容
 
-### CAD软件
+### CAD 软件
 
 **AutoCAD**：
 - 二维绘图为主，支持三维建模
-- DWG文件格式（行业标准）
-- AutoLISP/VBA二次开发
+- DWG 文件格式（行业标准）
+- AutoLISP/VBA 二次开发
 - 应用：建筑制图、机械零件图
 
 **SolidWorks**：
@@ -57,20 +59,20 @@ $$MRR = \frac{a_p \cdot a_e \cdot v_f \cdot a}{1000}$$
 
 **CATIA**：
 - 航空航天行业标准
-- 曲面建模能力强（A级曲面）
+- 曲面建模能力强（A 级曲面）
 - 支持产品全生命周期
 - 应用：飞机、汽车车身设计
 
 **UG/NX（Siemens NX）**：
-- 集成CAD/CAM/CAE
+- 集成 CAD/CAM/CAE
 - 强大的曲面和实体建模
 - 高级加工编程模块
 - 应用：模具设计、复杂零件加工
 
 **其他主流软件**：
 - Creo（Pro/E）：参数化设计先驱
-- Inventor：Autodesk的3D机械设计软件
-- Fusion 360：云端CAD/CAM/CAE
+- Inventor：Autodesk 的3D 机械设计软件
+- Fusion 360：云端 CAD/CAM/CAE
 
 ### 三维建模方法
 
@@ -80,7 +82,7 @@ $$MRR = \frac{a_p \cdot a_e \cdot v_f \cdot a}{1000}$$
 - 特征建模：基于工程语义的建模（拉伸、旋转、孔、圆角）
 
 **曲面建模**：
-- NURBS曲面：非均匀有理B样条
+- NURBS 曲面：非均匀有理 B 样条
 - 曲面品质：G0（位置连续）、G1（切线连续）、G2（曲率连续）
 - 曲面修补与光顺
 
@@ -89,7 +91,7 @@ $$MRR = \frac{a_p \cdot a_e \cdot v_f \cdot a}{1000}$$
 - 尺寸驱动：修改参数即可更新模型
 - 关联性：零件→装配→工程图自动更新
 
-### CAM编程
+### CAM 编程
 
 **刀路规划**：
 - 型腔铣：去除大量材料
@@ -105,11 +107,11 @@ $$MRR = \frac{a_p \cdot a_e \cdot v_f \cdot a}{1000}$$
 - 拐角处理（减速、圆弧过渡）
 
 **后处理**：
-- 刀路数据（CL数据）→G代码/M代码
+- 刀路数据（CL 数据）→G 代码/M 代码
 - 后处理器定制（不同数控系统）
-- Fanuc、Siemens、Heidenhain系统差异
+- Fanuc、Siemens、Heidenhain 系统差异
 
-**主流CAM软件对比**：
+**主流 CAM 软件对比**：
 
 | 软件 | 厂商 | 核心优势 | 主要行业 | 后处理支持 | 数控系统支持 |
 |------|------|---------|---------|-----------|-------------|
@@ -119,7 +121,7 @@ $$MRR = \frac{a_p \cdot a_e \cdot v_f \cdot a}{1000}$$
 | **HyperMILL** | Open Mind | 五轴联动 | 高精度模具 | 优秀 | Siemens/Heidenhain |
 | **CATIA CAM** | Dassault | 与设计无缝集成 | 航空汽车 | 集成 | 专用后处理 |
 
-### CNC数控加工基础
+### CNC 数控加工基础
 
 **数控系统组成**：
 - 控制器（CPU、存储器）
@@ -131,7 +133,7 @@ $$MRR = \frac{a_p \cdot a_e \cdot v_f \cdot a}{1000}$$
 - 工件坐标系：编程坐标系（G54~G59）
 - 刀具坐标系：刀具长度/半径补偿
 
-**常用G代码**：
+**常用 G 代码**：
 - G00：快速定位
 - G01：直线插补
 - G02/G03：圆弧插补
@@ -144,26 +146,26 @@ $$MRR = \frac{a_p \cdot a_e \cdot v_f \cdot a}{1000}$$
 - 加工余量分配
 - 刀具选择与换刀策略
 
-### PLM产品生命周期管理
+### PLM 产品生命周期管理
 
-**PLM概念**：
+**PLM 概念**：
 - 管理产品从概念设计到报废的全生命周期数据
 - 核心：产品数据管理（PDM）+ 协同设计
 
-**主流PLM系统**：
+**主流 PLM 系统**：
 - Teamcenter（Siemens）
 - ENOVIA（Dassault）
 - Windchill（PTC）
 
 **功能模块**：
 - 文档管理与版本控制
-- BOM管理（设计BOM→工艺BOM→制造BOM）
+- BOM 管理（设计 BOM→工艺 BOM→制造 BOM）
 - 工作流程管理
 - 项目管理
 
 ## 经典教材
 - 孙家广《计算机辅助设计》
-- 詹友刚《UG NX数控加工教程》
+- 詹友刚《UG NX 数控加工教程》
 - Groover《CAD/CAM: Computer-Aided Design and Manufacturing》
 - Zeid《Mastering CAD/CAM》
 
@@ -173,7 +175,7 @@ $$MRR = \frac{a_p \cdot a_e \cdot v_f \cdot a}{1000}$$
 - 模具制造（型腔编程、电极设计）
 - 消费电子（产品外观设计）
 - 医疗器械（定制化假体设计）
-- 建筑工程（BIM技术）
+- 建筑工程（BIM 技术）
 
 ## 相关条目
 

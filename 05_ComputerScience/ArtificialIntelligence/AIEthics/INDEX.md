@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['ArtificialIntelligence', 'AIEthics', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 人工智能伦理
@@ -10,4 +12,4 @@ tags: ['ArtificialIntelligence', 'AIEthics', 'INDEX']
 ## 文件
 
 - [[AIEthics]]
-- [[AI安全与对齐]]
+- [[AI 安全与对齐]]

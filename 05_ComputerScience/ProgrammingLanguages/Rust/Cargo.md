@@ -1,6 +1,8 @@
 ---
 aliases: [Cargo]
 tags: ['ProgrammingLanguages', 'Rust', 'Cargo']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Rust 包管理与 Cargo

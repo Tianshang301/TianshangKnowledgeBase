@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['Cybersecurity', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Cybersecurity
@@ -17,4 +19,4 @@ tags: ['Cybersecurity', 'INDEX']
 - [[MalwareAnalysis]] - 恶意软件分析
 - [[NetworkSecurity]] - 网络安全
 - [[PenetrationTesting]] - 渗透测试
-- [[WebSecurity]] - Web安全
+- [[WebSecurity]] - Web 安全

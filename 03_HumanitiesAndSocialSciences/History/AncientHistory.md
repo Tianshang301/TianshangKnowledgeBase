@@ -1,6 +1,8 @@
 ---
 aliases: [AncientHistory, 古代史]
 tags: ['History', 'AncientHistory', 'WorldHistory', 'CivilizationStudies']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 古代史 (Ancient History)

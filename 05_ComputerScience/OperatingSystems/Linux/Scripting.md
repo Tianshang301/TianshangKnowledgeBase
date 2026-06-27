@@ -1,6 +1,8 @@
 ---
 aliases: [Scripting]
 tags: ['OperatingSystems', 'Linux', 'Scripting']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Shell 脚本最佳实践

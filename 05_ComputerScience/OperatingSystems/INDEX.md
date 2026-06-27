@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['OperatingSystems', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # OperatingSystems
@@ -13,7 +15,7 @@ tags: ['OperatingSystems', 'INDEX']
 - [[README]] - 操作系统概述
 - [[FileSystem]] - 文件系统
 - [[IO]] - 输入输出
-- [[LinuxKernel]] - Linux内核
+- [[LinuxKernel]] - Linux 内核
 - [[Memory]] - 内存管理
 - [[Process]] - 进程
 - [[Scheduling]] - 调度
@@ -22,9 +24,9 @@ tags: ['OperatingSystems', 'INDEX']
 - [[05_ComputerScience/OperatingSystems/Concurrency/死锁与并发控制]] - 死锁与并发控制
 - [[05_ComputerScience/OperatingSystems/FileSystems/FileSystems]] - 文件系统
 - [[05_ComputerScience/OperatingSystems/FileSystems/日志文件系统与性能优化]] - 日志文件系统与性能优化
-- [[05_ComputerScience/OperatingSystems/Linux/Advanced]] - Linux高级
+- [[05_ComputerScience/OperatingSystems/Linux/Advanced]] - Linux 高级
 - [[05_ComputerScience/OperatingSystems/Linux/Bash]] - Bash
-- [[05_ComputerScience/OperatingSystems/Linux/Basics]] - Linux基础
+- [[05_ComputerScience/OperatingSystems/Linux/Basics]] - Linux 基础
 - [[05_ComputerScience/OperatingSystems/Linux/Config]] - 配置
 - [[05_ComputerScience/OperatingSystems/Linux/Environment]] - 环境
 - [[05_ComputerScience/OperatingSystems/Linux/Examples]] - 示例

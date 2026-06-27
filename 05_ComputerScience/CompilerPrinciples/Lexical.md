@@ -1,6 +1,8 @@
 ---
 aliases: [Lexical]
 tags: ['CompilerPrinciples', 'Lexical']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 词法分析
@@ -19,7 +21,7 @@ tags: ['CompilerPrinciples', 'Lexical']
 ### Token 结构
 
 ```
-Token = <Token类型, Token值, 位置信息>
+Token = <Token 类型, Token 值, 位置信息>
 ```
 
 ```text
@@ -147,15 +149,15 @@ q0 ──a──▶ q1 ──b──▶ q1
 ```
 算法：NFAtoDFA(NFA N) → DFA D
 
-1. D的初始状态 = ε-闭包(N的初始状态)
-2. 对每个未标记的DFA状态 T:
+1. D 的初始状态 = ε-闭包(N 的初始状态)
+2. 对每个未标记的 DFA 状态 T:
    a. 标记 T
    b. 对每个输入符号 a:
       U = ε-闭包(所有从 T 中状态经 a 到达的状态)
       if U 不在 D 的状态集合中:
           将 U 加入 D 的状态集合（未标记）
       D[T][a] = U
-3. D的接受状态 = 包含NFA接受状态的DFA状态
+3. D 的接受状态 = 包含 NFA 接受状态的 DFA 状态
 ```
 
 **示例**：将 `a|b` 的 NFA 转化为 DFA
@@ -165,9 +167,9 @@ NFA:
 q0 --ε--> q1 --a--> q3(accept)
 q0 --ε--> q2 --b--> q4(accept)
 
-ε-闭包(q0) = {q0, q1, q2} → DFA状态 A
-  从 A 读 a: 可到 q3, ε-闭包(q3) = {q3} → DFA状态 B(accept)
-  从 A 读 b: 可到 q4, ε-闭包(q4) = {q4} → DFA状态 C(accept)
+ε-闭包(q0) = {q0, q1, q2} → DFA 状态 A
+  从 A 读 a: 可到 q3, ε-闭包(q3) = {q3} → DFA 状态 B(accept)
+  从 A 读 b: 可到 q4, ε-闭包(q4) = {q4} → DFA 状态 C(accept)
 ```
 
 ### DFA 最小化

@@ -1,6 +1,8 @@
 ---
 aliases: [ModelEvaluation]
 tags: ['ArtificialIntelligence', 'MachineLearning', 'ModelEvaluation', 'ModelEvaluation']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 模型评估
@@ -17,7 +19,7 @@ $$
 
 ### 交叉验证
 
-**k折交叉验证 (k-fold Cross-Validation)**：
+**k 折交叉验证 (k-fold Cross-Validation)**：
 1. 将数据集随机分为 $k$ 个互斥子集
 2. 每次取 $k-1$ 份训练，1份测试
 3. 重复 $k$ 次，取平均性能
@@ -28,10 +30,10 @@ $$
 
 | 方法 | 特点 | 适用场景 |
 |------|------|---------|
-| 标准k折 | 简单通用 | 一般分类/回归 |
-| 分层k折 | 保持类别比例 | 不平衡分类 |
+| 标准 k 折 | 简单通用 | 一般分类/回归 |
+| 分层 k 折 | 保持类别比例 | 不平衡分类 |
 | LOOCV | 每次留一个样本，k=n | 小样本（<100） |
-| 重复k折 | 多次k折取平均 | 需要稳定估计 |
+| 重复 k 折 | 多次 k 折取平均 | 需要稳定估计 |
 
 ### 自助法 (Bootstrap)
 
@@ -78,9 +80,9 @@ $$
 F_\beta = (1 + \beta^2) \cdot \frac{\text{Precision} \cdot \text{Recall}}{\beta^2 \cdot \text{Precision} + \text{Recall}}
 $$
 
-### ROC曲线与AUC
+### ROC 曲线与 AUC
 
-ROC曲线绘制TPR（召回率）与FPR（假正率）在不同阈值下的关系：
+ROC 曲线绘制 TPR（召回率）与 FPR（假正率）在不同阈值下的关系：
 
 $$
 \text{FPR} = \frac{FP}{FP + TN}
@@ -90,9 +92,9 @@ AUC（Area Under ROC Curve）衡量模型的整体排序能力：
 - AUC = 1：完美分类器
 - AUC = 0.5：随机分类器
 
-### PR曲线
+### PR 曲线
 
-在类别不平衡时优于ROC曲线，关注精确率-召回率的权衡。
+在类别不平衡时优于 ROC 曲线，关注精确率-召回率的权衡。
 
 ## 三、回归性能指标
 
@@ -102,7 +104,7 @@ AUC（Area Under ROC Curve）衡量模型的整体排序能力：
 | RMSE | $\sqrt{\frac{1}{n}\sum_{i=1}^n (y_i - \hat{y}_i)^2}$ | 与原变量同量纲 |
 | MAE | $\frac{1}{n}\sum_{i=1}^n |y_i - \hat{y}_i|$ | 鲁棒性强 |
 | R² | $1 - \frac{\sum (y_i - \hat{y}_i)^2}{\sum (y_i - \bar{y})^2}$ | 解释方差比例 |
-| 调整R² | $1 - \frac{(1-R^2)(n-1)}{n-p-1}$ | 惩罚特征数量 |
+| 调整 R² | $1 - \frac{(1-R^2)(n-1)}{n-p-1}$ | 惩罚特征数量 |
 
 $$
 \text{MAPE} = \frac{100\%}{n} \sum_{i=1}^n \left|\frac{y_i - \hat{y}_i}{y_i}\right|
@@ -124,7 +126,7 @@ $$
 
 ## 五、统计显著性检验
 
-### McNemar检验
+### McNemar 检验
 
 用于比较两个分类器的配对样本检验：
 
@@ -134,7 +136,7 @@ $$
 
 其中 $n_{01}$ 为分类器1错误而分类器2正确的样本数，反之亦然。
 
-### 配对t检验
+### 配对 t 检验
 
 对多次重复实验的评估结果进行显著性检验：
 
@@ -144,7 +146,7 @@ $$
 
 其中 $\bar{d}$ 为性能差异均值，$s_d$ 为标准差。
 
-### Wilcoxon符号秩检验
+### Wilcoxon 符号秩检验
 
 非参数配对检验，不要求正态分布假设。
 

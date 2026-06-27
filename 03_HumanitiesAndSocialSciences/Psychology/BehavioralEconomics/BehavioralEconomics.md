@@ -1,6 +1,8 @@
 ---
 aliases: [BehavioralEconomics]
 tags: ['03_HumanitiesAndSocialSciences', 'Psychology', 'BehavioralEconomics']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # BehavioralEconomics

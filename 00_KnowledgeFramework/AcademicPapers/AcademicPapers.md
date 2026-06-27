@@ -2,12 +2,14 @@
 aliases:
   - AcademicPapers
 tags:
+created: 2026-05-17
+updated: 2026-05-13
   - AcademicPapers
 ---
 
 # 学术论文写作指南
 
-## 一、论文结构：IMRaD范式
+## 一、论文结构：IMRaD 范式
 
 学术论文遵循标准化的 **IMRaD** 结构，即引言（Introduction）、方法（Methods）、结果（Results）和讨论（Discussion）：
 

@@ -1,6 +1,8 @@
 ---
 aliases: [RussianLanguageAndLiterature]
 tags: ['ForeignLiterature', 'RussianLiterature', 'RussianLanguage', 'SlavicStudies']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # RussianLanguageAndLiterature

@@ -1,6 +1,8 @@
 ---
 aliases: [EngineeringFundamentals, 工程基础, Engineering Foundations]
 tags: ['EngineeringFundamentals', 'EngineeringBasics', 'Mechanics', 'Thermodynamics']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 工程基础 (Engineering Fundamentals)
@@ -18,7 +20,7 @@ graph TD
   A --> D[热物理与传热<br/>Thermophysics & Heat Transfer]
   A --> E[流体力学<br/>Fluid Mechanics]
   A --> F[材料科学基础<br/>Materials Science Fundamentals]
-  A --> G[工程制图与CAD<br/>Engineering Drawing & CAD]
+  A --> G[工程制图与 CAD<br/>Engineering Drawing & CAD]
   A --> H[工程计量学<br/>Engineering Metrology]
   B --> B1[微积分 Calculus]
   B --> B2[线性代数 Linear Algebra]

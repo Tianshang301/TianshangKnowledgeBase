@@ -1,6 +1,8 @@
 ---
 aliases: [CommercialLaw, BusinessLaw]
 tags: ['03_HumanitiesAndSocialSciences', 'Law', 'Commerce']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 商法 (Commercial Law)

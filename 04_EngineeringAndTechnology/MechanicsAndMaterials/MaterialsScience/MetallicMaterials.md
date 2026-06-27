@@ -1,6 +1,8 @@
 ---
 aliases: [MetallicMaterials]
 tags: ['MechanicsAndMaterials', 'MaterialsScience', 'MetallicMaterials']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 金属材料
@@ -36,14 +38,14 @@ tags: ['MechanicsAndMaterials', 'MaterialsScience', 'MetallicMaterials']
 - 代表金属：Mg、Zn、Ti（α-Ti）、Co
 - 配位数：12
 - 致密度：0.74
-- c/a比值影响滑移：理想值1.633
+- c/a 比值影响滑移：理想值1.633
 
 ### 铁碳相图（详细）
 
 **关键温度点**：
 - A₁线（727°C）：共析转变温度
 - A₃线（912°C）：纯铁同素异构转变温度
-- Acm线：Fe₃C在γ-Fe中的溶解度曲线
+- Acm 线：Fe₃C 在γ-Fe 中的溶解度曲线
 
 **共析反应**：$\gamma(0.77\%C) \xrightarrow{727°C} \alpha(0.0218\%C) + Fe_3C(6.69\%C)$
 
@@ -64,12 +66,12 @@ tags: ['MechanicsAndMaterials', 'MaterialsScience', 'MetallicMaterials']
 ### 热处理
 
 **退火**：
-- 完全退火：加热到Ac₃以上30~50°C，随炉冷却
-- 去应力退火：500~650°C保温后缓冷
+- 完全退火：加热到 Ac₃以上30~50°C，随炉冷却
+- 去应力退火：500~650°C 保温后缓冷
 - 目的：降低硬度、消除内应力、细化晶粒
 
 **正火**：
-- 加热到Ac₃（亚共析钢）或Acm（过共析钢）以上30~50°C，空冷
+- 加热到 Ac₃（亚共析钢）或 Acm（过共析钢）以上30~50°C，空冷
 - 比退火冷却速度快，组织更细，强度更高
 
 **淬火**：
@@ -102,13 +104,13 @@ tags: ['MechanicsAndMaterials', 'MaterialsScience', 'MetallicMaterials']
 ### 铝合金
 
 **变形铝合金**：
-- 2xxx系（Al-Cu）：高强度，如2024-T3
-- 6xxx系（Al-Mg-Si）：中等强度，良好耐蚀性，如6061-T6
-- 7xxx系（Al-Zn-Mg-Cu）：超高强度，如7075-T6
+- 2xxx 系（Al-Cu）：高强度，如2024-T3
+- 6xxx 系（Al-Mg-Si）：中等强度，良好耐蚀性，如6061-T6
+- 7xxx 系（Al-Zn-Mg-Cu）：超高强度，如7075-T6
 
 **铸造铝合金**：
-- Al-Si系：ZL101、ZL102（流动性好）
-- Al-Cu系：ZL201（强度高）
+- Al-Si 系：ZL101、ZL102（流动性好）
+- Al-Cu 系：ZL201（强度高）
 
 ### 钛合金
 
@@ -133,7 +135,7 @@ tags: ['MechanicsAndMaterials', 'MaterialsScience', 'MetallicMaterials']
 - 断裂韧性：$K_{IC}$
 
 **疲劳**：
-- S-N曲线：$\sigma_a = \sigma_f'(2N_f)^b$
+- S-N 曲线：$\sigma_a = \sigma_f'(2N_f)^b$
 - 疲劳极限：碳钢约 $\sigma_{-1} \approx 0.5\sigma_b$
 
 ## 经典教材

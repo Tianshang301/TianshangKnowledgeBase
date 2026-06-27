@@ -1,6 +1,8 @@
 ---
 aliases: [ProceduralLaw, AdjectiveLaw]
 tags: ['03_HumanitiesAndSocialSciences', 'Law', 'Procedure']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 程序法 (Procedural Law)

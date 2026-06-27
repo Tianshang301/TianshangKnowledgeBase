@@ -1,6 +1,8 @@
 ---
 aliases: [LexicalAnalysis, Lexer, Tokenizer]
 tags: ['05_ComputerScience', 'CompilerPrinciples', 'LexicalAnalysis', 'Compiler']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 词法分析 (Lexical Analysis)
@@ -154,10 +156,10 @@ flowchart TD
     S0 -->|"/"| S4["AFTER_SLASH"]
     S0 -->|"其他"| S5["SINGLE_CHAR"]
     S1 -->|"字母/数字/_"| S1
-    S1 -->|"其他"| S6["返回ID"]
+    S1 -->|"其他"| S6["返回 ID"]
     S2 -->|"数字"| S2
-    S2 -->|"其他"| S7["返回NUM"]
-    S3 -->|'"'| S8["返回STRING"]
+    S2 -->|"其他"| S7["返回 NUM"]
+    S3 -->|'"'| S8["返回 STRING"]
     S3 -->|"\\"| S9["ESCAPE"]
     S4 -->|"/"| S10["LINE_COMMENT"]
     S4 -->|"*"| S11["BLOCK_COMMENT"]

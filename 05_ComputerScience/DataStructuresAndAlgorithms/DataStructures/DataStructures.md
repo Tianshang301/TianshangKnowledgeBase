@@ -1,6 +1,8 @@
 ---
 aliases: [DataStructures, 数据结构]
 tags: ['05_ComputerScience', 'DataStructuresAndAlgorithms', 'DataStructures', 'Algorithms']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 数据结构 (Data Structures)
@@ -32,7 +34,7 @@ graph TD
   J --> R[二叉树 Binary Tree]
   J --> S[二叉搜索树 BST]
   J --> T[平衡树 AVL/RB]
-  J --> U[B树 B-Tree / B+树]
+  J --> U[B 树 B-Tree / B+树]
   J --> V[堆 Heap]
   K --> W[有向图 Directed]
   K --> X[无向图 Undirected]

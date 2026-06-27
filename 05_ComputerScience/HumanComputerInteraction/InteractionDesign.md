@@ -47,7 +47,7 @@ graph TD
 2. **定义 (Define)** — 合成洞察，形成问题陈述（Problem Statement）
 3. **构思 (Ideate)** — 头脑风暴、草图、逆向思维
 4. **原型 (Prototype)** — 低保真到高保真原型迭代
-5. **测试 (Test)** — 可用性测试、A/B测试、启发式评估
+5. **测试 (Test)** — 可用性测试、A/B 测试、启发式评估
 
 ### 低保真原型 (Low-Fidelity Prototyping)
 

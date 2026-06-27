@@ -1,6 +1,8 @@
 ---
 aliases: [Pipelining]
 tags: ['ComputerOrganizationAndArchitecture', 'Pipelining', 'Pipelining']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 流水线技术 (Pipelining)
@@ -14,9 +16,9 @@ tags: ['ComputerOrganizationAndArchitecture', 'Pipelining', 'Pipelining']
 ```
 类比：汽车装配线
   工位1: 安装底盘    → 工位2: 安装引擎 → 工位3: 安装车门 → 工位4: 喷漆
-  汽车A: [底盘]      [引擎]            [车门]           [喷漆]
-  汽车B:              [底盘]            [引擎]           [车门]
-  汽车C:                               [底盘]           [引擎]
+  汽车 A: [底盘]      [引擎]            [车门]           [喷漆]
+  汽车 B:              [底盘]            [引擎]           [车门]
+  汽车 C:                               [底盘]           [引擎]
 
   非流水线：一次只做一辆车的所有工序
   流水线：多辆车在不同工位同时进行

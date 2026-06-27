@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['ComputerNetworks', 'WirelessNetworks', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 无线网络
@@ -10,4 +12,4 @@ tags: ['ComputerNetworks', 'WirelessNetworks', 'INDEX']
 ## 文件
 
 - [[WirelessNetworks]]
-- [[蜂窝网络与5G技术]]
+- [[蜂窝网络与5G 技术]]

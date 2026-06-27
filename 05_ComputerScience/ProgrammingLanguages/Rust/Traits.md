@@ -1,6 +1,8 @@
 ---
 aliases: [Traits]
 tags: ['ProgrammingLanguages', 'Rust', 'Traits']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Rust Trait 系统

@@ -1,6 +1,8 @@
 ---
 aliases: [PowerSystems]
 tags: ['MechanicalAndElectricalEngineering', 'ElectricalEngineering', 'PowerSystems']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 电力系统
@@ -26,7 +28,7 @@ tags: ['MechanicalAndElectricalEngineering', 'ElectricalEngineering', 'PowerSyst
 
 **输电**：高压输电减少线路损耗
 - 输电电压等级：110kV、220kV、330kV、500kV、750kV、1000kV
-- 特高压：1000kV交流、±800kV直流
+- 特高压：1000kV 交流、±800kV 直流
 
 **变电**：升压/降压变压器
 - 发电厂升压：10~20kV → 110~500kV
@@ -47,7 +49,7 @@ tags: ['MechanicalAndElectricalEngineering', 'ElectricalEngineering', 'PowerSyst
 
 **电压稳定性**：
 - 负荷节点电压维持能力
-- P-V曲线、Q-V曲线分析
+- P-V 曲线、Q-V 曲线分析
 - 电压崩溃现象
 
 **频率稳定性**：

@@ -1,6 +1,8 @@
 ---
 aliases: [Combustion, 燃烧学]
 tags: ['EngineeringFundamentals', 'EngineeringThermophysics', 'Combustion']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 燃烧学 (Combustion Science)

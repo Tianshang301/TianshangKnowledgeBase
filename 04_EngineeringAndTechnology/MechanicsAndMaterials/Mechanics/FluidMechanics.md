@@ -1,6 +1,8 @@
 ---
 aliases: [FluidMechanics]
 tags: ['MechanicsAndMaterials', 'Mechanics', 'FluidMechanics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 流体力学
@@ -107,14 +109,14 @@ $$\frac{p_1}{\rho g} + \frac{v_1^2}{2g} + z_1 = \frac{p_2}{\rho g} + \frac{v_2^2
 | 雷诺数范围 | $Re < 2300$（圆管） | $Re > 4000$（圆管） |
 | 流动特征 | 流线平行、分层有序 | 涡旋随机、混沌掺混 |
 | 速度分布（圆管） | 抛物线：$v(r) = \dfrac{\Delta p}{4\mu L}(R^2 - r^2)$ | 扁平：$v(r) \approx v_{\text{max}}(1 - \frac{r}{R})^{1/n}$ |
-| 摩擦因子 | $f = 64/Re$ | $f = f(Re, \varepsilon/D)$ Colebrook公式 |
+| 摩擦因子 | $f = 64/Re$ | $f = f(Re, \varepsilon/D)$ Colebrook 公式 |
 | 传热特性 | 导热为主 | 对流增强，传热系数高 |
 | 混合程度 | 仅分子扩散 | 强烈的涡旋掺混 |
 | 阻力特性 | 与速度一次方成正比 | 与速度约 1.75-2 次方成正比 |
 
 ### 边界层理论
 
-**边界层厚度（Blasius解）**：$\delta \approx \frac{5x}{\sqrt{Re_x}}$
+**边界层厚度（Blasius 解）**：$\delta \approx \frac{5x}{\sqrt{Re_x}}$
 
 **位移厚度**：$\delta^* = \int_0^\infty \left(1 - \frac{u}{U}\right)dy$
 
@@ -122,17 +124,17 @@ $$\frac{p_1}{\rho g} + \frac{v_1^2}{2g} + z_1 = \frac{p_2}{\rho g} + \frac{v_2^2
 
 **壁面摩擦系数**：$C_f = \frac{\tau_w}{\frac{1}{2}\rho U^2}$
 
-**von Kármán动量积分方程**：
+**von Kármán 动量积分方程**：
 
 $$\frac{d\theta}{dx} + (2\theta + \delta^*)\frac{1}{U}\frac{dU}{dx} = \frac{C_f}{2}$$
 
 ### 管道流动
 
-**Darcy-Weisbach公式**：$h_f = f\frac{L}{D}\frac{v^2}{2g}$
+**Darcy-Weisbach 公式**：$h_f = f\frac{L}{D}\frac{v^2}{2g}$
 
-**Moody图**：层流时 $f = 64/Re$；湍流时 $f$ 取决于 $Re$ 和相对粗糙度 $\varepsilon/D$
+**Moody 图**：层流时 $f = 64/Re$；湍流时 $f$ 取决于 $Re$ 和相对粗糙度 $\varepsilon/D$
 
-**Colebrook-White公式**（湍流区）：
+**Colebrook-White 公式**（湍流区）：
 
 $$\frac{1}{\sqrt{f}} = -2\log\left(\frac{\varepsilon/D}{3.7} + \frac{2.51}{Re\sqrt{f}}\right)$$
 

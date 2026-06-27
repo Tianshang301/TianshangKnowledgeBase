@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['DatabasesAndInformationSystems', 'RelationalDatabases', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 关系数据库

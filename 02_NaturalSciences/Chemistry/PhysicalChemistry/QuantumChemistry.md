@@ -8,6 +8,8 @@ aliases:
   - 从头算方法
   - Hartree-Fock
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - chemistry/physical-chemistry
   - quantum-chemistry
   - computational-chemistry

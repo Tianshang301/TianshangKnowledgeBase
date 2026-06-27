@@ -1,6 +1,8 @@
 ---
 aliases: [GermanLanguageAndLiterature]
 tags: ['ForeignLiterature', 'GermanLiterature', 'GermanicLanguages', 'PhilosophyAndLiterature']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # GermanLanguageAndLiterature

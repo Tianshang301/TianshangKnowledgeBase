@@ -1,6 +1,8 @@
 ---
 aliases: [PoliticalTheory]
 tags: ['PoliticalScience', 'PoliticalTheory', 'PoliticalTheory']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 政治理论
@@ -146,7 +148,7 @@ tags: ['PoliticalScience', 'PoliticalTheory', 'PoliticalTheory']
 
 ### 5.2 多元文化主义
 
-多元文化主义主张国家应承认和保护不同文化群体的身份和权利。Kymlicka区分了三类群体权利：
+多元文化主义主张国家应承认和保护不同文化群体的身份和权利。Kymlicka 区分了三类群体权利：
 
 | 权利类型 | 内容 | 例 |
 |---------|------|-----|
@@ -226,7 +228,7 @@ tags: ['PoliticalScience', 'PoliticalTheory', 'PoliticalTheory']
 
 | 维度 | 代表 | 权力运作方式 |
 |------|------|-------------|
-| 一维 | Dahl | A使B做B本不愿做的事 |
+| 一维 | Dahl | A 使 B 做 B 本不愿做的事 |
 | 二维 | Bachrach & Baratz | 控制议程，排除议题 |
 | 三维 | Lukes | 塑造偏好和意识形态 |
 

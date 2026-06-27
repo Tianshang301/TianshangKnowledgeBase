@@ -1,6 +1,8 @@
 ---
 aliases: [CompositeMaterials]
 tags: ['MechanicsAndMaterials', 'MaterialsScience', 'CompositeMaterials']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 复合材料
@@ -60,13 +62,13 @@ $$G_{12} = G_f V_f + G_m V_m$$
 
 其中下标 $f$ 表示纤维，$m$ 表示基体，$V$ 为体积分数。
 
-**Tsai-Hill强度准则**（正交各向异性材料）：
+**Tsai-Hill 强度准则**（正交各向异性材料）：
 
 $$\frac{\sigma_1^2}{X^2} - \frac{\sigma_1\sigma_2}{X^2} + \frac{\sigma_2^2}{Y^2} + \frac{\tau_{12}^2}{S^2} = 1$$
 
 其中 $X$、$Y$、$S$ 分别为纵向、横向和面内剪切强度。
 
-**Tsai-Wu张量准则**：
+**Tsai-Wu 张量准则**：
 
 $$F_i\sigma_i + F_{ij}\sigma_i\sigma_j = 1$$
 
@@ -120,10 +122,10 @@ $$F_i\sigma_i + F_{ij}\sigma_i\sigma_j = 1$$
 
 **风力发电**：
 - 风力机叶片（玻璃纤维为主）
-- 叶片长度可达80m以上
+- 叶片长度可达80m 以上
 
 **其他领域**：
-- 压力容器（CNG气瓶）
+- 压力容器（CNG 气瓶）
 - 建筑加固（碳纤维布）
 - 船舶制造
 

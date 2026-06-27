@@ -1,6 +1,8 @@
 ---
 aliases: [EngineeringGeology]
 tags: ['GeologicalAndMiningEngineering', 'GeologicalEngineering', 'EngineeringGeology']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 工程地质

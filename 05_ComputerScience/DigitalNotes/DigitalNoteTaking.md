@@ -78,7 +78,7 @@ PARA 四层结构：
 ├─────────────────────────────────────────┤
 │  3. Resources (资源)                     │
 │     - 感兴趣的主题和素材                 │
-│     - 例：设计模式笔记、Python技巧收集   │
+│     - 例：设计模式笔记、Python 技巧收集   │
 ├─────────────────────────────────────────┤
 │  4. Archives (归档)                      │
 │     - 已完成或不活跃的条目               │
@@ -170,12 +170,12 @@ flowchart LR
 |------|------|----------|----------|----------|------|--------|
 | Obsidian | Win/Mac/Linux/Mobile | 本地优先、插件生态、图谱 | `[[双向链接]]` | 全文搜索+正则 | 免费 | 知识管理重度用户 |
 | Notion | Web/Mobile/Desktop | 数据库驱动、协作、多功能 | 页面引用+数据库关联 | 全文搜索/过滤 | 免费/付费 | 团队协作+项目管理 |
-| Roam Research | Web/Mobile | 块级引用、大纲模式 | `((块引用))` | 全文搜索 | $15/月 | Zettelkasten实践者 |
+| Roam Research | Web/Mobile | 块级引用、大纲模式 | `((块引用))` | 全文搜索 | $15/月 | Zettelkasten 实践者 |
 | Logseq | Win/Mac/Linux/Mobile | 开源、大纲、本地优先 | `[[双向链接]]` | 全文搜索 | 免费/开源 | 隐私敏感用户 |
-| Bear | Mac/iOS | 优雅设计、Markdown | `[[链接]]` | 全文搜索+标签 | 免费/付费 | Apple生态系统 |
+| Bear | Mac/iOS | 优雅设计、Markdown | `[[链接]]` | 全文搜索+标签 | 免费/付费 | Apple 生态系统 |
 | Joplin | Win/Mac/Linux/Mobile | 开源、支持同步 | `[[链接]]` | 全文搜索 | 免费/开源 | 跨平台需求 |
-| Evernote | All platforms | 老牌、OCR扫描、网页剪藏 | 内部链接 | 高级搜索(付费) | 免费/付费 | 资料收集整理 |
-| OneNote | Win/Mac/Mobile | 自由画布、Office集成 | 页面链接 | 全文搜索+OCR | 免费 | 手写+多媒体笔记 |
+| Evernote | All platforms | 老牌、OCR 扫描、网页剪藏 | 内部链接 | 高级搜索(付费) | 免费/付费 | 资料收集整理 |
+| OneNote | Win/Mac/Mobile | 自由画布、Office 集成 | 页面链接 | 全文搜索+OCR | 免费 | 手写+多媒体笔记 |
 
 ### 工具选择决策树
 
@@ -309,7 +309,7 @@ MOC 是连接同一主题下所有笔记的导航入口。
 
 ### 分类
 - [[决策树]] • [[随机森林]] • [[支持向量机]]
-- [[K近邻]] • [[朴素贝叶斯]]
+- [[K 近邻]] • [[朴素贝叶斯]]
 
 ### 聚类
 - [[K-means]] • [[层次聚类]] • [[DBSCAN]]
@@ -327,7 +327,7 @@ MOC 是连接同一主题下所有笔记的导航入口。
 - [[Zettelkasten|卡片盒笔记法]]
 - [[NoteTakingApps|笔记应用对比]]
 - [[KnowledgeManagement|知识管理方法论]]
-- [[00_KnowledgeFramework/Templates/MarkdownTemplates|Markdown模板]]
+- [[00_KnowledgeFramework/Templates/MarkdownTemplates|Markdown 模板]]
 - [[SecondBrain|第二大脑概念]]
 - [[ProgressiveSummarization|渐进式总结]]
-- [[ObsidianWorkflow|Obsidian工作流]]
+- [[ObsidianWorkflow|Obsidian 工作流]]

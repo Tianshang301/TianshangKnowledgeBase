@@ -1,6 +1,8 @@
 ---
 aliases: [MachineLearningForMaterials, 材料机器学习]
 tags: ['MaterialsInformatics', 'MachineLearning', 'MaterialsScience', 'ComputationalMaterials']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 材料机器学习
@@ -23,7 +25,7 @@ graph TD
   E --> H["特征工程/嵌入<br/>Feature Engineering"]
   F --> H
   G --> H
-  H --> I["ML模型训练<br/>Model Training"]
+  H --> I["ML 模型训练<br/>Model Training"]
   I --> J["性质预测<br/>Property Prediction"]
   I --> K["逆向设计<br/>Inverse Design"]
   I --> L["材料生成<br/>Materials Generation"]

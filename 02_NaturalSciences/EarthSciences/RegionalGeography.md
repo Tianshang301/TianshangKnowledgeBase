@@ -1,4 +1,11 @@
-﻿---
+---
+aliases: [RegionalGeography]
+tags: ['EarthSciences', 'RegionalGeography.md']
+created: 2026-05-17
+updated: 2026-05-17
+---
+
+---
 aliases: [RegionalGeography]
 tags: ['EarthSciences/RegionalGeography', 'HumanGeography']
 ---

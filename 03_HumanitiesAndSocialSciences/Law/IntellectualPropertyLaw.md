@@ -6,6 +6,8 @@ aliases:
   - 专利法
   - 著作权法
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - law
   - intellectual-property
   - patent
@@ -77,7 +79,7 @@ graph LR
 - **先用权 (Prior User Rights)**：在申请日前已制造相同产品或做好必要准备的，可在原有范围内继续实施
 - **临时过境 (Transit)**：外国运输工具临时过境使用专利设备
 - **科学实验 (Scientific Research)**：专为科学研究和实验而使用专利
-- **Bolar例外**：为行政审批所需信息进行医药专利实验
+- **Bolar 例外**：为行政审批所需信息进行医药专利实验
 
 ## 著作权法 (Copyright Law)
 
@@ -191,13 +193,13 @@ graph LR
 | :--- | :--- | :--- |
 | 《巴黎公约》(Paris Convention) | 1883年 | 国民待遇、优先权、临时保护 |
 | 《伯尔尼公约》(Berne Convention) | 1886年 | 著作权自动保护、国民待遇 |
-| 《TRIPS协定》(TRIPS Agreement) | 1994年 | 知识产权最低保护标准、执法程序 |
+| 《TRIPS 协定》(TRIPS Agreement) | 1994年 | 知识产权最低保护标准、执法程序 |
 | 《专利合作条约》(PCT) | 1970年 | 国际专利申请统一程序 |
 | 《马德里协定/议定书》(Madrid Protocol) | 1989年 | 商标国际注册 |
 
 ### 知识产权与公共健康 (IP and Public Health)
 
-《多哈宣言》(Doha Declaration) 确认《TRIPS协定》的灵活性，允许成员国在公共健康危机时采取强制许可 (Compulsory License) 等措施，保障药品可及性。
+《多哈宣言》(Doha Declaration) 确认《TRIPS 协定》的灵活性，允许成员国在公共健康危机时采取强制许可 (Compulsory License) 等措施，保障药品可及性。
 
 ## 新兴知识产权议题 (Emerging IP Issues)
 
@@ -205,4 +207,4 @@ graph LR
 - 基因序列与生物技术的可专利性
 - 标准必要专利 (SEP) 与公平合理无歧视 (FRAND) 许可
 - 数据产权与数据库保护
-- 区块链与NFT的知识产权问题
+- 区块链与 NFT 的知识产权问题

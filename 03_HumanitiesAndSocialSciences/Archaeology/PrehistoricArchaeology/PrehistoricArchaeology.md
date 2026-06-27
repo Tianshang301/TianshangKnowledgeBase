@@ -1,6 +1,8 @@
 ---
 aliases: [PrehistoricArchaeology]
 tags: ['Archaeology', 'PrehistoricArchaeology', 'PrehistoricArchaeology']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 史前考古学

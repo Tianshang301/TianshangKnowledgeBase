@@ -1,6 +1,8 @@
 ---
 aliases: [ChinesePhilosophy]
 tags: ['03_HumanitiesAndSocialSciences', 'Philosophy', 'ChinesePhilosophy']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 # ChinesePhilosophy
 

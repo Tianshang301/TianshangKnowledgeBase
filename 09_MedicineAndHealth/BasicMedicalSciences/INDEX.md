@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['BasicMedicalSciences', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # BasicMedicalSciences
@@ -16,6 +18,9 @@ tags: ['BasicMedicalSciences', 'INDEX']
 - [[Pathology]] — 病理学：疾病发生发展机制
 - [[Pharmacology]] — 药理学：药物作用原理与应用
 - [[Physiology]] — 生理学：人体正常功能与调节
+- [[BiochemistryAndMolecularBiology]] — 生物化学与分子生物学：生命化学与遗传信息
+- [[HistologyAndEmbryology]] — 组织学与胚胎学：微细结构与发育
+- [[Pathophysiology]] — 病理生理学：疾病功能代谢变化
 - [[09_MedicineAndHealth/ClinicalMedicine/INDEX|ClinicalMedicine]]
 - [[09_MedicineAndHealth/Pharmacy/INDEX|Pharmacy]]
 - [[Physiology]]

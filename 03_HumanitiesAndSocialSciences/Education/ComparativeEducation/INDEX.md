@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['Education', 'ComparativeEducation', 'INDEX']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 比较教育学

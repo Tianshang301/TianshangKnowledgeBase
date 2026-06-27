@@ -1,6 +1,8 @@
 ---
 aliases: [QuantumComputing]
 tags: ['QuantumInformationScience', 'QuantumComputing']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 量子计算
@@ -26,13 +28,13 @@ $$|\psi\rangle = \alpha|0\rangle + \beta|1\rangle$$
 $$|+\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle)$$
 
 ### 纠缠?
-**Bell态：**
+**Bell 态：**
 $$|\Phi^+\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)$$
 
 **特：**
 - 非局域关?- 测量丢个粒子影响另丢?- 量子通信基础
 
-### Bloch球表?
+### Bloch 球表?
 **单量子比特状态：**
 $$|\psi\rangle = \cos\frac{\theta}{2}|0\rangle + e^{i\phi}\sin\frac{\theta}{2}|1\rangle$$
 
@@ -41,10 +43,10 @@ $$|\psi\rangle = \cos\frac{\theta}{2}|0\rangle + e^{i\phi}\sin\frac{\theta}{2}|1
 ## 量子?
 ### 单量子比特门
 
-**Pauli门：**
+**Pauli 门：**
 $$X = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}, \quad Y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}, \quad Z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$$
 
-**Hadamard门（H）：**
+**Hadamard 门（H）：**
 $$H = \frac{1}{\sqrt{2}}\begin{pmatrix} 1 & 1 \\ 1 & -1 \end{pmatrix}$$
 
 作用：创建叠加?$$H|0\rangle = |+\rangle, \quad H|1\rangle = |-\rangle$$
@@ -57,16 +59,16 @@ $$R_x(\theta) = \begin{pmatrix} \cos\frac{\theta}{2} & -i\sin\frac{\theta}{2} \\
 
 ### 多量子比特门
 
-**CNOT门（受控非门）：**
+**CNOT 门（受控非门）：**
 $$CNOT = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \\ 0 & 0 & 1 & 0 \end{pmatrix}$$
 
 作用：控制比特为1时，目标比特翻转
 
-**Toffoli门（CCNOT）：**
+**Toffoli 门（CCNOT）：**
 - 双控制非?- 可计算基硢
 - 通用经典计算
 
-**SWAP门：**
+**SWAP 门：**
 $$SWAP = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 1 \end{pmatrix}$$
 
 ### 通用量子门集
@@ -74,62 +76,62 @@ $$SWAP = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 
 **通用门集?*
 - {H, T, CNOT}构成通用门集
 - 可近似任意酉变换
-- Solovay-Kitaev定理
+- Solovay-Kitaev 定理
 
 ## 量子算法
 
-### Shor算法
+### Shor 算法
 
 **问题?* 大整数分?
 **经典算法?* 指数时间
-**Shor算法?* 多项式时?
+**Shor 算法?* 多项式时?
 **核心思想?*
 1. 将分解问题转化为求阶问题
 2. 量子傅里叶变换求周期
 3. 经典后处理得到因?
 **步骤?*
-1. 随机选择a < N
-2. 用量子电路求f(x) = a^x mod N的周期r
-3. 若r为偶数，计算gcd(a^(r/2) ± 1, N)
+1. 随机选择 a < N
+2. 用量子电路求 f(x) = a^x mod N 的周期 r
+3. 若 r 为偶数，计算 gcd(a^(r/2) ± 1, N)
 
 **影响?*
-- RSA加密面临威胁
+- RSA 加密面临威胁
 - 推动后量子密码发?
-### Grover算法
+### Grover 算法
 
 **问题?* 无序数据库搜?
 **经典算法?* O(N)
-**Grover算法?* O(√N)
+**Grover 算法?* O(√N)
 
 **核心思想?*
 - 量子振幅放大
 - 迭代放大目标态振?
 **算法步骤?*
-1. 初始化均匢叠加?2. 重复√N次：
-   - Oracle标记目标?   - 扩散算子放大振幅
+1. 初始化均匢叠加?2. 重复√N 次：
+   - Oracle 标记目标?   - 扩散算子放大振幅
 3. 测量得到目标
 
 **应用?*
 - 数据库搜?- 优化问题
-- SAT问题
+- SAT 问题
 
 ### 其他重要算法
 
 **量子相位估计?*
 - 估计酉算子的本征?- 许多量子算法的基硢
 
-**HHL算法?*
+**HHL 算法?*
 - 线方程组求解
 - 指数加（特定条件?
 **VQE（变分量子本征求解器）：**
 - 混合量子-经典算法
 - 量子化学应用
-- 适合近期NISQ设备
+- 适合近期 NISQ 设备
 
 **QAOA（量子近似优化算法）?*
 - 组合优化问题
 - 变分方法
-- NISQ友好
+- NISQ 友好
 
 ## 量子纠错
 
@@ -139,10 +141,10 @@ $$SWAP = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 
 **比特-相位翻转错误?* 两的组合
 
 ### 量子纠错?
-**Shor码：**
+**Shor 码：**
 - 9量子比特?- 纠正任意单量子比特错?- 概念验证
 
-**Steane码：**
+**Steane 码：**
 - 7量子比特?- CSS?- 容错计算基础
 
 **表面码：**
@@ -167,7 +169,7 @@ $$SWAP = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 
 - 操作速度快（~ns?- 可扩展好
 - 霢要极低温（~10 mK?
 **代表?*
-- IBM量子计算?- Google Sycamore
+- IBM 量子计算?- Google Sycamore
 
 ### 离子?
 **原理?*
@@ -193,13 +195,13 @@ $$SWAP = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 0 & 1 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 
 
 ### 其他平台
 
-- **中原子：** 里德堡?- **量子点：** 半导体自?- **NV中心?* 金刚石缺?
+- **中原子：** 里德堡?- **量子点：** 半导体自?- **NV 中心?* 金刚石缺?
 ## 量子计算编程框架
 
 ### Qiskit
 
 **特点?*
-- IBM弢?- Python API
+- IBM 弢?- Python API
 - 丰富的组?
 **主要模块?*
 - qiskit-terra：基硢电路
@@ -224,7 +226,7 @@ print(result.get_counts())
 ### Cirq
 
 **特点?*
-- Google弢?- NISQ导向
+- Google 弢?- NISQ 导向
 - 灵活定制
 
 **主要功能?*
@@ -256,7 +258,7 @@ print(result.histogram(key='q(0),q(1)'))
 - **Q#?* 微软量子弢?- **Strawberry Fields?* 光量子计?
 ## 参资?
 - Nielsen MA, Chuang IL. *Quantum Computation and Quantum Information*
-- 《量子计算与量子信息?- Qiskit教材：https://qiskit.org/learn/
+- 《量子计算与量子信息?- Qiskit 教材：https://qiskit.org/learn/
 - Preskill J. *Quantum Computing in the NISQ Era and Beyond*
 
 ## 相关条目

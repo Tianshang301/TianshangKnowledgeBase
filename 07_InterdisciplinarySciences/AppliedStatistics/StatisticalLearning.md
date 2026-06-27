@@ -1,6 +1,8 @@
 ---
 aliases: [StatisticalLearning]
 tags: ['AppliedStatistics', 'StatisticalLearning']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 统计学习
@@ -25,7 +27,7 @@ $$\hat{\beta} = (X^TX)^{-1}X^Ty$$
 **模型诊断：**
 - 残差分析：检查线性性、正态性、同方差性
 - 多重共线性：VIF < 10
-- 影响点：Cook距离
+- 影响点：Cook 距离
 
 ### 逻辑回归
 
@@ -65,7 +67,7 @@ $$L(\beta) = \prod_{i=1}^{n}p_i^{y_i}(1-p_i)^{1-y_i}$$
 ### 随机森林
 
 **原理：**
-- 基于Bootstrap抽样构建多棵树
+- 基于 Bootstrap 抽样构建多棵树
 - 每次分裂随机选择特征子集
 - 集成多棵树的预测结果
 
@@ -102,7 +104,7 @@ $$L(\beta) = \prod_{i=1}^{n}p_i^{y_i}(1-p_i)^{1-y_i}$$
 **数学原理：**
 - 计算协方差矩阵
 - 特征值分解
-- 选择前k个主成分
+- 选择前 k 个主成分
 
 **方差解释率：**
 $$\text{解释率} = \frac{\lambda_i}{\sum_{j=1}^{p}\lambda_j}$$
@@ -115,8 +117,8 @@ $$\text{解释率} = \frac{\lambda_i}{\sum_{j=1}^{p}\lambda_j}$$
 
 ### 聚类分析
 
-**K-Means聚类：**
-1. 随机初始化K个中心点
+**K-Means 聚类：**
+1. 随机初始化 K 个中心点
 2. 将每个样本分配到最近的中心点
 3. 重新计算每个簇的中心点
 4. 重复2-3直到收敛
@@ -129,7 +131,7 @@ $$\text{解释率} = \frac{\lambda_i}{\sum_{j=1}^{p}\lambda_j}$$
 
 **DBSCAN：**
 - 基于密度的聚类
-- 参数：邻域半径ε、最小点数MinPts
+- 参数：邻域半径ε、最小点数 MinPts
 - 可发现任意形状的簇
 - 可识别噪声点
 
@@ -137,13 +139,13 @@ $$\text{解释率} = \frac{\lambda_i}{\sum_{j=1}^{p}\lambda_j}$$
 
 ### 交叉验证
 
-**K折交叉验证：**
-1. 将数据分成K份
-2. 每次用K-1份训练，1份验证
-3. 重复K次，取平均性能
+**K 折交叉验证：**
+1. 将数据分成 K 份
+2. 每次用 K-1份训练，1份验证
+3. 重复 K 次，取平均性能
 
 **留一交叉验证（LOOCV）：**
-- K等于样本量
+- K 等于样本量
 - 偏差小，方差大
 - 计算成本高
 
@@ -166,9 +168,9 @@ $$\text{解释率} = \frac{\lambda_i}{\sum_{j=1}^{p}\lambda_j}$$
 - 召回率（Recall）：$TP/(TP+FN)$
 - F1分数：$2 \times \frac{Precision \times Recall}{Precision + Recall}$
 
-### ROC曲线与AUC
+### ROC 曲线与 AUC
 
-**ROC曲线：**
+**ROC 曲线：**
 - 横轴：假正率（FPR）= FP/(FP+TN)
 - 纵轴：真正率（TPR）= TP/(TP+FN)
 - 曲线越靠近左上角越好
@@ -187,7 +189,7 @@ $$\text{解释率} = \frac{\lambda_i}{\sum_{j=1}^{p}\lambda_j}$$
 
 ## 正则化
 
-### Lasso回归（L1正则化）
+### Lasso 回归（L1正则化）
 
 **目标函数：**
 $$\min_{\beta}\left\{\sum_{i=1}^{n}(y_i - \beta_0 - \sum_{j=1}^{p}\beta_j x_{ij})^2 + \lambda\sum_{j=1}^{p}|\beta_j|\right\}$$
@@ -197,7 +199,7 @@ $$\min_{\beta}\left\{\sum_{i=1}^{n}(y_i - \beta_0 - \sum_{j=1}^{p}\beta_j x_{ij}
 - 将部分系数压缩为零
 - 适用于高维数据
 
-### Ridge回归（L2正则化）
+### Ridge 回归（L2正则化）
 
 **目标函数：**
 $$\min_{\beta}\left\{\sum_{i=1}^{n}(y_i - \beta_0 - \sum_{j=1}^{p}\beta_j x_{ij})^2 + \lambda\sum_{j=1}^{p}\beta_j^2\right\}$$
@@ -213,7 +215,7 @@ $$\min_{\beta}\left\{\sum_{i=1}^{n}(y_i - \beta_0 - \sum_{j=1}^{p}\beta_j x_{ij}
 $$\min_{\beta}\left\{\|y - X\beta\|_2^2 + \lambda_1\|\beta\|_1 + \lambda_2\|\beta\|_2^2\right\}$$
 
 **优势：**
-- 结合L1和L2正则化的优点
+- 结合 L1和 L2正则化的优点
 - 可处理高维数据
 - 处理高度相关的特征
 
@@ -250,13 +252,13 @@ $$\min_{\beta}\left\{\|y - X\beta\|_2^2 + \lambda_1\|\beta\|_1 + \lambda_2\|\bet
 - 因果推断与机器学习结合
 - 自动机器学习（AutoML）
 
-## R语言实现
+## R 语言实现
 
 ```r
 # 线性回归
 lm_model <- lm(y ~ x1 + x2, data = train_data)
 
-# Lasso回归
+# Lasso 回归
 library(glmnet)
 cv_lasso <- cv.glmnet(x, y, alpha = 1)
 predict(cv_lasso, s = "lambda.min", newx = x_test)
@@ -272,7 +274,7 @@ model <- train(y ~ ., data = train_data, method = "rf",
                trControl = train_control)
 ```
 
-## Python实现
+## Python 实现
 
 ```python
 from sklearn.linear_model import LinearRegression, Lasso, Ridge
@@ -284,7 +286,7 @@ from sklearn.metrics import roc_auc_score
 lr = LinearRegression()
 lr.fit(X_train, y_train)
 
-# Lasso回归
+# Lasso 回归
 lasso = Lasso(alpha=0.1)
 lasso.fit(X_train, y_train)
 

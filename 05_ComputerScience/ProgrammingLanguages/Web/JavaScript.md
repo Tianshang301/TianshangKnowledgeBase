@@ -1,6 +1,8 @@
 ---
 aliases: [JavaScript]
 tags: ['ProgrammingLanguages', 'Web', 'JavaScript']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # JavaScript 完整指南
@@ -27,7 +29,7 @@ typeof 42          // 'number'
 typeof "hello"     // 'string'
 typeof true        // 'boolean'
 typeof undefined   // 'undefined'
-typeof null        // 'object' (历史遗留bug!)
+typeof null        // 'object' (历史遗留 bug!)
 typeof Symbol()    // 'symbol'
 typeof function(){} // 'function'
 typeof []          // 'object'
@@ -135,7 +137,7 @@ function add(a, b) {
     return a + b;
 }
 
-// 函数表达式 (不hoisting)
+// 函数表达式 (不 hoisting)
 const subtract = function(a, b) {
     return a - b;
 };
@@ -153,7 +155,7 @@ const obj = {
         console.log(this.name);  // 'obj'
     },
     arrow: () => {
-        console.log(this.name);  // undefined (继承外部this)
+        console.log(this.name);  // undefined (继承外部 this)
     }
 };
 
@@ -177,7 +179,7 @@ counter.decrement();  // 1
 })();
 
 (() => {
-    console.log("箭头IIFE");
+    console.log("箭头 IIFE");
 })();
 
 // 默认参数
@@ -300,8 +302,8 @@ element.classList.contains("active");
 
 // 尺寸与位置
 element.getBoundingClientRect();   // {top, left, bottom, right, width, height}
-element.offsetWidth;               // 包括padding和border
-element.clientWidth;               // 包括padding, 不包括border
+element.offsetWidth;               // 包括 padding 和 border
+element.clientWidth;               // 包括 padding, 不包括 border
 element.scrollHeight;              // 内容总高度
 window.innerWidth;                 // 视口宽度
 window.pageYOffset;                // 滚动位置

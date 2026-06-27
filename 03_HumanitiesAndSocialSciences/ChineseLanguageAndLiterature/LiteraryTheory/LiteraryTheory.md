@@ -1,6 +1,8 @@
 ---
 aliases: [LiteraryTheory]
 tags: ['ChineseLanguageAndLiterature', 'LiteraryTheory', 'LiteraryTheory']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 文学理论
@@ -99,7 +101,7 @@ tags: ['ChineseLanguageAndLiterature', 'LiteraryTheory', 'LiteraryTheory']
 
 ### 2.4 人物理论与叙述者
 
-**人物理论**：福斯特"扁平人物vs圆形人物"——扁平人物类型化易辨认，圆形人物复杂如真人。格雷马斯行动元模型——主体/客体、发送者/接收者、帮助者/反对者六种行动元。**叙述者类型**：异故事叙述者（不参与故事）vs同故事叙述者（参与故事）；可靠叙述者vs不可靠叙述者（布斯《小说修辞学》）；隐含作者（implied author）——读者从文本中推知的作者形象。
+**人物理论**：福斯特"扁平人物 vs 圆形人物"——扁平人物类型化易辨认，圆形人物复杂如真人。格雷马斯行动元模型——主体/客体、发送者/接收者、帮助者/反对者六种行动元。**叙述者类型**：异故事叙述者（不参与故事）vs 同故事叙述者（参与故事）；可靠叙述者 vs 不可靠叙述者（布斯《小说修辞学》）；隐含作者（implied author）——读者从文本中推知的作者形象。
 
 ### 2.5 读者反应批评
 

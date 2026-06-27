@@ -1,6 +1,8 @@
 ---
 aliases: [AppliedLinguistics]
 tags: ['Linguistics', 'AppliedLinguistics', 'LanguageTeaching', 'SecondLanguageAcquisition', 'ComputationalLinguistics']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # AppliedLinguistics
@@ -256,7 +258,7 @@ $$\text{Attention}(Q, K, V)
 - [[Psycholinguistics|心理语言学]]
 - [[Phonetics|语音学]]
 - [[Semantics|语义学]]
-- [[../ForeignLanguagesAndLiteratures/TranslationStudies|翻译研究]]
+- [[../ForeignLanguagesAndLiteratures/TranslationStudies/INDEX|翻译研究]]
 - [[../ComputerScience/ArtificialIntelligenceAndInterdisciplinary/NaturalLanguageProcessing|自然语言处理]]
 
 ---

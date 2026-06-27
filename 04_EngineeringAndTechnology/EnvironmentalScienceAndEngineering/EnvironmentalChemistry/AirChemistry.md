@@ -1,6 +1,8 @@
 ---
 aliases: [大气化学, 空气化学, Atmospheric Chemistry, Air Chemistry]
 tags: [环境科学, 大气科学, 化学, 污染控制, 气候变化, 气溶胶, 环境工程]
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 大气化学 (Atmospheric Chemistry)

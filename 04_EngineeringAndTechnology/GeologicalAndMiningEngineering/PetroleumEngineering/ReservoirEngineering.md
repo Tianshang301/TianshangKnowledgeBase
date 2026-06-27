@@ -1,6 +1,8 @@
 ---
 aliases: [ReservoirEngineering, 油藏工程]
 tags: ['04_EngineeringAndTechnology', 'GeologicalAndMiningEngineering', 'PetroleumEngineering', 'ReservoirEngineering']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 油藏工程 (Reservoir Engineering)

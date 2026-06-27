@@ -1,6 +1,8 @@
 ---
 aliases: [VectorSpace]
 tags: ['Mathematics', 'Algebra', 'VectorSpace']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 向量空间详解
@@ -126,7 +128,7 @@ $$\langle u, v \rangle = u \cdot v = \sum_i u_i v_i \quad (\text{标准内积})$
 
 $$\|v\| = \sqrt{\langle v, v \rangle}$$
 
-**Cauchy-Schwarz不等式**：
+**Cauchy-Schwarz 不等式**：
 $$|\langle u, v \rangle| \le \|u\| \|v\|$$
 
 **三角不等式**：

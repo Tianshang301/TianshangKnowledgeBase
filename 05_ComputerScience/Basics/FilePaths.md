@@ -1,6 +1,8 @@
 ---
 aliases: [FilePaths]
 tags: ['Basics', 'FilePaths']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 文件路径详解
@@ -175,7 +177,7 @@ name, ext = os.path.splitext("image.png")  # ('image', '.png')
 
 | 部分 | 含义 | 示例 |
 |------|------|------|
-| `\\ServerName` | 服务器名称或IP | `\\fileserver` 或 `\\192.168.1.100` |
+| `\\ServerName` | 服务器名称或 IP | `\\fileserver` 或 `\\192.168.1.100` |
 | `\ShareName` | 共享文件夹名 | `\documents` |
 | `\Path\File` | 共享内的路径 | `\projects\report.docx` |
 

@@ -1,6 +1,8 @@
 ---
 aliases: [Eastern]
 tags: ['03_HumanitiesAndSocialSciences', 'Philosophy', 'Eastern']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 # Eastern
 

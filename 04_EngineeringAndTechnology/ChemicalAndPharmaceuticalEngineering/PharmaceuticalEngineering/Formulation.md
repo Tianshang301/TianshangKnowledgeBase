@@ -1,6 +1,8 @@
 ---
 aliases: [Formulation, 药物制剂, PharmaceuticalFormulation, DosageForms]
 tags: ['ChemicalAndPharmaceuticalEngineering', 'PharmaceuticalEngineering', 'Formulation', 'Pharmaceutics', 'DrugDelivery']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 药物制剂（Pharmaceutical Formulation）

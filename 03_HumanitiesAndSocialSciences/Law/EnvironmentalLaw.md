@@ -5,6 +5,8 @@ aliases:
   - 环境保护法
   - 污染控制法
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - law
   - environment
   - regulation

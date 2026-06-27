@@ -1,6 +1,8 @@
 ---
 aliases: [Hiragana]
 tags: ['ForeignLanguagesAndLiteratures', 'Japanese', 'Hiragana']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 平假名完全指南

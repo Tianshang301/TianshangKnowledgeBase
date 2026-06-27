@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['PoliticalScience', 'PublicAdministration', 'INDEX']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 公共行政学

@@ -1,6 +1,8 @@
 ---
 aliases: [InterdisciplinaryLearningPath, 跨学科学习路径, CrossDisciplinary]
 tags: ['07_InterdisciplinarySciences', 'LearningPath', 'SystemsThinking', 'Integration']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 跨学科学习路径 Interdisciplinary Learning Path

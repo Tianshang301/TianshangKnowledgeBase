@@ -1,4 +1,11 @@
-﻿---
+---
+aliases: [CADD]
+tags: ['CivilEngineering', 'CADD.md']
+created: 2026-05-17
+updated: 2026-05-17
+---
+
+---
 aliases: [CADD]
 tags: ['04_EngineeringAndTechnology', 'CivilEngineering', 'DesignAutomation']
 ---

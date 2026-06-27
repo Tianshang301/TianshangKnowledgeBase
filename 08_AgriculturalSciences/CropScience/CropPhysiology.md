@@ -1,6 +1,8 @@
 ---
 aliases: [CropPhysiology]
 tags: ['CropScience', 'CropPhysiology']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 作物生理
@@ -11,7 +13,7 @@ tags: ['CropScience', 'CropPhysiology']
 
 ## 光合作用
 
-### C3/C4/CAM植物
+### C3/C4/CAM 植物
 
 **C3植物：**
 - 二氧化碳固定：RuBisCO
@@ -20,13 +22,13 @@ tags: ['CropScience', 'CropPhysiology']
 - 代表：水稻、小麦、大豆
 
 **C4植物：**
-- 二氧化碳固定：PEP羧化酶
+- 二氧化碳固定：PEP 羧化酶
 - 光合速率高
 - 光呼吸弱
 - 代表：玉米、甘蔗、高粱
 
-**CAM植物：**
-- 夜间固定CO2
+**CAM 植物：**
+- 夜间固定 CO2
 - 白天关闭气孔
 - 极端干旱适应
 - 代表：仙人掌、龙舌兰
@@ -75,7 +77,7 @@ tags: ['CropScience', 'CropPhysiology']
 **抗旱机制：**
 - 形态适应：根系发达、叶片蜡质
 - 生理适应：渗透调节、气孔调节
-- 分子适应：LEA蛋白、脯氨酸积累
+- 分子适应：LEA 蛋白、脯氨酸积累
 
 **评价指标：**
 - 产量耐旱指数

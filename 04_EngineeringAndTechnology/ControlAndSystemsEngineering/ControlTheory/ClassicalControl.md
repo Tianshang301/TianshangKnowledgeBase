@@ -1,6 +1,8 @@
 ---
 aliases: [ClassicalControl]
 tags: ['ControlAndSystemsEngineering', 'ControlTheory', 'ClassicalControl']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 经典控制
@@ -12,7 +14,7 @@ tags: ['ControlAndSystemsEngineering', 'ControlTheory', 'ClassicalControl']
 - 控制系统的传递函数模型
 - 系统稳定性分析
 - 根轨迹法与频率响应法
-- PID控制器与校正装置设计
+- PID 控制器与校正装置设计
 
 ## 核心内容
 
@@ -38,7 +40,7 @@ $$\Phi(s) = \frac{G(s)}{1+G(s)}$$
 **信号流图**：
 - 节点表示变量
 - 支路表示传递函数
-- Mason增益公式：
+- Mason 增益公式：
 
 $$T = \frac{1}{\Delta}\sum_k P_k \Delta_k$$
 
@@ -46,17 +48,17 @@ $$T = \frac{1}{\Delta}\sum_k P_k \Delta_k$$
 
 | 方法 | 数学基础 | 适用系统 | 稳定判据 | 优点 | 缺点 |
 |------|---------|---------|---------|------|------|
-| **Routh判据** | 代数方法 | 线性定常 | Routh表第一列全正 | 简单快速，无需绘图 | 只能判断绝对稳定性 |
-| **Nyquist判据** | 复变函数 | 线性定常 | $Z = N + P = 0$ | 可判断相对稳定性，含时滞系统 | 需绘制频率特性曲线 |
+| **Routh 判据** | 代数方法 | 线性定常 | Routh 表第一列全正 | 简单快速，无需绘图 | 只能判断绝对稳定性 |
+| **Nyquist 判据** | 复变函数 | 线性定常 | $Z = N + P = 0$ | 可判断相对稳定性，含时滞系统 | 需绘制频率特性曲线 |
 | **根轨迹法** | 复平面分析 | 线性定常 | 根全在左半平面 | 直观显示参数影响 | 高阶系统绘制复杂 |
-| **Lyapunov直接法** | 能量函数 | 线性/非线性 | $V(x)$正定，$\dot{V}(x)$负定 | 适用于非线性系统 | Lyapunov函数构造困难 |
+| **Lyapunov 直接法** | 能量函数 | 线性/非线性 | $V(x)$正定，$\dot{V}(x)$负定 | 适用于非线性系统 | Lyapunov 函数构造困难 |
 
-**Routh判据**：
-- 特征方程系数构成Routh表
+**Routh 判据**：
+- 特征方程系数构成 Routh 表
 - 第一列全为正→系统稳定
 - 第一列变号次数→右半平面极点数
 
-**Nyquist判据**：
+**Nyquist 判据**：
 - 开环频率响应 $G(j\omega)$ 绕 $(-1,j0)$ 点的圈数
 - $Z = N + P$（$Z$：闭环右极点数，$N$：绕圈数，$P$：开环右极点数）
 - 稳定条件：$Z = 0$
@@ -90,20 +92,20 @@ $$1 + KG(s)H(s) = 0$$
 
 ### 频率响应法
 
-**Bode图**：
+**Bode 图**：
 - 幅频特性：$20\log|G(j\omega)|$ vs $\omega$（对数坐标）
 - 相频特性：$\angle G(j\omega)$ vs $\omega$
 - 渐近线近似：转折频率处斜率变化
 
-**典型环节Bode图**：
+**典型环节 Bode 图**：
 - 比例：水平线
 - 积分：斜率-20dB/dec
 - 微分：斜率+20dB/dec
 - 惯性：转折频率后斜率-20dB/dec
 
-### PID控制器设计
+### PID 控制器设计
 
-**PID控制器**：
+**PID 控制器**：
 
 $$G_c(s) = K_p + \frac{K_i}{s} + K_d s = K_p\left(1+\frac{1}{T_i s}+T_d s\right)$$
 

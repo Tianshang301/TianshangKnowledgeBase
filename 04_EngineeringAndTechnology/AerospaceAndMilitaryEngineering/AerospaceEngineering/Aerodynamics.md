@@ -1,6 +1,8 @@
 ---
 aliases: [Aerodynamics]
 tags: ['AerospaceAndMilitaryEngineering', 'AerospaceEngineering', 'Aerodynamics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 空气动力学
@@ -14,17 +16,17 @@ tags: ['AerospaceAndMilitaryEngineering', 'AerospaceEngineering', 'Aerodynamics'
 
 **连续性方程**：$\nabla \cdot (\rho \vec{V}) = 0$
 
-**动量方程（Euler方程）**：
+**动量方程（Euler 方程）**：
 
 $$\frac{\partial \vec{V}}{\partial t} + (\vec{V}\cdot\nabla)\vec{V} = -\frac{1}{\rho}\nabla p + \vec{g}$$
 
-**Navier-Stokes方程**（粘性流体）：
+**Navier-Stokes 方程**（粘性流体）：
 
 $$\rho\left(\frac{\partial \vec{V}}{\partial t} + \vec{V}\cdot\nabla\vec{V}\right) = -\nabla p + \mu\nabla^2\vec{V} + \rho\vec{g}$$
 
 ### 升力理论
 
-**Kutta-Joukowski定理**：$L = \rho V_\infty \Gamma$
+**Kutta-Joukowski 定理**：$L = \rho V_\infty \Gamma$
 
 $\Gamma$ 为环量，$L$ 为单位展长升力。
 
@@ -50,7 +52,7 @@ $$C_f = \frac{0.074}{Re^{1/5}}$$
 
 **诱导阻力**：$C_{D,i} = \frac{C_L^2}{\pi e AR}$
 
-$AR = b^2/S$ 为展弦比，$e$ 为Oswald效率因子。
+$AR = b^2/S$ 为展弦比，$e$ 为 Oswald 效率因子。
 
 ### 可压缩流动
 
@@ -63,20 +65,20 @@ $$Re = \frac{\rho V L}{\mu}$$
 |:---:|:---:|:---|
 | 亚声速 | $M < 0.8$ | 无激波，不可压缩近似 |
 | 跨声速 | $0.8 \le M \le 1.2$ | 混合流动，激波开始出现 |
-| 超声速 | $1.2 < M < 5.0$ | 激波主导，Prandtl-Glauert失效 |
+| 超声速 | $1.2 < M < 5.0$ | 激波主导，Prandtl-Glauert 失效 |
 | 高超声速 | $M \ge 5.0$ | 高温效应，化学反应显著 |
 
 **临界马赫数**：翼面最高速度达到声速时的来流马赫数
 
 **激波**：正激波、斜激波、膨胀波
 
-**Prandtl-Glauert法则**：
+**Prandtl-Glauert 法则**：
 
 $$C_p = \frac{C_{p,0}}{\sqrt{1-M_\infty^2}}$$
 
 ### 翼型与机翼
 
-**NACA翼型系列**：四位数、五位数、层流翼型
+**NACA 翼型系列**：四位数、五位数、层流翼型
 
 **机翼平面形状**：
 - 矩形翼、梯形翼、后掠翼、三角翼

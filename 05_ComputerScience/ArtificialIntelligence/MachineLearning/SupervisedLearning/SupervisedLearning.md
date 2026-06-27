@@ -1,6 +1,8 @@
 ---
 aliases: [SupervisedLearning]
 tags: ['ArtificialIntelligence', 'MachineLearning', 'SupervisedLearning', 'SupervisedLearning']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 监督学习
@@ -44,7 +46,7 @@ $$
 
 ### 岭回归 (Ridge Regression)
 
-加入L2正则化：
+加入 L2正则化：
 
 $$
 \mathcal{L}(\mathbf{w}) = \frac{1}{2} \sum_{i=1}^N (y_i - \mathbf{w}^T \mathbf{x}_i)^2 + \frac{\lambda}{2} ||\mathbf{w}||_2^2
@@ -54,9 +56,9 @@ $$
 \hat{\mathbf{w}} = (\mathbf{X}^T \mathbf{X} + \lambda \mathbf{I})^{-1} \mathbf{X}^T \mathbf{y}
 $$
 
-### Lasso回归
+### Lasso 回归
 
-加入L1正则化，产生稀疏解：
+加入 L1正则化，产生稀疏解：
 
 $$
 \mathcal{L}(\mathbf{w}) = \frac{1}{2} \sum_{i=1}^N (y_i - \mathbf{w}^T \mathbf{x}_i)^2 + \lambda ||\mathbf{w}||_1
@@ -71,7 +73,7 @@ $$
 
 ## 三、逻辑回归
 
-逻辑回归用于分类任务，通过sigmoid函数将线性输出映射到概率：
+逻辑回归用于分类任务，通过 sigmoid 函数将线性输出映射到概率：
 
 $$
 P(y=1|x) = \sigma(\mathbf{w}^T \mathbf{x} + b) = \frac{1}{1 + e^{-(\mathbf{w}^T \mathbf{x} + b)}}
@@ -83,7 +85,7 @@ $$
 \mathcal{L}(\mathbf{w}) = -\frac{1}{N} \sum_{i=1}^N [y_i \log(\hat{y}_i) + (1-y_i) \log(1 - \hat{y}_i)]
 $$
 
-### 多分类：Softmax回归
+### 多分类：Softmax 回归
 
 $$
 P(y=k|x) = \frac{e^{\mathbf{w}_k^T \mathbf{x}}}{\sum_{j=1}^K e^{\mathbf{w}_j^T \mathbf{x}}}
@@ -118,7 +120,7 @@ $$
 
 ### 最大间隔分类
 
-SVM寻找最大间隔超平面：
+SVM 寻找最大间隔超平面：
 
 $$
 \max_{\mathbf{w}, b} \frac{2}{||\mathbf{w}||} \quad \text{s.t.} \quad y_i(\mathbf{w}^T \mathbf{x}_i + b) \geq 1
@@ -147,8 +149,8 @@ $$
 |--------|--------|------|
 | 线性核 | $K(x_i, x_j) = x_i^T x_j$ | 无 |
 | 多项式核 | $K(x_i, x_j) = (x_i^T x_j + c)^d$ | $c, d$ |
-| RBF核 | $K(x_i, x_j) = \exp(-\gamma ||x_i - x_j||^2)$ | $\gamma$ |
-| Sigmoid核 | $K(x_i, x_j) = \tanh(\alpha x_i^T x_j + c)$ | $\alpha, c$ |
+| RBF 核 | $K(x_i, x_j) = \exp(-\gamma ||x_i - x_j||^2)$ | $\gamma$ |
+| Sigmoid 核 | $K(x_i, x_j) = \tanh(\alpha x_i^T x_j + c)$ | $\alpha, c$ |
 
 ### 软间隔 (Soft Margin)
 
@@ -168,7 +170,7 @@ $$
 通过自助采样（Bootstrap）生成多个子模型，平均投票：
 
 **随机森林 (Random Forest)**：
-- 样本随机：Bootstrap采样
+- 样本随机：Bootstrap 采样
 - 特征随机：每棵树随机选择特征子集
 - 结果聚合：分类投票，回归平均
 
@@ -194,7 +196,7 @@ $$
 h_m = \arg\min_h \sum_{i=1}^N \left[-\frac{\partial L(y_i, F_{m-1}(x_i))}{\partial F_{m-1}(x_i)} - h(x_i)\right]^2
 $$
 
-### 主流Boosting框架对比
+### 主流 Boosting 框架对比
 
 | 框架 | 基学习器 | 特点 | 速度 |
 |------|---------|------|------|

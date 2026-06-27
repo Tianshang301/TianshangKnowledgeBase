@@ -1,6 +1,8 @@
 ---
 aliases: [PlantBiology]
 tags: ['JuniorHigh', 'Biology', 'PlantBiology']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 植物生物学

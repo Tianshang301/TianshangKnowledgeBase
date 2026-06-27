@@ -1,6 +1,8 @@
 ---
 aliases: [SelfStudy]
 tags: ['00_KnowledgeFramework', 'LearningPaths']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # 自学方法

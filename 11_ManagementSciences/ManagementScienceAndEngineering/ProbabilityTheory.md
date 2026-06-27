@@ -1,6 +1,8 @@
 ---
 aliases: [ProbabilityTheory, 概率论, 概率, Probability]
 tags: ['11_ManagementSciences', 'ManagementScienceAndEngineering', 'Mathematics', 'Statistics']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 概率论 (Probability Theory)

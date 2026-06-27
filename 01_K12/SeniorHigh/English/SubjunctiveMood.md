@@ -1,6 +1,8 @@
 ---
 aliases: [SubjunctiveMood, Subjunctive, 虚拟语气]
 tags: ['EnglishGrammar', 'K12', 'SeniorHigh', 'Syntax', 'Mood']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 虚拟语气 (Subjunctive Mood)

@@ -2,6 +2,8 @@
 title: 共识机制 (Consensus Mechanisms)
 aliases: [共识算法, 区块链共识, 分布式共识]
 tags: [Blockchain, Consensus, PoW, PoS, PBFT, Distributed]
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 共识机制 (Consensus Mechanisms)

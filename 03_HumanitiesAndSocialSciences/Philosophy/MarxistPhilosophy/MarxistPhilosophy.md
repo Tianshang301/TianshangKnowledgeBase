@@ -1,6 +1,8 @@
 ---
 aliases: [MarxistPhilosophy]
 tags: ['Philosophy', 'MarxistPhilosophy', 'MarxistPhilosophy']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 马克思主义哲学

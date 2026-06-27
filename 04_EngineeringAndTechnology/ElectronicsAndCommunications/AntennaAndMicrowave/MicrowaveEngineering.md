@@ -1,6 +1,8 @@
 ---
 aliases: [MicrowaveEngineering]
 tags: ['ElectronicsAndCommunications', 'AntennaAndMicrowave', 'MicrowaveEngineering']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 微波工程
@@ -21,12 +23,12 @@ tags: ['ElectronicsAndCommunications', 'AntennaAndMicrowave', 'MicrowaveEngineer
 | 频段 | 频率范围 | 波长范围 |
 |------|---------|---------|
 | UHF | 300MHz~3GHz | 1m~10cm |
-| L波段 | 1~2GHz | 30~15cm |
-| S波段 | 2~4GHz | 15~7.5cm |
-| C波段 | 4~8GHz | 7.5~3.75cm |
-| X波段 | 8~12GHz | 3.75~2.5cm |
-| Ku波段 | 12~18GHz | 2.5~1.67cm |
-| Ka波段 | 26.5~40GHz | 1.13~0.75cm |
+| L 波段 | 1~2GHz | 30~15cm |
+| S 波段 | 2~4GHz | 15~7.5cm |
+| C 波段 | 4~8GHz | 7.5~3.75cm |
+| X 波段 | 8~12GHz | 3.75~2.5cm |
+| Ku 波段 | 12~18GHz | 2.5~1.67cm |
+| Ka 波段 | 26.5~40GHz | 1.13~0.75cm |
 | 毫米波 | 30~300GHz | 10~1mm |
 
 ### 波导
@@ -75,7 +77,7 @@ $$\varepsilon_{eff} = \frac{\varepsilon_r+1}{2} + \frac{\varepsilon_r-1}{2}\left
 - 参数：耦合度、方向性、隔离度
 
 **功分器**：
-- Wilkinson功分器：等分、同相、隔离
+- Wilkinson 功分器：等分、同相、隔离
 - 耦合线功分器
 
 ### 微波电路设计
@@ -101,7 +103,7 @@ $$\varepsilon_{eff} = \frac{\varepsilon_r+1}{2} + \frac{\varepsilon_r-1}{2}\left
 
 $$R_{max} = \left[\frac{P_t G^2 \lambda^2 \sigma}{(4\pi)^3 k T_s B_n (SNR)_{min}}\right]^{1/4}$$
 
-$P_t$ 为发射功率，$G$ 为天线增益，$\sigma$ 为目标RCS，$T_s$ 为系统噪声温度。
+$P_t$ 为发射功率，$G$ 为天线增益，$\sigma$ 为目标 RCS，$T_s$ 为系统噪声温度。
 
 **雷达类型**：
 - 脉冲雷达：测量距离

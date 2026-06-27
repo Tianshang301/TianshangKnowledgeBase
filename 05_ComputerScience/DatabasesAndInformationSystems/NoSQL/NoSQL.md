@@ -1,6 +1,8 @@
 ---
 aliases: [NoSQL]
 tags: ['DatabasesAndInformationSystems', 'NoSQL', 'NoSQL']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # NoSQL Databases - NoSQL 数据库

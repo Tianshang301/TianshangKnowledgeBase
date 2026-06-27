@@ -1,6 +1,8 @@
 ---
 aliases: [MemoryHierarchy]
 tags: ['ComputerOrganizationAndArchitecture', 'MemoryHierarchy', 'MemoryHierarchy']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 存储器层次结构 (Memory Hierarchy)
@@ -65,7 +67,7 @@ Cache 行 = 内存块地址 % Cache 行数
 地址分解：
 ┌─────────────────┬──────────────┬────────────┐
 │      Tag        │    Index     │ Block Offset│
-│   (高位)        │  (Cache索引)  │ (块内偏移)  │
+│   (高位)        │  (Cache 索引)  │ (块内偏移)  │
 └─────────────────┴──────────────┴────────────┘
 
 示例：64KB Cache, 64B 块, 32位地址
@@ -87,7 +89,7 @@ n 路组相联：每组含 n 个 Cache 行
 │      Tag        │  Set Index   │ Block Offset│
 └─────────────────┴──────────────┴────────────┘
 
-组数 = Cache行数 / 相联度
+组数 = Cache 行数 / 相联度
 
 2路组相联示例：
   Set 0: ┌──────┬──────┐
@@ -134,8 +136,8 @@ LRU 实现（4路组相联）：
   访问序列: A B C D A ... (A 被再次访问)
 
   初始: [A(0)][B(1)][C(2)][D(3)]  (数字=访问时间)
-  访问A: [A(4)][B(1)][C(2)][D(3)]  (A移到最近)
-  访问E: [A(4)][E(5)][C(2)][D(3)]  (替换最久B)
+  访问 A: [A(4)][B(1)][C(2)][D(3)]  (A 移到最近)
+  访问 E: [A(4)][E(5)][C(2)][D(3)]  (替换最久 B)
 
 近似 LRU (Not Recently Used):
   使用 Reference Bit，定期清零

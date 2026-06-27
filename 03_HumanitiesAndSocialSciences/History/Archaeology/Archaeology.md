@@ -1,6 +1,8 @@
 ---
 aliases: [Archaeology]
 tags: ['History', 'Archaeology', 'Archaeology']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 考古学（历史学）
@@ -38,7 +40,7 @@ $$ \text{Archaeological Knowledge} = f(\text{Excavation}, \text{Classification},
 | 探方发掘 | 将遗址分为方格系统发掘 | 控制地层关系 |
 | 地层学 | 按照自然堆积层逐层发掘 | 建立时间序列 |
 | 类型学 | 器物形态的演变序列 | 建立相对年代 |
-| 科技考古 | C14测年、DNA分析、同位素 | 绝对年代与古环境重建 |
+| 科技考古 | C14测年、DNA 分析、同位素 | 绝对年代与古环境重建 |
 
 ### 2.2 测年方法
 
@@ -48,7 +50,7 @@ $$ \text{Archaeological Knowledge} = f(\text{Excavation}, \text{Classification},
 | 树木年轮学 | 0—1.2万年 | 木材 | 年轮宽度变化 | 精确到年 |
 | 热释光（TL） | 0—50万年 | 陶器、烧土 | 电子累积释放 | ±5—10% |
 | 光释光（OSL） | 0—50万年 | 沉积物 | 矿物最后一次见光 | ±5—10% |
-| 铀系法 | 1—50万年 | 碳酸盐 | U-Th衰变 | ±1—5% |
+| 铀系法 | 1—50万年 | 碳酸盐 | U-Th 衰变 | ±1—5% |
 
 ### 2.3 考古学理论范式
 
@@ -56,7 +58,7 @@ $$ \text{Archaeological Knowledge} = f(\text{Excavation}, \text{Classification},
 |------|------|---------|------|
 | 文化历史考古学 | 1900—1960s | 器物类型=人群，考古学研究古代民族的迁移与传播 | 柴尔德（Gordon Childe） |
 | 过程考古学（新考古学） | 1960s—1980s | 考古学应寻找文化演化的"规律"，采用科学方法与系统论 | 宾福德（Lewis Binford） |
-| 后过程考古学 | 1980s至今 | 考古学是解释性的，物质文化承载象征意义，关注权力与性别 | 霍德（Ian Hodder） |
+| 后过程考古学 | 1980s 至今 | 考古学是解释性的，物质文化承载象征意义，关注权力与性别 | 霍德（Ian Hodder） |
 
 ## 三、世界重要考古发现
 
@@ -135,8 +137,8 @@ $$ \text{Archaeological Knowledge} = f(\text{Excavation}, \text{Classification},
 | 技术 | 应用 | 例子 |
 |------|------|------|
 | GIS | 空间分析、遗址预测 | 考古遗址分布模型 |
-| 遥感 | 地面探测 | LiDAR发现玛雅遗址 |
-| 3D扫描 | 文物记录与虚拟复原 | 敦煌壁画数字化 |
+| 遥感 | 地面探测 | LiDAR 发现玛雅遗址 |
+| 3D 扫描 | 文物记录与虚拟复原 | 敦煌壁画数字化 |
 | 数据库 | 考古资料管理 | ADS（Archaeology Data Service） |
 | AI | 陶器分类、遗址识别 | 深度学习对卫星影像的遗址识别 |
 

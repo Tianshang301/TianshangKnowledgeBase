@@ -1,6 +1,8 @@
 ---
 aliases: [EvolutionOfComputers, 计算机进化论, ComputingHistory]
 tags: ['02_NaturalSciences', 'Biology', 'Computing', 'ComputerArchitecture']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 计算机进化论 (Evolution of Computing)

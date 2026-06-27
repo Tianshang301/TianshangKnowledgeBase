@@ -1,6 +1,8 @@
 ---
 aliases: [IntervalTraining]
 tags: ['SportsScience', 'ExercisePhysiology', 'Fitness', 'HIIT']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # IntervalTraining

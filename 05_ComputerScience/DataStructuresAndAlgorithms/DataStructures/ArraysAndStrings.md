@@ -1,6 +1,8 @@
 ---
 aliases: [ArraysAndStrings, 数组与字符串, Arrays, Strings]
 tags: ['05_ComputerScience', 'DataStructuresAndAlgorithms', 'DataStructures', 'Array', 'String']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 数组与字符串 (Arrays and Strings)

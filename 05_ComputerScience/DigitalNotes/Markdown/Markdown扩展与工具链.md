@@ -1,6 +1,6 @@
 ---
-aliases: [Markdown扩展与工具链]
-tags: ['DigitalNotes', 'Markdown', 'Markdown工具链']
+aliases: [Markdown 扩展与工具链]
+tags: ['DigitalNotes', 'Markdown', 'Markdown 工具链']
 ---
 
 # Markdown 扩展与工具链
@@ -109,7 +109,7 @@ Mermaid 支持流程图、时序图、类图、甘特图等多种图表类型，
 使用 Pandoc 的 Lua 过滤器实现动态内容：
 
 ```lua
--- 自定义过滤器 将@date替换为当前日期
+-- 自定义过滤器 将@date 替换为当前日期
 function Str(elem)
   if elem.text == "@date" then
     return pandoc.Str(os.date("%Y-%m-%d"))
@@ -205,9 +205,9 @@ markdown = Markdown(renderer=CustomRenderer())
 Git 对 Markdown 文件的 diff 支持较好，适合文档的版本管理：
 
 ```bash
-# 查看Markdown文件的变更
+# 查看 Markdown 文件的变更
 git diff --word-diff README.md
-# 使用Pandoc比较变更
+# 使用 Pandoc 比较变更
 pandoc README.md -t plain | git diff --no-index - old.txt
 ```
 
@@ -232,7 +232,7 @@ jobs:
 跨平台 Markdown 编写注意事项：
 
 ```
-1. 统一换行符（LF而非CRLF）
+1. 统一换行符（LF 而非 CRLF）
 2. 中英文之间加空格
 3. 代码块指定语言名以便语法高亮
 4. 引用外部资源时使用相对路径
@@ -244,7 +244,7 @@ Front Matter 示例（YAML 格式）：
 
 ```yaml
 ---
-title: Markdown扩展与工具链
+title: Markdown 扩展与工具链
 author: Tianshang Knowledge Base
 date: 2026-05-10
 tags: [markdown, documentation, tools]

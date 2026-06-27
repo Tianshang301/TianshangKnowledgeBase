@@ -1,6 +1,8 @@
 ---
 aliases: [NuclearChemistry, 核化学]
 tags: ['NuclearChemistry', 'PhysicalChemistry', 'Chemistry', 'Radioactivity']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 核化学 (Nuclear Chemistry)

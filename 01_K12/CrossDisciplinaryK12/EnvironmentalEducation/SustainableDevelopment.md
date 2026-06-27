@@ -24,7 +24,7 @@ updated: 2026-05-17
 
 可持续发展最广为引用的定义来自 1987 年布伦特兰报告 (Brundtland Report)《Our Common Future》：
 
-> **既满足当代人的需求，又不损害后代人满足其需求的能力的发展。**  
+> **既满足当代人的需求，又不损害后代人满足其需求的能力的发展。**
 > *"Development that meets the needs of the present without compromising the ability of future generations to meet their own needs."*
 
 ### 三大支柱模型

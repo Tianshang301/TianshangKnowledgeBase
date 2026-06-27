@@ -1,6 +1,8 @@
 ---
 aliases: [ComputationalLinguistics, 计算语言学]
 tags: [DigitalHumanities, ComputationalLinguistics, NaturalLanguageProcessing, ArtificialIntelligence]
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 计算语言学
@@ -40,8 +42,8 @@ flowchart TD
 
 ### 语料库标注层级
 
-- **词性标注（Part-of-Speech Tagging, POS Tagging）**：为每个词标注语法类别（名词、动词、形容词等）。常用标记集包括Penn Treebank POS Tagset（45个标签）和Universal Dependencies POS Tagset（17个粗粒度标签）。词性标注的经典模型包括隐马尔可夫模型（Hidden Markov Model, HMM）和条件随机场（Conditional Random Field, CRF）
-- **句法标注（Treebanking）**：建立句法树标注库，如Penn Treebank（宾州树库，约4万句）和Universal Dependencies项目（跨语言的依存句法标注）
+- **词性标注（Part-of-Speech Tagging, POS Tagging）**：为每个词标注语法类别（名词、动词、形容词等）。常用标记集包括 Penn Treebank POS Tagset（45个标签）和 Universal Dependencies POS Tagset（17个粗粒度标签）。词性标注的经典模型包括隐马尔可夫模型（Hidden Markov Model, HMM）和条件随机场（Conditional Random Field, CRF）
+- **句法标注（Treebanking）**：建立句法树标注库，如 Penn Treebank（宾州树库，约4万句）和 Universal Dependencies 项目（跨语言的依存句法标注）
 - **语义标注**：语义角色（Semantic Roles）、命名实体（Named Entities）、共指关系（Coreference）、语义框架（Semantic Frames）
 - **话语标注**：修辞关系（Rhetorical Relations）、篇章连接标记（Discourse Connectives）、信息结构（Information Structure）
 
@@ -49,33 +51,33 @@ flowchart TD
 
 ### 短语结构句法与依存句法
 
-- **短语结构（Constituency/Phrase Structure）**：句子由嵌套的短语构成，用上下文无关语法（Context-Free Grammar, CFG）描述。CFG定义为四元组 $G = (N, \Sigma, P, S)$，其中 $N$ 为非终结符集，$\Sigma$ 为终结符集，$P$ 为产生式规则集，$S$ 为起始符
+- **短语结构（Constituency/Phrase Structure）**：句子由嵌套的短语构成，用上下文无关语法（Context-Free Grammar, CFG）描述。CFG 定义为四元组 $G = (N, \Sigma, P, S)$，其中 $N$ 为非终结符集，$\Sigma$ 为终结符集，$P$ 为产生式规则集，$S$ 为起始符
 - **依存句法（Dependency Syntax）**：词与词之间存在直接依存关系（Dependency Relation），形成依存树（Dependency Tree）。依存关系头词（Head）和依存词（Dependent）构成非对称二元关系
 
 ### 概率上下文无关语法（Probabilistic CFG, PCFG）
 
-CFG的每个产生式赋予概率，满足 $\sum_r P(r \mid A) = 1$（对所有非终结符 $A$）。通过CKY算法（Cocke-Kasami-Younger）寻找最可能的句法树。CKY算法复杂度为 $O(n^3 \cdot |G|)$，其中 $n$ 为句子长度，$|G|$ 为语法规模。PCFG的优点是学习简便（从树库中最大似然估计），缺点是无法捕捉词汇偏好和结构上下文。
+CFG 的每个产生式赋予概率，满足 $\sum_r P(r \mid A) = 1$（对所有非终结符 $A$）。通过 CKY 算法（Cocke-Kasami-Younger）寻找最可能的句法树。CKY 算法复杂度为 $O(n^3 \cdot |G|)$，其中 $n$ 为句子长度，$|G|$ 为语法规模。PCFG 的优点是学习简便（从树库中最大似然估计），缺点是无法捕捉词汇偏好和结构上下文。
 
 ### 基于转换的依存分析（Transition-based Dependency Parsing）
 
-- **Arc-Standard算法**：使用栈（Stack）和缓冲区（Buffer），通过SHIFT、LEFT-ARC、RIGHT-ARC等动作逐步构建依存树
+- **Arc-Standard 算法**：使用栈（Stack）和缓冲区（Buffer），通过 SHIFT、LEFT-ARC、RIGHT-ARC 等动作逐步构建依存树
 - **分类器**：用机器学习（如多层感知机、LSTM、Transformer）预测下一个动作
 - **优势**：线性时间复杂度 $O(n)$，可通过全局特征提升精度
 - **代表系统**：Stanford Parser（部分转换模式）、spaCy、MaltParser
 
 ### 基于图的依存分析（Graph-based Dependency Parsing）
 
-将依存分析视为有向图上的最大生成树（Maximum Spanning Tree, MST）问题。利用Chu-Liu-Edmonds算法求解。基于图的方法复杂度为 $O(n^2)$，但能利用全局信息进行优化。现代方法常融合转换和图的优点形成混合模型。
+将依存分析视为有向图上的最大生成树（Maximum Spanning Tree, MST）问题。利用 Chu-Liu-Edmonds 算法求解。基于图的方法复杂度为 $O(n^2)$，但能利用全局信息进行优化。现代方法常融合转换和图的优点形成混合模型。
 
 ## 语义分析（Semantic Analysis）
 
 ### 词义消歧（Word Sense Disambiguation, WSD）
 
-根据上下文确定多义词（Polysemous Word）的特定含义。方法包括：基于词典的Lesk算法（计算上下文与义项定义的重叠度）、监督学习的特征分类器（朴素贝叶斯、SVM），以及基于预训练语言模型的上下文嵌入（Contextual Embeddings）。WSD的评估在SemEval（Semantic Evaluation）共享任务中进行。
+根据上下文确定多义词（Polysemous Word）的特定含义。方法包括：基于词典的 Lesk 算法（计算上下文与义项定义的重叠度）、监督学习的特征分类器（朴素贝叶斯、SVM），以及基于预训练语言模型的上下文嵌入（Contextual Embeddings）。WSD 的评估在 SemEval（Semantic Evaluation）共享任务中进行。
 
 ### 语义角色标注（Semantic Role Labeling, SRL）
 
-识别句子中谓词（Predicate）的论元（Argument）及其语义角色（施事Agent、受事Patient、工具Instrument、处所Location等）。基于框架语义学（FrameNet）或动词词典（PropBank, VerbNet）标注体系。SRL的经典模型包括BiLSTM-CRF和基于Transformer的编码器-解码器架构。语义角色标注形式化为：
+识别句子中谓词（Predicate）的论元（Argument）及其语义角色（施事 Agent、受事 Patient、工具 Instrument、处所 Location 等）。基于框架语义学（FrameNet）或动词词典（PropBank, VerbNet）标注体系。SRL 的经典模型包括 BiLSTM-CRF 和基于 Transformer 的编码器-解码器架构。语义角色标注形式化为：
 
 $$(Prop, Arg_1, Arg_2, \ldots, Arg_n)$$
 
@@ -87,12 +89,12 @@ $$(Prop, Arg_1, Arg_2, \ldots, Arg_n)$$
 
 $$\cos(\vec{v}_w, \vec{v}_u) = \frac{\vec{v}_w \cdot \vec{v}_u}{\|\vec{v}_w\| \times \|\vec{v}_u\|}$$
 
-从one-hot表示到Word2Vec（CBOW/Skip-gram）、GloVe、FastText，再到BERT、RoBERTa等上下文编码模型，分布语义学经历了里程碑式的演进。
+从 one-hot 表示到 Word2Vec（CBOW/Skip-gram）、GloVe、FastText，再到 BERT、RoBERTa 等上下文编码模型，分布语义学经历了里程碑式的演进。
 
 ## 话语分析（Discourse Analysis）
 
-- **话语结构**：修辞结构理论（Rhetorical Structure Theory, RST），篇章关系分类（因果Causality、对比Contrast、序列Sequence、解释Explanation）
-- **共指消解（Coreference Resolution）**：识别指向同一实体的不同表述（如"奥巴马"→"他"→"第44任总统"）。评估指标为MUC、BCUBED和CEAF
+- **话语结构**：修辞结构理论（Rhetorical Structure Theory, RST），篇章关系分类（因果 Causality、对比 Contrast、序列 Sequence、解释 Explanation）
+- **共指消解（Coreference Resolution）**：识别指向同一实体的不同表述（如"奥巴马"→"他"→"第44任总统"）。评估指标为 MUC、BCUBED 和 CEAF
 - **话语连接词识别**：标记篇章关系的语言线索（因为、但是、因此、然而等）
 - **篇章分割（Discourse Segmentation）**：将文本划分为话语单元（Elementary Discourse Unit, EDU）
 
@@ -104,8 +106,8 @@ $$\cos(\vec{v}_w, \vec{v}_u) = \frac{\vec{v}_w \cdot \vec{v}_u}{\|\vec{v}_w\| \t
 
 ### 统计机器翻译（Statistical MT, SMT）
 
-- **IBM模型**：从词对齐到短语对齐的一系列统计翻译模型。IBM Model 3引入增殖（Fertility）概念描述源语言单词对应目标语言单词的数量。模型优化基于EM算法（Expectation-Maximization）
-- **短语翻译（Phrase-based Translation）**：基于短语的SMT系统（如Moses），考虑局部上下文，翻译准确率显著高于词级模型
+- **IBM 模型**：从词对齐到短语对齐的一系列统计翻译模型。IBM Model 3引入增殖（Fertility）概念描述源语言单词对应目标语言单词的数量。模型优化基于 EM 算法（Expectation-Maximization）
+- **短语翻译（Phrase-based Translation）**：基于短语的 SMT 系统（如 Moses），考虑局部上下文，翻译准确率显著高于词级模型
 - **对数线性模型（Log-linear Model）**：整合翻译模型、语言模型、重排序模型等多个特征，通过最小错误率训练（Minimum Error Rate Training, MERT）优化权重：
 
 $$P(e \mid f) \propto \prod_{i} \phi_i(e, f)^{\lambda_i}$$
@@ -114,34 +116,34 @@ $$P(e \mid f) \propto \prod_{i} \phi_i(e, f)^{\lambda_i}$$
 
 - **编码器-解码器架构**：循环神经网络（RNN）将源语言编码为上下文向量，解码器逐词生成目标语言
 - **注意力机制（Bahdanau Attention, 2015）**：解码时动态关注源语言不同位置，解决长距离依赖问题
-- **Transformer架构（Vaswani et al., 2017）**：完全基于自注意力（Self-Attention）机制，并行计算效率高。位置编码（Positional Encoding）使用正弦余弦函数：
+- **Transformer 架构（Vaswani et al., 2017）**：完全基于自注意力（Self-Attention）机制，并行计算效率高。位置编码（Positional Encoding）使用正弦余弦函数：
 
 $$PE_{(pos, 2i)} = \sin\left(\frac{pos}{10000^{2i/d_{model}}}\right), \quad PE_{(pos, 2i+1)} = \cos\left(\frac{pos}{10000^{2i/d_{model}}}\right)$$
 
-- **大语言模型（LLMs）**：GPT系列（生成式预训练）、BERT系列（掩码语言建模）在机器翻译中通过fine-tuning或zero-shot prompt实现高质量翻译
+- **大语言模型（LLMs）**：GPT 系列（生成式预训练）、BERT 系列（掩码语言建模）在机器翻译中通过 fine-tuning 或 zero-shot prompt 实现高质量翻译
 
 ## 信息抽取（Information Extraction, IE）
 
 ### 命名实体识别（Named Entity Recognition, NER）
 
-识别文本中的命名实体（人名、地名、机构名、时间、日期、货币等）。主流方法：BiLSTM-CRF、BERT-based模型。评估指标为精确率（Precision）、召回率（Recall）和F1-score：
+识别文本中的命名实体（人名、地名、机构名、时间、日期、货币等）。主流方法：BiLSTM-CRF、BERT-based 模型。评估指标为精确率（Precision）、召回率（Recall）和 F1-score：
 
 $$F_1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}$$
 
 ### 关系抽取（Relation Extraction, RE）
 
-识别实体之间的语义关系（如BornIn(Person, Location)）。方法包括模式匹配（Pattern Matching）、远程监督（Distant Supervision）、预训练模型微调（Fine-tuning）。常用数据集包括ACE、SemEval和TACRED。
+识别实体之间的语义关系（如 BornIn(Person, Location)）。方法包括模式匹配（Pattern Matching）、远程监督（Distant Supervision）、预训练模型微调（Fine-tuning）。常用数据集包括 ACE、SemEval 和 TACRED。
 
 ### 事件抽取（Event Extraction）
 
-识别文本中描述的事件及其参与者（触发词Trigger、论元角色Argument Role）。包含事件检测（Event Detection）和事件论元抽取（Event Argument Extraction）两个子任务。
+识别文本中描述的事件及其参与者（触发词 Trigger、论元角色 Argument Role）。包含事件检测（Event Detection）和事件论元抽取（Event Argument Extraction）两个子任务。
 
-## NLP评估
+## NLP 评估
 
 ### 自动评价指标
 
-- **BLEU（Bilingual Evaluation Understudy）**：基于n-gram精确率的机器翻译评价指标，改进版本包括n-gram精度的几何平均加长度惩罚（Brevity Penalty, BP）
-- **ROUGE（Recall-Oriented Understudy for Gisting Evaluation）**：基于n-gram召回率的自动摘要评价指标，变体包含ROUGE-N、ROUGE-L（最长公共子序列）、ROUGE-S（跳词二元组）
+- **BLEU（Bilingual Evaluation Understudy）**：基于 n-gram 精确率的机器翻译评价指标，改进版本包括 n-gram 精度的几何平均加长度惩罚（Brevity Penalty, BP）
+- **ROUGE（Recall-Oriented Understudy for Gisting Evaluation）**：基于 n-gram 召回率的自动摘要评价指标，变体包含 ROUGE-N、ROUGE-L（最长公共子序列）、ROUGE-S（跳词二元组）
 - **Perplexity（困惑度）**：语言模型的内在评价指标，定义为：$PPL = 2^{-\frac{1}{N}\sum_{i=1}^N \log_2 P(w_i \mid w_{<i})}$
 - **METEOR**：考虑同义词匹配和词序校准的翻译评价指标
 

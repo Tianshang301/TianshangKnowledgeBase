@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['ElectronicsAndCommunications', 'AntennaAndMicrowave', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 天线与微波技术

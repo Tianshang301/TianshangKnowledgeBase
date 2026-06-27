@@ -1,6 +1,8 @@
 ---
 aliases: [MiningMethods, 采矿方法]
 tags: ['04_EngineeringAndTechnology', 'GeologicalAndMiningEngineering', 'MiningEngineering', 'MiningMethods']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 采矿方法 (Mining Methods)

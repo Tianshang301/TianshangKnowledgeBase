@@ -1,6 +1,8 @@
 ---
 aliases: [BiochemicalEngineering]
 tags: ['04_EngineeringAndTechnology', 'ChemicalAndPharmaceuticalEngineering', 'ChemicalEngineering', 'BiochemicalEngineering']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 生物化学工程

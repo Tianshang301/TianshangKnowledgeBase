@@ -1,6 +1,8 @@
 ---
 aliases: [VocabularyNature]
 tags: ['01_K12', 'SeniorHigh', 'English', 'Vocabulary_Nature']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 
@@ -276,7 +278,7 @@ tags: ['01_K12', 'SeniorHigh', 'English', 'Vocabulary_Nature']
 | vitamin | /ˈvɪtəmɪn/ | n. | 维生 | vitamin C |
 | ward | /wɔːd/ | n. | 病房 | hospital ward |
 | wound | /wuːnd/ | n. | 伤口 | treat a wound |
-| X-ray | /ˈeks reɪ/ | n. | X射线 | have an X-ray |
+| X-ray | /ˈeks reɪ/ | n. | X 射线 | have an X-ray |
 | 单词 | 音标 | ?| 释义 | 搭配 |
 | adult | /ˈædʌlt/ | n. | 成体；成 | adult insect |
 | algae | /ˈælɡiː/ | n. | 藻类 | green algae |

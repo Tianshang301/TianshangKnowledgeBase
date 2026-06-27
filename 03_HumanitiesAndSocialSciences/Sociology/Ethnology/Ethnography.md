@@ -5,6 +5,8 @@ aliases:
   - 参与式观察
   - 人种志
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - ethnography
   - fieldwork
   - qualitative-research
@@ -190,7 +192,7 @@ $$
 
 | 策略 | 描述 |
 |------|------|
-| 大门开启者 | 通过关键informant进入 |
+| 大门开启者 | 通过关键 informant 进入 |
 | 雪球抽样 | 由一人推荐下一人 |
 | 渐进式参与 | 从观察到参与逐步深入 |
 | 关键事件法 | 聚焦重大事件 |

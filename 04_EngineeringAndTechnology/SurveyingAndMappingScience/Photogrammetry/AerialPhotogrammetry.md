@@ -1,6 +1,8 @@
 ---
 aliases: [AerialPhotogrammetry, 航空摄影测量, AerialSurvey, PhotogrammetryAerial]
 tags: ['SurveyingAndMappingScience', 'Photogrammetry', 'AerialPhotogrammetry', 'DEM', 'Stereoscopy']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 航空摄影测量 (Aerial Photogrammetry)
@@ -216,7 +218,7 @@ graph LR
     A[航空摄影<br/>Aerial Photography] --> B[影像预处理<br/>Preprocessing]
     B --> C[空中三角测量<br/>Aerial Triangulation]
     C --> D[立体测图<br/>Stereo Mapping]
-    C --> E[DEM生成<br/>DEM Generation]
+    C --> E[DEM 生成<br/>DEM Generation]
     C --> F[正射纠正<br/>Orthorectification]
     D --> G[地形图<br/>Topographic Map]
     E --> F

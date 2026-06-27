@@ -1,14 +1,16 @@
 ---
 aliases: [DataVisualization]
 tags: ['DataScience', 'DataVisualization']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 数据可视?
 ## 概述
 
 数据可视化是将数据转换为图形或图像的过程，帮助人们理解数据中的模式趋势和异常。它是数据科学的重要组成部分，是连接数据分析和人类认知的桥梁?
-## 可视化原则（Tufte原则?
-### Edward Tufte的可视化设计原则
+## 可视化原则（Tufte 原则?
+### Edward Tufte 的可视化设计原则
 
 **数据墨水比（Data-Ink Ratio）：**
 - 朢大化数据墨水?- 删除非数据墨?- 删除冗余数据墨水
@@ -95,7 +97,7 @@ tags: ['DataScience', 'DataVisualization']
 ### Power BI
 
 **特点?*
-- 与Microsoft生集?- DAX公式语言
+- 与 Microsoft 生集?- DAX 公式语言
 - 自然语言查询
 - 移动端支?
 **组件?*
@@ -104,7 +106,7 @@ tags: ['DataScience', 'DataVisualization']
 ### D3.js
 
 **特点?*
-- 基于JavaScript
+- 基于 JavaScript
 - 高度可定?- 数据驱动的文?- 丰富的社区资?
 **核心概念?*
 - 数据绑定
@@ -112,7 +114,7 @@ tags: ['DataScience', 'DataVisualization']
 
 **示例代码?*
 ```javascript
-// 创建SVG画布
+// 创建 SVG 画布
 const svg = d3.select("body")
   .append("svg")
   .attr("width", 500)
@@ -136,8 +138,8 @@ const svg = d3.select("body")
 - 丰富的图表类?- 良好的中文文?
 **主要图表?*
 - 基础图表：折线柱状饼?- 高级图表：热力图、树图桑基图
-- 地图：百度地图GeoJSON
-- 3D图表?D散点?D柱状
+- 地图：百度地图 GeoJSON
+- 3D 图表?D 散点?D 柱状
 
 **示例代码?*
 ```javascript
@@ -157,8 +159,8 @@ option = {
 
 ### 其他工具
 
-- **Matplotlib/Seaborn**：Python可视?- **ggplot2**：R语言可视?- **Plotly**：交互式图表
-- **Highcharts**：Web图表?
+- **Matplotlib/Seaborn**：Python 可视?- **ggplot2**：R 语言可视?- **Plotly**：交互式图表
+- **Highcharts**：Web 图表?
 ## 信息图表设计
 
 ### 设计流程
@@ -194,12 +196,12 @@ option = {
 ### 抢术实?
 **前端框架?*
 - D3.js
-- Three.js?D可视化）
+- Three.js?D 可视化）
 - Deck.gl（大规模数据?- Observable
 
 **后端服务?*
-- 数据API
-- WebSocket实时推?- 数据缓存
+- 数据 API
+- WebSocket 实时推?- 数据缓存
 
 ### 应用场景
 
@@ -207,9 +209,9 @@ option = {
 - 教育和科?
 ## 参资?
 - Tufte ER. *The Visual Display of Quantitative Information*
-- 《数据可视化》陈?- 《用数据讲故事Cole Nussbaumer Knaflic
-- D3.js官方文档
-- Echarts官方文档
+- 《数据可视化》陈?- 《用数据讲故事 Cole Nussbaumer Knaflic
+- D3.js 官方文档
+- Echarts 官方文档
 
 ## 相关条目
 

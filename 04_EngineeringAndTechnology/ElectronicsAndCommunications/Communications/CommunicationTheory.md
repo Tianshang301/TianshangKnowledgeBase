@@ -1,6 +1,8 @@
 ---
 aliases: [CommunicationTheory]
 tags: ['ElectronicsAndCommunications', 'Communications', 'CommunicationTheory']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 通信原理
@@ -72,7 +74,7 @@ $$s_{FM}(t) = A_c\cos\left[2\pi f_c t + 2\pi k_f\int_0^t m(\tau)d\tau\right]$$
 **频移键控（FSK）**：
 - $s_1(t) = A\cos(2\pi f_1 t)$（发送1）
 - $s_0(t) = A\cos(2\pi f_2 t)$（发送0）
-- 误码率优于ASK
+- 误码率优于 ASK
 
 **相移键控（PSK）**：
 - BPSK：$s_1 = A\cos(2\pi f_c t)$，$s_0 = -A\cos(2\pi f_c t)$
@@ -112,13 +114,13 @@ $C$ 为信道容量（b/s），$B$ 为带宽（Hz），$S/N$ 为信噪比。
 - $(n, k, K)$：$n$ 个输出，$k$ 个输入，约束长度 $K$
 - 维特比译码：最大似然译码
 
-**LDPC码**：
+**LDPC 码**：
 - 低密度奇偶校验码
 - 稀疏校验矩阵
 - 近香农限性能
 - 应用：5G、Wi-Fi 6
 
-**Turbo码**：
+**Turbo 码**：
 - 并行级联卷积码
 - 交织器+两个分量码
 - 迭代译码

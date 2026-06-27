@@ -1,6 +1,8 @@
 ---
 aliases: [PowerTraining, 爆发力训练, ExplosiveStrength, 爆发力, RFD, RateOfForceDevelopment, OlympicLifting]
 tags: ['12_SportsScience', 'SportsTraining', 'PowerTraining', 'StrengthAndConditioning', 'ExplosiveTraining']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 力量训练 Power Training

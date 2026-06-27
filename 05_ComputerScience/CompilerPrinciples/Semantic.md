@@ -1,6 +1,8 @@
 ---
 aliases: [Semantic]
 tags: ['CompilerPrinciples', 'Semantic']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 语义分析
@@ -61,7 +63,7 @@ Semantic Rule:  id.type = Type.type
 
 ---
 
-## 三、S-属性与L-属性定义
+## 三、S-属性与 L-属性定义
 
 ### S-属性定义
 

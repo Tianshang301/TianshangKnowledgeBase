@@ -1,6 +1,8 @@
 ---
 aliases: [QueryOptimization]
 tags: ['05_ComputerScience', 'DatabasesAndInformationSystems']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 查询优化 (Query Optimization)

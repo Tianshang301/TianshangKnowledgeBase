@@ -1,6 +1,8 @@
 ---
 aliases: [DistributedSystems, 分布式系统, DistributedComputing]
 tags: ['NetworkedInformationSystems', 'DistributedSystems', 'DistributedComputing']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 分布式系统 (Distributed Systems)

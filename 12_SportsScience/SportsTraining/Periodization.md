@@ -1,6 +1,8 @@
 ---
 aliases: [Periodization]
 tags: ['SportsTraining', 'Periodization']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 训练周期化
@@ -23,7 +25,7 @@ tags: ['SportsTraining', 'Periodization']
 
 ## 理论基石
 
-Selye的一般适应综合征指出应激源先引起警觉反应。
+Selye 的一般适应综合征指出应激源先引起警觉反应。
 
 持续适度刺激使身体进入抵抗期产生适应。
 
@@ -123,9 +125,9 @@ Selye的一般适应综合征指出应激源先引起警觉反应。
 
 ## 训练负荷管理
 
-每天记录RPE和训练量算出每周总负荷。
+每天记录 RPE 和训练量算出每周总负荷。
 
-急慢性负荷比ACWR是目前最热门的受伤风险评估参数。
+急慢性负荷比 ACWR 是目前最热门的受伤风险评估参数。
 
 连续上升不可超过1.5阈值。
 

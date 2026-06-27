@@ -1,6 +1,8 @@
 ---
 aliases: [ChineseArchaeology]
 tags: ['Archaeology', 'ChineseArchaeology', 'ChineseHistory', 'Paleoarchaeology']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # ChineseArchaeology
@@ -92,7 +94,7 @@ graph LR
 
 历史考古学证经补史。
 大规模配合基建。
-多学科: 碳十四古DNA同位素遥感。
+多学科: 碳十四古 DNA 同位素遥感。
 探源工程: 古文化→古城→古国→国家。
 
 ## 相关领域

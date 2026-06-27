@@ -1,6 +1,8 @@
 ---
 aliases: [CircuitAnalysis]
 tags: ['MechanicalAndElectricalEngineering', 'ElectricalEngineering', 'CircuitAnalysis']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 电路分析
@@ -38,12 +40,12 @@ $$\sum_{k=1}^{n} u_k = 0$$
 
 **节点电压法**：
 - 以节点电压为未知量
-- 对每个独立节点列KCL方程
+- 对每个独立节点列 KCL 方程
 - 导纳矩阵形式：$\mathbf{Y}_n \mathbf{V}_n = \mathbf{I}_s$
 
 **网孔电流法**：
 - 以网孔电流为未知量
-- 对每个网孔列KVL方程
+- 对每个网孔列 KVL 方程
 - 阻抗矩阵形式：$\mathbf{Z}_m \mathbf{I}_m = \mathbf{V}_s$
 
 **欧姆定律**：$V = IR$，是电路分析中最基本的定律，描述电压、电流与电阻之间的关系。
@@ -61,18 +63,18 @@ $$\sum_{k=1}^{n} u_k = 0$$
 - 线性有源二端网络可用一个电流源 $I_N$ 与电阻 $R_N$ 并联等效
 - $I_N = V_{th}/R_{th}$
 
-### RC/RL/RLC电路分析
+### RC/RL/RLC 电路分析
 
-**RC电路**：
+**RC 电路**：
 - 充电过程：$u_C(t) = U_0(1-e^{-t/\tau})$，$\tau = RC$
 - 放电过程：$u_C(t) = U_0 e^{-t/\tau}$
 - 时间常数 $\tau$：电容充放电速度的度量
 
-**RL电路**：
+**RL 电路**：
 - 电流增长：$i(t) = \frac{U}{R}(1-e^{-t/\tau})$，$\tau = L/R$
 - 电流衰减：$i(t) = I_0 e^{-t/\tau}$
 
-**RLC串联电路**：
+**RLC 串联电路**：
 - 微分方程：$LC\frac{d^2u_C}{dt^2} + RC\frac{du_C}{dt} + u_C = U_s$
 - 特征方程：$s^2 + \frac{R}{L}s + \frac{1}{LC} = 0$
 - 阻尼比：$\zeta = \frac{R}{2}\sqrt{\frac{C}{L}}$

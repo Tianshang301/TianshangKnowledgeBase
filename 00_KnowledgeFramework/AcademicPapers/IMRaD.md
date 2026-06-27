@@ -1,9 +1,11 @@
 ---
 aliases:
-  - IMRaD结构
+  - IMRaD 结构
   - 论文写作框架
   - 学术论文结构
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - academic-writing
   - paper-structure
   - research-methodology
@@ -78,7 +80,7 @@ graph TD;
     B --> C[探索性分析];
     C --> D{显著性检验};
     D -->|显著| E[报告效应量];
-    D -->|不显著| F[报告p值];
+    D -->|不显著| F[报告 p 值];
     E --> G[可视化];
     F --> G;
 ```

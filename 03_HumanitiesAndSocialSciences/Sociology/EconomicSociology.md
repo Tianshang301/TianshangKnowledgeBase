@@ -1,6 +1,8 @@
 ---
 aliases: [EconomicSociology]
 tags: ['03_HumanitiesAndSocialSciences', 'Sociology', 'EconomicSociology']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # EconomicSociology
@@ -65,7 +67,7 @@ graph TD
 
 ## 新经济社会学
 
-### Granovetter与嵌入性网络
+### Granovetter 与嵌入性网络
 
 格兰诺维特（1985）
 在《经济行动与社会结构》中
@@ -100,7 +102,7 @@ graph LR
 - **控制优势**：调节信息流动
 
 $$ \text{结构洞收益} = \text{信息收益}
-+ \text{控制收益} $$
+- \text{控制收益} $$
 
 该理论在商业网络和
 内部劳动力市场中被广泛验证。
@@ -116,7 +118,7 @@ $$ \text{结构洞收益} = \text{信息收益}
 确定价格和产量。
 形成稳定的生产市场。
 
-### Zelizer的多种货币
+### Zelizer 的多种货币
 
 泽利泽（Viviana Zelizer）
 展示文化如何塑造经济实践。
@@ -149,8 +151,8 @@ $$ \text{结构洞收益} = \text{信息收益}
 
 **路径依赖**（Path Dependence）：
 技术选择逐步锁定。
-QWERTY键盘标准。
-VHS制式。
+QWERTY 键盘标准。
+VHS 制式。
 早期偶然选择
 因递增回报被固定。
 
@@ -202,7 +204,7 @@ graph TD
 ### 平台经济劳动
 
 零工经济（Gig Economy）。
-Uber司机、外卖骑手
+Uber 司机、外卖骑手
 在算法管理下工作。
 算法控制形式：
 自动评价/动态定价/绩效考核。

@@ -6,6 +6,8 @@ aliases:
   - Knitting
   - Smart Textiles
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - engineering
   - textile
   - materials
@@ -43,16 +45,16 @@ $$Tt = \frac{m}{L} \quad [\text{tex}]$$
 
 断裂强度：
 
-$$\sigma = \frac{F_{max}}{A} \quad [\text{N/tex或cN/dtex}]$$
+$$\sigma = \frac{F_{max}}{A} \quad [\text{N/tex 或 cN/dtex}]$$
 
 典型高性能纤维性能：
 
 | 纤维 | 强度 (GPa) | 模量 (GPa) | 断裂伸长 (%) | 密度 (g/cm³) |
 |------|------------|------------|--------------|--------------|
 | 芳纶1414 | 2.8 | 62 | 3.6 | 1.44 |
-| 碳纤维T700 | 4.9 | 230 | 2.1 | 1.80 |
-| 高强PE | 3.0 | 100 | 3.5 | 0.97 |
-| 玻璃纤维E | 3.5 | 72 | 4.8 | 2.58 |
+| 碳纤维 T700 | 4.9 | 230 | 2.1 | 1.80 |
+| 高强 PE | 3.0 | 100 | 3.5 | 0.97 |
+| 玻璃纤维 E | 3.5 | 72 | 4.8 | 2.58 |
 | PBO | 5.8 | 280 | 2.5 | 1.56 |
 
 
@@ -245,7 +247,7 @@ $\Delta H_f$ 为相变潜热，石蜡类 PCM 的 $\Delta H_f \approx 150-250$ J/
 
 调温范围：
 
-| PCM类型 | 相变温度 (°C) | 应用 |
+| PCM 类型 | 相变温度 (°C) | 应用 |
 |---------|---------------|------|
 | 正十八烷 | 28 | 服装 |
 | 正二十烷 | 37 | 医疗 |
@@ -328,7 +330,7 @@ graph TD
 
 $$F_{max}, \quad \varepsilon_{break}, \quad E_{initial}$$
 
-撕裂强度（Elmendorf法）：
+撕裂强度（Elmendorf 法）：
 
 $$T_{tear} = \frac{E_{pendulum}}{2 \cdot t}$$
 
@@ -341,7 +343,7 @@ $$P_{burst} = \frac{F_{max}}{A_{ball}}$$
 
 透气率：
 
-$$Q_v = \frac{\Delta V}{A \cdot \Delta t} \quad [\text{mm/s或cm³/cm²·s}]$$
+$$Q_v = \frac{\Delta V}{A \cdot \Delta t} \quad [\text{mm/s 或 cm³/cm²·s}]$$
 
 透湿率（蒸发法）：
 

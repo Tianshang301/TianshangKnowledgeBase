@@ -1,6 +1,8 @@
 ---
 aliases: [RequirementsEngineering]
 tags: ['05_ComputerScience', 'SoftwareEngineering']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 需求工程 (Requirements Engineering, RE)
@@ -182,7 +184,7 @@ FURPS+ 分类法：
 | 需求 ID | 来源 | 设计文档 | 测试用例 | 状态 |
 |---------|------|---------|---------|------|
 | FR-001 用户注册 | 用户访谈 张三 | SDD-3.1 注册模块 | TC-101 注册测试 | 已验证 |
-| FR-002 用户登录 | 竞品分析 参考产品A | SDD-3.2 认证模块 | TC-102 登录测试 | 已实现 |
+| FR-002 用户登录 | 竞品分析 参考产品 A | SDD-3.2 认证模块 | TC-102 登录测试 | 已实现 |
 | NFR-001 响应时间 < 2s | 架构要求 | SDD-7.1 性能设计 | TC-901 压力测试 | 已验证 |
 
 ## 八、需求优先级排序方法

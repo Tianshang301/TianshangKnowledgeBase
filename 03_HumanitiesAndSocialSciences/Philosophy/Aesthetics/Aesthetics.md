@@ -1,6 +1,8 @@
 ---
 aliases: [Aesthetics]
 tags: ['Philosophy', 'Aesthetics', 'Aesthetics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 美学
@@ -171,9 +173,9 @@ tags: ['Philosophy', 'Aesthetics', 'Aesthetics']
 
 ### 6.2 数字美学
 
-数字技术深刻改变了艺术创作和审美经验。虚拟现实、增强现实、生成艺术、AI艺术（如DALL·E、Midjourney）挑战了传统的作者身份、艺术原创性和审美价值判断。
+数字技术深刻改变了艺术创作和审美经验。虚拟现实、增强现实、生成艺术、AI 艺术（如 DALL·E、Midjourney）挑战了传统的作者身份、艺术原创性和审美价值判断。
 
-关键问题：AI生成的作品是否具有审美价值？算法的"创造"与人类的创造有何本质区别？
+关键问题：AI 生成的作品是否具有审美价值？算法的"创造"与人类的创造有何本质区别？
 
 ### 6.3 生态美学
 

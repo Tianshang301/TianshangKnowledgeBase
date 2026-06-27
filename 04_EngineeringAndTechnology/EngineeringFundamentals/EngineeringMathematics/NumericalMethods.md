@@ -1,6 +1,8 @@
 ---
 aliases: [NumericalMethods, 数值方法]
 tags: ['EngineeringFundamentals', 'EngineeringMathematics', 'NumericalMethods']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 工程数值方法 (Numerical Methods in Engineering)

@@ -1,6 +1,8 @@
 ---
 aliases: [TextileMaterials, 纺织材料]
 tags: ['TextileEngineering', 'TextileScience', 'MaterialsScience', 'FiberTechnology']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 纺织材料
@@ -76,13 +78,13 @@ flowchart LR
 
 **粘胶纤维（Viscose Rayon）**：吸湿性优于棉（回潮率13%），但湿强度差。
 **莫代尔（Modal）**：高湿模量，湿强度显著提高。
-**莱赛尔（Lyocell）**：NMMO溶剂纺丝，溶剂回收率>99%。
+**莱赛尔（Lyocell）**：NMMO 溶剂纺丝，溶剂回收率>99%。
 **天竹纤维（Bamboo Fiber）**：天然抗菌。**醋酸纤维（Acetate）**：半合成，真丝般光泽。
 
 ### 合成纤维
 
 **涤纶（Polyester, PET）**：产量最大，强度高、抗皱，回潮率仅0.4%。
-**锦纶（Polyamide, PA）**：耐磨性最好，有PA6和PA66两种。
+**锦纶（Polyamide, PA）**：耐磨性最好，有 PA6和 PA66两种。
 **腈纶（Acrylic, PAN）**：蓬松柔软，仿毛效果好。
 **氨纶（Spandex, PU）**：弹性最好，断裂伸长率400~800%。
 **丙纶（Polypropylene, PP）**：密度最小0.91g/cm³，可浮于水。
@@ -91,8 +93,8 @@ flowchart LR
 ### 高性能纤维
 
 **碳纤维（Carbon Fiber）**：含碳量90%+，拉伸强度3~7GPa，模量200~900GPa。
-PAN基和沥青基两种前驱体。**芳纶（Aramid）**：Kevlar防弹，Nomex耐热。
-**UHMWPE**：比强度钢的15倍。**PBO纤维**：强度超过碳纤维。
+PAN 基和沥青基两种前驱体。**芳纶（Aramid）**：Kevlar 防弹，Nomex 耐热。
+**UHMWPE**：比强度钢的15倍。**PBO 纤维**：强度超过碳纤维。
 
 ### 常见纤维性能对比
 
@@ -128,7 +130,7 @@ $$tex \times N_m = 1000 \qquad tex \times N_e = 590.5$$
 ### 加捻指标
 
 捻系数 $\alpha = T \times \sqrt{tex}$，其中 $T$ 为捻度（捻/10cm）。
-捻向分Z捻和S捻。强捻纱产生绉效应。
+捻向分 Z 捻和 S 捻。强捻纱产生绉效应。
 
 ### 力学性能
 
@@ -161,7 +163,7 @@ $$L_R = \frac{\sigma_b \times 1000}{g} \text{ (km)}$$
 ## 性能测试
 
 **力学性能**：拉伸强度（GB/T 3923）、撕破强度（舌形法/梯形法）、顶破强度。
-**舒适性能**：透气性（mm/s）、透湿性、保暖性（克罗值Clo，1 Clo = 0.155 m²·K/W）。
+**舒适性能**：透气性（mm/s）、透湿性、保暖性（克罗值 Clo，1 Clo = 0.155 m²·K/W）。
 **吸湿回潮**：
 
 $$R = \frac{W - W_0}{W_0} \times 100\%$$
@@ -176,7 +178,7 @@ $$R = \frac{W - W_0}{W_0} \times 100\%$$
 ### 织物几何结构参数
 
 织物密度（经密×纬密）、组织循环数和覆盖系数（Cover Factor）是机织物的三大参数。
-Peirce几何模型描述了纱线在织物中的截面形态和弯曲状态。
+Peirce 几何模型描述了纱线在织物中的截面形态和弯曲状态。
 织物厚度和面密度直接影响保暖性、手感和悬垂性。
 
 ## 纺织材料的发展趋势

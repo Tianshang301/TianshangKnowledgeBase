@@ -4,6 +4,8 @@ aliases:
   - 视觉艺术
   - 造型艺术
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - VisualArts
   - FineArts
   - ArtHistory

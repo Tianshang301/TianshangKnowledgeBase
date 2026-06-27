@@ -1,6 +1,8 @@
 ---
 aliases: [ImageInterpretation, 遥感图像解译, 遥感影像判读, RemoteSensingInterpretation, 影像解译, 图像判读, 遥感判读]
 tags: ['04_EngineeringAndTechnology', 'SurveyingAndMappingScience', 'RemoteSensing', 'ImageInterpretation', 'ImageProcessing', 'Photogrammetry']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 遥感图像判读（Remote Sensing Image Interpretation）

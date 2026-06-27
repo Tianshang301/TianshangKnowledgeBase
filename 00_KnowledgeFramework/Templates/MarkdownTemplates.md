@@ -1,5 +1,5 @@
 ---
-aliases: [MarkdownTemplates, Markdown模板, Markdown指南, MarkdownGuide]
+aliases: [MarkdownTemplates, Markdown 模板, Markdown 指南, MarkdownGuide]
 tags: ['00_KnowledgeFramework', 'Templates', 'MarkdownTemplates', 'Markdown', 'Formatting']
 created: 2024-08-01
 updated: 2025-05-17
@@ -28,7 +28,7 @@ updated: 2025-05-17
 | 斜体 | `*文本*` 或 `_文本_` | *斜体文本* |
 | 粗斜体 | `***文本***` | ***粗斜体文本*** |
 | 删除线 | `~~文本~~` | ~~删除线~~ |
-| 高亮 | `==文本==` (GFM扩展) | ==高亮文本== |
+| 高亮 | `==文本==` (GFM 扩展) | ==高亮文本== |
 | 行内代码 | `` `代码` `` | `printf("hello")` |
 | 下标 | `<sub>文本</sub>` | 化学式 H~2~O |
 | 上标 | `<sup>文本</sup>` | 数学式 E=mc² |
@@ -356,14 +356,14 @@ $$
 | Notion | Web/Mobile/Desktop | 数据库、协作功能 | 免费/团队付费 | 团队协作笔记 |
 | Logseq | Win/Mac/Linux/Mobile | 大纲模式、块级引用 | 免费/开源 | 个人知识库 |
 | Mark Text | Win/Mac/Linux | 开源、所见即所得 | 免费/开源 | 日常写作 |
-| Foam | VS Code扩展 | 双向链接、图谱 | 免费/开源 | 开发者知识管理 |
-| Hexo/Jekyll | 静态站点 | 博客生成、Git部署 | 免费/开源 | 技术博客 |
+| Foam | VS Code 扩展 | 双向链接、图谱 | 免费/开源 | 开发者知识管理 |
+| Hexo/Jekyll | 静态站点 | 博客生成、Git 部署 | 免费/开源 | 技术博客 |
 
 ### 常用 Markdown 扩展
 | 功能 | 语法/工具 | 说明 |
 |------|-----------|------|
 | 目录生成 | `[TOC]` 或 `<!-- @TOC -->` | 自动生成文档目录 |
-| 锚点链接 | `[文字](#锚点id)` | 跳转到文档内部位置 |
+| 锚点链接 | `[文字](#锚点 id)` | 跳转到文档内部位置 |
 | 图表 (Mermaid) | ` ```mermaid ` | 流程图、时序图等 |
 | 数学公式 | `$...$` / `$$...$$` | LaTeX 数学公式 |
 | 定义列表 | `: 定义内容` | 术语定义格式 |

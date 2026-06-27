@@ -4,6 +4,8 @@ aliases:
   - 传递过程
   - 化工原理
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - transport
   - momentum-transfer
   - heat-transfer

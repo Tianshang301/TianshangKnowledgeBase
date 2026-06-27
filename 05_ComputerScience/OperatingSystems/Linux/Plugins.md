@@ -1,6 +1,8 @@
 ---
 aliases: [Plugins]
 tags: ['OperatingSystems', 'Linux', 'Plugins']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Vim 插件生态

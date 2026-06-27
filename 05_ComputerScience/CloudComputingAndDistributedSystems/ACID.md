@@ -2,6 +2,8 @@
 title: ACID 原则 (ACID Principles)
 aliases: [ACID, 事务原则, 数据库事务]
 tags: [Database, Transactions, ACID, Distributed, Consistency]
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # ACID 原则 (ACID Principles)

@@ -1,13 +1,15 @@
 ---
 aliases: [Scheduling]
 tags: ['OperatingSystems', 'Scheduling']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # CPU 调度详解 (CPU Scheduling)
 
 ## 1. 调度基本概念
 
-CPU调度决定就绪队列中哪个进程/线程获得CPU使用权。
+CPU 调度决定就绪队列中哪个进程/线程获得 CPU 使用权。
 
 ### 调度层次
 
@@ -21,12 +23,12 @@ CPU调度决定就绪队列中哪个进程/线程获得CPU使用权。
 
 | 指标 | 公式 | 含义 | 优化目标 |
 |------|------|------|---------|
-| **CPU利用率** | busy_time / total_time | CPU繁忙时间占比 | 最大化 |
+| **CPU 利用率** | busy_time / total_time | CPU 繁忙时间占比 | 最大化 |
 | **吞吐量** | processes / time_unit | 单位时间完成的进程数 | 最大化 |
 | **周转时间** | completion - arrival | 从提交到完成的总时间 | 最小化 |
 | **等待时间** | sum(waiting_time) | 在就绪队列的总等待时间 | 最小化 |
 | **响应时间** | first_response - arrival | 从提交到首次响应的时间 | 最小化 |
-| **公平性** | - | 各进程获得CPU的机会均等 | 尽可能 |
+| **公平性** | - | 各进程获得 CPU 的机会均等 | 尽可能 |
 
 ### 调度中的时间示意
 
@@ -47,11 +49,11 @@ CPU调度决定就绪队列中哪个进程/线程获得CPU使用权。
 
 | 特性 | 非抢占 (Cooperative) | 抢占 (Preemptive) |
 |------|----------------------|-------------------|
-| 切换时机 | 进程主动让出CPU | 时间片用完或高优先级进程就绪 |
+| 切换时机 | 进程主动让出 CPU | 时间片用完或高优先级进程就绪 |
 | 实现复杂度 | 简单 | 复杂（需处理竞态） |
-| 公平性 | 差（一个进程可独占CPU） | 好 |
+| 公平性 | 差（一个进程可独占 CPU） | 好 |
 | 响应时间 | 不可预测 | 可预测 |
-| 典型系统 | Windows 3.1, 早期MacOS | Linux, Windows NT+, macOS |
+| 典型系统 | Windows 3.1, 早期 MacOS | Linux, Windows NT+, macOS |
 
 ## 4. 调度算法 (Scheduling Algorithms)
 
@@ -65,7 +67,7 @@ P1     0        24
 P2     0        3
 P3     0        3
 
-FCFS顺序: P1 → P2 → P3
+FCFS 顺序: P1 → P2 → P3
 
        P1                    P2    P3
 ├────────────────────────────┼─────┼─────┤
@@ -75,7 +77,7 @@ FCFS顺序: P1 → P2 → P3
 平均周转时间: (24+27+30)/3 = 27
 平均等待时间: (0+24+27)/3 = 17
 
-// 如果P2,P3先:
+// 如果 P2,P3先:
         P2  P3             P1
 ├────────┼───┼──────────────┤
 0        3   6             30
@@ -90,7 +92,7 @@ FCFS顺序: P1 → P2 → P3
 
 选择最短执行时间的进程。
 
-**非抢占SJF:**
+**非抢占 SJF:**
 
 ```
 进程  到达时间  执行时间
@@ -99,7 +101,7 @@ P2     2        8
 P3     3        7
 P4     5        3
 
-Gantt图:
+Gantt 图:
        P1         P4         P3         P2
 ├────────┼───────────┼────────────┼──────────┤
 0        6           9           16         24
@@ -107,7 +109,7 @@ Gantt图:
 平均等待时间: (0+3+9+16-2-3-5)/4 = 4.75
 ```
 
-**抢占SJF = SRTF (Shortest Remaining Time First):**
+**抢占 SJF = SRTF (Shortest Remaining Time First):**
 
 ```
 进程  到达时间  执行时间
@@ -158,7 +160,7 @@ P1   P2   P3   P1   P1   P1   P1   P1
 |--------|------|------|
 | **太大** → FCFS | 上下文切换少 | 响应时间差 |
 | **太小** | 响应好 | 上下文切换过多(开销大) |
-| **理想值** | 80%+ CPU时间用于执行 | ≈10-100ms |
+| **理想值** | 80%+ CPU 时间用于执行 | ≈10-100ms |
 
 **上下文切换开销:**
 ```
@@ -170,7 +172,7 @@ P1   P2   P3   P1   P1   P1   P1   P1
 
 每个进程分配一个优先级，选择优先级最高的执行。
 
-**静态优先级:** 创建时确定 (如nice值)
+**静态优先级:** 创建时确定 (如 nice 值)
 **动态优先级:** 运行时调整 (防止饥饿)
 
 ```
@@ -198,7 +200,7 @@ P5     5        2
 交互进程        ┌────────────┐  RR (时间片=16ms)
 批处理进程      ┌────────────┐  FCFS
                     ↓
-                CPU调度
+                CPU 调度
 ```
 
 **队列间调度:** 固定优先级(系统>交互>批处理) 或 时间片分配(如60%/30%/10%)
@@ -224,8 +226,8 @@ P5     5        2
 ```
 
 **MLFQ 特点:**
-- I/O密集型进程(短CPU突发) → 停留在高优先级
-- CPU密集型进程 → 下移到低优先级
+- I/O 密集型进程(短 CPU 突发) → 停留在高优先级
+- CPU 密集型进程 → 下移到低优先级
 - 防止饥饿: 周期性将进程提升到高优先级
 
 **参数设计:**
@@ -238,9 +240,9 @@ P5     5        2
 
 ### 核心思想
 
-CFS使用红黑树管理就绪进程，以**虚拟运行时间 (vruntime)**为键值。
+CFS 使用红黑树管理就绪进程，以**虚拟运行时间 (vruntime)**为键值。
 
-**vruntime计算公式:**
+**vruntime 计算公式:**
 ```
 vruntime += actual_runtime × (NICE_0_LOAD / weight)
 ```
@@ -255,13 +257,13 @@ vruntime += actual_runtime × (NICE_0_LOAD / weight)
         │D│ │K│   │P│ │T│
        ┌┴┐┌┴┐         ┌┴┐
        │A││F│         │S│
-                     (最左节点=最小vruntime=下一个运行的进程)
+                     (最左节点=最小 vruntime=下一个运行的进程)
 ```
 
 ### CFS 关键参数
 
 ```c
-// Linux内核源码 (kernel/sched/fair.c)
+// Linux 内核源码 (kernel/sched/fair.c)
 struct sched_entity {
     struct load_weight      load;       // 负载权重
     struct rb_node          run_node;   // 红黑树节点
@@ -272,10 +274,10 @@ struct sched_entity {
 
 struct cfs_rq {
     struct rb_root          tasks_timeline; // 红黑树根
-    struct rb_node          *rb_leftmost;   // 最左节点(最小vruntime)
+    struct rb_node          *rb_leftmost;   // 最左节点(最小 vruntime)
     struct sched_entity     *curr;          // 当前运行的进程
     unsigned int            nr_running;     // 运行进程数
-    u64                     min_vruntime;   // 队列最小vruntime
+    u64                     min_vruntime;   // 队列最小 vruntime
 };
 ```
 
@@ -287,12 +289,12 @@ pick_next_entity():
     3. 设置为当前进程(prev = curr)
     
 enqueue_entity():
-    1. 更新vruntime
+    1. 更新 vruntime
     2. 插入红黑树
-    3. 更新min_vruntime
+    3. 更新 min_vruntime
 ```
 
-### nice值转换
+### nice 值转换
 
 | nice | weight | 时间片比例 |
 |------|--------|-----------|
@@ -300,13 +302,13 @@ enqueue_entity():
 | -10 | 9548 | |
 | 0 | 1024 | 基准 |
 | 10 | 335 | |
-| 19 | 15 | 最低优先级(几乎无CPU时间) |
+| 19 | 15 | 最低优先级(几乎无 CPU 时间) |
 
 ```bash
 # 查看和更改进程优先级
-nice -n -10 ./high_priority_prog    # 以nice=-10启动
-renice -5 -p 1234                    # 将PID=1234的nice改为-5
-chrt -f 50 ./realtime_prog          # FIFO实时优先级50
+nice -n -10 ./high_priority_prog    # 以 nice=-10启动
+renice -5 -p 1234                    # 将 PID=1234的 nice 改为-5
+chrt -f 50 ./realtime_prog          # FIFO 实时优先级50
 ```
 
 ## 6. 实时调度 (Real-Time Scheduling)
@@ -361,37 +363,37 @@ U ≤ 1 (即可调度, 理论最优)
 
 | 模式 | 描述 | 优点 | 缺点 |
 |------|------|------|------|
-| **ASMP** (非对称) | 一个CPU运行OS，其他运行用户任务 | 简单(无锁) | 主CPU瓶颈 |
-| **SMP** (对称) | 所有CPU共享运行OS和用户任务 | 负载均衡 | 需要同步 |
+| **ASMP** (非对称) | 一个 CPU 运行 OS，其他运行用户任务 | 简单(无锁) | 主 CPU 瓶颈 |
+| **SMP** (对称) | 所有 CPU 共享运行 OS 和用户任务 | 负载均衡 | 需要同步 |
 
-现代Linux使用SMP。
+现代 Linux 使用 SMP。
 
 ### 7.2 处理器亲和性 (Processor Affinity)
 
-进程绑定到特定CPU，提高缓存命中率。
+进程绑定到特定 CPU，提高缓存命中率。
 
 ```c
-// Linux设置CPU亲和性
+// Linux 设置 CPU 亲和性
 #include <sched.h>
 
 cpu_set_t cpuset;
 CPU_ZERO(&cpuset);
-CPU_SET(0, &cpuset);   // 允许CPU 0
-CPU_SET(2, &cpuset);   // 允许CPU 2
+CPU_SET(0, &cpuset);   // 允许 CPU 0
+CPU_SET(2, &cpuset);   // 允许 CPU 2
 
 sched_setaffinity(0, sizeof(cpu_set_t), &cpuset);
 ```
 
 ```bash
 # 命令行
-taskset -c 0,2 ./program    # 绑定到CPU 0和2
-taskset -p 0x05 1234        # 设置PID 1234亲和性(二进制101→CPU 0,2)
+taskset -c 0,2 ./program    # 绑定到 CPU 0和2
+taskset -p 0x05 1234        # 设置 PID 1234亲和性(二进制101→CPU 0,2)
 ```
 
 ### 7.3 负载均衡 (Load Balancing)
 
-**拉平衡 (Pull Migration):** 空闲CPU从繁忙CPU队列拉取任务
-**推平衡 (Push Migration):** 繁忙CPU将任务推到空闲CPU
+**拉平衡 (Pull Migration):** 空闲 CPU 从繁忙 CPU 队列拉取任务
+**推平衡 (Push Migration):** 繁忙 CPU 将任务推到空闲 CPU
 
 ### NUMA (Non-Uniform Memory Access)
 
@@ -408,11 +410,11 @@ taskset -p 0x05 1234        # 设置PID 1234亲和性(二进制101→CPU 0,2)
 - CPU 0 → 内存 0: 快速 (本地)
 - CPU 0 → 内存 1: 慢速 (远程)
 
-**Linux NUMA调度:** 优先使用本地内存和CPU
+**Linux NUMA 调度:** 优先使用本地内存和 CPU
 
 ```bash
 numactl --cpunodebind=0 --membind=0 ./program  # 绑定到节点0
-numastat -p PID                                 # 查看进程NUMA统计
+numastat -p PID                                 # 查看进程 NUMA 统计
 ```
 
 ## 8. 调度算法对比总结
@@ -421,11 +423,11 @@ numastat -p PID                                 # 查看进程NUMA统计
 |------|------|--------|---------|------|------|---------|
 | FCFS | 否 | 低 | 差 | 低 | 无 | 批处理系统 |
 | SJF (非抢占) | 否 | 高 | 差 | 中 | 有 | 批处理(预知时间) |
-| SRTF (抢占SJF) | 是 | 高 | 好 | 高 | 有 | 交互+批处理 |
+| SRTF (抢占 SJF) | 是 | 高 | 好 | 高 | 有 | 交互+批处理 |
 | Round Robin | 是 | 中 | 好 | 中 | 无 | 分时系统 |
 | 优先级 | 都可 | 中 | 中 | 中 | 有 | 实时系统 |
-| MLFQ | 是 | 高 | 好 | 高 | 无(老化) | 通用OS(Linux/Windows) |
-| CFS | 是 | 高 | 好 | 中 | 无 | Linux通用 |
+| MLFQ | 是 | 高 | 好 | 高 | 无(老化) | 通用 OS(Linux/Windows) |
+| CFS | 是 | 高 | 好 | 中 | 无 | Linux 通用 |
 | RM | 是 | - | 可预测 | 低 | 无 | 硬实时 |
 | EDF | 是 | - | 最优 | 高 | 无 | 硬实时 |
 

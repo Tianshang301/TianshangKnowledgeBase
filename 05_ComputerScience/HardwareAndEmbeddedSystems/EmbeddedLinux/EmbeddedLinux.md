@@ -1,6 +1,8 @@
 ---
 aliases: [EmbeddedLinux]
 tags: ['HardwareAndEmbeddedSystems', 'EmbeddedLinux', 'EmbeddedLinux']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 嵌入式 Linux

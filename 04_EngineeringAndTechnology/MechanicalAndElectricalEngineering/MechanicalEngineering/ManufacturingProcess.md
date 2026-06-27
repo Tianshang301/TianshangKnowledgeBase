@@ -1,6 +1,8 @@
 ---
 aliases: [ManufacturingProcess]
 tags: ['MechanicalAndElectricalEngineering', 'MechanicalEngineering', 'ManufacturingProcess']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 制造工艺
@@ -12,7 +14,7 @@ tags: ['MechanicalAndElectricalEngineering', 'MechanicalEngineering', 'Manufactu
 - 铸造、锻压、焊接等热加工工艺
 - 切削加工、磨削等冷加工工艺
 - 特种加工方法
-- 增材制造（3D打印）
+- 增材制造（3D 打印）
 
 ## 核心内容
 
@@ -71,7 +73,7 @@ tags: ['MechanicalAndElectricalEngineering', 'MechanicalEngineering', 'Manufactu
 **电弧焊**：
 - 手工电弧焊（SMAW）：最常用的焊接方法
 - 埋弧焊（SAW）：厚板长焊缝
-- 气体保护焊：CO₂焊、TIG（氩弧焊）、MIG/MAG焊
+- 气体保护焊：CO₂焊、TIG（氩弧焊）、MIG/MAG 焊
 
 **气焊**：
 - 氧-乙炔焰：中性焰（碳钢）、氧化焰（黄铜）
@@ -93,8 +95,8 @@ tags: ['MechanicalAndElectricalEngineering', 'MechanicalEngineering', 'Manufactu
 |------|-------------|---------|---------|--------------|-------|---------|
 | 手工电弧焊 (SMAW) | ~6000 | 大 | 慢 | $2\sim20$ | 大 | 结构件、管道 |
 | 埋弧焊 (SAW) | ~6000 | 中 | 较快 | $6\sim60$ | 中 | 厚板长焊缝 |
-| TIG焊 | ~10000 | 小 | 较慢 | $0.5\sim5$ | 小 | 不锈钢、铝 |
-| MIG/MAG焊 | ~6000 | 中 | 快 | $1\sim20$ | 中 | 碳钢、铝合金 |
+| TIG 焊 | ~10000 | 小 | 较慢 | $0.5\sim5$ | 小 | 不锈钢、铝 |
+| MIG/MAG 焊 | ~6000 | 中 | 快 | $1\sim20$ | 中 | 碳钢、铝合金 |
 | 激光焊 | $\geq 10^6$ W/cm² | 极小 | 极快 | $0.1\sim10$ | 极小 | 精密零件 |
 | 电子束焊 | $\geq 10^7$ W/cm² | 极小 | 快 | $1\sim100$ | 极小 | 航空航天 |
 
@@ -117,12 +119,12 @@ tags: ['MechanicalAndElectricalEngineering', 'MechanicalEngineering', 'Manufactu
 
 **切削液**：冷却、润滑、清洗、防锈
 
-**Taylor刀具寿命公式**：
+**Taylor 刀具寿命公式**：
 $$vT^n = C$$
 
 其中 $v$ 为切削速度 (m/min)，$T$ 为刀具寿命 (min)，$n$ 为寿命指数，$C$ 为常数。
 
-**扩展Taylor公式**：
+**扩展 Taylor 公式**：
 $$T = \frac{C_T}{v^{1/n} f^{1/n_1} a_p^{1/n_2}}$$
 
 **加工精度等级对比**：
@@ -146,15 +148,15 @@ $$T = \frac{C_T}{v^{1/n} f^{1/n_1} a_p^{1/n_2}}$$
 
 **线切割（WEDM）**：
 - 用连续移动的电极丝切割工件
-- 快走丝（国产）：0.02mm精度
-- 慢走丝（进口）：0.005mm精度
+- 快走丝（国产）：0.02mm 精度
+- 慢走丝（进口）：0.005mm 精度
 
 **激光加工**：
 - 激光切割：速度快，精度高
 - 激光打标：永久标记
 - 激光打孔：微孔加工
 
-### 3D打印技术
+### 3D 打印技术
 
 **选择性激光烧结（SLS）**：
 - 粉末材料逐层烧结
@@ -171,7 +173,7 @@ $$T = \frac{C_T}{v^{1/n} f^{1/n_1} a_p^{1/n_2}}$$
 - 精度高（±0.05mm）
 - 适合精密原型和模具
 
-**金属3D打印**：
+**金属3D 打印**：
 - SLM（选择性激光熔化）
 - EBM（电子束熔化）
 - 适合钛合金、不锈钢、镍基合金
@@ -187,7 +189,7 @@ $$T = \frac{C_T}{v^{1/n} f^{1/n_1} a_p^{1/n_2}}$$
 - 航空航天（精密铸造、特种焊接）
 - 模具制造（电火花、线切割）
 - 电子信息（微细加工）
-- 医疗器械（精密加工、3D打印）
+- 医疗器械（精密加工、3D 打印）
 - 能源装备（大型铸锻件）
 
 ## 相关条目

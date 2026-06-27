@@ -4,6 +4,8 @@ aliases:
   - 化工设计
   - 过程设计
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - chemical-engineering
   - process-design
   - unit-operations

@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'MCU51', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # 51_MCU

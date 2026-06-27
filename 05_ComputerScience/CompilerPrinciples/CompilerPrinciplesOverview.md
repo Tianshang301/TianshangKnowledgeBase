@@ -5,6 +5,8 @@ aliases:
   - Compiler
   - CompilerDesign
 tags:
+created: 2026-05-17
+updated: 2026-05-16
   - '05_ComputerScience'
   - 'CompilerPrinciples'
   - 'CoreCourses'
@@ -35,7 +37,7 @@ flowchart LR
 
 ```
 int a = 10 + 20;
-→ Token序列: <KEYWORD, int> <IDENTIFIER, a> <OPERATOR, => <INTEGER, 10> <OPERATOR, +> <INTEGER, 20> <DELIMITER, ;>
+→ Token 序列: <KEYWORD, int> <IDENTIFIER, a> <OPERATOR, => <INTEGER, 10> <OPERATOR, +> <INTEGER, 20> <DELIMITER, ;>
 ```
 
 | 概念 | 定义 | 示例 |

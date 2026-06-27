@@ -1,6 +1,8 @@
 ---
 aliases: [Pandas]
 tags: ['ProgrammingLanguages', 'Python', 'Pandas']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Pandas 快速指南
@@ -128,7 +130,7 @@ df.query("城市 == '北京' and 年龄 > 25")
 
 ```python
 # 检查缺失
-df.isna()              # 每个元素是否NaN
+df.isna()              # 每个元素是否 NaN
 df.isna().sum()        # 每列缺失数量
 df.isna().any(axis=1)  # 有缺失的行
 df.isna().sum().sum()  # 总缺失数
@@ -223,7 +225,7 @@ pd.concat([df1, df2], axis=0)  # 垂直拼接
 pd.concat([df1, df2], axis=1)  # 水平拼接
 pd.concat([df1, df2], ignore_index=True)  # 重置索引
 
-# merge - SQL风格合并
+# merge - SQL 风格合并
 left = pd.DataFrame({
     "id": [1, 2, 3],
     "姓名": ["张三", "李四", "王五"]
@@ -248,18 +250,18 @@ left.join(right, lsuffix="_left", rsuffix="_right")
 ## 九、apply / map / applymap
 
 ```python
-# apply - 对DataFrame的行/列应用函数
+# apply - 对 DataFrame 的行/列应用函数
 df = pd.DataFrame({"A": [1, 2, 3], "B": [4, 5, 6]})
 
 df.apply(np.sum, axis=0)      # 列求和
 df.apply(np.sum, axis=1)      # 行求和
 df.apply(lambda x: x.max() - x.min(), axis=0)
 
-# map - 对Series应用映射或函数
+# map - 对 Series 应用映射或函数
 df["A"].map({1: "一", 2: "二", 3: "三"})
 df["A"].map(lambda x: x ** 2)
 
-# applymap - 对DataFrame每个元素应用函数
+# applymap - 对 DataFrame 每个元素应用函数
 df.applymap(lambda x: f"{x:.2f}")
 
 # 向量化字符串操作
@@ -325,7 +327,7 @@ ts["2024-01-01":"2024-01-05"]
 # 重采样
 ts.resample("W").mean()       # 周均值
 ts.resample("M").sum()        # 月总和
-ts.resample("Q").ohlc()       # 季度OHLC
+ts.resample("Q").ohlc()       # 季度 OHLC
 
 # 移动窗口
 ts.rolling(window=3).mean()

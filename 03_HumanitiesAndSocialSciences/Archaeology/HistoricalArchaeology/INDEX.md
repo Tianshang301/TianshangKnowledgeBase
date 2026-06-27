@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['Archaeology', 'HistoricalArchaeology', 'INDEX']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 历史考古学

@@ -1,6 +1,8 @@
 ---
 aliases: [AppliedCalculus]
 tags: ['EngineeringFundamentals', 'EngineeringMathematics', 'AppliedCalculus']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 应用微积分

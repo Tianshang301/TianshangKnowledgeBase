@@ -1,6 +1,8 @@
 ---
 aliases: [MCU51]
 tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'MCU51', 'MCU51']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # 51 单片机
@@ -251,7 +253,7 @@ void main(void) {
 | 7 段数码管 | I/O | 段码表输出 + 位选 |
 | LCD 1602 | I/O | 初始化序列 + 命令/数据写入 |
 | I2C EEPROM | P3.6(P3.7) 模拟 I2C | 软件 I2C 时序 |
-| DS18B20 | 单总线 | 初始化→ROM命令→功能命令 |
+| DS18B20 | 单总线 | 初始化→ROM 命令→功能命令 |
 
 ## 十、现代兼容芯片
 
@@ -260,7 +262,7 @@ void main(void) {
 | STC89C52 | 宏晶科技 | 8 KB Flash, 256 B RAM, 看门狗, EEPROM |
 | AT89S52 | Microchip | 8 KB Flash, 在线编程 SPI 接口 |
 | P89V51RD2 | NXP | 64 KB Flash, 2 KB RAM, ISP/IAP |
-| C8051F系列 | Silicon Labs | 流水线架构, 25 MIPS, 内置 ADC/DAC |
+| C8051F 系列 | Silicon Labs | 流水线架构, 25 MIPS, 内置 ADC/DAC |
 
 ## 相关条目
 

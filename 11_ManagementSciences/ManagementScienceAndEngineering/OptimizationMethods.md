@@ -1,6 +1,8 @@
 ---
 aliases: [OptimizationMethods, 优化方法, 最优化, MathematicalProgramming]
 tags: ['11_ManagementSciences', 'ManagementScienceAndEngineering', 'OperationsResearch']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 优化方法 (Optimization Methods)

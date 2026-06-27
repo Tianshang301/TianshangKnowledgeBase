@@ -1,6 +1,8 @@
 ---
 aliases: [MappingsAndIndices, 映射与索引, ClassificationMappings, IndexingTechniques]
 tags: ['ClassificationMappings', 'MappingsAndIndices', 'Indexing', 'InformationRetrieval', 'KnowledgeOrganization']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 映射与索引技术指南（Mappings and Indices）
@@ -25,7 +27,7 @@ $$ \text{倒排索引}: \text{词项 } t \rightarrow \{\langle d_1, \text{pos}_{
 
 ```
 文档集 → 分词(Tokenization) → 词项归一化(Normalization)
-    → 词项-文档ID对 → 排序 → 合并 → 写入磁盘
+    → 词项-文档 ID 对 → 排序 → 合并 → 写入磁盘
 ```
 
 ### 1.2 索引构建算法

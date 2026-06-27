@@ -1,6 +1,8 @@
 ---
 aliases: [Communication]
 tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'STM32', 'Communication']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # STM32 通信协议详解
@@ -11,7 +13,7 @@ tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'STM32', 'Communication
 |------|------|--------|------|----------|------|----------|
 | UART | 异步串行 | 2 (TX/RX) | 最高 10 Mbps | ~15m@9600 | 点对点 | 调试、GPS、蓝牙 |
 | I2C | 同步串行 | 2 (SCL/SDA) | 100/400/1000 kHz | ~1m | 多主多从 | 传感器、EEPROM |
-| SPI | 同步串行 | 4 (SCK/MOSI/MISO/CS) | 最高 45 MHz | ~1m | 一主多从 | 显示屏、SD卡、ADC |
+| SPI | 同步串行 | 4 (SCK/MOSI/MISO/CS) | 最高 45 MHz | ~1m | 一主多从 | 显示屏、SD 卡、ADC |
 | CAN | 差分串行 | 2 (CAN_H/CAN_L) | 最高 1 Mbps | ~40m@1M ~1km@50k | 多主 | 汽车、工业控制 |
 
 ## USART/UART
@@ -193,7 +195,7 @@ void mpu6050_read_accel(int16_t *ax, int16_t *ay, int16_t *az) {
 
 ### SPI 模式
 
-| 模式 | CPOL | CPHA | 时钟极性/相位 | 
+| 模式 | CPOL | CPHA | 时钟极性/相位 |
 |------|------|------|---------------|
 | 0 | 0 | 0 | 空闲低，第一个边沿采样 |
 | 1 | 0 | 1 | 空闲低，第二个边沿采样 |

@@ -1,6 +1,8 @@
 ---
 aliases: [VocabularyFunctionWords]
 tags: ['01_K12', 'SeniorHigh', 'English', 'Vocabulary_FunctionWords']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 

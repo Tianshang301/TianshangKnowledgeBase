@@ -1,6 +1,8 @@
 ---
 aliases: [MarketingPrinciples]
 tags: ['BusinessAdministration', 'Marketing', 'MarketingPrinciples']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 市场营销原理
@@ -121,7 +123,7 @@ tags: ['BusinessAdministration', 'Marketing', 'MarketingPrinciples']
 
 ### 营销战略制定流程
 
-营销战略制定包括环境分析、目标确定、战略选择和实施控制。环境分析使用PEST分析（政治、经济、社会、技术）和SWOT分析。目标确定设定市场份额、销售额和品牌认知等目标。战略选择决定细分市场、定位和营销组合策略。
+营销战略制定包括环境分析、目标确定、战略选择和实施控制。环境分析使用 PEST 分析（政治、经济、社会、技术）和 SWOT 分析。目标确定设定市场份额、销售额和品牌认知等目标。战略选择决定细分市场、定位和营销组合策略。
 
 ### 增长战略
 
@@ -171,7 +173,7 @@ tags: ['BusinessAdministration', 'Marketing', 'MarketingPrinciples']
 
 ## 整合营销传播
 
-IMC确保所有传播工具传递一致信息。传播工具包括广告、公共关系、销售促进、直接营销、人员推销和数字营销。IMC提升传播效果和效率。IMC实施需要跨部门协调。
+IMC 确保所有传播工具传递一致信息。传播工具包括广告、公共关系、销售促进、直接营销、人员推销和数字营销。IMC 提升传播效果和效率。IMC 实施需要跨部门协调。
 
 ## 营销伦理与社会责任
 

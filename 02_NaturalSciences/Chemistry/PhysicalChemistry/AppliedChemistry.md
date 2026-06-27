@@ -1,4 +1,11 @@
-﻿---
+---
+aliases: [AppliedChemistry]
+tags: ['Chemistry', 'PhysicalChemistry', 'AppliedChemistry.md']
+created: 2026-05-17
+updated: 2026-05-17
+---
+
+---
 aliases: [AppliedChemistry, YingYongHuaXue]
 tags: ['Chemistry/PhysicalChemistry/AppliedChemistry', 'IndustrialChemistry']
 ---
@@ -197,6 +204,6 @@ $$V = \frac{F_{A0}X_A}{(-r_A)}$$
 
 ## 相关条目 (See Also)
 
-- [[../../PhysicalChemistry|物理化学]]
-- [[../OrganicChemistry/OrganicChemistry|有机化学]]
+- [[../INDEX|物理化学]]
+- [[../OrganicChemistry/INDEX|有机化学]]
 - [[../../../INDEX|知识库首页]]

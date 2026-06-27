@@ -6,11 +6,17 @@ __pycache__/
 *.pyc
 .ruff_cache/
 
-# Auxiliary scripts
-*.py
-*.txt
-*.ps1
-
 # OS files
 Thumbs.db
 .DS_Store
+
+# Root-level scripts / artifact files only
+/*.py
+/*.txt
+/*.ps1
+
+# But track scripts in .opencode/fixes/ and .github/
+!.opencode/fixes/*.py
+!.opencode/fixes/*.txt
+!.github/**/*.py
+!.github/**/*.ps1

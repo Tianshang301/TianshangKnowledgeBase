@@ -1,6 +1,8 @@
 ---
 aliases: [DrugDesign, 药物设计]
 tags: ['04_EngineeringAndTechnology', 'ChemicalAndPharmaceuticalEngineering', 'PharmaceuticalEngineering', 'DrugDesign']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 药物设计 (Drug Design)
@@ -21,7 +23,7 @@ graph LR
     
     B --> G[基因组学<br/>蛋白质组学]
     C --> H[高通量筛选<br/>虚拟筛选]
-    D --> I[构效关系<br/>ADMET优化]
+    D --> I[构效关系<br/>ADMET 优化]
     E --> J[药效学<br/>毒理学]
 ```
 

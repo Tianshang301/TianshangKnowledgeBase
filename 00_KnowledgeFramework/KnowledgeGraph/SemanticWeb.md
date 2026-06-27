@@ -1,13 +1,15 @@
 ---
 aliases: [SemanticWeb]
 tags: ['KnowledgeGraph', 'SemanticWeb']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 语义网基础
 
 ## 概述
 
-语义网（Semantic Web）是万维网之父蒂姆·伯纳斯-李提出的愿景，旨在使网络信息能够被机器理解和处理。本文档介绍语义网架构、知识图谱关系、Linked Data原则和语义搜索技术。
+语义网（Semantic Web）是万维网之父蒂姆·伯纳斯-李提出的愿景，旨在使网络信息能够被机器理解和处理。本文档介绍语义网架构、知识图谱关系、Linked Data 原则和语义搜索技术。
 
 ## 语义网架构
 
@@ -41,21 +43,21 @@ ex:张三 ex:职业 ex:工程师 .
 - **功能**：类定义、属性定义、层次关系
 - **特点**：简单的语义扩展
 
-### 第四层：OWL（Web本体语言）
+### 第四层：OWL（Web 本体语言）
 - **作用**：提供丰富的本体表达能力
 - **功能**：类约束、属性约束、逻辑推理
 - **特点**：形式化语义、可推理
 
 ### 第五层：SPARQL
 - **作用**：提供查询语言
-- **功能**：RDF数据查询和更新
+- **功能**：RDF 数据查询和更新
 - **特点**：标准化查询接口
 
 ## 知识图谱与语义网的关系
 
 ### 相同点
 1. 都基于图模型表示知识
-2. 都使用URI标识实体
+2. 都使用 URI 标识实体
 3. 都支持关系和属性描述
 
 ### 不同点
@@ -69,37 +71,37 @@ ex:张三 ex:职业 ex:工程师 .
 ### 融合趋势
 - 知识图谱吸收语义网的标准化思想
 - 语义网技术在工业界得到更广泛应用
-- 两者在Linked Data上实现统一
+- 两者在 Linked Data 上实现统一
 
-## Linked Data原则
+## Linked Data 原则
 
-蒂姆·伯纳斯-李提出的Linked Data四原则：
+蒂姆·伯纳斯-李提出的 Linked Data 四原则：
 
-### 1. 使用URI标识事物
-- 为每个实体分配唯一URI
-- URI应稳定、可解析
+### 1. 使用 URI 标识事物
+- 为每个实体分配唯一 URI
+- URI 应稳定、可解析
 - 示例：`http://dbpedia.org/resource/北京`
 
-### 2. 使用HTTP URI
-- 通过HTTP协议可以访问
+### 2. 使用 HTTP URI
+- 通过 HTTP 协议可以访问
 - 支持内容协商
 - 示例：`http://example.org/person/1`
 
 ### 3. 提供有用信息
-- URI应返回有价值的信息
-- 支持RDF格式
+- URI 应返回有价值的信息
+- 支持 RDF 格式
 - 示例：返回实体的属性和关系
 
-### 4. 包含链接到其他URI
+### 4. 包含链接到其他 URI
 - 建立实体间的链接
 - 形成数据网络
 - 示例：`ex:张三 ex:工作单位 ex:清华大学`
 
-### Linked Data实践
-- **DBpedia**：从Wikipedia提取的结构化知识
-- **Freebase**：Google的知识图谱基础
+### Linked Data 实践
+- **DBpedia**：从 Wikipedia 提取的结构化知识
+- **Freebase**：Google 的知识图谱基础
 - **Wikidata**：维基百科的结构化数据
-- **LOD云**：Linked Open Data云图
+- **LOD 云**：Linked Open Data 云图
 
 ## 知识库构建流程
 
@@ -120,7 +122,7 @@ ex:张三 ex:职业 ex:工程师 .
 - 知识补全
 
 ### 4. 知识存储
-- RDF存储：Virtuoso、GraphDB
+- RDF 存储：Virtuoso、GraphDB
 - 图数据库：Neo4j、JanusGraph
 - 选择依据：数据规模、查询需求
 
@@ -159,7 +161,7 @@ ex:张三 ex:职业 ex:工程师 .
 
 ## 参考资源
 
-- W3C语义Web标准
-- 《语义Web技术》
+- W3C 语义 Web 标准
+- 《语义 Web 技术》
 - 《知识图谱：方法、实践与应用》
-- Linked Open Data项目网站
+- Linked Open Data 项目网站

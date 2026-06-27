@@ -1,6 +1,8 @@
 ---
 aliases: [GreedyAlgorithms]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'GreedyAlgorithms', 'GreedyAlgorithms']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Greedy Algorithms - 贪心算法

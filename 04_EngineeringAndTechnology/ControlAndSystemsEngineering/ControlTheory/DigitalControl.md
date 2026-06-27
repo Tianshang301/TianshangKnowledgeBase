@@ -4,6 +4,8 @@ aliases:
   - 数字控制理论
   - 离散时间控制
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - digital-control
   - z-transform
   - discrete-time

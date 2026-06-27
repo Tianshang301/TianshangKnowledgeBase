@@ -1,209 +1,233 @@
 ---
-aliases:
-  - Cloud Computing
-  - 云计算
-tags:
-  - cloud-computing
-  - distributed-systems
-  - virtualization
-  - computer-science
+aliases: [CloudComputing, CC, Cloud]
+tags: ['05_ComputerScience', 'CloudComputing']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
-# 云计算 (Cloud Computing)
+# 云计算 Cloud Computing
 
-## 一、概述 (Overview)
+## 云计算定义
 
-云计算（Cloud Computing）是一种基于互联网（Internet）的计算范式。
-通过网络按需（On-demand）提供可配置的计算资源池——
-包括网络（Network）、服务器（Server）、存储（Storage）、
-应用（Application）和服务（Service）。
+云计算（Cloud Computing）是通过互联网按需提供计算资源（网络、服务器、存储、应用和服务）的一种模式。用户只需为实际使用的资源付费，无需管理和维护物理基础设施。
 
-其核心定义由美国国家标准与技术研究院
-（NIST, National Institute of Standards and Technology）
-在 SP 800-145 中给出。
+美国国家标准与技术研究院（NIST）定义了云计算的五个基本特征、三种服务模式和四种部署模型。
 
-包含五大基本特征：按需自助服务（On-demand Self-service）、
-广泛网络接入（Broad Network Access）、
-资源池化（Resource Pooling）、
-快速弹性（Rapid Elasticity）和可计量服务（Measured Service）。
+$$ \text{Cloud Computing} = \text{On-demand Self-service} + \text{Broad Network Access} + \text{Resource Pooling} + \text{Rapid Elasticity} + \text{Measured Service} $$
 
-云计算从根本上改变了企业 IT 基础设施的采购、部署和管理方式，
-已成为数字经济的关键支撑技术。
+## 五大基本特征
+
+| 特征 | 英文 | 说明 |
+|------|------|------|
+| 按需自助服务 | On-demand Self-service | 用户自行配置资源无需人工交互 |
+| 广泛网络接入 | Broad Network Access | 标准网络协议访问，支持各类终端 |
+| 资源池化 | Resource Pooling | 多租户共享物理和虚拟资源 |
+| 快速弹性 | Rapid Elasticity | 资源自动伸缩，对用户透明 |
+| 可计量服务 | Measured Service | 用量计量与按需付费 |
+
+## 服务模式
+
+### 基础设施即服务 (IaaS)
+
+提供虚拟化的计算、存储和网络资源。用户管理操作系统、中间件和应用程序，云提供商管理虚拟化层和物理基础设施。
+
+$$ \text{IaaS: You manage} = \{\text{Apps, Data, Runtime, OS}\}, \text{Provider manages} = \{\text{Virtualization, Servers, Storage, Networking}\} $$
+
+### 平台即服务 (PaaS)
+
+提供完整的开发和部署平台，包括运行时环境、数据库和中间件。开发者只需关注代码实现，底层基础设施完全由平台管理。
+
+### 软件即服务 (SaaS)
+
+提供完整的应用程序，用户通过浏览器或客户端访问。提供商负责所有底层运维，用户只需配置和使用应用功能。
 
 ```mermaid
-flowchart TD
-  A[云计算<br/>Cloud Computing] --> B[服务模型<br/>Service Models]
-  A --> C[部署模式<br/>Deployment Models]
-  A --> D[关键技术<br/>Key Technologies]
-  B --> B1[IaaS<br/>基础设施即服务]
-  B --> B2[PaaS<br/>平台即服务]
-  B --> B3[SaaS<br/>软件即服务]
-  C --> C1[公有云<br/>Public Cloud]
-  C --> C2[私有云<br/>Private Cloud]
-  C --> C3[混合云<br/>Hybrid Cloud]
-  C --> C4[社区云<br/>Community Cloud]
-  D --> D1[虚拟化<br/>Virtualization]
-  D --> D2[容器化<br/>Containerization]
-  D --> D3[编排管理<br/>Orchestration]
-  D --> D4[微服务<br/>Microservices]
+graph LR
+    subgraph On-Premises
+        A1[Applications]
+        A2[Data]
+        A3[Runtime]
+        A4[OS]
+        A5[Virtualization]
+        A6[Servers]
+        A7[Storage]
+        A8[Networking]
+    end
+    subgraph IaaS
+        B1[Applications]
+        B2[Data]
+        B3[Runtime]
+        B4[OS]
+        B5[Virtualization]
+        B6[Servers]
+        B7[Storage]
+        B8[Networking]
+    end
+    subgraph PaaS
+        C1[Applications]
+        C2[Data]
+        C3[Runtime]
+        C4[OS]
+        C5[Virtualization]
+        C6[Servers]
+        C7[Storage]
+        C8[Networking]
+    end
+    subgraph SaaS
+        D1[Applications]
+        D2[Data]
+        D3[Runtime]
+        D4[OS]
+        D5[Virtualization]
+        D6[Servers]
+        D7[Storage]
+        D8[Networking]
+    end
+    style A1 fill:#4CAF50,color:#fff
+    style A2 fill:#4CAF50,color:#fff
+    style A3 fill:#4CAF50,color:#fff
+    style A4 fill:#4CAF50,color:#fff
+    style A5 fill:#4CAF50,color:#fff
+    style A6 fill:#4CAF50,color:#fff
+    style A7 fill:#4CAF50,color:#fff
+    style A8 fill:#4CAF50,color:#fff
+    style B1 fill:#4CAF50,color:#fff
+    style B2 fill:#4CAF50,color:#fff
+    style B3 fill:#4CAF50,color:#fff
+    style B4 fill:#4CAF50,color:#fff
+    style B5 fill:#FFC107,color:#000
+    style C4 color:#fff
+    style D4 color:#fff
 ```
 
----
+## 部署模型
 
-## 二、服务模型 (Service Models)
+| 部署模型 | 定义 | 优势 | 适用场景 |
+|---------|------|------|---------|
+| 公有云 (Public Cloud) | 第三方提供商通过互联网提供服务 | 低初始成本、弹性强 | 初创企业、波动负载 |
+| 私有云 (Private Cloud) | 专为单一组织构建 | 高可控性、合规 | 金融、政府、医疗 |
+| 混合云 (Hybrid Cloud) | 公有云与私有云的组合 | 兼顾安全与弹性 | 数据敏感+弹性需求 |
+| 多云 (Multi-Cloud) | 使用多个云提供商 | 避免锁定、优化成本 | 全球化部署 |
+| 社区云 (Community Cloud) | 多个组织共享基础设施 | 共享合规成本 | 行业联盟 |
 
-云计算按服务层次分为三种模型。
-用户与云服务提供商（Cloud Service Provider）之间的责任边界因模型而异：
+## 主要云提供商
 
-```mermaid
-flowchart TD
-  subgraph 用户管理范围
-    A[用户<br/>User]
-    B[应用<br/>Applications]
-    C[数据<br/>Data]
-    D[运行时<br/>Runtime]
-    E[中间件<br/>Middleware]
-    F[操作系统<br/>OS]
-    G[虚拟化<br/>Virtualization]
-    H[硬件<br/>Hardware]
-  end
-  subgraph IaaS
-    F2[操作系统<br/>OS] --- G2[虚拟化<br/>Virtualization] --- H2[硬件<br/>Hardware]
-  end
-  subgraph PaaS
-    D3[运行时<br/>Runtime] --- E3[中间件<br/>Middleware] --- F3[OS] --- G3[虚拟化] --- H3[硬件]
-  end
-  subgraph SaaS
-    B4[应用] --- C4[数据] --- D4[运行时] --- E4[中间件] --- F4[OS] --- G4[虚拟化] --- H4[硬件]
-  end
-```
+### Amazon Web Services (AWS)
 
-| 模型 | 全称 | 用户管理范畴 | 提供商管理范畴 |
-|------|------|-------------|---------------|
-| IaaS | Infrastructure as a Service | 应用、数据、OS、运行时 | 虚拟化层、硬件、网络、存储 |
-| PaaS | Platform as a Service | 应用、数据 | 运行时环境、中间件、OS、硬件 |
-| SaaS | Software as a Service | 应用配置与用户数据 | 全部底层基础设施 |
+全球市场份额第一，提供超过 200 项云服务。核心产品包括 EC2（计算）、S3（存储）、RDS（数据库）、Lambda（Serverless）和 SageMaker（机器学习）。
 
----
+### Microsoft Azure
 
-## 三、部署模式 (Deployment Models)
+与企业生态系统深度集成，支持 Windows Server、Active Directory、Office 365 等产品的无缝迁移。核心产品包括 Azure VM、Azure SQL Database、Azure Functions 和 Azure AI。
 
-四种部署模式在不同场景下有各自的适用性和权衡。
+### Google Cloud Platform (GCP)
 
-| 模式 | 说明 | 适用场景 |
-|------|------|----------|
-| 公有云（Public Cloud） | 第三方提供商通过互联网向公众提供服务 | 初创公司、弹性工作负载、测试环境 |
-| 私有云（Private Cloud） | 为单一组织或企业专有部署 | 金融、医疗、政府等合规要求严格的行业 |
-| 混合云（Hybrid Cloud） | 公有云与私有云协同工作，数据和应用可在两者间迁移 | 爆发性负载、灾备恢复、数据主权合规 |
-| 社区云（Community Cloud） | 多个具有共同关切的组织共享云基础设施 | 联合科研项目、行业联盟、政府间合作 |
+在数据分析、机器学习和容器化领域具有显著优势。核心产品包括 Compute Engine、Cloud Storage、BigQuery、Kubernetes Engine 和 Vertex AI。
 
----
+### 阿里云 Alibaba Cloud
 
-## 四、虚拟化技术 (Virtualization)
+中国市场份额第一，亚太地区领先。核心产品包括 ECS（计算）、OSS（存储）、RDS（数据库）、函数计算和 MaxCompute（大数据）。
 
-虚拟化（Virtualization）是云计算的核心使能技术。
-通过抽象层将物理资源划分为多个虚拟资源。
+## 核心价值
 
-### 4.1 虚拟化类型 (Types of Virtualization)
+| 价值维度 | 说明 |
+|---------|------|
+| 成本效益 | 变资本支出 (CapEx) 为运营支出 (OpEx) |
+| 全球部署 | 几分钟内完成全球多区域部署 |
+| 弹性伸缩 | 根据负载自动扩缩容，不浪费资源 |
+| 高可用性 | 多可用区部署，SLA 达 99.9%~99.999% |
+| 安全合规 | 提供商满足主流合规认证标准 |
+| 创新加速 | 按需获取最新技术能力 |
 
-- **服务器虚拟化（Server Virtualization）** — 在一台物理服务器上运行多个虚拟机（VM, Virtual Machine）
-- **存储虚拟化（Storage Virtualization）** — 将多个物理存储设备抽象为统一存储池
-- **网络虚拟化（Network Virtualization）** — 在物理网络之上创建虚拟网络，如 VLAN、VXLAN
-- **桌面虚拟化（Desktop Virtualization）** — 通过 VDI（Virtual Desktop Infrastructure）集中管理桌面环境
+## 关键挑战
 
-### 4.2 Hypervisor 分类
+- **供应商锁定 (Vendor Lock-in)**：避免过度依赖单一提供商
+- **数据主权 (Data Sovereignty)**：数据存储位置需符合当地法律
+- **成本管理 (Cost Management)**：需持续优化资源使用避免浪费
+- **安全威胁 (Security Threats)**：共享责任模型下的安全边界
+- **迁移复杂性 (Migration Complexity)**：遗留系统迁移的适配成本
 
-Hypervisor（虚拟机监视器）是虚拟化的核心组件，负责在物理硬件和虚拟机之间提供抽象层。
+## 虚拟化技术 Virtualization
 
-| 类型 | 代表产品 | 架构特点 |
-|------|----------|----------|
-| Type 1（裸机型, Bare-metal） | VMware ESXi, Microsoft Hyper-V, KVM | 直接运行于物理硬件之上，性能损失最小 |
-| Type 2（宿主型, Hosted） | VirtualBox, VMware Workstation | 运行于宿主操作系统之上，适合开发和测试 |
+虚拟化（Virtualization）是云计算的基础技术，将物理资源抽象为逻辑资源，实现资源的隔离和共享。
 
-### 4.3 容器化 (Containerization)
+### 虚拟化类型
 
-容器（Container）相比于虚拟机更为轻量，共享宿主操作系统内核，启动时间可达毫秒级。
-Docker 是最流行的容器引擎。Kubernetes（K8s）是容器编排（Container Orchestration）的事实标准。
+| 类型 | 技术 | 代表产品 | 特点 |
+|------|------|---------|------|
+| 服务器虚拟化 | Hypervisor Type 1/2 | VMware ESXi, Hyper-V, KVM | 硬件资源共享 |
+| 存储虚拟化 | SAN/NAS 虚拟化 | VMware vSAN, Ceph | 存储池化 |
+| 网络虚拟化 | SDN, Overlay 网络 | VMWare NSX, Open vSwitch | 网络抽象 |
+| 容器虚拟化 | OS 级虚拟化 | Docker, Podman | 轻量隔离 |
 
----
+### 虚拟机与容器对比
 
-## 五、云架构设计 (Cloud Architecture)
+| 维度 | 虚拟机 VM | 容器 Container |
+|------|-----------|---------------|
+| 隔离级别 | 硬件级隔离 | 进程级隔离 |
+| 启动时间 | 分钟级 | 秒级 |
+| 镜像大小 | GB 级 | MB 级 |
+| 内核 | 独占内核 | 共享宿主机内核 |
+| 资源开销 | 高（需完整 OS） | 低（仅应用层） |
 
-### 核心组件 (Core Components)
+## 云原生应用 Cloud Native
 
-```mermaid
-flowchart LR
-  A[负载均衡<br/>Load Balancer] --> B[应用服务器集群<br/>App Server Cluster]
-  B --> C[缓存层<br/>Cache Layer]
-  B --> D[消息队列<br/>Message Queue]
-  D --> E[异步工作者<br/>Async Workers]
-  B --> F[数据库主从<br/>DB Master/Slave]
-  C --> F
-```
+云原生应用专为云环境设计，充分利用云的弹性和分布式特性。云原生计算基金会（CNCF）定义了云原生技术体系。
 
-### 设计原则 (Design Principles)
+### 云原生 12 要素
 
-- **无状态设计（Stateless Design）** — 应用服务器不保存会话状态，状态存储在共享缓存或数据库中
+| 要素 | 原则 | 实践 |
+|------|------|------|
+| 基准代码 | 一份基准代码多份部署 | Git 版本管理、CI/CD |
+| 依赖 | 显式声明依赖 | 包管理器、容器化 |
+| 配置 | 环境中存储配置 | 环境变量、配置中心 |
+| 后端服务 | 把后端服务当作附加资源 | 松耦合、服务发现 |
+| 构建、发布、运行 | 严格分离构建和运行 | 不可变制品 |
+| 进程 | 无状态进程 | 外部化 Session |
+| 端口绑定 | 通过端口绑定提供服务 | 自包含 HTTP 服务 |
+| 并发 | 通过进程模型进行扩展 | 水平扩展 |
+| 易处置 | 快速启动和优雅终止 | 健康检查、优雅关闭 |
+| 开发与生产等价 | 保持开发、预发布、生产环境一致 | 容器化、Kubernetes |
+| 日志 | 把日志当作事件流 | 标准输出、集中日志 |
+| 管理进程 | 一次性管理进程 | 数据库迁移、脚本 |
 
-- **最终一致性（Eventual Consistency）** — 在分布式系统中放松强一致性约束以换取可用性和分区容忍性，遵循 CAP 定理（CAP Theorem）
+### DevOps 实践
 
-- **熔断机制（Circuit Breaker）** — 当下游服务故障时快速失败（Fail Fast），防止级联故障（Cascading Failure）
+DevOps 强调开发（Development）和运维（Operations）的协作与整合，核心实践包括：
 
-- **自动扩缩容（Auto Scaling）** — 根据实时负载指标自动增加或减少计算资源
+- **CI/CD 流水线**：持续集成与持续部署自动化
+- **GitOps**：以 Git 仓库为唯一的声明式基础设施来源
+- **不可变基础设施**：每次部署创建全新环境，避免配置漂移
+- **可观测性**：通过指标（Metrics）、日志（Logging）和追踪（Tracing）构建可观测体系
 
-- **不可变基础设施（Immutable Infrastructure）** — 服务器部署后不做修改，更新时直接替换为新镜像
+## 开源云计算框架
 
----
+### OpenStack
 
-## 六、主流云平台 (Major Cloud Platforms)
+OpenStack 是开源基础设施即服务（IaaS）平台，管理大规模计算、存储和网络资源池。核心组件包括 Nova（计算）、Swift（对象存储）、Cinder（块存储）、Neutron（网络）和 Keystone（身份认证）。
 
-| 平台 | 核心优势 | 主要计算服务 | 主要存储服务 |
-|------|----------|-------------|-------------|
-| AWS（Amazon Web Services） | 最成熟、服务种类最多 | EC2, Lambda, ECS | S3, EBS, RDS |
-| Microsoft Azure | 企业集成、混合云方案 | VM, Azure Functions, AKS | Blob Storage, SQL Database |
-| Google Cloud Platform (GCP) | 数据分析、AI/ML 能力 | Compute Engine, Cloud Functions, GKE | Cloud Storage, BigQuery |
-| 阿里云 (Alibaba Cloud) | 中国市场份额第一 | ECS, Function Compute, ACK | OSS, Table Store, MaxCompute |
+### Kubernetes
 
----
+Kubernetes（K8s）是容器编排平台，已成为云原生基础设施的标准。Kubernetes 提供应用部署、扩缩容、服务发现和自动恢复等能力，支持多云和混合云部署。
 
-## 七、挑战与趋势 (Challenges and Trends)
+## 云计算成本模型
 
-### 挑战 (Challenges)
+### 资本支出 vs 运营支出
 
-- **安全与合规（Security and Compliance）** — 数据加密、访问控制、合规审计（如 GDPR、等保 2.0）
+传统 IT 基础设施需要资本支出（CapEx），即一次性购买硬件和软件许可。云计算将成本转换为运营支出（OpEx），按使用量计费。
 
-- **供应商锁定（Vendor Lock-in）** — 使用特定云平台专有服务导致迁移成本极高
+### FinOps 实践
 
-- **延迟敏感应用（Latency-sensitive Applications）** — 云数据中心距离远无法满足毫秒级延迟要求
+FinOps 是云财务管理实践和方法论，结合财务、技术和业务团队优化云成本：
 
-- **成本管理（Cost Management）** — 资源滥用和闲置导致云支出失控，需实施 FinOps（云财务管理）实践
+1. **可视化**：成本归属到团队、项目和服务的分摊
+2. **优化**：资源合理利用、预留实例和 Spot 实例优化
+3. **运营**：持续监控、预算告警和成本治理
 
-### 趋势 (Trends)
+## 相关条目
 
-- **边缘计算（Edge Computing）** — 将计算和数据存储靠近数据源，解决延迟和带宽问题
-
-- **Serverless 架构（Serverless Architecture）** — 开发者只需编写函数代码，无需管理服务器，按实际执行次数计费
-
-- **云原生（Cloud Native）** — 以容器、服务网格（Service Mesh）、微服务（Microservices）、声明式 API 为特征的应用架构模式
-
-- **多云战略（Multi-cloud Strategy）** — 同时使用多个云提供商，避免单点依赖并优化成本
-
-- **AI 驱动云运维（AIOps）** — 利用人工智能自动化运维决策，提升系统可靠性
-
----
-
-## 相关条目 (Related Notes)
-
-- [[DistributedSystems]] — 分布式系统基础理论
-
-- [[Virtualization]] — 虚拟化技术详解
-
-- [[Containerization]] — 容器化与 Docker
-
-- [[Kubernetes]] — 容器编排平台
-
-- [[EdgeComputing]] — 边缘计算
-
-- [[ServerlessComputing]] — 无服务器计算
-
-- [[CloudSecurity]] — 云安全
+- [[CloudServices]]
+- [[CloudArchitecture]]
+- [[CloudSecurity]]
+- [[Virtualization]]
+- [[BigDataOverview]]

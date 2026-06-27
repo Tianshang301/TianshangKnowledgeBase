@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['ChineseLanguageAndLiterature', 'ChineseLinguistics', 'INDEX']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 汉语语言学

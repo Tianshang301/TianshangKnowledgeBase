@@ -8,6 +8,8 @@ aliases:
   - 全球化
   - 不平等
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - economics
   - political_economy
   - marxist_economics

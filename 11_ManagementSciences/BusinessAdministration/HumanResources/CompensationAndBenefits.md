@@ -1,6 +1,8 @@
 ---
 aliases: [CompensationAndBenefits]
 tags: ['BusinessAdministration', 'HumanResources', 'CompensationAndBenefits']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 薪酬福利
@@ -94,7 +96,7 @@ tags: ['BusinessAdministration', 'HumanResources', 'CompensationAndBenefits']
 
 ### 岗位评价
 
-岗位评价是确定岗位相对价值的过程。评价方法包括排序法、分类法、因素比较法和计点法。海氏评价法和IPE评价法是广泛应用的计点法。岗位评价结果是确定基本薪酬的基础。
+岗位评价是确定岗位相对价值的过程。评价方法包括排序法、分类法、因素比较法和计点法。海氏评价法和 IPE 评价法是广泛应用的计点法。岗位评价结果是确定基本薪酬的基础。
 
 ### 薪酬预算
 

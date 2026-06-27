@@ -1,6 +1,8 @@
 ---
 aliases: [LearningPath]
 tags: ['HardwareAndEmbeddedSystems', 'LearningPath']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 硬件学习路线图
@@ -101,9 +103,9 @@ tags: ['HardwareAndEmbeddedSystems', 'LearningPath']
 
 | 阶段 | 项目名称 | 所用知识 |
 |------|---------|---------|
-| 入门 | 智能台灯 | 51单片机、PWM调光、光敏传感器 |
+| 入门 | 智能台灯 | 51单片机、PWM 调光、光敏传感器 |
 | 入门 | 电子时钟 | DS1302、数码管、按键 |
-| 中级 | 四轴无人机飞控 | STM32、MPU6050、PID控制 |
+| 中级 | 四轴无人机飞控 | STM32、MPU6050、PID 控制 |
 | 中级 | 智能小车 | STM32、电机驱动、超声波避障 |
 | 高级 | 简易逻辑分析仪 | FPGA、USB、上位机 |
 | 高级 | 网络摄像头 | Linux、摄像头驱动、流媒体 |

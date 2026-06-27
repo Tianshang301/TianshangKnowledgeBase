@@ -1,6 +1,8 @@
 ---
 aliases: [RobotDynamics]
 tags: ['Robotics', 'RobotDynamics', 'ControlSystems', 'Dynamics']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 机器人动力学 (Robot Dynamics)

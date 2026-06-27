@@ -1,6 +1,8 @@
 ---
 aliases: [MoralAndRuleOfLaw]
 tags: ['JuniorHigh', 'Politics', 'MoralAndRuleOfLaw']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 道德与法治

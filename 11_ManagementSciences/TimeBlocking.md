@@ -1,6 +1,8 @@
 ---
 aliases: [TimeBlocking]
 tags: ['Productivity', 'TimeManagement', 'ManagementScience', 'Focus']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 时间块管理 (Time Blocking)

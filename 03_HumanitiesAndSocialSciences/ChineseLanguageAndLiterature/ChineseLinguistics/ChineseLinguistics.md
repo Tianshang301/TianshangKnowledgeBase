@@ -1,6 +1,8 @@
 ---
 aliases: [ChineseLinguistics]
 tags: ['ChineseLanguageAndLiterature', 'ChineseLinguistics', 'ChineseLinguistics']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 汉语语言学
@@ -19,7 +21,7 @@ tags: ['ChineseLanguageAndLiterature', 'ChineseLinguistics', 'ChineseLinguistics
 | **赣方言** | 南昌话 | 约3% | 古全浊声母读送气清音 | 7声 |
 | **客家方言** | 梅州话 | 约4% | 保留入声韵尾-p/-t/-k，轻唇归重唇 | 6声 |
 | **粤方言** | 广州话 | 约5% | 完整保留入声韵尾-p/-t/-k，韵母丰富 | 6-9声 |
-| **闽方言** | 厦门话、福州话 | 约4% | 保留古轻唇读重唇，文白异读复杂，无f声母 | 7声 |
+| **闽方言** | 厦门话、福州话 | 约4% | 保留古轻唇读重唇，文白异读复杂，无 f 声母 | 7声 |
 
 ### 1.2 方言差异例证
 
@@ -62,9 +64,9 @@ tags: ['ChineseLanguageAndLiterature', 'ChineseLinguistics', 'ChineseLinguistics
 
 | 四呼 | 定义 | 例韵母 | 例字 |
 |------|------|--------|------|
-| 开口呼 | 无介音，韵腹非i/u/ü | a o e ai ei ao ou an en ang eng er | 大、波、车、来 |
-| 齐齿呼 | 以i为介音或主元音 | i ia ie iao iou ian in iang ing iong | 一、家、些、年 |
-| 合口呼 | 以u为介音或主元音 | u ua uo uai uei uan uen uang ueng ong | 五、瓜、火、快 |
+| 开口呼 | 无介音，韵腹非 i/u/ü | a o e ai ei ao ou an en ang eng er | 大、波、车、来 |
+| 齐齿呼 | 以 i 为介音或主元音 | i ia ie iao iou ian in iang ing iong | 一、家、些、年 |
+| 合口呼 | 以 u 为介音或主元音 | u ua uo uai uei uan uen uang ueng ong | 五、瓜、火、快 |
 | 撮口呼 | 以ü为介音或主元音 | ü üe üan ün iong | 鱼、月、圆、云 |
 
 **押韵**：古典诗歌押韵以韵腹和韵尾为准，不考虑韵头（介音）。"东"和"空"押韵，"烟"和"间"押韵。
@@ -110,7 +112,7 @@ tags: ['ChineseLanguageAndLiterature', 'ChineseLinguistics', 'ChineseLinguistics
 
 ### 4.1 基本语序
 
-汉语是典型的**SVO语言**（主语-动词-宾语），如"我吃饭"。定语在中心语前（"红红的太阳"），状语在谓语前（"慢慢地走"），补语在动词后（"走得很快"）。
+汉语是典型的**SVO 语言**（主语-动词-宾语），如"我吃饭"。定语在中心语前（"红红的太阳"），状语在谓语前（"慢慢地走"），补语在动词后（"走得很快"）。
 
 **语序类型特征**：
 
@@ -159,7 +161,7 @@ tags: ['ChineseLanguageAndLiterature', 'ChineseLinguistics', 'ChineseLinguistics
 |------|------|-----------|
 | 词义扩大 | 从特指到泛指 | "江"原指长江→泛指河流；"河"原指黄河→泛指河流 |
 | 词义缩小 | 从泛指到特指 | "臭"原指气味→今指臭味；"汤"原指热水→今指菜汤 |
-| 词义转移 | 从A义到B义 | "闻"原指听→今指嗅；"走"原指跑→今指步行 |
+| 词义转移 | 从 A 义到 B 义 | "闻"原指听→今指嗅；"走"原指跑→今指步行 |
 | 词义强化 | 程度加深 | "诛"原指责备→今指杀戮 |
 | 词义弱化 | 程度减轻 | "激"原指猛烈→今泛指激动 |
 
@@ -167,7 +169,7 @@ tags: ['ChineseLanguageAndLiterature', 'ChineseLinguistics', 'ChineseLinguistics
 
 ### 6.1 自动分词
 
-中文文本无词边界标识，分词是NLP首要任务。方法：基于词典的最大匹配（正向/逆向/双向）、基于统计的序列标注（HMM、CRF）、基于深度学习（BiLSTM-CRF、BERT）。
+中文文本无词边界标识，分词是 NLP 首要任务。方法：基于词典的最大匹配（正向/逆向/双向）、基于统计的序列标注（HMM、CRF）、基于深度学习（BiLSTM-CRF、BERT）。
 
 **分词挑战**：歧义切分（"结合成"→"结合/成"vs"结/合成"）、未登录词识别（人名"特朗普"、机构名"清华大学"、新词"内卷"）、规范与风格差异（"彩电"vs"彩色电视机"）。
 

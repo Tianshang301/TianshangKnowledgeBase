@@ -1,6 +1,8 @@
 ---
 aliases: [YarnTechnology]
 tags: ['04_EngineeringAndTechnology', 'TextileAndFoodEngineering', 'TextileScience', 'YarnTechnology']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 纱线技术

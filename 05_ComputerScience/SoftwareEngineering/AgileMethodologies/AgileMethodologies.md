@@ -1,6 +1,8 @@
 ---
 aliases: [AgileMethodologies]
 tags: ['SoftwareEngineering', 'AgileMethodologies', 'AgileMethodologies']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 敏捷方法论 (Agile Methodologies)
@@ -39,8 +41,8 @@ tags: ['SoftwareEngineering', 'AgileMethodologies', 'AgileMethodologies']
 
 | 角色 | 职责 |
 |------|------|
-| **Product Owner (PO)** | 管理Product Backlog，定义需求优先级，最大化产品价值 |
-| **Scrum Master (SM)** | 确保Scrum实践被遵循，移除障碍，教练团队 |
+| **Product Owner (PO)** | 管理 Product Backlog，定义需求优先级，最大化产品价值 |
+| **Scrum Master (SM)** | 确保 Scrum 实践被遵循，移除障碍，教练团队 |
 | **开发团队 (Dev Team)** | 自组织，跨职能，负责交付增量 |
 
 ### 工件 (Artifacts)
@@ -48,23 +50,23 @@ tags: ['SoftwareEngineering', 'AgileMethodologies', 'AgileMethodologies']
 | 工件 | 描述 |
 |------|------|
 | **Product Backlog** | 产品待办列表（所有需求的有序列表，持续更新） |
-| **Sprint Backlog** | Sprint待办列表（当前Sprint要完成的工作） |
-| **Increment (增量)** | Sprint结束时完成的可工作产品增量 |
+| **Sprint Backlog** | Sprint 待办列表（当前 Sprint 要完成的工作） |
+| **Increment (增量)** | Sprint 结束时完成的可工作产品增量 |
 | **Definition of Done (DoD)** | 完成的标准定义 |
 
 ### 事件 (Events)
 
 ```
 Sprint (2-4周)
-  ├── Sprint Planning (Sprint计划)
-  │    ├── 目标：确定Sprint目标和Sprint Backlog
+  ├── Sprint Planning (Sprint 计划)
+  │    ├── 目标：确定 Sprint 目标和 Sprint Backlog
   │    └── 估算：团队对工作量做出承诺
   ├── Daily Scrum (每日站会)
   │    ├── 时间：15分钟
   │    └── 问题：昨天做了什么？今天准备做什么？有什么障碍？
-  ├── Sprint Review (Sprint评审)
-  │    └── 演示增量，收集反馈，更新Product Backlog
-  └── Sprint Retrospective (Sprint回顾)
+  ├── Sprint Review (Sprint 评审)
+  │    └── 演示增量，收集反馈，更新 Product Backlog
+  └── Sprint Retrospective (Sprint 回顾)
        └── 团队反思：做得好？可改进？行动计划？
 ```
 
@@ -128,7 +130,7 @@ $L$ = 在制品数量, $\lambda$ = 吞吐率, $W$ = 周期时间
 | **40小时工作周** | 可持续节奏 |
 | **现场客户** | 客户代表全程在场 |
 
-### TDD循环
+### TDD 循环
 
 ```
 写一个失败的测试（红）
@@ -152,16 +154,16 @@ Large Solution Level (解决方案层)
         ↓
 Program Level (项目群层) — ART (敏捷发布火车)
         ↓
-Team Level (团队层) — Scrum/XP团队
+Team Level (团队层) — Scrum/XP 团队
 ```
 
 ### LeSS (Large-Scale Scrum)
 
-| 特性 | 1个Team的LeSS | LeSS Huge |
+| 特性 | 1个 Team 的 LeSS | LeSS Huge |
 |------|--------------|-----------|
 | 团队数 | 2-8 | 8+ |
-| Sprint | 统一Sprint | 统一Sprint |
-| 产品负责人 | 1个PO | 1个PO + 区域PO |
+| Sprint | 统一 Sprint | 统一 Sprint |
+| 产品负责人 | 1个 PO | 1个 PO + 区域 PO |
 | 架构 | 整体 | 按客户功能分区 |
 
 ## 六、Scrum vs Kanban vs XP 对比
@@ -170,7 +172,7 @@ Team Level (团队层) — Scrum/XP团队
 |------|-------|--------|-----|
 | 迭代周期 | 固定（2-4周） | 无固定迭代 | 1-2周 |
 | 角色 | PO, SM, Team | 无强制角色 | 客户, 开发 |
-| 变更策略 | Sprint内不变更 | 随时可添加 | 迭代内不变 |
+| 变更策略 | Sprint 内不变更 | 随时可添加 | 迭代内不变 |
 | 度量 | Velocity | Lead/Cycle Time | 速度 |
 | 专注 | 团队承诺 | 流动效率 | 技术卓越 |
 | 适用 | 需求相对稳定 | 维护/运维 | 高风险项目 |
@@ -185,7 +187,7 @@ Team Level (团队层) — Scrum/XP团队
 | **N** | Negotiable (可协商) | 细节可讨论 |
 | **V** | Valuable (有价值) | 对用户有价值 |
 | **E** | Estimable (可估算) | 团队能估算工作量 |
-| **S** | Small (小型) | 可在1个Sprint完成 |
+| **S** | Small (小型) | 可在1个 Sprint 完成 |
 | **T** | Testable (可测试) | 有明确的验收条件 |
 
 ### 故事格式
@@ -212,7 +214,7 @@ Team Level (团队层) — Scrum/XP团队
 
 ### 速度 (Velocity)
 
-每个Sprint团队完成的故事点总数，用于预测未来Sprint产能。
+每个 Sprint 团队完成的故事点总数，用于预测未来 Sprint 产能。
 
 ### 燃尽图 (Burndown Chart)
 
@@ -230,9 +232,9 @@ Team Level (团队层) — Scrum/XP团队
     Sprint 1  2    3    4
 ```
 
-| 图表 | X轴 | Y轴 | 用途 |
+| 图表 | X 轴 | Y 轴 | 用途 |
 |------|-----|-----|------|
-| **燃尽图** | 时间 | 剩余工作量 | 追踪Sprint进度 |
+| **燃尽图** | 时间 | 剩余工作量 | 追踪 Sprint 进度 |
 | **燃起图** | 时间 | 已完成工作量 | 展示增量累积 |
 | **累积流图** | 时间 | 各状态累积数 | 识别瓶颈 |
 

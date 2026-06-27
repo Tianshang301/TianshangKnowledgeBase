@@ -2,6 +2,8 @@
 title: 道德黑客 (Ethical Hacking)
 aliases: [白帽黑客, 道德骇客, 渗透测试]
 tags: [Cybersecurity, Hacking, Penetration, Testing, Security]
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 道德黑客 (Ethical Hacking)

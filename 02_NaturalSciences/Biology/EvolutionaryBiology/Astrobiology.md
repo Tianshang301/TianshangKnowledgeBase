@@ -10,6 +10,8 @@ aliases:
   - Habitable Zone
   - Biosignature
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - astrobiology
   - origin-of-life
   - exoplanets

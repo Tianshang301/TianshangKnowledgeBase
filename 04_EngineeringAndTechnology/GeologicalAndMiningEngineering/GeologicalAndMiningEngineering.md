@@ -1,6 +1,8 @@
 ---
 aliases: [GeologicalAndMiningEngineering]
 tags: ['GeologicalAndMiningEngineering', 'GeologicalAndMiningEngineering']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 地质与矿业工程
@@ -42,7 +44,7 @@ tags: ['GeologicalAndMiningEngineering', 'GeologicalAndMiningEngineering']
 
 岩石力学是研究岩石在荷载作用下的力学行为的基础学科，是采矿、石油、地质工程的核心理论基础：
 
-- 岩石的强度理论（Mohr-Coulomb准则、Hoek-Brown准则）
+- 岩石的强度理论（Mohr-Coulomb 准则、Hoek-Brown 准则）
 - 岩体结构面力学效应
 - 地应力测量与岩体稳定性分析
 - 数值模拟方法（有限元法、离散元法）
@@ -93,7 +95,7 @@ tags: ['GeologicalAndMiningEngineering', 'GeologicalAndMiningEngineering']
 - **地质块段法**：根据地质特征将矿体划分为若干块段分别计算储量
 - **断面法**：利用勘探线剖面图计算矿体截面积和体积
 - **地质统计学方法**：基于变异函数和克里格法进行储量估算
-- **SD法**：我国独创的储量计算方法，适用于复杂矿体
+- **SD 法**：我国独创的储量计算方法，适用于复杂矿体
 
 ### 矿山设计与生产系统
 
@@ -138,7 +140,7 @@ tags: ['GeologicalAndMiningEngineering', 'GeologicalAndMiningEngineering']
 - 数字矿山：建立矿山三维地质模型和开采信息系统
 - 智能采矿：遥控采矿设备、自动化运输系统、井下无人作业
 - 智能油田：油藏实时监测、智能完井、自动化钻井
-- 大数据与AI：地质数据智能解释、矿产资源预测、设备故障诊断
+- 大数据与 AI：地质数据智能解释、矿产资源预测、设备故障诊断
 
 ### 矿山环境与生态修复
 
@@ -146,7 +148,7 @@ tags: ['GeologicalAndMiningEngineering', 'GeologicalAndMiningEngineering']
 
 - **土地复垦**：采掘场回填平整、表土剥离存储、复垦区土壤重构
 - **尾矿库管理**：尾矿库坝体稳定性监测、防渗处理、尾矿综合利用
-- **酸性矿井排水AMD治理**：源头控制、主动处理（中和法、硫化物沉淀法）、被动处理（人工湿地、硫酸盐还原菌）
+- **酸性矿井排水 AMD 治理**：源头控制、主动处理（中和法、硫化物沉淀法）、被动处理（人工湿地、硫酸盐还原菌）
 - **采空区地表沉陷控制**：充填开采法、条带开采法、覆岩离层注浆
 - **粉尘与噪声治理**：湿式凿岩、喷雾降尘、消声隔声设施
 
@@ -167,7 +169,7 @@ tags: ['GeologicalAndMiningEngineering', 'GeologicalAndMiningEngineering']
 - **投资指标**：吨矿投资、基建投资、流动资金
 - **成本指标**：采矿成本、选矿成本、总成本费用
 - **效率指标**：采矿回采率、选矿回收率、贫化率
-- **效益指标**：净现值NPV、内部收益率IRR、投资回收期
+- **效益指标**：净现值 NPV、内部收益率 IRR、投资回收期
 
 ## 典型工程案例
 
@@ -177,7 +179,7 @@ tags: ['GeologicalAndMiningEngineering', 'GeologicalAndMiningEngineering']
 
 ### 深部开采工程
 
-**案例：南非金田公司South Deep金矿**——世界最深的地下金矿之一，开采深度达3000m以上。面临高温岩层（地温>50°C）、高应力岩爆风险、深井提升等技术挑战，采用深井制冷通风系统、岩爆预测与控制技术，以及大规模机械化充填采矿法。
+**案例：南非金田公司 South Deep 金矿**——世界最深的地下金矿之一，开采深度达3000m 以上。面临高温岩层（地温>50°C）、高应力岩爆风险、深井提升等技术挑战，采用深井制冷通风系统、岩爆预测与控制技术，以及大规模机械化充填采矿法。
 
 ## 主要应用领域
 

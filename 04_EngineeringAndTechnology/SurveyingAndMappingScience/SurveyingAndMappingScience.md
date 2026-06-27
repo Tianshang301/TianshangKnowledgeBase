@@ -1,6 +1,8 @@
 ---
 aliases: [SurveyingAndMappingScience, 测绘科学与技术, Geomatics]
 tags: ['SurveyingAndMappingScience', 'Geomatics', 'Geodesy', 'Cartography']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 测绘科学与技术 (Surveying and Mapping Science / Geomatics)
@@ -15,7 +17,7 @@ tags: ['SurveyingAndMappingScience', 'Geomatics', 'Geodesy', 'Cartography']
 graph TD
   A[测绘科学与技术<br/>Surveying & Mapping Science] --> B[大地测量学<br/>Geodesy]
   A --> C[摄影测量与遥感<br/>Photogrammetry & RS]
-  A --> D[地图学与GIS<br/>Cartography & GIS]
+  A --> D[地图学与 GIS<br/>Cartography & GIS]
   A --> E[工程测量<br/>Engineering Surveying]
   A --> F[海洋测绘<br/>Hydrographic Surveying]
   B --> G[物理大地测量<br/>Physical Geodesy]

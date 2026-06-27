@@ -1,6 +1,8 @@
 ---
 aliases: [Scale]
 tags: ['MusicTheory', 'Scale', 'ArtsAndCreativity', 'Music']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # Scale
@@ -95,7 +97,7 @@ $$ \text{小调五声（Minor Pentatonic）: C - E♭ - F - G - B♭} $$
 
 ```mermaid
 flowchart LR
-    ION[C Ionian = C大调] --> |2| DOR[D Dorian D-E-F-G-A-B-C-D]
+    ION[C Ionian = C 大调] --> |2| DOR[D Dorian D-E-F-G-A-B-C-D]
     DOR --> |3| PHR[E Phrygian]
     PHR --> |4| LYD[F Lydian]
     LYD --> |5| MIX[G Mixolydian]

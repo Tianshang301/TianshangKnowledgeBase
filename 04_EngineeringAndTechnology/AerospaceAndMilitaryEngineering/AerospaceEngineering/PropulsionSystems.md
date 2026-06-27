@@ -1,4 +1,11 @@
-﻿---
+---
+aliases: [PropulsionSystems]
+tags: ['AerospaceAndMilitaryEngineering', 'AerospaceEngineering', 'PropulsionSystems.md']
+created: 2026-05-17
+updated: 2026-05-17
+---
+
+---
 aliases: [PropulsionSystems]
 tags: ['04_EngineeringAndTechnology', 'AerospaceAndMilitaryEngineering', 'AerospaceEngineering']
 ---
@@ -156,7 +163,7 @@ Jet A/A-1 (航空煤油)：热值 43 MJ/kg，冰点 -47°C (Jet A-1)，闪点 > 
 | 核电推进 NEP | 核反应堆发电 + 电推进 | 3000-5000s | 概念研究 |
 | 太阳帆 (Solar Sail) | 太阳光压 (Radiation Pressure) | 无限 (无需推进剂) | IKAROS (JAXA), LightSail |
 | VASIMR (可变比冲磁等离子体) | 射频加热 + 磁喷嘴加速 | 3000-30000s | 地面试验 |
-| 聚变推进 (Fusion Propulsion) | 核聚变产能 | 10万-100万s | 理论阶段 |
+| 聚变推进 (Fusion Propulsion) | 核聚变产能 | 10万-100万 s | 理论阶段 |
 
 ## 七、喷管设计与冷却
 
@@ -186,7 +193,7 @@ $$\frac{A}{A_t} = \frac{1}{M}\left[\frac{2}{\gamma+1}\left(1+\frac{\gamma-1}{2}M
 **涵道比 (BPR) 选取**：远程宽体机 BPR 9-12，中短程窄体机 BPR 5-6，超音速战斗机 BPR 0.3-0.6。
 
 由任务剖面 (Mission Profile) 确定推力需求：
- F_{req} = \frac{W}{L/D} + W\sin\theta + m\frac{dV}{dt} 
+ F_{req} = \frac{W}{L/D} + W\sin\theta + m\frac{dV}{dt}
 
 $\theta$ 为航迹角 (Flight Path Angle)。起飞推力需满足第 2 段爬升梯度 (Second Segment Climb Gradient, FAR Part 25：$\geq 2.4\%$ 双发，$\geq 2.7\%$ 四发)。
 
@@ -239,7 +246,7 @@ $\theta$ 为航迹角 (Flight Path Angle)。起飞推力需满足第 2 段爬升
 
 **气路分析 (Gas Path Analysis, GPA)**：基于部件特性偏差 (偏差系数 $\Delta \eta$、$\Delta \Gamma$) 诊断部件性能衰退。
 **剩余寿命预测 (RUL, Remaining Useful Life)**：基于贝叶斯 (Bayesian) 或机器学习 (LSTM, 长短时记忆网络) 方法。
- RUL = f(\mathbf{x}_{hist}, \mathbf{x}_{current}) 
+ RUL = f(\mathbf{x}_{hist}, \mathbf{x}_{current})
 
 **EOHM (Engine Online Health Monitoring)**：实时数据传输至地面监控站 (如 GE 的航空大数据平台 Predix)。
 
@@ -265,7 +272,7 @@ $\theta$ 为航迹角 (Flight Path Angle)。起飞推力需满足第 2 段爬升
 ## 十三、先进推进概念详述
 
 **变循环发动机 (Variable Cycle Engine, VCE)**：GE Adaptive Cycle Engine (AETD/AETE 项目)，三涵道设计调节不同飞行条件。
- \text{Mode: } \begin{cases} \text{高推力模式 (High Thrust)} & \text{高燃油流量、大内涵道} \\ \text{高效率模式 (High Efficiency)} & \text{低燃油流量、高涵道比} \end{cases} 
+ \text{Mode: } \begin{cases} \text{高推力模式 (High Thrust)} & \text{高燃油流量、大内涵道} \\ \text{高效率模式 (High Efficiency)} & \text{低燃油流量、高涵道比} \end{cases}
 
 **旋转爆震发动机 (RDE, Rotating Detonation Engine)**：利用爆震波 (Detonation Wave, 5-10 kHz) 环形燃烧，热效率较等压燃烧高 15-25%。
 **斜爆震发动机 (ODE, Oblique Detonation Engine)**：适用于 Ma 5+ 高速飞行。
@@ -288,7 +295,7 @@ $\theta$ 为航迹角 (Flight Path Angle)。起飞推力需满足第 2 段爬升
 
 比转速 (Specific Speed)： = \frac{N\sqrt{Q}}{H^{3/4}}$，决定泵类型 (离心/混流/轴流)。
 **空化余量 (NPSH, Net Positive Suction Head)** ：
- NPSH_A = \frac{p_{in} - p_v}{\rho g} + \frac{v^2}{2g} \geq NPSH_R 
+ NPSH_A = \frac{p_{in} - p_v}{\rho g} + \frac{v^2}{2g} \geq NPSH_R
 
 诱导轮 (Inducer) 设计用于前置增压，减少空化 (Cavitation)风险。典型转速 10-50 krpm。
 
@@ -335,7 +342,7 @@ $\theta$ 为航迹角 (Flight Path Angle)。起飞推力需满足第 2 段爬升
 
 ### 17.2 全生命周期成本 (LCC, Life Cycle Cost)
 
- LCC = C_{R\&D} + C_{Acquisition} + C_{Operation} + C_{Support} + C_{Disposal} 
+ LCC = C_{R\&D} + C_{Acquisition} + C_{Operation} + C_{Support} + C_{Disposal}
 
 **每飞行小时成本 (Cost per Flight Hour, CFH)** 是评价推进系统经济性的关键指标。
 **备件率 (Spare Parts Ratio)** 和 **平均维修间隔时间 (MTBR, Mean Time Between Removals)**。

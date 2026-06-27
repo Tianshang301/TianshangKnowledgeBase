@@ -1,6 +1,8 @@
 ---
 aliases: [Collections]
 tags: ['ProgrammingLanguages', 'Java', 'Collections']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Java 集合框架
@@ -351,16 +353,16 @@ list.sort(Comparator.comparing(Student::getName)
 
 ## 快速参考表
 
-| 集合类 | 底层结构 | 有序 | 线程安全 | 允许null | 时间复杂度 |
+| 集合类 | 底层结构 | 有序 | 线程安全 | 允许 null | 时间复杂度 |
 |--------|---------|------|---------|---------|-----------|
 | ArrayList | 动态数组 | 插入顺序 | 否 | 是 | get/set O(1), add/remove O(n) |
 | LinkedList | 双向链表 | 插入顺序 | 否 | 是 | get O(n), add/remove O(1) |
-| HashSet | HashMap | 否 | 否 | 允许null | add/remove/contains O(1) |
-| LinkedHashSet | LinkedHashMap | 插入顺序 | 否 | 允许null | add/remove/contains O(1) |
-| TreeSet | TreeMap(红黑树) | 排序 | 否 | 不允许null | add/remove/contains O(log n) |
-| HashMap | 数组+链表+红黑树 | 否 | 否 | 允许一个null key | get/put O(1) |
-| LinkedHashMap | HashMap+双向链表 | 插入/访问顺序 | 否 | 允许一个null key | get/put O(1) |
-| TreeMap | 红黑树 | 排序 | 否 | 不允许null | get/put O(log n) |
-| ConcurrentHashMap | 数组+链表+红黑树+CAS | 否 | 是 | 不允许null | get/put O(1) |
-| PriorityQueue | 堆 | 优先级顺序 | 否 | 不允许null | offer/poll O(log n) |
-| ArrayDeque | 循环数组 | 插入顺序 | 否 | 不允许null | 两端操作 O(1) |
+| HashSet | HashMap | 否 | 否 | 允许 null | add/remove/contains O(1) |
+| LinkedHashSet | LinkedHashMap | 插入顺序 | 否 | 允许 null | add/remove/contains O(1) |
+| TreeSet | TreeMap(红黑树) | 排序 | 否 | 不允许 null | add/remove/contains O(log n) |
+| HashMap | 数组+链表+红黑树 | 否 | 否 | 允许一个 null key | get/put O(1) |
+| LinkedHashMap | HashMap+双向链表 | 插入/访问顺序 | 否 | 允许一个 null key | get/put O(1) |
+| TreeMap | 红黑树 | 排序 | 否 | 不允许 null | get/put O(log n) |
+| ConcurrentHashMap | 数组+链表+红黑树+CAS | 否 | 是 | 不允许 null | get/put O(1) |
+| PriorityQueue | 堆 | 优先级顺序 | 否 | 不允许 null | offer/poll O(log n) |
+| ArrayDeque | 循环数组 | 插入顺序 | 否 | 不允许 null | 两端操作 O(1) |

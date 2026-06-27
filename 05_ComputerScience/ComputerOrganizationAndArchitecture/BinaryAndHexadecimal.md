@@ -1,6 +1,8 @@
 ---
 aliases: [BinaryAndHexadecimal]
 tags: ['05_ComputerScience', 'ComputerOrganizationAndArchitecture']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 二进制与十六进制 (Binary and Hexadecimal)
@@ -79,7 +81,7 @@ $$0+0=0, \quad 0+1=1, \quad 1+0=1, \quad 1+1=0\ \text{进位 }1$$
 
 ```text
   101101  (45)
-+ 011011  (27)
+- 011011  (27)
 --------
  1001000  (72)
 ```
@@ -91,7 +93,7 @@ $$0+0=0, \quad 0+1=1, \quad 1+0=1, \quad 1+1=0\ \text{进位 }1$$
   -----
     101   (1 × 101)
    1010   (1 × 101, 左移 1 位)
-+ 00000   (0 × 101, 左移 2 位)
+- 00000   (0 × 101, 左移 2 位)
 --------
    1111   (15)
 ```

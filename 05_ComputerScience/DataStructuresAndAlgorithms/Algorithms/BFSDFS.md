@@ -1,6 +1,8 @@
 ---
 aliases: [BFSDFS]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'BFSDFS']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # BFS / DFS 详解

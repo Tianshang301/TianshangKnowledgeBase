@@ -1,6 +1,8 @@
 ---
 aliases: [Heap]
 tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'Heap']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 堆详解

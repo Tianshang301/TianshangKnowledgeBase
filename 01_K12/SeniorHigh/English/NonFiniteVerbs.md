@@ -1,6 +1,8 @@
 ---
 aliases: [NonFiniteVerbs]
 tags: ['EnglishGrammar', 'K12', 'SeniorHigh', 'Syntax']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # NonFiniteVerbs

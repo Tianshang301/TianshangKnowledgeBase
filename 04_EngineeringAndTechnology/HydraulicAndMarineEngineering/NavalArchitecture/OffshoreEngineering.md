@@ -5,6 +5,8 @@ aliases:
   - Subsea Technology
   - Marine Renewable Energy
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - engineering
   - offshore
   - petroleum
@@ -93,8 +95,8 @@ $F$ 为设计系数，$E$ 为纵向焊缝系数，$T$ 为温度折减系数。
 
 | 方法 | 原理 | 适用水深 | 特点 |
 |------|------|----------|------|
-| S铺设法 | 船尾入水 | <1000m | 传统方法 |
-| J铺设法 | 近乎垂直入水 | >1000m | 适合深水 |
+| S 铺设法 | 船尾入水 | <1000m | 传统方法 |
+| J 铺设法 | 近乎垂直入水 | >1000m | 适合深水 |
 | 卷筒铺设法 | 卷盘释放 | <400m | 效率高 |
 | 牵引铺设法 | 预挖沟牵引 | 近岸 | 浅水专用 |
 
@@ -205,7 +207,7 @@ $$P = \frac{1}{2} \rho A V^3$$
 
 ### 水下机器人 (ROV/AUV)
 
-ROV运动控制：
+ROV 运动控制：
 
 $$\tau = M \dot{\nu} + C(\nu)\nu + D(\nu)\nu + g(\eta)$$
 
@@ -224,11 +226,11 @@ $$\tau = M \dot{\nu} + C(\nu)\nu + D(\nu)\nu + g(\eta)$$
 
 $$Risk = P_{failure} \times Consequence$$
 
-个体风险（IR）和社会风险（F-N曲线）：
+个体风险（IR）和社会风险（F-N 曲线）：
 
 $$F(N) = a \cdot N^{-b}$$
 
-ALARP原则（As Low As Reasonably Practicable）。
+ALARP 原则（As Low As Reasonably Practicable）。
 
 
 ### 溢油应急 (Oil Spill Response)
@@ -237,7 +239,7 @@ ALARP原则（As Low As Reasonably Practicable）。
 
 $$A = \pi k^2 (\Delta \rho / \rho_w)^2 t^4$$
 
-Fay扩散三阶段：
+Fay 扩散三阶段：
 
 1. **重力-惯性阶段**：扩展迅速
 2. **重力-黏性阶段**：扩展减缓

@@ -1,6 +1,8 @@
 ---
 aliases: [QuantumComputing, 量子计算, QC]
 tags: ['07_Interdisciplinary', 'QuantumInformation', 'QuantumComputing']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 量子计算概论

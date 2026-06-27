@@ -1,15 +1,17 @@
 ---
 aliases: [SequenceAlignment]
 tags: ['Bioinformatics', 'SequenceAlignment']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 序列比对
 
 ## 概述
 
-序列比对是生物信息学的基硢抢术，用于比较两个或多个生物序列（DNA、RNA或蛋白质）的相似性过比对可以发现序列间的同源性保守区域和功能位点?
+序列比对是生物信息学的基硢抢术，用于比较两个或多个生物序列（DNA、RNA 或蛋白质）的相似性过比对可以发现序列间的同源性保守区域和功能位点?
 ## 双序列比?
-### 全局比对（Needleman-Wunsch算法?
+### 全局比对（Needleman-Wunsch 算法?
 **原理?*
 - 对两条序列进行全程比?- 适用于长度和相似性较高的序列
 
@@ -23,7 +25,7 @@ $$F(i,j) = \max\begin{cases} F(i-1,j-1) + s(x_i, y_j) & \text{匹配/错配} \\ 
 **参数?*
 - 替换矩阵：PAM、BLOSUM
 - 空位罚分（gap penalty?
-**Python实现?*
+**Python 实现?*
 ```python
 def needleman_wunsch(seq1, seq2, match=1, mismatch=-1, gap=-2):
     n, m = len(seq1), len(seq2)
@@ -48,7 +50,7 @@ def needleman_wunsch(seq1, seq2, match=1, mismatch=-1, gap=-2):
     return score[n][m]
 ```
 
-### 屢部比对（Smith-Waterman算法?
+### 屢部比对（Smith-Waterman 算法?
 **原理?*
 - 寻找两条序列中最相似的局部区?- 适用于长度差异大或只有部分相似的序列
 
@@ -69,7 +71,7 @@ $$F(i,j) = \max\begin{cases} 0 \\ F(i-1,j-1) + s(x_i, y_j) \\ F(i-1,j) + d \\ F(
 
 **步骤?*
 1. 计算两两距离矩阵
-2. 构建引导树（NJ法）
+2. 构建引导树（NJ 法）
 3. 按照树的顺序渐进比对
 4. 优化比对结果
 
@@ -85,11 +87,11 @@ $$F(i,j) = \max\begin{cases} 0 \\ F(i-1,j-1) + s(x_i, y_j) \\ F(i-1,j) + d \\ F(
 - 结合多种比对策略
 
 **特点?*
-- 速度快于ClustalW
+- 速度快于 ClustalW
 - 准确性较?- 可处理大规模数据
 
 **步骤?*
-1. 初始比对（k-mer距离?2. 构建引导?3. 渐进比对
+1. 初始比对（k-mer 距离?2. 构建引导?3. 渐进比对
 4. 迭代优化（最?6轮）
 
 ### MAFFT
@@ -117,13 +119,13 @@ $$F(i,j) = \max\begin{cases} 0 \\ F(i-1,j-1) + s(x_i, y_j) \\ F(i-1,j) + d \\ F(
 
 ### 替换矩阵
 
-**PAM矩阵（Point Accepted Mutation）：**
+**PAM 矩阵（Point Accepted Mutation）：**
 - 基于进化模型
 - PAM250：用?5%序列丢致?- 数越大，进化距离越远
 
 **计算方法?*
 1. 统计已知进化距离的蛋白质?2. 计算氨基酸替换频?3. 转换为对数几率得?
-**BLOSUM矩阵（BLOcks SUbstitution Matrix）：**
+**BLOSUM 矩阵（BLOcks SUbstitution Matrix）：**
 - 基于保守区域
 - BLOSUM62：用?0%序列丢致?- 数越大，保守性越?
 **常用矩阵?*
@@ -133,18 +135,18 @@ $$F(i,j) = \max\begin{cases} 0 \\ F(i-1,j-1) + s(x_i, y_j) \\ F(i-1,j) + d \\ F(
 
 **线空位罚分：**
 $$G(k) = -k \times d$$
-其中k为空位长度，d为罚?
+其中 k 为空位长度，d 为罚?
 **仿射空位罚分?*
 $$G(k) = -d - (k-1) \times e$$
-其中d为空位开放罚分，e为空位延伸罚?
+其中 d 为空位开放罚分，e 为空位延伸罚?
 **参数选择?*
 - 严格比对：高罚分
 - 松弛比对：低罚分
-- 通常d=10，e=1
+- 通常 d=10，e=1
 
 ## 隐马尔可夫模型在比对中的应用
 
-### HMM基本原理
+### HMM 基本原理
 
 **组成?*
 - 隐状态：比对位置
@@ -153,7 +155,7 @@ $$G(k) = -d - (k-1) \times e$$
 - 发射概率：各状产生观测的概率
 
 **三个基本问题?*
-1. 评估问题：给定模型和观测序列，计算概率（前向算法?2. 解码问题：给定模型和观测序列，找到最可能的状态序列（Viterbi算法?3. 学习问题：给定观测序列，估计模型参数（Baum-Welch算法?
+1. 评估问题：给定模型和观测序列，计算概率（前向算法?2. 解码问题：给定模型和观测序列，找到最可能的状态序列（Viterbi 算法?3. 学习问题：给定观测序列，估计模型参数（Baum-Welch 算法?
 ### Profile HMM
 
 **结构?*
@@ -170,7 +172,7 @@ $$G(k) = -d - (k-1) \times e$$
 - 序列搜索（hmmscan?- 序列比对（hmmalign?- 数据库搜索（hmmsearch?
 **使用?*
 ```bash
-# 构建HMM模型
+# 构建 HMM 模型
 hmmbuild alignment.afa seqs.afa
 
 # 搜索数据?hmmsearch --domtblout results.txt model.hmm database.fa

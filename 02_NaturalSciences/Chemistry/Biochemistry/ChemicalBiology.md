@@ -1,4 +1,11 @@
-﻿---
+---
+aliases: [ChemicalBiology]
+tags: ['Chemistry', 'Biochemistry', 'ChemicalBiology.md']
+created: 2026-05-17
+updated: 2026-05-17
+---
+
+---
 aliases: [ChemicalBiology, ChemicalProbes, Bioorthogonal]
 tags: ['Chemistry/ChemicalBiology', 'Interdisciplinary', 'Biochemistry']
 ---

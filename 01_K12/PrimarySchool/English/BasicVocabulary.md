@@ -1,6 +1,8 @@
 ---
 aliases: [BasicVocabulary]
 tags: ['PrimarySchool', 'English', 'BasicVocabulary']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 基础词汇
@@ -204,7 +206,7 @@ A: You're welcome.
 ## 参考资料
 
 - 小学英语词汇表
-- 英语学习APP
+- 英语学习 APP
 - 英语绘本
 - 英语儿歌
 

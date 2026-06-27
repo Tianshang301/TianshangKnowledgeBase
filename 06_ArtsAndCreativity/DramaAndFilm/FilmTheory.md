@@ -1,6 +1,8 @@
 ---
 aliases: [FilmTheory]
 tags: ['FilmTheory', 'Cinema', 'ArtsAndCreativity']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # Film Theory（电影理论）

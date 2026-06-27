@@ -1,6 +1,8 @@
 ---
 aliases: [DecisionTheory, 决策理论, 决策分析, DecisionAnalysis]
 tags: ['11_ManagementSciences', 'ManagementScienceAndEngineering', 'DecisionMaking']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 决策理论 (Decision Theory)

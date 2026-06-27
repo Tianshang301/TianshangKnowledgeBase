@@ -1,6 +1,8 @@
 ---
 aliases: [AppliedStatistics, 应用统计学, 实用统计]
 tags: ['07_InterdisciplinarySciences', 'AppliedStatistics', 'DataScience', 'Engineering']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 应用统计学概论 Applied Statistics Overview

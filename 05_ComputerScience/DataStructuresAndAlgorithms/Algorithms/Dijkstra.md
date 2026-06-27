@@ -1,6 +1,8 @@
 ---
 aliases: [Dijkstra]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'Dijkstra']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Dijkstra 最短路径算法

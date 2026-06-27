@@ -7,6 +7,8 @@ aliases:
   - 终身学习
   - Lifelong Learning
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - education
   - adult-education
   - lifelong-learning
@@ -116,7 +118,7 @@ graph TD
 
 ### 微证书与数字徽章 (Micro-credentials and Digital Badges)
 
-微证书是对特定技能或知识模块的认证，体量小于传统学位课程，具有灵活性、模块化与可堆叠 (stackable) 特征。数字徽章 (digital badges) 以开放标准（如Open Badges）记录学习成就，嵌入元数据展示颁发机构、评估标准与能力描述。
+微证书是对特定技能或知识模块的认证，体量小于传统学位课程，具有灵活性、模块化与可堆叠 (stackable) 特征。数字徽章 (digital badges) 以开放标准（如 Open Badges）记录学习成就，嵌入元数据展示颁发机构、评估标准与能力描述。
 
 ## 成人学习者的特征与需求 (Characteristics and Needs of Adult Learners)
 

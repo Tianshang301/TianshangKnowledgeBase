@@ -1,6 +1,8 @@
 ---
 aliases: [SemiconductorPhysics]
 tags: ['ElectronicsAndCommunications', 'Microelectronics', 'SemiconductorPhysics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 半导体物理
@@ -11,8 +13,8 @@ tags: ['ElectronicsAndCommunications', 'Microelectronics', 'SemiconductorPhysics
 ## 研究对象
 - 能带理论与载流子分布
 - 半导体中的输运现象
-- PN结原理
-- MOSFET工作原理
+- PN 结原理
+- MOSFET 工作原理
 
 ## 核心内容
 
@@ -46,13 +48,13 @@ $N_c$、$N_v$ 分别为导带和价带的有效态密度。
 - 费米-狄拉克分布：$f(E) = \frac{1}{1+\exp[(E-E_F)/kT]}$
 
 **掺杂**：
-- N型掺杂：施主杂质（P、As）提供电子
-- P型掺杂：受主杂质（B、Ga）提供空穴
-- $n \approx N_D$（N型），$p \approx N_A$（P型）
+- N 型掺杂：施主杂质（P、As）提供电子
+- P 型掺杂：受主杂质（B、Ga）提供空穴
+- $n \approx N_D$（N 型），$p \approx N_A$（P 型）
 
-### PN结原理
+### PN 结原理
 
-**PN结形成**：
+**PN 结形成**：
 - 扩散运动：载流子从高浓度向低浓度扩散
 - 漂移运动：内建电场驱动载流子
 - 耗尽层：载流子耗尽的空间电荷区
@@ -61,7 +63,7 @@ $N_c$、$N_v$ 分别为导带和价带的有效态密度。
 
 $$V_{bi} = \frac{kT}{q}\ln\left(\frac{N_A N_D}{n_i^2}\right)$$
 
-**PN结电流方程**：
+**PN 结电流方程**：
 
 $$I = I_s\left[\exp\left(\frac{qV}{nkT}\right) - 1\right]$$
 
@@ -69,12 +71,12 @@ $I_s$ 为反向饱和电流，$n$ 为理想因子（1~2）。
 
 **击穿机制**：
 - 雪崩击穿：高电场加速载流子→碰撞电离
-- 齐纳击穿：高掺杂PN结的量子隧穿
+- 齐纳击穿：高掺杂 PN 结的量子隧穿
 - 击穿电压：$V_{BR} \propto 1/N_B^{0.75}$
 
-### MOSFET工作原理
+### MOSFET 工作原理
 
-**MOS结构**：
+**MOS 结构**：
 - 金属-氧化物-半导体三层结构
 - 栅极电压控制半导体表面电场
 
@@ -113,7 +115,7 @@ $$I_D \propto \exp\left(\frac{q(V_{GS}-V_{th})}{nkT}\right)$$
 - 分立器件（二极管、MOSFET）
 - 功率电子器件（IGBT、SiC MOSFET）
 - 光电器件（LED、激光器、太阳能电池）
-- 传感器（MEMS、CMOS图像传感器）
+- 传感器（MEMS、CMOS 图像传感器）
 - 宽禁带半导体（GaN、SiC）
 
 ## 相关条目

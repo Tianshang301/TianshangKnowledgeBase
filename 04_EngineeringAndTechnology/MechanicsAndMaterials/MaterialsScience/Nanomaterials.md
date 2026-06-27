@@ -6,6 +6,8 @@ aliases:
   - Graphene
   - Quantum Dots
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - materials
   - nanotechnology
   - chemistry
@@ -208,7 +210,7 @@ $$\frac{dL}{dt} = k_0 \exp\left(-\frac{E_a}{RT}\right) P_{hydrocarbon}$$
 
 $$E_c = E_m(1 + \eta_L \eta_0 V_f) + E_f V_f$$
 
-Halpin-Tsai方程：
+Halpin-Tsai 方程：
 
 $$\frac{E_c}{E_m} = \frac{1 + \xi \eta V_f}{1 - \eta V_f}, \quad \eta = \frac{E_f/E_m - 1}{E_f/E_m + \xi}$$
 
@@ -246,10 +248,10 @@ graph TD
     A --> D[传感器<br/>Sensors]
     A --> E[显示器<br/>Displays]
     
-    B --> B1[碳纳米管FET<br/>CNT-FET]
+    B --> B1[碳纳米管 FET<br/>CNT-FET]
     C --> C1[阻变存储<br/>ReRAM]
     D --> D1[气体传感器<br/>Gas Sensor]
-    E --> E1[QLED<br/>量子点LED]
+    E --> E1[QLED<br/>量子点 LED]
     
     style A fill:#87CEEB
     style E fill:#FFE66D
@@ -260,7 +262,7 @@ graph TD
 
 - **锂离子电池**：纳米结构提高倍率性能
 - **太阳能电池**：量子点敏化、多激子增益
-- **燃料电池**：纳米催化剂提高Pt利用率
+- **燃料电池**：纳米催化剂提高 Pt 利用率
 - **超级电容器**：高比表面积电极材料
 
 
@@ -268,8 +270,8 @@ graph TD
 
 | 应用 | 纳米材料 | 机制 |
 |------|----------|------|
-| 药物递送 | 脂质体、胶束 | EPR效应 |
-| 医学影像 | 磁性纳米颗粒 | MRI造影 |
+| 药物递送 | 脂质体、胶束 | EPR 效应 |
+| 医学影像 | 磁性纳米颗粒 | MRI 造影 |
 | 光热治疗 | 金纳米壳 | 近红外吸收 |
 | 组织工程 | 纳米纤维支架 | 仿生结构 |
 
@@ -282,8 +284,8 @@ graph TD
 
 | 因素 | 影响 | 评价指标 |
 |------|------|----------|
-| 粒径 | <50nm易入细胞 | IC50 |
-| 表面电荷 | 影响细胞膜作用 | Zeta电位 |
+| 粒径 | <50nm 易入细胞 | IC50 |
+| 表面电荷 | 影响细胞膜作用 | Zeta 电位 |
 | 化学组成 | 溶出离子毒性 | 离子浓度 |
 | 形貌 | 长纤维类石棉效应 | 长径比 |
 

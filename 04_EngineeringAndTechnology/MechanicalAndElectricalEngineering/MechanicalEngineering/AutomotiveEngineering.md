@@ -1,6 +1,8 @@
 ---
 aliases: [AutomotiveEngineering]
 tags: ['04_EngineeringAndTechnology', 'MechanicalAndElectricalEngineering', 'MechanicalEngineering']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 汽车工程 (Automotive Engineering)

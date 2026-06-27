@@ -1,6 +1,8 @@
 ---
 aliases: [Vocabulary3500Alphabetical]
 tags: ['01_K12', 'SeniorHigh', 'English']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 
@@ -2260,7 +2262,7 @@ tags: ['01_K12', 'SeniorHigh', 'English']
 | wound | /wuːnd/ | n. | 伤口 | treat a wound |
 | write | wrote | written |  |
 | writer | /ˈraɪtə/ | n. | 作家 | science fiction writer |
-| X-ray | /ˈeks reɪ/ | n. | X射线 | have an X-ray |
+| X-ray | /ˈeks reɪ/ | n. | X 射线 | have an X-ray |
 | yield | /jiːld/ | v./n. | 产出；屈 | yield results |
 | yoga | /ˈjəʊɡə/ | n. | 瑜伽 | do yoga |
 | youth | /juːθ/ | n. | 青春；青 | in one's youth |

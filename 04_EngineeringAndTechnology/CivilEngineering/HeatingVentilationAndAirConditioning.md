@@ -1,4 +1,11 @@
-﻿---
+---
+aliases: [HeatingVentilationAndAirConditioning]
+tags: ['CivilEngineering', 'HeatingVentilationAndAirConditioning.md']
+created: 2026-05-17
+updated: 2026-05-17
+---
+
+---
 aliases: [HeatingVentilationAndAirConditioning]
 tags: ['04_EngineeringAndTechnology', 'CivilEngineering', 'BuildingScience', 'HVAC']
 ---

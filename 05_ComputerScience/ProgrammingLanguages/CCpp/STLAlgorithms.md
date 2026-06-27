@@ -1,6 +1,8 @@
 ---
 aliases: [STLAlgorithms]
-tags: ['ProgrammingLanguages', 'C_Cpp', 'STLAlgorithms']
+tags: ['ProgrammingLanguages', 'CCpp', 'STLAlgorithms']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # C++ STL 算法

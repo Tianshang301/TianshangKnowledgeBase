@@ -1,6 +1,8 @@
 ---
 aliases: [StructuralAnalysis]
 tags: ['CivilEngineering', 'StructuralEngineering', 'StructuralAnalysis']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 结构分析
@@ -123,7 +125,7 @@ $$\frac{dV}{dx} = -q, \quad \frac{dM}{dx} = V, \quad \frac{d^2M}{dx^2} = -q$$
 
 ### 结构稳定性分析
 
-**Euler压杆稳定**：
+**Euler 压杆稳定**：
 
 临界荷载：$$P_{cr} = \frac{\pi^2 EI}{(KL)^2}$$
 
@@ -187,7 +189,7 @@ $$[k]^e = \int_V [B]^T[D][B]dV$$
 | 单元类型 | 节点数 | 自由度 | 形状函数 | 适用问题 |
 |---------|-------|-------|---------|---------|
 | 杆单元 (Truss) | 2 | 1/节点 | 线性 | 桁架、拉压杆 |
-| 梁单元 (Beam) | 2 | 3/节点 | Hermite三次 | 框架、连续梁 |
+| 梁单元 (Beam) | 2 | 3/节点 | Hermite 三次 | 框架、连续梁 |
 | 平面三角形 (CST) | 3 | 2/节点 | 线性 | 平面应力/应变 |
 | 四边形单元 (Q4) | 4 | 2/节点 | 双线性 | 平面问题 |
 | 四面体单元 (T4) | 4 | 3/节点 | 线性 | 三维实体 |

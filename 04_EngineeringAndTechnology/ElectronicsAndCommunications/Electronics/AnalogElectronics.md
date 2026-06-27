@@ -1,6 +1,8 @@
 ---
 aliases: [AnalogElectronics]
 tags: ['ElectronicsAndCommunications', 'Electronics', 'AnalogElectronics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 模拟电子
@@ -18,11 +20,11 @@ tags: ['ElectronicsAndCommunications', 'Electronics', 'AnalogElectronics']
 
 ### 半导体基础
 
-**PN结**：
-- P型半导体（空穴多数载流子）与N型半导体（电子多数载流子）接触形成PN结
+**PN 结**：
+- P 型半导体（空穴多数载流子）与 N 型半导体（电子多数载流子）接触形成 PN 结
 - 扩散运动：载流子从高浓度向低浓度扩散
 - 漂移运动：载流子在电场作用下定向运动
-- 耗尽层：PN结附近载流子被耗尽的区域
+- 耗尽层：PN 结附近载流子被耗尽的区域
 
 **二极管**：
 - 伏安特性：$I = I_s(e^{V/V_T}-1)$
@@ -56,7 +58,7 @@ tags: ['ElectronicsAndCommunications', 'Electronics', 'AnalogElectronics']
 
 ### 场效应管放大电路
 
-**MOSFET工作原理**：
+**MOSFET 工作原理**：
 - 通过栅极电压控制漏极电流
 - 转移特性（饱和区）：$I_D = \frac{1}{2}k_n'(W/L)(V_{GS}-V_{th})^2$
 - 输出特性：$V_{DS} \geq V_{GS} - V_{th}$（饱和区）
@@ -103,13 +105,13 @@ tags: ['ElectronicsAndCommunications', 'Electronics', 'AnalogElectronics']
 
 ### 功率放大电路
 
-**甲类（A类）**：导通角360°，效率低（≤25%）
-**乙类（B类）**：导通角180°，效率高（≤78.5%），有交越失真
-**甲乙类（AB类）**：导通角略大于180°，兼顾效率和失真
-**D类**：开关工作方式，效率最高（>90%）
+**甲类（A 类）**：导通角360°，效率低（≤25%）
+**乙类（B 类）**：导通角180°，效率高（≤78.5%），有交越失真
+**甲乙类（AB 类）**：导通角略大于180°，兼顾效率和失真
+**D 类**：开关工作方式，效率最高（>90%）
 
-**OCL电路**：双电源供电，输出电容耦合
-**OTL电路**：单电源供电，输出电容耦合
+**OCL 电路**：双电源供电，输出电容耦合
+**OTL 电路**：单电源供电，输出电容耦合
 
 ## 经典教材
 - 童诗白《模拟电子技术基础》
@@ -122,7 +124,7 @@ tags: ['ElectronicsAndCommunications', 'Electronics', 'AnalogElectronics']
 - 传感器接口电路
 - 音频放大器
 - 电源管理电路
-- 数据采集系统（ADC/DAC前端）
+- 数据采集系统（ADC/DAC 前端）
 - 射频通信电路
 
 ## 相关条目

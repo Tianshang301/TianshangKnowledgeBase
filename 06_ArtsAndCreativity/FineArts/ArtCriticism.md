@@ -1,6 +1,8 @@
 ---
 aliases: [ArtCriticism, 艺术批评, 艺术评论, 视觉批评, 美学批评]
 tags: ['06_ArtsAndCreativity', 'FineArts', 'ArtCriticism']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 艺术批评（Art Criticism）

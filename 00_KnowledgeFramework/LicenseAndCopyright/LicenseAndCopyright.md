@@ -1,6 +1,8 @@
 ---
 aliases: [LicenseAndCopyright, 许可证与版权, CopyrightLaw, LicensingGuide]
 tags: ['LicenseAndCopyright', 'CopyrightLaw', 'OpenSource', 'CreativeCommons', 'IntellectualProperty']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 许可证与版权指南（License and Copyright Guide）

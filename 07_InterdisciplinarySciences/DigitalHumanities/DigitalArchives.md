@@ -1,6 +1,8 @@
 ---
 aliases: [DigitalArchives]
 tags: ['DigitalHumanities', 'DigitalArchives']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 数字档案
@@ -16,22 +18,22 @@ tags: ['DigitalHumanities', 'DigitalArchives']
 - 分辨率：300-600 DPI（文本）?200 DPI（图像）
 - 色彩模式：彩色灰度黑?- 文件格式：TIFF（存档）、JPEG（传播）、PDF（阅读）
 
-### OCR抢?
+### OCR 抢?
 **光学字符识别?*
-- 传统OCR：基于规则和模板
-- 深度学习OCR：CNN+RNN+CTC
+- 传统 OCR：基于规则和模板
+- 深度学习 OCR：CNN+RNN+CTC
 
-**中文OCR挑战?*
+**中文 OCR 挑战?*
 - 字体多样
 - 竖排版式
 - 古籍异体?
 **常用工具?*
-- Tesseract：开源OCR
-- ABBYY FineReader：商业软?- 百度OCR：云服务
-- 中国知网OCR：古籍识?
-**古籍OCR?*
+- Tesseract：开源 OCR
+- ABBYY FineReader：商业软?- 百度 OCR：云服务
+- 中国知网 OCR：古籍识?
+**古籍 OCR?*
 ```python
-# 使用PaddleOCR识别古籍文字
+# 使用 PaddleOCR 识别古籍文字
 from paddleocr import PaddleOCR
 
 ocr = PaddleOCR(use_angle_cls=True, lang='ch')
@@ -105,17 +107,17 @@ for line in result[0]:
 
 ### 弢源平?
 **Omeka?*
-- PHP弢?- 插件丰富
+- PHP 弢?- 插件丰富
 - 适合数字展览
 
 **DSpace?*
-- Java弢?- 机构知识?- 长期保存
+- Java 弢?- 机构知识?- 长期保存
 
 **Fedora?*
 - 通用数字对象管理
 - 可扩展架?- 企业级应?
 **Greenstone?*
-- UNESCO支持
+- UNESCO 支持
 - 多语訢支持
 - 离线光盘发布
 
@@ -146,7 +148,7 @@ for line in result[0]:
 - 虚拟化技?- 成本?
 ### 保存标准
 
-**OAIS参模型：**
+**OAIS 参模型：**
 - 弢放档案信息系?- 六大功能模块
 - 长期保存框架
 
@@ -166,24 +168,24 @@ for line in result[0]:
 - 弢放获?
 ## 弢放获取运?
 ### 弢放获取类?
-**金色OA?*
+**金色 OA?*
 - 弢放获取期?- 作付费模?- 即时获取
 
-**绿色OA?*
+**绿色 OA?*
 - 机构知识?- 自存?- 延迟获取
 
-**混合OA?*
+**混合 OA?*
 - 传统期刊弢放项
 - 单篇文章弢?
 ### 弢放获取政?
 **国际政策?*
-- Plan S：欧洲开放获取计?- NIH政策：美国国立卫生研究院
+- Plan S：欧洲开放获取计?- NIH 政策：美国国立卫生研究院
 - Horizon 2020：欧盟框架计?
 **中国政策?*
 - 国家自然科学基金弢放获取政?- 中国科学院开放获取政?- 高校机构知识库建?
 ### 弢放数?
 **数据共享原则?*
-- FAIR原则：可发现、可访问、可互操作可重用
+- FAIR 原则：可发现、可访问、可互操作可重用
 - 弢放数据许?- 数据引用规范
 
 **数据平台?*

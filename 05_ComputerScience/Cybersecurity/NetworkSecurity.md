@@ -1,6 +1,8 @@
 ---
 aliases: [NetworkSecurity, 网络安全技术]
 tags: ['05_ComputerScience', 'Cybersecurity', 'NetworkSecurity']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 网络安全技术 (Network Security)
@@ -17,7 +19,7 @@ graph TB
         Internet[互联网<br/>Internet]
     end
     subgraph DMZ
-        WAF[Web防火墙<br/>WAF]
+        WAF[Web 防火墙<br/>WAF]
         Proxy[反向代理<br/>Reverse Proxy]
     end
     subgraph 内网

@@ -1,6 +1,8 @@
 ---
 aliases: [JapaneseLanguageAndLiterature]
 tags: ['ForeignLiterature', 'JapaneseLiterature', 'JapaneseLanguage', 'EastAsianStudies']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # JapaneseLanguageAndLiterature

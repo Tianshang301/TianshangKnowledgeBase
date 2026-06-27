@@ -1,6 +1,8 @@
 ---
 aliases: [HighwayEngineering, 公路工程, 道路工程, 路面工程, 路线设计, 路基工程]
 tags: ['04_EngineeringAndTechnology', 'TransportationEngineering', 'RoadAndRailway']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 公路工程（Highway Engineering）

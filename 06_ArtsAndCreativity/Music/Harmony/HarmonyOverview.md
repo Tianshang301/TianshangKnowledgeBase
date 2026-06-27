@@ -1,6 +1,8 @@
 ---
 aliases: [Harmony, 和声学, Harmony Overview]
 tags: ['06_ArtsAndCreativity', 'Music', 'Harmony', 'MusicTheory']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 和声学概论 (Harmony Overview)

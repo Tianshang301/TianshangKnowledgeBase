@@ -1,6 +1,8 @@
 ---
 aliases: [FatigueMonitoring, 疲劳监测, RecoveryMonitoring, 恢复监测, TrainingLoad, 训练负荷, OvertrainingPrevention]
 tags: ['12_SportsScience', 'SportsTraining', 'FatigueMonitoring', 'Recovery', 'TrainingLoadManagement']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 疲劳监测 Fatigue Monitoring

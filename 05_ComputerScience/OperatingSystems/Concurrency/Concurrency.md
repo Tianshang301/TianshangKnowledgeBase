@@ -1,6 +1,8 @@
 ---
 aliases: [Concurrency]
 tags: ['OperatingSystems', 'Concurrency', 'Concurrency']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 并发详解 (Concurrency)
@@ -10,13 +12,13 @@ tags: ['OperatingSystems', 'Concurrency', 'Concurrency']
 | 特性 | 进程 (Process) | 线程 (Thread) |
 |------|---------------|--------------|
 | 地址空间 | 独立地址空间 | 共享进程地址空间 |
-| 资源开销 | 大（独立PCB、内存、文件） | 小（共享堆、代码、文件） |
+| 资源开销 | 大（独立 PCB、内存、文件） | 小（共享堆、代码、文件） |
 | 通信方式 | IPC（管道、消息队列等） | 直接读写共享内存 |
-| 切换开销 | 大（页表切换、TLB刷新） | 小（仅保存寄存器） |
+| 切换开销 | 大（页表切换、TLB 刷新） | 小（仅保存寄存器） |
 | 独立性 | 一个进程崩溃不影响其他 | 一个线程崩溃可能导致进程崩溃 |
 | 创建速度 | 慢 | 快（轻量级） |
 
-每个进程至少包含一个线程，线程是CPU调度的基本单位。
+每个进程至少包含一个线程，线程是 CPU 调度的基本单位。
 
 ## 二、并发与并行 (Concurrency vs Parallelism)
 
@@ -44,7 +46,7 @@ int counter = 0;
 // ADD   R1, 1
 // STORE R1, counter
 
-// 线程A和B同时执行时可能：
+// 线程 A 和 B 同时执行时可能：
 // A: LOAD counter(0) → A: ADD(1) → B: LOAD counter(0) → A: STORE(1) → B: ADD(1) → B: STORE(1)
 // 结果：counter = 1  （丢失一次递增！）
 ```
@@ -59,10 +61,10 @@ int counter = 0;
 | **前进 (Progress)** | 无进程在临界区时，只有不待在剩余区的进程可参与选择 |
 | **有限等待 (Bounded Waiting)** | 每个进程在发出请求后有限时间内进入临界区 |
 
-### 软件解决方案：Peterson算法
+### 软件解决方案：Peterson 算法
 
 ```c
-// Peterson算法（适用于两个进程）
+// Peterson 算法（适用于两个进程）
 int flag[2] = {0, 0};
 int turn = 0;
 
@@ -99,10 +101,10 @@ void *thread_func(void *arg) {
 
 ### 5.2 自旋锁 (Spinlock)
 
-忙等待的锁，适合短临界区。不会让出CPU。
+忙等待的锁，适合短临界区。不会让出 CPU。
 
 ```c
-// 自旋锁实现（基于TAS指令）
+// 自旋锁实现（基于 TAS 指令）
 void spin_lock(volatile int *lock) {
     while (__sync_lock_test_and_set(lock, 1))
         ;  // 忙等待
@@ -226,10 +228,10 @@ void *signaler(void *arg) {
 
 | 特性 | Hoare | Mesa |
 |------|-------|------|
-| signal后谁执行 | 被唤醒进程立即执行 | signaler继续执行 |
-| 被唤醒进程 | 获得CPU和锁 | 重新竞争锁 |
+| signal 后谁执行 | 被唤醒进程立即执行 | signaler 继续执行 |
+| 被唤醒进程 | 获得 CPU 和锁 | 重新竞争锁 |
 | 实现复杂度 | 高（需特殊调度） | 低（更常用） |
-| 需重新检查条件 | 否 | 是（while循环） |
+| 需重新检查条件 | 否 | 是（while 循环） |
 
 ## 八、死锁 (Deadlock)
 
@@ -319,7 +321,7 @@ void philosopher(int i) {
 ```c
 // 读者优先实现
 sem_t rw_mutex = 1;  // 读写互斥
-sem_t mutex = 1;     // 保护read_count
+sem_t mutex = 1;     // 保护 read_count
 int read_count = 0;
 
 void reader() {
@@ -377,11 +379,11 @@ void atomic_increment(int *counter) {
 | `atomic_xchg` | 原子交换 |
 | `atomic_cmpxchg` | CAS |
 
-### ABA问题
+### ABA 问题
 
-CAS的陷阱：值从A变为B又变回A，CAS误认为未改变。
+CAS 的陷阱：值从 A 变为 B 又变回 A，CAS 误认为未改变。
 
-解法：使用带版本号的指针（如 `atomic_ref` 或双字CAS）。
+解法：使用带版本号的指针（如 `atomic_ref` 或双字 CAS）。
 
 ## 十一、内存模型 (Memory Model)
 
@@ -399,25 +401,25 @@ CAS的陷阱：值从A变为B又变回A，CAS误认为未改变。
 
 ### Happens-Before 关系
 
-若操作A happens-before 操作B，则A的结果对B可见。
+若操作 A happens-before 操作 B，则 A 的结果对 B 可见。
 
 | 规则 | 说明 |
 |------|------|
-| 程序顺序 | 同一线程内，前面的操作happens-before后面的 |
-| 监视器锁 | 解锁happens-before后续加锁 |
-| volatile | 对volatile变量的写happens-before后续读 |
+| 程序顺序 | 同一线程内，前面的操作 happens-before 后面的 |
+| 监视器锁 | 解锁 happens-before 后续加锁 |
+| volatile | 对 volatile 变量的写 happens-before 后续读 |
 | 传递性 | A happens-before B, B happens-before C → A happens-before C |
 
 ### 内存栅栏 (Memory Barrier)
 
 ```c
-// 防止编译器/CPU重排序
+// 防止编译器/CPU 重排序
 asm volatile("mfence" ::: "memory");  // x86 全屏障
 asm volatile("lfence" ::: "memory");  // 读屏障
 asm volatile("sfence" ::: "memory");  // 写屏障
 ```
 
-## 十二、Amdahl定律
+## 十二、Amdahl 定律
 
 系统加速比受限于不能并行化的部分：
 

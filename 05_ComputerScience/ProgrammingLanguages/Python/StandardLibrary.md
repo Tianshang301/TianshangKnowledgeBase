@@ -1,6 +1,8 @@
 ---
 aliases: [StandardLibrary]
 tags: ['ProgrammingLanguages', 'Python', 'StandardLibrary']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Python 标准库常用模块
@@ -124,8 +126,8 @@ print(m.group(1))       # '138'
 r'\d+'               # 数字
 r'\w+'               # 单词字符
 r'\s+'               # 空白字符
-r'^start'            # 以start开头
-r'end$'              # 以end结尾
+r'^start'            # 以 start 开头
+r'end$'              # 以 end 结尾
 r'[A-Za-z]+'         # 字母
 r'[\u4e00-\u9fa5]+'  # 中文字符
 r'(?P<name>\w+)@'    # 命名分组
@@ -214,7 +216,7 @@ print(td.total_seconds())  # 裸秒数
 # strftime - 日期格式化为字符串
 print(now.strftime("%Y-%m-%d %H:%M:%S"))      # 2024-03-15 14:30:00
 print(now.strftime("%A, %B %d, %Y"))          # Friday, March 15, 2024
-print(now.strftime("当前时间: %H点%M分%S秒"))   # 中文格式
+print(now.strftime("当前时间: %H 点%M 分%S 秒"))   # 中文格式
 
 # strptime - 字符串解析为日期
 date_str = "2024-03-15 14:30:00"
@@ -286,7 +288,7 @@ Person.__new__.__defaults__ = ("北京",)  # city 默认值
 p1 = Person("张三", 25)
 print(p1)  # Person(name='张三', age=25, city='北京')
 
-# OrderedDict - 有序字典 (Python 3.7+ 普通dict也有序)
+# OrderedDict - 有序字典 (Python 3.7+ 普通 dict 也有序)
 od = OrderedDict()
 od["a"] = 1
 od["b"] = 2
@@ -354,7 +356,7 @@ math.nan       # 非数值
 math.ceil(3.2)     # 4 向上取整
 math.floor(3.8)    # 3 向下取整
 math.trunc(3.7)    # 3 截断取整
-math.round(3.5)    # Python内置, 银行家舍入
+math.round(3.5)    # Python 内置, 银行家舍入
 
 math.fabs(-3.5)    # 3.5 绝对值
 math.factorial(5)  # 120 阶乘
@@ -403,8 +405,8 @@ random.randrange(0, 10, 2)   # 从 range(0,10,2) 中随机选一个
 
 # 序列操作
 random.choice(["A", "B", "C"])         # 随机选一个
-random.choices(["A","B","C"], k=2)     # 有放回选k个
-random.sample(["A","B","C","D"], 2)    # 无放回选k个
+random.choices(["A","B","C"], k=2)     # 有放回选 k 个
+random.sample(["A","B","C","D"], 2)    # 无放回选 k 个
 items = [1, 2, 3, 4, 5]
 random.shuffle(items)                  # 原地打乱
 
@@ -417,7 +419,7 @@ print(random.random())  # 同上
 # 分布 (在科学计算中更常用)
 random.gauss(0, 1)      # 高斯分布 (均值0, 标准差1)
 random.expovariate(1)   # 指数分布
-random.betavariate(2, 5) # Beta分布
+random.betavariate(2, 5) # Beta 分布
 ```
 
 ## 十、statistics 模块 — 统计函数
@@ -481,7 +483,7 @@ def hello():
     """Say hello"""
     print("hello")
 
-print(hello.__name__)  # 'hello' (没有wraps会输出'wrapper')
+print(hello.__name__)  # 'hello' (没有 wraps 会输出'wrapper')
 ```
 
 > 熟练掌握标准库能大幅提高开发效率。建议重点掌握 os/sys、re、json、datetime、collections 和 itertools, 它们是日常开发中使用最频繁的模块。

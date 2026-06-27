@@ -1,6 +1,8 @@
 ---
 aliases: [AcademicWriting, 学术写作, 论文写作, 学术论文]
 tags: ['13_Others', 'AcademicWriting', 'ResearchMethodology', 'ScholarlyCommunication']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 学术写作概论 Academic Writing Overview

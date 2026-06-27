@@ -1,6 +1,8 @@
 ---
 aliases: [HashTables, HashMap, HashSet]
 tags: ['05_ComputerScience', 'DataStructuresAndAlgorithms', 'HashTable', 'Hashing']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 哈希表 (Hash Tables)
@@ -183,8 +185,8 @@ $$P(\text{假阳性}) \approx \left(1 - e^{-kn/m}\right)^k$$
 | 1 | 两数之和 | 哈希表记录已访问元素 |
 | 49 | 字母异位词分组 | 排序后作为键 |
 | 128 | 最长连续序列 | 哈希集合查找相邻元素 |
-| 146 | LRU缓存 | 哈希表+双向链表 |
-| 347 | 前K个高频元素 | 哈希表统计+堆排序 |
+| 146 | LRU 缓存 | 哈希表+双向链表 |
+| 347 | 前 K 个高频元素 | 哈希表统计+堆排序 |
 | 380 | O(1)时间插入/删除/随机 | 哈希表+数组 |
 
 ## 九、竞赛优化技巧

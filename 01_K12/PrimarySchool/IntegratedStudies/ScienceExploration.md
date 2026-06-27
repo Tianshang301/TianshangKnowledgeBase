@@ -1,6 +1,8 @@
 ---
 aliases: [ScienceExploration]
 tags: ['PrimarySchool', 'IntegratedStudies', 'ScienceExploration']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 科学探索
@@ -124,7 +126,7 @@ tags: ['PrimarySchool', 'IntegratedStudies', 'ScienceExploration']
 - **实验**：让不同物体在水中浮。
 ### 磁。
 - **性质**：磁铁能吸引铁、钴、镍
-- **磁极**：N极和S。
+- **磁极**：N 极和 S。
 - **规律**：同极相斥，异极相吸
 - **实验**：用磁铁吸引不同物体
 

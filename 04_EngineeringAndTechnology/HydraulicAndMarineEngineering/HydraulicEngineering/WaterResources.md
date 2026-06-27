@@ -1,6 +1,8 @@
 ---
 aliases: [WaterResources, 水资源工程, WaterResourcesEngineering, Hydrology]
 tags: ['HydraulicAndMarineEngineering', 'HydraulicEngineering', 'WaterResources', 'Hydrology', 'Irrigation']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 水资源工程（Water Resources Engineering）

@@ -1,6 +1,8 @@
 ---
 aliases: [MonetaryEconomics]
 tags: ['03_HumanitiesAndSocialSciences', 'Economics']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 货币经济学 (Monetary Economics)
@@ -195,7 +197,7 @@ flowchart LR
 
 - CPI（消费者价格指数）
 - PPI（生产者价格指数）
-- GDP平减指数
+- GDP 平减指数
 
 ### 5.2 通货膨胀理论
 

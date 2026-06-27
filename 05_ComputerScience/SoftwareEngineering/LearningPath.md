@@ -1,6 +1,8 @@
 ---
 aliases: [LearningPath]
 tags: ['SoftwareEngineering', 'LearningPath']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 工具链学习路线图

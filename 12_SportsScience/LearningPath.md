@@ -1,6 +1,8 @@
 ---
 aliases: [SportsScienceLearningPath, 体育科学学习路径, ExerciseScience]
 tags: ['12_SportsScience', 'LearningPath', 'ExercisePhysiology', 'SportTraining']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 体育科学学习路径 Sports Science Learning Path

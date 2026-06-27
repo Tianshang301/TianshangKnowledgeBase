@@ -1,6 +1,8 @@
 ---
 aliases: [HighThroughputScreening]
 tags: ['MaterialsInformatics', 'HighThroughputScreening']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 高通量材料筛选
@@ -16,7 +18,7 @@ tags: ['MaterialsInformatics', 'HighThroughputScreening']
 **标准流程：**
 1. 候选材料空间定义：晶体结构数据库
 2. 结构生成与枚举：替换、掺杂、表面切割
-3. 高通量DFT计算：自动化作业提交
+3. 高通量 DFT 计算：自动化作业提交
 4. 属性提取：带隙、形成能、弹性常数
 5. 筛选判据：多目标优化
 6. 候选排序与实验验证
@@ -25,7 +27,7 @@ tags: ['MaterialsInformatics', 'HighThroughputScreening']
 
 | 工具 | 特点 | 适用场景 |
 |------|------|----------|
-| FireWorks | 工作流管理、错误恢复 | 大规模DFT |
+| FireWorks | 工作流管理、错误恢复 | 大规模 DFT |
 | AiiDA | 可追溯、可重现 | 学术研究 |
 | AFLOW | 高通量自动计算 | 合金筛选 |
 | MatFlow | 图形化界面 | 快速原型 |
@@ -43,12 +45,12 @@ $$N_{\text{candidates}} = \sum_{i} C_i \times S_i \times D_i$$
 
 ## 晶体结构预测
 
-### USPEX方法
+### USPEX 方法
 
 **原理：**
 - 进化算法优化晶体结构
 - 遗传操作：交叉、变异、置换
-- 局部优化：DFT弛豫
+- 局部优化：DFT 弛豫
 
 **流程：**
 1. 随机产生初始种群
@@ -57,7 +59,7 @@ $$N_{\text{candidates}} = \sum_{i} C_i \times S_i \times D_i$$
 4. 局部结构优化
 5. 迭代至收敛
 
-### CALYPSO方法
+### CALYPSO 方法
 
 **原理：**
 - 粒子群优化算法
@@ -75,7 +77,7 @@ $$N_{\text{candidates}} = \sum_{i} C_i \times S_i \times D_i$$
 - **亚稳相发现：** 新型功能材料
 - **表面重构：** 催化活性位
 
-## 高通量DFT
+## 高通量 DFT
 
 ### 自动化作业提交
 
@@ -102,10 +104,10 @@ def high_throughput_job(structure_list, params):
 
 | 错误类型 | 原因 | 处理策略 |
 |----------|------|----------|
-| SCF不收敛 | 电子结构复杂 | 混合参数调整 |
+| SCF 不收敛 | 电子结构复杂 | 混合参数调整 |
 | 几何优化发散 | 初始结构不合理 | 约束弛豫 |
 | 对称性错误 | 精度阈值设置 | 对称性检查 |
-| k点不足 | 金属体系 | 自动k点网格 |
+| k 点不足 | 金属体系 | 自动 k 点网格 |
 
 **容错机制：**
 - 自动重试（最多3次）
@@ -138,12 +140,12 @@ def high_throughput_job(structure_list, params):
 - 键长分布
 
 **电子型描述符：**
-- d带中心：$\varepsilon_d$
+- d 带中心：$\varepsilon_d$
 - 态密度在费米能级处的值：$g(E_F)$
 
 ### 带隙工程筛选
 
-**经验公式（Moses关系）：**
+**经验公式（Moses 关系）：**
 $$E_g = a - b \cdot \Delta\chi + c \cdot (R_A + R_B)^{-2}$$
 
 **筛选策略：**
@@ -169,12 +171,12 @@ $$ZT = \frac{S^2\sigma T}{\kappa}$$
 
 **HER（析氢反应）：**
 - 氢吸附自由能：$|\Delta G_{H^*}| < 0.2\,\text{eV}$
-- d带中心靠近费米面
+- d 带中心靠近费米面
 
 **CO2RR（二氧化碳还原）：**
 - 中间体吸附能平衡
 - 选择性控制
-- 竞争HER抑制
+- 竞争 HER 抑制
 
 ## 机器学习的融合
 
@@ -194,12 +196,12 @@ $$ZT = \frac{S^2\sigma T}{\kappa}$$
 2. 训练代理模型
 3. 不确定性量化
 4. 采集函数选择候选
-5. DFT验证新结构
+5. DFT 验证新结构
 6. 更新模型
 
 ### 多目标优化
 
-**Pareto前沿：**
+**Pareto 前沿：**
 - 稳定性 vs 功能性能
 - 带隙 vs 载流子迁移率
 - 活性 vs 选择性
@@ -214,7 +216,7 @@ $$ZT = \frac{S^2\sigma T}{\kappa}$$
 ### 验证策略
 
 **计算-实验闭环：**
-1. 计算筛选Top候选（10-100个）
+1. 计算筛选 Top 候选（10-100个）
 2. 合成可行性评估
 3. 定向合成
 4. 结构表征（XRD、SEM）
@@ -229,7 +231,7 @@ $$ZT = \frac{S^2\sigma T}{\kappa}$$
 - 喷墨打印材料库
 
 **快速表征：**
-- 自动化XRD
+- 自动化 XRD
 - 拉曼光谱映射
 - 微区电化学测试
 

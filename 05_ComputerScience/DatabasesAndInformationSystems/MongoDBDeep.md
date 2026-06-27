@@ -1,6 +1,8 @@
 ---
 aliases: [MongoDBDeep]
 tags: ['DatabasesAndInformationSystems', 'MongoDBDeep']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # MongoDB NoSQL 指南
@@ -490,6 +492,6 @@ sh.shardCollection("mydb.orders", { created_at: 1 })
 
 - [[NoSQL]]
 - [[RedisDeep]]
-- [[分布式数据库与NewSQL]]
+- [[分布式数据库与 NewSQL]]
 - [[RelationalDatabases]]
 - [[SQLDeep]]

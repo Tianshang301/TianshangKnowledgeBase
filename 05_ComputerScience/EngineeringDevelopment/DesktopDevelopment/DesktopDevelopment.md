@@ -1,6 +1,8 @@
 ---
 aliases: [DesktopDevelopment]
 tags: ['EngineeringDevelopment', 'DesktopDevelopment', 'DesktopDevelopment']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 桌面开发 (Desktop Development)
@@ -9,10 +11,10 @@ tags: ['EngineeringDevelopment', 'DesktopDevelopment', 'DesktopDevelopment']
 
 | 范式 | 描述 | 典型技术 |
 |------|------|---------|
-| **原生 (Native)** | 使用平台原生API和控件 | Win32, Cocoa, SwiftUI |
+| **原生 (Native)** | 使用平台原生 API 和控件 | Win32, Cocoa, SwiftUI |
 | **跨平台 (Cross-Platform)** | 一套代码多平台运行 | Qt, Flutter, Tauri |
-| **混合 (Hybrid)** | Web技术包装为桌面应用 | Electron, NW.js |
-| **Web桌面** | PWA、WebView封装 | Blink/WebKit |
+| **混合 (Hybrid)** | Web 技术包装为桌面应用 | Electron, NW.js |
+| **Web 桌面** | PWA、WebView 封装 | Blink/WebKit |
 
 ### 范式对比
 
@@ -23,7 +25,7 @@ tags: ['EngineeringDevelopment', 'DesktopDevelopment', 'DesktopDevelopment']
 | 平台一致性 | 最佳 | 较好 | 较好 |
 | 更新部署 | 需安装 | 需安装 | 可热更新 |
 | 可移植性 | 差 | 好 | 好 |
-| 安装包大小 | 小 | 中 | 大（含Chromium） |
+| 安装包大小 | 小 | 中 | 大（含 Chromium） |
 
 ## 二、Windows 开发
 
@@ -59,12 +61,12 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 
 | 技术 | 推出年份 | 特点 | 现状 |
 |------|---------|------|------|
-| **Win32** | 1990s | 底层API，最大兼容性 | 仍广泛使用 |
-| **MFC** | 1992 | C++封装Win32 | 维护模式 |
-| **WinForms** | 2002 | .NET RAD开发 | 企业应用 |
-| **WPF** | 2006 | XAML + .NET，现代UI | 桌面主力 |
-| **UWP** | 2012 | 通用Windows平台 | Xbox/HoloLens |
-| **WinUI 3** | 2021 | 现代原生UI框架 | 推荐新项目 |
+| **Win32** | 1990s | 底层 API，最大兼容性 | 仍广泛使用 |
+| **MFC** | 1992 | C++封装 Win32 | 维护模式 |
+| **WinForms** | 2002 | .NET RAD 开发 | 企业应用 |
+| **WPF** | 2006 | XAML + .NET，现代 UI | 桌面主力 |
+| **UWP** | 2012 | 通用 Windows 平台 | Xbox/HoloLens |
+| **WinUI 3** | 2021 | 现代原生 UI 框架 | 推荐新项目 |
 
 ### WPF 示例
 
@@ -114,7 +116,7 @@ public partial class MainWindow : Window {
 ### SwiftUI
 
 ```swift
-// SwiftUI 声明式UI
+// SwiftUI 声明式 UI
 import SwiftUI
 
 struct ContentView: View {
@@ -146,28 +148,28 @@ struct ContentView: View {
 | 范式 | 命令式 | 声明式 |
 | 学习曲线 | 陡峭 | 较平缓 |
 | 控件丰富度 | 非常丰富 | 持续增长 |
-| 平台支持 | macOS | 全Apple平台 |
+| 平台支持 | macOS | 全 Apple 平台 |
 
 ## 四、跨平台框架对比
 
-| 框架 | 语言 | UI渲染 | 包大小 | 性能 | 社区 |
+| 框架 | 语言 | UI 渲染 | 包大小 | 性能 | 社区 |
 |------|------|--------|--------|------|------|
 | **Qt** | C++, QML | 自绘制 | 20-50MB | 高 | 大 |
 | **Electron** | HTML, CSS, JS | Chromium | 100-300MB | 中 | 最大 |
-| **Flutter** | Dart | Skia自绘制 | 10-30MB | 高 | 增长快 |
-| **Tauri** | Rust + Web | 系统WebView | 2-10MB | 高 | 新兴 |
+| **Flutter** | Dart | Skia 自绘制 | 10-30MB | 高 | 增长快 |
+| **Tauri** | Rust + Web | 系统 WebView | 2-10MB | 高 | 新兴 |
 | **.NET MAUI** | C# | 平台原生 | 10-50MB | 中高 | 微软生态 |
 | **JavaFX** | Java | 自绘制 | 10-30MB | 中 | 一般 |
 
 ### 框架选择考量
 
 ```
-选择 Qt:        需要高性能原生体验、已使用C++团队
-选择 Electron:  Web技术栈团队、快速原型、协议支持广
-选择 Flutter:   UI一致性高、独立渲染不依赖系统
-选择 Tauri:     关注安装包体量和安全、有Rust基础
-选择 MAUI:      .NET生态、需要Windows优先
-选择 JavaFX:    企业Java技术栈、跨平台一致性
+选择 Qt:        需要高性能原生体验、已使用 C++团队
+选择 Electron:  Web 技术栈团队、快速原型、协议支持广
+选择 Flutter:   UI 一致性高、独立渲染不依赖系统
+选择 Tauri:     关注安装包体量和安全、有 Rust 基础
+选择 MAUI:      .NET 生态、需要 Windows 优先
+选择 JavaFX:    企业 Java 技术栈、跨平台一致性
 ```
 
 ### Qt 示例
@@ -218,7 +220,7 @@ fn main() {
 }
 ```
 
-## 五、GUI设计模式
+## 五、GUI 设计模式
 
 ### MVC vs MVVM
 
@@ -226,9 +228,9 @@ fn main() {
 |------|-----|------|
 | 组成 | Model-View-Controller | Model-View-ViewModel |
 | 数据绑定 | 手动同步 | 双向绑定 |
-| 测试性 | Controller可测试 | ViewModel纯逻辑可测 |
+| 测试性 | Controller 可测试 | ViewModel 纯逻辑可测 |
 | 平台 | Swing, MFC | WPF, SwiftUI |
-| 耦合 | View和Controller耦合 | View和ViewModel解耦 |
+| 耦合 | View 和 Controller 耦合 | View 和 ViewModel 解耦 |
 
 ### 信号-槽模式 (Signal-Slot)
 
@@ -281,7 +283,7 @@ QObject::connect(&a, &Counter::valueChanged,
 ```
 main() → NSApplicationMain()
     ↓
-加载MainMenu.xib/故事板
+加载 MainMenu.xib/故事板
     ↓
 applicationWillFinishLaunching
     ↓
@@ -308,11 +310,11 @@ applicationWillTerminate
 
 | 技术 | 描述 |
 |------|------|
-| **UI Automation (Windows)** | 提供UI元素信息给辅助工具 |
+| **UI Automation (Windows)** | 提供 UI 元素信息给辅助工具 |
 | **NSAccessibility (macOS)** | 苹果无障碍协议 |
-| **ARIA (Web)** | Web内容无障碍标准 |
+| **ARIA (Web)** | Web 内容无障碍标准 |
 | **屏幕阅读器** | VoiceOver, NVDA, JAWS |
-| **键盘导航** | Tab顺序，快捷键 |
+| **键盘导航** | Tab 顺序，快捷键 |
 | **高对比度** | 色彩无障碍 |
 
 ### 国际化 (i18n) 与本地化 (l10n)
@@ -331,7 +333,7 @@ string greeting = Resources.HelloMessage;
 | **i18n** (Internationalization) | 软件设计时考虑多语言支持 |
 | **l10n** (Localization) | 针对特定区域翻译和适配 |
 | **locale** | 语言+地区标识（如 zh-CN） |
-| **ICU** | Unicode国际化组件库 |
+| **ICU** | Unicode 国际化组件库 |
 
 ## 九、渲染与线程模型
 

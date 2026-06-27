@@ -1,6 +1,8 @@
 ---
 aliases: [WorldArchaeology, 世界考古学, GlobalArchaeology, 全球考古学]
 tags: ['Archaeology', 'WorldArchaeology', 'Prehistory', 'HumanOrigins']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 世界考古学
@@ -77,9 +79,9 @@ graph TD
 多地进化说（Multiregional Evolution）。
 
 线粒体夏娃（Mitochondrial Eve）研究支持非洲起源说。
-非洲人的线粒体DNA多样性最高。
+非洲人的线粒体 DNA 多样性最高。
 表明现代人类约20万年前源于非洲。
-古DNA研究表明非非洲人群含有1~4%的尼安德特人基因。
+古 DNA 研究表明非非洲人群含有1~4%的尼安德特人基因。
 表明两个物种曾发生有限杂交（Interbreeding）。
 
 丹尼索瓦人（Denisovans）是另一支古人类。
@@ -161,20 +163,20 @@ graph TD
 
 $$ \text{农业转变} \approx f(\text{人口压力}, \text{气候波动}, \text{资源分布}, \text{社会复杂性}) $$
 
-**Childe的绿洲理论（Oasis Theory）**
+**Childe 的绿洲理论（Oasis Theory）**
 更新世末期气候干旱迫使人与动物集中在水源附近。
 促成了驯化关系的建立。
 
-**Braidwood的丘陵侧翼假说（Hilly Flanks）**
+**Braidwood 的丘陵侧翼假说（Hilly Flanks）**
 强调自然条件优越区域的"实验"过程。
 近东的"fertile crescent"是天然起源中心。
 
-**Flannery的系统理论（Systems Theory）**
+**Flannery 的系统理论（Systems Theory）**
 将驯化视为人口-资源-技术系统内部反馈的结果。
 人口增长加大了对资源的压力。
 促使人类尝试更集约的生产方式。
 
-**Binford的边缘地带理论（Edge Zone Theory）**
+**Binford 的边缘地带理论（Edge Zone Theory）**
 人口增长迫使群体向边缘地带迁移。
 边缘地带的资源压力促成了农业尝试。
 
@@ -205,7 +207,7 @@ $$ \text{农业转变} \approx f(\text{人口压力}, \text{气候波动}, \text
 
 ## 文明与国家起源
 
-Childe提出城市革命（Urban Revolution）的十项标准：
+Childe 提出城市革命（Urban Revolution）的十项标准：
 大型定居点。
 剩余产品（Surplus）。
 纪念性公共建筑（Monumental Architecture）。
@@ -217,7 +219,7 @@ Childe提出城市革命（Urban Revolution）的十项标准：
 国家组织（State Organization）。
 宗教精英阶层。
 
-Wright进一步区分了酋邦（Chiefdom）与国家（State）。
+Wright 进一步区分了酋邦（Chiefdom）与国家（State）。
 国家拥有合法的武力垄断权。
 金字塔式的官僚体系。
 强制性的税收制度。
@@ -230,7 +232,7 @@ Wright进一步区分了酋邦（Chiefdom）与国家（State）。
 | 古埃及 | 3100-332 BCE | 尼罗河流域 | 象形文字 | 金字塔 | 法老中央集权 |
 | 印度河文明 | 2600-1900 BCE | 印度河流域 | 印章文字（未破译） | 规划城市布局 | 未知 |
 | 中国夏商 | 2070-1046 BCE | 黄河流域 | 甲骨文 | 宫殿、青铜礼器 | 世袭王朝 |
-| 米诺斯文明 | 2700-1200 BCE | 克里特岛 | 线形文字A | 克诺索斯宫殿 | 海洋商业文明 |
+| 米诺斯文明 | 2700-1200 BCE | 克里特岛 | 线形文字 A | 克诺索斯宫殿 | 海洋商业文明 |
 | 奥尔梅克 | 1400-400 BCE | 墨西哥湾沿岸 | 未破译 | 巨石头像 | 酋邦/早期国家 |
 
 ## 主要考古区域概述
@@ -239,7 +241,7 @@ Wright进一步区分了酋邦（Chiefdom）与国家（State）。
 巨石阵（Stonehenge, ~2500 BCE）是史前天文观测和仪式中心。
 凯尔特文明的哈尔施塔特文化（~800-450 BCE）。
 拉泰纳文化（~450-50 BCE）代表铁器时代社会复杂化。
-西欧的Megalithic墓葬传统可追溯至5000 BCE。
+西欧的 Megalithic 墓葬传统可追溯至5000 BCE。
 
 **美洲**
 克洛维斯文化（Clovis Culture, ~11500 BCE）。
@@ -263,16 +265,16 @@ Wright进一步区分了酋邦（Chiefdom）与国家（State）。
 
 **技术方法**
 水下考古（Underwater Archaeology）发掘了乌鲁布伦沉船（~1300 BCE）。
-LiDAR遥感技术探测了被丛林覆盖的玛雅城市。
+LiDAR 遥感技术探测了被丛林覆盖的玛雅城市。
 冰人奥茨（Ötzi the Iceman, ~3300 BCE）提供了完整信息。
 稳定同位素分析可以重建古代的饮食结构与迁徙模式。
-古DNA（aDNA）技术彻底改变了对人群迁徙和基因交流的认识。
+古 DNA（aDNA）技术彻底改变了对人群迁徙和基因交流的认识。
 
 **法律与伦理**
 文物返还（Repatriation）是当代核心议题。
-埃尔金石雕（Elgin Marbles）归属争议（大英博物馆vs希腊）。
+埃尔金石雕（Elgin Marbles）归属争议（大英博物馆 vs 希腊）。
 贝宁青铜器（Benin Bronzes）返还诉求（尼日利亚要求归还）。
-美国的NAGPRA法案（1990）赋予原住民对祖先遗骸和文物的权利。
+美国的 NAGPRA 法案（1990）赋予原住民对祖先遗骸和文物的权利。
 盗墓和非法文物贸易对考古遗产破坏严重。
 
 ## 相关领域

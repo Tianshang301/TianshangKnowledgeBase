@@ -1,6 +1,8 @@
 ---
 aliases: [CompositionBasics]
 tags: ['PrimarySchool', 'Chinese', 'CompositionBasics']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # 作文基础

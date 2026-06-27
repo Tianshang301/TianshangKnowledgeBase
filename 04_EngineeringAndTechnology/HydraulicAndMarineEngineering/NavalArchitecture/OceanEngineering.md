@@ -1,6 +1,8 @@
 ---
 aliases: [OceanEngineering, 海洋工程, Offshore Engineering]
 tags: ['HydraulicAndMarineEngineering', 'NavalArchitecture', 'OceanEngineering', 'OffshoreEngineering']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 海洋工程 (Ocean Engineering / Offshore Engineering)

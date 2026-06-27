@@ -1,6 +1,8 @@
 ---
 aliases: [NoteTakingApps]
 tags: ['00_KnowledgeFramework', 'NoteTaking']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 笔记应用对比

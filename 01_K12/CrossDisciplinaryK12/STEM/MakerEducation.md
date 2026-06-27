@@ -1,17 +1,19 @@
 ---
 aliases: [MakerEducation]
 tags: ['CrossDisciplinaryK12', 'STEM', 'MakerEducation']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 创客教育
 
 ## 概述
 
-创客教育是培养学生动手能力和创新精神的教育方式。本文档介绍创客空间建设、Arduino/树莓派基础项目、3D打印应用以及创客文化。
+创客教育是培养学生动手能力和创新精神的教育方式。本文档介绍创客空间建设、Arduino/树莓派基础项目、3D 打印应用以及创客文化。
 ## 创客空间建设
 
 ### 基本设备
-- **工具设备**：3D打印机、激光切割机、电烙铁、万用表
+- **工具设备**：3D 打印机、激光切割机、电烙铁、万用表
 - **电子元件**：Arduino、传感器、LED、电阻、导。
 - **材料**：木板、塑料板、纸板、布。
 - **软件**：设计软件、编程软。
@@ -26,11 +28,11 @@ tags: ['CrossDisciplinaryK12', 'STEM', 'MakerEducation']
 - 安排指导老师
 - 组织展示活动
 
-## Arduino基础项目
+## Arduino 基础项目
 
-### 项目1：LED闪烁
+### 项目1：LED 闪烁
 ```cpp
-// 电路连接：LED正极接引脚13，负极接GND
+// 电路连接：LED 正极接引脚13，负极接 GND
 void setup() {
   pinMode(13, OUTPUT);
 }
@@ -45,7 +47,7 @@ void loop() {
 
 ### 项目2：温度传感器
 ```cpp
-// 电路连接：温度传感器接模拟引脚A0
+// 电路连接：温度传感器接模拟引脚 A0
 void setup() {
   Serial.begin(9600);
 }
@@ -61,7 +63,7 @@ void loop() {
 
 ### 项目3：超声波测距
 ```cpp
-// 电路连接：Trig接引脚9，Echo接引脚10
+// 电路连接：Trig 接引脚9，Echo 接引脚10
 void setup() {
   Serial.begin(9600);
   pinMode(9, OUTPUT);
@@ -87,7 +89,7 @@ void loop() {
 
 ## 树莓派基础项目
 
-### 项目1：GPIO控制LED
+### 项目1：GPIO 控制 LED
 ```python
 import RPi.GPIO as GPIO
 import time
@@ -116,10 +118,10 @@ while True:
     time.sleep(0.1)
 ```
 
-## 3D打印应用
+## 3D 打印应用
 
 ### 设计流程
-1. **建模**：使用3D建模软件设计模型
+1. **建模**：使用3D 建模软件设计模型
 2. **切片**：将模型转换为打印路径3. **打印**：设置参数，开始打印4. **后处理*：去除支撑，表面处理
 
 ### 常用软件
@@ -135,7 +137,7 @@ while True:
 ## 电子制作
 
 ### 基础项目
-- LED电路
+- LED 电路
 - 按钮控制
 - 蜂鸣。
 - 电机控制
@@ -168,10 +170,10 @@ while True:
 - 生物技。
 - 可持续发。
 ## 参考资。
-- Arduino官网
+- Arduino 官网
 - 树莓派官。
 - 创客社区
-- STEM教育网站
+- STEM 教育网站
 
 ## 相关条目
 

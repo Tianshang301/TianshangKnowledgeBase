@@ -1,6 +1,8 @@
 ---
 aliases: [MathematicalLogic]
 tags: ['Logic/MathematicalLogic', 'FormalLogic', 'Foundations']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # MathematicalLogic

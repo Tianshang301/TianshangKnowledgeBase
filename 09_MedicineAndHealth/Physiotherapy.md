@@ -1,6 +1,8 @@
 ---
 aliases: [Physiotherapy]
 tags: ['Physiotherapy', 'Medicine', 'Rehabilitation', 'PhysicalTherapy']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 物理治疗 (Physiotherapy / Physical Therapy)

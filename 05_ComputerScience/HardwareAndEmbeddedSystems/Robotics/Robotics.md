@@ -1,6 +1,8 @@
 ---
 aliases: [Robotics]
 tags: ['HardwareAndEmbeddedSystems', 'Robotics', 'Robotics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 机器人学 (Robotics)
@@ -22,7 +24,7 @@ tags: ['HardwareAndEmbeddedSystems', 'Robotics', 'Robotics']
 ┌──────────────────────────────────┐
 │           控制器 (Controller)      │
 │  ┌─────┐  ┌────────┐  ┌──────┐  │
-│  │ CPU  │  │ 实时OS  │  │通信模块│  │
+│  │ CPU  │  │ 实时 OS  │  │通信模块│  │
 │  └─────┘  └────────┘  └──────┘  │
 ├──────────────────────────────────┤
 │  ┌──────────┐  ┌───────────┐     │
@@ -72,7 +74,7 @@ pose_t forward_kinematics(double theta1, double theta2,
 
 ```
 对于6自由度机械臂：
-- 存在解析解（Pieper准则）：连续3轴交于一点
+- 存在解析解（Pieper 准则）：连续3轴交于一点
 - 不存在解析解时：使用数值迭代（如牛顿法）
 ```
 
@@ -94,7 +96,7 @@ int inverse_kinematics(double x, double y,
 }
 ```
 
-## 四、DH参数 (Denavit-Hartenberg Parameters)
+## 四、DH 参数 (Denavit-Hartenberg Parameters)
 
 ### 参数定义
 
@@ -190,10 +192,10 @@ $$\theta(t) = a_0 + a_1 t + a_2 t^2 + a_3 t^3 + a_4 t^4 + a_5 t^5$$
 | **阻抗控制** | 控制力/位置关系 | 适合人机交互 | 计算量大 |
 | **力控制** | 直接控制接触力 | 适合装配 | 需力传感器 |
 
-### PID控制
+### PID 控制
 
 ```c
-// PID控制器
+// PID 控制器
 typedef struct {
     double Kp, Ki, Kd;  // 比例、积分、微分增益
     double integral;
@@ -207,8 +209,8 @@ double pid_update(pid_t *pid, double setpoint, double actual, double dt) {
     pid->prev_error = error;
     
     return pid->Kp * error 
-         + pid->Ki * pid->integral 
-         + pid->Kd * derivative;
+         - pid->Ki * pid->integral 
+         - pid->Kd * derivative;
 }
 ```
 

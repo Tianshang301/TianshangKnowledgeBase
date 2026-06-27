@@ -1,6 +1,8 @@
 ---
 aliases: [ScientificCommunication]
 tags: ['ScientificCommunication', 'ScientificCommunication']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 科学传播
@@ -58,11 +60,11 @@ tags: ['ScientificCommunication', 'ScientificCommunication']
 | 平台 | 内容形式 | 最佳实践 | 受众特点 |
 |------|----------|----------|----------|
 | **Twitter/X** | 短帖（280字）、图文、Thread | 每日分享研究亮点，参与科学话题讨论 | 其他科学家、科学记者 |
-| **YouTube** | 中长视频、系列节目 | vsauce、Kurzgesagt风格：高质量动画+深度解读 | 广谱公众 |
+| **YouTube** | 中长视频、系列节目 | vsauce、Kurzgesagt 风格：高质量动画+深度解读 | 广谱公众 |
 | **Podcast** | 音频对话/访谈 | 叙事驱动，邀请嘉宾，定期更新 | 通勤族、多任务者 |
-| **TikTok/Reels** | 15-60秒短视频 | 花式实验、趣味冷知识、挑战形式 | Z世代 |
+| **TikTok/Reels** | 15-60秒短视频 | 花式实验、趣味冷知识、挑战形式 | Z 世代 |
 | **微信公众号** | 图文长文章 | 每周1-2篇深度科普 | 中文科学爱好者 |
-| **Bilibili** | 中长视频+弹幕互动 | 学习类UP主风格，配合弹幕解答 | 年轻学生 |
+| **Bilibili** | 中长视频+弹幕互动 | 学习类 UP 主风格，配合弹幕解答 | 年轻学生 |
 
 ### 3.3 新兴传播形式
 
@@ -94,8 +96,8 @@ tags: ['ScientificCommunication', 'ScientificCommunication']
 
 | 科学概念 | 有效类比 |
 |----------|----------|
-| DNA双螺旋 | 扭在一起的梯子 |
-| 免疫系统 | 身体的军队（B细胞=情报员，T细胞=士兵） |
+| DNA 双螺旋 | 扭在一起的梯子 |
+| 免疫系统 | 身体的军队（B 细胞=情报员，T 细胞=士兵） |
 | 黑洞 | 宇宙中的吸尘器（虽然有误导，但直观） |
 | 神经可塑性 | 大脑像肌肉，用则进废则退 |
 | 气候变化 | 地球在发烧（温室效应=盖了厚被子） |
@@ -119,7 +121,7 @@ tags: ['ScientificCommunication', 'ScientificCommunication']
 |--------------|--------------|
 | "科学家发现了治愈癌症的方法" | "研究人员在小鼠模型中观察到肿瘤缩小" |
 | "突破性研究改变了我们对宇宙的理解" | "新数据对这一理论提供了支持性证据" |
-| "这将是革命性的" | "这可能在X领域有潜在应用" |
+| "这将是革命性的" | "这可能在 X 领域有潜在应用" |
 
 ## 五、演讲技巧
 
@@ -146,11 +148,11 @@ tags: ['ScientificCommunication', 'ScientificCommunication']
 
 | 数据关系 | 推荐图表 | 避免 |
 |----------|----------|------|
-| 比较 | 柱状图、条形图 | 3D效果、饼图过多项 |
+| 比较 | 柱状图、条形图 | 3D 效果、饼图过多项 |
 | 趋势 | 折线图 | 过多系列 |
 | 分布 | 箱型图、直方图 | 隐藏异常值 |
 | 关系 | 散点图 + 拟合线 | 过度拟合 |
-| 组成 | 堆叠条形图、树图 | 3D饼图 |
+| 组成 | 堆叠条形图、树图 | 3D 饼图 |
 
 ### 5.4 海报设计
 
@@ -179,7 +181,7 @@ tags: ['ScientificCommunication', 'ScientificCommunication']
 |------|------|------|
 | 示意图 | 展示流程/机制 | Adobe Illustrator, Inkscape |
 | 图表 | 数据展示 | R (ggplot2), Python (Matplotlib) |
-| 3D模型 | 分子/结构可视化 | Blender, PyMOL |
+| 3D 模型 | 分子/结构可视化 | Blender, PyMOL |
 | 插图 | 概念生动化 | Procreate, Photoshop |
 
 ### 6.3 视频制作
@@ -236,7 +238,7 @@ tags: ['ScientificCommunication', 'ScientificCommunication']
 ### 8.3 沟通不确定性的技巧
 
 - 使用概率语言（"有95%的信心" → "十次中有九次以上是正确的"）
-- 对比已知风险（"辐射量相当于一次胸部X光"）
+- 对比已知风险（"辐射量相当于一次胸部 X 光"）
 - 解释科学是迭代的（"科学结论随着新证据更新"）
 - 承认不确定性不削弱可信度（反而是诚实的标志）
 
@@ -263,8 +265,8 @@ tags: ['ScientificCommunication', 'ScientificCommunication']
 
 **自然指数/新闻推广系统：**
 - 多数顶级期刊（Nature/Science/Cell）有内部新闻办公室
-- 论文被接受后可通过期刊发布embargoed新闻稿
-- Embargo系统：新闻稿提前一周发给记者，约定统一发布时间
+- 论文被接受后可通过期刊发布 embargoed 新闻稿
+- Embargo 系统：新闻稿提前一周发给记者，约定统一发布时间
 
 ## 十、科学传播伦理
 
@@ -291,7 +293,7 @@ tags: ['ScientificCommunication', 'ScientificCommunication']
 - Olson, R. (2018). *Don't Be Such a Scientist* (2nd ed.). Island Press.
 - 李大光. (2017). *科学传播概论*. 中国科学技术出版社.
 - Kurzgesagt – In a Nutshell (YouTube) - 科学视觉传播典范
-- TED演讲指南 - 公共演讲最佳实践
+- TED 演讲指南 - 公共演讲最佳实践
 - 科普中国 (https://www.kepuchina.cn) - 中文科学传播平台
 - The Conversation (https://theconversation.com) - 学者直接面向公众写作
 - COMPASS (https://compassscicomm.org) - 科学传播培训资源

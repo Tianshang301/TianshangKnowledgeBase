@@ -1,6 +1,8 @@
 ---
 aliases: [AncientWarfare]
 tags: ['MilitaryHistory', 'AncientWarfare']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 古代战争

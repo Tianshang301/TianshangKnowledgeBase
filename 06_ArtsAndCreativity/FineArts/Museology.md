@@ -1,6 +1,8 @@
 ---
 aliases: [Museology, MuseumStudies, 博物馆学]
 tags: ['Museology', 'FineArts', 'ArtsAndCreativity', 'HeritageStudies']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 博物馆学 (Museology)

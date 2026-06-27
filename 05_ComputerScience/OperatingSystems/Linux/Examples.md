@@ -1,6 +1,8 @@
 ---
 aliases: [Examples]
 tags: ['OperatingSystems', 'Linux', 'Examples']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 正则表达式实战
@@ -183,7 +185,7 @@ Ab1!            ❌ 太短
 // 单行注释             → " 单行注释"
 /* 块注释 */            → " 块注释 "
 /**
- * 文档注释
+ - 文档注释
  */                     → 完整匹配
 ```
 

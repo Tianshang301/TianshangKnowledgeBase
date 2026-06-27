@@ -1,6 +1,8 @@
 ---
 aliases: [延迟性肌肉酸痛, DOMS, 肌肉酸痛, 运动后酸痛, Delayed Onset Muscle Soreness]
 tags: [运动医学, 运动生理, 肌肉损伤, 恢复, 运动训练, 疼痛管理, 离心收缩]
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 延迟性肌肉酸痛 (Delayed Onset Muscle Soreness, DOMS)
@@ -69,7 +71,7 @@ $$
 flowchart LR
     A[肌肉微损伤<br/>Muscle Microtrauma] --> B[肌纤维膜破损<br/>Sarcolemma Disruption]
     B --> C[钙离子内流<br/>Ca²⁺ Influx]
-    C --> D[磷脂酶A₂激活<br/>PLA₂ Activation]
+    C --> D[磷脂酶 A₂激活<br/>PLA₂ Activation]
     D --> E[花生四烯酸释放<br/>Arachidonic Acid]
     E --> F[前列腺素合成<br/>PG Synthesis<br/>COX-1/2]
     E --> G[白三烯合成<br/>LT Synthesis<br/>5-LOX]

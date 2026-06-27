@@ -5,6 +5,8 @@ aliases:
   - External Ballistics
   - Terminal Ballistics
 tags:
+created: 2026-05-17
+updated: 2026-05-13
   - engineering
   - aerospace
   - military
@@ -206,7 +208,7 @@ $$P = \frac{E \cdot \varepsilon}{1 - \mu^2}$$
 
 | 制导方式 | 原理 | 精度提升 |
 |----------|------|----------|
-| GPS制导 | 卫星定位 | CEP < 10m |
+| GPS 制导 | 卫星定位 | CEP < 10m |
 | 激光制导 | 半主动寻的 | CEP < 5m |
 | 红外制导 | 热成像追踪 | 末端精度高 |
 | 复合制导 | 多模式融合 | 全天候作战 |

@@ -1,6 +1,8 @@
 ---
 aliases: [AnimalNutrition]
 tags: ['AnimalScience', 'AnimalNutrition']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 动物营养学
@@ -58,14 +60,14 @@ tags: ['AnimalScience', 'AnimalNutrition']
 ### 维生素营养
 
 **脂溶性维生素：**
-- 维生素A：视觉、上皮
-- 维生素D：钙磷代谢
-- 维生素E：抗氧化
-- 维生素K：凝血
+- 维生素 A：视觉、上皮
+- 维生素 D：钙磷代谢
+- 维生素 E：抗氧化
+- 维生素 K：凝血
 
 **水溶性维生素：**
-- B族维生素：代谢辅酶
-- 维生素C：抗氧化
+- B 族维生素：代谢辅酶
+- 维生素 C：抗氧化
 
 ## 饲料营养价值评定
 
@@ -177,7 +179,7 @@ tags: ['AnimalScience', 'AnimalNutrition']
 ### 猪营养
 
 **生长猪需要：**
-- 能量：DE或NE
+- 能量：DE 或 NE
 - 蛋白质：理想蛋白
 - 矿物质：钙磷比
 

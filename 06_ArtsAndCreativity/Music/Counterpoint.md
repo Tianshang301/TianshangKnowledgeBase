@@ -1,6 +1,8 @@
 ---
 aliases: [Counterpoint, 对位法, Polyphony]
 tags: ['MusicTheory', 'Counterpoint', 'ArtsAndCreativity', 'Polyphony']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 对位法 (Counterpoint)
@@ -28,7 +30,7 @@ flowchart TD
     CP --> CLAR[古典-浪漫 18-19c<br/>Mozart, Beethoven<br/>对位于主调框架中]
     CP --> MOD[现代 20c-<br/>Schoenberg, Hindemith<br/>新对位体系]
     
-    MED --> M1[平行Organum → 自由Organum]
+    MED --> M1[平行 Organum → 自由 Organum]
     REN --> M2[严格声部写作<br/>Fux 教科书体系]
     BAR --> M3[赋格 Fugue<br/>创意曲 Invention]
 ```

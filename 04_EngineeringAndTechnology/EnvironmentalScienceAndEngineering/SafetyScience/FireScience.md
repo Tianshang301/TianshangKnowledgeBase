@@ -1,6 +1,8 @@
 ---
 aliases: [FireScience]
 tags: ['EnvironmentalScienceAndEngineering', 'SafetyScience', 'FireScience']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 消防工程
@@ -77,7 +79,7 @@ tags: ['EnvironmentalScienceAndEngineering', 'SafetyScience', 'FireScience']
 
 **区域模型**：将房间分为上下两个温度均匀区域
 
-**场模型**：CFD方法求解N-S方程
+**场模型**：CFD 方法求解 N-S 方程
 
 ## 经典教材
 - 《消防工程学》

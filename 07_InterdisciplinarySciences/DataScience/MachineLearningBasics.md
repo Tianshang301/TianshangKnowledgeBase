@@ -1,6 +1,8 @@
 ---
 aliases: [MachineLearningBasics]
 tags: ['DataScience', 'MachineLearningBasics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 机器学习基础
@@ -8,11 +10,11 @@ tags: ['DataScience', 'MachineLearningBasics']
 ## 概述
 
 机器学习是人工智能的丢个分支，它使计算机系统能够从数据中学习和改进，无霢显式编程。过算法从数据中发现模式，机器学习可以做出预测和决策?
-## ML工作流程
+## ML 工作流程
 
 ### 1. 数据预处?
 **数据清洗?*
-- 处理缺失值：删除、填充（均中位数、众数）、插?- 处理异常值：Z-score方法、IQR方法
+- 处理缺失值：删除、填充（均中位数、众数）、插?- 处理异常值：Z-score 方法、IQR 方法
 - 处理重复数据
 
 **数据转换?*
@@ -39,7 +41,7 @@ tags: ['DataScience', 'MachineLearningBasics']
 - 分类：辑回归、SVM、决策树、随机森?- 回归：线性回归岭回归、随机森林回?- 聚类：K-Means、DBSCAN、层次聚?- 降维：PCA、t-SNE、UMAP
 
 **按数据规模：**
-- 小数据：箢单模型（线模型SVM?- 中等数据：集成方法（随机森林、GBDT?- 大数据：深度学习、大规模线模?
+- 小数据：箢单模型（线模型 SVM?- 中等数据：集成方法（随机森林、GBDT?- 大数据：深度学习、大规模线模?
 ### 4. 训练
 
 **训练?验证?测试集划分：**
@@ -63,13 +65,13 @@ tags: ['DataScience', 'MachineLearningBasics']
 ### 6. 部署
 
 **部署方式?*
-- REST API服务
+- REST API 服务
 - 边缘部署
 - 批量预测
 - 实时流处?
 **监控和维护：**
 - 模型性能监控
-- 数据漂移棢?- 模型再训?- A/B测试
+- 数据漂移棢?- 模型再训?- A/B 测试
 
 ## 监督学习算法概览
 
@@ -80,19 +82,19 @@ tags: ['DataScience', 'MachineLearningBasics']
 - 假设：线性关系独立同方差?
 **逻辑回归?*
 - 分类目标变量
-- Sigmoid函数映射到概?- 交叉熵损失函?
+- Sigmoid 函数映射到概?- 交叉熵损失函?
 ### 树模?
 **决策树：**
 - 递归分裂
 - 可解释强
 - 容易过拟?
 **随机森林?*
-- 多棵树集?- Bagging减少方差
+- 多棵树集?- Bagging 减少方差
 - 特征随机?
 **梯度提升树：**
 - 顺序添加弱学习器
 - 拟合残差
-- Boosting减少偏差
+- Boosting 减少偏差
 
 ### 支持向量?
 **核心思想?*
@@ -116,7 +118,7 @@ tags: ['DataScience', 'MachineLearningBasics']
 ### 聚类算法
 
 **K-Means?*
-- 基于距离的划?- 霢要指定K?- 对初始中心敏?
+- 基于距离的划?- 霢要指定 K?- 对初始中心敏?
 **层次聚类?*
 - 凝聚?分裂?- 不需要指定簇?- 计算复杂度高
 
@@ -131,11 +133,11 @@ tags: ['DataScience', 'MachineLearningBasics']
 **t-SNE?*
 - 非线性降?- 保持屢部结?- 适合可视?
 **UMAP?*
-- 保持全局和局部结?- 比t-SNE更快
+- 保持全局和局部结?- 比 t-SNE 更快
 - 适合大规模数?
 ### 关联规则
 
-**Apriori算法?*
+**Apriori 算法?*
 - 发现频繁项集
 - 生成关联规则
 - 支持度置信度
@@ -144,11 +146,11 @@ tags: ['DataScience', 'MachineLearningBasics']
 ### 模型选择
 
 **交叉验证?*
-- K折交叉验?- 留一交叉验证
+- K 折交叉验?- 留一交叉验证
 - 分层交叉验证
 
 **模型比较?*
-- 统计棢验（t棢验McNemar棢验）
+- 统计棢验（t 棢验 McNemar 棢验）
 - 信息准则（AIC、BIC?
 ### 超参数调?
 **网格搜索（Grid Search）：**
@@ -169,7 +171,7 @@ tags: ['DataScience', 'MachineLearningBasics']
 **SVM?*
 - C：正则化参数
 - kernel：核函数类型
-- gamma：RBF核参?
+- gamma：RBF 核参?
 **神经网络?*
 - learning_rate：学习率
 - batch_size：批大小
@@ -210,7 +212,7 @@ $$\text{总误差} = \text{偏差}^2 + \text{方差} + \text{不可约误差}$$
 - 箢单模型：高偏差，低方?- 复杂模型：低偏差，高方差
 - 目标：找到偏差和方差的平衡点
 
-## Python实现示例
+## Python 实现示例
 
 ```python
 from sklearn.model_selection import train_test_split, cross_val_score
@@ -244,7 +246,7 @@ print(f"AUC: {roc_auc_score(y_test, lr.predict_proba(X_test_scaled)[:, 1]):.4f}"
 - Mitchell TM. *Machine Learning*
 - Bishop CM. *Pattern Recognition and Machine Learning*
 - 《机器学习周志华
-- 《统计学习方法李?- Scikit-learn官方文档
+- 《统计学习方法李?- Scikit-learn 官方文档
 
 ## 相关条目
 

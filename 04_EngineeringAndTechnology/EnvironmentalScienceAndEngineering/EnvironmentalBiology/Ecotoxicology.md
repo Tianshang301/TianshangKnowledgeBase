@@ -1,6 +1,8 @@
 ---
 aliases: [Ecotoxicology, 生态毒理学]
 tags: ['EnvironmentalScienceAndEngineering', 'EnvironmentalBiology', 'Ecotoxicology']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 生态毒理学 (Ecotoxicology)
@@ -17,9 +19,9 @@ tags: ['EnvironmentalScienceAndEngineering', 'EnvironmentalBiology', 'Ecotoxicol
 |------|-----------|---------|
 | 持久性有机污染物 (POPs) | DDT、多氯联苯 (PCBs)、二噁英 | 农药、工业副产物 |
 | 重金属 (Heavy Metals) | Hg、Pb、Cd、Cr、As | 采矿、冶炼、电池 |
-| 内分泌干扰物 (EDCs) | 双酚A (BPA)、邻苯二甲酸酯 | 塑料、日化产品 |
-| 纳米材料 (Nanomaterials) | 纳米TiO₂、纳米Ag | 消费品、医疗 |
-| 微塑料 (Microplastics) | PE、PP、PET碎片 | 塑料降解、化妆品 |
+| 内分泌干扰物 (EDCs) | 双酚 A (BPA)、邻苯二甲酸酯 | 塑料、日化产品 |
+| 纳米材料 (Nanomaterials) | 纳米 TiO₂、纳米 Ag | 消费品、医疗 |
+| 微塑料 (Microplastics) | PE、PP、PET 碎片 | 塑料降解、化妆品 |
 
 ### 毒物动力学 (Toxicokinetics)
 
@@ -70,7 +72,7 @@ $$
 **分子效应**：
 
 - 氧化应激 (Oxidative Stress)：活性氧 (ROS) 产生超过抗氧化防御能力
-- DNA损伤：加合物形成、链断裂
+- DNA 损伤：加合物形成、链断裂
 - 酶抑制：乙酰胆碱酯酶 (AChE) 抑制
 
 **个体与种群效应**：
@@ -84,7 +86,7 @@ $$
 | 水平 | 标志物 | 指示意义 |
 |------|--------|---------|
 | 分子水平 | 金属硫蛋白 (MT) | 重金属暴露 |
-| 分子水平 | 细胞色素P450 (CYP1A) | 有机污染物暴露 |
+| 分子水平 | 细胞色素 P450 (CYP1A) | 有机污染物暴露 |
 | 分子水平 | 热休克蛋白 (HSP70) | 通用应激响应 |
 | 细胞水平 | 微核率 (Micronucleus) | 遗传毒性 |
 | 细胞水平 | 溶酶体膜稳定性 | 细胞健康状态 |

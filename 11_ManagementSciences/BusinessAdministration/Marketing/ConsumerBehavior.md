@@ -1,6 +1,8 @@
 ---
 aliases: [ConsumerBehavior]
 tags: ['BusinessAdministration', 'Marketing', 'ConsumerBehavior']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 消费者行为
@@ -60,7 +62,7 @@ tags: ['BusinessAdministration', 'Marketing', 'ConsumerBehavior']
 | 家庭成员 | 日常消费决策 | 家庭型营销 |
 | 朋友同事 | 推荐和口碑 | 社交分享激励 |
 | 网络社群 | 信息交流 | 社群营销 |
-| 意见领袖 | 专业建议 | KOL合作 |
+| 意见领袖 | 专业建议 | KOL 合作 |
 | 名人 | 榜样效应 | 品牌代言 |
 
 ### 个人因素
@@ -183,7 +185,7 @@ tags: ['BusinessAdministration', 'Marketing', 'ConsumerBehavior']
 
 ## 消费者行为研究方法
 
-在线行为追踪通过Cookie和像素追踪用户行为。眼球追踪研究消费者对广告的视觉注意。神经营销学通过脑电和皮肤电测量消费者无意识反应。大数据分析消费者行为模式。
+在线行为追踪通过 Cookie 和像素追踪用户行为。眼球追踪研究消费者对广告的视觉注意。神经营销学通过脑电和皮肤电测量消费者无意识反应。大数据分析消费者行为模式。
 
 ## 参考资料
 

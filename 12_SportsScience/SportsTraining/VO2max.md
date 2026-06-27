@@ -1,6 +1,8 @@
 ---
 aliases: [最大摄氧量, VO2max, 有氧能力, 心肺耐力, Maximal Oxygen Uptake]
 tags: [运动生理, 运动训练, 耐力运动, 运动医学, 体能测试, 心肺功能, 运动表现]
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 最大摄氧量 (Maximal Oxygen Uptake, VO₂max)

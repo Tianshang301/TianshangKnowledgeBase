@@ -4,6 +4,8 @@ aliases:
   - 过程安全工程
   - 化工安全
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - safety
   - risk-assessment
   - hazop

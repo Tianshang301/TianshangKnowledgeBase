@@ -1,6 +1,8 @@
 ---
 aliases: [QuantumCryptography]
 tags: ['QuantumInformationScience', 'QuantumCryptography']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 量子密码?
@@ -12,14 +14,14 @@ tags: ['QuantumInformationScience', 'QuantumCryptography']
 
 **定理内容?*
 - 任意未知量子态无法被完美复制
-- 由Wootters和Zurek?982年证?
+- 由 Wootters 和 Zurek?982年证?
 **数学表述?*
-不存在酉算子U使得对任意量子|ψ⟩：
+不存在酉算子 U 使得对任意量子|ψ⟩：
 $$U|\psi\rangle|0\rangle = |\psi\rangle|\psi\rangle$$
 
 **密码学意义：**
 - 窃听者无法复制量子?- 任何窃听都会留下痕迹
-- 为QKD提供安全性基硢
+- 为 QKD 提供安全性基硢
 
 ### 测量塌缩原理
 
@@ -33,7 +35,7 @@ $$U|\psi\rangle|0\rangle = |\psi\rangle|\psi\rangle$$
 - 某些物理量不能同时精确测?- 位置-动量、时?能量等共轭量
 
 **在密码学中的应用?*
-- 无法同时精确测量共轭?- 测量干扰可被棢?- 保证QKD安全?
+- 无法同时精确测量共轭?- 测量干扰可被棢?- 保证 QKD 安全?
 ## 量子密钥分发协议
 
 ### BB84协议
@@ -45,8 +47,8 @@ $$U|\psi\rangle|0\rangle = |\psi\rangle|\psi\rangle$$
 - 随机数发生器
 
 **具体步骤?*
-1. Alice生成随机比特?2. Alice随机选择编码基（+或×）
-3. Alice编码并发送量子?4. Bob随机选择测量基测?5. Bob通过经典信道告诉Alice测量?6. Alice保留匹配基的比特
+1. Alice 生成随机比特?2. Alice 随机选择编码基（+或×）
+3. Alice 编码并发送量子?4. Bob 随机选择测量基测?5. Bob 通过经典信道告诉 Alice 测量?6. Alice 保留匹配基的比特
 7. 公开部分比特棢测窃?8. 误码率低于阈值则密钥安全
 
 **安全性分析：**
@@ -54,15 +56,15 @@ $$U|\psi\rangle|0\rangle = |\psi\rangle|\psi\rangle$$
 - 光子数分离攻?- 侧信道攻?
 ### E91协议
 
-**基于纠缠的QKD?*
+**基于纠缠的 QKD?*
 
 **特点?*
-- 使用纠缠光子?- 基于Bell不等?- 设备无关安全?
+- 使用纠缠光子?- 基于 Bell 不等?- 设备无关安全?
 **协议流程?*
-1. EPR源产生纠缠对
-2. 分别发给Alice和Bob
+1. EPR 源产生纠缠对
+2. 分别发给 Alice 和 Bob
 3. 双方独立选择测量?4. 公开测量基和部分结果
-5. 计算Bell参数
+5. 计算 Bell 参数
 6. 验证安全性并生成密钥
 
 **优势?*
@@ -84,14 +86,14 @@ $$U|\psi\rangle|0\rangle = |\psi\rangle|\psi\rangle$$
 ### 其他协议
 
 **SARG04?*
-- 抗PDS攻击
+- 抗 PDS 攻击
 - 公开经典信息处理
 
-**连续变量QKD?*
+**连续变量 QKD?*
 - 使用相干?- 零差/外差棢?- 与现有光通信兼容
 
-**设备无关QKD?*
-- 不依赖设备信?- 基于Bell不等?- 安全性最?
+**设备无关 QKD?*
+- 不依赖设备信?- 基于 Bell 不等?- 安全性最?
 ## 量子随机数发生器
 
 ### 原理
@@ -129,11 +131,11 @@ $$U|\psi\rangle|0\rangle = |\psi\rangle|\psi\rangle$$
 
 ### 量子计算威胁
 
-**Shor算法威胁?*
+**Shor 算法威胁?*
 - RSA：大整数分解
 - ECC：离散对?- DH：Diffie-Hellman
 
-**Grover算法影响?*
+**Grover 算法影响?*
 - 对称密钥长度减半
 - 哈希函数安全性降?
 ### 后量子密码?
@@ -142,17 +144,17 @@ $$U|\psi\rangle|0\rangle = |\psi\rangle|\psi\rangle$$
 - 理论基础?
 **编码密码学：**
 - 基于编码理论
-- McEliece密码
+- McEliece 密码
 - 抗量子攻?
 **多变量密码学?*
-- 多变量多项式方程?- MQ问题
+- 多变量多项式方程?- MQ 问题
 - 签名方案
 
 **基于哈希的签名：**
 - XMSS、LMS
 - 理论安全
 - 状管?
-### NIST标准?
+### NIST 标准?
 **标准化进程：**
 - 2016年启?- 2022年出首批标准
 - CRYSTALS-Kyber（密钥封装）
@@ -215,7 +217,7 @@ $$U|\psi\rangle|0\rangle = |\psi\rangle|\psi\rangle$$
 
 ## 参资?
 - Gisin N, et al. *Quantum Cryptography*
-- 《量子密码学?- NIST后量子密码标准化项目
+- 《量子密码学?- NIST 后量子密码标准化项目
 - 量子密码学相关期刊和会议
 
 ## 相关条目

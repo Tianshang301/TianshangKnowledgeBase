@@ -1,6 +1,8 @@
 ---
 aliases: [Historiography]
 tags: ['History', 'Historiography', 'Historiography']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 史学史

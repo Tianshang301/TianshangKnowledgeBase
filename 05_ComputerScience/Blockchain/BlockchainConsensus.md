@@ -3,6 +3,8 @@ aliases:
   - 共识机制
   - Consensus Mechanism
 tags:
+created: 2026-05-17
+updated: 2026-05-16
   - blockchain
   - consensus
   - distributed-systems
@@ -62,8 +64,8 @@ $$Hash(BlockHeader + Nonce) < Target$$
 
 ```mermaid
 sequenceDiagram
-    participant M1 as 矿工A<br/>Miner A
-    participant M2 as 矿工B<br/>Miner B
+    participant M1 as 矿工 A<br/>Miner A
+    participant M2 as 矿工 B<br/>Miner B
     participant N as 网络<br/>Network
     loop 哈希计算
         M1->>M1: 尝试不同 Nonce

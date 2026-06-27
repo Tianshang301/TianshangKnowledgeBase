@@ -5,6 +5,8 @@ aliases:
   - Shannon
   - 香农
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - information-theory
   - entropy
   - coding

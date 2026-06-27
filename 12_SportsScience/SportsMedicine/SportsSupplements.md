@@ -1,6 +1,8 @@
 ---
 aliases: [SportsSupplements, 运动补剂]
 tags: ['12_SportsScience', 'SportsMedicine', 'SportsSupplements', 'Nutrition']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 运动补剂 (Sports Supplements)
@@ -13,10 +15,10 @@ tags: ['12_SportsScience', 'SportsMedicine', 'SportsSupplements', 'Nutrition']
 
 ```mermaid
 graph LR
-    A[运动补剂] --> B[A类:强力证据]
-    A --> C[B类:初步证据]
-    A --> D[C类:证据不足]
-    A --> E[D类:禁用物质]
+    A[运动补剂] --> B[A 类:强力证据]
+    A --> C[B 类:初步证据]
+    A --> D[C 类:证据不足]
+    A --> E[D 类:禁用物质]
     
     B --> F[肌酸<br/>Creatine]
     B --> G[咖啡因<br/>Caffeine]

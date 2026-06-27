@@ -1,6 +1,8 @@
 ---
 aliases: [ForestManagementPlanning]
 tags: ['Forestry', 'ForestManagementPlanning']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 森林经理学

@@ -1,6 +1,8 @@
 ---
 aliases: [CSS]
 tags: ['ProgrammingLanguages', 'Web', 'CSS']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # CSS3 完整参考
@@ -9,25 +11,25 @@ tags: ['ProgrammingLanguages', 'Web', 'CSS']
 
 ```css
 /* 基本选择器 */
-*                    {}  /* 通配符: 所有元素 */
+-                    {}  /* 通配符: 所有元素 */
 div                  {}  /* 元素选择器 */
 .container           {}  /* 类选择器 */
-#header              {}  /* ID选择器 */
+#header              {}  /* ID 选择器 */
 
 /* 组合选择器 */
-div p                {}  /* 后代选择器 (div内的所有p) */
-div > p              {}  /* 子选择器 (div的直接子p) */
-h1 + p               {}  /* 相邻兄弟 (h1后面的第一个p) */
-h1 ~ p               {}  /* 通用兄弟 (h1后面的所有p) */
+div p                {}  /* 后代选择器 (div 内的所有 p) */
+div > p              {}  /* 子选择器 (div 的直接子 p) */
+h1 + p               {}  /* 相邻兄弟 (h1后面的第一个 p) */
+h1 ~ p               {}  /* 通用兄弟 (h1后面的所有 p) */
 div, p               {}  /* 分组选择器 */
 
 /* 属性选择器 */
-[disabled]           {}  /* 有disabled属性的元素 */
+[disabled]           {}  /* 有 disabled 属性的元素 */
 [type="text"]        {}  /* type="text" */
-[class~="btn"]       {}  /* class包含"btn" (空格分隔) */
-[href^="https"]      {}  /* href以https开头 */
-[src$=".jpg"]        {}  /* src以.jpg结尾 */
-[data-*="value"]     {}  /* data-* 属性包含value */
+[class~="btn"]       {}  /* class 包含"btn" (空格分隔) */
+[href^="https"]      {}  /* href 以 https 开头 */
+[src$=".jpg"]        {}  /* src 以.jpg 结尾 */
+[data-*="value"]     {}  /* data-* 属性包含 value */
 
 /* 伪类 */
 :root                {}  /* 根元素(html) */
@@ -98,7 +100,7 @@ div, p               {}  /* 分组选择器 */
     margin-top: -10px;             /* 负边距 */
     
     /* 盒模型计算 */
-    box-sizing: content-box;  /* 默认: width=content宽度 */
+    box-sizing: content-box;  /* 默认: width=content 宽度 */
     box-sizing: border-box;   /* width=content+padding+border */
 }
 ```
@@ -126,7 +128,7 @@ div, p               {}  /* 分组选择器 */
 .item {
     flex-grow: 1;                   /* 放大比例, 默认0 */
     flex-shrink: 1;                 /* 缩小比例, 默认1 */
-    flex-basis: auto;               /* 初始大小, 默认auto */
+    flex-basis: auto;               /* 初始大小, 默认 auto */
     flex: 1 1 300px;                /* grow shrink basis 简写 */
     
     align-self: center;             /* 单独对齐: auto | flex-start | flex-end | center | baseline | stretch */
@@ -290,8 +292,8 @@ div, p               {}  /* 分组选择器 */
     padding: 2em;         /* 当前字体大小的2倍 */
     width: 80vw;          /* 视口宽度的80% */
     height: 60vh;         /* 视口高度的60% */
-    font-size: 2vmin;     /* vw和vh中较小的那一个 */
-    font-size: 2vmax;     /* vw和vh中较大的那一个 */
+    font-size: 2vmin;     /* vw 和 vh 中较小的那一个 */
+    font-size: 2vmax;     /* vw 和 vh 中较大的那一个 */
     
     /* 响应式字体 */
     font-size: clamp(1rem, 2.5vw, 2rem);    /* 范围限制 */

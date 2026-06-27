@@ -1,6 +1,8 @@
 ---
 aliases: [Hydrometallurgy, 湿法冶金, 水法冶金, AqueousMetallurgy, 浸出冶金, 化学冶金]
 tags: ['04_EngineeringAndTechnology', 'MetallurgicalEngineering', 'ExtractiveMetallurgy', 'Hydrometallurgy', 'ChemicalMetallurgy', 'Leaching']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 湿法冶金（Hydrometallurgy）

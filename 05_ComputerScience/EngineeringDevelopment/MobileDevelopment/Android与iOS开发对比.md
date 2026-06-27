@@ -1,9 +1,9 @@
 ---
-aliases: [Android与iOS开发对比]
-tags: ['EngineeringDevelopment', 'MobileDevelopment', 'Android与iOS开发对比']
+aliases: [Android 与 iOS 开发对比]
+tags: ['EngineeringDevelopment', 'MobileDevelopment', 'Android 与 iOS 开发对比']
 ---
 
-# Android与iOS开发对比
+# Android 与 iOS 开发对比
 
 ## 一、开发环境与工具
 
@@ -17,7 +17,7 @@ tags: ['EngineeringDevelopment', 'MobileDevelopment', 'Android与iOS开发对比
 | 包管理器 | Maven Central / JitPack | CocoaPods / SPM |
 | 模拟器 | Android Emulator (QEMU) | iOS Simulator |
 | 调试工具 | ADB / Profiler | Instruments / LLDB |
-| 最低系统要求 | 跨平台 | 仅macOS |
+| 最低系统要求 | 跨平台 | 仅 macOS |
 
 ## 二、编程语言对比
 
@@ -60,10 +60,10 @@ func fetchUser(id: Int) async throws -> User {
 | 空安全 | 内置 | 可选类型 |
 | 协程 | kotlinx.coroutines | Swift Concurrency |
 | 函数式 | 良好 | 优秀 |
-| 互操作性 | Java互操作 | ObjC互操作 |
+| 互操作性 | Java 互操作 | ObjC 互操作 |
 | 编译速度 | 中等 | 快速 |
 
-## 三、UI框架对比
+## 三、UI 框架对比
 
 Jetpack Compose vs SwiftUI：
 
@@ -122,7 +122,7 @@ struct UserProfile: View {
 | 特性 | Jetpack Compose | SwiftUI |
 |------|----------------|---------|
 | 声明式 | 是 | 是 |
-| 预览支持 | 实时预览 | Canvas预览 |
+| 预览支持 | 实时预览 | Canvas 预览 |
 | 导航 | Navigation Compose | NavigationStack |
 | 状态管理 | State/Hoist | @State/@Binding |
 | 最低版本 | API 21+ | iOS 13+ |
@@ -130,7 +130,7 @@ struct UserProfile: View {
 
 ## 四、架构模式对比
 
-Android推荐架构（MVVM + Repository）：
+Android 推荐架构（MVVM + Repository）：
 
 ```kotlin
 // ViewModel
@@ -156,7 +156,7 @@ data class UserEntity(
 )
 ```
 
-iOS推荐架构（MVVM + Combine）：
+iOS 推荐架构（MVVM + Combine）：
 
 ```swift
 // ViewModel
@@ -182,7 +182,7 @@ class UserEntity: NSManagedObject {
 
 ## 五、应用生命周期
 
-Android生命周期：
+Android 生命周期：
 
 ```
 onCreate() -> onStart() -> onResume() -> [运行中] -> onPause() -> onStop() -> onDestroy()
@@ -190,7 +190,7 @@ onCreate() -> onStart() -> onResume() -> [运行中] -> onPause() -> onStop() ->
                         +--- onRestart() <--------------------+
 ```
 
-iOS生命周期：
+iOS 生命周期：
 
 ```
 application(_:didFinishLaunchingWithOptions:)
@@ -253,7 +253,7 @@ struct API {
 | 测试渠道 | Internal/Closed/Open | TestFlight |
 | 更新频率 | 灵活 | 审核后生效 |
 | 分成比例 | 30%（15%首百万） | 30%（15%小企业） |
-| 应用大小限制 | 4GB（含APK扩展） | 4GB |
+| 应用大小限制 | 4GB（含 APK 扩展） | 4GB |
 | 上架成功率 | 高 | 中等 |
 
 ## 九、性能与优化
@@ -261,9 +261,9 @@ struct API {
 性能优化关注点对比：
 
 ```kotlin
-// Android - 使用Profile GPU Rendering检测
-// Android GPU Inspector分析帧率
-// LeakCanary检测内存泄漏
+// Android - 使用 Profile GPU Rendering 检测
+// Android GPU Inspector 分析帧率
+// LeakCanary 检测内存泄漏
 @Composable
 fun LazyList(items: List<Item>) {
     LazyColumn {
@@ -275,9 +275,9 @@ fun LazyList(items: List<Item>) {
 ```
 
 ```swift
-// iOS - Time Profiler检测性能瓶颈
-// Allocations跟踪内存分配
-// 使用UICollectionView的prefetching
+// iOS - Time Profiler 检测性能瓶颈
+// Allocations 跟踪内存分配
+// 使用 UICollectionView 的 prefetching
 List(items, id: \.id) { item in
     ItemRow(item: item)
 }
@@ -288,10 +288,10 @@ List(items, id: \.id) { item in
 
 ## 参考资源
 
-1. Android官方文档：https://developer.android.com/docs
-2. iOS开发者文档：https://developer.apple.com/documentation
-3. Jetpack Compose指南：https://developer.android.com/jetpack/compose
-4. SwiftUI教程：https://developer.apple.com/tutorials/swiftui
-5. 《Android编程权威指南》书籍
-6. 《iOS编程（第6版）》书籍
+1. Android 官方文档：https://developer.android.com/docs
+2. iOS 开发者文档：https://developer.apple.com/documentation
+3. Jetpack Compose 指南：https://developer.android.com/jetpack/compose
+4. SwiftUI 教程：https://developer.apple.com/tutorials/swiftui
+5. 《Android 编程权威指南》书籍
+6. 《iOS 编程（第6版）》书籍
 7. Google Codelabs：https://codelabs.developers.google.com

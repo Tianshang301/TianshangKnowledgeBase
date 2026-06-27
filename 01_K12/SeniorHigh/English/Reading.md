@@ -1,6 +1,8 @@
 ---
 aliases: [Reading]
 tags: ['SeniorHigh', 'English', 'Reading']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 高中英语 · 阅读理解
@@ -203,7 +205,7 @@ tags: ['SeniorHigh', 'English', 'Reading']
 
 #### (1) 并列结构
 
-由and, but, or, yet, so, for 等连接多个并列成分?
+由 and, but, or, yet, so, for 等连接多个并列成分?
 
 **分析方法**：找出并列连词，判断并列的是哪两?多个成分?
 
@@ -245,9 +247,9 @@ tags: ['SeniorHigh', 'English', 'Reading']
 
 - 主干：The idea was not accepted
 
-- 同位语从句：that the Earth revolves around the Sun（解idea?
+- 同位语从句：that the Earth revolves around the Sun（解 idea?
 
-- 非限制定语从句：which was proposed by Copernicus（修饰the idea?
+- 非限制定语从句：which was proposed by Copernicus（修饰 the idea?
 
 **?**：Not only did the research reveal that the drug is effective in treating the disease, but it also showed that the side effects are minimal.
 
@@ -365,7 +367,7 @@ tags: ['SeniorHigh', 'English', 'Reading']
 
 | **偷换概念** | 相近但不 | 仔细比对 |
 
-| **张冠李戴** | 将A的特征安到B | 分清对象 |
+| **张冠李戴** | 将 A 的特征安到 B | 分清对象 |
 
 | **过度推断** | 超出文章范围 | 推理适度 |
 

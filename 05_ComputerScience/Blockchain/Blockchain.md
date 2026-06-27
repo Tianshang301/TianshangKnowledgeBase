@@ -1,6 +1,8 @@
 ---
 aliases: [Blockchain]
 tags: ['Blockchain', 'Blockchain']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 区块链技术完全指南

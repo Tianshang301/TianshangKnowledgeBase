@@ -1,17 +1,10 @@
 ---
-aliases: [NLP]
-tags: ['05_ComputerScience', 'ArtificialIntelligence', 'NLP']
+aliases: [INDEX]
+tags: ['05_ComputerScience', 'INDEX']
 ---
 
-# 自然语言处理 (NLP)
+# NLP
 
-> 自然语言处理索引
+> This directory has been merged into [[05_ComputerScience/ArtificialIntelligence/NaturalLanguageProcessing/INDEX|NaturalLanguageProcessing]].
 
-## 文件
-
-- [[NLPOverview]]
-- [[SpeechRecognition]]
-
-## 相关条目
-- [[../INDEX|AI 索引]]
-- [[../../INDEX|ComputerScience 索引]]
+Please update your links to point to the new location.

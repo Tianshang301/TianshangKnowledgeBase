@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['ArtificialIntelligence', 'NaturalLanguageProcessing', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 自然语言处理
@@ -10,4 +12,4 @@ tags: ['ArtificialIntelligence', 'NaturalLanguageProcessing', 'INDEX']
 ## 文件
 
 - [[NaturalLanguageProcessing]]
-- [[序列建模与Transformer]]
+- [[序列建模与 Transformer]]

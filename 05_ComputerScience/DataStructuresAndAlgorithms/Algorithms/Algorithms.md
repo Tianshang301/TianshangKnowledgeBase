@@ -1,6 +1,8 @@
 ---
 aliases: [Algorithms, 算法]
 tags: ['05_ComputerScience', 'DataStructuresAndAlgorithms', 'Algorithms', 'ComputationalThinking']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 算法 Algorithms

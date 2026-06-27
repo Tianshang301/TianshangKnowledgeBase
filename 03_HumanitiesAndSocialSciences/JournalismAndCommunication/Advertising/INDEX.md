@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['JournalismAndCommunication', 'Advertising', 'INDEX']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 广告学

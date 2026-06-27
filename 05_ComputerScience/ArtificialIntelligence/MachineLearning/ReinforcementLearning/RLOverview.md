@@ -1,6 +1,8 @@
 ---
 aliases: [ReinforcementLearning, 强化学习, RL]
 tags: ['05_ComputerScience', 'AI', 'ReinforcementLearning', 'MachineLearning']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 强化学习概述 (Reinforcement Learning Overview)

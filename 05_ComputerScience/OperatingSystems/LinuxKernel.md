@@ -1,6 +1,8 @@
 ---
 aliases: [LinuxKernel]
 tags: ['OperatingSystems', 'LinuxKernel']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Linux 内核基础 (Linux Kernel Fundamentals)
@@ -15,7 +17,7 @@ tags: ['OperatingSystems', 'LinuxKernel']
 │     用户空间          │          │     用户空间          │
 ├──────────────────────┤          ├──────────────────────┤
 │  ┌────────────────┐  │          │  ┌────────────────┐  │
-│  │   系统调用接口   │  │          │  │  IPC客户端      │  │
+│  │   系统调用接口   │  │          │  │  IPC 客户端      │  │
 │  ├────────────────┤  │          │  ├────────────────┤  │
 │  │ 文件系统       │  │          │  │ 文件系统(用户)   │  │
 │  │ 内存管理       │  │          │  ├────────────────┤  │
@@ -34,7 +36,7 @@ tags: ['OperatingSystems', 'LinuxKernel']
 
 | 特性 | Linux (单内核) | Minix (微内核) |
 |------|---------------|----------------|
-| 性能 | 高(函数调用) | 低(IPC通信) |
+| 性能 | 高(函数调用) | 低(IPC 通信) |
 | 模块化 | 可加载模块 | 天生模块化 |
 | 调试 | 难(大内核) | 易(各组件独立) |
 | 稳定性 | 驱动崩溃→内核崩溃 | 驱动崩溃→可重启 |
@@ -121,19 +123,19 @@ ssize_t write(int fd, const void *buf, size_t count) {
 ```c
 // include/linux/sched.h (简化)
 struct task_struct {
-    pid_t                   pid;            // 进程ID
-    pid_t                   tgid;           // 线程组ID
+    pid_t                   pid;            // 进程 ID
+    pid_t                   tgid;           // 线程组 ID
     struct task_struct      *real_parent;
     struct task_struct      *parent;
     struct list_head        children;
     struct list_head        sibling;
 
-    struct sched_entity     se;             // CFS调度实体
+    struct sched_entity     se;             // CFS 调度实体
     unsigned int            policy;
     int                     prio;
     int                     static_prio;
 
-    volatile long           state;          // TASK_RUNNING等
+    volatile long           state;          // TASK_RUNNING 等
     int                     exit_state;
 
     struct mm_struct        *mm;            // 用户地址空间
@@ -158,7 +160,7 @@ long do_fork(unsigned long clone_flags, unsigned long stack_start,
              int __user *child_tidptr) {
     struct task_struct *p;
 
-    p = dup_task_struct(current);           // 分配task_struct
+    p = dup_task_struct(current);           // 分配 task_struct
     if (clone_flags & CLONE_VM)
         p->mm = current->mm;               // 共享地址空间(线程)
     else
@@ -193,8 +195,8 @@ void free_pages(struct page *page, unsigned int order);
 ```
 
 **机制:**
-- 空闲块按2^order页分组到free_area[order]链表
-- 分配: 从free_area[order]取, 若无则从上级分裂
+- 空闲块按2^order 页分组到 free_area[order]链表
+- 分配: 从 free_area[order]取, 若无则从上级分裂
 - 释放: 检查伙伴是否空闲, 是则合并
 
 ```
@@ -202,13 +204,13 @@ void free_pages(struct page *page, unsigned int order);
 free_area[0]: [页0] [页2]    free_area[1]: []
 free_area[2]: [页0-3]
 
-从order=2分裂出order=1: 页0-1返回, 页2-3加入free_area[1]
+从 order=2分裂出 order=1: 页0-1返回, 页2-3加入 free_area[1]
 ```
 
 ### 4.2 SLUB 分配器
 
 ```c
-// 系统预定义slab缓存 (cat /proc/slabinfo)
+// 系统预定义 slab 缓存 (cat /proc/slabinfo)
 // task_struct ~3KB  |  mm_struct ~1KB
 // inode_cache ~1KB  |  dentry_cache ~200B
 
@@ -230,7 +232,7 @@ void *kmem_cache_alloc(struct kmem_cache *s, gfp_t flags);
 ├─────────────────┤
 │  堆 (heap)      │  VMA: [rw-p]
 ├─────────────────┤
-│  mmap区域       │  VMA: [rw-p] (共享库)
+│  mmap 区域       │  VMA: [rw-p] (共享库)
 ├─────────────────┤
 │  栈 (stack)     │  VMA: [rw-p]
 ├─────────────────┤
@@ -255,7 +257,7 @@ struct vm_area_struct {
 **缺页处理流程:**
 ```
 do_page_fault()
-    ├── 地址在VMA内?  → 继续, 否则 → SIGSEGV
+    ├── 地址在 VMA 内?  → 继续, 否则 → SIGSEGV
     ├── 页表项=0?     → demand paging
     ├── 写保护页?     → copy-on-write
     └── 匿名页?       → 分配零页
@@ -447,7 +449,7 @@ cat /dev/chardev
 printk(KERN_INFO "PID %d: file opened\n", current->pid);
 pr_info("Module loaded\n");
 pr_err("Error occurred: %d\n", ret);
-pr_debug("Debug info\n");   // 需定义DEBUG
+pr_debug("Debug info\n");   // 需定义 DEBUG
 ```
 
 ```bash
@@ -459,7 +461,7 @@ echo 8 > /proc/sys/kernel/printk  # 设置日志级别
 ### 7.2 ftrace (Function Tracer)
 
 ```bash
-# 挂载tracefs
+# 挂载 tracefs
 mount -t tracefs tracefs /sys/kernel/tracing
 
 # 启用函数跟踪
@@ -509,7 +511,7 @@ tar xf linux-6.7.tar.xz
 cd linux-6.7
 
 # 配置
-make menuconfig           # 基于ncurses的配置界面
+make menuconfig           # 基于 ncurses 的配置界面
 make defconfig            # 默认配置
 make localmodconfig       # 基于当前系统模块的最小配置
 
@@ -521,7 +523,7 @@ make modules              # 仅编译模块
 make modules_install      # 安装模块到 /lib/modules/
 make install              # 安装内核到 /boot/
 
-# 更新grub
+# 更新 grub
 update-grub               # Debian/Ubuntu
 grub2-mkconfig -o /boot/grub2/grub.cfg  # RHEL/CentOS
 ```
@@ -532,7 +534,7 @@ grub2-mkconfig -o /boot/grub2/grub.cfg  # RHEL/CentOS
 |------|------|
 | arch/ | 体系结构相关 (x86, arm, riscv...) |
 | block/ | 块设备层 |
-| crypto/ | 加密API |
+| crypto/ | 加密 API |
 | drivers/ | 设备驱动 |
 | fs/ | 文件系统 |
 | include/ | 头文件 |
@@ -546,8 +548,8 @@ grub2-mkconfig -o /boot/grub2/grub.cfg  # RHEL/CentOS
 | security/ | 安全模块(SELinux, AppArmor) |
 | sound/ | 音频子系统 |
 | tools/ | 用户空间工具 |
-| usr/ | initramfs生成 |
-| virt/ | KVM虚拟化 |
+| usr/ | initramfs 生成 |
+| virt/ | KVM 虚拟化 |
 
 ## 相关条目
 

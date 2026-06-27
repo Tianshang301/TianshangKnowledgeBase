@@ -1,6 +1,8 @@
 ---
 aliases: [WastewaterTreatment, 废水处理, Water and Wastewater Treatment, Sewage Treatment, WWT]
 tags: ['EnvironmentalScienceAndEngineering', 'EnvironmentalEngineering', 'WastewaterTreatment', 'WaterTreatment']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 废水处理

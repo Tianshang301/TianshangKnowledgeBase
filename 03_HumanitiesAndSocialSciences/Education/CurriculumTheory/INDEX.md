@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['Education', 'CurriculumTheory', 'INDEX']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 课程理论

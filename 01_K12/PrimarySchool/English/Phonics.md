@@ -1,6 +1,8 @@
 ---
 aliases: [Phonics]
 tags: ['PrimarySchool', 'English', 'Phonics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 自然拼读
@@ -50,7 +52,7 @@ tags: ['PrimarySchool', 'English', 'Phonics']
 
 ## 元音字母短音
 
-### a的短音/æ/
+### a 的短音/æ/
 
 - **发音要点**：嘴巴张大，舌尖抵下齿。
 - **示例单词**：
@@ -59,7 +61,7 @@ tags: ['PrimarySchool', 'English', 'Phonics']
   - map /mæp/
   - hat /hæt/
 
-### e的短音/e/
+### e 的短音/e/
 
 - **发音要点**：嘴巴半开，舌尖抵下齿
 - **示例单词**：
@@ -68,7 +70,7 @@ tags: ['PrimarySchool', 'English', 'Phonics']
   - red /red/
   - ten /ten/
 
-### i的短音/ɪ/
+### i 的短音/ɪ/
 
 - **发音要点**：嘴巴微开，舌尖抵下齿
 - **示例单词**：
@@ -77,7 +79,7 @@ tags: ['PrimarySchool', 'English', 'Phonics']
   - big /bɪɡ/
   - hit /hɪt/
 
-### o的短音/ɒ/
+### o 的短音/ɒ/
 
 - **发音要点**：嘴巴圆。
 - **示例单词**：
@@ -86,7 +88,7 @@ tags: ['PrimarySchool', 'English', 'Phonics']
   - box /bɒks/
   - pot /pɒt/
 
-### u的短音/ʌ/
+### u 的短音/ʌ/
 
 - **发音要点**：嘴巴半开，不圆唇。
 - **示例单词**：
@@ -97,7 +99,7 @@ tags: ['PrimarySchool', 'English', 'Phonics']
 
 ## 辅音字母组合发音
 
-### sh的发音/ʃ/
+### sh 的发音/ʃ/
 
 - **发音要点**：舌头翘起，嘴巴圆。
 - **示例单词**：
@@ -106,7 +108,7 @@ tags: ['PrimarySchool', 'English', 'Phonics']
   - shop /ʃɒp/
   - wash /wɒʃ/
 
-### ch的发音/tʃ/
+### ch 的发音/tʃ/
 
 - **发音要点**：舌头翘起，送气
 - **示例单词**：
@@ -115,7 +117,7 @@ tags: ['PrimarySchool', 'English', 'Phonics']
   - child /tʃaɪld/
   - church /tʃɜːtʃ/
 
-### th的发音/θ/和/ð/
+### th 的发音/θ/和/ð/
 
 - **发音要点**：舌尖抵上齿
 - **示例单词**：
@@ -124,7 +126,7 @@ tags: ['PrimarySchool', 'English', 'Phonics']
   - three /θriː/
   - that /ðæt/
 
-### wh的发音/w/
+### wh 的发音/w/
 
 - **发音要点**：嘴唇圆，送气
 - **示例单词**：
@@ -133,7 +135,7 @@ tags: ['PrimarySchool', 'English', 'Phonics']
   - when /wen/
   - white /waɪt/
 
-### ph的发音/f/
+### ph 的发音/f/
 
 - **发音要点**：上齿咬下唇
 - **示例单词**：
@@ -142,14 +144,14 @@ tags: ['PrimarySchool', 'English', 'Phonics']
   - elephant /elɪfənt/
   - graph /ɡrɑːf/
 
-## 元音字母长音（Magic E规则）
+## 元音字母长音（Magic E 规则）
 
 ### 规则说明
 
-- **规则**：单词末尾加e，前面的元音字母发长音（字母本身音）
+- **规则**：单词末尾加 e，前面的元音字母发长音（字母本身音）
 - **结构**：元音字母 + 辅音字母 + e
 
-### a的长音/eɪ/
+### a 的长音/eɪ/
 
 | 短音 | 长音 |
 |--------|--------|
@@ -158,7 +160,7 @@ tags: ['PrimarySchool', 'English', 'Phonics']
 | mat | make |
 | hat | hate |
 
-### e的长音/iː/
+### e 的长音/iː/
 
 | 短音 | 长音 |
 |--------|--------|
@@ -166,7 +168,7 @@ tags: ['PrimarySchool', 'English', 'Phonics']
 | met | mete |
 | set | sett |
 
-### i的长音/aɪ/
+### i 的长音/aɪ/
 
 | 短音 | 长音 |
 |--------|--------|
@@ -175,7 +177,7 @@ tags: ['PrimarySchool', 'English', 'Phonics']
 | hit | hike |
 | pin | pine |
 
-### o的长音/əʊ/
+### o 的长音/əʊ/
 
 | 短音 | 长音 |
 |--------|--------|
@@ -184,7 +186,7 @@ tags: ['PrimarySchool', 'English', 'Phonics']
 | rob | robe |
 | cub | cube |
 
-### u的长音/juː/
+### u 的长音/juː/
 
 | 短音 | 长音 |
 |--------|--------|
@@ -225,7 +227,7 @@ tags: ['PrimarySchool', 'English', 'Phonics']
 
 ### 练习步骤
 
-1. 从简单的CVC词开始（cat, dog, sit）
+1. 从简单的 CVC 词开始（cat, dog, sit）
 2. 逐步增加难度（cake, hope, cute）
 3. 尝试拼读句子
 
@@ -238,7 +240,7 @@ tags: ['PrimarySchool', 'English', 'Phonics']
 ## 参考资料
 
 - 《自然拼读教材》
-- Phonics学习网站
+- Phonics 学习网站
 - 英语发音词典
 - 自然拼读练习册
 

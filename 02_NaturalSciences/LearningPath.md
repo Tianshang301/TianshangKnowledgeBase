@@ -1,6 +1,8 @@
 ---
 aliases: [LearningPath]
 tags: ['LearningPath']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 自然科学学习路线图

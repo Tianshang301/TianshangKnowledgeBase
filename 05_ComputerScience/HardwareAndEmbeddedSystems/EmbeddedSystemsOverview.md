@@ -1,6 +1,8 @@
 ---
 aliases: [EmbeddedSystemsOverview, 嵌入式系统概述]
 tags: ['05_ComputerScience', 'HardwareAndEmbeddedSystems']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 嵌入式系统概述 (Embedded Systems Overview)

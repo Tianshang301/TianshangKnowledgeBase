@@ -1,6 +1,8 @@
 ---
 aliases: [RaspberryPi]
 tags: ['HardwareAndEmbeddedSystems', 'RaspberryPi', 'RaspberryPi']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Raspberry Pi
@@ -292,7 +294,7 @@ $$\Delta T = P \times R_{\theta}$$
 
 ## 相关条目
 
-- [[RaspberryPi项目实践]]
+- [[RaspberryPi 项目实践]]
 - [[EmbeddedLinux]]
 - [[IoT]]
 - [[Arduino]]

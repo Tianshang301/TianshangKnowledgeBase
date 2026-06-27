@@ -1,6 +1,8 @@
 ---
 aliases: [ResearchMethods]
 tags: ['Methodology', 'ResearchMethods']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 研究方法概览
@@ -41,7 +43,7 @@ tags: ['Methodology', 'ResearchMethods']
 
 ### 统计分析
 - **描述统计**：均值、中位数、标准差
-- **推断统计**：t检验、方差分析、卡方检验
+- **推断统计**：t 检验、方差分析、卡方检验
 - **多元分析**：因子分析、聚类分析
 - **软件工具**：SPSS、R、Python
 

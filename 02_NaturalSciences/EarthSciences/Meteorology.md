@@ -1,6 +1,8 @@
 ---
 aliases: [Meteorology, 气象学]
 tags: ['02_NaturalSciences', 'EarthSciences', 'Meteorology']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 气象学

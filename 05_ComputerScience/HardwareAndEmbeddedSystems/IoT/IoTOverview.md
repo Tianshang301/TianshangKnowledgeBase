@@ -1,6 +1,8 @@
 ---
 aliases: [IoT, InternetOfThings]
 tags: ['05_ComputerScience', 'HardwareAndEmbeddedSystems', 'IoT']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 物联网概述 (IoT Overview)

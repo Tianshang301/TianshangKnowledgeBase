@@ -1,6 +1,8 @@
 ---
 aliases: [UniversityPath]
 tags: ['LearningPaths', 'UniversityPath']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # 大学学习路径规划
@@ -61,7 +63,7 @@ tags: ['LearningPaths', 'UniversityPath']
 - **高等数学**：微积分、级数
 - **线性代数**：矩阵运算、向量空间
 - **大学物理**：力学、电磁学
-- **程序设计**：C语言/Python基础
+- **程序设计**：C 语言/Python 基础
 
 #### 大二：力学基础
 - **理论力学**：静力学、动力学

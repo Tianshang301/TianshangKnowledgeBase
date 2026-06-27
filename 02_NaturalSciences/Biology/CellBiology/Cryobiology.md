@@ -1,4 +1,11 @@
-﻿---
+---
+aliases: [Cryobiology]
+tags: ['Biology', 'CellBiology', 'Cryobiology.md']
+created: 2026-05-17
+updated: 2026-05-17
+---
+
+---
 aliases: [Cryobiology, LowTemperatureBiology]
 tags: ['Biology/Cryobiology', 'CellBiology', 'LowTemperatureBiology']
 ---
@@ -210,7 +217,7 @@ $$v_c \approx \frac{\Delta T}{\tau}$$
 
 ## 相关条目
 
-- [[../CellBiology|细胞生物学]]
+- [[../CellBiology/INDEX|细胞生物学]]
 - [[../../Chemistry/Biochemistry/Biochemistry|生物化学]]
 - [[../../Chemistry/Biochemistry/MolecularDocking|分子对接]]
 

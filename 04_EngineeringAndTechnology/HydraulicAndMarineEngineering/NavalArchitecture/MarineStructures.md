@@ -5,6 +5,8 @@ aliases:
   - Subsea Systems
   - Ocean Engineering
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - engineering
   - marine
   - offshore
@@ -125,15 +127,15 @@ $w$ 为单位长度水中重量。
 
 ### 动力定位 (Dynamic Positioning)
 
-DP系统通过推进器自动保持位置。控制方程：
+DP 系统通过推进器自动保持位置。控制方程：
 
 $$\tau = K_p \cdot e + K_i \int e \, dt + K_d \frac{de}{dt}$$
 
-DP等级分类：
+DP 等级分类：
 
 ```mermaid
 graph LR
-    A[DP系统等级<br/>DP Classes] --> B[DP-1<br/>单套系统]
+    A[DP 系统等级<br/>DP Classes] --> B[DP-1<br/>单套系统]
     A --> C[DP-2<br/>冗余系统]
     A --> D[DP-3<br/>独立舱室]
     
@@ -164,14 +166,14 @@ graph LR
 
 - **刚性立管（Rigid Riser）**：钢管，适用于固定平台
 - **柔性立管（Flexible Riser）**：多层复合结构，适用于浮式平台
-- **塔式立管（SCR）**：钢悬链线立管，适用于Spar和TLP
-- **顶部张紧立管（TTR）**：张力补偿，适用于TLP
+- **塔式立管（SCR）**：钢悬链线立管，适用于 Spar 和 TLP
+- **顶部张紧立管（TTR）**：张力补偿，适用于 TLP
 
 立管疲劳分析：
 
 $$D = \sum \frac{n_i}{N_i} < 1.0$$
 
-Miner累积损伤准则。
+Miner 累积损伤准则。
 
 
 ## 腐蚀与防护 (Corrosion and Protection)
@@ -232,11 +234,11 @@ graph LR
 
 ### 疲劳分析 (Fatigue Analysis)
 
-S-N曲线（应力-寿命曲线）：
+S-N 曲线（应力-寿命曲线）：
 
 $$N \cdot S^m = A$$
 
-Palmgren-Miner累积损伤：
+Palmgren-Miner 累积损伤：
 
 $$D = \sum_{i} \frac{n_i}{N_i}$$
 

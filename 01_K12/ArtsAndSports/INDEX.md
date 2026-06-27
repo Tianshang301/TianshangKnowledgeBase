@@ -1,11 +1,13 @@
 ---
 aliases: [INDEX]
-tags: ['Arts_and_Sports', 'INDEX']
+tags: ['ArtsAndSports', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
-# Arts_and_Sports
+# ArtsAndSports
 
-本索引汇集了 Arts_and_Sports 相关的核心知识文件，涵盖 FineArts、InformationTechnology、Music 等内容。
+本索引汇集了 ArtsAndSports 相关的核心知识文件，涵盖 FineArts、InformationTechnology、Music 等内容。
 
 ## 文件
 

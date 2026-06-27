@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['FineArts', 'Painting', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Painting

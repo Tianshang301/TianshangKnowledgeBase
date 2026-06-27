@@ -1,6 +1,8 @@
 ---
 aliases: [PhysicalTherapy]
 tags: ['12_SportsScience', 'SportsMedicine']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 物理治疗 (Physical Therapy)

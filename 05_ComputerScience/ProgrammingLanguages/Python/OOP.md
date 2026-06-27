@@ -1,6 +1,8 @@
 ---
 aliases: [OOP]
 tags: ['ProgrammingLanguages', 'Python', 'OOP']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Python 面向对象编程
@@ -220,8 +222,8 @@ class BankAccount:
         self._balance -= amount
 
 acc = BankAccount("李四", 1000)
-print(acc.balance)     # 1000 (通过property访问)
-acc.balance = 2000     # 通过setter
+print(acc.balance)     # 1000 (通过 property 访问)
+acc.balance = 2000     # 通过 setter
 # acc.balance = -100   # ValueError!
 acc.deposit(500)
 print(acc.balance)     # 2500
@@ -477,7 +479,7 @@ p2 = Person("李四", 30)
 
 print(p1)                      # Person(name='张三', age=25, hobbies=['读书', '编程'])
 print(p1 == Person("张三", 25, ["读书", "编程"]))  # True
-print(p1 > p2)                 # False (因为age比较)
+print(p1 > p2)                 # False (因为 age 比较)
 print(asdict(p1))              # {'name': '张三', 'age': 25, 'hobbies': ['读书', '编程']}
 ```
 
@@ -496,7 +498,7 @@ class Immutable:
 class Config:
     host: str = "localhost"
     port: int = 8080
-    debug: bool = field(default=False, repr=False)  # repr中不显示
+    debug: bool = field(default=False, repr=False)  # repr 中不显示
     _internal: str = field(default="secret", init=False)  # 不在__init__中
 
 config = Config()

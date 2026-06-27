@@ -3,6 +3,8 @@ aliases:
   - Musical Form
   - 曲式
 tags:
+created: 2026-05-17
+updated: 2026-05-13
   - music
   - musical-form
   - theory

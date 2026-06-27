@@ -5,6 +5,8 @@ aliases:
   - Aerodynamic Forces
   - Computational Fluid Dynamics
 tags:
+created: 2026-05-17
+updated: 2026-05-13
   - engineering
   - aerospace
   - fluid-mechanics
@@ -30,7 +32,7 @@ tags:
 
 $$\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{V}) = 0$$
 
-**动量方程（Momentum Equation）——Navier-Stokes方程**：
+**动量方程（Momentum Equation）——Navier-Stokes 方程**：
 
 $$\rho \left(\frac{\partial \mathbf{V}}{\partial t} + \mathbf{V} \cdot \nabla \mathbf{V}\right) = -\nabla p + \mu \nabla^2 \mathbf{V} + \rho \mathbf{g}$$
 
@@ -225,14 +227,14 @@ $$\nu(Ma) = \sqrt{\frac{\gamma+1}{\gamma-1}} \arctan\sqrt{\frac{\gamma-1}{\gamma
 
 ### 湍流模型 (Turbulence Models)
 
-雷诺平均Navier-Stokes（RANS）方法：
+雷诺平均 Navier-Stokes（RANS）方法：
 
 $$\frac{\partial \bar{u}_i}{\partial t} + \bar{u}_j \frac{\partial \bar{u}_i}{\partial x_j} = -\frac{1}{\rho} \frac{\partial \bar{p}}{\partial x_i} + \nu \frac{\partial^2 \bar{u}_i}{\partial x_j \partial x_j} - \frac{\partial \overline{u_i' u_j'}}{\partial x_j}$$
 
 常用湍流模型：
 
-- **k-ε模型**：标准k-ε，RNG k-ε，Realizable k-ε
-- **k-ω模型**：标准k-ω，SST k-ω
+- **k-ε模型**：标准 k-ε，RNG k-ε，Realizable k-ε
+- **k-ω模型**：标准 k-ω，SST k-ω
 - **雷诺应力模型（RSM）**：直接求解雷诺应力输运方程
 - **大涡模拟（LES）**：直接求解大尺度涡，模型化小尺度涡
 

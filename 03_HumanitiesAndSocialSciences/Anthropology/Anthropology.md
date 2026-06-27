@@ -1,6 +1,8 @@
 ---
 aliases: [Anthropology]
 tags: ['03_HumanitiesAndSocialSciences', 'Anthropology']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # Anthropology

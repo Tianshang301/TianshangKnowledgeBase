@@ -1,6 +1,8 @@
 ---
 aliases: [TenseAndAspect, TenseAspect, 时态语态]
 tags: ['EnglishGrammar', 'K12', 'SeniorHigh', 'Syntax', 'Tense', 'Voice']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 时态与语态 (Tense and Aspect)

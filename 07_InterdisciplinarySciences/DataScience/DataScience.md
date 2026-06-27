@@ -1,6 +1,8 @@
 ---
 aliases: [DataScience, 数据科学, DataAnalytics, 数据分析]
 tags: ['07_InterdisciplinarySciences', 'DataScience', 'MachineLearning', 'Statistics', 'BigData']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 数据科学 (Data Science)

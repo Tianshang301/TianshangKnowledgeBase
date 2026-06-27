@@ -1,6 +1,8 @@
 ---
 aliases: [ComparativeLiterature]
 tags: ['ForeignLanguagesAndLiteratures', 'ComparativeLiterature', 'ComparativeLiterature']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 比较文学
@@ -24,13 +26,13 @@ tags: ['ForeignLanguagesAndLiteratures', 'ComparativeLiterature', 'ComparativeLi
 |------|------|------|---------|
 | 第一阶段 | 19世纪末—二战前 | 影响研究、渊源考证 | 法国学派 |
 | 第二阶段 | 二战后—1970s | 平行研究、美学批评 | 美国学派 |
-| 第三阶段 | 1980s至今 | 文化研究、翻译、跨学科 | 多元格局 |
+| 第三阶段 | 1980s 至今 | 文化研究、翻译、跨学科 | 多元格局 |
 
 ## 二、比较文学的研究方法
 
 ### 2.1 影响研究
 
-影响研究（Influence Study）是比较文学最早的方法论，由法国学派主导。它考察作家A如何受到作家B或文学传统C的影响。
+影响研究（Influence Study）是比较文学最早的方法论，由法国学派主导。它考察作家 A 如何受到作家 B 或文学传统 C 的影响。
 
 $$\text{影响} = \text{发出者} \rightarrow \text{接受者} \rightarrow \text{改造与创新}$$
 

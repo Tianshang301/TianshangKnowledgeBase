@@ -1,6 +1,8 @@
 ---
 aliases: [RobustControl]
 tags: ['04_EngineeringAndTechnology', 'ControlAndSystemsEngineering', 'ControlTheory', 'RobustControl']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 鲁棒控制

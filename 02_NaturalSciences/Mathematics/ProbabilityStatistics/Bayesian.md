@@ -1,6 +1,8 @@
 ---
 aliases: [Bayesian]
 tags: ['Mathematics', 'ProbabilityStatistics', 'Bayesian']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 贝叶斯统计

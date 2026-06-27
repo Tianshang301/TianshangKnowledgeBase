@@ -1,6 +1,8 @@
 ---
 aliases: [ConcreteStructures]
 tags: ['CivilEngineering', 'StructuralEngineering', 'ConcreteStructures']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 混凝土结构
@@ -21,10 +23,10 @@ tags: ['CivilEngineering', 'StructuralEngineering', 'ConcreteStructures']
 ### 混凝土材料性能
 
 **强度等级**：
-- C15~C80（数字表示立方体抗压强度标准值，单位MPa）
+- C15~C80（数字表示立方体抗压强度标准值，单位 MPa）
 - 常用：C25、C30、C35、C40
 
-**立方体抗压强度**：$f_{cu,k}$（标准值，150mm立方体试件）
+**立方体抗压强度**：$f_{cu,k}$（标准值，150mm 立方体试件）
 
 **轴心抗压强度**：$f_c = 0.67f_{cu}$（棱柱体强度）
 

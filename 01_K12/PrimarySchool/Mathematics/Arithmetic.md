@@ -1,6 +1,8 @@
 ---
 aliases: [Arithmetic]
 tags: ['PrimarySchool', 'Mathematics', 'Arithmetic']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 算术基础
@@ -43,7 +45,7 @@ tags: ['PrimarySchool', 'Mathematics', 'Arithmetic']
 - **示例**：
   ```
     123
-  + 456
+  - 456
   -----
     579
   ```
@@ -129,10 +131,10 @@ tags: ['PrimarySchool', 'Mathematics', 'Arithmetic']
 - **示例**：234 ≈ 230（保留到十位）。
 ### 进一。
 - **规则**：无论下一位是多少，都。
-- **示例**：装油，每瓶5kg，20kg油需要4瓶。
+- **示例**：装油，每瓶5kg，20kg 油需要4瓶。
 ### 去尾。
 - **规则**：无论下一位是多少，都舍去
-- **示例**：做衣服，每件用2m布，5m布能做2件。
+- **示例**：做衣服，每件用2m 布，5m 布能做2件。
 ### 估算技巧
 1. **加减法**：估成整十、整百数
 2. **乘法**：分别估算两个因数
@@ -198,7 +200,7 @@ tags: ['PrimarySchool', 'Mathematics', 'Arithmetic']
 ### 竖式计算
 ```
   234
-+ 567
+- 567
 -----
   801
 

@@ -1,6 +1,8 @@
 ---
 aliases: [FluidMechanics, 流体力学, 流体力学概论]
 tags: ['02_NaturalSciences', 'Physics', 'ClassicalMechanics', 'Engineering', 'Aerodynamics']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 流体力学 Fluid Mechanics
@@ -122,8 +124,8 @@ $$
 
 ```mermaid
 flowchart LR
-    A[入口: 高速v₁<br/>低压p₁] --> B[喉部: 最高速v₂<br/>最低压p₂]
-    B --> C[出口: 低速v₃<br/>高压p₃]
+    A[入口: 高速 v₁<br/>低压 p₁] --> B[喉部: 最高速 v₂<br/>最低压 p₂]
+    B --> C[出口: 低速 v₃<br/>高压 p₃]
     D[压差 Δp] --> E[流量测量]
 ```
 

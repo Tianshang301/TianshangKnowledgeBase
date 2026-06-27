@@ -1,6 +1,8 @@
 ---
 aliases: [Environment]
 tags: ['OperatingSystems', 'Linux', 'Environment']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Shell 环境配置

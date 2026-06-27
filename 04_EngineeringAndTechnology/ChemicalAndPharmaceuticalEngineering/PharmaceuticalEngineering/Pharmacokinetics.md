@@ -1,6 +1,8 @@
 ---
 aliases: [Pharmacokinetics, 药物动力学]
 tags: ['04_EngineeringAndTechnology', 'ChemicalAndPharmaceuticalEngineering', 'PharmaceuticalEngineering', 'Pharmacokinetics']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 药物动力学 (Pharmacokinetics)

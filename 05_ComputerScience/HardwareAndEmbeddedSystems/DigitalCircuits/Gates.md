@@ -1,6 +1,8 @@
 ---
 aliases: [Gates]
 tags: ['HardwareAndEmbeddedSystems', 'DigitalCircuits', 'Gates']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 基本门电路
@@ -94,11 +96,11 @@ Y = AB + A'B' = A ⊙ B
 ```
 VDD
   |
-  P-MOS (栅极=输入A)
+  P-MOS (栅极=输入 A)
   |
   Y (输出)
   |
-  N-MOS (栅极=输入A)
+  N-MOS (栅极=输入 A)
   |
  GND
 ```
@@ -121,7 +123,7 @@ VDD
            GND
 ```
 
-- A=0 (P1导通, N1截止): Y 通过 P1 拉高 (P2取决于B)
+- A=0 (P1导通, N1截止): Y 通过 P1 拉高 (P2取决于 B)
 - B=0 (P2导通, N2截止): Y 通过 P2 拉高
 - A=1, B=1: N1, N2 都导通, P1, P2 都截止 → Y=0
 
@@ -224,4 +226,4 @@ NAND:   Y = (A' NOR B')' = ?
 - [[Sequential]]
 - [[StateMachine]]
 - [[DigitalLogic]]
-- [[Verilog硬件描述语言]]
+- [[Verilog 硬件描述语言]]

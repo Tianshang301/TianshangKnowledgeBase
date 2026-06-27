@@ -1,6 +1,8 @@
 ---
 aliases: [AntennaTheory]
 tags: ['ElectronicsAndCommunications', 'AntennaAndMicrowave', 'AntennaTheory']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 天线理论
@@ -28,7 +30,7 @@ $U_{max}$ 为最大辐射强度，$P_{rad}$ 为总辐射功率。
 
 $$G = \eta_r D$$
 
-$\eta_r$ 为天线效率。通常用dB表示：$G_{dB} = 10\log_{10}G$。
+$\eta_r$ 为天线效率。通常用 dB 表示：$G_{dB} = 10\log_{10}G$。
 
 **输入阻抗**：
 
@@ -92,9 +94,9 @@ $\psi = kd\cos\theta + \beta$，$\beta$ 为相邻单元激励相位差。
 - 切比雪夫分布：等副瓣
 - 泰勒分布：副瓣递减
 
-### MIMO天线
+### MIMO 天线
 
-**MIMO系统**：
+**MIMO 系统**：
 
 $$y = Hx + n$$
 
@@ -134,7 +136,7 @@ $H$ 为信道矩阵，$x$ 为发射信号，$n$ 为噪声。
 - 移动通信基站天线
 - 卫星通信天线
 - 雷达天线
-- GPS/GNSS天线
+- GPS/GNSS 天线
 - 物联网天线（RFID、LoRa）
 - 汽车雷达天线
 

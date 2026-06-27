@@ -1,18 +1,20 @@
 ---
 aliases: [INDEX]
 tags: ['INDEX']
+created: 2026-05-16
+updated: 2026-06-27
 ---
 
 # 07_InterdisciplinarySciences
 
-本索引汇集了 07_InterdisciplinarySciences 相关的核心知识文件，涵盖 AI_and_Science - AI与科学、AI_and_SocialScience - AI与社会科学、AI_and_Healthcare - AI与医疗健康 等内容。
+本索引汇集了 07_InterdisciplinarySciences 相关的核心知识文件，涵盖 AI_and_Science - AI 与科学、AI_and_SocialScience - AI 与社会科学、AI_and_Healthcare - AI 与医疗健康 等内容。
 
 ## 文件
 
-- [[AIandScience]] - AI与科学
-- [[AIandSocialScience]] - AI与社会科学
-- [[AIandHealthcare]] - AI与医疗健康
-- [[AIEthicsandPhilosophy]] - AI伦理与哲学
+- [[AIandScience]] - AI 与科学
+- [[AIandSocialScience]] - AI 与社会科学
+- [[AIandHealthcare]] - AI 与医疗健康
+- [[AIEthicsandPhilosophy]] - AI 伦理与哲学
 - [[Biostatistics]] - 生物统计
 - [[BusinessStatistics]] - 商业统计
 - [[StatisticalLearning]] - 统计学习
@@ -57,4 +59,19 @@ tags: ['INDEX']
 - [[ComplexityScience]] - 复杂性科学
 - [[TransdisciplinaryResearch]] - 跨学科研究
 - [[NetworkScience]] - 网络科学
+- [[07_InterdisciplinarySciences/ComputationalSocialScience/AgentBasedModeling]] - 基于主体的建模
+- [[07_InterdisciplinarySciences/ComputationalSocialScience/ComputationalSociology]] - 计算社会学
+- [[07_InterdisciplinarySciences/ComputationalSocialScience/SocialNetworkAnalysis]] - 社会网络分析
+- [[07_InterdisciplinarySciences/ComputationalSocialScience/OpinionMining]] - 舆情挖掘
+- [[07_InterdisciplinarySciences/ComputationalSocialScience/DigitalHumanitiesComputing]] - 数字人文计算
+- [[07_InterdisciplinarySciences/DigitalTwin/DigitalTwinTheory]] - 数字孪生理论
+- [[07_InterdisciplinarySciences/DigitalTwin/IndustrialDigitalTwin]] - 工业数字孪生
+- [[07_InterdisciplinarySciences/DigitalTwin/UrbanDigitalTwin]] - 城市数字孪生
+- [[07_InterdisciplinarySciences/DigitalTwin/MedicalDigitalTwin]] - 医学数字孪生
+- [[07_InterdisciplinarySciences/SustainableDevelopment/SDGsFramework]] - SDGs 框架
+- [[07_InterdisciplinarySciences/SustainableDevelopment/CarbonNeutralityTechnology]] - 碳中和技术
+- [[07_InterdisciplinarySciences/SustainableDevelopment/CircularEconomy]] - 循环经济
+- [[07_InterdisciplinarySciences/SustainableDevelopment/ESGAssessment]] - ESG 评估
+- [[07_InterdisciplinarySciences/ComplexSystems/EmergenceAndSelfOrganization]] - 涌现与自组织
+- [[07_InterdisciplinarySciences/ComplexSystems/ComplexNetworks]] - 复杂网络
 - [[LearningPath]]

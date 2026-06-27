@@ -1,6 +1,8 @@
 ---
 aliases: [EnzymeEngineering, 酶工程]
 tags: ['04_EngineeringAndTechnology', 'Biotechnologies', 'FermentationEngineering', 'EnzymeEngineering']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 酶工程 (Enzyme Engineering)

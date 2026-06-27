@@ -1,6 +1,8 @@
 ---
 aliases: [PerformanceAnalysis, 运动表现分析, 比赛分析, 视频分析, MatchAnalysis]
 tags: ['12_SportsScience', 'SportsTraining', 'PerformanceAnalysis', 'SportsTechnology']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 运动表现分析

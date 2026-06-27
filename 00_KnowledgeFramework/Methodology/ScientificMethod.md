@@ -1,6 +1,8 @@
 ---
 aliases: [ScientificMethod]
 tags: ['Methodology', 'ScientificMethod']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 科学方法论
@@ -64,10 +66,10 @@ tags: ['Methodology', 'ScientificMethod']
    - 演绎：时钟在高速运动时变慢
    - 验证：缪子寿命实验
 
-2. **DNA双螺旋结构**：
-   - 假设：DNA是双螺旋结构
-   - 演绎：DNA复制是半保留的
-   - 验证：Meselson-Stahl实验
+2. **DNA 双螺旋结构**：
+   - 假设：DNA 是双螺旋结构
+   - 演绎：DNA 复制是半保留的
+   - 验证：Meselson-Stahl 实验
 
 ## 归纳法与演绎法
 ### 归纳法（Induction）

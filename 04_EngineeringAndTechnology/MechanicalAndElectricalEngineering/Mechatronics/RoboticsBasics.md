@@ -1,6 +1,8 @@
 ---
 aliases: [RoboticsBasics, 机器人基础]
 tags: ['MechanicalAndElectricalEngineering', 'Mechatronics', 'RoboticsBasics', 'Automation']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 机器人基础 (Robotics Basics)

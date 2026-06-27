@@ -14,12 +14,12 @@ updated: 2025-05-17
 ### 工程学科分类
 | 分支领域 | 英文名称 | 核心关注 | 典型职业 |
 |----------|----------|----------|----------|
-| 机械工程 | Mechanical Engineering | 力学、热学、设计制造 | 机械工程师、CAE分析师 |
+| 机械工程 | Mechanical Engineering | 力学、热学、设计制造 | 机械工程师、CAE 分析师 |
 | 电气工程 | Electrical Engineering | 电路、电机、电力系统 | 电气工程师、电网设计 |
 | 电子与信息工程 | Electronics & Communication | 信号、通信、微电子 | 射频工程师、嵌入式工程师 |
 | 土木工程 | Civil Engineering | 结构、岩土、交通 | 结构工程师、项目经理 |
 | 化学工程 | Chemical Engineering | 反应工程、分离过程 | 工艺工程师、石化专家 |
-| 计算机工程 | Computer Engineering | 硬件、软件、系统 | 系统架构师、FPGA工程师 |
+| 计算机工程 | Computer Engineering | 硬件、软件、系统 | 系统架构师、FPGA 工程师 |
 | 材料科学与工程 | Materials Science & Engineering | 材料结构、性能、加工 | 材料工程师、研发专家 |
 | 生物医学工程 | Biomedical Engineering | 医疗设备、生物力学 | 医疗设备工程师 |
 | 环境工程 | Environmental Engineering | 水处理、大气治理 | 环境咨询师 |
@@ -34,7 +34,7 @@ updated: 2025-05-17
 - **线性代数 (Linear Algebra)**：矩阵运算、向量空间、特征值、奇异值分解
 - **概率与统计 (Probability & Statistics)**：分布理论、假设检验、回归分析、贝叶斯方法
 - **数值方法 (Numerical Methods)**：有限差分、插值、优化算法、蒙特卡洛模拟
-- **复变函数 (Complex Analysis)**：留数定理、傅里叶与拉普拉斯变换、Z变换
+- **复变函数 (Complex Analysis)**：留数定理、傅里叶与拉普拉斯变换、Z 变换
 
 ### 物理基础 (Physics Foundation)
 - **经典力学 (Classical Mechanics)**：牛顿定律、能量守恒、动量定理、拉格朗日力学
@@ -44,7 +44,7 @@ updated: 2025-05-17
 
 ### 通用工程基础
 - **工程力学 (Engineering Mechanics)**：静力学、动力学、材料力学
-- **工程制图 (Engineering Drawing)**：CAD建模、三视图、尺寸标注、公差配合
+- **工程制图 (Engineering Drawing)**：CAD 建模、三视图、尺寸标注、公差配合
 - **计算机编程 (Computer Programming)**：Python/C++、面向对象、数据结构、算法
 - **工程伦理 (Engineering Ethics)**：职业道德、社会责任、安全规范、环境意识
 - **实验设计与数据分析 (Experimental Design & Data Analysis)**：测量误差、数据处理、报告撰写
@@ -95,16 +95,16 @@ flowchart LR
 ### 硬技能 (Hard Skills)
 1. **计算与分析**：有限元分析 (FEA/FEM)、计算流体力学 (CFD)、多物理场耦合
 2. **设计软件**：SolidWorks、AutoCAD、CATIA、ANSYS、MATLAB/Simulink
-3. **项目管理**：PMP认证、敏捷开发、甘特图、风险管理、成本估算
+3. **项目管理**：PMP 认证、敏捷开发、甘特图、风险管理、成本估算
 4. **标准与规范**：ISO、GB、ASTM、DIN、IEC 标准体系
 5. **实验与测试**：数据采集、传感器技术、失效分析、可靠性测试
-6. **控制与自动化**：PLC编程、SCADA系统、工业机器人编程
+6. **控制与自动化**：PLC 编程、SCADA 系统、工业机器人编程
 7. **技术文档**：技术报告、设计说明书、操作手册、专利撰写
 
 ### 软技能 (Soft Skills)
 - **工程沟通 (Engineering Communication)**：技术文档撰写、图纸评审、项目汇报、跨部门协调
 - **团队协作 (Team Collaboration)**：跨职能团队协作、领导力、冲突解决
-- **问题解决 (Problem Solving)**：系统思维、根本原因分析 (RCA)、TRIZ创新方法
+- **问题解决 (Problem Solving)**：系统思维、根本原因分析 (RCA)、TRIZ 创新方法
 - **终身学习 (Lifelong Learning)**：技术更新迭代速度快，持续教育与自主学习至关重要
 - **跨文化能力 (Cross-cultural Competence)**：国际工程项目、外企协作、多语言沟通
 - **商业意识 (Business Acumen)**：成本控制、市场需求分析、商业价值评估
@@ -116,10 +116,10 @@ flowchart LR
 flowchart TD
     A[数学与物理基础] --> B[工程力学系列<br/>理论力学+材料力学]
     B --> C[机械设计基础<br/>机械原理+机械设计]
-    C --> D[制造技术<br/>CAD/CAM/3D打印]
+    C --> D[制造技术<br/>CAD/CAM/3D 打印]
     D --> E[控制工程<br/>自动控制/PLC]
     E --> F[进阶方向<br/>机器人/汽车/航空]
-    F --> G1[CAE仿真工程师]
+    F --> G1[CAE 仿真工程师]
     F --> G2[产品设计工程师]
     F --> G3[制造工艺工程师]
 ```
@@ -135,14 +135,14 @@ flowchart TD
 ### 电子与信息工程推荐路径
 - **基础**：模拟电路、数字电路、信号与系统、电磁场与波
 - **核心**：通信原理、数字信号处理、嵌入式系统、微电子概论
-- **进阶**：RF电路设计、DSP算法实现、FPGA开发、VLSI设计
-- **前沿**：5G/6G通信、雷达系统、物联网 (IoT) 芯片、卫星通信
+- **进阶**：RF 电路设计、DSP 算法实现、FPGA 开发、VLSI 设计
+- **前沿**：5G/6G 通信、雷达系统、物联网 (IoT) 芯片、卫星通信
 
 ### 计算机工程推荐路径
-- **硬件方向**：数字逻辑、计算机组成、VLSI设计、FPGA、SoC架构
+- **硬件方向**：数字逻辑、计算机组成、VLSI 设计、FPGA、SoC 架构
 - **软件方向**：操作系统、计算机网络、软件工程、数据库、编译原理
-- **系统方向**：嵌入式Linux、实时操作系统、RTOS、驱动开发
-- **交叉方向**：AI芯片架构、机器人操作系统 (ROS)、自动驾驶感知系统
+- **系统方向**：嵌入式 Linux、实时操作系统、RTOS、驱动开发
+- **交叉方向**：AI 芯片架构、机器人操作系统 (ROS)、自动驾驶感知系统
 
 ## 学习资源推荐 (Recommended Resources)
 
@@ -152,14 +152,14 @@ flowchart TD
 | MIT OpenCourseWare | 免费、完整课程资料 | 6.002 Circuits & Electronics、2.003 Dynamics & Control |
 | Coursera/edX | 体系化专项课程 | Engineering Mechanics (Georgia Tech)、CAD (Autodesk) |
 | Khan Academy | 基础概念讲解 | Electrical Engineering 基础、微积分 |
-| 中国大学MOOC | 国内名校课程 | 清华/浙大/上交工程师系列课程 |
+| 中国大学 MOOC | 国内名校课程 | 清华/浙大/上交工程师系列课程 |
 | YouTube 频道 | 实际工程案例、动手实践 | EEVblog、Practical Engineering、SmarterEveryDay |
 
 ### 经典教材 (Standard Textbooks)
 - **机械**：《机械设计手册》(成大先)、《Theory of Machines》(Shigley)、《材料力学》(刘鸿文)
 - **电气**：《电路》(Nilsson/Riedel)、《Electric Machinery》(Fitzgerald)、《电力系统分析》(Kundur)
 - **土木**：《结构力学》(龙驭球)、《Design of Concrete Structures》(Nilson)、《土力学》(陈仲颐)
-- **编程**：《C++ Primer》(Lippman)、《Introduction to Algorithms》(CLRS)、《Python编程从入门到实践》
+- **编程**：《C++ Primer》(Lippman)、《Introduction to Algorithms》(CLRS)、《Python 编程从入门到实践》
 - **通用参考**：《工程中的数学方法》(Kreyszig)、《Standard Handbook for Mechanical Engineers》
 
 ### 工程仿真工具
@@ -168,7 +168,7 @@ flowchart TD
 - **控制系统**：MATLAB/Simulink、LabVIEW、SCADE
 - **结构分析**：Abaqus、SAP2000、ETABS、NASTRAN
 - **流体仿真**：Fluent、OpenFOAM、CFX、STAR-CCM+
-- **3D建模**：SolidWorks、Inventor、Fusion 360、Creo、NX
+- **3D 建模**：SolidWorks、Inventor、Fusion 360、Creo、NX
 
 ## 职业发展建议 (Career Development)
 
@@ -195,7 +195,7 @@ flowchart TD
 - **PMP** (项目管理专业人士) — 项目管理领域黄金标准
 - **PE/注册工程师** — 国内法定签字权资质
 - **Six Sigma Black Belt** — 质量管理与流程改进
-- **CFD/CAE 认证** — ANSYS、COMSOL厂商认证
+- **CFD/CAE 认证** — ANSYS、COMSOL 厂商认证
 - **AWS/Azure 架构师** — 云计算与物联网方向
 - **FIDIC 认证** — 国际工程咨询与合同管理
 
@@ -205,7 +205,7 @@ flowchart TD
 | 智能制造与工业4.0 | 自动化、AI、工业物联网 | 机械、电气、计算机 | 学习工业物联网、数字孪生、OPC UA |
 | 碳中和与绿色能源 | 双碳目标、环保法规 | 电气、环境、化工 | 掌握新能源技术、碳核算、ESG |
 | 芯片自主化 | 供应链安全、国产替代 | 电子、计算机、材料 | 关注半导体设计、制造工艺、封装测试 |
-| AI与数据工程 | 深度学习、大数据分析 | 计算机、电子信息 | 学习机器学习、数据科学、边缘计算 |
+| AI 与数据工程 | 深度学习、大数据分析 | 计算机、电子信息 | 学习机器学习、数据科学、边缘计算 |
 | 生物医疗融合 | 老龄化、精准医疗、医疗器械 | 生物医学、材料、机械 | 了解医疗器械法规、生物相容性 |
 
 ### 选择工程方向时的考量因素
@@ -230,8 +230,8 @@ flowchart TD
 ## 相关条目
 - [[02_HigherEducation/EngineeringEducation|工程教育]]
 - [[04_EngineeringAndTechnology/Apprenticeship|工程学徒制]]
-- [[00_KnowledgeFramework/StudyMethods/STEMStudy|STEM学习方法]]
+- [[00_KnowledgeFramework/StudyMethods/STEMStudy|STEM 学习方法]]
 - [[CareerPlanning|职业规划]]
 - [[ProjectManagement|项目管理基础]]
-- [[CADBasics|CAD基础教程]]
+- [[CADBasics|CAD 基础教程]]
 - [[ProgrammingForEngineers|工程师编程入门]]

@@ -1,6 +1,8 @@
 ---
 aliases: [Cybersecurity, 网络安全概述]
 tags: ['05_ComputerScience', 'Cybersecurity', 'Overview']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 网络安全概述 (Cybersecurity Overview)
@@ -64,7 +66,7 @@ graph LR
         B1[钓鱼<br/>Phishing]
         B2[DDoS]
         B3[中间人<br/>MitM]
-        B4[SQL注入<br/>SQL Injection]
+        B4[SQL 注入<br/>SQL Injection]
     end
     subgraph 社会工程
         C1[ pretexting]

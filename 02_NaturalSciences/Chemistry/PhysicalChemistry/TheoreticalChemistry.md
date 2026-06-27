@@ -1,4 +1,11 @@
-﻿---
+---
+aliases: [TheoreticalChemistry]
+tags: ['Chemistry', 'PhysicalChemistry', 'TheoreticalChemistry.md']
+created: 2026-05-17
+updated: 2026-05-17
+---
+
+---
 aliases: [TheoreticalChemistry, LiLunHuaXue]
 tags: ['Chemistry/PhysicalChemistry/TheoreticalChemistry', 'PhysicalChemistry']
 ---
@@ -226,5 +233,5 @@ $$\Delta G_{\text{solv}} = \Delta G_{\text{electrostatic}} + \Delta G_{\text{cav
 
 ## 相关条目 (See Also)
 
-- [[../PhysicalChemistry|物理化学]]
+- [[../INDEX|物理化学]]
 - [[../../../INDEX|知识库首页]]

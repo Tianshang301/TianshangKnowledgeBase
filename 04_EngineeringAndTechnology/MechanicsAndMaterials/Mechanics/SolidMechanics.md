@@ -1,6 +1,8 @@
 ---
 aliases: [SolidMechanics]
 tags: ['MechanicsAndMaterials', 'Mechanics', 'SolidMechanics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 固体力学
@@ -63,7 +65,7 @@ $$\varepsilon_{ij} = \frac{1}{2}\left(\frac{\partial u_i}{\partial x_j} + \frac{
 
 **主应力与主应变**：通过求解特征值问题可得主应力 $\sigma_1, \sigma_2, \sigma_3$。
 
-**Von Mises等效应力**：
+**Von Mises 等效应力**：
 
 $$\sigma_v = \sqrt{\frac{1}{2}\left[(\sigma_1-\sigma_2)^2 + (\sigma_2-\sigma_3)^2 + (\sigma_3-\sigma_1)^2\right]}$$
 
@@ -73,7 +75,7 @@ $$\sigma_v = \sqrt{\frac{1}{2}\left[(\sigma_1-\sigma_2)^2 + (\sigma_2-\sigma_3)^
 
 $$\varepsilon_{ij} = \frac{1+\nu}{E}\sigma_{ij} - \frac{\nu}{E}\sigma_{kk}\delta_{ij}$$
 
-其中 $E$ 为弹性模量，$\nu$ 为泊松比，$\delta_{ij}$ 为Kronecker符号。
+其中 $E$ 为弹性模量，$\nu$ 为泊松比，$\delta_{ij}$ 为 Kronecker 符号。
 
 **体积模量**：$K = \frac{E}{3(1-2\nu)}$
 
@@ -89,7 +91,7 @@ $$\varepsilon_{ij} = \frac{1+\nu}{E}\sigma_{ij} - \frac{\nu}{E}\sigma_{kk}\delta
 - $\varepsilon_{zz} = \gamma_{xz} = \gamma_{yz} = 0$
 - 适用于挡土坝、隧道等长结构
 
-**Airy应力函数**：平面问题可引入应力函数 $\Phi$，满足双调和方程：
+**Airy 应力函数**：平面问题可引入应力函数 $\Phi$，满足双调和方程：
 
 $$\nabla^4 \Phi = \frac{\partial^4 \Phi}{\partial x^4} + 2\frac{\partial^4 \Phi}{\partial x^2 \partial y^2} + \frac{\partial^4 \Phi}{\partial y^4} = 0$$
 
@@ -115,11 +117,11 @@ $$\int_V \sigma_{ij}\delta\varepsilon_{ij}\,dV = \int_S T_i\delta u_i\,dS + \int
 
 $$K_I = \lim_{r\to 0}\sigma_y(r,0)\sqrt{2\pi r}$$
 
-**Griffith能量准则**：
+**Griffith 能量准则**：
 
 $$G = \frac{\partial}{\partial a}\left(U_{strain} - W_{external}\right)$$
 
-**J积分**：$J = \int_\Gamma \left(W\,dy - T_i\frac{\partial u_i}{\partial x}\,ds\right)$
+**J 积分**：$J = \int_\Gamma \left(W\,dy - T_i\frac{\partial u_i}{\partial x}\,ds\right)$
 
 **断裂判据**：$K_I \geq K_{IC}$（平面应变断裂韧性）
 

@@ -1,6 +1,8 @@
 ---
 aliases: [DataMining]
 tags: ['DataScience', 'DataMining']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 数据挖掘
@@ -56,7 +58,7 @@ $$confidence(X \rightarrow Y) = \frac{support(X \cup Y)}{support(X)}$$
 **提升度（Lift）：**
 $$lift(X \rightarrow Y) = \frac{confidence(X \rightarrow Y)}{support(Y)}$$
 
-### Apriori算法
+### Apriori 算法
 
 **核心原理?*
 - 先验性质：频繁项集的扢有子集也是频繁的
@@ -65,7 +67,7 @@ $$lift(X \rightarrow Y) = \frac{confidence(X \rightarrow Y)}{support(Y)}$$
 **算法步骤?*
 1. 扫描数据库，计算每个1-项集的支持度
 2. 根据朢小支持度筛频?-项集
-3. 使用频繁k-项集生成候?k+1)-项集
+3. 使用频繁 k-项集生成候?k+1)-项集
 4. 剪枝：删除包含非频繁子集的项?5. 扫描数据库，计算候项集支持度
 6. 重复3-5直到没有新的频繁项集
 
@@ -74,11 +76,11 @@ $$lift(X \rightarrow Y) = \frac{confidence(X \rightarrow Y)}{support(Y)}$$
 - 划分方法
 - 采样方法
 
-### FP-Growth算法
+### FP-Growth 算法
 
 **特点?*
-- 只需扫描数据库两?- 使用FP树结构存储频繁项信息
-- 不产生项?- 效率高于Apriori
+- 只需扫描数据库两?- 使用 FP 树结构存储频繁项信息
+- 不产生项?- 效率高于 Apriori
 
 ## 分类算法
 
@@ -90,7 +92,7 @@ $$lift(X \rightarrow Y) = \frac{confidence(X \rightarrow Y)}{support(Y)}$$
 **C4.5算法?*
 - 使用增益率择特征
 - 可处理连续特?- 支持后剪?
-**CART算法?*
+**CART 算法?*
 - 分类树：基尼系数
 - 回归树：朢小化均方误差
 - 生成二叉?
@@ -110,25 +112,25 @@ $$\hat{C} = \arg\max_{C}P(C)\prod_{i=1}^{n}P(x_i|C)$$
 - 情感分析
 
 ### 支持向量机（SVM?
-**线可分SVM?*
+**线可分 SVM?*
 - 朢大间隔分类器
 - 支持向量：距离超平面朢近的?- 优化目标?\min\frac{1}{2}\|w\|^2$
 
-**软间隔SVM?*
+**软间隔 SVM?*
 - 允许误分?- 引入松弛变量ξ
 - 优化目标?\min\frac{1}{2}\|w\|^2 + C\sum\xi_i$
 
 **核函数：**
 - 线核?K(x_i,x_j) = x_i^Tx_j$
 - 多项式核?K(x_i,x_j) = (x_i^Tx_j + c)^d$
-- RBF核：$K(x_i,x_j) = \exp(-\gamma\|x_i - x_j\|^2)$
+- RBF 核：$K(x_i,x_j) = \exp(-\gamma\|x_i - x_j\|^2)$
 
 ## 聚类算法
 
-### K-Means聚类
+### K-Means 聚类
 
 **算法步骤?*
-1. 随机初始化K个中心点
+1. 随机初始化 K 个中心点
 2. 将每个样本分配到朢近的中心
 3. 重新计算每个簇的中心
 4. 重复2-3直到收敛
@@ -136,7 +138,7 @@ $$\hat{C} = \arg\max_{C}P(C)\prod_{i=1}^{n}P(x_i|C)$$
 **目标函数?*
 $$J = \sum_{k=1}^{K}\sum_{x_i \in C_k}\|x_i - \mu_k\|^2$$
 
-**选择K值：**
+**选择 K 值：**
 - 肘部法则（Elbow Method?- 轮廓系数（Silhouette Coefficient?- Gap Statistic
 
 ### DBSCAN
@@ -167,7 +169,7 @@ $$J = \sum_{k=1}^{K}\sum_{x_i \in C_k}\|x_i - \mu_k\|^2$$
 ## 异常棢?
 ### 统计方法
 
-- **Z-score方法**?|z| > 3$为异?- **箱线图方?*：超?.5×IQR为异?- **马氏距离**：虑变量相关性的距离度量
+- **Z-score 方法**?|z| > 3$为异?- **箱线图方?*：超?.5×IQR 为异?- **马氏距离**：虑变量相关性的距离度量
 
 ### 机器学习方法
 
@@ -187,7 +189,7 @@ $$J = \sum_{k=1}^{K}\sum_{x_i \in C_k}\|x_i - \mu_k\|^2$$
 ### Weka
 
 **特点?*
-- 弢源Java平台
+- 弢源 Java 平台
 - 图形用户界面友好
 - 包含丰富的算?- 支持数据预处?
 **主要功能?*
@@ -203,7 +205,7 @@ $$J = \sum_{k=1}^{K}\sum_{x_i \in C_k}\|x_i - \mu_k\|^2$$
 **主要功能?*
 - 数据加载和预处理
 - 特征选择和工?- 模型训练和评?- 模型部署和监?
-### Python生系?
+### Python 生系?
 **主要库：**
 - scikit-learn：用机器学习
 - pandas：数据处?- NumPy：数值计?- Matplotlib/Seaborn：可视化
@@ -213,7 +215,7 @@ from sklearn.cluster import KMeans
 from sklearn.ensemble import IsolationForest
 from mlxtend.frequent_patterns import apriori
 
-# K-Means聚类
+# K-Means 聚类
 kmeans = KMeans(n_clusters=3)
 clusters = kmeans.fit_predict(data)
 
@@ -224,7 +226,7 @@ frequent_itemsets = apriori(df, min_support=0.1, use_colnames=True)
 anomalies = iso_forest.fit_predict(data)
 ```
 
-### R语言工具
+### R 语言工具
 
 **主要包：**
 - caret：机器学习统丢接口
@@ -235,7 +237,7 @@ anomalies = iso_forest.fit_predict(data)
 - Han J, et al. *Data Mining: Concepts and Techniques*
 - Tan PN, et al. *Introduction to Data Mining*
 - 《数据挖掘：概念与技术韩家炜
-- 《Python数据科学手册》Jake VanderPlas
+- 《Python 数据科学手册》Jake VanderPlas
 
 ## 相关条目
 

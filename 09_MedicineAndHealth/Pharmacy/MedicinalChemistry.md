@@ -1,6 +1,8 @@
 ---
 aliases: [MedicinalChemistry, 药物化学, PharmaceuticalChemistry, 药物化学导论]
 tags: ['09_MedicineAndHealth', 'Pharmacy', 'MedicinalChemistry', 'DrugDesign', 'Pharmacology']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 药物化学 (Medicinal Chemistry)

@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['Psychology', 'ClinicalPsychology', 'INDEX']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 临床心理学

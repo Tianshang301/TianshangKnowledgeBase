@@ -1,6 +1,8 @@
 ---
 aliases: [NeuralNetworks, 神经网络, ArtificialNeuralNetworks, ANN]
 tags: ['05_ComputerScience', 'ArtificialIntelligence', 'MachineLearning', 'NeuralNetworksAndDeepLearning', 'DeepLearning']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 神经网络（Neural Networks）

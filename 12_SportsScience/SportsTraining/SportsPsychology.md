@@ -1,6 +1,8 @@
 ---
 aliases: [SportsPsychology]
 tags: ['SportsTraining', 'SportsPsychology']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 运动心理学
@@ -64,7 +66,7 @@ tags: ['SportsTraining', 'SportsPsychology']
 
 认知焦虑越高通常与表现负相关。
 
-躯体焦虑与表现呈倒U关系。
+躯体焦虑与表现呈倒 U 关系。
 
 太低兴奋不足太高肌肉僵硬失去灵活。
 
@@ -102,7 +104,7 @@ tags: ['SportsTraining', 'SportsPsychology']
 
 ## 注意力控制
 
-Nideffer注意类型模型有两个维度。
+Nideffer 注意类型模型有两个维度。
 
 范围宽窄和方向内外。
 

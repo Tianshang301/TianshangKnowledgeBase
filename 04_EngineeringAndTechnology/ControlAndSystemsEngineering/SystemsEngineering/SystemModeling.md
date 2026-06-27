@@ -1,6 +1,8 @@
 ---
 aliases: [SystemModeling]
 tags: ['ControlAndSystemsEngineering', 'SystemsEngineering', 'SystemModeling']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 系统建模
@@ -48,7 +50,7 @@ $$m\ddot{x} + c\dot{x} + kx = F(t)$$
 
 传递函数：$G(s) = \frac{X(s)}{F(s)} = \frac{1}{ms^2+cs+k}$
 
-**RLC电路**：
+**RLC 电路**：
 
 $$LC\frac{d^2u_C}{dt^2} + RC\frac{du_C}{dt} + u_C = u_s$$
 
@@ -76,12 +78,12 @@ $$\dot{x} = f(x,u), \quad y = g(x,u)$$
 
 ### 系统仿真（MATLAB/Simulink）
 
-**MATLAB仿真**：
-- `ode45`：Runge-Kutta法求解微分方程
+**MATLAB 仿真**：
+- `ode45`：Runge-Kutta 法求解微分方程
 - `lsim`：线性系统时域响应
 - `bode`：频率响应
 
-**Simulink仿真**：
+**Simulink 仿真**：
 - 模块化建模
 - 多种求解器
 - 子系统封装

@@ -1,6 +1,8 @@
 ---
 aliases: [ClassicalChinese]
 tags: ['ChineseLanguageAndLiterature', 'ClassicalChinese', 'ClassicalChinese']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 古代汉语
@@ -56,7 +58,7 @@ tags: ['ChineseLanguageAndLiterature', 'ClassicalChinese', 'ClassicalChinese']
 | 涕 | 眼泪 | 鼻涕 | "涕泗滂沱"（眼泪） |
 | 信 | 的确 | 相信/信件 | "信芳"（的确美好） |
 | 池 | 护城河 | 池塘 | "城非不高也，池非不深也" |
-| 臭 | 气味（读xiù） | 难闻气味 | "其臭如兰"（气味） |
+| 臭 | 气味（读 xiù） | 难闻气味 | "其臭如兰"（气味） |
 
 ### 2.2 词类活用
 

@@ -1,6 +1,8 @@
 ---
 aliases: [IoT]
 tags: ['HardwareAndEmbeddedSystems', 'IoT', 'IoT']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 物联网（IoT）

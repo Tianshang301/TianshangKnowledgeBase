@@ -1,6 +1,8 @@
 ---
 aliases: [LinuxAdministration]
 tags: ['05_ComputerScience', 'OperatingSystems']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # Linux 系统管理 (Linux Administration)

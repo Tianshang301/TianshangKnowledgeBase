@@ -1,6 +1,8 @@
 ---
 aliases: [LinkedLists, 链表, Linked List]
 tags: ['05_ComputerScience', 'DataStructuresAndAlgorithms', 'DataStructures', 'LinkedList']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 链表 (Linked List)

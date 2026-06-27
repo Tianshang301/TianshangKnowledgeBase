@@ -1,6 +1,8 @@
 ---
 aliases: [生态工程, 生态工学, Ecological Engineering, Eco-Engineering]
 tags: [生态工程, 环境工程, 生态修复, 人工湿地, 植物修复, 生物修复, 可持续工程]
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 生态工程 (Ecological Engineering)

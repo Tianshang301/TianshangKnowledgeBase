@@ -1,6 +1,8 @@
 ---
 aliases: [WeaponSystems, 武器系统, 武器装备, 武器工程, 军械系统]
 tags: ['04_EngineeringAndTechnology', 'AerospaceAndMilitaryEngineering', 'OrdnanceScience']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 武器系统（Weapon Systems）

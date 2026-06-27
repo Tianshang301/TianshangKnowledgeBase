@@ -1,6 +1,8 @@
 ---
 aliases: [Jenkins]
-tags: ['SoftwareEngineering', 'DevOpsAndCI_CD', 'Jenkins']
+tags: ['SoftwareEngineering', 'DevOpsAndCICD', 'Jenkins']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Jenkins 指南
@@ -489,7 +491,7 @@ java -jar jenkins-cli.jar -s http://localhost:8080 apply-system-config < jenkins
 
 ## 相关条目
 
-- [[CI-CD与DevOps实践]]
+- [[CI-CD 与 DevOps 实践]]
 - [[Pipeline]]
 - [[GitHubActions]]
 - [[Dockerfile]]

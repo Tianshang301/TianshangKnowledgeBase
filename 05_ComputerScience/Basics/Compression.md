@@ -1,6 +1,8 @@
 ---
 aliases: [Compression]
 tags: ['Basics', 'Compression']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 压缩与解压缩完全指南

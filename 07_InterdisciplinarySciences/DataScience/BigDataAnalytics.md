@@ -1,6 +1,8 @@
 ---
 aliases: [BigDataAnalytics]
 tags: ['DataScience', 'BigDataAnalytics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 大数据分?
@@ -9,7 +11,7 @@ tags: ['DataScience', 'BigDataAnalytics']
 大数据分析是对海量高增长率和多样化的信息资产进行处理和分析的抢术集合它利用先进的分析方法从复杂数据中提取有价的信息，支持决策制定和战略规划?
 ## 大数据特征（4V?
 ### Volume（数据量?
-- 数据规模从TB级增长到PB、EB?- 传统数据库难以处?- 霢要分布式存储和计?
+- 数据规模从 TB 级增长到 PB、EB?- 传统数据库难以处?- 霢要分布式存储和计?
 **应对策略?*
 - 分布式文件系统（HDFS?- 数据压缩和归?- 分层存储架构
 
@@ -24,19 +26,19 @@ tags: ['DataScience', 'BigDataAnalytics']
 - 结构化数据：关系型数据库
 - 半结构化数据：JSON、XML、日?- 非结构化数据：文本图像视?
 **应对策略?*
-- 数据湖架?- NoSQL数据?- 数据模型灵活?
+- 数据湖架?- NoSQL 数据?- 数据模型灵活?
 ### Veracity（真实）
 
 - 数据质量和可信度
 - 数据噪声和不丢致?- 数据来源多样?
 **应对策略?*
 - 数据清洗和验?- 数据衢缘追?- 元数据管?
-## Hadoop生系?
-### HDFS（Hadoop分布式文件系统）
+## Hadoop 生系?
+### HDFS（Hadoop 分布式文件系统）
 
 **架构?*
 - NameNode：管理文件系统命名空?- DataNode：存储实际数据块
-- Secondary NameNode：辅助NameNode
+- Secondary NameNode：辅助 NameNode
 
 **特点?*
 - 高容错：数据自动复制
@@ -45,46 +47,46 @@ tags: ['DataScience', 'BigDataAnalytics']
 ### MapReduce
 
 **编程模型?*
-- Map阶段：处理输入数据，生成键对
-- Reduce阶段：合并具有相同键的?
+- Map 阶段：处理输入数据，生成键对
+- Reduce 阶段：合并具有相同键的?
 **执行流程?*
 1. 输入数据分片
-2. Map任务并行执行
-3. 中间结果Shuffle
-4. Reduce任务并行执行
+2. Map 任务并行执行
+3. 中间结果 Shuffle
+4. Reduce 任务并行执行
 5. 输出结果
 
 ### Hive
 
 **特点?*
-- SQL-like查询语言（HiveQL?- 适合离线批处?- 支持多种数据格式
+- SQL-like 查询语言（HiveQL?- 适合离线批处?- 支持多种数据格式
 
 **主要功能?*
 - 数据仓库
-- ETL操作
+- ETL 操作
 - 报表生成
 
 ### Spark
 
 **核心概念?*
 - RDD（弹性分布式数据集）
-- DataFrame和Dataset
+- DataFrame 和 Dataset
 - Spark SQL
 - Spark Streaming
 
 **优势?*
-- 内存计算，度?- 统一批处理和流处?- 丰富的API
+- 内存计算，度?- 统一批处理和流处?- 丰富的 API
 - 生系统完?
 ### 其他组件
 
-- **HBase**：列式NoSQL数据?- **Pig**：高级数据流语言
+- **HBase**：列式 NoSQL 数据?- **Pig**：高级数据流语言
 - **ZooKeeper**：分布式协调服务
-- **Sqoop**：关系型数据库与Hadoop间数据传?- **Flume**：日志收集系?
+- **Sqoop**：关系型数据库与 Hadoop 间数据传?- **Flume**：日志收集系?
 ## 流处?
 ### Kafka
 
 **架构?*
-- Broker：Kafka服务?- Topic：消息分?- Partition：Topic的物理分?- Consumer Group：消费组
+- Broker：Kafka 服务?- Topic：消息分?- Partition：Topic 的物理分?- Consumer Group：消费组
 
 **特点?*
 - 高吞吐量
@@ -96,11 +98,11 @@ tags: ['DataScience', 'BigDataAnalytics']
 - 真正的流处理引擎
 - 精确丢次语?- 事件时间处理
 - 状管?
-**API层次?*
-- ProcessFunction：底层API
-- DataStream API：流处理API
-- Table API/SQL：声明式API
-- Gelly：图处理API
+**API 层次?*
+- ProcessFunction：底层 API
+- DataStream API：流处理 API
+- Table API/SQL：声明式 API
+- Gelly：图处理 API
 
 ### 流处理应用场?
 - 实时监控和告?- 实时推荐系统
@@ -128,7 +130,7 @@ tags: ['DataScience', 'BigDataAnalytics']
 
 **分析层：**
 - 机器学习
-- SQL分析
+- SQL 分析
 - 数据可视?
 ### 数据湖治?
 - 数据目录和元数据管理
@@ -172,7 +174,7 @@ tags: ['DataScience', 'BigDataAnalytics']
 - 网络优化
 - 客户流失预测
 - 欺诈棢?- 服务个化
-- 5G网络管理
+- 5G 网络管理
 
 ## 大数据分析工?
 ### 商业工具
@@ -193,8 +195,8 @@ tags: ['DataScience', 'BigDataAnalytics']
 ## 参资?
 - Mayer-Schönberger V, Cukier K. *Big Data: A Revolution*
 - 《大数据时代》维克托·迈尔-舍恩伯格
-- Spark官方文档
-- Hadoop官方文档
+- Spark 官方文档
+- Hadoop 官方文档
 
 ## 相关条目
 

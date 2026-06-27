@@ -1,15 +1,17 @@
 ---
 aliases: [INDEX]
 tags: ['Geography', 'INDEX']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # Geography
 
-本索引汇集了 Geography 相关的核心知识文件，涵盖 > 详细内容请见 [[GIS遥感与地图学]]、EconomicGeography、GeographicInformationSystems 等内容。
+本索引汇集了 Geography 相关的核心知识文件，涵盖 > 详细内容请见 [[GIS 遥感与地图学]]、EconomicGeography、GeographicInformationSystems 等内容。
 
 ## 文件
 
-> 详细内容请见 [[GIS遥感与地图学]]
+> 详细内容请见 [[GIS 遥感与地图学]]
 - [[EconomicGeography]]
 - [[GeographicInformationSystems]]
 - [[HumanGeography]]

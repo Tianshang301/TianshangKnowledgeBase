@@ -1,6 +1,8 @@
 ---
 aliases: [BasicAlgorithms]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'BasicAlgorithms', 'BasicAlgorithms']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Basic Algorithms - 基础算法

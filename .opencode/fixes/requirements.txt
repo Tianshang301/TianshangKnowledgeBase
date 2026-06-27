@@ -1,0 +1,5 @@
+# TianshangKnowledgeBase fix scripts dependencies
+# Install: pip install -r requirements.txt
+#
+# Currently all scripts use only Python standard library.
+# This file serves as a placeholder for future third-party dependencies.

@@ -1,6 +1,8 @@
 ---
 aliases: [Acoustics]
 tags: ['Physics/Acoustics', 'WavePhysics']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # Acoustics
@@ -120,7 +122,7 @@ $$\text{Resolution} \approx \frac{\lambda}{2} = \frac{c}{2f}$$
 
 ### 无损检测 (Non-Destructive Testing)
 
-超声检测通过分析反射回波定位材料内部的缺陷。A扫描 (A-Scan) 显示振幅-时间信息，B扫描 (B-Scan) 显示二维截面图像，C扫描 (C-Scan) 显示平面投影图。相控阵超声 (Phased Array) 可实现电子束偏转和聚焦。
+超声检测通过分析反射回波定位材料内部的缺陷。A 扫描 (A-Scan) 显示振幅-时间信息，B 扫描 (B-Scan) 显示二维截面图像，C 扫描 (C-Scan) 显示平面投影图。相控阵超声 (Phased Array) 可实现电子束偏转和聚焦。
 
 ### 功率超声 (Power Ultrasound)
 
@@ -128,7 +130,7 @@ $$\text{Resolution} \approx \frac{\lambda}{2} = \frac{c}{2f}$$
 
 ## 心理声学 (Psychoacoustics)
 
-等响曲线 (Equal-Loudness Contours, Fletcher-Munson Curves) 描述了人耳对不同频率声音的敏感度。A计权 (A-weighting) 是最常用的频率计权网络：
+等响曲线 (Equal-Loudness Contours, Fletcher-Munson Curves) 描述了人耳对不同频率声音的敏感度。A 计权 (A-weighting) 是最常用的频率计权网络：
 
 $$L_A = 20\log_{10}\left(\frac{p_A}{p_{ref}}\right)\;\text{dBA}$$
 
@@ -176,7 +178,7 @@ $$SL - 2TL + TS = NL - DI + DT$$
 
 ## 噪声对人的影响 (Noise Effects on Humans)
 
-噪声暴露可引起听力损失 (Hearing Loss)。职业噪声暴露标准通常为85 dBA/8小时，剂量每增3dB暴露时间减半。噪声的生理影响包括心血管疾病、睡眠障碍和认知能力下降。环境噪声标准如 WHO 指南：居住区夜间噪声 < 40 dB。主动降噪 (Active Noise Control, ANC) 利用反相声波抵消噪声，已广泛应用于耳机和汽车座舱。
+噪声暴露可引起听力损失 (Hearing Loss)。职业噪声暴露标准通常为85 dBA/8小时，剂量每增3dB 暴露时间减半。噪声的生理影响包括心血管疾病、睡眠障碍和认知能力下降。环境噪声标准如 WHO 指南：居住区夜间噪声 < 40 dB。主动降噪 (Active Noise Control, ANC) 利用反相声波抵消噪声，已广泛应用于耳机和汽车座舱。
 
 ## 声学前沿 (Frontiers in Acoustics)
 

@@ -1,6 +1,8 @@
 ---
 aliases: [InternationalRelations, 国际关系, IR]
 tags: ['RegionalAndCountryStudies', 'InternationalRelations', 'PoliticalScience', 'GlobalGovernance']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 国际关系

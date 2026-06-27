@@ -1,6 +1,8 @@
 ---
 aliases: [RobotKinematics, 机器人运动学]
 tags: ['ControlAndSystemsEngineering', 'Robotics', 'RobotKinematics', 'Manipulator']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 机器人运动学 (Robot Kinematics)
@@ -28,7 +30,7 @@ flowchart LR
 |------|------|------|------|
 | 位姿 | Pose | 位置与姿态组合 | $T = [R \mid p]$ |
 | 齐次变换矩阵 | Homogeneous Transformation Matrix | 4×4 坐标变换 | $T \in SE(3)$ |
-| D-H参数 | Denavit-Hartenberg Parameters | 四参数描述连杆 | $(\theta, d, a, \alpha)$ |
+| D-H 参数 | Denavit-Hartenberg Parameters | 四参数描述连杆 | $(\theta, d, a, \alpha)$ |
 | 雅可比矩阵 | Jacobian Matrix | 速度映射 | $\dot{x} = J(q)\dot{q}$ |
 | 奇异位形 | Singularity | 自由度降秩 | $\det(J) = 0$ |
 | 工作空间 | Workspace | 末端可达集合 | $W \subset \mathbb{R}^3$ |
@@ -49,39 +51,39 @@ $$T^0_3 = T^0_1 \cdot T^1_2 \cdot T^2_3$$
 
 其中每个变换矩阵 $T^{i-1}_i$ 描述了从坐标系 $i-1$ 到 $i$ 的变换。
 
-## D-H参数法
+## D-H 参数法
 
-Denavit-Hartenberg参数法（D-H Convention）是建立机器人运动学模型的标准化方法。
+Denavit-Hartenberg 参数法（D-H Convention）是建立机器人运动学模型的标准化方法。
 
 ### 四参数定义
 
-D-H参数法使用四个参数来描述相邻连杆之间的几何关系：
+D-H 参数法使用四个参数来描述相邻连杆之间的几何关系：
 
 - $\theta_i$（关节角 Joint Angle）：绕 $z_{i-1}$ 轴从 $x_{i-1}$ 旋转到 $x_i$ 的角度
 - $d_i$（连杆偏距 Link Offset）：沿 $z_{i-1}$ 轴从 $x_{i-1}$ 到 $x_i$ 的距离
 - $a_i$（连杆长度 Link Length）：沿 $x_i$ 轴从 $z_{i-1}$ 到 $z_i$ 的距离
 - $\alpha_i$（连杆扭角 Link Twist）：绕 $x_i$ 轴从 $z_{i-1}$ 旋转到 $z_i$ 的角度
 
-### D-H变换矩阵
+### D-H 变换矩阵
 
 $$A_i = \begin{bmatrix}\cos\theta_i & -\sin\theta_i\cos\alpha_i & \sin\theta_i\sin\alpha_i & a_i\cos\theta_i \\ \sin\theta_i & \cos\theta_i\cos\alpha_i & -\cos\theta_i\sin\alpha_i & a_i\sin\theta_i \\ 0 & \sin\alpha_i & \cos\alpha_i & d_i \\ 0 & 0 & 0 & 1\end{bmatrix}$$
 
 $$A_i = Rot(z_{i-1}, \theta_i) \cdot Trans(0, 0, d_i) \cdot Trans(a_i, 0, 0) \cdot Rot(x_i, \alpha_i)$$
 
-### 标准D-H建模步骤
+### 标准 D-H 建模步骤
 
 1. 确定各关节轴线和坐标系方向
 2. 确定每个连杆的 $z_i$ 轴沿关节 $i+1$ 的轴线方向
 3. 确定 $x_i$ 轴沿 $z_{i-1}$ 和 $z_i$ 的公垂线方向
 4. 确定 $y_i$ 轴由右手定则确定
-5. 填写D-H参数表
+5. 填写 D-H 参数表
 6. 代入变换矩阵公式
 
 ```mermaid
 flowchart TD
     S1[建立基坐标系<br/>Base Frame] --> S2[确定各关节轴<br/>Joint Axes]
     S2 --> S3[建立连杆坐标系<br/>Link Frames]
-    S3 --> S4[填写D-H参数表<br/>DH Table]
+    S3 --> S4[填写 D-H 参数表<br/>DH Table]
     S4 --> S5[计算变换矩阵<br/>Transformation Matrix]
     S5 --> S6[正运动学模型<br/>Forward Kinematics Model]
 ```
@@ -96,7 +98,7 @@ $$T^0_n(q) = A_1(q_1) \cdot A_2(q_2) \cdots A_n(q_n)$$
 
 ### 六自由度机器人示例
 
-对于六自由度串联机器人（如PUMA 560或Stanford手臂）：
+对于六自由度串联机器人（如 PUMA 560或 Stanford 手臂）：
 
 $$T^0_6 = A_1 A_2 A_3 A_4 A_5 A_6 = \begin{bmatrix}n_x & s_x & a_x & p_x \\ n_y & s_y & a_y & p_y \\ n_z & s_z & a_z & p_z \\ 0 & 0 & 0 & 1\end{bmatrix}$$
 
@@ -105,7 +107,7 @@ $$T^0_6 = A_1 A_2 A_3 A_4 A_5 A_6 = \begin{bmatrix}n_x & s_x & a_x & p_x \\ n_y 
 ### 开链与闭链
 
 - 开链运动学（Open Chain）：串联机器人，每个关节独立运动
-- 闭链运动学（Closed Chain）：并联机器人（如Stewart平台），存在运动约束
+- 闭链运动学（Closed Chain）：并联机器人（如 Stewart 平台），存在运动约束
 
 ## 逆运动学
 
@@ -124,11 +126,11 @@ $$q = IK(T^0_n)$$
 
 **解析法（Analytical Method）**：
 
-适用于满足Pieper准则（Pieper's Criterion）的机器人——三个相邻关节轴交于一点（球腕结构）：
+适用于满足 Pieper 准则（Pieper's Criterion）的机器人——三个相邻关节轴交于一点（球腕结构）：
 
 - 通过矩阵方程逐项求解
 - 封闭形式（Closed-form）解，计算速度快
-- 典型应用：PUMA 560、ABB IRB系列
+- 典型应用：PUMA 560、ABB IRB 系列
 
 **数值法（Numerical Method）**：
 
@@ -229,7 +231,7 @@ $$\min_{q(t)} \int_0^{t_f} 1 \, dt$$
 
 ## 运动学在控制与仿真中的应用
 
-机器人运动学为控制提供数学模型。奇异位形规避包括阻尼最小二乘法和可操作度指标 $w = \sqrt{\det(JJ^T)}$。常用仿真工具包括MATLAB Robotics Toolbox、ROS MoveIt、RoboDK和CoppeliaSim。
+机器人运动学为控制提供数学模型。奇异位形规避包括阻尼最小二乘法和可操作度指标 $w = \sqrt{\det(JJ^T)}$。常用仿真工具包括 MATLAB Robotics Toolbox、ROS MoveIt、RoboDK 和 CoppeliaSim。
 
 ## 主要应用领域
 

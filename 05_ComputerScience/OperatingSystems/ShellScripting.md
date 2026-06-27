@@ -1,6 +1,8 @@
 ---
 aliases: [ShellScripting]
 tags: ['05_ComputerScience', 'OperatingSystems']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # Shell 脚本编程 (Shell Scripting)

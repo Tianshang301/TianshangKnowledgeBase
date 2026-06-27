@@ -1,4 +1,11 @@
-﻿---
+---
+aliases: [Geoinformatics]
+tags: ['EarthSciences', 'Geoinformatics.md']
+created: 2026-05-17
+updated: 2026-05-17
+---
+
+---
 aliases: [Geoinformatics]
 tags: ['EarthSciences/Geoinformatics', 'SpatialScience', 'Geomatics']
 ---

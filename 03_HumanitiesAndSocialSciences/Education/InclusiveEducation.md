@@ -1,6 +1,8 @@
 ---
 aliases: [InclusiveEducation]
 tags: ['03_HumanitiesAndSocialSciences', 'Education', 'InclusiveEducation']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 全纳教育 (Inclusive Education)
@@ -191,7 +193,7 @@ flowchart TD
 |------|----------|----------|
 | 意大利 | 1977年关闭大多数特殊学校 | 完全全纳模式 |
 | 英国 | 《儿童与家庭法》2014 | 教育、健康和护理计划（EHCP） |
-| 美国 | IDEIA法案 | IEP制度完善、LRE原则 |
+| 美国 | IDEIA 法案 | IEP 制度完善、LRE 原则 |
 | 日本 | 特别支援教育 | 通级指导教室 |
 | 中国 | 随班就读为主体 | 特殊教育学校为骨干 |
 

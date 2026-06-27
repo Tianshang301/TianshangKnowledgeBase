@@ -1,6 +1,8 @@
 ---
 aliases: [Plasticity]
 tags: ['04_EngineeringAndTechnology', 'MechanicsAndMaterials', 'Mechanics', 'Plasticity']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 塑性力学

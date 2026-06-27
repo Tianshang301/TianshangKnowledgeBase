@@ -1,6 +1,8 @@
 ---
 aliases: [Probability, 概率论]
 tags: ['Mathematics', 'ProbabilityStatistics', 'Probability']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 概率论 (Probability Theory)

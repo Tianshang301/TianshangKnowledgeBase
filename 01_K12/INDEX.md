@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 01_K12
@@ -32,12 +34,12 @@ tags: ['INDEX']
 - [[01_K12/SeniorHigh/Mathematics/INDEX]] - 数学
 - [[01_K12/SeniorHigh/Physics/INDEX]] - 物理
 - [[01_K12/SeniorHigh/Politics/INDEX]] - 政治
-- [[01_K12/Arts_and_Sports/FineArts]] - 美术
-- [[01_K12/Arts_and_Sports/InformationTechnology]] - 信息技术
-- [[01_K12/Arts_and_Sports/Music]] - 音乐
-- [[01_K12/Arts_and_Sports/PhysicalEducation]] - 体育
+- [[01_K12/ArtsAndSports/FineArts]] - 美术
+- [[01_K12/ArtsAndSports/InformationTechnology]] - 信息技术
+- [[01_K12/ArtsAndSports/Music]] - 音乐
+- [[01_K12/ArtsAndSports/PhysicalEducation]] - 体育
 - [[01_K12/CrossDisciplinaryK12/跨学科整合]] - 跨学科整合
-- [[01_K12/CrossDisciplinaryK12/STEM/INDEX]] - STEM教育
+- [[01_K12/CrossDisciplinaryK12/STEM/INDEX]] - STEM 教育
 - [[01_K12/CrossDisciplinaryK12/CriticalThinkingForTeens/INDEX]] - 批判性思维
 - [[01_K12/CrossDisciplinaryK12/ClassicalLiterature/INDEX]] - 经典文学
 - [[01_K12/ExamPreparation/GaokaoGuide]] - 高考指南

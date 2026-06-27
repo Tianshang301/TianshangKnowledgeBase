@@ -1,6 +1,8 @@
 ---
 aliases: [SpanishLanguageAndLiterature]
 tags: ['ForeignLiterature', 'SpanishLiterature', 'HispanicStudies', 'RomanceLanguages']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # SpanishLanguageAndLiterature

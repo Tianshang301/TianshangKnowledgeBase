@@ -1,13 +1,15 @@
 ---
 aliases: [KnowledgeRepresentation]
 tags: ['ArtificialIntelligence', 'KnowledgeRepresentation', 'KnowledgeRepresentation']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 知识表示
 
 ## 一、知识表示概述
 
-知识表示（Knowledge Representation, KR）是AI中将人类知识形式化、结构化的核心问题，使得计算机能够存储、推理和运用知识。良好的知识表示应具备：
+知识表示（Knowledge Representation, KR）是 AI 中将人类知识形式化、结构化的核心问题，使得计算机能够存储、推理和运用知识。良好的知识表示应具备：
 
 | 特性 | 描述 |
 |------|------|
@@ -20,7 +22,7 @@ tags: ['ArtificialIntelligence', 'KnowledgeRepresentation', 'KnowledgeRepresenta
 
 ### 框架表示 (Frames)
 
-由Minsky提出，将知识组织为结构化的框架：
+由 Minsky 提出，将知识组织为结构化的框架：
 
 ```
 框架: 书籍
@@ -50,7 +52,7 @@ tags: ['ArtificialIntelligence', 'KnowledgeRepresentation', 'KnowledgeRepresenta
 
 ### 描述逻辑 (Description Logics)
 
-DL是语义网的本体语言基础，提供形式化语义与可判定的推理：
+DL 是语义网的本体语言基础，提供形式化语义与可判定的推理：
 
 - **概念** (Concepts): $C \sqsubseteq D$ （概念包含）
 - **角色** (Roles): $R(a,b)$ （关系断言）
@@ -62,21 +64,21 @@ DL是语义网的本体语言基础，提供形式化语义与可判定的推理
 
 ### 一阶逻辑 (FOL)
 
-FOL是表达能力最强的形式逻辑系统之一：
+FOL 是表达能力最强的形式逻辑系统之一：
 
 - **项** (Terms): 常量 $c$，变量 $x$，函数 $f(t_1,...,t_n)$
 - **谓词** (Predicates): $P(t_1,...,t_n)$
 - **量词** (Quantifiers): $\forall x \exists y [\text{Person}(x) \rightarrow \text{HasMother}(x,y)]$
 
-### Horn子句
+### Horn 子句
 
-Horn子句是FOL的子集，仅包含至多一个正文字的子句：
+Horn 子句是 FOL 的子集，仅包含至多一个正文字的子句：
 
 $$
 \forall x_1,...,x_k [(A_1 \land A_2 \land ... \land A_n) \rightarrow B]
 $$
 
-Horn子句支持高效的归结推理，是Prolog语言的基础。
+Horn 子句支持高效的归结推理，是 Prolog 语言的基础。
 
 ### 归结原理 (Resolution)
 
@@ -122,7 +124,7 @@ $$
 
 ### OWL (Web Ontology Language)
 
-OWL基于描述逻辑，提供丰富的本体建模原语：
+OWL 基于描述逻辑，提供丰富的本体建模原语：
 - **类公理**: $A \sqsubseteq B$，$A \equiv B$
 - **属性特征**: 传递性、对称性、函数性
 - **限制**: $\forall R.C$，$\exists R.C$，$= n R.C$
@@ -153,9 +155,9 @@ $$
 
 | 知识图谱 | 规模 | 特点 |
 |---------|------|------|
-| Freebase | 约30亿事实 | 早期大规模KG，Google收购 |
+| Freebase | 约30亿事实 | 早期大规模 KG，Google 收购 |
 | Wikidata | 约10亿实体声明 | 社区维护，结构化数据 |
-| DBpedia | 约38亿RDF三元组 | 从Wikipedia自动提取 |
+| DBpedia | 约38亿 RDF 三元组 | 从 Wikipedia 自动提取 |
 | YAGO | 约1.2亿事实 | 高精度，时间信息标注 |
 | CN-DBpedia | 约9000万事实 | 中文通用知识图谱 |
 
@@ -200,11 +202,11 @@ $$
 
 | 应用 | 描述 | 关键技术 |
 |------|------|---------|
-| 问答系统 | 利用KG进行事实性问答 | 实体链接、关系推理 |
-| 推荐系统 | 利用KG增强推荐多样性 | 基于路径的推荐、KG嵌入 |
+| 问答系统 | 利用 KG 进行事实性问答 | 实体链接、关系推理 |
+| 推荐系统 | 利用 KG 增强推荐多样性 | 基于路径的推荐、KG 嵌入 |
 | 智能推理 | 基于知识的逻辑推理 | 归纳推理、类比推理 |
 | 自然语言理解 | 语义解析与消歧 | 实体识别、关系抽取 |
-| 药物发现 | 生物医学KG推理新药物靶点 | 图神经网络、推理 |
+| 药物发现 | 生物医学 KG 推理新药物靶点 | 图神经网络、推理 |
 
 ## 十、挑战与前沿
 
@@ -212,7 +214,7 @@ $$
 - **动态知识图谱**：随时间演化的知识更新
 - **多模态知识图谱**：融合文本、图像、音频等多模态信息
 - **神经符号系统**：深度学习和符号推理的融合
-- **大语言模型与KG结合**：利用LLM增强KG构建与推理
+- **大语言模型与 KG 结合**：利用 LLM 增强 KG 构建与推理
 
 ## 相关条目
 

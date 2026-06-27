@@ -1,6 +1,8 @@
 ---
 aliases: [Intervals, 音程, 音程基础, MusicIntervals, 音程理论]
 tags: ['MusicTheory', 'Intervals', 'EarTraining', 'Harmony']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 音程详解
@@ -58,7 +60,7 @@ flowchart TD
 
 ## 自然音程速查表
 
-| 度数 | 半音数 | 音程名称 | 简写 | 协和性 | 示例（C为根音） |
+| 度数 | 半音数 | 音程名称 | 简写 | 协和性 | 示例（C 为根音） |
 |------|--------|---------|------|--------|---------------|
 | 纯一度 | 0 | Perfect Unison | P1 | 极完全协和 | C-C |
 | 小二度 | 1 | Minor Second | m2 | 不协和 | C-Db |
@@ -216,9 +218,9 @@ $$ \text{复音程度数} = \text{对应单音程度数} + 7 \times \text{八度
 ### 系统训练方法
 
 **唱名法（Solfege）**
-用do-re-mi-fa-sol-la-ti-do唱自然大调音阶。
+用 do-re-mi-fa-sol-la-ti-do 唱自然大调音阶。
 建立各音级之间的相对音高感。
-固定Do和流动Do两种体系各有优势。
+固定 Do 和流动 Do 两种体系各有优势。
 
 **构唱（Interval Singing）**
 给定一个参考音。

@@ -1,6 +1,8 @@
 ---
 aliases: [Optimization]
 tags: ['CompilerPrinciples', 'Optimization']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 编译优化

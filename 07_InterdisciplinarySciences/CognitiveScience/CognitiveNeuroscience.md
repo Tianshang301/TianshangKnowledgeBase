@@ -1,6 +1,8 @@
 ---
 aliases: [CognitiveNeuroscience]
 tags: ['CognitiveScience', 'CognitiveNeuroscience']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 认知神经科学
@@ -105,7 +107,7 @@ tags: ['CognitiveScience', 'CognitiveNeuroscience']
 
 **长时程增强（LTP）：**
 - 突触可塑性机?- 学习和记忆的细胞基础
-- NMDA受体依赖
+- NMDA 受体依赖
 
 **海马体损伤案例：**
 - H.M.患：双侧海马切除
@@ -188,7 +190,7 @@ tags: ['CognitiveScience', 'CognitiveNeuroscience']
 
 ## 脑机接口基础
 
-### BCI系统组成
+### BCI 系统组成
 
 **信号采集?*
 - 侵入式：皮层电极
@@ -199,16 +201,16 @@ tags: ['CognitiveScience', 'CognitiveNeuroscience']
 **输出设备?*
 - 光标控制
 - 机械?- 訢语合?
-### BCI类型
+### BCI 类型
 
-**基于P300的BCI?*
-- 利用P300成分
+**基于 P300的 BCI?*
+- 利用 P300成分
 - 字符拼写?- 注意力检?
-**基于运动想象的BCI?*
+**基于运动想象的 BCI?*
 - 利用μ和β节?- 运动意图解码
 - 肢体运动控制
 
-**基于SSVEP的BCI?*
+**基于 SSVEP 的 BCI?*
 - 稳视觉诱发电?- 高信息传输率
 - 频率编码
 

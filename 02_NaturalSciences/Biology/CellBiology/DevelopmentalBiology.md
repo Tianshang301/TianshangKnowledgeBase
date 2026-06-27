@@ -1,4 +1,11 @@
-﻿---
+---
+aliases: [DevelopmentalBiology]
+tags: ['Biology', 'CellBiology', 'DevelopmentalBiology.md']
+created: 2026-05-17
+updated: 2026-05-17
+---
+
+---
 aliases: [DevelopmentalBiology]
 tags: ['Biology/DevelopmentalBiology', 'CellBiology', 'Embryology']
 ---
@@ -121,7 +128,7 @@ $$5' \text{端} \rightarrow \text{后端表达}$$
 肢芽发育由三个信号中心协调：
 1. AER (顶外胚层嵴)：FGF 信号调控近-远轴生长
 2. ZPA (极化活性区)：Shh 信号调控前-后轴模式
-3. 非AER外胚层：Wnt 信号调控背-腹轴
+3. 非 AER 外胚层：Wnt 信号调控背-腹轴
 
 ### 形态梯度
 

@@ -1,6 +1,8 @@
 ---
 aliases: [Thermodynamics]
 tags: ['EngineeringThermophysics', 'Thermodynamics', 'EnergyEngineering', 'ThermalScience']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 工程热力学 (Engineering Thermodynamics)

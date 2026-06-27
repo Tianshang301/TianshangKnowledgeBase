@@ -1,6 +1,8 @@
 ---
 aliases: [SportsPhysiology, 运动生理学, ExercisePhysiology, 训练生理学, 人体运动科学, SportsScience, 运动科学]
 tags: ['12_SportsScience', 'SportsTraining', 'SportsPhysiology', 'ExercisePhysiology', 'HumanPerformance', 'Bioenergetics']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 运动生理学（Sports Physiology）

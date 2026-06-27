@@ -1,6 +1,8 @@
 ---
 aliases: [Concurrency]
 tags: ['ProgrammingLanguages', 'Go', 'Concurrency']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Go 并发编程

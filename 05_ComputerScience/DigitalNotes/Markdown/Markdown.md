@@ -1,6 +1,8 @@
 ---
 aliases: [Markdown]
-tags: ['DigitalNotes', 'Markdown', 'Markdown语法']
+tags: ['DigitalNotes', 'Markdown', 'Markdown 语法']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # Markdown 完全指南

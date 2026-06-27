@@ -1,6 +1,8 @@
 ---
 aliases: [HashTable]
 tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'HashTable']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 哈希表详解
@@ -364,7 +366,7 @@ def longest_consecutive(nums):
 | 有序数组 | O(log n) | O(n) | O(n) | ✅ |
 | 链表 | O(n) | O(1) | O(1) | ✅ |
 
-* 平均时间复杂度
+- 平均时间复杂度
 
 ## 练习
 

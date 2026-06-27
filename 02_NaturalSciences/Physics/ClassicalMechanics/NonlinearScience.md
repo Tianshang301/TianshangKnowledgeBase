@@ -4,6 +4,8 @@ aliases:
   - 混沌理论
   - 孤立子理论
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - physics
   - classical-mechanics
   - nonlinear-science
@@ -189,7 +191,7 @@ graph LR
     F[薛定谔方程] --> G[散射数据]
     end
     subgraph 逆散射
-    H[GLM方程] --> I[势函数重建]
+    H[GLM 方程] --> I[势函数重建]
     end
 ```
 

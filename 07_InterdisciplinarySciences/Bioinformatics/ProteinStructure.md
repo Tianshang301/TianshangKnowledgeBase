@@ -1,6 +1,8 @@
 ---
 aliases: [ProteinStructure]
 tags: ['Bioinformatics', 'ProteinStructure']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 蛋白质结?
@@ -28,7 +30,7 @@ tags: ['Bioinformatics', 'ProteinStructure']
 **α-螺旋（?helix）：**
 - 螺旋上升：每个氨基酸上升1.5 Å
 - 每圈3.6个氨基酸
-- 氢键：第i个与第i+4个氨基酸之间
+- 氢键：第 i 个与第 i+4个氨基酸之间
 - 右手螺旋
 
 **β-折叠（?sheet）：**
@@ -39,13 +41,13 @@ tags: ['Bioinformatics', 'ProteinStructure']
 - 无规则结?- 连接其他二级结构元素
 - 具有柔?
 **预测工具?*
-- PSIPRED：基于神经网?- JPred：基于HMM
+- PSIPRED：基于神经网?- JPred：基于 HMM
 - NetSurfP：表面可及预?
 ### 三级结构（Tertiary Structure?
 **定义?* 整条多肽链的三维构象
 
 **稳定因素?*
-- 二硫键（S-S键）
+- 二硫键（S-S 键）
 - 疏水相互作用
 - 氢键
 - 离子键（盐桥?- 范德华力
@@ -63,7 +65,7 @@ tags: ['Bioinformatics', 'ProteinStructure']
 - 变构调节
 
 **典型例子?*
-- 衢红蛋白：α₂β₂四聚?- DNA聚合酶：多个亚基复合?- 抗体：四链结?
+- 衢红蛋白：α₂β₂四聚?- DNA 聚合酶：多个亚基复合?- 抗体：四链结?
 ## 结构预测方法
 
 ### 同源建模（Homology Modeling?
@@ -100,18 +102,18 @@ tags: ['Bioinformatics', 'ProteinStructure']
 
 **AlphaFold2架构?*
 - Evoformer：提取进化和结构信息
-- Structure Module：生?D坐标
+- Structure Module：生?D 坐标
 - 端到端学?
 **创新点：**
 - 注意力机制：捕获长程相互作用
 - 迭代优化：步改进预测
-- 置信度评估：pLDDT分数
+- 置信度评估：pLDDT 分数
 
 **性能?*
 - CASP14竞赛中表现优?- 接近实验精度（RMSD<1Å?
 **使用?*
 ```bash
-# 安装AlphaFold2
+# 安装 AlphaFold2
 git clone https://github.com/deepmind/alphafold
 cd alphafold
 
@@ -122,7 +124,7 @@ python alphafold/data/tools/run_alphafold.py \
 ```
 
 ## 蛋白质折叠问?
-### Levinthal悖论
+### Levinthal 悖论
 
 **问题?* 如果蛋白质随机折叠，找到正确构象霢要的时间远超宇宙年龄
 
@@ -144,9 +146,9 @@ python alphafold/data/tools/run_alphafold.py \
 ### 折叠疾病
 
 **淢粉样变疾病：**
-- 阿尔茨海默病：Aβ和tau蛋白
+- 阿尔茨海默病：Aβ和 tau 蛋白
 - 帕金森病：?突触核蛋?- 朊病毒病：朊蛋白
-- 亨廷顿病：polyQ扩展
+- 亨廷顿病：polyQ 扩展
 
 **机制?*
 - 蛋白质错误折?- 聚集形成淢粉样纤维
@@ -155,14 +157,14 @@ python alphafold/data/tools/run_alphafold.py \
 
 ### PDB（Protein Data Bank?
 **内容?*
-- 实验测定?D结构
-- X射线晶体学NMR、Cryo-EM
+- 实验测定?D 结构
+- X 射线晶体学 NMR、Cryo-EM
 
 **访问?*
 - 网站：https://www.rcsb.org/
-- FTP下载：ftp://ftp.wwpdb.org/
+- FTP 下载：ftp://ftp.wwpdb.org/
 
-**PDB文件格式?*
+**PDB 文件格式?*
 ```
 ATOM      1  N   ALA A   1      27.340  24.430   2.614  1.00 10.30           N
 ATOM      2  CA  ALA A   1      26.267  25.417   2.822  1.00  9.77           C
@@ -180,7 +182,7 @@ ATOM      2  CA  ALA A   1      26.267  25.417   2.822  1.00  9.77           C
 - CATH：结构分?- Pfam：蛋白质家族
 
 **预测结构数据库：**
-- AlphaFold DB：AI预测结构
+- AlphaFold DB：AI 预测结构
 - SWISS-MODEL Repository：同源建模结?
 ## 分子动力学模拟基硢
 
@@ -247,7 +249,7 @@ gmx mdrun -deffnm md
 - Alberts B, et al. *Molecular Biology of the Cell*
 - 《蛋白质结构与功能?- AlphaFold DB：https://alphafold.ebi.ac.uk/
 - PDB：https://www.rcsb.org/
-- GROMACS官方文档
+- GROMACS 官方文档
 
 ## 相关条目
 

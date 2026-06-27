@@ -1,6 +1,8 @@
 ---
 aliases: [RemoteSensing, 遥感地质, GeologicalRemoteSensing, RSG]
 tags: ['GeologicalAndMiningEngineering', 'GeologicalEngineering', 'RemoteSensing', 'Geology', 'MineralExploration']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 遥感地质 (Remote Sensing in Geology)
@@ -80,7 +82,7 @@ graph TD
     C --> C3[航空磁测]
     D --> D1[低空摄影]
     D --> D2[无人机高光谱]
-    D --> D3[无人机LiDAR]
+    D --> D3[无人机 LiDAR]
 ```
 
 ## 地质解译 (Geological Interpretation)

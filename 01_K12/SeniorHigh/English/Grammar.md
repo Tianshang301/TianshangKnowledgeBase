@@ -1,6 +1,8 @@
 ---
 aliases: [Grammar]
 tags: ['SeniorHigh', 'English', 'Grammar']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 高中英语 · 语法完整?
@@ -105,7 +107,7 @@ tags: ['SeniorHigh', 'English', 'Grammar']
 
 - 不可与一段时间连?
 
-- 霢转换为：have been away（代替have left）have been married（代替have married?
+- 霢转换为：have been away（代替 have left）have been married（代替 have married?
 
 
 
@@ -165,7 +167,7 @@ tags: ['SeniorHigh', 'English', 'Grammar']
 
 ### 3. 被动语的注意事项
 
-- 双宾语动词：give, send, show, tell等两种被动形?
+- 双宾语动词：give, send, show, tell 等两种被动形?
 
   - He gave me a book. ?I was given a book. / A book was given to me.
 
@@ -265,7 +267,7 @@ tags: ['SeniorHigh', 'English', 'Grammar']
 
 
 
-**动词后接 to do和doing 的区??
+**动词后接 to do 和 doing 的区??
 
 | 动词 | to do | doing |
 
@@ -397,9 +399,9 @@ tags: ['SeniorHigh', 'English', 'Grammar']
 
 - that 在宾语从句中可省略，其他从句中不可省
 
-- whether和if 的区别：介词后主语从句表语从句同位语从句、与 or not 连用时用 whether
+- whether 和 if 的区别：介词后主语从句表语从句同位语从句、与 or not 连用时用 whether
 
-- what和that 的区别：what 在从句中作成分，that 不作成分
+- what 和 that 的区别：what 在从句中作成分，that 不作成分
 
 
 
@@ -551,7 +553,7 @@ tags: ['SeniorHigh', 'English', 'Grammar']
 
 
 
-**倒装（省略if??
+**倒装（省略 if??
 
 - Were I you, I would go. ?If I were you?
 
@@ -685,7 +687,7 @@ tags: ['SeniorHigh', 'English', 'Grammar']
 
 - It was I who met him in the park.（强调主语）
 
-- It is you who are wrong.（注：be动词与that 后的主语丢致）
+- It is you who are wrong.（注：be 动词与 that 后的主语丢致）
 
 
 
@@ -733,7 +735,7 @@ tags: ['SeniorHigh', 'English', 'Grammar']
 
 - I think/believe + 从句：反问从?
 
-- 表示used to：usedn't / didn't
+- 表示 used to：usedn't / didn't
 
 
 
@@ -747,7 +749,7 @@ tags: ['SeniorHigh', 'English', 'Grammar']
 
 ### 7. with 复合结构（独立主格）
 
-with + 宾语 + 宾补（doing/done/to do/adj/adv/prep短语?
+with + 宾语 + 宾补（doing/done/to do/adj/adv/prep 短语?
 
 
 
@@ -765,13 +767,13 @@ with + 宾语 + 宾补（doing/done/to do/adj/adv/prep短语?
 
 | **意义丢? | 集合名词作主 | family/team/class 强调整体用单数，强调成员用复 |
 
-| **就近原则** | 由or, either...or, neither...nor, not only...but also 连接 | Either you or he is wrong. |
+| **就近原则** | 由 or, either...or, neither...nor, not only...but also 连接 | Either you or he is wrong. |
 
-| **A with B** | 谓语与A丢致（with, along with, together with, as well as, including, but, except | The teacher, together with the students, is going. |
+| **A with B** | 谓语与 A 丢致（with, along with, together with, as well as, including, but, except | The teacher, together with the students, is going. |
 
 | **不定代词** | each, every, another, either, neither, much, little 等用单数 | Everyone is here. |
 
-| **分数/百分? | 取决于of 后的名词 | Two thirds of the water is gone. Two thirds of the students are boys. |
+| **分数/百分? | 取决于 of 后的名词 | Two thirds of the water is gone. Two thirds of the students are boys. |
 
 | **时间/距离/金钱** | 视为整体用单 | Ten years is a long time. |
 
@@ -789,9 +791,9 @@ with + 宾语 + 宾补（doing/done/to do/adj/adv/prep短语?
 
 
 
-1. **时语态混?：结合上下文时间点判?. **非谓语动词的选择**：先定辑主语，再定语态和时）3. **定语从句引导?：看先行? 从句缺什么成?. **名词性从句what/that**：what 在从句中作成分，that 不作成分
+1. **时语态混?：结合上下文时间点判?. **非谓语动词的选择**：先定辑主语，再定语态和时）3. **定语从句引导?：看先行? 从句缺什么成?. **名词性从句 what/that**：what 在从句中作成分，that 不作成分
 
-5. **虚拟语气条件?：分清时间（现在/过去/将来?. **倒装的条?：否定词/only/so 在句首）7. **强调句的判断**：去掉It is...that 后句子是否完?. **主谓丢?：就近原则和语法丢致的选择
+5. **虚拟语气条件?：分清时间（现在/过去/将来?. **倒装的条?：否定词/only/so 在句首）7. **强调句的判断**：去掉 It is...that 后句子是否完?. **主谓丢?：就近原则和语法丢致的选择
 
 
 

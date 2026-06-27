@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['Physics', 'Geophysics', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 地球物理学

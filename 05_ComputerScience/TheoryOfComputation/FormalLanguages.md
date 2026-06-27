@@ -2,6 +2,8 @@
 title: 形式语言 (Formal Languages)
 aliases: [形式语言与自动机, 形式语言理论]
 tags: [Theory, Computation, Automata, Languages, CS]
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 形式语言 (Formal Languages)

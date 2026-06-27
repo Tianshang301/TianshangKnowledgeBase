@@ -1,6 +1,8 @@
 ---
 aliases: [Testing]
 tags: ['ProgrammingLanguages', 'Python', 'Testing']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Python 测试指南
@@ -155,7 +157,7 @@ import pytest
 
 @pytest.fixture
 def calculator():
-    """提供Calculator实例"""
+    """提供 Calculator 实例"""
     return Calculator()
 
 @pytest.fixture
@@ -186,12 +188,12 @@ def setup_teardown():
 ### conftest.py
 
 ```python
-# conftest.py (放在测试目录下, pytest自动加载)
+# conftest.py (放在测试目录下, pytest 自动加载)
 import pytest
 
 @pytest.fixture
 def api_client():
-    """提供API测试客户端"""
+    """提供 API 测试客户端"""
     class Client:
         def get(self, url):
             return {"status": 200, "data": "ok"}
@@ -260,8 +262,8 @@ def test_expected_failure_strict():
 def test_api():
     pass
 
-# 命令行: pytest -m "slow"         # 只运行标记slow的
-# 命令行: pytest -m "not slow"     # 排除slow
+# 命令行: pytest -m "slow"         # 只运行标记 slow 的
+# 命令行: pytest -m "not slow"     # 排除 slow
 # 命令行: pytest -m "api or smoke" # 逻辑组合
 ```
 

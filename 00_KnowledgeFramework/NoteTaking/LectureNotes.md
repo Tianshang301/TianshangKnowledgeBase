@@ -5,6 +5,8 @@ aliases:
   - LectureNotes
   - 笔记方法
 tags:
+created: 2026-05-17
+updated: 2026-05-13
   - note-taking
   - learning
   - study-skills
@@ -15,7 +17,7 @@ tags:
 
 # 课堂笔记（Lecture Notes）
 
-有效的课堂笔记是主动学习的关键技能。研究表明，采用系统化的笔记方法可以显著提升信息保留率和学习效率。本文涵盖主流笔记方法、数字工具选择、手写vs键盘输入、课前准备和课后处理策略。
+有效的课堂笔记是主动学习的关键技能。研究表明，采用系统化的笔记方法可以显著提升信息保留率和学习效率。本文涵盖主流笔记方法、数字工具选择、手写 vs 键盘输入、课前准备和课后处理策略。
 
 ## 一、笔记方法对比
 
@@ -64,14 +66,14 @@ $$ \text{笔记效果} = f(\text{方法适用性}, \text{内容复杂度}, \text
 
 | 工具 | 类型 | 存储方式 | 双向链接 | 价格 | 核心特色 |
 |------|------|---------|:--------:|:----:|---------|
-| Obsidian | 知识图谱 | 本地Markdown | ✅ | 免费 | 图谱视图、插件生态 |
+| Obsidian | 知识图谱 | 本地 Markdown | ✅ | 免费 | 图谱视图、插件生态 |
 | Notion | 全能型 | 云端 | 部分 | 免费/Plus$10/月 | 数据库、模板、团队协作 |
 | OneNote | 自由型 | OneDrive | ✅ | 免费 | 自由布局、手写、录音 |
 | Evernote | 传统型 | 云端 | ✅ | 免费/Premium$7.99/月 | 网页剪裁、OCR、标签 |
 | Roam Research | 大纲型 | 云端 | ✅ | $15/月 | 块引用、每日笔记 |
 | Logseq | 大纲型 | 本地 | ✅ | 免费开源 | 大纲+图谱、Markdown |
 | Bear | 写作型 | iCloud | ✅ | $2.99/月 | 美观、Markdown、标签 |
-| 飞书文档 | 协作型 | 云端 | 部分 | 免费 | 中文支持、AI辅助 |
+| 飞书文档 | 协作型 | 云端 | 部分 | 免费 | 中文支持、AI 辅助 |
 
 ### 2.2 选择建议
 
@@ -84,7 +86,7 @@ $$ \text{笔记效果} = f(\text{方法适用性}, \text{内容复杂度}, \text
 | 快速记录+网页剪裁 | Evernote |
 | 手写笔记+录音 | OneNote / GoodNotes |
 
-## 三、手写vs键盘
+## 三、手写 vs 键盘
 
 ### 3.1 认知科学视角
 
@@ -124,9 +126,9 @@ $$ \text{笔记效果} = f(\text{方法适用性}, \text{内容复杂度}, \text
 
 | 问题类型 | 示例 |
 |---------|------|
-| 事实性问题 | "X定理的适用条件是什么？" |
-| 理解性问题 | "为什么Y方法优于Z？" |
-| 应用性问题 | "如何将X应用于实际场景？" |
+| 事实性问题 | "X 定理的适用条件是什么？" |
+| 理解性问题 | "为什么 Y 方法优于 Z？" |
+| 应用性问题 | "如何将 X 应用于实际场景？" |
 | 分析性问题 | "如果改变参数，结果会怎样？" |
 
 ## 五、主动倾听策略
@@ -195,7 +197,7 @@ $$ \text{记忆强度} \propto \text{精细加工深度} $$
 
 ### 7.1 Zettelkasten（卡片盒笔记法）
 
-由德国社会学家Niklas Luhmann开发，他使用此法撰写了70+本书和400+篇文章。
+由德国社会学家 Niklas Luhmann 开发，他使用此法撰写了70+本书和400+篇文章。
 
 **核心原则**：
 1. **原子性**：每张卡片只包含一个概念
@@ -208,7 +210,7 @@ $$ \text{记忆强度} \propto \text{精细加工深度} $$
 ```markdown
 ---
 tags: #认知科学 #记忆
-source: 《XX书籍》
+source: 《XX 书籍》
 ---
 
 ## 标题：间隔重复效应的神经基础
@@ -222,7 +224,7 @@ source: 《XX书籍》
 
 ### 7.2 渐进式总结
 
-由Tiago Forte提出的分层提炼方法：
+由 Tiago Forte 提出的分层提炼方法：
 
 | 层级 | 操作 | 内容比例 |
 |:----:|------|:--------:|
@@ -279,8 +281,8 @@ source: 《XX书籍》
 - Ahrens, S. (2017). *How to Take Smart Notes*. CreateSpace.
 - Forte, T. (2022). *Building a Second Brain*. Atria Books.
 - Rohde, M. (2015). *The Sketchnote Handbook*. Peachpit Press.
-- Obsidian官方: https://help.obsidian.md
-- Zettelkasten方法: https://zettelkasten.de
+- Obsidian 官方: https://help.obsidian.md
+- Zettelkasten 方法: https://zettelkasten.de
 
 ## 相关条目
 

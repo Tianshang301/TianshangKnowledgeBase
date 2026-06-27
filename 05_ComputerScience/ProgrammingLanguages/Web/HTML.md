@@ -1,6 +1,8 @@
 ---
 aliases: [HTML]
 tags: ['ProgrammingLanguages', 'Web', 'HTML']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # HTML5 完整参考
@@ -20,7 +22,7 @@ tags: ['ProgrammingLanguages', 'Web', 'HTML']
     
     <meta property="og:title" content="社交分享标题">
     <meta property="og:description" content="社交分享描述">
-    <meta property="og:image" content="分享图片URL">
+    <meta property="og:image" content="分享图片 URL">
     
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
@@ -131,7 +133,7 @@ tags: ['ProgrammingLanguages', 'Web', 'HTML']
 <ins>已插入文本</ins>
 <sub>下标</sub>
 <sup>上标</sup>
-<code>code代码</code>
+<code>code 代码</code>
 <pre>预格式
   保留 空格
 和换行</pre>
@@ -447,7 +449,7 @@ tags: ['ProgrammingLanguages', 'Web', 'HTML']
 
 <!-- 图片 Alt 文本 -->
 <img src="chart.png" alt="2024年销售额柱状图: 第一季度100万, 第二季度150万">
-<img src="decoration.png" alt="">  <!-- 装饰性图片使用空alt -->
+<img src="decoration.png" alt="">  <!-- 装饰性图片使用空 alt -->
 
 <!-- 表单标签 -->
 <label for="username">用户名:</label>

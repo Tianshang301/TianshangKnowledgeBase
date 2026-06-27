@@ -1,6 +1,8 @@
 ---
 aliases: [ClassicalChineseKnowledge]
 tags: ['SeniorHigh', 'Chinese', 'ClassicalChineseKnowledge']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # 高中语文 · 文言文阅读系统知识

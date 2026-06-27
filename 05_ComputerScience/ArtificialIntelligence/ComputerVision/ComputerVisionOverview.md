@@ -1,6 +1,8 @@
 ---
 aliases: [ComputerVision, CV]
 tags: ['05_ComputerScience', 'ArtificialIntelligence', 'ComputerVision']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 计算机视觉概述 (Computer Vision Overview)

@@ -1,6 +1,8 @@
 ---
 aliases: [VisualCulture, VisualStudies, 视觉文化]
 tags: ['VisualCulture', 'CulturalStudies', 'ArtsAndCreativity', 'MediaStudies']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 视觉文化 (Visual Culture)
@@ -31,7 +33,7 @@ flowchart TD
     
     TECH --> T1[摄影与电影]
     TECH --> T2[数字图像/AI]
-    TECH --> T3[VR/AR技术]
+    TECH --> T3[VR/AR 技术]
 ```
 
 ## 关键理论概念

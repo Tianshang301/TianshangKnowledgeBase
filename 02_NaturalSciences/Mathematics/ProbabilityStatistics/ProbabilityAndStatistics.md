@@ -1,6 +1,8 @@
 ---
 aliases: [ProbabilityAndStatistics, 概率论与数理统计]
 tags: ['ProbabilityAndStatistics', 'Statistics', 'Mathematics', 'ProbabilityTheory']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 概率论与数理统计 (Probability and Statistics)

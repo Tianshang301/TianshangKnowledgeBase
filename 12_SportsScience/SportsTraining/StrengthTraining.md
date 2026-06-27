@@ -1,6 +1,8 @@
 ---
 aliases: [StrengthTraining]
 tags: ['SportsTraining', 'StrengthTraining']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 力量训练
@@ -33,7 +35,7 @@ tags: ['SportsTraining', 'StrengthTraining']
 
 爆发力是时间率力量发展。
 
-P等于力乘以速度。
+P 等于力乘以速度。
 
 提高爆发力需要同时发展力量和动作速度。
 
@@ -68,7 +70,7 @@ P等于力乘以速度。
 
 建议周增加不超过10%总负荷。
 
-SAID原则指身体适应与所做训练最相关。
+SAID 原则指身体适应与所做训练最相关。
 
 爆发性动作产生爆发适应。
 

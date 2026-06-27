@@ -1,6 +1,8 @@
 ---
 aliases: [AthleticAbility, 运动能力, PhysicalFitness, 身体素质, LTAD, 长期运动员发展]
 tags: ['12_SportsScience', 'SportsTraining', 'AthleticDevelopment', 'PhysicalPreparation']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 运动能力 Athletic Ability
@@ -156,7 +158,7 @@ graph LR
 女性运动员在以下方面具有特殊性：
 - **月经周期与运动表现**：黄体期耐力下降但力量可维持
 - **ACL 损伤风险**：女性运动员 ACL 损伤率是男性的 4-6 倍
-- **红色S 三合症**（Female Athlete Triad）：能量可用性不足、月经失调、骨密度下降
+- **红色 S 三合症**（Female Athlete Triad）：能量可用性不足、月经失调、骨密度下降
 
 ## 7. 专项运动能力模型 (Sport-Specific Models)
 

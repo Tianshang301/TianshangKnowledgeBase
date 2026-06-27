@@ -1,6 +1,8 @@
 ---
 aliases: [ReinforcementLearning]
 tags: ['ArtificialIntelligence', 'MachineLearning', 'ReinforcementLearning', 'ReinforcementLearning']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 强化学习
@@ -11,7 +13,7 @@ tags: ['ArtificialIntelligence', 'MachineLearning', 'ReinforcementLearning', 'Re
 
 ### 马尔可夫决策过程 (MDP)
 
-MDP由五元组 $\langle \mathcal{S}, \mathcal{A}, \mathcal{P}, \mathcal{R}, \gamma \rangle$ 定义：
+MDP 由五元组 $\langle \mathcal{S}, \mathcal{A}, \mathcal{P}, \mathcal{R}, \gamma \rangle$ 定义：
 
 | 元素 | 含义 | 说明 |
 |------|------|------|
@@ -95,7 +97,7 @@ $$
 
 ### 蒙特卡洛方法 (MC)
 
-基于完整episode的平均回报估计价值：
+基于完整 episode 的平均回报估计价值：
 
 $$
 V(S_t) \leftarrow V(S_t) + \alpha [G_t - V(S_t)]
@@ -103,7 +105,7 @@ $$
 
 ### 时序差分学习 (TD)
 
-TD使用自举（bootstrap）方式，无需等待完整episode：
+TD 使用自举（bootstrap）方式，无需等待完整 episode：
 
 $$
 V(S_t) \leftarrow V(S_t) + \alpha [R_{t+1} + \gamma V(S_{t+1}) - V(S_t)]
@@ -121,32 +123,32 @@ $$
 Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha \left[R_{t+1} + \gamma \max_a Q(S_{t+1}, a) - Q(S_t, A_t)\right]
 $$
 
-### SARSA与Q-learning对比
+### SARSA 与 Q-learning 对比
 
 | 特性 | SARSA | Q-learning |
 |------|-------|-----------|
 | 策略类型 | 同策略 (On-policy) | 异策略 (Off-policy) |
 | 更新目标 | 使用实际采取的动作 | 使用贪心最优动作 |
 | 保守性 | 更保守（考虑实际策略） | 更激进（直接最优） |
-| Cliff Walk表现 | 安全但不最优 | 最优但有风险 |
+| Cliff Walk 表现 | 安全但不最优 | 最优但有风险 |
 
-## 五、深度Q网络
+## 五、深度 Q 网络
 
 ### DQN (Deep Q-Network)
 
-使用深度神经网络近似Q函数，解决高维状态空间问题：
+使用深度神经网络近似 Q 函数，解决高维状态空间问题：
 
 $$
 \mathcal{L}(\theta) = \mathbb{E}_{(s,a,r,s') \sim \mathcal{D}} \left[\left(r + \gamma \max_{a'} Q(s',a';\theta^-) - Q(s,a;\theta)\right)^2\right]
 $$
 
-### DQN关键技巧
+### DQN 关键技巧
 
 - **经验回放 (Experience Replay)**：打破样本相关性
 - **目标网络 (Target Network)**：$\theta^-$ 周期更新，稳定训练
 - **ε-贪心探索**：平衡探索与利用
 
-### DQN改进
+### DQN 改进
 
 | 方法                 | 改进点       | 公式                                                      |             |                    |
 | ------------------ | --------- | ------------------------------------------------------- | ----------- | ------------------ |
@@ -173,7 +175,7 @@ $$
 \nabla J(\theta) = \mathbb{E}_{\pi_\theta} \left[\nabla_\theta \log \pi_\theta(a|s) \cdot \delta\right]
 $$
 
-其中 $\delta = r + \gamma V(s') - V(s)$ 为TD误差。
+其中 $\delta = r + \gamma V(s') - V(s)$ 为 TD 误差。
 
 ### PPO (Proximal Policy Optimization)
 
@@ -201,7 +203,7 @@ $$
 |------|------|------|
 | ε-greedy | 以ε概率随机探索 | 简单但低效 |
 | UCB | 置信上界乐观探索 | 理论保证 |
-| Thompson采样 | 根据后验分布采样 | 贝叶斯最优 |
+| Thompson 采样 | 根据后验分布采样 | 贝叶斯最优 |
 | 熵奖励 (SAC) | 最大化策略熵 | 鼓励探索 |
 | 好奇心驱动 | 以预测误差为内在奖励 | 稀疏奖励场景 |
 
@@ -210,7 +212,7 @@ $$
 | 应用 | 方法 | 成果 |
 |------|------|------|
 | AlphaGo | MCTS + DQN + 策略网络 | 击败人类围棋冠军 |
-| AlphaZero | 自对弈 + MCTS | 通用棋类AI |
+| AlphaZero | 自对弈 + MCTS | 通用棋类 AI |
 | Dota 2 | PPO + LSTM | 击败世界冠军（OpenAI Five） |
 | 机器人控制 | SAC, PPO, DDPG | 灵巧操作、运动控制 |
 | 自动驾驶 | 模仿学习 + RL | 端到端驾驶策略 |

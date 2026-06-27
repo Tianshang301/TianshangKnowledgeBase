@@ -7,6 +7,8 @@ aliases:
   - 儿童早期发展
   - Early Childhood Development
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - education
   - early-childhood
   - child-development
@@ -52,7 +54,7 @@ $$
 ZPD = L_{potential} - L_{actual}
 $$
 
-其中 $L_{potential}$ 为潜在发展水平，$L_{actual}$ 为实际发展水平。有效的教学应瞄准ZPD的上限，而非儿童已掌握的内容。
+其中 $L_{potential}$ 为潜在发展水平，$L_{actual}$ 为实际发展水平。有效的教学应瞄准 ZPD 的上限，而非儿童已掌握的内容。
 
 ```mermaid
 graph TD
@@ -77,13 +79,13 @@ graph TD
 
 ### 发展适宜性实践 (Developmentally Appropriate Practice, DAP)
 
-全美幼儿教育协会 (NAEYC) 提出的DAP框架包含三个维度：
+全美幼儿教育协会 (NAEYC) 提出的 DAP 框架包含三个维度：
 
 1. **年龄适宜性 (Age-appropriateness)**：符合特定年龄阶段儿童的普遍发展规律
 2. **个体适宜性 (Individual-appropriateness)**：尊重每个儿童的独特气质、兴趣与发展节奏
 3. **文化适宜性 (Cultural-appropriateness)**：尊重儿童家庭与社区的文化背景
 
-DAP的实施原则：
+DAP 的实施原则：
 
 $$
 DAP = A_{age} \cap A_{individual} \cap A_{cultural}

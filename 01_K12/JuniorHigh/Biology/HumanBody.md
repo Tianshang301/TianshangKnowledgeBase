@@ -1,6 +1,8 @@
 ---
 aliases: [HumanBody]
 tags: ['JuniorHigh', 'Biology', 'HumanBody']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 人体

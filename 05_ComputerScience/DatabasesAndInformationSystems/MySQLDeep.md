@@ -1,6 +1,8 @@
 ---
 aliases: [MySQLDeep]
 tags: ['DatabasesAndInformationSystems', 'MySQLDeep']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # MySQL 深入指南

@@ -1,6 +1,8 @@
 ---
 aliases: [SyntheticBiology]
 tags: ['Biology/SyntheticBiology', 'MolecularBiology', 'Bioengineering']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # SyntheticBiology

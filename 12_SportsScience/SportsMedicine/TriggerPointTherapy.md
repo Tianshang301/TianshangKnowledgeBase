@@ -1,17 +1,19 @@
 ---
 aliases: [TriggerPointTherapy, 扳机点疗法, 肌筋膜激痛点]
 tags: [SportsMedicine, ManualTherapy, PainManagement, Rehabilitation]
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 扳机点疗法
 
 ## 概述
 
-扳机点（Trigger Point, TrP）是骨骼肌中过度应激的结节状紧张带（Taut Band），按压时产生局部疼痛并可能引传痛（Referred Pain）至远端区域。扳机点疗法（Trigger Point Therapy）是通过手法压迫、针刺（Dry Needling）或物理 modalities 等手段灭活扳机点，恢复肌肉正常功能、改善局部血液循环、缓解疼痛和运动功能障碍的系统治疗方法。扳机点的概念由Janet Travell博士（曾任美国总统肯尼迪的医师）和David Simons博士系统阐述，其理论与临床实践构成了肌筋膜疼痛综合征（Myofascial Pain Syndrome）诊断和治疗的基础。
+扳机点（Trigger Point, TrP）是骨骼肌中过度应激的结节状紧张带（Taut Band），按压时产生局部疼痛并可能引传痛（Referred Pain）至远端区域。扳机点疗法（Trigger Point Therapy）是通过手法压迫、针刺（Dry Needling）或物理 modalities 等手段灭活扳机点，恢复肌肉正常功能、改善局部血液循环、缓解疼痛和运动功能障碍的系统治疗方法。扳机点的概念由 Janet Travell 博士（曾任美国总统肯尼迪的医师）和 David Simons 博士系统阐述，其理论与临床实践构成了肌筋膜疼痛综合征（Myofascial Pain Syndrome）诊断和治疗的基础。
 
 ## 扳机点形成机制
 
-扳机点的形成涉及多种病理生理机制，包括运动终板（Motor Endplate）功能异常导致的乙酰胆碱（Acetylcholine）持续释放、肌浆网（Sarcoplasmic Reticulum）钙离子泵功能障碍导致的肌纤维持续收缩、局部缺血缺氧导致的能量危机（Energy Crisis），以及炎症介质（如缓激肽、前列腺素、P物质）的累积。能量危机假说认为，持续的肌纤维收缩压迫局部微血管，导致缺血缺氧，ATP供应不足，进而使钙离子泵失活，钙离子无法回收入肌浆网，形成恶性循环（Positive Feedback Loop）。
+扳机点的形成涉及多种病理生理机制，包括运动终板（Motor Endplate）功能异常导致的乙酰胆碱（Acetylcholine）持续释放、肌浆网（Sarcoplasmic Reticulum）钙离子泵功能障碍导致的肌纤维持续收缩、局部缺血缺氧导致的能量危机（Energy Crisis），以及炎症介质（如缓激肽、前列腺素、P 物质）的累积。能量危机假说认为，持续的肌纤维收缩压迫局部微血管，导致缺血缺氧，ATP 供应不足，进而使钙离子泵失活，钙离子无法回收入肌浆网，形成恶性循环（Positive Feedback Loop）。
 
 ## 扳机点分类
 
@@ -63,7 +65,7 @@ flowchart TD
 
 使用细针插入扳机点进行针刺，引发局部抽搐反应（Local Twitch Response, LTR），快速打破异常收缩环路。干针可结合电刺激增强效果。针刺深度取决于目标肌肉的解剖深度，需避免刺入胸膜腔（气胸风险）或大血管。干针的神经生理机制包括：
 - 机械破坏运动终板异常去极化
-- 激活A-δ纤维触发脊髓和皮层镇痛通路
+- 激活 A-δ纤维触发脊髓和皮层镇痛通路
 - 局部微创伤引发血管舒张和生长因子释放
 - 牵张反射弧的重置（Resetting of Stretch Reflex Arc）
 
@@ -73,7 +75,7 @@ flowchart TD
 
 ### 穴位按压与触发点按摩
 
-结合中医穴位理论与扳机点定位技术，通过深部按压（Acupressure）和横向摩擦（Transverse Friction Massage）松解肌筋膜粘连。手法治疗可结合激痛点揉按、肌筋膜松解术（Myofascial Release）和肌肉能量技术（Muscle Energy Technique, MET）。MET通过等长收缩后放松（Post-Isometric Relaxation, PIR）或交互抑制（Reciprocal Inhibition）机制促进扳机点释放。
+结合中医穴位理论与扳机点定位技术，通过深部按压（Acupressure）和横向摩擦（Transverse Friction Massage）松解肌筋膜粘连。手法治疗可结合激痛点揉按、肌筋膜松解术（Myofascial Release）和肌肉能量技术（Muscle Energy Technique, MET）。MET 通过等长收缩后放松（Post-Isometric Relaxation, PIR）或交互抑制（Reciprocal Inhibition）机制促进扳机点释放。
 
 ### 物理治疗 modality
 
@@ -112,7 +114,7 @@ flowchart TD
 股四头肌（Quadriceps）扳机点易导致膝前痛和髌股关节功能异常。股内侧肌（Vastus Medialis Obliquus, VMO）扳机点与髌骨半脱位相关联。腘绳肌（Hamstrings）扳机点可导致坐骨结节区域的局部疼痛和俯卧腿弯举时的牵拉感。腓肠肌（Gastrocnemius）扳机点与足跟痛密切相关，治疗时以拇指在腓肠肌内外侧头肌腹最饱满处施压，配合踝关节背屈拉伸。比目鱼肌（Soleus）扳机点则需在屈膝位下按压（腓肠肌放松后触诊更准确）。
 
 ### 头面与咀嚼肌群
-咬肌（Masseter）和颞肌（Temporalis）扳机点是颞下颌关节紊乱（Temporomandibular Disorder, TMD）和紧张型头痛的重要原因。口内触诊（Intraoral Palpation）可直接按压咬肌深层扳机点。胸锁乳突肌（Sternocleidomastoid, SCM）扳机点可导致姿势性眩晕（Postural Dizziness）和平衡障碍，治疗时用拇指和食指捏按SCM肌腹（颈动脉三角区，避免压迫颈动脉窦 Siphon）。
+咬肌（Masseter）和颞肌（Temporalis）扳机点是颞下颌关节紊乱（Temporomandibular Disorder, TMD）和紧张型头痛的重要原因。口内触诊（Intraoral Palpation）可直接按压咬肌深层扳机点。胸锁乳突肌（Sternocleidomastoid, SCM）扳机点可导致姿势性眩晕（Postural Dizziness）和平衡障碍，治疗时用拇指和食指捏按 SCM 肌腹（颈动脉三角区，避免压迫颈动脉窦 Siphon）。
 
 ## 扳机点疗法与针灸的异同
 
@@ -123,7 +125,7 @@ flowchart TD
 - **用针规格不同**：干针常使用较细的实心不锈钢针；针灸针规格多样
 - **循证证据水平不同**：干针在肌筋膜疼痛综合征中的证据等级高于针灸在此适应症中的证据
 
-但两者存在实践技术上的交叉：部分针灸穴位与常见扳机点的解剖位置高度吻合（如合谷LI4与第一骨间背侧肌扳机点，足三里ST36与胫前肌扳机点）。
+但两者存在实践技术上的交叉：部分针灸穴位与常见扳机点的解剖位置高度吻合（如合谷 LI4与第一骨间背侧肌扳机点，足三里 ST36与胫前肌扳机点）。
 
 ## 扳机点疗法的禁忌证与注意事项
 
@@ -156,7 +158,7 @@ flowchart TD
 
 ## 诊断性影像与扳机点
 
-近年来，弹性超声（Elastography）和磁共振弹性成像（Magnetic Resonance Elastography, MRE）被用于客观量化扳机点的力学特性。扳机点在弹性超声上表现为局部硬度增高的区域（Young's Modulus 高于周围组织 1.5-2.0 倍）。微透析技术（Microdialysis）显示扳机点区域 pH 降低、缓激肽（Bradykinin）、CGRP（Calcitonin Gene-Related Peptide）、P物质（Substance P）和TNF-α等炎症介质浓度升高。红外热成像（Infrared Thermography）可辅助定位扳机点区域的温度异常（通常表现为局部温度略高）。
+近年来，弹性超声（Elastography）和磁共振弹性成像（Magnetic Resonance Elastography, MRE）被用于客观量化扳机点的力学特性。扳机点在弹性超声上表现为局部硬度增高的区域（Young's Modulus 高于周围组织 1.5-2.0 倍）。微透析技术（Microdialysis）显示扳机点区域 pH 降低、缓激肽（Bradykinin）、CGRP（Calcitonin Gene-Related Peptide）、P 物质（Substance P）和 TNF-α等炎症介质浓度升高。红外热成像（Infrared Thermography）可辅助定位扳机点区域的温度异常（通常表现为局部温度略高）。
 
 ## 扳机点疗法实用案例
 
@@ -185,7 +187,7 @@ flowchart TD
 
 ## 扳机点治疗后的康复训练建议
 
-扳机点治疗后的康复训练应当遵循"灭活-拉伸-激活-整合"的四个步骤序列（Inactivate-Stretch-Activate-Integrate, ISAI原则），确保疗效的长期维持。ISAI流程强调治疗的完整闭环——灭活扳机点后必须立即进行针对性拉伸，恢复肌肉静息长度，然后通过低负荷激活重建神经肌肉控制，最后整合入功能性动作模式。
+扳机点治疗后的康复训练应当遵循"灭活-拉伸-激活-整合"的四个步骤序列（Inactivate-Stretch-Activate-Integrate, ISAI 原则），确保疗效的长期维持。ISAI 流程强调治疗的完整闭环——灭活扳机点后必须立即进行针对性拉伸，恢复肌肉静息长度，然后通过低负荷激活重建神经肌肉控制，最后整合入功能性动作模式。
 
 扳机点灭活后应结合针对性的运动控制（Motor Control）训练以预防复发。研究表明，单纯灭活不配合运动训练的患者，3个月内复发率可达 40-60%。
 

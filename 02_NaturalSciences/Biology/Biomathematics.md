@@ -1,6 +1,8 @@
 ---
 aliases: [Biomathematics]
 tags: ['Biology/Biomathematics', 'Interdisciplinary', 'MathematicalBiology']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # Biomathematics

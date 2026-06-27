@@ -1,6 +1,8 @@
 ---
 aliases: [MetabolismAndExercise, 运动与代谢]
 tags: ['12_SportsScience', 'SportsMedicine', 'Metabolism', 'ExercisePhysiology']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 运动与代谢 (Metabolism and Exercise)
@@ -22,7 +24,7 @@ graph TD
     B --> G[ATP-PCr<br/>0-10s]
     C --> H[无氧糖酵解<br/>10s-2min]
     D --> I[有氧氧化<br/>>2min]
-    E --> J[RER交叉点<br/>Crossover Concept]
+    E --> J[RER 交叉点<br/>Crossover Concept]
     F --> K[线粒体生物发生]
 ```
 
@@ -119,11 +121,11 @@ $$C_6H_{12}O_6 + 6O_2 + 38ADP + 38P_i \rightarrow 6CO_2 + 6H_2O + 38ATP$$
 graph LR
     A[葡萄糖/糖原] --> B[糖酵解]
     B --> C[丙酮酸]
-    C --> D[乙酰辅酶A]
+    C --> D[乙酰辅酶 A]
     D --> E[三羧酸循环]
     E --> F[NADH/FADH₂]
     F --> G[电子传递链]
-    G --> H[ATP合成酶]
+    G --> H[ATP 合成酶]
     H --> I[ATP]
     
     J[脂肪酸] --> K[β-氧化]

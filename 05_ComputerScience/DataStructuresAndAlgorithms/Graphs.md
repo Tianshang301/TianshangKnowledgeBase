@@ -1,6 +1,8 @@
 ---
 aliases: [Graphs]
 tags: ['05_ComputerScience', 'DataStructuresAndAlgorithms']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 图 (Graphs)
@@ -34,9 +36,9 @@ tags: ['05_ComputerScience', 'DataStructuresAndAlgorithms']
 
 ```mermaid
 graph LR
-    A[顶点A] -- 5 --> B[顶点B]
-    A -- 3 --> C[顶点C]
-    B -- 2 --> D[顶点D]
+    A[顶点 A] -- 5 --> B[顶点 B]
+    A -- 3 --> C[顶点 C]
+    B -- 2 --> D[顶点 D]
     C -- 4 --> D
     B -- 1 --> C
 ```

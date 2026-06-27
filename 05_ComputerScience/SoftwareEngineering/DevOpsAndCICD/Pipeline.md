@@ -1,6 +1,8 @@
 ---
 aliases: [Pipeline]
-tags: ['SoftwareEngineering', 'DevOpsAndCI_CD', 'Pipeline']
+tags: ['SoftwareEngineering', 'DevOpsAndCICD', 'Pipeline']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # CI/CD 流水线设计
@@ -69,7 +71,7 @@ develop → staging → production
    │         │          │
    │ 自动    │ 手动审批  │ 手动审批+冷却
    ▼         ▼          ▼
-  测试      UAT验收    生产
+  测试      UAT 验收    生产
 
 # 部署门禁（Gate）
 environment:
@@ -355,7 +357,7 @@ staging 上调试 → 修改配置 → 部署到 production ❌
 
 ## 相关条目
 
-- [[CI-CD与DevOps实践]]
+- [[CI-CD 与 DevOps 实践]]
 - [[Jenkins]]
 - [[GitHubActions]]
 - [[Dockerfile]]

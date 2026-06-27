@@ -1,6 +1,8 @@
 ---
 aliases: [LearningPath, MedicinePath, 医学学习路线, 医学健康, HealthSciencePath, PremedPath]
 tags: ['LearningPath', 'MedicineAndHealth', 'MedicalEducation', 'Healthcare', 'Premed']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 学习路径：医学与健康 (Medicine and Health Learning Path)
@@ -64,7 +66,7 @@ graph TD
 | 课程 | 核心内容 | 与基础的联系 |
 |------|---------|-------------|
 | **诊断学** (Diagnostics) | 问诊、体格检查、实验室检查、影像检查 | 应用解剖、病理 |
-| **影像诊断学** (Medical Imaging) | X线、CT、MRI、超声、核医学 | 解剖、病理 |
+| **影像诊断学** (Medical Imaging) | X 线、CT、MRI、超声、核医学 | 解剖、病理 |
 | **临床技能学** (Clinical Skills) | 无菌操作、穿刺、急救 | 解剖、生理 |
 
 ## 临床阶段 — 第3~5年 (Clinical Rotations)
@@ -85,7 +87,7 @@ graph TD
 
 ## 常见医学公式 (Common Medical Formulas)
 
-**肾小球滤过率估算 (Cockcroft-Gault公式)**：
+**肾小球滤过率估算 (Cockcroft-Gault 公式)**：
 $$ CrCl = \frac{(140 - \text{age}) \times \text{weight (kg)}}{72 \times S_{Cr}} \ (\times 0.85 \ \text{if female}) $$
 
 **心输出量**：
@@ -97,7 +99,7 @@ $$ MAP = DBP + \frac{1}{3}(SBP - DBP) $$
 **阴离子间隙**：
 $$ AG = Na^+ - (Cl^- + HCO_3^-) $$
 
-**体表面积 (Mosteller公式)**：
+**体表面积 (Mosteller 公式)**：
 $$ BSA (m^2) = \sqrt{\frac{height (cm) \times weight (kg)}{3600}} $$
 
 ## 专业方向 (Specializations)
@@ -118,7 +120,7 @@ $$ BSA (m^2) = \sqrt{\frac{height (cm) \times weight (kg)}{3600}} $$
 | 方向 | 核心课程 | 职业去向 |
 |------|---------|---------|
 | 流行病学 (Epidemiology) | 疾病监测、暴发调查、因果推断 | CDC、WHO、科研机构 |
-| 卫生统计学 (Biostatistics) | 临床试验设计、多变量分析、贝叶斯统计 | 制药企业CRO、学术研究 |
+| 卫生统计学 (Biostatistics) | 临床试验设计、多变量分析、贝叶斯统计 | 制药企业 CRO、学术研究 |
 | 环境卫生 (Environmental Health) | 职业卫生、毒理学、环境暴露评估 | 环保部门、职业病防治 |
 | 健康政策与管理 (Health Policy & Management) | 卫生经济学、医院管理、医疗保险 | 卫健委、医保局、医院管理 |
 
@@ -175,10 +177,10 @@ graph LR
 - **NEJM** (New England Journal of Medicine) — 顶级临床医学期刊
 - **The Lancet** — 综合性医学期刊
 - **BMJ** (British Medical Journal) — 临床研究与实践
-- **Medscape** — 临床资讯与CME
+- **Medscape** — 临床资讯与 CME
 - **Osmosis / SketchyMedical** — 可视化学习平台
 - **医脉通 / 丁香园** — 中文医学社区
-- **中国大学MOOC** — 国内医学院校在线课程
+- **中国大学 MOOC** — 国内医学院校在线课程
 
 ## 相关条目 (Related Entries)
 

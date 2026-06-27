@@ -1,6 +1,8 @@
 ---
 aliases: [AnalogCircuits]
 tags: ['HardwareAndEmbeddedSystems', 'AnalogCircuits', 'AnalogCircuits']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 模拟电路
@@ -167,7 +169,7 @@ $$R_S = \frac{V_{in} - V_Z}{I_Z + I_L}$$
 
 小信号分析用于线性化非线性器件在直流工作点附近的行为。
 
-1. 确定直流工作点（Q点）
+1. 确定直流工作点（Q 点）
 2. 用线性小信号模型替代非线性器件
 3. 分析交流小信号响应
 

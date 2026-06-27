@@ -1,6 +1,8 @@
 ---
 aliases: [MineSafety, 矿山安全]
 tags: ['04_EngineeringAndTechnology', 'GeologicalAndMiningEngineering', 'MiningEngineering', 'MineSafety']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 矿山安全 (Mine Safety)

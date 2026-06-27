@@ -1,6 +1,8 @@
 ---
 aliases: [ShipDesign]
 tags: ['HydraulicAndMarineEngineering', 'NavalArchitecture', 'ShipDesign']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 船舶设计
@@ -37,8 +39,8 @@ tags: ['HydraulicAndMarineEngineering', 'NavalArchitecture', 'ShipDesign']
 
 **型线生成方法**：
 - 手工绘制
-- 数学放样（样条函数、B样条）
-- CFD优化
+- 数学放样（样条函数、B 样条）
+- CFD 优化
 
 ### 船体结构设计
 

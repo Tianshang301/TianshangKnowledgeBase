@@ -1,6 +1,8 @@
 ---
 aliases: [ForestEcology]
 tags: ['Forestry', 'ForestEcology']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 森林生态学
@@ -207,7 +209,7 @@ tags: ['Forestry', 'ForestEcology']
 - 调节局部气候
 
 **碳汇作用：**
-- 吸收CO2
+- 吸收 CO2
 - 缓解温室效应
 
 ## 相关条目

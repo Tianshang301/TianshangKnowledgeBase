@@ -1,6 +1,8 @@
 ---
 aliases: [Process]
 tags: ['OperatingSystems', 'Process']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 进程管理详解 (Process Management)
@@ -20,14 +22,14 @@ tags: ['OperatingSystems', 'Process']
 |------|------|------|
 | 本质 | 静态文件(磁盘) | 动态执行(内存) |
 | 生命周期 | 永久存在 | 创建到终止 |
-| 资源 | 占用磁盘空间 | 占用CPU、内存等 |
-| 唯一性 | 一个程序可多个进程 | 每个进程有唯一PID |
+| 资源 | 占用磁盘空间 | 占用 CPU、内存等 |
+| 唯一性 | 一个程序可多个进程 | 每个进程有唯一 PID |
 
 ## 2. 进程控制块 (Process Control Block, PCB)
 
-PCB是操作系统管理进程的核心数据结构，存储在内核空间。每个进程有唯一PCB。
+PCB 是操作系统管理进程的核心数据结构，存储在内核空间。每个进程有唯一 PCB。
 
-**PCB主要内容:**
+**PCB 主要内容:**
 
 ```
 Process ID (PID)
@@ -72,12 +74,12 @@ struct task_struct {
                 └──────┬──────┘
                        │ admit
                        ▼
-    ┌──────────┐  dispatch  ┌──────────┐  I/O或event   ┌──────────┐
+    ┌──────────┐  dispatch  ┌──────────┐  I/O 或 event   ┌──────────┐
     │  Ready   │───────────►│ Running  │──────────────►│ Waiting  │
     └──────────┘            └──────────┘               └──────────┘
           ▲                      │                           │
           │                    exit                          │
-          │                  I/O完成                         │ I/O完成
+          │                  I/O 完成                         │ I/O 完成
           │                      ▼                           │ or event
           │               ┌─────────────┐                    │
           │               │ Terminated  │◄───────────────────┘
@@ -89,12 +91,12 @@ struct task_struct {
 | 状态 | 描述 |
 |------|------|
 | **New** | 进程正在被创建 |
-| **Ready** | 进程已在内存中，等待CPU调度 |
-| **Running** | 进程正在CPU上执行 |
-| **Waiting (Blocked)** | 进程等待I/O或事件完成 |
+| **Ready** | 进程已在内存中，等待 CPU 调度 |
+| **Running** | 进程正在 CPU 上执行 |
+| **Waiting (Blocked)** | 进程等待 I/O 或事件完成 |
 | **Terminated** | 进程已完成执行 |
 
-### Linux进程状态
+### Linux 进程状态
 
 ```c
 #define TASK_RUNNING        0   // R (可运行或正在运行)
@@ -108,24 +110,24 @@ struct task_struct {
 
 ## 4. 上下文切换 (Context Switch)
 
-当CPU切换到另一个进程时，系统保存当前进程的状态(PCB)并加载新进程的保存状态。
+当 CPU 切换到另一个进程时，系统保存当前进程的状态(PCB)并加载新进程的保存状态。
 
 **切换开销:**
 - 保存/恢复寄存器(PC, SP, 通用寄存器)
-- TLB刷新
-- Cache污染
+- TLB 刷新
+- Cache 污染
 - 页表切换(CR3寄存器)
 
 ```c
 // 上下文切换伪代码
 void context_switch(struct task_struct *prev, struct task_struct *next) {
-    // 保存prev的CPU状态
+    // 保存 prev 的 CPU 状态
     save_processor_state(prev);
     // 更新内存管理(切换页表)
     switch_mm(prev->active_mm, next->active_mm);
     // 切换寄存器状态
     switch_to(prev, next);
-    // 恢复next的CPU状态
+    // 恢复 next 的 CPU 状态
     restore_processor_state(next);
 }
 ```
@@ -143,18 +145,18 @@ int main() {
     pid_t pid = fork();  // 创建子进程
 
     if (pid < 0) {
-        // fork失败
+        // fork 失败
         perror("fork failed");
         return 1;
     } else if (pid == 0) {
         // 子进程
-        printf("子进程: PID=%d, 父PID=%d\n", getpid(), getppid());
+        printf("子进程: PID=%d, 父 PID=%d\n", getpid(), getppid());
         execlp("/bin/ls", "ls", "-l", NULL);  // 替换进程映像
         perror("execlp failed");
         return 1;
     } else {
         // 父进程
-        printf("父进程: 子PID=%d\n", pid);
+        printf("父进程: 子 PID=%d\n", pid);
         int status;
         waitpid(pid, &status, 0);  // 等待子进程结束
         printf("子进程退出状态: %d\n", WEXITSTATUS(status));
@@ -163,12 +165,12 @@ int main() {
 }
 ```
 
-**exec家族:**
+**exec 家族:**
 
 | 函数 | 描述 |
 |------|------|
-| execlp | 参数列表 + PATH搜索 |
-| execvp | 参数数组 + PATH搜索 |
+| execlp | 参数列表 + PATH 搜索 |
+| execvp | 参数数组 + PATH 搜索 |
 | execle | 参数列表 + 环境变量 |
 | execve | 参数数组 + 环境变量 (系统调用) |
 
@@ -196,12 +198,12 @@ int main() {
             NULL,           // 工作目录
             &si,            // STARTUPINFO
             &pi)) {         // PROCESS_INFORMATION
-        printf("CreateProcess失败: %lu\n", GetLastError());
+        printf("CreateProcess 失败: %lu\n", GetLastError());
         return 1;
     }
 
     printf("进程句柄: %p, 线程句柄: %p\n", pi.hProcess, pi.hThread);
-    printf("进程ID: %lu, 线程ID: %lu\n", pi.dwProcessId, pi.dwThreadId);
+    printf("进程 ID: %lu, 线程 ID: %lu\n", pi.dwProcessId, pi.dwThreadId);
 
     // 等待进程结束
     WaitForSingleObject(pi.hProcess, INFINITE);
@@ -215,17 +217,17 @@ int main() {
 
 ### 正常终止
 - `exit()` / `_exit()` — 请求系统调用
-- main函数return
+- main 函数 return
 - `ExitProcess()` (Windows)
 
 ### 异常终止
-- `abort()` — SIGABRT信号
+- `abort()` — SIGABRT 信号
 - 段错误 (SIGSEGV)
 - 被其他进程杀死 (`kill()`)
 
 ### 僵尸进程 (Zombie Process)
 
-子进程已终止，但其PCB尚未被父进程回收(wait)。
+子进程已终止，但其 PCB 尚未被父进程回收(wait)。
 
 ```c
 // 制造僵尸进程
@@ -235,7 +237,7 @@ int main() {
         printf("子进程退出\n");
         exit(0);  // 子进程退出，变为僵尸
     }
-    sleep(10);  // 父进程sleep期间，子进程是僵尸
+    sleep(10);  // 父进程 sleep 期间，子进程是僵尸
     // 此时 ps aux 可看到 <defunct> 或 Z
     wait(NULL);  // 回收僵尸
     return 0;
@@ -244,7 +246,7 @@ int main() {
 
 ### 孤儿进程 (Orphan Process)
 
-父进程先于子进程终止，子进程被init(PID=1)收养。
+父进程先于子进程终止，子进程被 init(PID=1)收养。
 
 ```c
 // 制造孤儿进程
@@ -252,7 +254,7 @@ int main() {
     pid_t pid = fork();
     if (pid == 0) {
         sleep(5);  // 父进程先退出
-        printf("子进程(孤儿) PPID=%d\n", getppid());  // PPID变为1
+        printf("子进程(孤儿) PPID=%d\n", getppid());  // PPID 变为1
         sleep(5);
     } else {
         printf("父进程退出\n");
@@ -276,7 +278,7 @@ void create_daemon() {
     chdir("/");                      // 更改工作目录
     umask(0);                        // 重置文件掩码
 
-    close(STDIN_FILENO);             // 关闭标准I/O
+    close(STDIN_FILENO);             // 关闭标准 I/O
     close(STDOUT_FILENO);
     close(STDERR_FILENO);
 
@@ -342,7 +344,7 @@ int main() {
 
 ### 7.3 共享内存 (Shared Memory)
 
-最高效的IPC方式，需要同步机制。
+最高效的 IPC 方式，需要同步机制。
 
 ```c
 // Server
@@ -404,7 +406,7 @@ void handler(int sig) {
 }
 
 int main() {
-    signal(SIGINT, handler);  // Ctrl+C触发
+    signal(SIGINT, handler);  // Ctrl+C 触发
     while (1) {
         printf("运行中...\n");
         sleep(1);
@@ -452,7 +454,7 @@ int main() {
 }
 ```
 
-## IPC方式对比
+## IPC 方式对比
 
 | 方式 | 速度 | 适用场景 | 支持网络 | 内核参与 |
 |------|------|---------|---------|---------|

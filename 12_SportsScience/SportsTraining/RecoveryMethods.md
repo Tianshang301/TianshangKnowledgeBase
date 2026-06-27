@@ -1,6 +1,8 @@
 ---
 aliases: [RecoveryMethods, 恢复方法, 运动恢复, PostExerciseRecovery, SportRecovery, 疲劳恢复, 再平衡, 恢复策略]
 tags: ['12_SportsScience', 'SportsTraining', 'RecoveryMethods']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 恢复方法（Recovery Methods）
@@ -44,7 +46,7 @@ flowchart TD
     NR --> NR1[碳水化合物补充<br/>Carbohydrate Replenishment]
     NR --> NR2[蛋白质补充<br/>Protein Intake]
     NR --> NR3[微量营养素<br/>Micronutrients]
-    SR --> SR1[NREM深睡: GH分泌<br/>Slow Wave Sleep]
+    SR --> SR1[NREM 深睡: GH 分泌<br/>Slow Wave Sleep]
     SR --> SR2[REM: 神经恢复<br/>REM Sleep]
 ```
 

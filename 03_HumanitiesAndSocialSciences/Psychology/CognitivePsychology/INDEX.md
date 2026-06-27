@@ -1,6 +1,8 @@
 ---
 aliases: [CognitivePsychology]
 tags: ['03_HumanitiesAndSocialSciences', 'Psychology', 'CognitivePsychology']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 # CognitivePsychology
 

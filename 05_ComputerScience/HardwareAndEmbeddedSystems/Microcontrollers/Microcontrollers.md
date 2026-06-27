@@ -1,6 +1,8 @@
 ---
 aliases: [Microcontrollers, MCU, 微控制器, 单片机]
 tags: ['05_ComputerScience', 'HardwareAndEmbeddedSystems', 'Microcontrollers', 'EmbeddedSystems']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 微控制器 Microcontrollers

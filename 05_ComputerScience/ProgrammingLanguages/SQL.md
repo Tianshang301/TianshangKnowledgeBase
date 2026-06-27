@@ -1,6 +1,8 @@
 ---
 aliases: [SQL]
 tags: ['05_ComputerScience', 'ProgrammingLanguages']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # SQL (Structured Query Language)
@@ -203,7 +205,7 @@ WHERE department = 'Engineering'
 
 ### 4.3 DELETE vs TRUNCATE
 
-| 操作 | 速度 | 可回滚 | 重置自增ID | 触发器 | 空间回收 |
+| 操作 | 速度 | 可回滚 | 重置自增 ID | 触发器 | 空间回收 |
 |------|------|--------|-----------|--------|----------|
 | DELETE | 慢 | 是 | 否 | 触发 | 不回收 |
 | TRUNCATE | 快 | 否（部分数据库可） | 是 | 不触发 | 回收 |

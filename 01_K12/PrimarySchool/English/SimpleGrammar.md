@@ -1,6 +1,8 @@
 ---
 aliases: [SimpleGrammar]
 tags: ['PrimarySchool', 'English', 'SimpleGrammar']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 简单语法
@@ -25,9 +27,9 @@ tags: ['PrimarySchool', 'English', 'SimpleGrammar']
 | 规则 | 方法 | 示例 |
 |------|------|------|
 | 一般情况 | +s | book→books |
-| 以s/x/ch/sh结尾 | +es | box→boxes |
-| 以辅音+y结尾 | 变y为i+es | baby→babies |
-| 以f/fe结尾 | 变f/fe为v+es | knife→knives |
+| 以 s/x/ch/sh 结尾 | +es | box→boxes |
+| 以辅音+y 结尾 | 变 y 为 i+es | baby→babies |
+| 以 f/fe 结尾 | 变 f/fe 为 v+es | knife→knives |
 
 #### 不规则变化
 
@@ -80,9 +82,9 @@ tags: ['PrimarySchool', 'English', 'SimpleGrammar']
 
 ## 动词（Verbs）
 
-### be动词
+### be 动词
 
-| 主语 | be动词 | 缩写 |
+| 主语 | be 动词 | 缩写 |
 |------|--------|------|
 | I | am | I'm |
 | he/she/it | is | he's/she's/it's |
@@ -100,7 +102,7 @@ We are friends.
 
 #### 构成
 
-- **肯定句**：主语 + 动词原形（三单加s/es）
+- **肯定句**：主语 + 动词原形（三单加 s/es）
 - **否定句**：主语 + don't/doesn't + 动词原形
 - **疑问句**：Do/Does + 主语 + 动词原形。
 
@@ -109,8 +111,8 @@ We are friends.
 | 规则 | 方法 | 示例 |
 |------|------|------|
 | 一般情况 | +s | like→likes |
-| 以s/x/ch/sh/o结尾 | +es | watch→watches |
-| 以辅音+y结尾 | 变y为i+es | study→studies |
+| 以 s/x/ch/sh/o 结尾 | +es | watch→watches |
+| 以辅音+y 结尾 | 变 y 为 i+es | study→studies |
 
 #### 用法示例
 
@@ -124,16 +126,16 @@ We are friends.
 
 #### 构成
 
-- **肯定句**：主语 + am/is/are + 动词ing
-- **否定句**：主语 + am/is/are + not + 动词ing
-- **疑问句**：Am/Is/Are + 主语 + 动词ing。
+- **肯定句**：主语 + am/is/are + 动词 ing
+- **否定句**：主语 + am/is/are + not + 动词 ing
+- **疑问句**：Am/Is/Are + 主语 + 动词 ing。
 
-#### 动词ing变化规则
+#### 动词 ing 变化规则
 
 | 规则 | 方法 | 示例 |
 |------|------|------|
 | 一般情况 | +ing | read→reading |
-| 以e结尾 | 去e+ing | make→making |
+| 以 e 结尾 | 去 e+ing | make→making |
 | 重读闭音节 | 双写+ing | run→running |
 
 #### 用法示例
@@ -153,8 +155,8 @@ We are friends.
 | 规则 | 比较级 | 最高级 |
 |------|--------|--------|
 | 单音节 | +er | +est |
-| 以e结尾 | +r | +st |
-| 以辅音+y结尾 | 变y为i+er | 变y为i+est |
+| 以 e 结尾 | +r | +st |
+| 以辅音+y 结尾 | 变 y 为 i+er | 变 y 为 i+est |
 | 重读闭音节 | 双写+er | 双写+est |
 | 多音节 | more+原级 | most+原级 |
 
@@ -175,7 +177,7 @@ We are friends.
 最高级：He is the tallest in our class.
 ```
 
-## there be句型
+## there be 句型
 
 ### 构成
 
@@ -201,8 +203,8 @@ There isn't a book on the desk.
 
 ### 一般疑问句
 
-- **特点**：用Yes/No回答
-- **构成**：助动词/be动词/情态动词 + 主语 + 其他。
+- **特点**：用 Yes/No 回答
+- **构成**：助动词/be 动词/情态动词 + 主语 + 其他。
 - **示例**：
   - Are you a student?
   - Do you like music?
@@ -210,7 +212,7 @@ There isn't a book on the desk.
 
 ### 特殊疑问句
 
-- **特点**：不能用Yes/No回答
+- **特点**：不能用 Yes/No 回答
 - **构成**：疑问词 + 一般疑问句。
 - **常用疑问词**：
   - what（什么）
@@ -236,7 +238,7 @@ How are you?
 - 小学英语语法书
 - 英语语法练习题
 - 语法学习网站
-- 英语学习APP
+- 英语学习 APP
 
 ## 相关条目
 

@@ -1,6 +1,8 @@
 ---
 aliases: [ClimateChangeEducation, 气候教育, 气候变化教学]
 tags: ['CrossDisciplinaryK12', 'EnvironmentalEducation', 'ClimateChangeEducation', 'SDGs', 'Sustainability']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 气候变化教育 Climate Change Education

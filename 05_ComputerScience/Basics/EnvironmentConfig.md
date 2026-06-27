@@ -1,6 +1,8 @@
 ---
 aliases: [EnvironmentConfig]
 tags: ['Basics', 'EnvironmentConfig']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 环境配置完全指南
@@ -116,7 +118,7 @@ sudo update-alternatives --config python3
 | 修改权限 | 无需管理员 | 需要管理员权限 |
 | 典型存储 | `%USERPROFILE%` 相关路径 | `C:\Windows\System32` 等系统路径 |
 
-**优先级规则**：当同名变量冲突时，系统先读取系统变量，再读取用户变量，用户变量会覆盖系统变量。而 PATH 是合并的：`系统PATH + 用户PATH`。
+**优先级规则**：当同名变量冲突时，系统先读取系统变量，再读取用户变量，用户变量会覆盖系统变量。而 PATH 是合并的：`系统 PATH + 用户 PATH`。
 
 ## 命令行临时设置环境变量
 

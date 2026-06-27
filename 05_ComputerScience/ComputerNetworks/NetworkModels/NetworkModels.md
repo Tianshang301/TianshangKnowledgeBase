@@ -1,6 +1,8 @@
 ---
 aliases: [NetworkModels]
 tags: ['ComputerNetworks', 'NetworkModels', 'NetworkModels']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 网络模型 (Network Models)
@@ -91,9 +93,9 @@ TCP/IP 模型是实际 Internet 使用的协议栈，精简为四层。
 [传输层头部][上层数据]                ← 段 (Segment) / 数据报 (Datagram)
     ↓  (源端口+目的端口+序列号+...)
 [网络层头部][传输层数据]              ← 包 (Packet)
-    ↓  (源IP+目的IP+TTL+...)
+    ↓  (源 IP+目的 IP+TTL+...)
 [链路层头部][网络层数据][链路层尾部]    ← 帧 (Frame)
-    ↓  (源MAC+目的MAC+类型+FCS)
+    ↓  (源 MAC+目的 MAC+类型+FCS)
 [前导码][帧][IFG]                    ← 比特流 (Bits)
 
 接收方解封装：逆向过程，逐层剥离头部

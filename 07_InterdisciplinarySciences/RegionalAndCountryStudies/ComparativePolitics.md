@@ -1,6 +1,8 @@
 ---
 aliases: [ComparativePolitics]
 tags: ['RegionalAndCountryStudies', 'ComparativePolitics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 比较政治?
@@ -117,7 +119,7 @@ tags: ['RegionalAndCountryStudies', 'ComparativePolitics']
 ## 民主化理?
 ### 第三波民主化
 
-**Huntington理论?*
+**Huntington 理论?*
 - 1974年开始的民主化浪?- 涉及南欧、拉美东亚东?
 **民主化条件：**
 - 经济发展
@@ -127,7 +129,7 @@ tags: ['RegionalAndCountryStudies', 'ComparativePolitics']
 
 ### 民主巩固
 
-**Linzi理论?*
+**Linzi 理论?*
 - 民主制度的稳定化
 - 民主规范的内?- 政治文化的转?
 **巩固指标?*
@@ -224,7 +226,7 @@ tags: ['RegionalAndCountryStudies', 'ComparativePolitics']
 
 ### 福利国家
 
-**Esping-Andersen分类?*
+**Esping-Andersen 分类?*
 - 自由主义福利国家
 - 保守主义福利国家
 - 社会民主主义福利国家

@@ -1,6 +1,8 @@
 ---
 aliases: [Basics]
 tags: ['ProgrammingLanguages', 'Go', 'Basics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Go 基础语法
@@ -139,7 +141,7 @@ for key, value := range map[string]string{"a": "A"} {
     fmt.Println(key, value)
 }
 
-for _, ch := range "Go语言" {
+for _, ch := range "Go 语言" {
     fmt.Printf("%c ", ch)  // G o 语 言
 }
 

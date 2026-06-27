@@ -1,6 +1,8 @@
 ---
 aliases: [PhaseTransformations, 相变, Phase Change, Phase Transition]
 tags: ['MetallurgicalEngineering', 'PhysicalMetallurgy', 'PhaseTransformations', 'HeatTreatment']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 相变原理
@@ -122,7 +124,7 @@ $$
 过饱和固溶体分解过程的序列：
 
 ```
-过饱和固溶体 → GP区（Guinier-Preston Zones）→ 过渡相（θ'' → θ'）→ 平衡相（θ）
+过饱和固溶体 → GP 区（Guinier-Preston Zones）→ 过渡相（θ'' → θ'）→ 平衡相（θ）
 ```
 
 奥斯瓦尔德熟化（Ostwald Ripening）动力学：

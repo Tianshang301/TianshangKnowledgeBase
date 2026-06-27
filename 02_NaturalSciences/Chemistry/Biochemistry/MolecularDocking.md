@@ -1,4 +1,11 @@
-﻿---
+---
+aliases: [MolecularDocking]
+tags: ['Chemistry', 'Biochemistry', 'MolecularDocking.md']
+created: 2026-05-17
+updated: 2026-05-17
+---
+
+---
 aliases: [MolecularDocking, VirtualScreening, ProteinLigandDocking]
 tags: ['Chemistry/MolecularDocking', 'ComputationalChemistry', 'DrugDesign']
 ---

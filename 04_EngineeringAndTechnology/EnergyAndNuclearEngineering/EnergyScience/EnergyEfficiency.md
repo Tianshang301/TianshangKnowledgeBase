@@ -1,6 +1,8 @@
 ---
 aliases: [EnergyEfficiency, 能源效率, Energy Conservation, Energy Saving, EE]
 tags: ['EnergyAndNuclearEngineering', 'EnergyScience', 'EnergyEfficiency', 'EnergyConservation']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 能源效率
@@ -21,7 +23,7 @@ $$
 
 | 指标 | 定义 | 单位 | 应用领域 |
 |------|------|------|---------|
-| 单位GDP能耗 | 能源消费量 / GDP | tce/万元 | 宏观经济 |
+| 单位 GDP 能耗 | 能源消费量 / GDP | tce/万元 | 宏观经济 |
 | 能源强度（Energy Intensity） | 单位产值能耗 | MJ/元 | 行业比较 |
 | 能效比（EER） | 制冷量 / 输入功率 | W/W | 空调系统 |
 | 一次能源消耗（PE） | 全生命周期能耗 | MJ | 建筑能耗 |
@@ -131,7 +133,7 @@ graph LR
 |---------|---------|---------|
 | 节能中长期专项规划 | 2004 | 建立节能优先的能源战略 |
 | 能源法 | 2020（征求意见） | 确立节能法律制度框架 |
-| 十四五节能减排方案 | 2021 | 单位GDP能耗降低 13.5% |
+| 十四五节能减排方案 | 2021 | 单位 GDP 能耗降低 13.5% |
 | 能效提升计划（2022—2025） | 2022 | 重点行业能效标杆水平 30% 达标 |
 
 ## 交通能效
@@ -165,7 +167,7 @@ $$
 PUE（Power Usage Effectiveness）是衡量数据中心能效的核心指标：
 
 $$
-PUE = \frac{\text{总能耗}}{\text{IT设备能耗}}
+PUE = \frac{\text{总能耗}}{\text{IT 设备能耗}}
 $$
 
 | PUE 等级 | 范围 | 说明 |

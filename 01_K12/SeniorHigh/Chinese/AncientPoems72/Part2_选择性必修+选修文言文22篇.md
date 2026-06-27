@@ -1,6 +1,6 @@
 ---
 aliases: [Part2_选择性必修+选修文言文22篇]
-tags: ['SeniorHigh', 'Chinese', 'AncientPoems_72', 'Part2_选择性必修+选修文言文22篇']
+tags: ['SeniorHigh', 'Chinese', 'AncientPoems72', 'Part2_选择性必修+选修文言文22篇']
 ---
 
 # 高中必背古诗?2?· 选择性必修（10篇）+ 选修?2篇）文言?

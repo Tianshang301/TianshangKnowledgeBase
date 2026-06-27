@@ -1,6 +1,8 @@
 ---
 aliases: [CodeGen]
 tags: ['CompilerPrinciples', 'CodeGen']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 目标代码生成
@@ -26,7 +28,7 @@ tags: ['CompilerPrinciples', 'CodeGen']
 
 ```text
 IR 树：
-        +
+        -
        / \
       a   *
          / \

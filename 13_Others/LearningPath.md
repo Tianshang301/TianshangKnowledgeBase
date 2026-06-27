@@ -1,6 +1,8 @@
 ---
 aliases: [LearningPath]
 tags: ['LearningPath']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 生活技能学习路线图
@@ -156,7 +158,7 @@ tags: ['LearningPath']
 | 技能 | 推荐资源 |
 |------|---------|
 | 急救 | 红十字会培训 |
-| 烹饪 | 下厨房 App、B站美食作家王刚 |
+| 烹饪 | 下厨房 App、B 站美食作家王刚 |
 | 投资 | 《聪明的投资者》、ETF 拯救世界（微博） |
 | 时间管理 | 《Getting Things Done》- David Allen |
 | 沟通 | 《非暴力沟通》- Marshall Rosenberg |

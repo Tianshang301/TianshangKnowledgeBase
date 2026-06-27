@@ -1,6 +1,8 @@
 ---
 aliases: [GaokaoGuide]
 tags: ['ExamPreparation', 'GaokaoGuide']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # 高考复习指南

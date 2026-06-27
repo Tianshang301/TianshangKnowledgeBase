@@ -1,6 +1,8 @@
 ---
 aliases: [React]
 tags: ['ProgrammingLanguages', 'Web', 'React']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # React 快速指南
@@ -210,7 +212,7 @@ function DataFetcher({ userId }) {
         return () => {
             cancelled = true;  // 清理: 防止内存泄漏
         };
-    }, [userId]);  // 依赖: userId变化时重新执行
+    }, [userId]);  // 依赖: userId 变化时重新执行
 
     if (loading) return <div>加载中...</div>;
     if (error) return <div>错误: {error}</div>;
@@ -340,7 +342,7 @@ function reducer(state, action) {
         case 'reset':
             return initialState;
         default:
-            throw new Error('未知action类型');
+            throw new Error('未知 action 类型');
     }
 }
 
@@ -494,7 +496,7 @@ function UserDetail() {
     
     return (
         <div>
-            <p>用户ID: {id}</p>
+            <p>用户 ID: {id}</p>
             <p>当前路径: {location.pathname}</p>
             <button onClick={() => navigate('/users')}>返回列表</button>
             <button onClick={() => navigate(-1)}>后退</button>

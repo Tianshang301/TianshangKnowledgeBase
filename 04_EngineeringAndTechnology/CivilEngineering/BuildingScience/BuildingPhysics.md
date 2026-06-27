@@ -1,6 +1,8 @@
 ---
 aliases: [BuildingPhysics]
 tags: ['CivilEngineering', 'BuildingScience', 'BuildingPhysics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 建筑物理

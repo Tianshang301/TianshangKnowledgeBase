@@ -1,4 +1,11 @@
-﻿---
+---
+aliases: [Photonics]
+tags: ['MechanicalAndElectricalEngineering', 'OpticalEngineering', 'Photonics.md']
+created: 2026-05-17
+updated: 2026-05-17
+---
+
+---
 aliases: [Photonics]
 tags: ['04_EngineeringAndTechnology', 'MechanicalAndElectricalEngineering', 'OpticalEngineering']
 ---

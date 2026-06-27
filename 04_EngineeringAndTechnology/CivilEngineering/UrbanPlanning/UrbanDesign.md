@@ -1,6 +1,8 @@
 ---
 aliases: [UrbanDesign]
 tags: ['CivilEngineering', 'UrbanPlanning', 'UrbanDesign']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 城市设计
@@ -40,7 +42,7 @@ tags: ['CivilEngineering', 'UrbanPlanning', 'UrbanDesign']
 **公共艺术**：雕塑、壁画、装置
 
 **空间尺度**：
-- D/H比（街道宽度与建筑高度比）
+- D/H 比（街道宽度与建筑高度比）
 - D/H = 1：平衡感
 - D/H < 1：围合感
 - D/H > 1：开敞感
@@ -98,7 +100,7 @@ tags: ['CivilEngineering', 'UrbanPlanning', 'UrbanDesign']
 - 老城区更新改造
 - 历史街区保护
 - 滨水区开发
-- CBD设计
+- CBD 设计
 - 社区营造
 
 ## 相关条目

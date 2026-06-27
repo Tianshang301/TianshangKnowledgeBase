@@ -1,6 +1,8 @@
 ---
 aliases: [OptimalControl]
 tags: ['ControlAndSystemsEngineering', 'ControlTheory', 'OptimalControl']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 最优控制
@@ -46,33 +48,33 @@ $$u^* = \arg\min_{u \in U} H(x^*,u,\lambda^*,t)$$
 
 ### 动态规划
 
-**Bellman方程**：
+**Bellman 方程**：
 
 $$V(x,t) = \min_{u}\left\{L(x,u,t) + \frac{\partial V}{\partial x}f(x,u,t)\right\}$$
 
 **最优性原理**：最优策略的子策略也是最优的。
 
-**离散Bellman方程**：
+**离散 Bellman 方程**：
 
 $$V_k(x_k) = \min_{u_k}\left\{L_k(x_k,u_k) + V_{k+1}(x_{k+1})\right\}$$
 
 ### 线性二次型调节器（LQR）
 
-**连续时间LQR**：
+**连续时间 LQR**：
 
 $$J = \int_0^\infty (x^TQx + u^TRu)dt$$
 
 最优控制：$u^* = -R^{-1}B^TPx$
 
-$P$ 满足代数Riccati方程：$A^TP + PA - PBR^{-1}B^TP + Q = 0$
+$P$ 满足代数 Riccati 方程：$A^TP + PA - PBR^{-1}B^TP + Q = 0$
 
-**离散时间LQR**：
+**离散时间 LQR**：
 
 $$J = \sum_{k=0}^{\infty} (x_k^TQx_k + u_k^TRu_k)$$
 
-最优控制：$u_k = -K_k x_k$，$K_k$ 由递推Riccati方程求解。
+最优控制：$u_k = -K_k x_k$，$K_k$ 由递推 Riccati 方程求解。
 
-**LQR性质**：
+**LQR 性质**：
 - 最优性：使性能指标最小
 - 鲁棒性：相位裕度≥60°，增益裕度≥6dB
 - 无需试凑参数
@@ -94,7 +96,7 @@ $$\min_{u_0,\ldots,u_{N-1}} \sum_{k=0}^{N-1}[x_k^TQx_k + u_k^TRu_k] + x_N^TPx_N$
 - 状态约束：$x_{min} \leq x_k \leq x_{max}$
 - 输入约束：$u_{min} \leq u_k \leq u_{max}$
 
-**MPC优点**：
+**MPC 优点**：
 - 处理约束能力强
 - 适用于多变量系统
 - 可处理非线性系统（NMPC）

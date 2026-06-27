@@ -1,6 +1,8 @@
 ---
 aliases: [BasicOperations]
 tags: ['ComputerBasics', 'OperatingSystem', 'Productivity', 'DigitalLiteracy']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 计算机基础操作指南 (Basic Computer Operations)

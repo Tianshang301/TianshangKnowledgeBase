@@ -1,6 +1,8 @@
 ---
 aliases: [ComplexityScience]
 tags: ['InterdisciplinaryMethodologies', 'ComplexityScience']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 复杂性科?
@@ -70,8 +72,8 @@ $$\lim_{t \to \infty} |x_1(t) - x_2(t)| \to \infty$$
 - 分形几何
 - 遍历?
 **典型例子?*
-- Lorenz吸引子：蝴蝶形状
-- Rössler吸引?- 双摆
+- Lorenz 吸引子：蝴蝶形状
+- Rössler 吸引?- 双摆
 
 **特征?*
 - 对初始条件敏?- 非周期?- 有界?
@@ -82,7 +84,7 @@ $$\lim_{t \to \infty} |x_1(t) - x_2(t)| \to \infty$$
 - 稳定性变?- 新结构出?
 **类型?*
 - 鞍结分岔
-- Hopf分岔
+- Hopf 分岔
 - 倍周期分?
 ## 复杂网络
 
@@ -90,7 +92,7 @@ $$\lim_{t \to \infty} |x_1(t) - x_2(t)| \to \infty$$
 **特征?*
 - 高聚类系?- 短平均路径长?- 介于规则网络和随机网络之?
 **模型?*
-- Watts-Strogatz模型
+- Watts-Strogatz 模型
 - 重连规则网络的边
 
 **应用?*
@@ -103,7 +105,7 @@ $$\lim_{t \to \infty} |x_1(t) - x_2(t)| \to \infty$$
 - 度分布服从幂律分?- 少数枢纽节点
 - 对随机攻击鲁?
 **模型?*
-- Barabási-Albert模型
+- Barabási-Albert 模型
 - 增长和优先连?
 **应用?*
 - 互联?- 金融网络
@@ -132,7 +134,7 @@ $$\lim_{t \to \infty} |x_1(t) - x_2(t)| \to \infty$$
 
 ### 基本概念
 
-**Agent特征?*
+**Agent 特征?*
 - 自主性：独立决策
 - 反应性：感知环境
 - 主动性：采取行动
@@ -145,9 +147,9 @@ $$\lim_{t \to \infty} |x_1(t) - x_2(t)| \to \infty$$
 
 ### 建模步骤
 
-1. **问题定义**：明确研究目?2. **Agent设计**：定义属性和行为规则
+1. **问题定义**：明确研究目?2. **Agent 设计**：定义属性和行为规则
 3. **环境设计**：定义空间和资源
-4. **交互规则**：定义Agent间交?5. **模型验证**：校验模型行?6. **实验分析**：运行模拟和分析
+4. **交互规则**：定义 Agent 间交?5. **模型验证**：校验模型行?6. **实验分析**：运行模拟和分析
 
 ### 应用领域
 
@@ -170,8 +172,8 @@ $$\lim_{t \to \infty} |x_1(t) - x_2(t)| \to \infty$$
 
 ### 常用工具
 
-- **NetLogo**：可视化ABM环境
-- **Repast**：Java ABM框架
+- **NetLogo**：可视化 ABM 环境
+- **Repast**：Java ABM 框架
 - **Mesa**：Python ABM?- **AnyLogic**：多方法仿真
 
 ## 复杂性科学在社会科学中的应用
@@ -179,7 +181,7 @@ $$\lim_{t \to \infty} |x_1(t) - x_2(t)| \to \infty$$
 ### 经济系统
 
 **复杂经济学：**
-- Agent交互产生市场行为
+- Agent 交互产生市场行为
 - 正反馈和多重均衡
 - 涌现和自组织
 

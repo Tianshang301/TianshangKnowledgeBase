@@ -1,6 +1,8 @@
 ---
 aliases: [SmartManufacturing, 智能制造, 工业4.0]
 tags: ['ControlAndSystemsEngineering', 'Automation', 'SmartManufacturing', 'Industry4.0']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 智能制造 (Smart Manufacturing)
@@ -64,7 +66,7 @@ $$ \text{Digital Twin} = \text{Physical Entity} + \text{Virtual Model} + \text{C
 | 感知层 | 数据采集 | 传感器、RFID、摄像头 | 原始信号 |
 | 网络层 | 数据传输 | 工业以太网、5G、WiFi 6、LoRa | 结构化数据 |
 | 平台层 | 数据存储和处理 | 工业互联网平台、数据中台 | 聚合数据 |
-| 应用层 | 业务应用 | 工业APP、可视化看板 | 决策信息 |
+| 应用层 | 业务应用 | 工业 APP、可视化看板 | 决策信息 |
 
 ### 关键技术
 
@@ -74,44 +76,44 @@ $$ \text{Response Time} = T_{\text{sense}} + T_{\text{edge}} + T_{\text{act}} $$
 
 典型的边缘计算网关延迟低于10ms，而云端处理通常需要50~200ms。
 
-**5G专网**：为工厂提供超低延迟（Ultra-Reliable Low-Latency Communication, URLLC）、大带宽（eMBB）和海量连接（mMTC），支持AGV调度、远程控制和AR辅助装配。
+**5G 专网**：为工厂提供超低延迟（Ultra-Reliable Low-Latency Communication, URLLC）、大带宽（eMBB）和海量连接（mMTC），支持 AGV 调度、远程控制和 AR 辅助装配。
 
 ## 智能工厂架构
 
 ### 自动化金字塔
 
-智能工厂（Smart Factory）参照ISA-95标准的五层架构：
+智能工厂（Smart Factory）参照 ISA-95标准的五层架构：
 
 从底层到顶层：现场设备层（Field Devices）→ 控制层（Control）→ 执行层（Operations）→ 管理层（Plant Management）→ 企业层（Enterprise）。
 
 ### 核心系统
 
 - **MES**（Manufacturing Execution System，制造执行系统）：负责生产排程、工单管理、物料追踪和质量追溯
-- **WMS**（Warehouse Management System，仓库管理系统）：管理原材料和成品库存，与AGV集成实现自动出入库
-- **QMS**（Quality Management System，质量管理系统）：SPC分析、质量门管理、不合格品处理
+- **WMS**（Warehouse Management System，仓库管理系统）：管理原材料和成品库存，与 AGV 集成实现自动出入库
+- **QMS**（Quality Management System，质量管理系统）：SPC 分析、质量门管理、不合格品处理
 - **PLM**（Product Lifecycle Management，产品生命周期管理）：从概念到报废的全生命周期数据管理
 
-### MES功能模块
+### MES 功能模块
 
 | 模块 | 功能描述 | 输入 | 输出 |
 |------|---------|------|------|
 | 生产调度 | 工单排程和资源分配 | 订单、BOM | 生产计划 |
 | 物料追踪 | 批次追溯和防错 | 条码/RFID | 追溯链 |
-| 质量管理 | SPC和检验管理 | 检测数据 | 质量报告 |
-| 设备管理 | OEE和设备维护 | 设备状态 | 维护工单 |
-| 绩效分析 | KPI和OEE分析 | 生产数据 | 管理看板 |
+| 质量管理 | SPC 和检验管理 | 检测数据 | 质量报告 |
+| 设备管理 | OEE 和设备维护 | 设备状态 | 维护工单 |
+| 绩效分析 | KPI 和 OEE 分析 | 生产数据 | 管理看板 |
 
 ## 预测性维护
 
 ### 技术路线
 
 1. **数据采集**：通过传感器采集设备运行数据（振动 Vibration、温度 Temperature、电流 Current、声发射 Acoustic Emission）
-2. **特征提取**：在时域（RMS、峰值因子）、频域（FFT频谱）和时频域（小波变换 Wavelet Transform）提取特征
+2. **特征提取**：在时域（RMS、峰值因子）、频域（FFT 频谱）和时频域（小波变换 Wavelet Transform）提取特征
 3. **故障诊断**：基于机器学习的模式识别：
 
 $$ y = f(x) \quad \text{where} \quad x \in \mathbb{R}^n \text{ (特征向量)}, \quad y \in \{正常, 故障_A, 故障_B, \ldots\} $$
 
-4. **寿命预测**：利用退化模型（Degradation Model）预测RUL：
+4. **寿命预测**：利用退化模型（Degradation Model）预测 RUL：
 
 $$ \text{RUL} = \inf\{t: D(t) \geq D_{\text{threshold}}\} $$
 
@@ -161,21 +163,21 @@ $$ \text{Defect Map} = \text{CNN}(\text{Image}) \quad \text{with} \quad \text{Io
 - **拖动示教**（Drag Teaching）：直接拖动机械臂记录路径，适用于协作机器人
 - **视觉引导编程**（Vision-Guided Programming）：通过视觉系统自动识别工件位置和姿态
 
-### 机器人与AGV协同
+### 机器人与 AGV 协同
 
-移动操作臂（Mobile Manipulator）将机械臂与AGV（Automated Guided Vehicle，自动导引车）结合，实现：
+移动操作臂（Mobile Manipulator）将机械臂与 AGV（Automated Guided Vehicle，自动导引车）结合，实现：
 
 - 跨工位物料搬运
 - 柔性工位间的自适应装配
 - 仓储与产线之间的物料衔接
 
-AGV导航技术包括磁条导航（Magnetic Tape）、激光SLAM（Laser SLAM）和二维码导航（QR Code Navigation）。
+AGV 导航技术包括磁条导航（Magnetic Tape）、激光 SLAM（Laser SLAM）和二维码导航（QR Code Navigation）。
 
 ## 数字孪生与仿真
 
 ### 虚拟调试技术
 
-虚拟调试（Virtual Commissioning）在数字孪生环境中验证PLC程序和机器人路径，减少现场调试风险：
+虚拟调试（Virtual Commissioning）在数字孪生环境中验证 PLC 程序和机器人路径，减少现场调试风险：
 
 $$ \text{调试时间节省} = \frac{T_{\text{传统}} - T_{\text{虚拟}}}{T_{\text{传统}}} \times 100\% $$
 
@@ -198,10 +200,10 @@ $$ \text{OEE} = \text{Availability} \times \text{Performance} \times \text{Quali
 | 协议/接口 | 传输速率 | 典型应用 | 特点 |
 |----------|---------|---------|------|
 | OPC UA | 平台无关 | 设备间通信 | 安全、跨平台 |
-| Modbus TCP | 10/100Mbps | PLC通信 | 简单、广泛使用 |
+| Modbus TCP | 10/100Mbps | PLC 通信 | 简单、广泛使用 |
 | PROFINET | 100Mbps | 西门子设备 | 实时性高 |
 | EtherCAT | 100Mbps | 运动控制 | 超低延迟(<100μs) |
-| MQTT | 取决于网络 | IoT设备 | 轻量级发布/订阅 |
+| MQTT | 取决于网络 | IoT 设备 | 轻量级发布/订阅 |
 
 ### 边缘计算的应用模式
 
@@ -213,11 +215,11 @@ $$ \text{延迟} = T_{\text{采集}} + T_{\text{处理}} + T_{\text{执行}} $$
 
 ## 工业网络安全
 
-### OT与IT融合安全
+### OT 与 IT 融合安全
 
 智能制造中运营技术（Operational Technology, OT）与信息技术（Information Technology, IT）的融合带来了新的安全挑战（Cybersecurity Challenges）。工业控制系统（ICS）安全防护包括：
 
-- **网络分段**：将OT网络与IT网络逻辑隔离
+- **网络分段**：将 OT 网络与 IT 网络逻辑隔离
 - **纵深防御**（Defense-in-Depth）：多层安全防护，边界防火墙 + 主机防护 + 应用白名单
 - **异常检测**：基于机器学习的工业网络流量异常分析
 - **安全更新管理**：在计划停机窗口内完成安全补丁更新

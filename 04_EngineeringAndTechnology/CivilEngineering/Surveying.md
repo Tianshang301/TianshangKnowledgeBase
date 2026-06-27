@@ -1,4 +1,11 @@
-﻿---
+---
+aliases: [Surveying]
+tags: ['CivilEngineering', 'Surveying.md']
+created: 2026-05-17
+updated: 2026-05-17
+---
+
+---
 aliases: [Surveying]
 tags: ['04_EngineeringAndTechnology', 'CivilEngineering', 'Surveying']
 ---

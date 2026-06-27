@@ -1,6 +1,8 @@
 ---
 aliases: [NewEnergy]
 tags: ['MechanicalAndElectricalEngineering', 'PowerEngineering', 'NewEnergy']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 新能源
@@ -43,8 +45,8 @@ tags: ['MechanicalAndElectricalEngineering', 'PowerEngineering', 'NewEnergy']
 - 代表：Vestas、金风科技
 
 **垂直轴风力机**：
-- Darrieus型（升力型）：效率较高
-- Savonius型（阻力型）：效率低，启动好
+- Darrieus 型（升力型）：效率较高
+- Savonius 型（阻力型）：效率低，启动好
 
 **风机原理**：
 
@@ -84,7 +86,7 @@ $$P = \frac{1}{2}\rho A v^3 C_p$$
 - 闪蒸发电：高压热水降压闪蒸
 - 双工质发电：地热加热低沸点工质（异丁烷等）
 
-**热泵技术**：地源热泵，COP可达3~5
+**热泵技术**：地源热泵，COP 可达3~5
 
 ### 氢能
 
@@ -122,7 +124,7 @@ $$P = \frac{1}{2}\rho A v^3 C_p$$
 **压缩空气储能（CAES）**：
 - 利用低谷电压缩空气储存
 - 效率：40%~70%
-- 规模：MW级
+- 规模：MW 级
 
 **其他储能技术**：
 - 飞轮储能：功率密度高，响应快

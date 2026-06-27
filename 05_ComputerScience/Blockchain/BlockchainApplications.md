@@ -3,6 +3,8 @@ aliases:
   - 区块链应用
   - Blockchain Use Cases
 tags:
+created: 2026-05-17
+updated: 2026-05-16
   - blockchain
   - application
   - supply-chain
@@ -76,8 +78,8 @@ $$Access = f(PatientConsent, ProviderCredential, TimeWindow)$$
 sequenceDiagram
     participant P as 患者<br/>Patient
     participant BC as 区块链<br/>Blockchain
-    participant H1 as 医院A<br/>Hospital A
-    participant H2 as 医院B<br/>Hospital B
+    participant H1 as 医院 A<br/>Hospital A
+    participant H2 as 医院 B<br/>Hospital B
     P->>BC: 授权访问请求
     BC-->>H1: 验证凭证
     H1->>BC: 查询数据哈希

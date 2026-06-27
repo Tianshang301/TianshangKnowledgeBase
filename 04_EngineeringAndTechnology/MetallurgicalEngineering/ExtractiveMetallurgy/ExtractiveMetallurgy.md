@@ -1,6 +1,8 @@
 ---
 aliases: [ExtractiveMetallurgy]
 tags: ['04_EngineeringAndTechnology', 'MetallurgicalEngineering', 'ExtractiveMetallurgy', 'ExtractiveMetallurgy']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 提取冶金

@@ -1,6 +1,8 @@
 ---
 aliases: [FermentationProcess]
 tags: ['Biotechnologies', 'FermentationEngineering', 'FermentationProcess']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 发酵工艺
@@ -24,7 +26,7 @@ tags: ['Biotechnologies', 'FermentationEngineering', 'FermentationProcess']
 
 ### 发酵动力学
 
-**Monod方程**：
+**Monod 方程**：
 
 $$\mu = \mu_{max}\frac{S}{K_s+S}$$
 
@@ -42,8 +44,8 @@ $\mu$ 为比生长速率，$S$ 为底物浓度，$K_s$ 为半饱和常数。
 - 最适产物合成温度
 - 温度调控策略
 
-**pH控制**：
-- 最适pH范围
+**pH 控制**：
+- 最适 pH 范围
 - 缓冲系统
 - 酸碱调节
 
@@ -75,7 +77,7 @@ $\mu$ 为比生长速率，$S$ 为底物浓度，$K_s$ 为半饱和常数。
 
 **在线监测**：
 - 温度、pH、溶解氧
-- 尾气CO₂、O₂
+- 尾气 CO₂、O₂
 - 搅拌功率
 
 **离线检测**：

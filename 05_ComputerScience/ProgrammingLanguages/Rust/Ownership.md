@@ -1,6 +1,8 @@
 ---
 aliases: [Ownership]
 tags: ['ProgrammingLanguages', 'Rust', 'Ownership']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Rust 所有权系统

@@ -1,6 +1,8 @@
 ---
 aliases: [ResistanceTraining, 抗阻训练, StrengthTraining, WeightTraining]
 tags: ['12_SportsScience', 'SportsTraining', 'ResistanceTraining', 'Strength', 'Hypertrophy']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 抗阻训练 (Resistance Training)

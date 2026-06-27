@@ -1,6 +1,8 @@
 ---
 aliases: [PoliticalSociology]
 tags: ['03_HumanitiesAndSocialSciences', 'Sociology', 'PoliticalSociology']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # PoliticalSociology
@@ -11,15 +13,15 @@ tags: ['03_HumanitiesAndSocialSciences', 'Sociology', 'PoliticalSociology']
 
 ### 韦伯的定义
 
-韦伯（Max Weber, 1914）定义权力为"在社会关系中个体即使在遭遇抵抗的情况下也能实现自身意志的可能性"。这是"零和"的权力概念——A使B做B否则不会做的事。
+韦伯（Max Weber, 1914）定义权力为"在社会关系中个体即使在遭遇抵抗的情况下也能实现自身意志的可能性"。这是"零和"的权力概念——A 使 B 做 B 否则不会做的事。
 
 ### 卢克斯的三维权力观
 
 卢克斯（Steven Lukes, 1974）在《权力：一种激进观点》中提出了权力分析的三维层次，逐渐深入：
 
-1. **第一维（决策权力）**：A使B做B本不会做的事——决策中的胜负(F可见的冲突)
-2. **第二维（议程设定权力）**：A限制决策范围，阻止某些议题被讨论——非决策制定（Bachrach & Baratz, 1962）
-3. **第三维（意识形态权力）**：A塑造B的认知和偏好，使B接受现有的权力安排甚至为自己的统治地位辩护——"最有效的权力是使人们看不见权力运作"
+1. **第一维（决策权力）**：A 使 B 做 B 本不会做的事——决策中的胜负(F 可见的冲突)
+2. **第二维（议程设定权力）**：A 限制决策范围，阻止某些议题被讨论——非决策制定（Bachrach & Baratz, 1962）
+3. **第三维（意识形态权力）**：A 塑造 B 的认知和偏好，使 B 接受现有的权力安排甚至为自己的统治地位辩护——"最有效的权力是使人们看不见权力运作"
 
 ```mermaid
 graph TD
@@ -50,7 +52,7 @@ graph TD
 
 ### 精英理论（Elite Theory）
 
-米尔斯（C. Wright Mills, 1956）《权力精英》——美国由来自企业、军事和政府顶层的"权力精英"所统治，这三种机构的顶层互相关联：退伍将军成为大公司CEO、国防部长是企业董事。
+米尔斯（C. Wright Mills, 1956）《权力精英》——美国由来自企业、军事和政府顶层的"权力精英"所统治，这三种机构的顶层互相关联：退伍将军成为大公司 CEO、国防部长是企业董事。
 
 **寡头统治铁律**（Iron Law of Oligarchy, Michels, 1911）：任何大规模组织——即使是宣称民主的社会党和工会——最终都会产生小寡头统治。
 
@@ -75,7 +77,7 @@ graph TD
 
 ## 政治参与与投票行为
 
-- **SEI模型**（Socioeconomic Status Model）：教育、收入和职业地位越高 → 政治参与越多
+- **SEI 模型**（Socioeconomic Status Model）：教育、收入和职业地位越高 → 政治参与越多
 - **资源模型**（Resource Model）：时间、金钱和公民技能影响参与
 - **动员模型**（Mobilization Model）：政党、社会运动和社交网络动员个体参与
 - **理性选民假说**（Rational Voter Hypothesis, Downs, 1957）：选民权衡投票的成本和收益——投票悖论（Paradox of Voting）：为什么有人投票？投票的个人收益微乎其微，成本却需要时间精力。

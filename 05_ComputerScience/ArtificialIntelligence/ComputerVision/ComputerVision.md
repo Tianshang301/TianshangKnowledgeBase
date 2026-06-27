@@ -1,6 +1,8 @@
 ---
 aliases: [ComputerVision, CV, ImageProcessing, ObjectDetection]
 tags: ['05_ComputerScience', 'ArtificialIntelligence', 'ComputerVision', 'DeepLearning']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 计算机视觉 (Computer Vision)
@@ -215,9 +217,9 @@ $$x_t = \sqrt{1 - \beta_t} \cdot x_{t-1} + \sqrt{\beta_t} \cdot \epsilon$$
 | 应用领域 | 任务 | 技术 |
 |----------|------|------|
 | 自动驾驶 | 车道检测、行人检测 | YOLO, DeepLab |
-| 医学影像 | 病灶分割、CT重建 | U-Net, ResNet |
+| 医学影像 | 病灶分割、CT 重建 | U-Net, ResNet |
 | 人脸识别 | 检测、对齐、识别 | FaceNet, ArcFace |
-| 增强现实 | SLAM、3D重建 | ORB-SLAM, NeRF |
+| 增强现实 | SLAM、3D 重建 | ORB-SLAM, NeRF |
 | 工业质检 | 缺陷检测 | 分类+分割模型 |
 
 ## 九、评估指标
@@ -244,5 +246,5 @@ $$x_t = \sqrt{1 - \beta_t} \cdot x_{t-1} + \sqrt{\beta_t} \cdot \epsilon$$
 2. **Swin Transformer**：层级式 Transformer 架构
 3. **MAE (Masked Autoencoder)**：自监督视觉预训练
 4. **多模态视觉语言模型**：CLIP, BLIP, SAM
-5. **NeRF (Neural Radiance Fields)**：神经渲染与3D重建
+5. **NeRF (Neural Radiance Fields)**：神经渲染与3D 重建
 6. **Foundation Models in CV**：SAM, DINOv2 等通用视觉模型

@@ -47,7 +47,7 @@ graph TD
 
 ### 地震波速结构 (Seismic Velocity Structure)
 
-P波 (纵波) 和 S波 (横波) 速度随深度的变化：
+P 波 (纵波) 和 S 波 (横波) 速度随深度的变化：
 
 $$v_P = \sqrt{\frac{K + 4\mu/3}{\rho}}, \quad v_S = \sqrt{\frac{\mu}{\rho}}$$
 

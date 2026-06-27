@@ -1,6 +1,8 @@
 ---
 aliases: [RemoteSensingPrinciples]
 tags: ['SurveyingAndMappingScience', 'RemoteSensing', 'RemoteSensingPrinciples']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 遥感原理 (Remote Sensing Principles)
@@ -24,7 +26,7 @@ tags: ['SurveyingAndMappingScience', 'RemoteSensing', 'RemoteSensingPrinciples']
 | 近红外 (NIR) | 0.7~1.3 μm | 植被健康监测 |
 | 短波红外 (SWIR) | 1.3~3 μm | 土壤水分、矿物识别 |
 | 热红外 (TIR) | 3~14 μm | 地表温度、热异常 |
-| 微波 (Microwave) | 1 mm~1 m | SAR成像、全天候观测 |
+| 微波 (Microwave) | 1 mm~1 m | SAR 成像、全天候观测 |
 
 **普朗克定律 (Planck's Law)**：
 

@@ -1,6 +1,8 @@
 ---
 aliases: [ComputerAlgebra]
 tags: ['ComputerAlgebra', 'SymbolicComputation', 'ComputerScience']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # Computer Algebra（计算机代数）

@@ -1,6 +1,8 @@
 ---
 aliases: [OlympicLifting, 奥林匹克举重, 举重, Weightlifting, OlympicWeightlifting]
 tags: ['12_SportsScience', 'SportsTraining', 'OlympicLifting', 'StrengthAndConditioning']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 奥林匹克举重
@@ -62,7 +64,7 @@ $$ P = F \times v, \quad \text{RFD} = \frac{\Delta F}{\Delta t} $$
 
 $$ F = ma, \quad \tau = I\alpha $$
 
-$$ \text{杠铃轨迹最优路径} = \text{S形曲线}, \quad \text{靠近身体重心线} $$
+$$ \text{杠铃轨迹最优路径} = \text{S 形曲线}, \quad \text{靠近身体重心线} $$
 
 三伸展（Triple Extension）的时序：
 1. 踝关节伸展（Plantar Flexion）
@@ -125,7 +127,7 @@ $$ \text{功率} = F \times v = \frac{\text{做功}}{\text{时间}} $$
 
 ### 推荐装备
 
-- **举重鞋**（Weightlifting Shoes）：硬底（木底或TPU）+ 升高鞋跟（0.75-1.5英寸）
+- **举重鞋**（Weightlifting Shoes）：硬底（木底或 TPU）+ 升高鞋跟（0.75-1.5英寸）
 - **举重腰带**（Belt）：提升腹内压，保护腰椎
 - **护腕**（Wrist Wraps）：支撑腕关节翻站
 - **镁粉**（Chalk）：增加抓握摩擦力

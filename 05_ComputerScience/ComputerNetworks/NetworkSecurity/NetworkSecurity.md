@@ -1,6 +1,8 @@
 ---
 aliases: [NetworkSecurity]
 tags: ['ComputerNetworks', 'NetworkSecurity', 'NetworkSecurity']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 网络安全 (Network Security)
@@ -59,7 +61,7 @@ DDoS 攻击层级：
 # 包过滤防火墙规则
 Access-list 100 permit tcp any any eq 80         # 允许 HTTP
 Access-list 100 permit tcp any any eq 443        # 允许 HTTPS
-Access-list 100 permit tcp 10.0.0.0 0.255.255.255 any eq 22  # 允许内网SSH
+Access-list 100 permit tcp 10.0.0.0 0.255.255.255 any eq 22  # 允许内网 SSH
 Access-list 100 deny ip any any                  # 拒绝其他
 
 # 状态检测防火墙（自动允许已建立连接的回程流量）
@@ -120,7 +122,7 @@ WAF 防护能力：
 ```
 Site-to-Site VPN (站点到站点):
   总部 ─── Internet ─── 分支
-        [IPSec隧道]       路由器/防火墙建立
+        [IPSec 隧道]       路由器/防火墙建立
 
 Remote Access VPN (远程访问):
   员工 ─── Internet ─── 公司网络
@@ -147,8 +149,8 @@ IPSec 组件：
   AH (Authentication Header)     ─── 仅认证
 
 传输模式 vs 隧道模式：
-  传输模式: [IP头][ESP头][TCP/UDP][ESP尾]
-  隧道模式: [外IP头][ESP头][内IP头][TCP/UDP][ESP尾]
+  传输模式: [IP 头][ESP 头][TCP/UDP][ESP 尾]
+  隧道模式: [外 IP 头][ESP 头][内 IP 头][TCP/UDP][ESP 尾]
 ```
 
 ## 5. 密码学在网络中的应用
@@ -174,7 +176,7 @@ IPSec 组件：
 ```
 示例：TLS_AES_128_GCM_SHA256
          │    │      │
-      密钥交换 加密算法  HMAC算法
+      密钥交换 加密算法  HMAC 算法
 
 RSA 密钥交换: 使用 RSA 加密传输 Pre-Master Secret
 ECDHE 密钥交换: 使用 ECDH 临时密钥，前向安全性
@@ -190,8 +192,8 @@ PKI 组成：
   OCSP (Online Certificate Status Protocol) ─── 在线状态查询
 
 证书链：
-  根CA (自签名，离线存储)
-    └── 中间CA
+  根 CA (自签名，离线存储)
+    └── 中间 CA
           └── 服务器证书 (example.com)
 ```
 
@@ -272,7 +274,7 @@ VLAN 间路由：通过三层交换机或路由器实现
 SASE 融合网络与安全功能：
   ┌─────────────────────────────┐
   │   SD-WAN                    │
-  │   SWG (安全Web网关)          │
+  │   SWG (安全 Web 网关)          │
   │   CASB (云访问安全代理)       │
   │   ZTNA (零信任网络访问)       │
   │   FWaaS (防火墙即服务)        │

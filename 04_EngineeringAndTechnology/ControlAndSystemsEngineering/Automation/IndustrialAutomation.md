@@ -1,6 +1,8 @@
 ---
 aliases: [IndustrialAutomation]
 tags: ['Automation', 'IndustrialAutomation', 'ControlSystems', 'Manufacturing']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 工业自动化 (Industrial Automation)

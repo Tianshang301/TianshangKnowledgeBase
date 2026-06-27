@@ -1,6 +1,8 @@
 ---
 aliases: [RegionalEconomics]
 tags: ['03_HumanitiesAndSocialSciences', 'Economics']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 区域经济学 (Regional Economics)

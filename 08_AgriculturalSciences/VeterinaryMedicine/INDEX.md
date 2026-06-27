@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['VeterinaryMedicine', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # VeterinaryMedicine
@@ -14,5 +16,5 @@ tags: ['VeterinaryMedicine', 'INDEX']
 - [[VeterinaryPharmacology]] - 兽医药理学：研究药物在动物体内的作用机制、代谢与合理用药
 - [[VeterinarySurgery]] - 兽医外科学：研究外科手术技术、麻醉、创伤与骨科疾病
 - [[VeterinaryImmunology]] - 兽医免疫学：研究免疫系统结构与功能、疫苗与免疫预防
-- [[VeterinaryPublicHealth]] - 兽医公共卫生：研究人兽共患病防控、动物源性食品安全与One Health
+- [[VeterinaryPublicHealth]] - 兽医公共卫生：研究人兽共患病防控、动物源性食品安全与 One Health
 - [[08_AgriculturalSciences/AnimalScience/INDEX|AnimalScience]]

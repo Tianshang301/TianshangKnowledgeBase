@@ -1,6 +1,8 @@
 ---
 aliases: [BigDataTechnologies]
 tags: ['DatabasesAndInformationSystems', 'BigDataTechnologies', 'BigDataTechnologies']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Big Data Technologies - 大数据技术

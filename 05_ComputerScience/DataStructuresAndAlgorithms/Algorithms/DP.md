@@ -1,6 +1,8 @@
 ---
 aliases: [DP]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'DP']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 动态规划详解
@@ -388,7 +390,7 @@ def tsp(dist, n):
 ## 相关条目
 
 - [[DynamicProgramming]]
-- [[区间与状态压缩DP]]
+- [[区间与状态压缩 DP]]
 - [[Backtracking]]
 - [[Greedy]]
 - [[BFSDFS]]

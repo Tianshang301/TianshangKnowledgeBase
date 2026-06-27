@@ -1,6 +1,8 @@
 ---
 aliases: [VocabularySociety]
 tags: ['01_K12', 'SeniorHigh', 'English', 'Vocabulary_Society']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 

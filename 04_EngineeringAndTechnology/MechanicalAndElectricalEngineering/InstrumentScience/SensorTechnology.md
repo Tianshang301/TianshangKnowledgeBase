@@ -1,6 +1,8 @@
 ---
 aliases: [SensorTechnology]
 tags: ['MechanicalAndElectricalEngineering', 'InstrumentScience', 'SensorTechnology']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 传感器技术
@@ -38,7 +40,7 @@ tags: ['MechanicalAndElectricalEngineering', 'InstrumentScience', 'SensorTechnol
 **热电偶**：
 - 原理：塞贝克效应（温差电势）
 - 热电势：$E = S(T_1 - T_2)$，$S$ 为塞贝克系数
-- 常用类型：K型（镍铬-镍硅）、J型（铁-铜镍）、T型（铜-铜镍）、S型（铂铑-铂）
+- 常用类型：K 型（镍铬-镍硅）、J 型（铁-铜镍）、T 型（铜-铜镍）、S 型（铂铑-铂）
 - 测温范围：-200°C ~ 1800°C
 - 特点：测温范围宽、响应快、可远传
 
@@ -100,9 +102,9 @@ tags: ['MechanicalAndElectricalEngineering', 'InstrumentScience', 'SensorTechnol
 
 **滤波电路**：
 - 低通滤波：去除高频噪声
-- 陷波滤波：去除50Hz工频干扰
+- 陷波滤波：去除50Hz 工频干扰
 
-**A/D转换**：
+**A/D 转换**：
 - 分辨率：12位、16位、24位
 - 采样定理：$f_s \geq 2f_{max}$
 - 过采样技术提高分辨率
@@ -122,11 +124,11 @@ tags: ['MechanicalAndElectricalEngineering', 'InstrumentScience', 'SensorTechnol
 
 **物联网（IoT）传感器**：
 - 无线传感网络（WSN）
-- 低功耗设计（μA级）
+- 低功耗设计（μA 级）
 - 通信协议：Zigbee、LoRa、NB-IoT
 - 边缘计算与云平台集成
 
-**MEMS传感器**：
+**MEMS 传感器**：
 - 微机电系统技术
 - 加速度计、陀螺仪、压力传感器
 - 体积小、成本低、批量生产

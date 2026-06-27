@@ -1,6 +1,8 @@
 ---
 aliases: [HistoricalArchaeology]
 tags: ['Archaeology', 'HistoricalArchaeology', 'HistoricalArchaeology']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 历史考古学

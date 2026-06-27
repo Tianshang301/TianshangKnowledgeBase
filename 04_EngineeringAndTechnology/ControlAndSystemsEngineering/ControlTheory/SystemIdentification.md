@@ -4,6 +4,8 @@ aliases:
   - 系统辨识理论
   - 参数估计
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - system-identification
   - parameter-estimation
   - least-squares

@@ -1,6 +1,8 @@
 ---
 aliases: [Microeconomics]
 tags: ['03_HumanitiesAndSocialSciences', 'Economics']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # Microeconomics

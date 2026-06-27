@@ -1,6 +1,8 @@
 ---
 aliases: [SystemAnalysis]
 tags: ['ControlAndSystemsEngineering', 'SystemsEngineering', 'SystemAnalysis']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 系统分析
@@ -52,7 +54,7 @@ $$e_{ss} = \lim_{s\to 0}\frac{sR(s)}{1+G(s)}$$
 
 ### 频域分析
 
-**带宽**：增益下降到-3dB时的频率
+**带宽**：增益下降到-3dB 时的频率
 
 **相位裕度**：$\gamma = 180° + \angle G(j\omega_g)$
 

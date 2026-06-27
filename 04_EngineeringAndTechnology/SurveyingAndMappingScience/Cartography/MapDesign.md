@@ -1,6 +1,8 @@
 ---
 aliases: [MapDesign, 地图设计, CartographicDesign, MapCompilation]
 tags: ['SurveyingAndMappingScience', 'Cartography', 'MapDesign', 'Symbology', 'GIS']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 地图设计 (Map Design)

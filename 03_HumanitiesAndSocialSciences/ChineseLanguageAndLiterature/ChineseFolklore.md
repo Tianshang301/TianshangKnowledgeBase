@@ -4,6 +4,8 @@ aliases:
   - 中国民俗学
   - 民间文学
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - ChineseCulture
   - Folklore
   - FolkLiterature
@@ -71,7 +73,7 @@ graph TD
 
 $$ \text{故事类型} \xrightarrow{\text{跨文化比较}} \text{母题分析} \xrightarrow{\text{历史-地理学派}} \text{起源与传播路线} $$
 
-AT分类法（Aarne-Thompson Classification）将民间故事按类型编号，是全球民间故事研究的基础工具。
+AT 分类法（Aarne-Thompson Classification）将民间故事按类型编号，是全球民间故事研究的基础工具。
 
 ## 民间文学
 

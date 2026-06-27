@@ -1,6 +1,8 @@
 ---
 aliases: [Compose]
-tags: ['SoftwareEngineering', 'DevOpsAndCI_CD', 'Compose']
+tags: ['SoftwareEngineering', 'DevOpsAndCICD', 'Compose']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Docker Compose 详解
@@ -419,4 +421,4 @@ docker compose up -d --force-recreate
 - [[K8s]]
 - [[QuickStart]]
 - [[BestPractices]]
-- [[CI-CD与DevOps实践]]
+- [[CI-CD 与 DevOps 实践]]

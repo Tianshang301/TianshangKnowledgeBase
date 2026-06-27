@@ -1,6 +1,8 @@
 ---
 aliases: [TeachingMethods]
 tags: ['PhysicalEducation', 'TeachingMethods']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 体育教学方法
@@ -62,7 +64,7 @@ tags: ['PhysicalEducation', 'TeachingMethods']
 
 现代科技示范利用多媒体展示优秀运动员慢放。
 
-技术App做即时回放可以有效纠正动作。
+技术 App 做即时回放可以有效纠正动作。
 
 视频示范和多媒体教学的应用日益广泛。
 

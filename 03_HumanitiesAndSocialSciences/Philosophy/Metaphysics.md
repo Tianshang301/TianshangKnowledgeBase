@@ -1,6 +1,8 @@
 ---
 aliases: [Metaphysics]
 tags: ['03_HumanitiesAndSocialSciences', 'Philosophy', 'Metaphysics']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # Metaphysics
@@ -63,13 +65,13 @@ graph TD
 
 因果关系的形而上学是最核心也最困难的问题之一：
 
-**休谟的因果分析**：因果关系中没有必然性——我们观察到的只是"恒常联结"（Constant Conjunction）——事件A之后总是事件B。因果信念产生于习惯性联想。休谟对因果必然性的否定深刻震撼了形而上学。
+**休谟的因果分析**：因果关系中没有必然性——我们观察到的只是"恒常联结"（Constant Conjunction）——事件 A 之后总是事件 B。因果信念产生于习惯性联想。休谟对因果必然性的否定深刻震撼了形而上学。
 
 **康德的回应**：因果性不是从经验中归纳出来的，而是**知性的先天范畴**——我们使事件序列服从因果法则，这是经验可能性的条件。因果性对现象界是建构性（Constitutive）的，但不适用于物自体。
 
 **当代因果理论**：
-- **反事实理论（Counterfactual Theory, Lewis, 1973）**：事件c是事件e的原因，当且仅当如果没有c的发生，e就不会发生。用可能世界语义学分析因果依赖。
-- **干预主义（Interventionism, Woodward, 2003）**：因果关系是可以用于干预和操控的关系——如果一个可控改变c能系统性地改变e，c是e的原因。
+- **反事实理论（Counterfactual Theory, Lewis, 1973）**：事件 c 是事件 e 的原因，当且仅当如果没有 c 的发生，e 就不会发生。用可能世界语义学分析因果依赖。
+- **干预主义（Interventionism, Woodward, 2003）**：因果关系是可以用于干预和操控的关系——如果一个可控改变 c 能系统性地改变 e，c 是 e 的原因。
 - **因果过程理论（Process Theory, Salmon, Dowe）**：因果关系是物理过程（如能量传递）的连接。
 
 ### 自由意志与决定论（Free Will and Determinism）
@@ -80,9 +82,9 @@ graph TD
 - **软决定论/相容论（Compatibilism）**：自由意志与决定论可以共存——自由不是"能做其他事"的无因果可能性，而是"按自己的欲望行事而不受外部强制"（Hume, Mill, Ayer, Frankfurt）
 - **自由意志论（Libertarianism）**：决定论为假——人确实拥有在严格意义上"做其他选择的能力"（Chisholm, van Inwagen, Kane）
 
-$$ \text{相容论的自由定义: } \text{当且仅当S按自己意愿行动}\ \land\ \text{没有外部强制时，S自由行动} $$
+$$ \text{相容论的自由定义: } \text{当且仅当 S 按自己意愿行动}\ \land\ \text{没有外部强制时，S 自由行动} $$
 
-$$ \text{自由意志论: 如果决定论为真，}\ \neg(\text{S能做其他选择})\ \text{?} \rightarrow \text{决定论为假（因为人能选择其他）} $$
+$$ \text{自由意志论: 如果决定论为真，}\ \neg(\text{S 能做其他选择})\ \text{?} \rightarrow \text{决定论为假（因为人能选择其他）} $$
 
 **神经科学挑战**：Libet（1983）的大脑实验发现，在受试者有意识地"决定"移动手指前约350毫秒，大脑已经产生了准备电位（Readiness Potential）。这一实验引发了关于自由意志是否只是"后见之明"的激烈争论。
 
@@ -90,14 +92,14 @@ $$ \text{自由意志论: 如果决定论为真，}\ \neg(\text{S能做其他选
 
 时间是否是真实的？这是当代形而上学最活跃的领域之一：
 
-- **A-理论 vs. B-理论**（McTaggart, 1908）：McTaggart区分了两种理解时间的方式。A-理论包含"过去、现在、未来"的动态区分（Tense Theory）。B-理论以"更早、同时、更晚"的关系看待事件（Tenseless Theory）。
+- **A-理论 vs. B-理论**（McTaggart, 1908）：McTaggart 区分了两种理解时间的方式。A-理论包含"过去、现在、未来"的动态区分（Tense Theory）。B-理论以"更早、同时、更晚"的关系看待事件（Tenseless Theory）。
 - **现时主义（Presentism）**：只有现在存在（当前的事物）
 - **永恒主义（Eternalism）**：所有时间点（过去、现在、未来）同样真实
 - **成长方块理论（Growing Block Theory）**：过去和现在存在，未来不存在
 
 ### 可能世界与模态（Possible Worlds and Modality）
 
-$ \square P $（必然P）和 $ \Diamond P $（可能P）等模态概念的形而上学基础：
+$ \square P $（必然 P）和 $ \Diamond P $（可能 P）等模态概念的形而上学基础：
 
 - **刘易斯模态实在论（Modal Realism, David Lewis）**：所有可能世界像我们这个现实世界一样具体和真实。现实世界只是众多可能世界之一——"现实"是一个索引词（Indexical），每个世界的居民都认为自己的世界是现实的。刘易斯的理论具有本体论上的"浪费"（大量没有因果作用的实体），但具有强大的解释力。
 - **实际主义（Actualism）**（Kripke, Plantinga, Stalnaker）：可能世界不是独立实体，而是现实世界状态的抽象方式——可能世界是"世界可能如此的方式"（Maximal possible states of affairs）。
@@ -113,7 +115,7 @@ $$ \text{可能真: } \Diamond P \iff \exists w (w \text{ 是可能世界} \wedg
 - **实体二元论（Substance Dualism, Descartes）**：心灵和物质是不同的实体，各自独立存在
 - **属性二元论（Property Dualism）**：只有一种实体（物质），但具有两种不可还原的属性（物理属性和心理属性），心理属性伴随（Supervene on）物理属性
 - **心脑同一论（Mind-Brain Identity Theory, Place, Smart）**：心理状态就是大脑的物理状态
-- **功能主义（Functionalism, Putnam, Fodor）**：心理状态由因果角色（功能）定义——心理状态c是"疼痛"是因为它由组织损伤引起、产生退缩行为和痛苦感觉——而不论具体物理实现（多重可实现性Multiple Realizability）
+- **功能主义（Functionalism, Putnam, Fodor）**：心理状态由因果角色（功能）定义——心理状态 c 是"疼痛"是因为它由组织损伤引起、产生退缩行为和痛苦感觉——而不论具体物理实现（多重可实现性 Multiple Realizability）
 - **取消物质主义（Eliminative Materialism, Churchland）**：常识心理学（Folk Psychology）是错误的理论，应当被成熟的神经科学取代——"信念"、"欲望"等概念并不指称真实的东西
 
 **意识难题（Hard Problem of Consciousness, Chalmers, 1996）**：为什么物理过程会产生主观体验（Qualia）？即使物理功能完备，质性经验的"是什么感觉"的问题仍然没有得到回答。

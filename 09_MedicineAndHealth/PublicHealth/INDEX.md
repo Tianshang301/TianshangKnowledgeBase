@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['PublicHealth', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # PublicHealth
@@ -15,6 +17,7 @@ tags: ['PublicHealth', 'INDEX']
 - [[NutritionAndFoodHygiene]] — 营养与食品卫生学
 - [[OccupationalHealth]] — 职业卫生：职业环境与健康
 - [[HealthPolicyAndManagement]] — 卫生政策与管理：政策分析与卫生管理
+- [[MedicalStatistics]] — 医学统计学：医学统计方法与分析
 - [[Epidemiology]]
 - [[Biostatistics]]
 - [[EnvironmentalHealth]]

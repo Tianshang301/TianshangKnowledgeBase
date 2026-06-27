@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['CrossDisciplinaryK12', 'CriticalThinkingForTeens', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 青少年批判性思维

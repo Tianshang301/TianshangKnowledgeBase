@@ -1,6 +1,8 @@
 ---
 aliases: [InnovationManagement]
 tags: ['ManagementScienceAndEngineering', 'InnovationManagement']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 创新管理
@@ -179,7 +181,7 @@ tags: ['ManagementScienceAndEngineering', 'InnovationManagement']
 
 ### 人工智能与创新
 
-AI加速研发过程，如AI药物发现。AI生成设计创意。AI优化创新决策。AI预测技术发展趋势。
+AI 加速研发过程，如 AI 药物发现。AI 生成设计创意。AI 优化创新决策。AI 预测技术发展趋势。
 
 ## 可持续创新
 

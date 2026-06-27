@@ -1,6 +1,8 @@
 ---
 aliases: [MatrixOps]
 tags: ['Mathematics', 'Algebra', 'MatrixOps']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 矩阵运算详解

@@ -1,6 +1,8 @@
 ---
 aliases: [EnvironmentalScience]
 tags: ['07_InterdisciplinarySciences', 'EnvironmentalScience']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 环境科学概论
@@ -19,7 +21,7 @@ tags: ['07_InterdisciplinarySciences', 'EnvironmentalScience']
 
 **能量流动：**
 - 太阳能固定：$6CO_2 + 6H_2O \xrightarrow{h\nu} C_6H_{12}O_6 + 6O_2$
-- 营养级之间的能量传递效率约为10%（Lindeman定律）
+- 营养级之间的能量传递效率约为10%（Lindeman 定律）
 - 食物链与食物网结构
 
 **物质循环：**
@@ -62,11 +64,11 @@ $$ \text{AQI} = \max\{ \text{IAQI}_1, \text{IAQI}_2, \ldots, \text{IAQI}_n \} $$
 - 富营养化：氮磷过量输入导致藻华
 - 重金属污染：汞、铅、镉、铬的生物富集
 - 有机污染物：农药、工业化学品、药物
-- 微塑料：粒径 < 5mm的塑料碎片
+- 微塑料：粒径 < 5mm 的塑料碎片
 
 **水质指标：**
 
-| 指标 | 含义 | 标准限值（GB 3838-2002 III类） |
+| 指标 | 含义 | 标准限值（GB 3838-2002 III 类） |
 |------|------|-------------------------------|
 | DO | 溶解氧 | ≥ 5 mg/L |
 | COD | 化学需氧量 | ≤ 20 mg/L |
@@ -115,7 +117,7 @@ $$ \text{CO}_2,\ \text{CH}_4,\ \text{N}_2\text{O},\ \text{HFCs},\ \text{PFCs},\ 
 
 **温度变化：**
 - 工业革命以来全球升温约1.2°C
-- 巴黎协定目标：控制在2°C以内，努力实现1.5°C
+- 巴黎协定目标：控制在2°C 以内，努力实现1.5°C
 
 ### 气候变化影响
 
@@ -165,7 +167,7 @@ $$ \text{CO}_2,\ \text{CH}_4,\ \text{N}_2\text{O},\ \text{HFCs},\ \text{PFCs},\ 
 
 ### 循环经济
 
-**3R原则：**
+**3R 原则：**
 - Reduce（减量化）：减少资源消耗和废物产生
 - Reuse（再利用）：延长产品使用寿命
 - Recycle（资源化）：废弃物转化为新资源
@@ -224,11 +226,11 @@ $$ \text{CO}_2,\ \text{CH}_4,\ \text{N}_2\text{O},\ \text{HFCs},\ \text{PFCs},\ 
 
 - 空气质量监测站：PM2.5、O₃、NO₂
 - 水质自动监测站：pH、DO、COD、氨氮
-- IoT环境传感器：噪声、温湿度、光照
+- IoT 环境传感器：噪声、温湿度、光照
 
-### 环境DNA（eDNA）
+### 环境 DNA（eDNA）
 
-- 从环境样品（水、土壤）中提取DNA
+- 从环境样品（水、土壤）中提取 DNA
 - 物种多样性监测
 - 入侵物种早期检测
 - 濒危物种追踪
@@ -244,4 +246,4 @@ $$ \text{CO}_2,\ \text{CH}_4,\ \text{N}_2\text{O},\ \text{HFCs},\ \text{PFCs},\ 
 
 ## 相关条目
 
-[[07_InterdisciplinarySciences/EnvironmentalScience/INDEX|EnvironmentalScience索引]], [[ClimateChange]], [[Ecology]], [[EnvironmentalPolicy]]
+[[07_InterdisciplinarySciences/EnvironmentalScience/INDEX|EnvironmentalScience 索引]], [[ClimateChange]], [[Ecology]], [[EnvironmentalPolicy]]

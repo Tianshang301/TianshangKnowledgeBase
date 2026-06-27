@@ -1,6 +1,8 @@
 ---
 aliases: [DataVisualization, 数据可视化, 数据视觉化]
 tags: ['07_InterdisciplinarySciences', 'DataScience', 'Visualization', 'HumanComputerInteraction']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 数据可视化 Data Visualization

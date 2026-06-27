@@ -1,6 +1,8 @@
 ---
 aliases: [Parsing]
 tags: ['05_ComputerScience', 'CompilerPrinciples']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 语法分析 (Parsing)
@@ -107,7 +109,7 @@ def parse_factor():
 
 局限性：不能处理左递归（如 `expr → expr + term`）。需要消除左递归：
 
-$$A \to A\alpha \mid \beta \quad\Rightarrow\quad 
+$$A \to A\alpha \mid \beta \quad\Rightarrow\quad
 \begin{cases}
 A \to \beta A' \\
 A' \to \alpha A' \mid \epsilon

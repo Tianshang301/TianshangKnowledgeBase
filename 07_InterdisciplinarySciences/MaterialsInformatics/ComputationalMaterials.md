@@ -1,6 +1,8 @@
 ---
 aliases: [ComputationalMaterials]
 tags: ['MaterialsInformatics', 'ComputationalMaterials']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 计算材料?
@@ -14,11 +16,11 @@ tags: ['MaterialsInformatics', 'ComputationalMaterials']
 $$\hat{H}\Psi = E\Psi$$
 
 **密度泛函理论?*
-- Hohenberg-Kohn定理
-- Kohn-Sham方程
+- Hohenberg-Kohn 定理
+- Kohn-Sham 方程
 - 电子密度作为基本变量
 
-**Kohn-Sham方程?*
+**Kohn-Sham 方程?*
 $$\left[-\frac{\hbar^2}{2m}\nabla^2 + V_{eff}(r)\right]\psi_i(r) = \varepsilon_i\psi_i(r)$$
 
 ### 交换关联泛函
@@ -28,8 +30,8 @@ $$\left[-\frac{\hbar^2}{2m}\nabla^2 + V_{eff}(r)\right]\psi_i(r) = \varepsilon_i
 
 **广义梯度近似（GGA）：**
 - 考虑电子密度梯度
-- PBE泛函朢常用
-- 改善LDA的系统误?
+- PBE 泛函朢常用
+- 改善 LDA 的系统误?
 **杂化泛函?*
 - 混合精确交换
 - HSE06：带隙计?- 计算成本?
@@ -39,7 +41,7 @@ $$\psi(r) = \sum_G c_G e^{i(k+G)r}$$
 
 **参数?*
 - 截断能（Ecut）：基组大小
-- k点网格：布里渊区采样
+- k 点网格：布里渊区采样
 - 收敛性测?
 ### 常用软件
 
@@ -74,28 +76,28 @@ $$\psi(r) = \sum_G c_G e^{i(k+G)r}$$
 $$m_i\frac{d^2r_i}{dt^2} = F_i = -\nabla_i U$$
 
 **时间积分?*
-- Verlet算法
+- Verlet 算法
 - Velocity Verlet
 - 预测-校正算法
 
 ### 力场类型
 
 **对势?*
-- Lennard-Jones势：$U(r) = 4\varepsilon\left[\left(\frac{\sigma}{r}\right)^{12} - \left(\frac{\sigma}{r}\right)^{6}\right]$
-- Morse势：$U(r) = D_e[1-e^{-a(r-r_e)}]^2$
+- Lennard-Jones 势：$U(r) = 4\varepsilon\left[\left(\frac{\sigma}{r}\right)^{12} - \left(\frac{\sigma}{r}\right)^{6}\right]$
+- Morse 势：$U(r) = D_e[1-e^{-a(r-r_e)}]^2$
 
 **多体势：**
 - EAM（嵌入原子法）：金属
-- Tersoff势：共价材料
-- COMB势：通用
+- Tersoff 势：共价材料
+- COMB 势：通用
 
 ### 从头算分子动力学（AIMD?
 **原理?*
-- DFT计算?- 经典MD积分
+- DFT 计算?- 经典 MD 积分
 - 自洽电子结构
 
 **方法?*
-- Car-Parrinello方法
+- Car-Parrinello 方法
 - Born-Oppenheimer MD
 
 **应用?*
@@ -116,15 +118,15 @@ $$m_i\frac{d^2r_i}{dt^2} = F_i = -\nabla_i U$$
 **NAMD?*
 - 生物体系
 - 并行计算
-- 与VMD集成
+- 与 VMD 集成
 
 **OpenMM?*
-- Python接口
-- GPU加?- 灵活定制
+- Python 接口
+- GPU 加?- 灵活定制
 
 ### 模拟流程
 
-1. 系统构建：原子坐标盒?2. 能量朢小化：消除接?3. NVT平衡：温度控?4. NPT平衡：压力控?5. 生产模拟：数据采?6. 轨迹分析：质计算
+1. 系统构建：原子坐标盒?2. 能量朢小化：消除接?3. NVT 平衡：温度控?4. NPT 平衡：压力控?5. 生产模拟：数据采?6. 轨迹分析：质计算
 
 ## 有限元方法在材料力学中的应用
 
@@ -174,10 +176,10 @@ $$m_i\frac{d^2r_i}{dt^2} = F_i = -\nabla_i U$$
 **相场变量?*
 - 序参?- 连续场变?- 界面弥散
 
-**Allen-Cahn方程?*
+**Allen-Cahn 方程?*
 $$\frac{\partial\phi}{\partial t} = -L\frac{\delta F}{\delta \phi}$$
 
-**Cahn-Hilliard方程?*
+**Cahn-Hilliard 方程?*
 $$\frac{\partial c}{\partial t} = \nabla \cdot M\nabla\frac{\delta F}{\delta c}$$
 
 ### 应用领域
@@ -206,7 +208,7 @@ $$\frac{\partial c}{\partial t} = \nabla \cdot M\nabla\frac{\delta F}{\delta c}$
 - PRISMS-PF
 - Custom codes
 
-## CALPHAD方法
+## CALPHAD 方法
 
 ### 基本原理
 

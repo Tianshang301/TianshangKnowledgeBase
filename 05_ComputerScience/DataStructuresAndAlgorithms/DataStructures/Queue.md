@@ -1,6 +1,8 @@
 ---
 aliases: [Queue]
 tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'Queue']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 队列详解
@@ -348,7 +350,7 @@ class TaskQueue:
 | LeetCode 239. 滑动窗口最大值 | 🔴 困难 | 单调队列 |
 | LeetCode 933. 最近的请求次数 | 🟢 简单 | 队列 |
 | LeetCode 2073. 买票需要的时间 | 🟢 简单 | 队列模拟 |
-| LeetCode 862. 和至少为K的最短子数组 | 🔴 困难 | 单调队列+前缀和 |
+| LeetCode 862. 和至少为 K 的最短子数组 | 🔴 困难 | 单调队列+前缀和 |
 | LeetCode 346. 数据流中的移动平均值 | 🟢 简单 | 队列 |
 
 ## 相关条目

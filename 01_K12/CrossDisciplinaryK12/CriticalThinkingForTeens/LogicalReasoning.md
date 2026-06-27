@@ -1,6 +1,8 @@
 ---
 aliases: [LogicalReasoning]
 tags: ['CrossDisciplinaryK12', 'CriticalThinkingForTeens', 'LogicalReasoning']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 逻辑推理
@@ -47,14 +49,14 @@ tags: ['CrossDisciplinaryK12', 'CriticalThinkingForTeens', 'LogicalReasoning']
 ### 有效推理形式
 | 形式 | 结构 | 示例 |
 |------|------|------|
-| 肯定前件 | 如果P则Q；P；所以Q | 如果下雨则地湿；下雨了；所以地湿 |
-| 否定后件 | 如果P则Q；非Q；所以非P | 如果下雨则地湿；地不湿；所以没下雨 |
+| 肯定前件 | 如果 P 则 Q；P；所以 Q | 如果下雨则地湿；下雨了；所以地湿 |
+| 否定后件 | 如果 P 则 Q；非 Q；所以非 P | 如果下雨则地湿；地不湿；所以没下雨 |
 
 ### 常见谬误
 | 谬误 | 说明 | 示例 |
 |------|------|------|
-| 肯定后件 | 如果P则Q；Q；所以P | 如果下雨则地湿；地湿了；所以下雨了（可能是洒水车） |
-| 否定前件 | 如果P则Q；非P；所以非Q | 如果下雨则地湿；没下雨；所以地不湿（可能洒水） |
+| 肯定后件 | 如果 P 则 Q；Q；所以 P | 如果下雨则地湿；地湿了；所以下雨了（可能是洒水车） |
+| 否定前件 | 如果 P 则 Q；非 P；所以非 Q | 如果下雨则地湿；没下雨；所以地不湿（可能洒水） |
 
 ## 归纳推理
 
@@ -108,9 +110,9 @@ tags: ['CrossDisciplinaryK12', 'CriticalThinkingForTeens', 'LogicalReasoning']
 ### 练习1
 
 ```
-所有A都是B
-所有B都是C
-所以，所有A都是C
+所有 A 都是 B
+所有 B 都是 C
+所以，所有 A 都是 C
 这个推理有效吗？
 ```
 

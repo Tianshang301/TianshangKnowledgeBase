@@ -1,6 +1,8 @@
 ---
 aliases: [Overtraining, 过度训练, OvertrainingSyndrome, OTS]
 tags: ['12_SportsScience', 'SportsMedicine', 'Overtraining', 'Recovery', 'Fatigue']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 过度训练 (Overtraining)
@@ -37,7 +39,7 @@ tags: ['12_SportsScience', 'SportsMedicine', 'Overtraining', 'Recovery', 'Fatigu
 
 | 心理系统 | 情绪低落、动力下降、易怒、焦虑 | 神经递质失衡 |
 
-| 内分泌系统 | 皮质醇异常、睾酮/皮质醇比下降 | HPA轴功能紊乱 |
+| 内分泌系统 | 皮质醇异常、睾酮/皮质醇比下降 | HPA 轴功能紊乱 |
 
 ```mermaid
 graph TD

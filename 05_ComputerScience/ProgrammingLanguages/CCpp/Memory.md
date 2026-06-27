@@ -1,6 +1,8 @@
 ---
 aliases: [Memory]
-tags: ['ProgrammingLanguages', 'C_Cpp', 'Memory']
+tags: ['ProgrammingLanguages', 'CCpp', 'Memory']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # C++ 内存模型

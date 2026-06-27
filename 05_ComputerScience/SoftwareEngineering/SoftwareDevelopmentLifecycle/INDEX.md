@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['SoftwareEngineering', 'SoftwareDevelopmentLifecycle', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 软件开发生命周期
@@ -9,5 +11,5 @@ tags: ['SoftwareEngineering', 'SoftwareDevelopmentLifecycle', 'INDEX']
 
 ## 文件
 
-- [[CI-CD与DevOps实践]]
+- [[CI-CD 与 DevOps 实践]]
 - [[SoftwareDevelopmentLifecycle]]

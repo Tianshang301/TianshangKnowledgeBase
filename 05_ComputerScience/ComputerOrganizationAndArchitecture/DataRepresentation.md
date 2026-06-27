@@ -1,6 +1,8 @@
 ---
 aliases: [DataRepresentation]
 tags: ['05_ComputerScience', 'ComputerOrganizationAndArchitecture']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 数据表示 (Data Representation)

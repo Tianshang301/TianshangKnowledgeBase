@@ -1,6 +1,8 @@
 ---
 aliases: [RTOS]
 tags: ['HardwareAndEmbeddedSystems', 'RTOS', 'RTOS']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 实时操作系统（RTOS）
@@ -302,7 +304,7 @@ xEventGroupWaitBits(xEventGroup, uxBitsToWaitFor, xClearOnExit, xWaitForAllBits,
 
 ## 相关条目
 
-- [[FreeRTOS任务与同步]]
+- [[FreeRTOS 任务与同步]]
 - [[EmbeddedLinux]]
 - [[ProcessManagement]]
 - [[Concurrency]]

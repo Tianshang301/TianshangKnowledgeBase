@@ -1,6 +1,8 @@
 ---
 aliases: [SportsMedicine, 运动医学, SportMedicine]
 tags: ['12_SportsScience', 'SportsMedicine', 'InjuryPrevention', 'Rehabilitation']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 运动医学 (Sports Medicine)
@@ -168,7 +170,7 @@ flowchart TD
 
 ## 特殊人群运动医学 (Special Populations)
 
-- **青少年运动员** —— 骨骺损伤风险（如 Little League Elbow、Osgood-Schlatter病）
+- **青少年运动员** —— 骨骺损伤风险（如 Little League Elbow、Osgood-Schlatter 病）
 - **老年运动员** —— 骨关节炎管理、平衡训练防跌倒
 - **女性运动员** —— 女运动员三联征（能量利用障碍、月经功能紊乱、骨密度降低）
 - **残障运动员** —— 轮椅运动损伤、假肢适配与界面管理

@@ -1,6 +1,8 @@
 ---
 aliases: [AVL]
 tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'AVL']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # AVL 平衡树

@@ -1,6 +1,8 @@
 ---
 aliases: [StrengthOfMaterials, 材料力学, Mechanics of Materials]
 tags: ['EngineeringFundamentals', 'EngineeringMechanics', 'StrengthOfMaterials', 'SolidMechanics']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 材料力学 (Strength of Materials / Mechanics of Materials)

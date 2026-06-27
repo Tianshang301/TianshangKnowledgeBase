@@ -1,6 +1,8 @@
 ---
 aliases: [MarxistPhilosophyAdvanced]
 tags: ['Philosophy', 'MarxistPhilosophy', 'MarxistPhilosophyAdvanced']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 马克思主义哲学进阶
@@ -166,7 +168,7 @@ $$
 | 镇压性国家机器（RSA） | 强制 | 暴力和威胁 | 警察、军队、法庭 |
 | 意识形态国家机器（ISA） | 非强制 | 意识形态 | 学校、家庭、宗教、媒体 |
 
-ISA是阶级再生产的核心机制——学校教会学生"服从规则"而非"知道规则"。
+ISA 是阶级再生产的核心机制——学校教会学生"服从规则"而非"知道规则"。
 
 ---
 

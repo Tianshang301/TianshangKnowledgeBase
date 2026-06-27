@@ -4,6 +4,8 @@ aliases:
   - 数字货币
   - Virtual Currency
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - blockchain
   - cryptocurrency
   - bitcoin
@@ -149,9 +151,9 @@ $$DailyRevenue = \frac{HashRate \times BlockReward \times Price \times 86400}{Ne
 
 ```mermaid
 graph TD
-    A[矿工A] -->|算力贡献| B[矿池服务器]
-    C[矿工B] -->|算力贡献| B
-    D[矿工C] -->|算力贡献| B
+    A[矿工 A] -->|算力贡献| B[矿池服务器]
+    C[矿工 B] -->|算力贡献| B
+    D[矿工 C] -->|算力贡献| B
     B -->|按份额分配| E[区块奖励]
     E -->|收益| A
     E -->|收益| C

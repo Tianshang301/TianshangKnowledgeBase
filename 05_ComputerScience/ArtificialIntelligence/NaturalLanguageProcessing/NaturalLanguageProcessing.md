@@ -1,6 +1,8 @@
 ---
 aliases: [NaturalLanguageProcessing]
 tags: ['ArtificialIntelligence', 'NaturalLanguageProcessing', 'NaturalLanguageProcessing']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 自然语言处理
@@ -36,13 +38,13 @@ $$
 
 ### 文本清洗
 
-- 去除HTML标签、特殊符号
+- 去除 HTML 标签、特殊符号
 - 统一大小写
 - 停用词过滤
 
 ## 二、语言模型
 
-### n-gram语言模型
+### n-gram 语言模型
 
 基于马尔可夫假设：当前词的出现仅依赖于前 $n-1$ 个词：
 
@@ -56,11 +58,11 @@ $$
 P(w_i | w_{i-n+1}^{i-1}) = \frac{\text{Count}(w_{i-n+1}^{i})}{\text{Count}(w_{i-n+1}^{i-1})}
 $$
 
-平滑技术解决零概率问题：Laplace平滑、Kneser-Ney平滑、Good-Turing估计。
+平滑技术解决零概率问题：Laplace 平滑、Kneser-Ney 平滑、Good-Turing 估计。
 
 ### 神经语言模型
 
-使用神经网络替代n-gram的计数统计：
+使用神经网络替代 n-gram 的计数统计：
 
 $$
 P(w_t | w_{<t}) = \text{softmax}(f_\theta(w_{<t}))
@@ -132,9 +134,9 @@ $$
 
 ### GRU (Gated Recurrent Unit)
 
-LSTM的简化变体，合并遗忘门和输入门为更新门。
+LSTM 的简化变体，合并遗忘门和输入门为更新门。
 
-## 五、注意力机制与Transformer
+## 五、注意力机制与 Transformer
 
 ### 注意力机制
 
@@ -155,7 +157,7 @@ $$
 \text{head}_i = \text{Attention}(QW_i^Q, KW_i^K, VW_i^V)
 $$
 
-### Transformer架构
+### Transformer 架构
 
 由编码器（Encoder）和解码器（Decoder）堆叠而成：
 
@@ -179,13 +181,13 @@ $$
 
 ### BERT
 
-**Masked Language Model (MLM)**：随机遮盖15%的token，预测被遮盖的词
+**Masked Language Model (MLM)**：随机遮盖15%的 token，预测被遮盖的词
 
 $$
 \mathcal{L}_{\text{MLM}} = -\sum_{i \in M} \log P(\tilde{w}_i | w_{\setminus M})
 $$
 
-### GPT系列
+### GPT 系列
 
 自回归生成：
 
@@ -193,7 +195,7 @@ $$
 P(\mathbf{x}) = \prod_{t=1}^T P(x_t | x_{<t})
 $$
 
-## 七、NLP核心任务
+## 七、NLP 核心任务
 
 | 任务 | 输入 | 输出 | 典型方法 |
 |------|------|------|---------|
@@ -213,7 +215,7 @@ $$
 P(\mathbf{y}|\mathbf{x}) = \frac{\exp\left(\sum_i f_i(\mathbf{x}, y_i) + \sum_{i,j} g_{ij}(y_i, y_j)\right)}{Z(\mathbf{x})}
 $$
 
-## 八、LLM微调与提示工程
+## 八、LLM 微调与提示工程
 
 ### 微调方法
 
@@ -222,7 +224,7 @@ $$
 | Full Fine-tuning | 更新全部参数 | 100% |
 | Adapter | 插入小型适配模块 | ~3-5% |
 | LoRA | 低秩矩阵分解 $\Delta W = BA$ | ~0.1-1% |
-| Prompt Tuning | 学习连续prompt向量 | ~0.01% |
+| Prompt Tuning | 学习连续 prompt 向量 | ~0.01% |
 | Prefix Tuning | 前缀向量注入 | ~0.1% |
 
 ### 提示工程 (Prompt Engineering)

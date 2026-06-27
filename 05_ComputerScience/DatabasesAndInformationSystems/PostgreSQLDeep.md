@@ -1,6 +1,8 @@
 ---
 aliases: [PostgreSQLDeep]
 tags: ['DatabasesAndInformationSystems', 'PostgreSQLDeep']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # PostgreSQL 指南

@@ -1,6 +1,8 @@
 ---
 aliases: [Basics]
 tags: ['ProgrammingLanguages', 'Java', 'Basics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Java 基础语法
@@ -20,7 +22,7 @@ Java 数据类型分为基本类型（Primitive Types）和引用类型（Refere
 | float | 32位 | 0.0f | ±3.4E-38 ~ ±3.4E+38 |
 | double | 64位 | 0.0d | ±1.7E-308 ~ ±1.7E+308 |
 | char | 16位 | '\u0000' | 0 ~ 65535 |
-| boolean | JVM实现相关 | false | true/false |
+| boolean | JVM 实现相关 | false | true/false |
 
 ```java
 int a = 42;
@@ -306,7 +308,7 @@ try (BufferedReader br = new BufferedReader(new FileReader("file.txt"))) {
 
 | 特性 | Checked Exception | Unchecked Exception |
 |------|-------------------|---------------------|
-| 继承 | Exception（不含RuntimeException） | RuntimeException |
+| 继承 | Exception（不含 RuntimeException） | RuntimeException |
 | 编译检查 | 必须处理或声明 | 可选择性处理 |
 | 示例 | IOException, SQLException | NullPointerException, IllegalArgumentException |
 | 使用场景 | 外部因素（文件不存在、网络故障） | 程序 bug（空指针、越界） |

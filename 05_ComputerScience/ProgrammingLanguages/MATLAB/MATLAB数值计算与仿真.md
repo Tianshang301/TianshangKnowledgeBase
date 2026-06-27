@@ -1,5 +1,5 @@
 ---
-aliases: [MATLAB数值计算与仿真]
+aliases: [MATLAB 数值计算与仿真]
 tags: ['ProgrammingLanguages', 'MATLAB', '数值计算']
 ---
 
@@ -72,7 +72,7 @@ residual = norm(A*x - b)
 % 定积分计算
 f = @(x) exp(-x.^2) .* sin(x);
 
-% 自适应Simpson积分
+% 自适应 Simpson 积分
 Q = integral(f, 0, 10)
 
 % 二重积分
@@ -98,7 +98,7 @@ ylabel('y(t)')
 title('ODE Solution')
 grid on
 
-% 二阶ODE: 弹簧-阻尼系统
+% 二阶 ODE: 弹簧-阻尼系统
 % m*d2x/dt2 + c*dx/dt + k*x = 0
 m = 1; c = 0.5; k = 10;
 spring_system = @(t, x) [x(2); -c/m*x(2) - k/m*x(1)];
@@ -141,7 +141,7 @@ t = 0:1/fs:1-1/fs;           % 时间向量
 f1 = 50; f2 = 120;
 signal = sin(2*pi*f1*t) + 2*sin(2*pi*f2*t) + randn(size(t))*0.5;
 
-% FFT分析
+% FFT 分析
 N = length(signal);
 Y = fft(signal);
 f = fs*(0:(N/2))/N;
@@ -160,7 +160,7 @@ xlim([0 200])
 [b, a] = butter(4, 100/(fs/2), 'low');  % 4阶低通，截止100Hz
 filtered_signal = filtfilt(b, a, signal);
 
-% FIR滤波器
+% FIR 滤波器
 fir_coeff = fir1(30, 0.2);  % 30阶低通
 filtered_fir = filter(fir_coeff, 1, signal);
 ```
@@ -187,7 +187,7 @@ figure
 bode(G)
 grid on
 
-% PID控制器设计
+% PID 控制器设计
 Kp = 2; Ki = 1; Kd = 0.5;
 C = pid(Kp, Ki, Kd);
 
@@ -211,7 +211,7 @@ Simulink 是基于模型的图形化仿真环境。
 基本建模步骤：
 
 ```matlab
-% 创建Simulink模型
+% 创建 Simulink 模型
 new_system('my_model')
 open_system('my_model')
 
@@ -280,7 +280,7 @@ title('cos(x)')
 3D 绘图：
 
 ```matlab
-% 3D曲面
+% 3D 曲面
 [X, Y] = meshgrid(-3:0.1:3, -3:0.1:3);
 Z = peaks(X, Y);
 
@@ -325,7 +325,7 @@ tic
 x = (1:N).^2;
 toc
 
-% 使用profiler分析性能
+% 使用 profiler 分析性能
 profile on
 % 运行代码
 profile viewer

@@ -1,6 +1,8 @@
 ---
 aliases: [StringAlgorithms]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'StringAlgorithms', 'StringAlgorithms']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # String Algorithms - 字符串算法

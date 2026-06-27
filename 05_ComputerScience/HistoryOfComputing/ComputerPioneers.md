@@ -1,6 +1,8 @@
 ---
 aliases: [计算机先驱, ComputerPioneers, 计算历史名人, HistoryOfComputing]
 tags: ['HistoryOfComputing', 'ComputerScience', 'Biography', 'TechnologyHistory']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 计算机先驱
@@ -59,7 +61,7 @@ $F$ 为接受状态集合（Accepting States）。
 奠定了计算机科学中"不可能性"理论的基础。
 
 二战期间，图灵在布莱切利园（Bletchley Park）
-主导破译了德国Enigma密码机。
+主导破译了德国 Enigma 密码机。
 他设计的"炸弹机"（Bombe）大幅加速了密码分析过程。
 据估计，破译工作将战争缩短了至少两年。
 
@@ -98,9 +100,9 @@ flowchart LR
 在经济学中创立了博弈论（Game Theory）。
 与摩根斯特恩合著《博弈论与经济行为》。
 
-1944年参与ENIAC项目后。
+1944年参与 ENIAC 项目后。
 认识到存储程序的重要性。
-1945年，他在《EDVAC报告书的第一份草案》中
+1945年，他在《EDVAC 报告书的第一份草案》中
 提出了存储程序计算机（Stored-Program Computer）概念。
 即冯·诺依曼架构（von Neumann Architecture）。
 
@@ -116,7 +118,7 @@ flowchart LR
 系统总线（System Bus）——连接各部件的数据通路。
 
 冯·诺依曼瓶颈（von Neumann Bottleneck）：
-CPU与存储器之间数据传输速度的限制。
+CPU 与存储器之间数据传输速度的限制。
 这一瓶颈催生了缓存（Cache）层级结构。
 指令流水线（Instruction Pipeline）。
 超标量架构（Superscalar Architecture）。
@@ -136,7 +138,7 @@ CPU与存储器之间数据传输速度的限制。
 差分机通过有限差分法自动计算多项式函数值。
 消除人工制表的误差。
 英国政府资助了其开发但最终未完成。
-巴贝奇与工程师Joseph Clement的合作以争吵告终。
+巴贝奇与工程师 Joseph Clement 的合作以争吵告终。
 
 分析机具备现代计算机的核心特征：
 存储（Store）——寄存数据的存储器。
@@ -144,7 +146,7 @@ CPU与存储器之间数据传输速度的限制。
 穿孔卡片（Punched Card）——程序控制机制。
 条件分支——根据结果选择执行路径。
 
-| 项目 | 差分机No.1 | 差分机No.2 | 分析机 |
+| 项目 | 差分机 No.1 | 差分机 No.2 | 分析机 |
 |------|-----------|-----------|--------|
 | 设计年份 | 1822 | 1849 | 1837 |
 | 功能 | 多项式计算 | 多项式计算 | 通用计算 |
@@ -162,7 +164,7 @@ CPU与存储器之间数据传输速度的限制。
 但它可以执行任何我们能命令它执行的事情"。
 她最早区分了计算机的"功能"与"目的"。
 这一洞见超前了一个多世纪。
-1980年，美国国防部以她命名了Ada编程语言。
+1980年，美国国防部以她命名了 Ada 编程语言。
 
 ### 赫尔曼·霍勒瑞斯
 
@@ -171,7 +173,7 @@ CPU与存储器之间数据传输速度的限制。
 使用穿孔卡片存储数据。
 将1890年美国人口普查的数据处理时间从8年缩短到1年。
 
-他创办的公司是IBM的前身之一。
+他创办的公司是 IBM 的前身之一。
 穿孔卡片技术主导了数据处理行业近50年。
 
 ## 软件工程先驱
@@ -182,14 +184,14 @@ CPU与存储器之间数据传输速度的限制。
 是美国海军少将（Rear Admiral）。
 编程语言（Programming Language）领域的开拓者。
 
-她主导开发了FLOW-MATIC——
+她主导开发了 FLOW-MATIC——
 第一个使用英文词汇的编程语言。
-直接影响了COBOL的设计。
-COBOL是第一个被广泛使用的商业数据编程语言。
+直接影响了 COBOL 的设计。
+COBOL 是第一个被广泛使用的商业数据编程语言。
 至今仍运行在全球银行系统的主机中。
 
 霍珀创造了"bug"和"debug"等术语。
-1947年从Mark II计算机中找出飞蛾。
+1947年从 Mark II 计算机中找出飞蛾。
 被记录为计算机历史上第一个"bug"。
 
 她推动编译器（Compiler）的诞生——
@@ -201,10 +203,10 @@ COBOL是第一个被广泛使用的商业数据编程语言。
 ### 约翰·巴克斯
 
 约翰·巴克斯（John Backus, 1924–2007）
-领导开发了FORTRAN（Formula Translation, 1957）。
+领导开发了 FORTRAN（Formula Translation, 1957）。
 第一个被广泛使用的高级编程语言。
 
-FORTRAN引入了：
+FORTRAN 引入了：
 表达式语法。
 数组索引。
 循环和子程序。
@@ -224,20 +226,20 @@ FORTRAN引入了：
 与保罗·艾伦共同创立了微软（Microsoft, 1975）。
 
 他推动"每张桌子、每个家庭都有一台个人电脑"的愿景。
-通过MS-DOS（1981）和Windows（1985）
+通过 MS-DOS（1981）和 Windows（1985）
 将计算能力普及到大众。
 
 微软的成功不仅在于技术。
 更在于商业模式创新——
 将软件从硬件捆绑中分离。
 建立软件授权（Software Licensing）的盈利模式。
-1990年代通过与英特尔（Wintel联盟）合作主导PC市场。
+1990年代通过与英特尔（Wintel 联盟）合作主导 PC 市场。
 
 ```mermaid
 flowchart LR
   MSDOS[MS-DOS<br/>1981]
   MSDOS --> WIN[Windows 1.0<br/>1985]
-  WIN --> WIN95[Windows 95<br/>GUI普及]
+  WIN --> WIN95[Windows 95<br/>GUI 普及]
   WIN95 --> WINXP[Windows XP<br/>2001]
   WINXP --> WIN10[Windows 10<br/>2015]
   WIN10 --> WIN11[Windows 11<br/>2021]
@@ -268,8 +270,8 @@ iPad（2010）开创了平板电脑新品类。
 超文本标记语言（HTML）。
 第一个网页浏览器（WorldWideWeb, 1990）。
 
-1991年8月6日，他在alt.hypertext新闻组上发布了万维网项目。
-第一个网站是http://info.cern.ch。
+1991年8月6日，他在 alt.hypertext 新闻组上发布了万维网项目。
+第一个网站是 http://info.cern.ch。
 
 ```mermaid
 flowchart LR
@@ -285,7 +287,7 @@ flowchart LR
 伯纳斯-李始终坚持互联网的开放性与去中心化（Decentralization）。
 拒绝为万维网申请专利。
 他致力于推动语义网（Semantic Web）和数据主权（Data Sovereignty）。
-创立万维网联盟（W3C）推动Web标准化。
+创立万维网联盟（W3C）推动 Web 标准化。
 
 ## 其他重要贡献者
 
@@ -293,12 +295,12 @@ flowchart LR
 |------|------|------|----------|
 | 克劳德·香农 | 1916-2001 | 信息论 | 创立信息论，定义比特 |
 | 道格拉斯·恩格尔巴特 | 1925-2013 | 人机交互 | 发明鼠标，oN-Line System |
-| 肯·汤普森 | b. 1943 | 操作系统 | UNIX, Go语言, UTF-8 |
-| 丹尼斯·里奇 | 1941-2011 | 编程语言 | C语言, UNIX |
-| 林纳斯·托瓦兹 | b. 1969 | 开源运动 | Linux内核, Git |
-| 约翰·麦卡锡 | 1927-2011 | 人工智能 | Lisp语言, AI一词 |
-| 唐纳德·克努特 | b. 1938 | 算法分析 | TAOCP, TeX, KMP算法 |
-| 范内瓦·布什 | 1890-1974 | 信息科学 | Memex概念预言超文本 |
+| 肯·汤普森 | b. 1943 | 操作系统 | UNIX, Go 语言, UTF-8 |
+| 丹尼斯·里奇 | 1941-2011 | 编程语言 | C 语言, UNIX |
+| 林纳斯·托瓦兹 | b. 1969 | 开源运动 | Linux 内核, Git |
+| 约翰·麦卡锡 | 1927-2011 | 人工智能 | Lisp 语言, AI 一词 |
+| 唐纳德·克努特 | b. 1938 | 算法分析 | TAOCP, TeX, KMP 算法 |
+| 范内瓦·布什 | 1890-1974 | 信息科学 | Memex 概念预言超文本 |
 
 ## 继承与影响
 

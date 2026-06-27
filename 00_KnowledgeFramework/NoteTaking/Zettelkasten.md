@@ -1,6 +1,8 @@
 ---
 aliases: [Zettelkasten, 卡片盒笔记法, 卢曼笔记法, SlipBox, 知识管理]
 tags: ['00_KnowledgeFramework', 'NoteTaking', 'PersonalKnowledgeManagement', 'PKM']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # Zettelkasten（卡片盒笔记法）
@@ -21,7 +23,7 @@ Zettelkasten（德语"卡片盒"）
 这套方法的核心理念是：
 知识的价值不在于收集，而在于连接。
 
-Zettelkasten的哲学基础是——
+Zettelkasten 的哲学基础是——
 一个想法的意义部分取决于
 它与其他想法的关联方式。
 当不同的知识单元通过链接产生碰撞时。
@@ -46,12 +48,12 @@ Zettelkasten的哲学基础是——
 不破坏既有顺序。
 
 到1998年去世时。
-他的Zettelkasten已包含约90,000张手写卡片。
+他的 Zettelkasten 已包含约90,000张手写卡片。
 覆盖社会学、哲学、系统论、法律、经济学。
 
 2013年后数字笔记工具兴起。
-Obsidian、Roam Research等工具的出现。
-Zettelkasten在全球范围内获得第二次生命。
+Obsidian、Roam Research 等工具的出现。
+Zettelkasten 在全球范围内获得第二次生命。
 成为个人知识管理
 （Personal Knowledge Management, PKM）
 领域的核心方法论。
@@ -70,7 +72,7 @@ flowchart TD
   B --> B1[脱离上下文仍可理解]
   C --> C1[节点与节点构成网络]
   D --> D1[书写-回顾-改写循环]
-  E --> E1[MOC与关键词导航]
+  E --> E1[MOC 与关键词导航]
 ```
 
 ## 原则详解
@@ -79,7 +81,7 @@ flowchart TD
 |------|------|---------|---------|---------|
 | 原子性 | Atomicity | 每卡一个想法 | 一张卡写多个论点 | 是否有"同时""此外" |
 | 自主性 | Autonomy | 自包含独立可读 | 依赖短期记忆 | 一周后能否读懂 |
-| 双向链接 | Bidirectional | A能到B，B能回A | 仅创建单向引用 | 检查反向链接 |
+| 双向链接 | Bidirectional | A 能到 B，B 能回 A | 仅创建单向引用 | 检查反向链接 |
 | 渐进式精炼 | Progressive | 持续回顾与改写 | 写完即弃 | 月度回顾周期 |
 | 索引导航 | Index | 多入口可达 | 完全无结构 | 从首页到任意笔记 |
 
@@ -113,8 +115,8 @@ flowchart TD
 而非在文件夹中归档。
 
 双向链接意味着：
-从笔记A可以跳转到B。
-从B也能追溯回A。
+从笔记 A 可以跳转到 B。
+从 B 也能追溯回 A。
 每条笔记都在知识网络中成为节点（Node）。
 
 当一条笔记被频繁引用时。
@@ -150,7 +152,7 @@ flowchart TD
 
 | 类型 | 英文 | 核心功能 | 生命周期 | 处理优先级 |
 |------|------|----------|----------|-----------|
-| 闪念笔记 | Fleeting Notes | 快速捕捉临时想法 | 24-48h内处理 | 最高 |
+| 闪念笔记 | Fleeting Notes | 快速捕捉临时想法 | 24-48h 内处理 | 最高 |
 | 文献笔记 | Literature Notes | 阅读摘录与思考 | 永久保存 | 中 |
 | 永久笔记 | Permanent Notes | 独立的知识单元 | 永久可更新 | 最高 |
 | 索引笔记 | Index Notes | 导航入口 | 随增长更新 | 中 |
@@ -210,7 +212,7 @@ flowchart TD
 ```mermaid
 flowchart LR
   FN[闪念笔记<br/>Fleeting Notes]
-  FN -->|24h内处理| LN[文献笔记<br/>Literature Notes]
+  FN -->|24h 内处理| LN[文献笔记<br/>Literature Notes]
   LN -->|提炼核心论点| PN[永久笔记<br/>Permanent Notes]
   PN -->|建立双向链接| KN[知识网络<br/>Knowledge Network]
   KN -->|产生新疑问| FN
@@ -244,12 +246,12 @@ $$V_{system} = \sum_{i=1}^{n} \text{degree}(i)$$
 
 这种涌现效应——
 来自不同领域的笔记自动组合成新见解——
-是Zettelkasten区别于其他笔记方法的根本特征。
+是 Zettelkasten 区别于其他笔记方法的根本特征。
 
 ## 经典引用
 
 卢曼曾说：
-"没有Zettelkasten，我永远不会写出那么多东西。"
+"没有 Zettelkasten，我永远不会写出那么多东西。"
 
 这句话揭示了底层逻辑——
 写作不是从空白页开始。
@@ -262,7 +264,7 @@ $$V_{system} = \sum_{i=1}^{n} \text{degree}(i)$$
 "理解不是对信息的被动接收。
 而是主动建立链接的过程。"
 
-另一位笔记方法论专家Ahrens在
+另一位笔记方法论专家 Ahrens 在
 《How to Take Smart Notes》中写道：
 "好的笔记系统不依赖于意志力。
 因为它将结构与主动性内化到工具本身。"
@@ -271,12 +273,12 @@ $$V_{system} = \sum_{i=1}^{n} \text{degree}(i)$$
 
 | 工具 | 核心特点 | 适用场景 |
 |------|----------|----------|
-| Obsidian | 本地存储、Markdown原生、插件丰富 | 重度笔记用户 |
+| Obsidian | 本地存储、Markdown 原生、插件丰富 | 重度笔记用户 |
 | Logseq | 开源、大纲式、块级引用 | 研究者与开发者 |
 | Roam Research | 云端协作、实时同步 | 团队协作场景 |
-| Zettlr | 学术写作导向、Zotero集成 | 论文写作 |
+| Zettlr | 学术写作导向、Zotero 集成 | 论文写作 |
 | Notion | 数据库驱动、多媒体支持 | 综合项目管理 |
-| The Archive | 极简、纯文本、完全控制 | plain text爱好者 |
+| The Archive | 极简、纯文本、完全控制 | plain text 爱好者 |
 
 ## 相关条目
 

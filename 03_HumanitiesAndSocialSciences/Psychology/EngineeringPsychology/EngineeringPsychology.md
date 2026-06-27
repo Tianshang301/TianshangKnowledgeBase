@@ -1,6 +1,8 @@
 ---
 aliases: [EngineeringPsychology]
 tags: ['Psychology', 'EngineeringPsychology', 'EngineeringPsychology']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 工程心理学
@@ -47,7 +49,7 @@ tags: ['Psychology', 'EngineeringPsychology', 'EngineeringPsychology']
 | 工作记忆 | 7±2组块 | 未复述则<30秒 | 语音/视觉/空间 |
 | 长时记忆 | 无限 | 永久 | 语义/情景 |
 
-工作记忆的Baddeley模型：中央执行系统 + 语音环路 + 视空间画板 + 情景缓冲区。
+工作记忆的 Baddeley 模型：中央执行系统 + 语音环路 + 视空间画板 + 情景缓冲区。
 
 ---
 
@@ -140,7 +142,7 @@ tags: ['Psychology', 'EngineeringPsychology', 'EngineeringPsychology']
 
 ### 4.2 情境意识
 
-Endsley的三层次模型：
+Endsley 的三层次模型：
 
 | 层次 | 定义 | 例（飞行员） |
 |------|------|-------------|
@@ -173,7 +175,7 @@ Endsley的三层次模型：
 
 ### 5.2 人为失误分类
 
-Reason的分类：
+Reason 的分类：
 
 | 类型 | 定义 | 例 |
 |------|------|-----|

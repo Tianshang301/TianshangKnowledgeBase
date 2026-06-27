@@ -1,6 +1,8 @@
 ---
 aliases: [OperatingSystems, OS, 操作系统, OS Overview]
 tags: ['ComputerScience', 'OperatingSystems', 'CoreCourses', 'SystemSoftware']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 操作系统概述 (OS Overview)

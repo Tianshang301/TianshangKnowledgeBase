@@ -1,6 +1,8 @@
 ---
 aliases: [Biophysics, 生物物理学]
 tags: ['02_NaturalSciences', 'Biology', 'Biophysics', 'MolecularBiophysics']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 生物物理学 (Biophysics)

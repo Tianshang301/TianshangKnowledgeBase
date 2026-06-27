@@ -1,6 +1,8 @@
 ---
 aliases: [LearningPath, 学习路径, KnowledgeFramework]
 tags: ['00_KnowledgeFramework', 'LearningPath', 'SelfStudy', 'Methodology']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 学习路径：知识体系框架 Learning Path: Knowledge Framework
@@ -147,7 +149,7 @@ $$ \text{Data} \to \text{Information} \to \text{Knowledge} \to \text{Wisdom} $$
 
 | 类型 | 平台 | 特点 |
 |------|------|------|
-| MOOC | Coursera, edX, 中国大学MOOC | 系统课程、认证 |
+| MOOC | Coursera, edX, 中国大学 MOOC | 系统课程、认证 |
 | 视频 | YouTube, Bilibili | 直观、碎片化 |
 | 书籍 | 专业教材、经典著作 | 体系完整 |
 | 论文 | Google Scholar, 知网 | 前沿研究 |

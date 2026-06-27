@@ -1,20 +1,20 @@
 ---
-aliases: [嵌入式Linux驱动开发]
-tags: ['HardwareAndEmbeddedSystems', 'EmbeddedLinux', '嵌入式Linux驱动开发']
+aliases: [嵌入式 Linux 驱动开发]
+tags: ['HardwareAndEmbeddedSystems', 'EmbeddedLinux', '嵌入式 Linux 驱动开发']
 ---
 
-# 嵌入式Linux驱动开发
+# 嵌入式 Linux 驱动开发
 
-## 一、Linux驱动基础
+## 一、Linux 驱动基础
 
-Linux驱动是内核与硬件设备之间的桥梁，负责设备管理和数据交换。
+Linux 驱动是内核与硬件设备之间的桥梁，负责设备管理和数据交换。
 
 驱动类型分类：
 
 | 类型 | 特点 | 设备文件 | 示例 |
 |------|------|----------|------|
 | 字符设备 | 顺序访问，流式 | /dev/xxx | 串口、GPIO |
-| 块设备 | 随机访问，块操作 | /dev/xxx | SD卡、NAND Flash |
+| 块设备 | 随机访问，块操作 | /dev/xxx | SD 卡、NAND Flash |
 | 网络设备 | 数据包收发 | /sys/class/net/eth0 | 以太网、WiFi |
 | 杂项设备 | 简化的字符设备 | /dev/xxx | 小器件 |
 
@@ -195,9 +195,9 @@ static struct platform_driver my_driver = {
 module_platform_driver(my_driver);
 ```
 
-## 四、GPIO驱动
+## 四、GPIO 驱动
 
-使用内核GPIO子系统：
+使用内核 GPIO 子系统：
 
 ```c
 #include <linux/gpio.h>
@@ -215,7 +215,7 @@ static int __init gpio_init(void) {
         return ret;
     }
     
-    gpiod_set_value(gpio_led, 1);  // LED亮
+    gpiod_set_value(gpio_led, 1);  // LED 亮
     pr_info("GPIO LED initialized\n");
     return 0;
 }
@@ -269,7 +269,7 @@ static int request_my_irq(struct platform_device *pdev) {
 }
 ```
 
-## 六、内存与DMA
+## 六、内存与 DMA
 
 DMA（Direct Memory Access）实现高速数据传输：
 
@@ -282,7 +282,7 @@ static int setup_dma(struct device *dev) {
     void *cpu_addr;
     size_t size = SZ_64K;
     
-    // 分配DMA缓冲区
+    // 分配 DMA 缓冲区
     cpu_addr = dma_alloc_coherent(dev, size, &dma_handle, GFP_KERNEL);
     if (!cpu_addr)
         return -ENOMEM;
@@ -300,8 +300,8 @@ static int setup_dma(struct device *dev) {
 | 内核内存分配 | kmalloc / kzalloc | 物理连续 |
 | 大块内存 | __get_free_pages | 页对齐 |
 | 虚拟连续 | vmalloc | 不保证物理连续 |
-| DMA缓冲区 | dma_alloc_coherent | 一致性内存 |
-| 设备内存映射 | ioremap | MMIO区域 |
+| DMA 缓冲区 | dma_alloc_coherent | 一致性内存 |
+| 设备内存映射 | ioremap | MMIO 区域 |
 
 ## 七、并发与同步
 
@@ -336,7 +336,7 @@ complete(&comp);
 
 ## 八、驱动的编译与调试
 
-Makefile示例：
+Makefile 示例：
 
 ```makefile
 obj-m += mydriver.o
@@ -370,11 +370,11 @@ test:
 ```
 1. printk: 内核日志输出，KERN_DEBUG/KERN_INFO/KERN_ERR
 2. dev_dbg/dev_info/dev_err: 设备日志宏
-3. /sys/kernel/debug: debugfs接口
+3. /sys/kernel/debug: debugfs 接口
 4. ftrace: 内核函数追踪
 5. kgdb: 内核源码级调试
 6. /proc/devices: 查看已注册的设备
-7. udevadm: 监控udev事件
+7. udevadm: 监控 udev 事件
 ```
 
 ## 相关条目
@@ -387,10 +387,10 @@ test:
 
 ## 参考资源
 
-1. Linux内核文档：https://www.kernel.org/doc
-2. 《Linux设备驱动程序》（第三版）O'Reilly
-3. Linux Foundation驱动开发指南
-4. Bootlin嵌入式Linux文档：https://bootlin.com/docs
-5. Free Electron设备树文档：https://devicetree.org
-6. ELinux.org嵌入式Linux维基
-7. LWN.net内核开发新闻
+1. Linux 内核文档：https://www.kernel.org/doc
+2. 《Linux 设备驱动程序》（第三版）O'Reilly
+3. Linux Foundation 驱动开发指南
+4. Bootlin 嵌入式 Linux 文档：https://bootlin.com/docs
+5. Free Electron 设备树文档：https://devicetree.org
+6. ELinux.org 嵌入式 Linux 维基
+7. LWN.net 内核开发新闻

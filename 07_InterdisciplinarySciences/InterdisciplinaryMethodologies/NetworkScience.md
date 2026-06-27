@@ -1,6 +1,8 @@
 ---
 aliases: [NetworkScience, 网络科学]
 tags: ['InterdisciplinaryMethodologies', 'NetworkScience', 'ComplexSystems', 'GraphTheory']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 网络科学
@@ -29,9 +31,9 @@ graph TD
   H --> K
   I --> K
   J --> K
-  K --> L["ER随机图<br/>Erdos-Renyi"]
-  K --> M["WS小世界<br/>Watts-Strogatz"]
-  K --> N["BA无标度<br/>Barabasi-Albert"]
+  K --> L["ER 随机图<br/>Erdos-Renyi"]
+  K --> M["WS 小世界<br/>Watts-Strogatz"]
+  K --> N["BA 无标度<br/>Barabasi-Albert"]
   L --> O["动力学分析<br/>Dynamics"]
   M --> O
   N --> O

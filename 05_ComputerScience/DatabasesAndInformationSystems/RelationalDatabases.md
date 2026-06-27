@@ -1,6 +1,8 @@
 ---
 aliases: [RelationalDatabases, RDBMS, SQLDatabases]
 tags: ['05_ComputerScience', 'DatabasesAndInformationSystems']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 关系数据库 Relational Databases

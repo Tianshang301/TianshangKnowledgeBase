@@ -1,6 +1,8 @@
 ---
 aliases: [NodeJS]
 tags: ['ProgrammingLanguages', 'Web', 'NodeJS']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # NodeJS 指南

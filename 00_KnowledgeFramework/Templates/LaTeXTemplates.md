@@ -1,6 +1,8 @@
 ---
 aliases: [LaTeXTemplates]
 tags: ['Templates', 'LaTeXTemplates']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # LaTeX 模板

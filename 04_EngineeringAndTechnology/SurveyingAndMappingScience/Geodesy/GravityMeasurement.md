@@ -1,6 +1,8 @@
 ---
 aliases: [重力测量, 重力量测, Gravity Measurement, Gravimetry, Gravimetric Survey]
 tags: [测绘科学, 大地测量学, 重力测量, 地球物理, 地球重力场, 大地水准面, 导航]
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 重力测量 (Gravity Measurement)

@@ -1,6 +1,8 @@
 ---
 aliases: [GPIO]
 tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'STM32', 'GPIO']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # STM32 GPIO 详解

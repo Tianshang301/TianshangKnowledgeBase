@@ -1,6 +1,8 @@
 ---
 aliases: [PowerShell]
 tags: ['OperatingSystems', 'Linux', 'PowerShell']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # PowerShell 脚本编程

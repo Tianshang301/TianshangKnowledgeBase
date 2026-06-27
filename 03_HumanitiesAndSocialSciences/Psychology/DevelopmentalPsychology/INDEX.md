@@ -1,6 +1,8 @@
 ---
 aliases: [DevelopmentalPsychology]
 tags: ['03_HumanitiesAndSocialSciences', 'Psychology', 'DevelopmentalPsychology']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 # DevelopmentalPsychology
 

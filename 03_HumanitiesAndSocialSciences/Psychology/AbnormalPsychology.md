@@ -1,6 +1,8 @@
 ---
 aliases: [AbnormalPsychology]
 tags: ['03_HumanitiesAndSocialSciences', 'Psychology', 'AbnormalPsychology']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # AbnormalPsychology
@@ -12,7 +14,7 @@ tags: ['03_HumanitiesAndSocialSciences', 'Psychology', 'AbnormalPsychology']
 判断行为是否"异常"通常依赖以下标准的组合：
 
 - **统计罕见性（Statistical Infrequency）**：偏离平均值两个标准差以上的行为——但并非所有统计罕见行为都是不健康的（如天才的智力）。
-- **社会规范偏离（Deviation from Social Norms）**：违反特定文化中的可接受行为——但规范随时间变化且文化间不同（如同性恋在1960年代前的DSM中被列为障碍）。
+- **社会规范偏离（Deviation from Social Norms）**：违反特定文化中的可接受行为——但规范随时间变化且文化间不同（如同性恋在1960年代前的 DSM 中被列为障碍）。
 - **功能损害（Functional Impairment）**：影响日常功能（工作、人际关系、自理）——最常使用的临床标准之一。
 - **个人痛苦（Personal Distress）**：个体经历显著的负面情绪或体验。
 - **危险行为（Dangerousness）**：对自身或他人构成威胁。
@@ -25,7 +27,7 @@ tags: ['03_HumanitiesAndSocialSciences', 'Psychology', 'AbnormalPsychology']
 
 ### ICD-11（International Classification of Diseases, 11th Revision, 2019）
 
-WHO发布的ICD-11精神障碍章节与DSM-5趋同但存在差异——如ICD-11将人格障碍从分类模型改为维度模型，DSM-5仍保留分类模型。
+WHO 发布的 ICD-11精神障碍章节与 DSM-5趋同但存在差异——如 ICD-11将人格障碍从分类模型改为维度模型，DSM-5仍保留分类模型。
 
 ```mermaid
 graph TD
@@ -56,7 +58,7 @@ graph TD
 - **社交焦虑障碍**：对社交情境的强烈恐惧，特别是被他人审视或负面评价。认知模型（Clark & Wells）强调焦点偏移（Self-focused attention）和安全行为（Safety Behaviors）。
 - **特定恐惧症**：对特定对象或情境的过度恐惧（动物、自然环境、血液-注射、情境、其他类型）。
 
-**发生机制**：杏仁核（Amygdala）的过度激活和PFC的抑制不足是焦虑障碍的共同神经环路异常。BDNF（Val66Met）基因多态性调节恐惧消退学习。
+**发生机制**：杏仁核（Amygdala）的过度激活和 PFC 的抑制不足是焦虑障碍的共同神经环路异常。BDNF（Val66Met）基因多态性调节恐惧消退学习。
 
 ### 心境障碍（Mood Disorders）
 
@@ -66,7 +68,7 @@ graph TD
 
 $$ \text{认知三联征: 自我}\oplus\text{世界}\oplus\text{未来} \rightarrow \text{负性模式 → 抑郁情绪 → 被动行为 → 认知偏差...循环} $$
 
-**双相障碍（Bipolar Disorder）**以躁狂（Manic Episode，至少1周的情绪高涨/易怒、目标导向活动增加、自大/少睡/语速快/思维奔逸/注意力分散/冒险行为）和抑郁发作交替为特征。I型以完全躁狂为特征，II型以轻躁狂（Hypomania，4天但无严重功能损害）和重性抑郁为特征。**压力-素质模型**：生活事件和生活节奏规律性（Social Zeitgeber）与昼夜节律基因（CLOCK, ARNTL）交互。
+**双相障碍（Bipolar Disorder）**以躁狂（Manic Episode，至少1周的情绪高涨/易怒、目标导向活动增加、自大/少睡/语速快/思维奔逸/注意力分散/冒险行为）和抑郁发作交替为特征。I 型以完全躁狂为特征，II 型以轻躁狂（Hypomania，4天但无严重功能损害）和重性抑郁为特征。**压力-素质模型**：生活事件和生活节奏规律性（Social Zeitgeber）与昼夜节律基因（CLOCK, ARNTL）交互。
 
 ### 精神分裂症谱系障碍（Schizophrenia Spectrum）
 
@@ -75,7 +77,7 @@ $$ \text{认知三联征: 自我}\oplus\text{世界}\oplus\text{未来} \rightar
 - **阴性症状**：情感淡漠（Affective flattening）、言语贫乏（Alogia）、意志缺乏（Avolition）、社交退缩（Asociality）
 - **认知缺陷**：注意力、工作记忆、执行功能损害
 
-**多巴胺假说**（Dopamine Hypothesis）：中脑边缘通路（Mesolimbic pathway）的多巴胺D₂受体过度活跃导致阳性症状；中脑皮质通路（Mesocortical pathway）的多巴胺功能低下导致阴性症状和认知缺陷。二代抗精神病药（Clozapine, Olanzapine）拮抗D₂和5HT2A受体，改善阳性症状且较少锥体外系副作用。
+**多巴胺假说**（Dopamine Hypothesis）：中脑边缘通路（Mesolimbic pathway）的多巴胺 D₂受体过度活跃导致阳性症状；中脑皮质通路（Mesocortical pathway）的多巴胺功能低下导致阴性症状和认知缺陷。二代抗精神病药（Clozapine, Olanzapine）拮抗 D₂和5HT2A 受体，改善阳性症状且较少锥体外系副作用。
 
 **遗传学**：
 $$ h^2 \approx 0.80 \text{（遗传度在精神疾病中最高）} $$
@@ -87,18 +89,18 @@ DSM-5三群集分类：
 
 | 群集 | 特征 | 障碍 | 心理治疗 |
 |------|------|------|---------|
-| A群：古怪/怪异 | 不信任、社交孤立、思维独特 | 偏执型、分裂样、分裂型 | 认知重整、社交技能训练 |
-| B群：戏剧化/不稳定 | 情绪失调、人际关系不稳定 | 反社会型、边缘型、表演型、自恋型 | DBT（辩证行为治疗） |
-| C群：焦虑/恐惧 | 持续的焦虑模式 | 回避型、依赖型、强迫型 | 认知行为治疗、暴露 |
+| A 群：古怪/怪异 | 不信任、社交孤立、思维独特 | 偏执型、分裂样、分裂型 | 认知重整、社交技能训练 |
+| B 群：戏剧化/不稳定 | 情绪失调、人际关系不稳定 | 反社会型、边缘型、表演型、自恋型 | DBT（辩证行为治疗） |
+| C 群：焦虑/恐惧 | 持续的焦虑模式 | 回避型、依赖型、强迫型 | 认知行为治疗、暴露 |
 
-**边缘型人格障碍（BPD）**：核心特征是情绪不稳定、人际冲突、身份障碍、被抛弃恐惧、冲动行为和自伤。Linehan的**生物社会模型**（Biosocial Model, 1993）认为BPD源于情绪调节系统的先天脆弱性（Biological vulnerability）和"无效化环境"（Invalidating environment）的交互作用。DBT提供了正念（Mindfulness）、痛苦耐受（Distress Tolerance）、情绪调节（Emotion Regulation）和人际效能（Interpersonal Effectiveness）四种模块。
+**边缘型人格障碍（BPD）**：核心特征是情绪不稳定、人际冲突、身份障碍、被抛弃恐惧、冲动行为和自伤。Linehan 的**生物社会模型**（Biosocial Model, 1993）认为 BPD 源于情绪调节系统的先天脆弱性（Biological vulnerability）和"无效化环境"（Invalidating environment）的交互作用。DBT 提供了正念（Mindfulness）、痛苦耐受（Distress Tolerance）、情绪调节（Emotion Regulation）和人际效能（Interpersonal Effectiveness）四种模块。
 
 ## 心理障碍的病因模型（Etiological Models）
 
 ### 生物-心理-社会模型（Biopsychosocial Model）
 
 Engel（1977）提出的整合框架超越单一的生物医学模型：
-- **生物学因素**：遗传力、神经递质、脑结构/功能异常、HPA轴失调
+- **生物学因素**：遗传力、神经递质、脑结构/功能异常、HPA 轴失调
 - **心理学因素**：认知偏差、不安全依恋、习得性无助（Learned helplessness, Seligman, 1975）、信息加工偏差
 - **社会文化因素**：创伤经历、社会支持缺乏、文化压力、SES
 
@@ -106,12 +108,12 @@ Engel（1977）提出的整合框架超越单一的生物医学模型：
 
 $$ P(\text{障碍}) = \text{先天素质} \times \text{环境应激} $$
 
-素质包括遗传易感性（如COMT Val158Met多态性）、早期不良经历导致的气质特征，应激指当前环境压力（重大生活事件、慢性压力）。
+素质包括遗传易感性（如 COMT Val158Met 多态性）、早期不良经历导致的气质特征，应激指当前环境压力（重大生活事件、慢性压力）。
 
 ## 治疗方法（Treatment Approaches）
 
 - **心理治疗**：CBT（认知重组+行为激活）、DBT（BPD）、IPT（人际治疗，抑郁）、EMDR（创伤）、心理动力治疗（无意识冲突探索）
-- **药物治疗**：SSRI（选择性5-HT再摄取抑制剂，一线抗抑郁）、SNRI（双重再摄取）、TCA（三环类）、MAOI（单胺氧化酶抑制剂）、抗精神病药（典型/非典型）、心境稳定剂（锂/丙戊酸/拉莫三嗪）、苯二氮卓（抗焦虑，短期）
+- **药物治疗**：SSRI（选择性5-HT 再摄取抑制剂，一线抗抑郁）、SNRI（双重再摄取）、TCA（三环类）、MAOI（单胺氧化酶抑制剂）、抗精神病药（典型/非典型）、心境稳定剂（锂/丙戊酸/拉莫三嗪）、苯二氮卓（抗焦虑，短期）
 - **生物治疗**：ECT（电抽搐治疗，难治性抑郁）、TMS（经颅磁刺激）、DBS（深部脑刺激）
 - **基于证据的实践（Evidence-Based Practice, EBP）**：将最佳研究证据与临床专家经验和患者价值观/偏好整合
 

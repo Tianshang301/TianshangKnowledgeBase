@@ -1,13 +1,15 @@
 ---
 aliases: [Thread]
 tags: ['OperatingSystems', 'Thread']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 线程与并发 (Threads and Concurrency)
 
 ## 1. 线程概念 (Thread Concept)
 
-线程是CPU调度的基本单位，是进程内的一个执行流。同一进程内的线程共享：
+线程是 CPU 调度的基本单位，是进程内的一个执行流。同一进程内的线程共享：
 
 - 地址空间
 - 全局变量
@@ -20,7 +22,7 @@ tags: ['OperatingSystems', 'Thread']
 |------|------|
 | Thread ID | 线程标识符 |
 | Program Counter | 指令指针 |
-| Register Set | CPU寄存器 |
+| Register Set | CPU 寄存器 |
 | Stack | 函数调用栈 |
 | errno | 错误码 |
 | Signal Mask | 信号掩码 |
@@ -44,13 +46,13 @@ tags: ['OperatingSystems', 'Thread']
 | 比较维度 | 进程 | 线程 |
 |---------|------|------|
 | 创建开销 | 大(复制地址空间) | 小(共享地址空间) |
-| 上下文切换 | 慢(TLB刷新) | 快(共享页表) |
+| 上下文切换 | 慢(TLB 刷新) | 快(共享页表) |
 | 通信方式 | IPC(管道/队列等) | 直接读写共享内存 |
 | 同步需求 | 较少 | 多(需要加锁) |
 | 独立性 | 高(独立地址空间) | 低(一个崩溃全进程挂) |
 | 资源占用 | 多 | 少 |
 | 安全性 | 高(隔离) | 低(共享) |
-| 适用场景 | 独立任务 | 并行计算/I/O密集型 |
+| 适用场景 | 独立任务 | 并行计算/I/O 密集型 |
 
 ## 3. 线程模型
 
@@ -66,7 +68,7 @@ tags: ['OperatingSystems', 'Thread']
 ├────────────────────┤
 │    内核空间         │
 │  ┌──────────────┐  │
-│  │  单KLT        │  │
+│  │  单 KLT        │  │
 │  └──────────────┘  │
 └────────────────────┘
 ```
@@ -242,7 +244,7 @@ void* writer(void* arg) {
 
 DWORD WINAPI thread_func(LPVOID param) {
     int id = (int)(LONG_PTR)param;
-    printf("Windows线程 %d 运行中\n", id);
+    printf("Windows 线程 %d 运行中\n", id);
     return id * 2;
 }
 
@@ -255,7 +257,7 @@ int main() {
             thread_func,        // 线程函数
             (LPVOID)(LONG_PTR)i, // 参数
             0,                  // 创建标志
-            NULL                // 线程ID
+            NULL                // 线程 ID
         );
     }
 
@@ -272,7 +274,7 @@ int main() {
 }
 ```
 
-### Windows同步对象
+### Windows 同步对象
 
 | 对象 | 用途 | API |
 |------|------|-----|
@@ -285,14 +287,14 @@ int main() {
 ## 6. Java 线程
 
 ```java
-// 方式1: 继承Thread
+// 方式1: 继承 Thread
 class MyThread extends Thread {
     public void run() {
         System.out.println("Thread running: " + getName());
     }
 }
 
-// 方式2: 实现Runnable
+// 方式2: 实现 Runnable
 class MyRunnable implements Runnable {
     public void run() {
         System.out.println("Runnable running: " + Thread.currentThread().getName());
@@ -479,7 +481,7 @@ int is_safe() {
                 int j;
                 for (j = 0; j < M; j++)
                     if (need[i][j] > work[j]) break;
-                if (j == M) {  // 所有need <= work
+                if (j == M) {  // 所有 need <= work
                     for (j = 0; j < M; j++)
                         work[j] += allocation[i][j];
                     finish[i] = 1;
@@ -501,7 +503,7 @@ int is_safe() {
 
 ```c
 // 方法1: 固定锁顺序 (破坏循环等待)
-// 总是先锁lock1再锁lock2
+// 总是先锁 lock1再锁 lock2
 void safe_thread_a() {
     pthread_mutex_lock(&lock1);
     pthread_mutex_lock(&lock2);
@@ -511,7 +513,7 @@ void safe_thread_a() {
 }
 
 void safe_thread_b() {
-    pthread_mutex_lock(&lock1);  // 和a顺序一致
+    pthread_mutex_lock(&lock1);  // 和 a 顺序一致
     pthread_mutex_lock(&lock2);
     pthread_mutex_unlock(&lock2);
     pthread_mutex_unlock(&lock1);

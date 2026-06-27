@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['ArtificialIntelligence', 'MachineLearning', 'ModelEvaluation', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 模型评估
@@ -10,4 +12,4 @@ tags: ['ArtificialIntelligence', 'MachineLearning', 'ModelEvaluation', 'INDEX']
 ## 文件
 
 - [[ModelEvaluation]]
-- [[超参数调优与AutoML]]
+- [[超参数调优与 AutoML]]

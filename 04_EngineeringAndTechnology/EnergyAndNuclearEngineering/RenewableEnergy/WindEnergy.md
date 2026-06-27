@@ -1,6 +1,8 @@
 ---
 aliases: [WindEnergy, 风能, Wind Power, Wind Turbine, Wind Farm]
 tags: ['EnergyAndNuclearEngineering', 'RenewableEnergy', 'WindEnergy', 'WindPower']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 风能

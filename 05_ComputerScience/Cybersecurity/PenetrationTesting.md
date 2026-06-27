@@ -4,6 +4,8 @@ aliases:
   - Pentest
   - 红队测试
 tags:
+created: 2026-05-17
+updated: 2026-05-13
   - cybersecurity
   - pentest
   - red-team

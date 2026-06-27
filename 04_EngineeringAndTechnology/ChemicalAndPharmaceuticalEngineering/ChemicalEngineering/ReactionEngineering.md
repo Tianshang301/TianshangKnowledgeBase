@@ -1,6 +1,8 @@
 ---
 aliases: [ReactionEngineering]
 tags: ['ChemicalAndPharmaceuticalEngineering', 'ChemicalEngineering', 'ReactionEngineering']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 化学反应工程
@@ -60,7 +62,7 @@ $$r = kC_A^n, \quad k = A\exp\left(-\frac{E_a}{RT}\right)$$
 - $F(t)$ 函数：累积分布
 - 平均停留时间：$\bar{t} = \int_0^\infty tE(t)dt$
 
-**Damköhler数**：$Da = \frac{-r_A V}{F_{A0}}$，表征反应速率与对流传输速率的比值
+**Damköhler 数**：$Da = \frac{-r_A V}{F_{A0}}$，表征反应速率与对流传输速率的比值
 - $Da \ll 1$：反应器受动力学控制
 - $Da \gg 1$：接近平衡
 

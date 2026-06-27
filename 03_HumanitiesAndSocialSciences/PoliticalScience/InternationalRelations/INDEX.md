@@ -1,6 +1,8 @@
 ---
 aliases: [InternationalRelations]
 tags: ['03_HumanitiesAndSocialSciences', 'PoliticalScience', 'InternationalRelations']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 # InternationalRelations
 

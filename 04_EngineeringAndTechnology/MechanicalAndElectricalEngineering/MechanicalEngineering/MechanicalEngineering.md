@@ -1,6 +1,8 @@
 ---
 aliases: [MechanicalEngineering, 机械工程]
 tags: ['04_EngineeringAndTechnology', 'MechanicalAndElectricalEngineering', 'MechanicalEngineering', 'Engineering']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 机械工程 Mechanical Engineering

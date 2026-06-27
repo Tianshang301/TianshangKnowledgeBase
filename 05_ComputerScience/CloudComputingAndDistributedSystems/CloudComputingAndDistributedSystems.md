@@ -1,6 +1,8 @@
 ---
 aliases: [CloudComputingAndDistributedSystems]
 tags: ['CloudComputingAndDistributedSystems', 'CloudComputingAndDistributedSystems']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 云计算与分布式系统完全指南

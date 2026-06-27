@@ -1,6 +1,8 @@
 ---
 aliases: [FoundationEngineering, 基础工程, 地基基础, 基础设计, 桩基础, 基坑工程]
 tags: ['04_EngineeringAndTechnology', 'CivilEngineering', 'GeotechnicalEngineering']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 基础工程（Foundation Engineering）
@@ -31,7 +33,7 @@ flowchart TD
     EX --> EX1[土钉墙<br/>Soil Nailing]
     EX --> EX2[排桩支护<br/>Pile Retaining]
     EX --> EX3[地连墙<br/>Diaphragm Wall]
-    EX --> EX4[SMW工法<br/>Soil Mixing Wall]
+    EX --> EX4[SMW 工法<br/>Soil Mixing Wall]
 ```
 
 ## 浅基础（Shallow Foundations）

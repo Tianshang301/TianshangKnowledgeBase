@@ -5,6 +5,8 @@ aliases:
   - Hull Design
   - Marine Engineering
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - engineering
   - marine
   - naval
@@ -114,7 +116,7 @@ $$M_R \approx \Delta \cdot GM \cdot \phi$$
 
 稳性判据：
 
-| 船舶类型 | 最小GM值 | 说明 |
+| 船舶类型 | 最小 GM 值 | 说明 |
 |----------|----------|------|
 | 客船 | GM > 0.15m | 舒适性要求 |
 | 货船 | GM > 0.3m | 稳性储备 |
@@ -135,7 +137,7 @@ $$GZ = KN - KG \sin\phi$$
 - 稳性消失角：$\phi_v$（$GZ = 0$ 的角度）
 - 稳性范围：$0$ 到 $\phi_v$
 
-IMO稳性要求：
+IMO 稳性要求：
 
 - 初稳性高 $GM > 0.15$ m
 - 横倾角 $30°$ 时 $GZ \geq 0.2$ m

@@ -1,6 +1,8 @@
 ---
 aliases: [ReadingComprehension, 阅读理解, 阅读策略]
 tags: ['01_K12', 'SeniorHigh', 'English', 'LanguageLearning', 'ReadingSkills']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 阅读理解 Reading Comprehension

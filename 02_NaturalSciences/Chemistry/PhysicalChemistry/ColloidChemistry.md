@@ -1,4 +1,11 @@
-﻿---
+---
+aliases: [ColloidChemistry]
+tags: ['Chemistry', 'PhysicalChemistry', 'ColloidChemistry.md']
+created: 2026-05-17
+updated: 2026-05-17
+---
+
+---
 aliases: [ColloidChemistry, JiaoTiHuaXue]
 tags: ['Chemistry/PhysicalChemistry/ColloidChemistry', 'PhysicalChemistry']
 ---
@@ -204,5 +211,5 @@ $$E_g(R) = E_g(\infty) + \frac{\hbar^2\pi^2}{2\mu R^2} - \frac{1.8e^2}{4\pi\epsi
 
 ## 相关条目 (See Also)
 
-- [[../PhysicalChemistry|物理化学]]
+- [[../INDEX|物理化学]]
 - [[../../../INDEX|知识库首页]]

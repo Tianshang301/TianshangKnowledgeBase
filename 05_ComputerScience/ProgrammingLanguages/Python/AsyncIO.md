@@ -1,6 +1,8 @@
 ---
 aliases: [AsyncIO]
 tags: ['ProgrammingLanguages', 'Python', 'AsyncIO']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Python 异步编程
@@ -14,7 +16,7 @@ import time
 # 定义协程
 async def say_hello(name):
     print(f"你好, {name}!")
-    await asyncio.sleep(1)  # 模拟异步IO
+    await asyncio.sleep(1)  # 模拟异步 IO
     print(f"再见, {name}!")
 
 # 运行协程
@@ -61,9 +63,9 @@ async def fetch_data(name, delay):
 
 async def main():
     # 创建任务 (并发执行)
-    task1 = asyncio.create_task(fetch_data("数据A", 2))
-    task2 = asyncio.create_task(fetch_data("数据B", 3))
-    task3 = asyncio.create_task(fetch_data("数据C", 1))
+    task1 = asyncio.create_task(fetch_data("数据 A", 2))
+    task2 = asyncio.create_task(fetch_data("数据 B", 3))
+    task3 = asyncio.create_task(fetch_data("数据 C", 1))
     
     # 等待所有任务完成
     results = await asyncio.gather(task1, task2, task3)
@@ -320,7 +322,7 @@ import threading
 import multiprocessing
 import time
 
-# 1. asyncio - 单线程协作式 (适合IO密集型)
+# 1. asyncio - 单线程协作式 (适合 IO 密集型)
 async def async_task(id):
     await asyncio.sleep(1)
     return id
@@ -330,7 +332,7 @@ async def async_main():
     return await asyncio.gather(*tasks)
 # 耗时: ~1秒 (并发100个)
 
-# 2. threading - 多线程 (适合IO密集型)
+# 2. threading - 多线程 (适合 IO 密集型)
 def thread_task(results, id):
     time.sleep(1)
     results.append(id)
@@ -345,9 +347,9 @@ def thread_main():
     for t in threads:
         t.join()
     return results
-# 耗时: ~1秒但有GIL限制
+# 耗时: ~1秒但有 GIL 限制
 
-# 3. multiprocessing - 多进程 (适合CPU密集型)
+# 3. multiprocessing - 多进程 (适合 CPU 密集型)
 def cpu_task(n):
     return sum(i * i for i in range(n))
 
@@ -355,17 +357,17 @@ def mp_main():
     with multiprocessing.Pool(4) as pool:
         results = pool.map(cpu_task, [10**6] * 8)
     return results
-# 利用多核CPU
+# 利用多核 CPU
 
 # 对比总结:
 """
-asyncio:       单线程, 开销最小, 适合大量IO并发 (网络请求、文件读写)
-threading:     多线程, 有GIL, 适合IO密集型, 但有线程安全问题
-multiprocessing: 多进程, 无GIL, 适合CPU密集型, 但开销大
+asyncio:       单线程, 开销最小, 适合大量 IO 并发 (网络请求、文件读写)
+threading:     多线程, 有 GIL, 适合 IO 密集型, 但有线程安全问题
+multiprocessing: 多进程, 无 GIL, 适合 CPU 密集型, 但开销大
 
 选择建议:
-- 网络爬虫/Web服务: asyncio
-- CPU密集计算: multiprocessing
+- 网络爬虫/Web 服务: asyncio
+- CPU 密集计算: multiprocessing
 - 混合场景: asyncio + multiprocessing (如 asyncio.run_in_executor)
 """
 ```
@@ -398,7 +400,7 @@ def async_retry(max_retries=3, delay=1):
 
 @async_retry(max_retries=3)
 async def unstable_api():
-    # 模拟不稳定的API
+    # 模拟不稳定的 API
     pass
 
 # 3. asyncio.run_in_executor - 同步代码桥接
@@ -429,4 +431,4 @@ class CustomEventLoopPolicy(asyncio.DefaultEventLoopPolicy):
 # asyncio.set_event_loop_policy(CustomEventLoopPolicy())
 ```
 
-> asyncio 是 Python 实现高并发的利器。核心思想: 在单线程中通过协程协作式调度, 遇到IO操作时主动让出控制权。熟练掌握 asyncio 能让你用少量资源处理大量并发连接。
+> asyncio 是 Python 实现高并发的利器。核心思想: 在单线程中通过协程协作式调度, 遇到 IO 操作时主动让出控制权。熟练掌握 asyncio 能让你用少量资源处理大量并发连接。

@@ -1,6 +1,8 @@
 ---
 aliases: [PowerElectronics]
 tags: ['04_EngineeringAndTechnology', 'MechanicalAndElectricalEngineering', 'ElectricalEngineering']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 电力电子技术 (Power Electronics)

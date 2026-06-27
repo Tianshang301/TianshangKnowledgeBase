@@ -1,4 +1,11 @@
-﻿---
+---
+aliases: [TechnicalDrawing]
+tags: ['CivilEngineering', 'TechnicalDrawing.md']
+created: 2026-05-17
+updated: 2026-05-17
+---
+
+---
 aliases: [TechnicalDrawing]
 tags: ['04_EngineeringAndTechnology', 'CivilEngineering', 'DesignAutomation']
 ---

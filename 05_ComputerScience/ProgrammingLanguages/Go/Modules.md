@@ -1,6 +1,8 @@
 ---
 aliases: [Modules]
 tags: ['ProgrammingLanguages', 'Go', 'Modules']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Go Modules 包管理

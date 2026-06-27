@@ -1,6 +1,8 @@
 ---
 aliases: [GameTheory, 博弈论, 对策论]
 tags: ['11_ManagementSciences', 'ManagementScienceAndEngineering', 'Economics']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 博弈论 (Game Theory)

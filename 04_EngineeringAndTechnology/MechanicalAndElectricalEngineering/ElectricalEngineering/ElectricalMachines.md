@@ -1,6 +1,8 @@
 ---
 aliases: [ElectricalMachines]
 tags: ['04_EngineeringAndTechnology', 'MechanicalAndElectricalEngineering', 'ElectricalEngineering']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 电机学 (Electrical Machines)

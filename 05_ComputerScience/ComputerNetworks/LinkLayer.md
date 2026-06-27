@@ -1,6 +1,8 @@
 ---
 aliases: [LinkLayer]
 tags: ['ComputerNetworks', 'LinkLayer']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 链路层详解 (Link Layer)
@@ -10,17 +12,17 @@ tags: ['ComputerNetworks', 'LinkLayer']
 ### 以太网帧结构 (IEEE 802.3)
 
 ```
- 前导码(7B)  |  SFD(1B)  |  目标MAC(6B)  |  源MAC(6B)  |  类型/长度(2B)  |  数据(46-1500B)  |  FCS(4B)
+ 前导码(7B)  |  SFD(1B)  |  目标 MAC(6B)  |  源 MAC(6B)  |  类型/长度(2B)  |  数据(46-1500B)  |  FCS(4B)
 ```
 
 | 字段 | 大小 | 说明 |
 |------|------|------|
 | **前导码 (Preamble)** | 7字节 | 10101010... 同步时钟 |
 | **SFD** | 1字节 | 起始定界符 10101011 |
-| **目标MAC** | 6字节 | 接收方MAC地址 |
-| **源MAC** | 6字节 | 发送方MAC地址 |
+| **目标 MAC** | 6字节 | 接收方 MAC 地址 |
+| **源 MAC** | 6字节 | 发送方 MAC 地址 |
 | **类型/长度** | 2字节 | >1536=类型(EtherType), ≤1500=长度 |
-| **数据** | 46-1500字节 | 上层数据(最小46B保证碰撞检测) |
+| **数据** | 46-1500字节 | 上层数据(最小46B 保证碰撞检测) |
 | **FCS** | 4字节 | CRC32校验 |
 
 ### MAC 地址
@@ -31,7 +33,7 @@ tags: ['ComputerNetworks', 'LinkLayer']
 ┌────────┬─────────────────────────┐
 │  OUI   │         NIC             │
 │ (24位) │        (24位)           │
-│ 厂商ID  │       设备ID            │
+│ 厂商 ID  │       设备 ID            │
 └────────┴─────────────────────────┘
 
 单播:  第一字节最低位=0  →  12:34:56:78:9A:BC
@@ -46,11 +48,11 @@ tags: ['ComputerNetworks', 'LinkLayer']
 2. 信道空闲 → 发送数据
 3. 信道忙 → 等待(随机退避)
 4. 发送时检测碰撞 (Collision Detection)
-5. 碰撞 → 发送Jamming信号(32bit) → 指数退避(二进制指数退避算法)
+5. 碰撞 → 发送 Jamming 信号(32bit) → 指数退避(二进制指数退避算法)
 6. 重试(最多16次)
 
 二进制指数退避:
-等待时隙 = random(0, 2^k - 1) × 512bit时间
+等待时隙 = random(0, 2^k - 1) × 512bit 时间
 k = min(重试次数, 10)
 ```
 
@@ -59,10 +61,10 @@ k = min(重试次数, 10)
 | 特性 | 集线器 (Hub) | 交换机 (Switch) |
 |------|-------------|----------------|
 | 工作层 | 物理层(L1) | 链路层(L2) |
-| 转发方式 | 广播所有端口 | 根据MAC地址表转发 |
+| 转发方式 | 广播所有端口 | 根据 MAC 地址表转发 |
 | 带宽 | 共享(所有端口平分) | 独享(每端口独立带宽) |
 | 碰撞域 | 一个(所有端口) | 每端口一个 |
-| 广播域 | 一个 | 一个(可VLAN分割) |
+| 广播域 | 一个 | 一个(可 VLAN 分割) |
 | 工作模式 | 半双工 | 全双工 |
 | 智能程度 | 无 | 学习、过滤、转发 |
 
@@ -71,19 +73,19 @@ k = min(重试次数, 10)
 ### 自学习过程
 
 ```
-初始MAC地址表: 空
+初始 MAC 地址表: 空
 
 1. A → B (A:00:11, B:00:22)
-   交换机收到帧，源MAC=00:11 → 学习: 端口1=00:11
-   目标MAC=00:22 → MAC表无记录 → 向所有其他端口洪泛(flooding)
+   交换机收到帧，源 MAC=00:11 → 学习: 端口1=00:11
+   目标 MAC=00:22 → MAC 表无记录 → 向所有其他端口洪泛(flooding)
 
 2. B → A (响应)
-   交换机收到帧，源MAC=00:22 → 学习: 端口2=00:22
-   目标MAC=00:11 → MAC表有记录 → 仅转发到端口1
+   交换机收到帧，源 MAC=00:22 → 学习: 端口2=00:22
+   目标 MAC=00:11 → MAC 表有记录 → 仅转发到端口1
 
 3. 后续通信: 直接转发, 不再洪泛
 
-MAC地址表:
+MAC 地址表:
 ┌──────────┬────────────┐
 │   MAC    │    端口     │
 ├──────────┼────────────┤
@@ -107,7 +109,7 @@ MAC地址表:
 │ DMAC │ SMAC │ Type │ Data │ FCS  │
 └──────┴──────┴──────┴──────┴──────┘
 
-802.1Q带VLAN标签:
+802.1Q 带 VLAN 标签:
 ┌──────┬──────┬──────┬────┬────┬──────┬──────┐
 │ DMAC │ SMAC │ TPID │ TCI│Type│ Data │ FCS  │
 └──────┴──────┴──────┴────┴────┴──────┴──────┘
@@ -126,27 +128,27 @@ MAC地址表:
 ### Trunk (中继)
 
 ```
-交换机A(Trunk) ═══════════════════ 交换机B(Trunk)
+交换机 A(Trunk) ═══════════════════ 交换机 B(Trunk)
     │                                    │
  VLAN10: 192.168.10.0/24           VLAN10: 192.168.10.0/24
  VLAN20: 192.168.20.0/24           VLAN20: 192.168.20.0/24
 
-Trunk端口: 同时传输VLAN10和VLAN20的数据帧(带VLAN标签)
+Trunk 端口: 同时传输 VLAN10和 VLAN20的数据帧(带 VLAN 标签)
 ```
 
 ```bash
-# Cisco交换机配置示例
+# Cisco 交换机配置示例
 Switch(config)# vlan 10
 Switch(config-vlan)# name Engineering
 Switch(config)# vlan 20
 Switch(config-vlan)# name Sales
 
-# 端口加入VLAN
+# 端口加入 VLAN
 Switch(config)# interface fastEthernet 0/1
 Switch(config-if)# switchport mode access
 Switch(config-if)# switchport access vlan 10
 
-# Trunk配置
+# Trunk 配置
 Switch(config)# interface gigabitEthernet 0/1
 Switch(config-if)# switchport mode trunk
 Switch(config-if)# switchport trunk allowed vlan 10,20
@@ -167,7 +169,7 @@ Switch(config-if)# switchport trunk allowed vlan 10,20
 
 **PPP 协议栈:**
 - **LCP** (Link Control Protocol): 建立、配置、测试链路
-- **NCP** (Network Control Protocol): 配置网络层协议(如IPCP分配IP)
+- **NCP** (Network Control Protocol): 配置网络层协议(如 IPCP 分配 IP)
 - **认证:** PAP (明文密码), CHAP (挑战握手)
 
 ### PPPoE (PPP over Ethernet)
@@ -175,7 +177,7 @@ Switch(config-if)# switchport trunk allowed vlan 10,20
 用于宽带拨号:
 
 ```
-PPPoE发现阶段 → PPP LCP → PPP认证(CHAP) → PPP NCP(IPCP) → 数据传输
+PPPoE 发现阶段 → PPP LCP → PPP 认证(CHAP) → PPP NCP(IPCP) → 数据传输
 
 # Linux PPPoE
 pppoe-setup           # 配置
@@ -207,7 +209,7 @@ pppoe-stop            # 断开
 
 ### 6.2 校验和 (Checksum)
 
-**Internet校验和 (IP/TCP/UDP):**
+**Internet 校验和 (IP/TCP/UDP):**
 
 ```python
 def checksum(data):
@@ -226,14 +228,14 @@ def checksum(data):
 
 ```
 生成多项式: G(x) = x³² + x²⁶ + x²³ + x²² + x¹⁶ + x¹² + x¹¹
-                  + x¹⁰ + x⁸ + x⁷ + x⁵ + x⁴ + x² + x + 1
+                  - x¹⁰ + x⁸ + x⁷ + x⁵ + x⁴ + x² + x + 1
 
 CRC-32 常数: 0xEDB88320
 
-# CRC特性:
-# 可以检测所有单bit错误
-# 可以检测所有双bit错误 (多项式次数≥2)
-# 可以检测所有奇数个错误 (多项式包含因子x+1)
+# CRC 特性:
+# 可以检测所有单 bit 错误
+# 可以检测所有双 bit 错误 (多项式次数≥2)
+# 可以检测所有奇数个错误 (多项式包含因子 x+1)
 # 可以检测所有长度≤32的突发错误
 ```
 
@@ -275,7 +277,7 @@ def crc32(data):
 ```
 最小帧长 = 2 × 网络最大传播延迟 × 数据传输率
 
-100Mbps以太网 (2500m):
+100Mbps 以太网 (2500m):
 最小帧 = 2 × 25.6μs × 100Mbps = 5120bit = 640字节
 实际: 64字节 (512bit, 因时槽=512bit)
 ```
@@ -303,7 +305,7 @@ S1(config)# interface vlan 100
 S1(config-if)# ip address 192.168.100.1 255.255.255.0
 S1(config-if)# no shutdown
 
-# Access端口
+# Access 端口
 S1(config)# interface gigabitEthernet 1/0/1
 S1(config-if)# switchport mode access
 S1(config-if)# switchport access vlan 100

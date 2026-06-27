@@ -1,6 +1,8 @@
 ---
 aliases: [CHANGELOG]
 tags: ['00_KnowledgeFramework', 'VersionHistory', 'CHANGELOG']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 版本历史

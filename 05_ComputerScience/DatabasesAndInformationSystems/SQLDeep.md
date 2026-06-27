@@ -1,6 +1,8 @@
 ---
 aliases: [SQLDeep]
 tags: ['DatabasesAndInformationSystems', 'SQLDeep']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # SQL 完全指南

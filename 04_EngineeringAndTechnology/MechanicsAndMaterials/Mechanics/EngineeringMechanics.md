@@ -1,6 +1,8 @@
 ---
 aliases: [EngineeringMechanics]
 tags: ['Mechanics', 'EngineeringMechanics', 'SolidMechanics', 'Dynamics']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 工程力学 (Engineering Mechanics)

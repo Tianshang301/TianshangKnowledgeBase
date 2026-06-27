@@ -1,6 +1,8 @@
 ---
 aliases: [ImageProcessing]
 tags: ['ElectronicsAndCommunications', 'SignalProcessing', 'ImageProcessing']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 图像处理
@@ -23,9 +25,9 @@ tags: ['ElectronicsAndCommunications', 'SignalProcessing', 'ImageProcessing']
 - 存储：$f(x,y)$，$x$ 为行，$y$ 为列
 
 **彩色图像**：
-- RGB模型：红、绿、蓝三通道
-- HSV模型：色调、饱和度、亮度
-- YCbCr模型：亮度、色度（用于视频压缩）
+- RGB 模型：红、绿、蓝三通道
+- HSV 模型：色调、饱和度、亮度
+- YCbCr 模型：亮度、色度（用于视频压缩）
 
 **图像分辨率**：
 - 空间分辨率：像素数量（如1920×1080）
@@ -51,12 +53,12 @@ $$s = T(r) = (L-1)\int_0^r p_r(w)dw$$
 
 ### 图像压缩
 
-**JPEG压缩原理**：
+**JPEG 压缩原理**：
 1. 颜色空间转换：RGB→YCbCr
 2. 色度子采样：4:2:0
-3. DCT变换：$8\times8$ 块
+3. DCT 变换：$8\times8$ 块
 4. 量化：减少数据量
-5. Z字形扫描
+5. Z 字形扫描
 6. 熵编码：霍夫曼编码
 
 **压缩性能指标**：
@@ -71,13 +73,13 @@ $$s = T(r) = (L-1)\int_0^r p_r(w)dw$$
 ### 边缘检测
 
 **一阶导数算子**：
-- Sobel算子：$G_x = \begin{pmatrix}-1&0&1\\-2&0&2\\-1&0&1\end{pmatrix}$
-- Prewitt算子
+- Sobel 算子：$G_x = \begin{pmatrix}-1&0&1\\-2&0&2\\-1&0&1\end{pmatrix}$
+- Prewitt 算子
 
 **二阶导数算子**：
-- Laplac算子：$\nabla^2 f = f(x+1,y)+f(x-1,y)+f(x,y+1)+f(x,y-1)-4f(x,y)$
+- Laplac 算子：$\nabla^2 f = f(x+1,y)+f(x-1,y)+f(x,y+1)+f(x,y-1)-4f(x,y)$
 
-**Canny边缘检测**：
+**Canny 边缘检测**：
 1. 高斯滤波平滑
 2. 计算梯度幅值和方向
 3. 非极大值抑制
@@ -87,7 +89,7 @@ $$s = T(r) = (L-1)\int_0^r p_r(w)dw$$
 
 **阈值分割**：
 - 全局阈值：$g(x,y) = \begin{cases}1 & f(x,y)>T \\ 0 & \text{otherwise}\end{cases}$
-- Otsu自适应阈值：最大类间方差法
+- Otsu 自适应阈值：最大类间方差法
 
 **区域生长**：
 - 选择种子点
@@ -116,11 +118,11 @@ $$s = T(r) = (L-1)\int_0^r p_r(w)dw$$
 ## 经典教材
 - 阮秋琦《数字图像处理》
 - Gonzalez《Digital Image Processing》
--冈萨雷斯《数字图像处理（MATLAB版）》
+-冈萨雷斯《数字图像处理（MATLAB 版）》
 - Szeliski《Computer Vision: Algorithms and Applications》
 
 ## 主要应用领域
-- 医学影像（CT、MRI、X光分析）
+- 医学影像（CT、MRI、X 光分析）
 - 遥感图像处理
 - 工业检测（缺陷检测）
 - 安防监控（人脸识别）

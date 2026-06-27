@@ -1,6 +1,8 @@
 ---
 aliases: [AirPollutionControl, 大气污染控制, Air Quality Control, Emission Control, APC]
 tags: ['EnvironmentalScienceAndEngineering', 'EnvironmentalEngineering', 'AirPollutionControl', 'EmissionControl']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 大气污染控制

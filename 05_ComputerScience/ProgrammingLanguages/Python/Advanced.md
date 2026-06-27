@@ -1,6 +1,8 @@
 ---
 aliases: [Advanced]
 tags: ['ProgrammingLanguages', 'Python', 'Advanced']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Python 进阶特性
@@ -267,7 +269,7 @@ def interactive_counter():
             i += 1
 
 gen = interactive_counter()
-print(next(gen))           # 0 (首次启动必须next或send(None))
+print(next(gen))           # 0 (首次启动必须 next 或 send(None))
 print(gen.send("increment"))  # 1
 print(gen.send("increment"))  # 2
 print(gen.send("reset"))      # 0
@@ -326,7 +328,7 @@ class ManagedFile:
         print(f"关闭文件: {self.filename}")
         if self.file:
             self.file.close()
-        # 返回False则传播异常, True则抑制异常
+        # 返回 False 则传播异常, True 则抑制异常
         return False
 
 with ManagedFile("test.txt", "w") as f:
@@ -368,7 +370,7 @@ def managed_file(filename, mode="r"):
         file.close()
 
 with managed_file("test.txt", "w") as f:
-    f.write("使用contextmanager")
+    f.write("使用 contextmanager")
 
 # 计时上下文管理器
 @contextmanager
@@ -383,7 +385,7 @@ def timed():
 with timed():
     time.sleep(0.3)
 
-# closing - 自动调用close方法
+# closing - 自动调用 close 方法
 from urllib.request import urlopen
 # with closing(urlopen("http://example.com")) as page:
 #     print(page.read())
@@ -405,12 +407,12 @@ print(output)  # '被捕获的内容\n'
 ### 嵌套上下文管理器
 
 ```python
-# 方式1: 嵌套with
+# 方式1: 嵌套 with
 with open("a.txt") as f1:
     with open("b.txt") as f2:
         pass
 
-# 方式2: 单个with多个
+# 方式2: 单个 with 多个
 with open("a.txt") as f1, open("b.txt") as f2:
     pass
 ```
@@ -425,7 +427,7 @@ class MyClass:
 print(type(MyClass))  # <class 'type'>
 print(type(type))     # <class 'type'>
 
-# 使用type动态创建类
+# 使用 type 动态创建类
 MyDynamicClass = type("MyDynamicClass", (object,), {"x": 10, "hello": lambda self: "你好"})
 obj = MyDynamicClass()
 print(obj.x)         # 10

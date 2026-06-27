@@ -1,6 +1,8 @@
 ---
 aliases: [IO]
 tags: ['OperatingSystems', 'IO']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # I/O 管理详解 (Input/Output Management)
@@ -16,7 +18,7 @@ tags: ['OperatingSystems', 'IO']
                      │
         ┌────────────┼────────────┐
         │            │            │
-   内存控制器     I/O总线     DMA控制器
+   内存控制器     I/O 总线     DMA 控制器
         │            │            │
       内存        ┌──┴──┐      磁盘
                   │    │
@@ -27,7 +29,7 @@ tags: ['OperatingSystems', 'IO']
 
 | 组件 | 描述 |
 |------|------|
-| **端口 (Port)** | CPU与设备通信的接口地址 |
+| **端口 (Port)** | CPU 与设备通信的接口地址 |
 | **总线 (Bus)** | 数据传输通道 (PCIe, SATA, USB) |
 | **控制器 (Controller)** | 管理设备的芯片 (南桥, AHCI, NVMe) |
 | **设备 (Device)** | 实际外设 (键盘、鼠标、磁盘、网卡) |
@@ -36,12 +38,12 @@ tags: ['OperatingSystems', 'IO']
 
 | 方式 | 描述 | 示例 |
 |------|------|------|
-| **I/O端口** | 专用指令(如 x86 `IN`/`OUT`) | 键盘(端口0x60) |
-| **内存映射I/O** | 设备寄存器映射到内存地址空间 | 显存(VRAM) |
-| **混合** | 状态寄存器用端口，数据用MMIO | 部分PCIe设备 |
+| **I/O 端口** | 专用指令(如 x86 `IN`/`OUT`) | 键盘(端口0x60) |
+| **内存映射 I/O** | 设备寄存器映射到内存地址空间 | 显存(VRAM) |
+| **混合** | 状态寄存器用端口，数据用 MMIO | 部分 PCIe 设备 |
 
 ```c
-// x86 I/O端口操作
+// x86 I/O 端口操作
 #include <sys/io.h>
 
 // 读取键盘状态
@@ -56,7 +58,7 @@ outb('A', 0x3F8);  // write 'A' to COM1
 
 ### 2.1 轮询 (Polling)
 
-CPU不断检查设备状态寄存器。
+CPU 不断检查设备状态寄存器。
 
 ```c
 // 轮询示例
@@ -69,11 +71,11 @@ void poll_print(char c) {
 ```
 
 **优点:** 简单、可预测
-**缺点:** 浪费CPU周期（适合高速设备）
+**缺点:** 浪费 CPU 周期（适合高速设备）
 
 ### 2.2 中断 (Interrupt)
 
-设备完成操作时向CPU发中断信号。
+设备完成操作时向 CPU 发中断信号。
 
 ```
 CPU                                   设备
@@ -89,7 +91,7 @@ CPU                                   设备
 ```
 
 ```c
-// 中断处理程序示例 (Linux键盘驱动)
+// 中断处理程序示例 (Linux 键盘驱动)
 static irqreturn_t keyboard_interrupt(int irq, void *dev_id) {
     unsigned char scancode = inb(0x60);  // 读取扫描码
     // 处理按键事件
@@ -112,12 +114,12 @@ request_irq(1,                          // IRQ 1 = 键盘
 
 ### 2.3 DMA (Direct Memory Access)
 
-DMA控制器直接在设备和内存间传输数据，无需CPU逐字节搬运。
+DMA 控制器直接在设备和内存间传输数据，无需 CPU 逐字节搬运。
 
 ```
-CPU请求DMA传输:                   DMA传输过程:
+CPU 请求 DMA 传输:                   DMA 传输过程:
 ┌──────────┐                     ┌──────────┐
-│ CPU      │  ← 1.设置DMA控制     │ CPU      │
+│ CPU      │  ← 1.设置 DMA 控制     │ CPU      │
 │          │                     │ (空闲)   │
 └──────────┘                     └──────────┘
      │                                │
@@ -138,7 +140,7 @@ CPU请求DMA传输:                   DMA传输过程:
                                  └──────────┘
 ```
 
-**DMA模式:**
+**DMA 模式:**
 - **总线主控 (Bus Mastering)**: 设备直接控制总线
 
 ```c
@@ -148,10 +150,10 @@ CPU请求DMA传输:                   DMA传输过程:
 dma_addr_t dma_handle;
 void *cpu_addr = dma_alloc_coherent(dev, size, &dma_handle, GFP_KERNEL);
 
-// 启动DMA传输
+// 启动 DMA 传输
 device_start_dma(dma_handle, size, direction);
 
-// 等待DMA完成(中断处理中)
+// 等待 DMA 完成(中断处理中)
 dma_free_coherent(dev, size, cpu_addr, dma_handle);
 ```
 
@@ -159,7 +161,7 @@ dma_free_coherent(dev, size, cpu_addr, dma_handle);
 
 ```
 ┌──────────────────────────────────┐
-│ 用户空间 I/O (stdio, C库)        │
+│ 用户空间 I/O (stdio, C 库)        │
 │ fopen/fread/fwrite/printf/scanf  │
 ├──────────────────────────────────┤
 │ 设备无关操作系统层               │
@@ -184,10 +186,10 @@ dma_free_coherent(dev, size, cpu_addr, dma_handle);
 write(fd, buf, count)
         │
         ▼
-    sys_write()           ← 系统调用入口 (在kernel中)
+    sys_write()           ← 系统调用入口 (在 kernel 中)
         │
         ▼
-    vfs_write()           ← VFS层 (文件系统无关)
+    vfs_write()           ← VFS 层 (文件系统无关)
         │
         ▼
     ext4_file_write()     ← 文件系统层
@@ -196,10 +198,10 @@ write(fd, buf, count)
     generic_file_write()  ← 通用文件操作
         │
         ▼
-    block layer            ← 块层 (I/O调度器)
+    block layer            ← 块层 (I/O 调度器)
         │
         ▼
-    SCSI/ATA驱动           ← 驱动层
+    SCSI/ATA 驱动           ← 驱动层
         │
         ▼
     磁盘控制器/硬件        ← 硬件层
@@ -235,7 +237,7 @@ write(fd, buf, count)
 │  │  │  │  │  │  │  │  │  │     │
 │  └──┴──┴──┴──┴──┴──┴──┴──┘     │
 │     ↑          ↑                 │
-│   in指针      out指针           │
+│   in 指针      out 指针           │
 └─────────────────────────────────┘
 
 in: 生产者(设备)写入位置
@@ -257,7 +259,7 @@ char get() {
 ### 缓冲的目的
 
 1. **速度匹配**: 设备与内存速度差异
-2. **数据聚合**: 合并多次小I/O为一次大I/O
+2. **数据聚合**: 合并多次小 I/O 为一次大 I/O
 3. **解耦**: 生产者与消费者无需直接同步
 
 ## 5. 缓存 (Caching)
@@ -277,9 +279,9 @@ write()
 └──────────┘
     │
     ▼
-read() (命中: 直接返回, 无需磁盘I/O)
+read() (命中: 直接返回, 无需磁盘 I/O)
 
-// sync命令强制刷缓存
+// sync 命令强制刷缓存
 sync      # 刷所有缓存
 fsync(fd) # 刷单个文件
 ```
@@ -309,14 +311,14 @@ fsync(fd) # 刷单个文件
 ```
 
 ```bash
-# Linux打印系统
+# Linux 打印系统
 lp file.txt              # 提交打印任务
 lpq                      # 查看打印队列
 lprm job_id              # 删除打印任务
 lpc status               # 查看打印机状态
 
 # 假脱机目录
-ls -l /var/spool/cups/   # CUPS打印系统假脱机目录
+ls -l /var/spool/cups/   # CUPS 打印系统假脱机目录
 ```
 
 **Spooling vs 缓冲:**
@@ -338,7 +340,7 @@ ls -l /var/spool/cups/   # CUPS打印系统假脱机目录
              │ ┌──────┐ │
              │ │ 磁道   ││  (track)
              │ │┌────┐ ││
-             │ ││扇区 ││ │  (sector, 512B或4KB)
+             │ ││扇区 ││ │  (sector, 512B 或4KB)
              │ │└────┘ ││
              │ │       ││
              │ └──────┘ │
@@ -351,7 +353,7 @@ ls -l /var/spool/cups/   # CUPS打印系统假脱机目录
 
 **柱面 (Cylinder):** 所有盘片相同磁道编号
 
-**磁盘地址:** CHS (Cylinder-Head-Sector) → 现代用LBA (Logical Block Addressing)
+**磁盘地址:** CHS (Cylinder-Head-Sector) → 现代用 LBA (Logical Block Addressing)
 
 ```c
 // LBA 到 CHS 转换
@@ -381,14 +383,14 @@ void lba_to_chs(int lba, int *c, int *h, int *s) {
 
 - **磨损均衡 (Wear Leveling)**: 均匀分配写入到所有块
 - **垃圾回收 (GC)**: 后台清理无效数据块
-- **TRIM**: 通知SSD哪些页已不再使用
-- **OP (Over-Provisioning)**: 预留空间用于GC和磨损均衡
+- **TRIM**: 通知 SSD 哪些页已不再使用
+- **OP (Over-Provisioning)**: 预留空间用于 GC 和磨损均衡
 
 ```bash
-# Linux查看磁盘信息
-hdparm -I /dev/sda       # 查看HDD/SSD详细信息
-smartctl -a /dev/sda      # 查看S.M.A.R.T.信息
-fstrim -v /               # 手动触发TRIM(SSD)
+# Linux 查看磁盘信息
+hdparm -I /dev/sda       # 查看 HDD/SSD 详细信息
+smartctl -a /dev/sda      # 查看 S.M.A.R.T.信息
+fstrim -v /               # 手动触发 TRIM(SSD)
 ```
 
 ## 9. 设备驱动程序 (Device Drivers)
@@ -401,7 +403,7 @@ fstrim -v /               # 手动触发TRIM(SSD)
 | **块设备** | 随机访问数据块 | 磁盘、SSD | `read/write + mmap` |
 | **网络设备** | 数据包 | 网卡 | `socket` 接口 |
 
-### Linux字符设备驱动框架
+### Linux 字符设备驱动框架
 
 ```c
 #include <linux/module.h>

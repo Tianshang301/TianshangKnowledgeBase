@@ -7,6 +7,8 @@ aliases:
   - Training Adaptation
   - 训练适应
 tags:
+created: 2026-05-17
+updated: 2026-05-16
   - SportsScience
   - SportsTraining
   - ExercisePhysiology

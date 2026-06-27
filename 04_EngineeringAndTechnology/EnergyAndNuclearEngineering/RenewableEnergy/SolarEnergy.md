@@ -1,6 +1,8 @@
 ---
 aliases: [SolarEnergy, 太阳能, Photovoltaics]
 tags: ['EnergyAndNuclearEngineering', 'RenewableEnergy', 'SolarEnergy', 'Photovoltaics']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 太阳能 (Solar Energy / Photovoltaics)

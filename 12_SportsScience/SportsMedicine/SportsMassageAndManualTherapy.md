@@ -1,6 +1,8 @@
 ---
 aliases: [SportsMassageAndManualTherapy]
 tags: ['SportsMedicine', 'SportsMassageAndManualTherapy']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 运动按摩与手法治疗
@@ -49,7 +51,7 @@ tags: ['SportsMedicine', 'SportsMassageAndManualTherapy']
 
 以平稳抚摩、柔和揉捏和深压放松为主。
 
-促进代谢废物排出减轻DOMS。
+促进代谢废物排出减轻 DOMS。
 
 加速肌肉修复。
 
@@ -112,7 +114,7 @@ tags: ['SportsMedicine', 'SportsMassageAndManualTherapy']
 
 恢复关节滑动滚动和旋转的动度。
 
-Maitland手法分I至IV级。
+Maitland 手法分 I 至 IV 级。
 
 扳机点治疗通过按压加喷雾拉伸使过度紧张的肌节带消除疼痛。
 

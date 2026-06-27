@@ -1,6 +1,8 @@
 ---
 aliases: [HumanGeography]
 tags: ['JuniorHigh', 'Geography', 'HumanGeography']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 人文地理
@@ -188,9 +190,9 @@ tags: ['JuniorHigh', 'Geography', 'HumanGeography']
 - **功能**：数据采集、存储、分析、显示
 - **应用**：城市规划、交通管理、人口分析
 
-### 3S技术综合应用
-- 精准农业：RS获取作物生长信息，GPS定位，GIS分析决策
-- 智慧城市：GIS管理城市设施，GPS监控交通，RS监测环境
+### 3S 技术综合应用
+- 精准农业：RS 获取作物生长信息，GPS 定位，GIS 分析决策
+- 智慧城市：GIS 管理城市设施，GPS 监控交通，RS 监测环境
 
 ## 参考资料
 - 初中地理教材

@@ -1,6 +1,8 @@
 ---
 aliases: [Dockerfile]
-tags: ['SoftwareEngineering', 'DevOpsAndCI_CD', 'Dockerfile']
+tags: ['SoftwareEngineering', 'DevOpsAndCICD', 'Dockerfile']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Dockerfile 最佳实践
@@ -362,4 +364,4 @@ CMD ["node", "dist/server.js"]
 - [[K8s]]
 - [[QuickStart]]
 - [[BestPractices]]
-- [[CI-CD与DevOps实践]]
+- [[CI-CD 与 DevOps 实践]]

@@ -1,6 +1,8 @@
 ---
 aliases: [KotlinBasics]
 tags: ['05_ComputerScience', 'ProgrammingLanguages', 'Kotlin']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # Kotlin 基础

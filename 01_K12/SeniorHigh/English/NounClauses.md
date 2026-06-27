@@ -1,6 +1,8 @@
 ---
 aliases: [NounClauses, 名词性从句]
 tags: ['NounClauses', 'EnglishGrammar', 'K12', 'SeniorHigh', 'Syntax', 'Clause']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 名词性从句 (Noun Clauses)

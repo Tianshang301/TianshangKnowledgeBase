@@ -1,6 +1,8 @@
 ---
 aliases: [AncientPhilosophy]
 tags: ['03_HumanitiesAndSocialSciences', 'Philosophy', 'AncientPhilosophy']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # AncientPhilosophy
@@ -193,7 +195,7 @@ graph TD
 4. 目的因：存在的目的
 
 $$ \text{四因} = \text{质料} + \text{形式}
-+ \text{动因} + \text{目的} $$
+- \text{动因} + \text{目的} $$
 
 **形而上学**
 研究"存在作为存在"。

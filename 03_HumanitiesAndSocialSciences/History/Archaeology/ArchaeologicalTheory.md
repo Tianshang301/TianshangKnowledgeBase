@@ -4,6 +4,8 @@ aliases:
   - 考古学理论
   - 考古学方法论
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - Archaeology
   - ArchaeologicalTheory
   - CulturalEvolution
@@ -29,7 +31,7 @@ graph LR
     E --> J["民族考古学<br/>Ethnoarchaeology"]
     F --> K["语境考古学<br/>Contextual Archaeology"]
     F --> L["物质性研究<br/>Materiality Studies"]
-    B --> M["定量分析与GIS<br/>Quantitative Analysis & GIS"]
+    B --> M["定量分析与 GIS<br/>Quantitative Analysis & GIS"]
     C --> N["原住民考古学<br/>Indigenous Archaeology"]
 ```
 
@@ -181,7 +183,7 @@ $$S_a > S_b \implies \text{Age}(S_a) < \text{Age}(S_b)$$
 当代考古学理论正在多个前沿方向上展开新的探索：
 
 - **大数据的考古学应用**：航空激光扫描（LiDAR）揭示被森林覆盖的古代城市——无人机遥感和大规模表面采集产生了前所未有的数据量，对考古学的解释框架提出了新的要求——我们如何从"大"数据中提炼出"深"解释？
-- **古DNA与考古学的整合（Archaeogenetics）**：古基因组学能够追踪古代人群的迁徙、混合和替换——但基因数据不等于文化身份，如何将生物信息与考古文化的分类体系对接仍是一个开放的理论问题。
+- **古 DNA 与考古学的整合（Archaeogenetics）**：古基因组学能够追踪古代人群的迁徙、混合和替换——但基因数据不等于文化身份，如何将生物信息与考古文化的分类体系对接仍是一个开放的理论问题。
 - **多物种考古学（Multispecies Archaeology）**：将非人类物种（动物、植物、微生物）纳入考古学的分析框架——挑战了人类中心主义的传统视角。
 - **当代物质文化研究（Archaeology of the Contemporary Past）**：将考古学的方法应用于 20 世纪和 21 世纪的物质遗存——垃圾考古（Garbology）、电子垃圾、冷战遗迹——延展了"考古"的时间边界。
 

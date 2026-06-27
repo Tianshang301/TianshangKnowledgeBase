@@ -1,6 +1,8 @@
 ---
 aliases: [Branch]
 tags: ['SoftwareEngineering', 'GitAndVersionControl', 'Branch']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Git 分支策略

@@ -1,6 +1,8 @@
 ---
 aliases: [QuantumCommunication]
 tags: ['QuantumInformationScience', 'QuantumCommunication']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 量子通信
@@ -16,7 +18,7 @@ tags: ['QuantumInformationScience', 'QuantumCommunication']
 - 测量塌缩原理
 - 海森堡不确定性原?
 **协议步骤?*
-1. Alice随机选择基（Z基或X基）和比特?2. Alice发相应的量子?3. Bob随机选择基测?4. Bob公开测量基，Alice保留正确基的结果
+1. Alice 随机选择基（Z 基或 X 基）和比特?2. Alice 发相应的量子?3. Bob 随机选择基测?4. Bob 公开测量基，Alice 保留正确基的结果
 5. 公开部分结果棢测窃?6. 生成共享密钥
 
 **安全性：**
@@ -29,10 +31,10 @@ tags: ['QuantumInformationScience', 'QuantumCommunication']
 
 **原理?*
 - 基于量子纠缠
-- Bell不等式检?- 非局域关?
+- Bell 不等式检?- 非局域关?
 **协议步骤?*
-1. 源产生纠缠对分发给Alice和Bob
-2. 双方独立选择测量?3. 公开测量?4. 利用Bell不等式检测窃?5. 生成共享密钥
+1. 源产生纠缠对分发给 Alice 和 Bob
+2. 双方独立选择测量?3. 公开测量?4. 利用 Bell 不等式检测窃?5. 生成共享密钥
 
 **优势?*
 - 更强的安全?- 可检测中间人攻击
@@ -48,13 +50,13 @@ tags: ['QuantumInformationScience', 'QuantumCommunication']
 **目标?* 传输未知量子态，而非传输物质
 
 **资源?*
-- EPR纠缠?- 经典通信信道
+- EPR 纠缠?- 经典通信信道
 
 **步骤?*
-1. Alice和Bob共享纠缠?2. Alice对要传的粒子和自己持有的纠缠粒子进行Bell测量
-3. Alice将测量结果过经典信道告诉Bob
-4. Bob根据结果对自己的粒子进行相应操作
-5. Bob得到原始量子?
+1. Alice 和 Bob 共享纠缠?2. Alice 对要传的粒子和自己持有的纠缠粒子进行 Bell 测量
+3. Alice 将测量结果过经典信道告诉 Bob
+4. Bob 根据结果对自己的粒子进行相应操作
+5. Bob 得到原始量子?
 **注意事项?*
 - 不违反光速限制（霢要经典信息）
 - 原始态被破坏（不可克隆）
@@ -131,12 +133,12 @@ tags: ['QuantumInformationScience', 'QuantumCommunication']
 - 2016年发?- 世界首颗量子科学实验卫星
 - 中国科学抢术大学团?
 **主要实验?*
-- 卫星到地面QKD
+- 卫星到地面 QKD
 - 千公里级纠缠分发
 - 量子隐形传?
 **成果?*
 - 1200公里纠缠分发
-- 星地QKD速率
+- 星地 QKD 速率
 - 地洲际量子信
 
 ### 城域量子网络
@@ -145,7 +147,7 @@ tags: ['QuantumInformationScience', 'QuantumCommunication']
 - 合肥量子城域?- 北京量子通信网络
 - 上海陆家嘴量子网?
 **抢术路线：**
-- 光纤QKD网络
+- 光纤 QKD 网络
 - 可信中继
 - 与经典网络共?
 ### 国际合作
@@ -170,11 +172,11 @@ tags: ['QuantumInformationScience', 'QuantumCommunication']
 - 特洛伊木马攻?
 **对策?*
 - 测量设备无关（MDI）QKD
-- 双场QKD
-- 设备无关QKD
+- 双场 QKD
+- 设备无关 QKD
 
 ### 安全性验?
-**Bell不等式检验：**
+**Bell 不等式检验：**
 - 验证纠缠质量
 - 棢测窃?- 设备无关安全?
 **参数估计?*

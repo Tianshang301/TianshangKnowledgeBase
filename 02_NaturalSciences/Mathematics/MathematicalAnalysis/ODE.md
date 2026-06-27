@@ -7,6 +7,8 @@ aliases:
   - 一阶 ODE
   - 拉普拉斯变换
 tags:
+created: 2026-05-17
+updated: 2026-05-13
   - mathematics
   - ODE
   - differential equations

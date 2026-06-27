@@ -1,6 +1,8 @@
 ---
 aliases: [Semantics]
 tags: ['Linguistics', 'Semantics', 'LexicalSemantics', 'FormalSemantics', 'Pragmatics']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # Semantics
@@ -121,7 +123,7 @@ Richard Montague 证明自然语言
 可以用与形式语言相同的数学工具描述，
 将句法和语义统一在范畴语法的框架下。
 
-### Lambd演算 (Lambda Calculus)
+### Lambd 演算 (Lambda Calculus)
 
 $$\lambda x.\text{DOG}(x)$$
 

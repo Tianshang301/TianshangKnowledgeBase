@@ -1,6 +1,8 @@
 ---
 aliases: [Vocabulary3500]
 tags: ['SeniorHigh', 'English', 'Vocabulary3500']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # 高中英语 · 新课?500 词汇完整?
@@ -4471,7 +4473,7 @@ tags: ['SeniorHigh', 'English', 'Vocabulary3500']
 
 | wound | /wuːnd/ | n. | 伤口 | treat a wound |
 
-| X-ray | /ˈeks reɪ/ | n. | X射线 | have an X-ray |
+| X-ray | /ˈeks reɪ/ | n. | X 射线 | have an X-ray |
 
 
 

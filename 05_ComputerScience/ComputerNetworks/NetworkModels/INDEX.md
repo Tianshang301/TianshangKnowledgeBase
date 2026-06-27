@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['ComputerNetworks', 'NetworkModels', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 网络模型
@@ -10,4 +12,4 @@ tags: ['ComputerNetworks', 'NetworkModels', 'INDEX']
 ## 文件
 
 - [[NetworkModels]]
-- [[TCPIP协议栈详解]]
+- [[TCPIP 协议栈详解]]

@@ -1,6 +1,8 @@
 ---
 aliases: [KubernetesInDepth]
 tags: ['CloudComputingAndDistributedSystems', 'KubernetesInDepth']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Kubernetes 深入

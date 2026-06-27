@@ -1,6 +1,8 @@
 ---
 aliases: [ComputerGraphics]
 tags: ['ComputerGraphicsAndVision', 'ComputerGraphics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 计算机图形学

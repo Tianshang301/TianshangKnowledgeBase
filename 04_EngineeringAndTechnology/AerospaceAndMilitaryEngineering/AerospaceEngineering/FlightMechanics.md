@@ -1,6 +1,8 @@
 ---
 aliases: [FlightMechanics]
 tags: ['AerospaceAndMilitaryEngineering', 'AerospaceEngineering', 'FlightMechanics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 飞行力学
@@ -53,7 +55,7 @@ $$C_{n\beta} > 0$$
 - 短周期模态：快速阻尼振荡
 - 长周期模态（Phugoid）：慢速振荡
 
-**Phugoid振荡频率**：
+**Phugoid 振荡频率**：
 $$\omega_p = \sqrt{2}\frac{g}{V}$$
 
 | 模态 | 周期 | 阻尼特性 | 主要影响因素 |

@@ -1,6 +1,8 @@
 ---
 aliases: [LivestockEconomics]
 tags: ['AnimalScience', 'LivestockEconomics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 畜牧经济学
@@ -18,7 +20,7 @@ tags: ['AnimalScience', 'LivestockEconomics']
 **基本生产函数：**
 $$Q = f(X_1, X_2, \cdots, X_n)$$
 
-其中Q为畜产品产量，X_i为生产要素投入（饲料、劳动力、资本、土地等）。
+其中 Q 为畜产品产量，X_i 为生产要素投入（饲料、劳动力、资本、土地等）。
 
 **柯布-道格拉斯生产函数：**
 $$Q = A \times L^\alpha \times K^\beta$$
@@ -59,7 +61,7 @@ $$Q = A \times L^\alpha \times K^\beta$$
 
 **长期成本：**
 - 所有要素均可变
-- 长期平均成本曲线呈U形
+- 长期平均成本曲线呈 U 形
 - 规模经济阶段下降，规模不经济阶段上升
 
 ## 畜产品供给与需求
@@ -138,8 +140,8 @@ $$E_d = \frac{\Delta Q_d / Q_d}{\Delta P / P}$$
 
 **集中度指标（CR₄）：**
 - 前4家企业市场份额之和
-- 中国生猪屠宰行业CR₄约10%，集中度偏低
-- 饲料行业CR₄约30%，中等集中
+- 中国生猪屠宰行业 CR₄约10%，集中度偏低
+- 饲料行业 CR₄约30%，中等集中
 
 ## 畜牧业产业链管理
 
@@ -263,7 +265,7 @@ $$E_d = \frac{\Delta Q_d / Q_d}{\Delta P / P}$$
 
 **贸易壁垒：**
 - 关税壁垒
-- 技术性贸易壁垒（SPS措施）
+- 技术性贸易壁垒（SPS 措施）
 - 地理标志保护
 
 ## 中国畜牧业区域布局

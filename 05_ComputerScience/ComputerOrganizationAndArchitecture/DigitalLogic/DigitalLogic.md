@@ -1,6 +1,8 @@
 ---
 aliases: [DigitalLogic]
 tags: ['ComputerOrganizationAndArchitecture', 'DigitalLogic', 'DigitalLogic']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 数字逻辑 (Digital Logic)

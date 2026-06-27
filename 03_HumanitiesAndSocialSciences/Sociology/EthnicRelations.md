@@ -1,6 +1,8 @@
 ---
 aliases: [EthnicRelations]
 tags: ['03_HumanitiesAndSocialSciences', 'Sociology', 'EthnicRelations']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # EthnicRelations
@@ -169,7 +171,7 @@ $$ r \approx -0.26 $$
 导致文化碎片化。
 弱化国家认同。
 
-Kymlicka辩护：
+Kymlicka 辩护：
 少数群体权利
 在自由主义框架内
 满足正义和社会稳定。

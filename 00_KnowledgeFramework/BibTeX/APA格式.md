@@ -1,11 +1,11 @@
 ---
-aliases: [APA格式]
+aliases: [APA 格式]
 tags: ['CitationStyle', 'AcademicWriting', 'ReferenceManagement']
 ---
 
-# APA格式
+# APA 格式
 
-APA格式（APA Style）由美国心理学会（American Psychological Association）制定，是社会科学领域最广泛使用的引用格式之一。当前最新版本为 APA 第7版（7th Edition），第6版仍被部分期刊使用。
+APA 格式（APA Style）由美国心理学会（American Psychological Association）制定，是社会科学领域最广泛使用的引用格式之一。当前最新版本为 APA 第7版（7th Edition），第6版仍被部分期刊使用。
 
 ## APA 的基本原则
 

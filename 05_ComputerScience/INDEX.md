@@ -1,16 +1,18 @@
 ---
 aliases: [INDEX]
 tags: ['INDEX']
+created: 2026-05-16
+updated: 2026-06-27
 ---
 
 # 05_ComputerScience
 
-本索引汇集了 05_ComputerScience 相关的核心知识文件，涵盖 ArtificialIntelligence/AIGC/INDEX - AIGC、ArtificialIntelligence/AIEthics/INDEX - AI伦理、ArtificialIntelligence/ComputerVision/INDEX - 计算机视觉 等内容。
+本索引汇集了 05_ComputerScience 相关的核心知识文件，涵盖 ArtificialIntelligence/AIGC/INDEX - AIGC、ArtificialIntelligence/AIEthics/INDEX - AI 伦理、ArtificialIntelligence/ComputerVision/INDEX - 计算机视觉 等内容。
 
 ## 文件
 
 - [[05_ComputerScience/ArtificialIntelligence/AIGC/INDEX]] - AIGC
-- [[05_ComputerScience/ArtificialIntelligence/AIEthics/INDEX]] - AI伦理
+- [[05_ComputerScience/ArtificialIntelligence/AIEthics/INDEX]] - AI 伦理
 - [[05_ComputerScience/ArtificialIntelligence/ComputerVision/INDEX]] - 计算机视觉
 - [[05_ComputerScience/ArtificialIntelligence/KnowledgeRepresentation/INDEX]] - 知识表示
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/NeuralNetworksAndDeepLearning/INDEX]] - 神经网络与深度学习
@@ -31,7 +33,7 @@ tags: ['INDEX']
 - [[05_ComputerScience/CloudComputingAndDistributedSystems/CloudComputingAndDistributedSystems]] - 云计算与分布式系统
 - [[05_ComputerScience/CloudComputingAndDistributedSystems/ConsensusAndCoordination]] - 共识与协调
 - [[05_ComputerScience/CloudComputingAndDistributedSystems/DistributedStorage]] - 分布式存储
-- [[05_ComputerScience/CloudComputingAndDistributedSystems/KubernetesInDepth]] - Kubernetes深入
+- [[05_ComputerScience/CloudComputingAndDistributedSystems/KubernetesInDepth]] - Kubernetes 深入
 - [[05_ComputerScience/CompilerPrinciples/CodeGen]] - 代码生成
 - [[05_ComputerScience/CompilerPrinciples/IR]] - 中间表示
 - [[05_ComputerScience/CompilerPrinciples/Lexical]] - 词法分析
@@ -52,7 +54,7 @@ tags: ['INDEX']
 - [[05_ComputerScience/ComputerNetworks/NetworkProtocols/INDEX]] - 网络协议
 - [[05_ComputerScience/ComputerNetworks/NetworkSecurity/INDEX]] - 网络安全
 - [[05_ComputerScience/ComputerNetworks/WirelessNetworks/INDEX]] - 无线网络
-- [[05_ComputerScience/ComputerOrganizationAndArchitecture/CPUArchitecture/INDEX]] - CPU体系结构
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/CPUArchitecture/INDEX]] - CPU 体系结构
 - [[05_ComputerScience/ComputerOrganizationAndArchitecture/DigitalLogic/INDEX]] - 数字逻辑
 - [[05_ComputerScience/ComputerOrganizationAndArchitecture/InstructionSet/INDEX]] - 指令集
 - [[05_ComputerScience/ComputerOrganizationAndArchitecture/MemoryHierarchy/INDEX]] - 存储层次
@@ -60,13 +62,13 @@ tags: ['INDEX']
 - [[05_ComputerScience/Cybersecurity/CryptographyInPractice]] - 密码学实践
 - [[05_ComputerScience/Cybersecurity/Cybersecurity]] - 网络安全
 - [[05_ComputerScience/Cybersecurity/PenetrationTesting]] - 渗透测试
-- [[05_ComputerScience/Cybersecurity/WebSecurity]] - Web安全
-- [[05_ComputerScience/DatabasesAndInformationSystems/MongoDBDeep]] - MongoDB深入
-- [[05_ComputerScience/DatabasesAndInformationSystems/MySQLDeep]] - MySQL深入
+- [[05_ComputerScience/Cybersecurity/WebSecurity]] - Web 安全
+- [[05_ComputerScience/DatabasesAndInformationSystems/MongoDBDeep]] - MongoDB 深入
+- [[05_ComputerScience/DatabasesAndInformationSystems/MySQLDeep]] - MySQL 深入
 - [[05_ComputerScience/DatabasesAndInformationSystems/Optimization]] - 数据库优化
-- [[05_ComputerScience/DatabasesAndInformationSystems/PostgreSQLDeep]] - PostgreSQL深入
-- [[05_ComputerScience/DatabasesAndInformationSystems/RedisDeep]] - Redis深入
-- [[05_ComputerScience/DatabasesAndInformationSystems/SQLDeep]] - SQL深入
+- [[05_ComputerScience/DatabasesAndInformationSystems/PostgreSQLDeep]] - PostgreSQL 深入
+- [[05_ComputerScience/DatabasesAndInformationSystems/RedisDeep]] - Redis 深入
+- [[05_ComputerScience/DatabasesAndInformationSystems/SQLDeep]] - SQL 深入
 - [[05_ComputerScience/DatabasesAndInformationSystems/Transaction]] - 事务
 - [[05_ComputerScience/DatabasesAndInformationSystems/BigDataTechnologies/INDEX]] - 大数据技术
 - [[05_ComputerScience/DatabasesAndInformationSystems/DataWarehousing/INDEX]] - 数据仓库
@@ -74,7 +76,7 @@ tags: ['INDEX']
 - [[05_ComputerScience/DatabasesAndInformationSystems/NoSQL/INDEX]] - NoSQL
 - [[05_ComputerScience/DatabasesAndInformationSystems/RelationalDatabases/INDEX]] - 关系数据库
 - [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/Backtracking]] - 回溯
-- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BFSDFS]] - BFS与DFS
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BFSDFS]] - BFS 与 DFS
 - [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BinarySearch]] - 二分搜索
 - [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BitManipulation]] - 位运算
 - [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/Dijkstra]] - Dijkstra
@@ -90,16 +92,16 @@ tags: ['INDEX']
 - [[05_ComputerScience/EngineeringDevelopment/DesktopDevelopment/INDEX]] - 桌面开发
 - [[05_ComputerScience/EngineeringDevelopment/GameDevelopment/INDEX]] - 游戏开发
 - [[05_ComputerScience/EngineeringDevelopment/MobileDevelopment/INDEX]] - 移动开发
-- [[05_ComputerScience/EngineeringDevelopment/WebDevelopment/INDEX]] - Web开发
+- [[05_ComputerScience/EngineeringDevelopment/WebDevelopment/INDEX]] - Web 开发
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/AnalogCircuits/INDEX]] - 模拟电路
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/Arduino/INDEX]] - Arduino
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/DigitalCircuits/INDEX]] - 数字电路
-- [[05_ComputerScience/HardwareAndEmbeddedSystems/EmbeddedLinux/INDEX]] - 嵌入式Linux
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/EmbeddedLinux/INDEX]] - 嵌入式 Linux
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/FPGA/INDEX]] - FPGA
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/IoT/INDEX]] - 物联网
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/Microcontrollers/MCU51/INDEX]] - 51单片机
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/Microcontrollers/STM32/INDEX]] - STM32
-- [[05_ComputerScience/HardwareAndEmbeddedSystems/PCB_Design/INDEX]] - PCB设计
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/PCBDesign/INDEX]] - PCB 设计
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/RaspberryPi/INDEX]] - Raspberry Pi
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/Robotics/INDEX]] - 机器人
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/RTOS/INDEX]] - 实时操作系统
@@ -109,7 +111,7 @@ tags: ['INDEX']
 - [[05_ComputerScience/HumanComputerInteraction/UsabilityEngineering]] - 可用性工程
 - [[05_ComputerScience/OperatingSystems/FileSystem]] - 文件系统
 - [[05_ComputerScience/OperatingSystems/IO]] - 输入输出
-- [[05_ComputerScience/OperatingSystems/LinuxKernel]] - Linux内核
+- [[05_ComputerScience/OperatingSystems/LinuxKernel]] - Linux 内核
 - [[05_ComputerScience/OperatingSystems/Memory]] - 内存管理
 - [[05_ComputerScience/OperatingSystems/Process]] - 进程
 - [[05_ComputerScience/OperatingSystems/Scheduling]] - 调度
@@ -122,7 +124,7 @@ tags: ['INDEX']
 - [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/ProfessionalEnglish/ProfessionalEnglish]] - 专业英语
 - [[05_ComputerScience/ProfessionalEnglish/技术文档写作与演讲]] - 技术文档写作与演讲
 - [[05_ComputerScience/ProgrammingLanguages/Assembly/INDEX]] - 汇编
-- [[05_ComputerScience/ProgrammingLanguages/C_Cpp/INDEX]] - C/C++
+- [[05_ComputerScience/ProgrammingLanguages/CCpp/INDEX]] - C/C++
 - [[05_ComputerScience/ProgrammingLanguages/CSharp/INDEX]] - C#
 - [[05_ComputerScience/ProgrammingLanguages/Go/INDEX]] - Go
 - [[05_ComputerScience/ProgrammingLanguages/Java/INDEX]] - Java
@@ -131,13 +133,52 @@ tags: ['INDEX']
 - [[05_ComputerScience/ProgrammingLanguages/Python/INDEX]] - Python
 - [[05_ComputerScience/ProgrammingLanguages/Rust/INDEX]] - Rust
 - [[05_ComputerScience/ProgrammingLanguages/Swift/INDEX]] - Swift
-- [[05_ComputerScience/ProgrammingLanguages/Web/INDEX]] - Web前端
+- [[05_ComputerScience/ProgrammingLanguages/Web/INDEX]] - Web 前端
 - [[05_ComputerScience/SoftwareEngineering/AgileMethodologies/INDEX]] - 敏捷方法
 - [[05_ComputerScience/SoftwareEngineering/DesignPatterns/INDEX]] - 设计模式
-- [[05_ComputerScience/SoftwareEngineering/DevOpsAndCI_CD/INDEX]] - DevOps与CI/CD
-- [[05_ComputerScience/SoftwareEngineering/GitAndVersionControl/INDEX]] - Git与版本控制
+- [[05_ComputerScience/SoftwareEngineering/DevOpsAndCICD/INDEX]] - DevOps 与 CI/CD
+- [[05_ComputerScience/SoftwareEngineering/GitAndVersionControl/INDEX]] - Git 与版本控制
 - [[05_ComputerScience/SoftwareEngineering/SoftwareDevelopmentLifecycle/INDEX]] - 软件开发生命周期
 - [[05_ComputerScience/SoftwareEngineering/SoftwareTesting/INDEX]] - 软件测试
 - [[05_ComputerScience/TheoryOfComputation/AutomataTheory]] - 自动机理论
 - [[05_ComputerScience/TheoryOfComputation/ComputationalComplexity]] - 计算复杂性
+- [[05_ComputerScience/QuantumComputing/QubitAndQuantumGates]] - 量子比特与量子门
+- [[05_ComputerScience/QuantumComputing/QuantumAlgorithms]] - 量子算法
+- [[05_ComputerScience/QuantumComputing/QuantumErrorCorrection]] - 量子纠错
+- [[05_ComputerScience/QuantumComputing/QuantumProgrammingFrameworks]] - 量子编程框架
+- [[05_ComputerScience/QuantumComputing/QuantumHardware]] - 量子硬件
+- [[05_ComputerScience/QuantumComputing/QuantumMachineLearning]] - 量子机器学习
+- [[05_ComputerScience/EdgeComputing/EdgeComputingArchitecture]] - 边缘计算架构
+- [[05_ComputerScience/EdgeComputing/MobileEdgeComputing]] - 移动边缘计算
+- [[05_ComputerScience/EdgeComputing/EdgeAI]] - 边缘 AI
+- [[05_ComputerScience/EdgeComputing/EdgeSecurity]] - 边缘安全
+- [[05_ComputerScience/EdgeComputing/FogComputing]] - 雾计算
+- [[05_ComputerScience/MLOpsAndLLMOps/MLOpsLifecycle]] - MLOps 生命周期
+- [[05_ComputerScience/MLOpsAndLLMOps/ModelServing]] - 模型服务
+- [[05_ComputerScience/MLOpsAndLLMOps/LLMFineTuning]] - LLM 微调
+- [[05_ComputerScience/MLOpsAndLLMOps/RAGSystem]] - RAG 系统
+- [[05_ComputerScience/MLOpsAndLLMOps/AIAgentFrameworks]] - AI Agent 框架
+- [[05_ComputerScience/DataEngineering/ETLandELT]] - ETL 与 ELT
+- [[05_ComputerScience/DataEngineering/DataLakehouse]] - 数据湖仓
+- [[05_ComputerScience/DataEngineering/SparkAndFlink]] - Spark 与 Flink
+- [[05_ComputerScience/DataEngineering/DataGovernance]] - 数据治理
+- [[05_ComputerScience/DataEngineering/RealTimeDataPipeline]] - 实时数据管道
+- [[05_ComputerScience/ARVRXR/VRDevelopment]] - VR 开发
+- [[05_ComputerScience/ARVRXR/ARDevelopment]] - AR 开发
+- [[05_ComputerScience/ARVRXR/SpatialComputing]] - 空间计算
+- [[05_ComputerScience/ARVRXR/RenderingPipeline]] - 渲染管线
+- [[05_ComputerScience/ARVRXR/XRInteractionDesign]] - XR 交互设计
+- [[05_ComputerScience/ARVRXR/DigitalTwin]] - 数字孪生
+- [[05_ComputerScience/GameEngineDevelopment/UnrealEngine5]] - 虚幻引擎 5
+- [[05_ComputerScience/GameEngineDevelopment/UnityDeep]] - Unity 深入
+- [[05_ComputerScience/GameEngineDevelopment/GamePhysics]] - 游戏物理
+- [[05_ComputerScience/GameEngineDevelopment/GraphicsRendering]] - 图形渲染
+- [[05_ComputerScience/GameEngineDevelopment/GameAI]] - 游戏 AI
+- [[05_ComputerScience/RustDeepDive/OwnershipAndBorrowing]] - 所有权与借用
+- [[05_ComputerScience/RustDeepDive/AsyncRust]] - 异步 Rust
+- [[05_ComputerScience/RustDeepDive/UnsafeAndFFI]] - Unsafe 与 FFI
+- [[05_ComputerScience/GoDeepDive/GoroutineAndChannel]] - Goroutine 与 Channel
+- [[05_ComputerScience/GoDeepDive/GoConcurrencyPatterns]] - Go 并发模式
+- [[05_ComputerScience/GoDeepDive/GoMicroservices]] - Go 微服务
+- [[05_ComputerScience/MobileCrossPlatform/FlutterDeep]] - Flutter 深入
 - [[LearningPath]]

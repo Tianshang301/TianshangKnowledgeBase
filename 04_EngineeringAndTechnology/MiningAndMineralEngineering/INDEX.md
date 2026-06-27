@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['04_EngineeringAndTechnology']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # MiningAndMineralEngineering

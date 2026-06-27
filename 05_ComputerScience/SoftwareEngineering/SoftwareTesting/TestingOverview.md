@@ -5,6 +5,8 @@ aliases:
   - Testing
   - QA
 tags:
+created: 2026-05-17
+updated: 2026-05-16
   - '05_ComputerScience'
   - 'SoftwareEngineering'
   - 'SoftwareTesting'

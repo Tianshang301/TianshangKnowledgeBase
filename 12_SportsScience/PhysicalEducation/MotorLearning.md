@@ -1,6 +1,8 @@
 ---
 aliases: [MotorLearning]
 tags: ['PhysicalEducation', 'MotorLearning']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 运动学习
@@ -55,7 +57,7 @@ tags: ['PhysicalEducation', 'MotorLearning']
 
 ## 运动学习阶段模型
 
-### Fitts-Posner三阶段
+### Fitts-Posner 三阶段
 
 认知阶段学习者全力理解该做什么和该怎么做。
 
@@ -87,7 +89,7 @@ tags: ['PhysicalEducation', 'MotorLearning']
 | 关联 | 中低 | 逐步流畅、自我察觉错误 | 减少反馈、情境练习 | 数月至数年 |
 | 自主 | 最低 | 快速、稳定、适应性强 | 高水平战术、弱点精雕 | 持续突破升级 |
 
-### Gentile二阶段
+### Gentile 二阶段
 
 第一阶段获得动作协调模式。
 

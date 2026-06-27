@@ -1,6 +1,8 @@
 ---
 aliases: [EnergySystems, 能源系统, Energy System, Power System, Smart Grid]
 tags: ['EnergyAndNuclearEngineering', 'EnergyScience', 'EnergySystems', 'SmartGrid', 'PowerSystem']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 能源系统

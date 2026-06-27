@@ -1,6 +1,8 @@
 ---
 aliases: [SmartHome]
 tags: ['05_ComputerScience', 'ComputerNetworks']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 智能家居 (Smart Home)

@@ -1,6 +1,7 @@
 ---
 aliases: [Mechatronics]
----
+created: 2026-05-16
+updated: 2026-05-13---
 
 # 机电一体化
 

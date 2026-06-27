@@ -1,6 +1,8 @@
 ---
 aliases: [CulturalAnthropology]
 tags: ['EthnicStudies', 'CulturalAnthropology', 'CulturalAnthropology']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 文化人类学

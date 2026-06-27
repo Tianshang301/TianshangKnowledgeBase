@@ -1,6 +1,8 @@
 ---
 aliases: [RegionalPlanning, 区域规划]
 tags: ['CivilEngineering', 'UrbanPlanning', 'RegionalPlanning', 'SpatialPlanning']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 区域规划 (Regional Planning)
@@ -24,7 +26,7 @@ graph TD
     B --> B3[梯度推移理论<br/>Gradient Transfer]
     D --> D1[城镇化率<br/>Urbanization Rate]
     D --> D2[城市群<br/>City Cluster]
-    F --> F1[TOD模式<br/>Transit-Oriented Dev]
+    F --> F1[TOD 模式<br/>Transit-Oriented Dev]
     G --> G1[生态红线<br/>Ecological Redline]
 ```
 

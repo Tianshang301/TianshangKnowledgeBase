@@ -1,6 +1,8 @@
 ---
 aliases: [GameDevelopment]
 tags: ['EngineeringDevelopment', 'GameDevelopment']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 游戏开发 (Game Development)
@@ -35,7 +37,7 @@ tags: ['EngineeringDevelopment', 'GameDevelopment']
 │ (游戏循环、资源管理、事件系统)  │
 ├─────────────────────────────┤
 │           平台层              │
-│ (DirectX, Vulkan, OpenGL, 平台SDK)│
+│ (DirectX, Vulkan, OpenGL, 平台 SDK)│
 └─────────────────────────────┘
 ```
 

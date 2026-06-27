@@ -1,6 +1,8 @@
 ---
 aliases: [TheaterStudies]
 tags: ['TheaterStudies', 'Drama', 'ArtsAndCreativity']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # Theater Studies（戏剧学）

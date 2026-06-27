@@ -1,6 +1,8 @@
 ---
 aliases: [STLContainers]
-tags: ['ProgrammingLanguages', 'C_Cpp', 'STLContainers']
+tags: ['ProgrammingLanguages', 'CCpp', 'STLContainers']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # C++ STL 容器

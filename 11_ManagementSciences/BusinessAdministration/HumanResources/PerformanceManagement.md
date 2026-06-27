@@ -1,6 +1,8 @@
 ---
 aliases: [PerformanceManagement]
 tags: ['BusinessAdministration', 'HumanResources', 'PerformanceManagement']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 绩效管理
@@ -27,7 +29,7 @@ tags: ['BusinessAdministration', 'HumanResources', 'PerformanceManagement']
 
 ### 绩效计划
 
-绩效计划阶段，管理者和员工共同制定工作目标和标准。目标应遵循SMART原则——具体、可衡量、可实现、相关和有时限。绩效计划是绩效管理的基础，明确了对员工的期望。
+绩效计划阶段，管理者和员工共同制定工作目标和标准。目标应遵循 SMART 原则——具体、可衡量、可实现、相关和有时限。绩效计划是绩效管理的基础，明确了对员工的期望。
 
 ### 绩效执行
 
@@ -45,7 +47,7 @@ tags: ['BusinessAdministration', 'HumanResources', 'PerformanceManagement']
 
 ### 关键绩效指标
 
-关键绩效指标（KPI）是衡量组织、部门和员工绩效的量化指标。KPI应来自组织战略目标的分解。KPI包括财务指标和非财务指标。KPI设定需要平衡全面性和关键性。
+关键绩效指标（KPI）是衡量组织、部门和员工绩效的量化指标。KPI 应来自组织战略目标的分解。KPI 包括财务指标和非财务指标。KPI 设定需要平衡全面性和关键性。
 
 | 维度 | 指标示例 | 数据来源 |
 |------|---------|---------|
@@ -60,15 +62,15 @@ tags: ['BusinessAdministration', 'HumanResources', 'PerformanceManagement']
 
 ### 平衡计分卡
 
-平衡计分卡（BSC）从财务、客户、内部流程和学习成长四个维度评价绩效。BSC将战略目标转化为具体的评价指标。BSC强调财务与非财务指标、短期与长期目标的平衡。
+平衡计分卡（BSC）从财务、客户、内部流程和学习成长四个维度评价绩效。BSC 将战略目标转化为具体的评价指标。BSC 强调财务与非财务指标、短期与长期目标的平衡。
 
 ### 目标管理
 
-目标管理（MBO）强调管理者和员工共同设定目标，并以目标完成情况作为评价依据。MBO提高了员工的参与度和责任感。目标设定需要上下级充分沟通，达成一致。
+目标管理（MBO）强调管理者和员工共同设定目标，并以目标完成情况作为评价依据。MBO 提高了员工的参与度和责任感。目标设定需要上下级充分沟通，达成一致。
 
 ### 行为锚定等级评价法
 
-行为锚定等级评价法（BARS）将关键行为事件与等级评分相结合。BARS提供了明确的行为评价标准。BARS的开发需要大量工作，但评价结果较为客观和准确。
+行为锚定等级评价法（BARS）将关键行为事件与等级评分相结合。BARS 提供了明确的行为评价标准。BARS 的开发需要大量工作，但评价结果较为客观和准确。
 
 ## 绩效面谈
 
@@ -112,7 +114,7 @@ tags: ['BusinessAdministration', 'HumanResources', 'PerformanceManagement']
 
 ### 绩效改进计划
 
-绩效改进计划（PIP）针对绩效不达标的员工。PIP包括改进目标、具体行动、时间节点和评估标准。PIP需要管理者和员工的共同努力。PIP实施期间需要密切跟踪进展。
+绩效改进计划（PIP）针对绩效不达标的员工。PIP 包括改进目标、具体行动、时间节点和评估标准。PIP 需要管理者和员工的共同努力。PIP 实施期间需要密切跟踪进展。
 
 ### 团队绩效改进
 
@@ -126,7 +128,7 @@ tags: ['BusinessAdministration', 'HumanResources', 'PerformanceManagement']
 
 ### 关键绩效指标的设计原则
 
-KPI应遵循SMART原则：Specific（具体的）、Measurable（可衡量的）、Achievable（可实现的）、Relevant（相关的）和Time-bound（有时限的）。KPI数量不宜过多，每个岗位3-5个核心指标。KPI需要区分结果指标和过程指标。KPI的权重反映各项指标的重要程度。
+KPI 应遵循 SMART 原则：Specific（具体的）、Measurable（可衡量的）、Achievable（可实现的）、Relevant（相关的）和 Time-bound（有时限的）。KPI 数量不宜过多，每个岗位3-5个核心指标。KPI 需要区分结果指标和过程指标。KPI 的权重反映各项指标的重要程度。
 
 ### 平衡计分卡的指标设计
 

@@ -1,6 +1,8 @@
 ---
 aliases: [Neovim]
 tags: ['OperatingSystems', 'Linux', 'Neovim']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Neovim 进阶

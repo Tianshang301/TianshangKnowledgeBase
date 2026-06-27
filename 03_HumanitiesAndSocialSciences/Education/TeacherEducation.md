@@ -1,6 +1,8 @@
 ---
 aliases: [TeacherEducation]
 tags: ['03_HumanitiesAndSocialSciences', 'Education', 'TeacherEducation']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 教师教育 (Teacher Education)
@@ -143,7 +145,7 @@ flowchart TD
     A[教师教育改革趋势] --> B[专业化-提高准入门槛]
     A --> C[实践化-强化实习环节]
     A --> D[终身化-持续专业发展]
-    A --> E[技术化-TPACK能力培养]
+    A --> E[技术化-TPACK 能力培养]
     A --> F[国际化-国际经验借鉴]
 ```
 
@@ -158,7 +160,7 @@ flowchart TD
 | 技术冲击 | 教师需掌握日益复杂的数字教学技术 |
 | 职业倦怠 | 工作压力大导致职业倦怠问题突出 |
 
-### 6.3 TPACK框架
+### 6.3 TPACK 框架
 
 技术教学内容知识（TPACK）是技术时代教师核心能力框架：
 

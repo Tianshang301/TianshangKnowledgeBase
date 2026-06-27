@@ -1,6 +1,8 @@
 ---
 aliases: [SelfStudyPath]
 tags: ['LearningPaths', 'SelfStudyPath']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # 自学路径规划
@@ -43,18 +45,18 @@ tags: ['LearningPaths', 'SelfStudyPath']
 
 ## 自学资源推荐
 
-### MOOC平台
+### MOOC 平台
 | 平台 | 特点 | 适合人群 |
 |------|------|----------|
 | Coursera | 名校课程、证书 | 大学生、职场人 |
 | edX | 开放课程、微硕士 | 学术深造者 |
-| 中国大学MOOC | 国内高校课程 | 中文学习者 |
+| 中国大学 MOOC | 国内高校课程 | 中文学习者 |
 | Khan Academy | 基础知识、免费 | K12学生 |
 | Udemy | 实用技能课程 | 职业技能提升 |
 
 ### 教科书推荐
 - **数学**：《数学分析》《高等代数》
-- **编程**：《算法导论》《Python编程》
+- **编程**：《算法导论》《Python 编程》
 - **科学**：《物理学原理》《化学基础》
 - **人文**：《西方哲学史》《中国通史》
 
@@ -107,9 +109,9 @@ tags: ['LearningPaths', 'SelfStudyPath']
   - 减少干扰
   - 利用碎片时间
 
-## 学习计划制定（SMART原则）
+## 学习计划制定（SMART 原则）
 
-### SMART原则
+### SMART 原则
 - **S（Specific）**：具体的
 - **M（Measurable）**：可衡量的
 - **A（Achievable）**：可实现的

@@ -1,6 +1,8 @@
 ---
 aliases: [SportSpecificTraining]
 tags: ['SportsTraining', 'SportSpecificTraining']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 不同运动项目的训练方法
@@ -65,7 +67,7 @@ tags: ['SportsTraining', 'SportSpecificTraining']
 
 ### 短跑
 
-极度依赖ATP-CP和糖酵解。
+极度依赖 ATP-CP 和糖酵解。
 
 重点训练起跑反应、加速阶段、最大速度阶段和速度保持阶段。
 
@@ -73,13 +75,13 @@ tags: ['SportsTraining', 'SportSpecificTraining']
 
 高翻、深蹲、硬拉。
 
-技术跑步练习包括A-skip、B-skip、高抬腿跑和脚掌蹬地。
+技术跑步练习包括 A-skip、B-skip、高抬腿跑和脚掌蹬地。
 
 ### 中长跑
 
 混合无氧和有氧非常紧密。
 
-训练包含有氧基础持续跑、VO₂max间歇、乳酸耐受跑、配速跑。
+训练包含有氧基础持续跑、VO₂max 间歇、乳酸耐受跑、配速跑。
 
 800米运动员有大量速度专项。
 
@@ -168,7 +170,7 @@ tags: ['SportsTraining', 'SportSpecificTraining']
 | 足球篮球 | 有氧混合无氧 | 体能30%+力量30%+技术战术30% |
 | 游泳赛艇 | 有氧为主 | 水上70%+力量20%+技术10% |
 | 格斗 | 混氧无氧为主 | 专项体能40%+力量25%+技术25% |
-| 体操 | ATP-CP极强力量 | 技术60%+力量25%+柔韧10% |
+| 体操 | ATP-CP 极强力量 | 技术60%+力量25%+柔韧10% |
 
 ## 参考资料
 

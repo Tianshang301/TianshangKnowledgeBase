@@ -1,6 +1,8 @@
 ---
 aliases: [Bash]
 tags: ['OperatingSystems', 'Linux', 'Bash']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Bash 脚本编程
@@ -351,5 +353,5 @@ fi
 ## 相关条目
 
 - Shell
-- Linux命令
+- Linux 命令
 - [[ProcessManagement]]

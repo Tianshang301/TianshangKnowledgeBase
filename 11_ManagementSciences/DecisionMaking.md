@@ -1,6 +1,8 @@
 ---
 aliases: [DecisionMaking]
 tags: ['DecisionMaking', 'ManagementScience', 'ManagementSciences']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 决策理论 (Decision Making)

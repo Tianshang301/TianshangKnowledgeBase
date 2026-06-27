@@ -1,6 +1,8 @@
 ---
 aliases: [MedicalDevices]
 tags: ['Biotechnologies', 'BiomedicalEngineering', 'MedicalDevices']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 医疗器械
@@ -14,7 +16,7 @@ tags: ['Biotechnologies', 'BiomedicalEngineering', 'MedicalDevices']
 
 **按风险等级**：
 - Ⅰ类：低风险（手术器械、听诊器）
-- Ⅱ类：中风险（B超、心电图机）
+- Ⅱ类：中风险（B 超、心电图机）
 - Ⅲ类：高风险（心脏起搏器、人工关节）
 
 **按用途**：
@@ -25,19 +27,19 @@ tags: ['Biotechnologies', 'BiomedicalEngineering', 'MedicalDevices']
 
 ### 医学影像设备
 
-**X射线设备**：
-- DR（数字X线摄影）
+**X 射线设备**：
+- DR（数字 X 线摄影）
 - CT（计算机断层扫描）
 - DSA（数字减影血管造影）
 
-**X射线衰减规律**（Beer-Lambert）：
+**X 射线衰减规律**（Beer-Lambert）：
 $$I = I_0 e^{-\mu x}$$
 
-**CT值（Hounsfield单位）**：
+**CT 值（Hounsfield 单位）**：
 $$HU = 1000 \times \frac{\mu - \mu_{water}}{\mu_{water}}$$
 
 **超声设备**：
-- B超：二维超声成像
+- B 超：二维超声成像
 - 彩色多普勒：血流成像
 - 三维超声：立体成像
 
@@ -48,15 +50,15 @@ $$\Delta f = \frac{2f_0 v \cos\theta}{c}$$
 
 | 成像 modality | 物理原理 | 空间分辨率 | 有无电离辐射 | 典型应用 |
 |:---|:---|---:|:---:|:---|
-| X光 | 光电效应/康普顿散射 | ~0.1 mm | 有 | 骨骼、胸部 |
-| CT | 多角度X射线重建 | ~0.5 mm | 有 | 肿瘤、血管 |
+| X 光 | 光电效应/康普顿散射 | ~0.1 mm | 有 | 骨骼、胸部 |
+| CT | 多角度 X 射线重建 | ~0.5 mm | 有 | 肿瘤、血管 |
 | MRI | 核磁共振 | ~1 mm | 无 | 软组织、脑 |
 | 超声 | 声波反射 | ~1 mm | 无 | 产科、心脏 |
 | PET | 正电子湮灭 | ~4 mm | 有 | 代谢成像 |
 
 **磁共振成像（MRI）**：
 - T1加权像、T2加权像
-- 功能MRI（fMRI）
+- 功能 MRI（fMRI）
 - 弥散加权成像（DWI）
 
 **核医学设备**：

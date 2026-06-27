@@ -1,6 +1,8 @@
 ---
 aliases: [SmartContracts]
 tags: ['Blockchain', 'SmartContracts']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 智能合约 (Smart Contracts)

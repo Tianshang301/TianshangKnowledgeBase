@@ -1,6 +1,8 @@
 ---
 aliases: [CriticalThinking]
 tags: ['Methodology', 'CriticalThinking']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 批判性思维

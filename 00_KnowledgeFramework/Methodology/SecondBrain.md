@@ -5,6 +5,8 @@ aliases:
   - 知识管理系统
   - 个人知识管理
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - second-brain
   - knowledge-management
   - note-taking
@@ -63,7 +65,7 @@ graph LR;
 使用 **PARA** 体系组织信息：
 
 $$
-\text{PARA} = 
+\text{PARA} =
 \begin{cases}
 \text{Projects} & \text{有截止日期的任务} \\
 \text{Areas} & \text{长期维护的责任} \\

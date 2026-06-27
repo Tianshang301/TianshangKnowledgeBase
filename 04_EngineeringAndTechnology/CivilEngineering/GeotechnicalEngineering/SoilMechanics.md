@@ -1,6 +1,8 @@
 ---
 aliases: [SoilMechanics]
 tags: ['CivilEngineering', 'GeotechnicalEngineering', 'SoilMechanics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 土力学
@@ -69,7 +71,7 @@ $v$ 为渗透速度，$k$ 为渗透系数，$i$ 为水力梯度。
 
 $$\sigma_z = \sum \gamma_i h_i$$
 
-**附加应力**（Boussinesq解）：
+**附加应力**（Boussinesq 解）：
 
 $$\sigma_z = \frac{3P}{2\pi z^2}\frac{1}{[1+(r/z)^2]^{5/2}}$$
 
@@ -94,9 +96,9 @@ $$\left(\frac{\sigma_1-\sigma_3}{2}\right)^2 + \tau^2 = \left(\frac{\sigma_1+\si
 | 试验方法 | 排水条件 | 应力状态 | 强度指标 | 适用土类 | 优点 | 缺点 |
 |---------|---------|---------|---------|---------|------|------|
 | **直剪试验** | 快剪/固结快剪/慢剪 | 平面应变 | $c_d, \varphi_d$ | 各类土 | 设备简单，操作方便 | 排水条件不易控制，应力分布不均匀 |
-| **三轴UU试验** | 不排水 | 轴对称 | $c_u, \varphi_u$ | 饱和粘土 | 严格控制排水条件 | 无法模拟实际工程排水条件 |
-| **三轴CU试验** | 固结不排水 | 轴对称 | $c_{cu}, \varphi_{cu}$ | 饱和粘土 | 可测孔隙水压力 | 操作复杂，试验时间长 |
-| **三轴CD试验** | 固结排水 | 轴对称 | $c', \varphi'$ | 各类土 | 得到有效应力强度指标 | 试验时间最长 |
+| **三轴 UU 试验** | 不排水 | 轴对称 | $c_u, \varphi_u$ | 饱和粘土 | 严格控制排水条件 | 无法模拟实际工程排水条件 |
+| **三轴 CU 试验** | 固结不排水 | 轴对称 | $c_{cu}, \varphi_{cu}$ | 饱和粘土 | 可测孔隙水压力 | 操作复杂，试验时间长 |
+| **三轴 CD 试验** | 固结排水 | 轴对称 | $c', \varphi'$ | 各类土 | 得到有效应力强度指标 | 试验时间最长 |
 | **十字板剪切** | 原位不排水 | — | $c_u$ | 饱和软粘土 | 原位测试，无取样扰动 | 仅适用于软粘土 |
 
 **有效应力原理**：土的抗剪强度由有效应力决定：
@@ -107,7 +109,7 @@ $$\tau_f = c' + (\sigma - u)\tan\varphi' = c' + \sigma'\tan\varphi'$$
 
 ### 地基承载力
 
-**Terzaghi极限承载力公式**（条形基础）：
+**Terzaghi 极限承载力公式**（条形基础）：
 $$p_u = cN_c + \gamma D N_q + \frac{1}{2}\gamma B N_\gamma$$
 
 其中承载力系数：
@@ -143,7 +145,7 @@ $$E_0 = \frac{1}{2}K_0\gamma H^2$$
 
 $K_0 = 1-\sin\varphi$（经验公式）
 
-**主动土压力（Rankine理论）**：
+**主动土压力（Rankine 理论）**：
 
 $$E_a = \frac{1}{2}\gamma H^2\tan^2\left(45°-\frac{\varphi}{2}\right) - 2cH\tan\left(45°-\frac{\varphi}{2}\right)$$
 
@@ -159,9 +161,9 @@ $$E_p = \frac{1}{2}\gamma H^2\tan^2\left(45°+\frac{\varphi}{2}\right) + 2cH\tan
 | **主动土压力** | Rankine/Coulomb | 墙离开填土位移 | 主动极限平衡 | $E_a = \frac{1}{2}\gamma H^2 K_a$ | 位移量较小（约0.1%~0.5%H） |
 | **被动土压力** | Rankine/Coulomb | 墙推向填土位移 | 被动极限平衡 | $E_p = \frac{1}{2}\gamma H^2 K_p$ | 位移量较大（约1%~5%H） |
 
-**Rankine与Coulomb土压力理论对比**：
+**Rankine 与 Coulomb 土压力理论对比**：
 
-| 特性 | Rankine理论 | Coulomb理论 |
+| 特性 | Rankine 理论 | Coulomb 理论 |
 |------|------------|-------------|
 | 假设条件 | 墙背竖直、光滑、填土水平 | 墙背倾斜、粗糙、填土倾斜 |
 | 滑动面 | 平面（与水平成 $45^\circ+\varphi/2$） | 平面 |
@@ -183,7 +185,7 @@ $$E_p = \frac{1}{2}\gamma H^2\tan^2\left(45°+\frac{\varphi}{2}\right) + 2cH\tan
 **瑞典圆弧法**（$\varphi=0$ 分析）：
 $$F_s = \frac{\sum (c_i l_i + W_i \cos\alpha_i \tan\varphi_i)}{\sum W_i \sin\alpha_i}$$
 
-**Bishop简化法**：
+**Bishop 简化法**：
 $$F_s = \frac{\sum \left[c_i b_i + (W_i - u_i b_i)\tan\varphi_i\right]/m_{\alpha i}}{\sum W_i \sin\alpha_i}$$
 其中 $m_{\alpha i} = \cos\alpha_i + \sin\alpha_i\tan\varphi_i/F_s$
 

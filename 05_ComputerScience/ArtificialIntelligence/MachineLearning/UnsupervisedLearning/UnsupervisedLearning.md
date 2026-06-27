@@ -1,6 +1,8 @@
 ---
 aliases: [UnsupervisedLearning]
 tags: ['ArtificialIntelligence', 'MachineLearning', 'UnsupervisedLearning', 'UnsupervisedLearning']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 无监督学习
@@ -64,25 +66,25 @@ $$
 - **单链 (Single-link)**：$\min\{d(x,y): x \in C_i, y \in C_j\}$
 - **全链 (Complete-link)**：$\max\{d(x,y): x \in C_i, y \in C_j\}$
 - **平均链 (Average-link)**：$\frac{1}{|C_i||C_j|} \sum_{x \in C_i} \sum_{y \in C_j} d(x,y)$
-- **Ward法**：合并使簇内方差增量最小
+- **Ward 法**：合并使簇内方差增量最小
 
 ### 高斯混合模型 (GMM)
 
-GMM假设数据由 $k$ 个高斯分布混合生成：
+GMM 假设数据由 $k$ 个高斯分布混合生成：
 
 $$
 p(\mathbf{x}) = \sum_{i=1}^k \pi_i \mathcal{N}(\mathbf{x} | \boldsymbol{\mu}_i, \boldsymbol{\Sigma}_i)
 $$
 
-**EM算法**求解参数：
+**EM 算法**求解参数：
 
-**E步**：计算样本属于各高斯成分的后验概率
+**E 步**：计算样本属于各高斯成分的后验概率
 
 $$
 \gamma_{ij} = \frac{\pi_j \mathcal{N}(\mathbf{x}_i | \boldsymbol{\mu}_j, \boldsymbol{\Sigma}_j)}{\sum_{l=1}^k \pi_l \mathcal{N}(\mathbf{x}_i | \boldsymbol{\mu}_l, \boldsymbol{\Sigma}_l)}
 $$
 
-**M步**：更新参数
+**M 步**：更新参数
 
 $$
 \boldsymbol{\mu}_j^{\text{new}} = \frac{\sum_{i=1}^N \gamma_{ij} \mathbf{x}_i}{\sum_{i=1}^N \gamma_{ij}}
@@ -96,7 +98,7 @@ $$
 
 ### 聚类算法对比
 
-| 算法 | 簇形状 | 需预设k | 对噪声 | 可扩展性 |
+| 算法 | 簇形状 | 需预设 k | 对噪声 | 可扩展性 |
 |------|--------|---------|--------|---------|
 | K-means | 球形 | 是 | 敏感 | 好 |
 | DBSCAN | 任意 | 否 | 鲁棒 | 中等 |
@@ -108,7 +110,7 @@ $$
 
 ### PCA (主成分分析)
 
-PCA寻找方差最大的投影方向：
+PCA 寻找方差最大的投影方向：
 
 **目标**：最大化投影方差
 
@@ -144,13 +146,13 @@ $$
 p_{j|i} = \frac{\exp(-||x_i - x_j||^2 / 2\sigma_i^2)}{\sum_{k \neq i} \exp(-||x_i - x_k||^2 / 2\sigma_i^2)}
 $$
 
-**低维空间相似度**（t分布）：
+**低维空间相似度**（t 分布）：
 
 $$
 q_{ij} = \frac{(1 + ||y_i - y_j||^2)^{-1}}{\sum_{k \neq l} (1 + ||y_k - y_l||^2)^{-1}}
 $$
 
-**KL散度优化**：
+**KL 散度优化**：
 
 $$
 \text{KL}(P||Q) = \sum_i \sum_j p_{ij} \log \frac{p_{ij}}{q_{ij}}
@@ -158,7 +160,7 @@ $$
 
 ### UMAP (Uniform Manifold Approximation and Projection)
 
-基于流形学习的降维方法，比t-SNE更快，全局结构保留更好。
+基于流形学习的降维方法，比 t-SNE 更快，全局结构保留更好。
 
 ### 降维方法对比
 
@@ -211,7 +213,7 @@ $$
 | 置信度 (Confidence) | 条件概率 | $\text{Conf}(A \Rightarrow B) = \frac{\text{Supp}(A \cup B)}{\text{Supp}(A)}$ |
 | 提升度 (Lift) | 相关性度量 | $\text{Lift}(A \Rightarrow B) = \frac{\text{Conf}(A \Rightarrow B)}{\text{Supp}(B)}$ |
 
-### Apriori算法
+### Apriori 算法
 
 利用先验性质（频繁项集的所有非空子集也必须是频繁的）剪枝：
 
@@ -223,7 +225,7 @@ $$
 
 ### FP-Growth
 
-基于FP-tree的频繁模式挖掘，无需生成候选集，效率远高于Apriori。
+基于 FP-tree 的频繁模式挖掘，无需生成候选集，效率远高于 Apriori。
 
 ## 六、自监督学习
 
@@ -250,7 +252,7 @@ $$
 | 指标 | 公式 | 最优值 |
 |------|------|--------|
 | 轮廓系数 (Silhouette) | $s(i) = \frac{b(i) - a(i)}{\max(a(i), b(i))}$ | 接近1 |
-| Davies-Bouldin指数 | $\text{DB} = \frac{1}{k} \sum_{i=1}^k \max_{j \neq i} \frac{\sigma_i + \sigma_j}{d(\mu_i, \mu_j)}$ | 越小越好 |
+| Davies-Bouldin 指数 | $\text{DB} = \frac{1}{k} \sum_{i=1}^k \max_{j \neq i} \frac{\sigma_i + \sigma_j}{d(\mu_i, \mu_j)}$ | 越小越好 |
 | Calinski-Harabasz | $\frac{\text{tr}(B_k)}{\text{tr}(W_k)} \times \frac{N-k}{k-1}$ | 越大越好 |
 
 ### 外部评估指标

@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['SoftwareEngineering', 'AgileMethodologies', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 敏捷开发方法
@@ -10,4 +12,4 @@ tags: ['SoftwareEngineering', 'AgileMethodologies', 'INDEX']
 ## 文件
 
 - [[AgileMethodologies]]
-- [[Scrum与看板实践]]
+- [[Scrum 与看板实践]]

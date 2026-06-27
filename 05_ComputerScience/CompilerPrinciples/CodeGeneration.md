@@ -1,6 +1,8 @@
 ---
 aliases: [CodeGeneration, CodeGen, InstructionSelection]
 tags: ['05_ComputerScience', 'CompilerPrinciples', 'CodeGeneration', 'Optimization']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 代码生成 (Code Generation)
@@ -194,7 +196,7 @@ for (i = 0; i < n; i++) {
 | 条件执行 | 指令可带条件码 |
 | 桶形移位器 | 单周期移位+运算 |
 | 32 个寄存器 | 丰富的寄存器资源 |
-| 定长指令 | 4 字节（ARM模式）|
+| 定长指令 | 4 字节（ARM 模式）|
 
 ### 7.3 RISC-V
 

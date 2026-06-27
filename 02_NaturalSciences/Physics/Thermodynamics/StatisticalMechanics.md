@@ -1,6 +1,8 @@
 ---
 aliases: [StatisticalMechanics, 统计力学, 统计物理, 系综, StatisticalPhysics, PartitionFunction, BoltzmannDistribution]
 tags: ['02_NaturalSciences', 'Physics', 'Thermodynamics', 'StatisticalMechanics', 'QuantumMechanics']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 统计力学 (Statistical Mechanics)

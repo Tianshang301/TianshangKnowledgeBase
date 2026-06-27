@@ -1,6 +1,8 @@
 ---
 aliases: [ComputerGraphicsAndVision]
 tags: ['ComputerGraphicsAndVision', 'ComputerGraphicsAndVision']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 计算机图形学与视觉完全指南

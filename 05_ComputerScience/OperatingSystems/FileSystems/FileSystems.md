@@ -1,6 +1,8 @@
 ---
 aliases: [FileSystems]
 tags: ['OperatingSystems', 'FileSystems', 'FileSystems']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 文件系统详解 (File System)
@@ -15,7 +17,7 @@ tags: ['OperatingSystems', 'FileSystems', 'FileSystems']
 |------|------|
 | **Name** | 文件名，供用户使用 |
 | **Path** | 文件路径，定位文件位置 |
-| **Identifier** | 文件系统唯一标识（如inode号） |
+| **Identifier** | 文件系统唯一标识（如 inode 号） |
 | **Attributes** | 权限、时间戳、大小等 |
 | **Operations** | create, open, read, write, close, delete |
 
@@ -25,7 +27,7 @@ tags: ['OperatingSystems', 'FileSystems', 'FileSystems']
 |---------|------|------|
 | **绝对路径** | `/home/user/doc.txt` | 从根目录开始 |
 | **相对路径** | `../doc.txt` | 相对于当前工作目录 |
-| **硬链接** | 同一inode的不同文件名 | 不能跨文件系统 |
+| **硬链接** | 同一 inode 的不同文件名 | 不能跨文件系统 |
 | **符号链接** | 指向另一路径的指针 | 可跨文件系统，可指向目录 |
 
 ## 二、目录结构 (Directory Structures)
@@ -62,8 +64,8 @@ tags: ['OperatingSystems', 'FileSystems', 'FileSystems']
 ### 3.1 连续分配 (Contiguous)
 
 ```
-文件A: 逻辑块0-3 → 物理块100-103
-文件B: 逻辑块0-1 → 物理块104-105
+文件 A: 逻辑块0-3 → 物理块100-103
+文件 B: 逻辑块0-1 → 物理块104-105
 
 ┌─────────────────────────────────────┐
 │ A0 │ A1 │ A2 │ A3 │ B0 │ B1 │ ... │
@@ -81,14 +83,14 @@ tags: ['OperatingSystems', 'FileSystems', 'FileSystems']
 |------|------|
 | 无外部碎片 | 随机访问慢（需遍历） |
 | 易扩展 | 指针占用数据空间 |
-| **FAT表改进**：所有指针集中到FAT表 | FAT表需常驻内存 |
+| **FAT 表改进**：所有指针集中到 FAT 表 | FAT 表需常驻内存 |
 
 ### 3.3 索引分配 (Indexed)
 
 文件的所有块指针集中在一个索引块中。
 
 ```
-文件A索引块:
+文件 A 索引块:
 ┌────┬────┬────┬────┬────┐
 │ 40 │ 72 │ 15 │ 63 │EOF │
 └─┬──┴──┬─┴──┬─┴──┬─┴────┘
@@ -102,7 +104,7 @@ tags: ['OperatingSystems', 'FileSystems', 'FileSystems']
 |------|---------|---------|--------|
 | 连续 | $O(1)$ | 无元数据开销 | 差 |
 | 链接 | $O(n)$ | 极小指针开销 | 好 |
-| FAT | $O(1)$（FAT在内存） | FAT表开销 | 好 |
+| FAT | $O(1)$（FAT 在内存） | FAT 表开销 | 好 |
 | 索引 | $O(1)$ | 索引块开销 | 好 |
 | Extent | $O(\log n)$ | 对连续块极高效 | 好 |
 
@@ -113,14 +115,14 @@ tags: ['OperatingSystems', 'FileSystems', 'FileSystems']
 | **位图 (Bitmap)** | 每块1位标记空闲/已用 | 高（1/4096） | 通用 |
 | **空闲链表 (Free List)** | 链表串联空闲块 | 中 | 简单系统 |
 | **组链接 (Group Chain)** | 组式空闲块管理 | 高 | Unix FFS |
-| **B树** | 用B树索引空闲区间 | 很高 | ext4, XFS |
+| **B 树** | 用 B 树索引空闲区间 | 很高 | ext4, XFS |
 
 ```c
 // 位图操作示例
 #define BLOCK_SIZE 4096
-#define BLOCKS 1048576  // 4GB磁盘
+#define BLOCKS 1048576  // 4GB 磁盘
 
-unsigned char bitmap[BLOCKS / 8];  // 128KB位图
+unsigned char bitmap[BLOCKS / 8];  // 128KB 位图
 
 int find_free_block() {
     for (int i = 0; i < BLOCKS / 8; i++) {
@@ -154,7 +156,7 @@ $$ T_{\text{seek}}(d) = a + b \cdot d $$
 | **SSTF** | 选最近请求 | 较低 | 快但可能饥饿 |
 | **SCAN (电梯)** | 单向扫描到边缘 | 中等 | 两端等待不均 |
 | **C-SCAN** | 单向到边缘后返回 | 中等 | 等待时间更均匀 |
-| **LOOK** | SCAN改进，到最后一个请求即转向 | 较低 | 减少无效扫描 |
+| **LOOK** | SCAN 改进，到最后一个请求即转向 | 较低 | 减少无效扫描 |
 | **C-LOOK** | C-SCAN+LOOK | 最低 | 综合最优 |
 
 ```
@@ -168,7 +170,7 @@ C-SCAN(↑): 53→65→67→98→122→124→183→199→0→14→37 (382磁道)
 LOOK(↑): 53→65→67→98→122→124→183→37→14 (299磁道)
 ```
 
-## 六、RAID级别 (RAID Levels)
+## 六、RAID 级别 (RAID Levels)
 
 | 级别 | 最少磁盘 | 冗余 | 容量利用率 | 读性能 | 写性能 | 容错 |
 |------|---------|------|-----------|-------|-------|------|
@@ -202,7 +204,7 @@ Disk0  Disk1           Disk0  Disk1           Disk0 Disk1 Disk2
 | 校验和 | ✗ | ✗ | ✗ | ✓ | ✓ |
 | 跨平台 | 优 | Windows | Linux | macOS | 跨平台 |
 
-## 八、Inode结构
+## 八、Inode 结构
 
 inode 是文件系统元数据的核心，存储文件属性而非文件名。
 
@@ -224,21 +226,21 @@ struct ext4_inode {
     __u16  i_links_count;  // 硬链接计数
     __u32  i_blocks_lo;    // 512字节块数
     __u32  i_flags;
-    __u32  i_block[15];    // extent树根节点或块指针
+    __u32  i_block[15];    // extent 树根节点或块指针
     // ...
 };
 ```
 
-### ext4 extent树
+### ext4 extent 树
 
 ```
-inode.i_block[0..3] → extent header + 4个extent条目
-每个extent: 逻辑起始块, 物理起始块, 长度(连续块数)
+inode.i_block[0..3] → extent header + 4个 extent 条目
+每个 extent: 逻辑起始块, 物理起始块, 长度(连续块数)
 
 extent header (12 bytes):
   eh_magic, eh_entries, eh_max, eh_depth
 
-extent条目 (12 bytes each):
+extent 条目 (12 bytes each):
   ee_block (逻辑块号), ee_len (块数), ee_start_hi, ee_start_lo
 ```
 
@@ -250,7 +252,7 @@ extent条目 (12 bytes each):
 
 ```
 日志记录格式：
-[JFS_COMMIT | 事务ID | 元数据块 | 校验和]
+[JFS_COMMIT | 事务 ID | 元数据块 | 校验和]
 ```
 
 ### ext3/4 日志模式
@@ -261,26 +263,26 @@ extent条目 (12 bytes each):
 | **ordered** | 仅元数据，但数据先写入磁盘 | 中 | 较快 |
 | **data** | 元数据+数据都写入日志 | 高 | 最慢 |
 
-## 十、VFS与FUSE
+## 十、VFS 与 FUSE
 
 ### VFS (Virtual File System)
 
 ```
 系统调用接口 (open, read, write...)
         ↓
-    VFS层 (统一文件模型)
+    VFS 层 (统一文件模型)
         ↓
    ┌───┼───┬───┐
    │   │   │   │
   ext4 NTFS FAT32 FUSE
 ```
 
-VFS定义通用文件模型（超级块、inode、目录项、文件对象），具体文件系统实现这些接口。
+VFS 定义通用文件模型（超级块、inode、目录项、文件对象），具体文件系统实现这些接口。
 
 ### FUSE (Filesystem in Userspace)
 
 ```c
-// FUSE用户态文件系统示例
+// FUSE 用户态文件系统示例
 static int hello_getattr(const char *path, struct stat *stbuf) {
     memset(stbuf, 0, sizeof(struct stat));
     if (strcmp(path, "/") == 0) {
@@ -314,7 +316,7 @@ SSD (10μs-100μs, 256GB-2TB)
    ↓
 HDD (10ms, 1-20TB)
    ↓
-磁带/云存储 (秒级, PB级)
+磁带/云存储 (秒级, PB 级)
 ```
 
 ## 相关条目

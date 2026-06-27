@@ -1,6 +1,8 @@
 ---
 aliases: [ThermalPower]
 tags: ['MechanicalAndElectricalEngineering', 'PowerEngineering', 'ThermalPower']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 火力发电
@@ -41,7 +43,7 @@ $$\eta_{th} = \frac{W_{net}}{Q_{in}} = 1 - \frac{h_4 - h_1}{h_3 - h_2}$$
 **超超临界技术**：
 - 蒸汽参数：≥600°C、≥25MPa
 - 热效率：≥45%
-- 代表机组：1000MW超超临界机组
+- 代表机组：1000MW 超超临界机组
 
 ### 锅炉系统
 
@@ -107,19 +109,19 @@ $\eta_{total} = \eta_b \times \eta_p \times \eta_t \times \eta_g \times (1-\eta_
 ### 超超临界技术
 
 **技术特点**：
-- 蒸汽温度600°C以上，压力25MPa以上
+- 蒸汽温度600°C 以上，压力25MPa 以上
 - 采用耐热合金材料（P92、Super304H、HR3C）
 - 热效率比亚临界提高6%以上
 
 **发展趋势**：
-- 参数进一步提高（700°C级）
+- 参数进一步提高（700°C 级）
 - 材料研发（镍基高温合金）
 - 二次再热技术
 
 ### 碳捕集技术（CCS）
 
 **燃烧后捕集**：
-- 化学吸收法（MEA胺液）
+- 化学吸收法（MEA 胺液）
 - 物理吸收法
 
 **燃烧前捕集**：
@@ -127,7 +129,7 @@ $\eta_{total} = \eta_b \times \eta_p \times \eta_t \times \eta_g \times (1-\eta_
 - 水煤气变换反应
 
 **富氧燃烧**：
-- 纯氧燃烧产生高浓度CO₂
+- 纯氧燃烧产生高浓度 CO₂
 - 减少烟气量，便于捕集
 
 ## 经典教材

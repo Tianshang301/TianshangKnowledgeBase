@@ -1,6 +1,8 @@
 ---
 aliases: [Musicology, 音乐学]
 tags: ['Musicology', 'MusicStudies', 'ArtsAndCreativity', 'MusicTheory']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 音乐学 (Musicology)

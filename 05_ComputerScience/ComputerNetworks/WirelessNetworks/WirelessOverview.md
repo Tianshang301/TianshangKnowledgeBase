@@ -1,6 +1,8 @@
 ---
 aliases: [WirelessNetworks, 无线网络, WiFi, Cellular, 5G, 无线通信]
 tags: ['ComputerNetworks', 'WirelessNetworks', 'Telecommunications', 'Communication']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 无线网络概述
@@ -55,7 +57,7 @@ flowchart TD
 | 无线城域网 | WMAN | ~10 km | 70 Mbps | IEEE 802.16 | 宽带接入 |
 | 无线广域网 | WWAN | 全球 | 100 Mbps-20 Gbps | 3GPP (4G/5G) | 移动通信 |
 
-## Wi-Fi技术
+## Wi-Fi 技术
 
 ### IEEE 802.11标准演进
 
@@ -69,25 +71,25 @@ flowchart TD
 **OFDMA**
 正交频分多址接入
 （Orthogonal Frequency Division Multiple Access）
-是Wi-Fi 6的核心改进。
+是 Wi-Fi 6的核心改进。
 将信道划分为更小的资源单元（Resource Unit, RU）。
 允许多用户同时传输。
 显著降低时延并提升密集场景的频谱效率。
 
 **目标唤醒时间（Target Wake Time, TWT）**
 使设备按预定时间唤醒和休眠。
-大幅降低IoT设备的功耗。
+大幅降低 IoT 设备的功耗。
 
 Wi-Fi 6的引入也改进了空间复用技术。
-BSS Color机制减少同频干扰。
+BSS Color 机制减少同频干扰。
 提高密集部署场景的性能。
 
 **Wi-Fi 7亮点**
-支持320MHz超宽信道。
-4096-QAM调制每个符号承载12bits。
+支持320MHz 超宽信道。
+4096-QAM 调制每个符号承载12bits。
 多链路操作（MLO）提高吞吐量和可靠性。
 
-### Wi-Fi网络拓扑
+### Wi-Fi 网络拓扑
 
 ```mermaid
 flowchart LR
@@ -103,13 +105,13 @@ flowchart LR
 基础设施模式（Infrastructure Mode）中。
 接入点（Access Point, AP）
 充当有线与无线网络之间的桥接。
-站点（Station, STA）通过AP发送和接收数据。
+站点（Station, STA）通过 AP 发送和接收数据。
 
 独立基本服务集（Independent BSS, IBSS）模式下。
-站点可直接通信（Ad Hoc模式）。
+站点可直接通信（Ad Hoc 模式）。
 
 分布系统（Distribution System, DS）
-通过AP之间的通信桥接扩展覆盖范围。
+通过 AP 之间的通信桥接扩展覆盖范围。
 
 ### 路径损耗
 
@@ -123,24 +125,24 @@ $$FSPL = \left(\frac{4\pi d f}{c}\right)^2$$
 $f$ 为载波频率。
 $c$ 为光速。
 
-以dB形式表示：
+以 dB 形式表示：
 $FSPL(dB) = 20\log_{10}(d) + 20\log_{10}(f) + 32.44$
-其中 $d$ 以km为单位。
-$f$ 以MHz为单位。
+其中 $d$ 以 km 为单位。
+$f$ 以 MHz 为单位。
 
 频率翻倍或距离翻倍均导致路径损耗增加6dB。
 实际场景中需考虑墙体和地形的额外衰减。
 
 ## 蜂窝网络
 
-### 4G LTE与5G NR对比
+### 4G LTE 与5G NR 对比
 
 蜂窝网络（Cellular Network）
 通过基站（Base Station）将服务区域划分为小区（Cell）。
 相邻小区使用不同频率以避免同频干扰。
 
-5G新空口（5G New Radio, 5G NR）
-是3GPP Release 15及后续版本定义的全球5G标准。
+5G 新空口（5G New Radio, 5G NR）
+是3GPP Release 15及后续版本定义的全球5G 标准。
 
 | 特性 | 4G LTE | 5G NR |
 |------|--------|-------|
@@ -153,7 +155,7 @@ $f$ 以MHz为单位。
 | 波形 | OFDMA (下行) | OFDMA + DFT-s-OFDM |
 | 帧结构 | 固定子帧 | 灵活可配参数集 |
 
-### 5G三大应用场景
+### 5G 三大应用场景
 
 **eMBB**（增强移动宽带
 Enhanced Mobile Broadband）：
@@ -178,66 +180,66 @@ Massive Machine-Type Communications）：
 智能城市（Smart City）。
 传感器网络（Sensor Network）。
 
-### OFDM数学表示
+### OFDM 数学表示
 
-OFDM将宽带信道划分为多个正交子载波。
+OFDM 将宽带信道划分为多个正交子载波。
 每个子载波以较低速率传输数据。
 有效对抗频率选择性衰落。
 
-时域OFDM符号表示为：
+时域 OFDM 符号表示为：
 
 $$x(t) = \sum_{k=0}^{N-1} X_k \cdot e^{j2\pi k \Delta f t}, \quad 0 \leq t \leq T$$
 
 其中 $N$ 为子载波总数。
 $X_k$ 为第 $k$ 个子载波上的调制符号。
 $\Delta f$ 为子载波间隔。
-$T = 1/\Delta f$ 为OFDM符号周期。
+$T = 1/\Delta f$ 为 OFDM 符号周期。
 
 循环前缀（Cyclic Prefix, CP）的插入
-使OFDM对多径时延具有鲁棒性。
-CP长度应大于最大多径时延。
+使 OFDM 对多径时延具有鲁棒性。
+CP 长度应大于最大多径时延。
 
-5G NR使用可配置的子载波间隔。
-支持15kHz、30kHz、60kHz、120kHz等。
+5G NR 使用可配置的子载波间隔。
+支持15kHz、30kHz、60kHz、120kHz 等。
 以适应不同频段和部署场景。
 
 ### 演进路线
 
-蜂窝网络从1G到5G的演进：
+蜂窝网络从1G 到5G 的演进：
 1G：模拟语音，AMPS（1980s）。
 2G：数字语音+短信，GSM（1990s）。
 3G：移动数据，UMTS/CDMA2000（2000s）。
-4G：全IP宽带，LTE（2010s）。
+4G：全 IP 宽带，LTE（2010s）。
 5G：万物互联，NR（2020s）。
-6G：空天地一体化（2030s展望）。
+6G：空天地一体化（2030s 展望）。
 
 ## 蓝牙技术
 
 蓝牙（Bluetooth）
 是一种短距离无线通信技术。
-工作于2.4 GHz ISM频段
+工作于2.4 GHz ISM 频段
 （Industrial, Scientific and Medical Band）。
 采用跳频扩频（Frequency Hopping Spread Spectrum, FHSS）。
 
 | 版本 | 物理层速率 | 最大范围 | 核心特点 |
 |------|-----------|---------|---------|
-| Bluetooth 4.2 | 1 Mbps | 50-100 m | BLE低功耗、IPv6支持 |
+| Bluetooth 4.2 | 1 Mbps | 50-100 m | BLE 低功耗、IPv6支持 |
 | Bluetooth 5.0 | 2 Mbps | 200 m | 广播容量8倍提升、定位 |
 | Bluetooth 5.2+ | 2 Mbps | 200 m+ | LE Audio, LC3编码, 测距 |
 
 经典蓝牙（BR/EDR）支持连续数据流（如音频传输）。
 低功耗蓝牙（Bluetooth Low Energy, BLE）
 针对周期性小数据包传输优化。
-是IoT和可穿戴设备的主流选择。
+是 IoT 和可穿戴设备的主流选择。
 
 ## 无线安全协议
 
 | 协议 | 加密算法 | 认证 | 推荐状态 | 安全性评级 |
 |------|---------|------|---------|-----------|
 | WEP | RC4-64/128 | 共享密钥 | 已废弃 | 极低——分钟级破解 |
-| WPA | TKIP/RC4 | 802.1X | 不推荐 | 低——TKIP已攻破 |
-| WPA2 | AES-CCMP | 802.1X或PSK | 主流 | 高——KRACK已修复 |
-| WPA3 | AES-GCMP | SAE握手 | 最新标准 | 极高——前向安全 |
+| WPA | TKIP/RC4 | 802.1X | 不推荐 | 低——TKIP 已攻破 |
+| WPA2 | AES-CCMP | 802.1X 或 PSK | 主流 | 高——KRACK 已修复 |
+| WPA3 | AES-GCMP | SAE 握手 | 最新标准 | 极高——前向安全 |
 
 ## 无线通信的核心挑战
 
@@ -255,10 +257,10 @@ CP长度应大于最大多径时延。
 **频谱稀缺（Spectrum Scarcity）**
 推动了认知无线电（Cognitive Radio）。
 动态频谱接入（Dynamic Spectrum Access, DSA）的研究。
-毫米波和太赫兹频段是5G/6G的重要发展方向。
+毫米波和太赫兹频段是5G/6G 的重要发展方向。
 
 **功耗（Power Consumption）**
-是移动设备和IoT终端的首要设计约束。
+是移动设备和 IoT 终端的首要设计约束。
 能量收集（Energy Harvesting）技术正在研究中。
 
 ## 相关条目

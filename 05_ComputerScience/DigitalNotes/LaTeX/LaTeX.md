@@ -1,6 +1,8 @@
 ---
 aliases: [LaTeX]
 tags: ['DigitalNotes', 'LaTeX', 'LaTeX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # LaTeX 完全指南

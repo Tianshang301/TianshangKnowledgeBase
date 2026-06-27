@@ -1,13 +1,15 @@
 ---
 aliases: [CodingForTeens]
 tags: ['CrossDisciplinaryK12', 'STEM', 'CodingForTeens']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 青少年编程
 ## 概述
 
-编程是计算思维的核心技能。本文档介绍Scratch图形化编程、Python入门、计算思维以及编程竞赛简介。
-## Scratch图形化编程
+编程是计算思维的核心技能。本文档介绍 Scratch 图形化编程、Python 入门、计算思维以及编程竞赛简介。
+## Scratch 图形化编程
 ### 基本概念
 - **角色（Sprite）**：程序中的角色。
 - **舞台（Stage）**：角色活动的区域
@@ -36,7 +38,7 @@ tags: ['CrossDisciplinaryK12', 'STEM', 'CodingForTeens']
 4.   如果碰到边缘，就反弹
 ```
 
-## Python入门
+## Python 入门
 
 ### 基本概念
 - **变量**：存储数据的容器
@@ -58,7 +60,7 @@ print(type(height)) # <class 'float'>
 
 ### 条件语句
 ```python
-# if语句
+# if 语句
 score = 85
 if score >= 90:
     print("优秀")
@@ -72,11 +74,11 @@ else:
 
 ### 循环语句
 ```python
-# for循环
+# for 循环
 for i in range(10):
     print(i)
 
-# while循环
+# while 循环
 count = 0
 while count < 5:
     print(count)
@@ -152,8 +154,8 @@ print("恭喜你猜对了！")
 4. 组建学习小组
 
 ## 参考资料
-- Scratch官方网站
-- Python官方教程
+- Scratch 官方网站
+- Python 官方教程
 - 编程学习网站（LeetCode、Codeforces）
 - 编程竞赛题库。
 

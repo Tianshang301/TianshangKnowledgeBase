@@ -1,6 +1,8 @@
 ---
 aliases: [FinancialAccounting]
 tags: ['BusinessAdministration', 'Accounting', 'FinancialAccounting']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 财务会计
@@ -76,15 +78,15 @@ tags: ['BusinessAdministration', 'Accounting', 'FinancialAccounting']
 
 ### 国际财务报告准则
 
-国际财务报告准则（IFRS）由国际会计准则理事会（IASB）制定，是全球性的会计准则体系。IFRS已被全球140多个国家和地区采用。IFRS强调原则导向，要求会计人员运用专业判断。
+国际财务报告准则（IFRS）由国际会计准则理事会（IASB）制定，是全球性的会计准则体系。IFRS 已被全球140多个国家和地区采用。IFRS 强调原则导向，要求会计人员运用专业判断。
 
 ### 中国企业会计准则
 
-中国企业会计准则（CAS）由财政部制定，与IFRS实质性趋同。CAS包括基本准则和具体准则。CAS适用于中国境内企业，上市公司必须执行。CAS的实施提高了中国会计信息的国际可比性。
+中国企业会计准则（CAS）由财政部制定，与 IFRS 实质性趋同。CAS 包括基本准则和具体准则。CAS 适用于中国境内企业，上市公司必须执行。CAS 的实施提高了中国会计信息的国际可比性。
 
 ### 美国公认会计原则
 
-美国公认会计原则（US GAAP）由美国财务会计准则委员会（FASB）制定。US GAAP强调规则导向，详细规定了各类交易的处理方法。US GAAP与IFRS存在差异，两者趋同是国际会计界的重要议题。
+美国公认会计原则（US GAAP）由美国财务会计准则委员会（FASB）制定。US GAAP 强调规则导向，详细规定了各类交易的处理方法。US GAAP 与 IFRS 存在差异，两者趋同是国际会计界的重要议题。
 
 ## 会计循环
 
@@ -164,7 +166,7 @@ tags: ['BusinessAdministration', 'Accounting', 'FinancialAccounting']
 
 ### 会计职业发展
 
-会计职业路径包括企业会计、会计师事务所、金融机构和政府审计。注册会计师（CPA）和注册管理会计师（CMA）是重要专业资格。国际会计资格如ACCA和CIMA在中国也有较大影响力。
+会计职业路径包括企业会计、会计师事务所、金融机构和政府审计。注册会计师（CPA）和注册管理会计师（CMA）是重要专业资格。国际会计资格如 ACCA 和 CIMA 在中国也有较大影响力。
 
 ## 参考资料
 

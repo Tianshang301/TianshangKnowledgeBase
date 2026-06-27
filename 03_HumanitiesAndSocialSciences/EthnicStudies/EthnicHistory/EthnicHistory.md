@@ -1,6 +1,8 @@
 ---
 aliases: [EthnicHistory]
 tags: ['EthnicStudies', 'EthnicHistory', 'EthnicHistory']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 民族史
@@ -196,7 +198,7 @@ $$\text{Colonial Ethnic Identity} = f(\text{Pre-colonial Structure}, \text{Colon
 
 ### 6.3 遗传人类学与民族史
 
-古代DNA研究为民族迁徙与融合提供新的证据。Y染色体单倍群、线粒体DNA、全基因组分析揭示欧亚大陆人群迁徙的复杂图景，挑战简单的"纯粹民族"叙事。
+古代 DNA 研究为民族迁徙与融合提供新的证据。Y 染色体单倍群、线粒体 DNA、全基因组分析揭示欧亚大陆人群迁徙的复杂图景，挑战简单的"纯粹民族"叙事。
 
 ## 相关条目
 

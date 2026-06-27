@@ -1,4 +1,11 @@
-﻿---
+---
+aliases: [AircraftDesign]
+tags: ['AerospaceAndMilitaryEngineering', 'AerospaceEngineering', 'AircraftDesign.md']
+created: 2026-05-17
+updated: 2026-05-17
+---
+
+---
 aliases: [AircraftDesign]
 tags: ['04_EngineeringAndTechnology', 'AerospaceAndMilitaryEngineering', 'AerospaceEngineering']
 ---

@@ -1,6 +1,8 @@
 ---
 aliases: [GeneCloning, 基因克隆]
 tags: ['04_EngineeringAndTechnology', 'Biotechnologies', 'GeneticEngineering', 'GeneCloning']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 基因克隆 (Gene Cloning)
@@ -115,7 +117,7 @@ $$3'-CTTAA \quad\quad G-5'$$
 
 DNA 连接酶催化 DNA 片段之间磷酸二酯键的形成：
 
-$$DNA_{片段A} + DNA_{片段B} \xrightarrow{\text{DNA Ligase, ATP/NAD}^+} DNA_{重组分子}$$
+$$DNA_{片段 A} + DNA_{片段 B} \xrightarrow{\text{DNA Ligase, ATP/NAD}^+} DNA_{重组分子}$$
 
 **连接反应条件**：
 

@@ -1,6 +1,8 @@
 ---
 aliases: [BusinessStatistics]
 tags: ['AppliedStatistics', 'BusinessStatistics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 商业统计
@@ -87,13 +89,13 @@ $$y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \cdots + \beta_p x_p + \varepsilon$$
 ### 回归诊断
 
 - **多重共线?*：方差膨胢因子（VIF?- **异方差?*：残差图分析
-- **自相关?*：Durbin-Watson棢?- **模型拟合优度**：R²、调整R²
+- **自相关?*：Durbin-Watson 棢?- **模型拟合优度**：R²、调整 R²
 
-## A/B测试
+## A/B 测试
 
 ### 基本原理
 
-A/B测试是比较两个版本的统计实验方法，用于确定哪个版本表现更好?
+A/B 测试是比较两个版本的统计实验方法，用于确定哪个版本表现更好?
 **实施步骤?*
 1. 明确测试目标（转化率、点击率等）
 2. 确定样本量和测试时长
@@ -129,10 +131,10 @@ $$\hat{y}_{t+1} = \frac{1}{k}\sum_{i=0}^{k-1}y_{t-i}$$
 **指数平滑法：**
 $$\hat{y}_{t+1} = \alpha y_t + (1-\alpha)\hat{y}_t$$
 
-**ARIMA模型?*
+**ARIMA 模型?*
 - 自回归（AR）：当前值依赖于过去?- 移动平均（MA）：当前值依赖于过去误差
 - 差分（I）：使序列平?
-## Excel数据分析工具
+## Excel 数据分析工具
 
 ### 内置分析工具
 
@@ -146,9 +148,9 @@ $$\hat{y}_{t+1} = \alpha y_t + (1-\alpha)\hat{y}_t$$
 =LINEST()         # 线回?=TREND()          # 趋势预测
 =FORECAST()       # 预测?```
 
-## Python数据分析工具
+## Python 数据分析工具
 
-### pandas数据处理
+### pandas 数据处理
 
 ```python
 import pandas as pd
@@ -163,7 +165,7 @@ df.describe()
 # 分组统计
 df.groupby('category')['sales'].agg(['mean', 'std', 'sum'])
 
-# 数据透视?pd.pivot_table(df, values='sales', index='region', 
+# 数据透视?pd.pivot_table(df, values='sales', index='region',
                columns='product', aggfunc='sum')
 ```
 
@@ -198,10 +200,10 @@ print(f'R²: {model.score(X, y)}')
 ## 商业统计应用案例
 
 ### 锢售分?
-- 锢售趋势分?- 产品相关性分?- 客户细分（RFM模型?- 锢售预?
+- 锢售趋势分?- 产品相关性分?- 客户细分（RFM 模型?- 锢售预?
 ### 质量控制
 
-- 控制图（X-bar图R图）
+- 控制图（X-bar 图 R 图）
 - 过程能力分析（Cp、Cpk?- 缺陷率分?- 六西格玛管理
 
 ### 市场调研

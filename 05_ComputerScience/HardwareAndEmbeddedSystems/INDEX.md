@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['HardwareAndEmbeddedSystems', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # HardwareAndEmbeddedSystems
@@ -22,7 +24,7 @@ tags: ['HardwareAndEmbeddedSystems', 'INDEX']
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/FPGA/INDEX|FPGA]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/IoT/INDEX|IoT]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/Microcontrollers/INDEX|Microcontrollers]]
-- [[05_ComputerScience/HardwareAndEmbeddedSystems/PCB_Design/INDEX|PCB Design]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/PCBDesign/INDEX|PCB Design]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/RaspberryPi/INDEX|Raspberry Pi]]
 - [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/Robotics/INDEX|Robotics]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/RTOS/INDEX|RTOS]]

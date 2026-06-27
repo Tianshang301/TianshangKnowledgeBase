@@ -1,6 +1,8 @@
 ---
 aliases: [交通工程, 交通工学, Traffic Engineering, Transportation Engineering]
 tags: [交通工程, 交通运输, 交通流理论, 信号控制, 智能交通, 交通安全, 交通规划]
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 交通工程 (Traffic Engineering)

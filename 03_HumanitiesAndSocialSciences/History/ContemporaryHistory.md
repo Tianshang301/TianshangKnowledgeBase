@@ -4,6 +4,8 @@ aliases:
   - 当代史
   - 战后史
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - History
   - ContemporaryHistory
   - ColdWar

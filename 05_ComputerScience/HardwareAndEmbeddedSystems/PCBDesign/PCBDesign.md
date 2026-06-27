@@ -1,6 +1,8 @@
 ---
 aliases: [PCBDesign]
-tags: ['HardwareAndEmbeddedSystems', 'PCB_Design', 'PCBDesign']
+tags: ['HardwareAndEmbeddedSystems', 'PCBDesign', 'PCBDesign']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # PCB 设计
@@ -27,7 +29,7 @@ tags: ['HardwareAndEmbeddedSystems', 'PCB_Design', 'PCBDesign']
 | Altium Designer | 商业 ($3000+) | Windows | 中高 | 高效、3D 集成 |
 | Eagle | 免费有限/付费 | Windows/Mac/Linux | 中等 | Autodesk 生态 |
 | OrCAD | 商业 | Windows | 高 | 企业级、仿真集成 |
-| EDA (立创EDA) | 免费 | Web | 低 | 国产、与嘉立创生产集成 |
+| EDA (立创 EDA) | 免费 | Web | 低 | 国产、与嘉立创生产集成 |
 
 ## 三、元器件与封装
 
@@ -235,7 +237,7 @@ $$R_{\theta via} = \frac{1}{N} \cdot \frac{h}{k_{cu} \cdot \pi r^2}$$
 
 ## 相关条目
 
-- [[高速PCB设计要点]]
+- [[高速 PCB 设计要点]]
 - [[AnalogCircuits]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/DigitalCircuits/INDEX|DigitalCircuits]]
 - [[EmbeddedLinux]]

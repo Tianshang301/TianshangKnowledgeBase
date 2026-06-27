@@ -1,6 +1,8 @@
 ---
 aliases: [ReadingComprehension]
 tags: ['PrimarySchool', 'Chinese', 'ReadingComprehension']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 阅读理解基础
@@ -49,7 +51,7 @@ tags: ['PrimarySchool', 'Chinese', 'ReadingComprehension']
 
 ## 提问策略
 
-### 5W1H提问法
+### 5W1H 提问法
 
 | 问题类型 | 关键词 | 示例 |
 |----------|--------|------|

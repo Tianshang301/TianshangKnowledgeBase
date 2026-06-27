@@ -1,6 +1,8 @@
 ---
 aliases: [ProfessionalEnglish]
 tags: ['ForeignLanguagesAndLiteratures', 'ProfessionalEnglish', 'ProfessionalEnglish']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 专业英语
@@ -11,13 +13,13 @@ tags: ['ForeignLanguagesAndLiteratures', 'ProfessionalEnglish', 'ProfessionalEng
 
 专门用途英语（English for Specific Purposes, ESP）是英语语言教学的重要分支，以满足学习者特定学科或职业领域的英语需求为目标。
 
-| ESP分支 | 对象 | 核心内容 |
+| ESP 分支 | 对象 | 核心内容 |
 |---------|------|---------|
 | 学术英语（EAP） | 高校学生、研究者 | 论文写作、学术演讲、文献阅读 |
 | 职业英语（EOP/EVP） | 职场人士 | 商务沟通、行业术语 |
 | 科技英语（EST） | 理工科专业人员 | 技术文档、科学报告 |
 
-### 1.2 ESP教学法
+### 1.2 ESP 教学法
 
 | 原则 | 内容 |
 |------|------|
@@ -32,7 +34,7 @@ $$ \text{Course Design} = f(\text{Needs Analysis}, \text{Target Situation}, \tex
 
 ### 2.1 学术词汇
 
-学术词汇表（Academic Word List, AWL）由Coxhead（2000）基于语料库编制，包含570个词族，覆盖学术文本的约10%。
+学术词汇表（Academic Word List, AWL）由 Coxhead（2000）基于语料库编制，包含570个词族，覆盖学术文本的约10%。
 
 | 子表 | 词族举例 |
 |------|---------|
@@ -43,18 +45,18 @@ $$ \text{Course Design} = f(\text{Needs Analysis}, \text{Target Situation}, \tex
 
 学术词汇教学策略：搭配意识（如"conduct a study"而非"make a study"）、词族扩展（analyze/analysis/analytical）、语境化学习。
 
-### 2.2 IMRaD结构
+### 2.2 IMRaD 结构
 
 学术论文的经典组织模式——IMRaD（Introduction, Methods, Results, and Discussion）：
 
 | 部分 | 功能 | 语步（Move） |
 |------|------|-------------|
-| 引言 | 确立研究领域、定位研究空白、提出研究目的 | 三段式语步（Swales CARS模型） |
+| 引言 | 确立研究领域、定位研究空白、提出研究目的 | 三段式语步（Swales CARS 模型） |
 | 方法 | 描述研究设计与执行 | 参与者/材料、程序、数据分析 |
 | 结果 | 呈现研究发现 | 主要发现、数据展示、统计分析 |
 | 讨论 | 解释结果、联系文献、总结贡献 | 重申发现、与文献对话、局限与展望 |
 
-斯韦尔斯（John Swales）的CARS（Create A Research Space）模型：
+斯韦尔斯（John Swales）的 CARS（Create A Research Space）模型：
 
 $$\text{Move 1: 确立领域} \rightarrow \text{Move 2: 建立空白} \rightarrow \text{Move 3: 填补空白}$$
 
@@ -83,7 +85,7 @@ $$\text{Move 1: 确立领域} \rightarrow \text{Move 2: 建立空白} \rightarro
 | 商务邮件 | 礼节度、信息组织、请求/回复策略 |
 | 商务会议 | 提出观点、赞同/反对、打断、总结 |
 | 商务谈判 | 提议、让步、妥协、协议达成 |
-| 商务演讲 | PPT结构、数据呈现、Q&A应对 |
+| 商务演讲 | PPT 结构、数据呈现、Q&A 应对 |
 
 ### 3.2 商务邮件写作
 
@@ -119,7 +121,7 @@ $$\text{Move 1: 确立领域} \rightarrow \text{Move 2: 建立空白} \rightarro
 | 拉丁语 | habeas corpus, prima facie, bona fide |
 | 法律术语 | tort, breach, injunction, consideration |
 | 复杂句式 | 多条件叠套、限定从句、长句 |
-| 书面正式 | shall表示义务，may表示许可 |
+| 书面正式 | shall 表示义务，may 表示许可 |
 
 ### 4.2 医学英语
 
@@ -147,7 +149,7 @@ $$\text{EST Style} = \text{客观性} + \text{逻辑性} + \text{精确性} + \t
 - 术语精确（避免同义含糊）
 - 图表描述规范化
 
-## 五、ESP需求分析
+## 五、ESP 需求分析
 
 ### 5.1 需求分析模型
 
@@ -158,15 +160,15 @@ $$\text{EST Style} = \text{客观性} + \text{逻辑性} + \text{精确性} + \t
 | 学习需求分析（LNA） | Hutchinson & Waters（1987） | 学习者对学习过程的期望 |
 | 手段分析（MA） | Holliday & Cooke（1982） | 教学环境的限制与资源 |
 
-### 5.2 Hutchinson & Waters的ESP框架
+### 5.2 Hutchinson & Waters 的 ESP 框架
 
-Hutchinson & Waters（1987）提出的ESP分析框架：
+Hutchinson & Waters（1987）提出的 ESP 分析框架：
 
 $$\text{ESP} = \text{Why（学习者为何学）} + \text{What（学什么）} + \text{How（怎么学）}$$
 
 ### 5.3 体裁与语步分析
 
-斯韦尔斯的体裁分析理论广泛应用于ESP教学。学生通过分析目标体裁的语步结构（Move Structure）和语步策略（Steps），掌握专业写作的规范。
+斯韦尔斯的体裁分析理论广泛应用于 ESP 教学。学生通过分析目标体裁的语步结构（Move Structure）和语步策略（Steps），掌握专业写作的规范。
 
 ## 六、语料库与专业英语
 
@@ -180,7 +182,7 @@ $$\text{ESP} = \text{Why（学习者为何学）} + \text{What（学什么）} +
 
 ### 6.2 语料库在教学中的应用
 
-数据驱动学习（DDL）在ESP中的具体应用：学生检索特定术语（如"method"）在学术语料库中的搭配（"method for...", "method of...", "method to..."）以掌握正确用法。
+数据驱动学习（DDL）在 ESP 中的具体应用：学生检索特定术语（如"method"）在学术语料库中的搭配（"method for...", "method of...", "method to..."）以掌握正确用法。
 
 ## 七、测试与评估
 
@@ -194,9 +196,9 @@ $$\text{ESP} = \text{Why（学习者为何学）} + \text{What（学什么）} +
 | TOEIC Listening & Reading | ETS | A1—C1 | 职场英语通用 |
 | TOEIC Speaking & Writing | ETS | A1—C1 | 口语与写作 |
 
-### 7.2 ESP测试的特点
+### 7.2 ESP 测试的特点
 
-ESP测试强调：
+ESP 测试强调：
 - **内容真实性**：测试任务模拟专业场景
 - **能力综合性**：语言能力与专业知识并重
 - **构念准确性**：测量的是"专业英语能力"而非"专业知识"或"通用英语能力"
@@ -216,7 +218,7 @@ ESP测试强调：
 4. Dudley-Evans, T. & St. John, M. J. (1998). *Developments in English for Specific Purposes*. Cambridge: Cambridge University Press.
 5. Biber, D. (2006). *University Language: A Corpus-based Study of Spoken and Written Registers*. Amsterdam: John Benjamins.
 6. Flowerdew, J. & Peacock, M. (2001). *Research Perspectives on English for Academic Purposes*. Cambridge: Cambridge University Press.
-7. 蔡基刚（2012）。《当代ESP研究》。上海：复旦大学出版社。
+7. 蔡基刚（2012）。《当代 ESP 研究》。上海：复旦大学出版社。
 8. Bhatia, V. K. (1993). *Analysing Genre: Language Use in Professional Settings*. London: Longman.
 9. Hyland, K. (2006). *English for Academic Purposes: An Advanced Resource Book*. London: Routledge.
 10. Hofstede, G. (2001). *Culture's Consequences* (2nd ed.). Thousand Oaks: Sage.

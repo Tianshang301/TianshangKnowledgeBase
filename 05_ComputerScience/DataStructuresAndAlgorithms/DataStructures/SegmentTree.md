@@ -1,6 +1,8 @@
 ---
 aliases: [SegmentTree]
 tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'SegmentTree']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 线段树

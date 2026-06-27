@@ -1,6 +1,8 @@
 ---
 aliases: [FiberOptics]
 tags: ['04_EngineeringAndTechnology', 'MechanicalAndElectricalEngineering', 'OpticalEngineering']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 光纤光学 (Fiber Optics)

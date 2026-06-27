@@ -1,6 +1,8 @@
 ---
 aliases: [SoftwareTesting]
 tags: ['SoftwareEngineering', 'SoftwareTesting', 'SoftwareTesting']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 软件测试

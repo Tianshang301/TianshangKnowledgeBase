@@ -1,21 +1,23 @@
 ---
 aliases: [ApplicationLayer]
 tags: ['ComputerNetworks', 'ApplicationLayer']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 应用层详解 (Application Layer)
 
 ## 1. DNS (Domain Name System)
 
-域名系统将人类可读的域名转换为IP地址。
+域名系统将人类可读的域名转换为 IP 地址。
 
 ### 域名层次结构
 
 ```
 根 (.)
-├── .com         → 商业组织 (Verisign运营)
-├── .org         → 非营利组织 (PIR运营)
-├── .cn          → 中国 (CNNIC运营)
+├── .com         → 商业组织 (Verisign 运营)
+├── .org         → 非营利组织 (PIR 运营)
+├── .cn          → 中国 (CNNIC 运营)
 ├── .net         → 网络服务
 ├── .edu         → 教育机构
 └── 顶级域(TLD) 
@@ -26,14 +28,14 @@ tags: ['ComputerNetworks', 'ApplicationLayer']
 ### DNS 解析过程
 
 ```
-用户浏览器                       本地DNS解析器                根DNS服务器
+用户浏览器                       本地 DNS 解析器                根 DNS 服务器
     │                               │                          │
     │ 1. 查询 www.example.com       │                          │
     │──────────────────────────────►│                          │
-    │                               │ 2. 询问 .com的权威服务器 │
+    │                               │ 2. 询问 .com 的权威服务器 │
     │                               │─────────────────────────►│
     │                               │◄─────────────────────────│
-    │                               │    返回 .com TLD服务器   │
+    │                               │    返回 .com TLD 服务器   │
     │                               │                          │
     │                               │ 3. 询问 example.com      │
     │                               │─────────────────────────►│ .com TLD
@@ -81,7 +83,7 @@ whois example.com
 host www.baidu.com
 host -t MX gmail.com
 
-# 使用特定DNS服务器
+# 使用特定 DNS 服务器
 dig @8.8.8.8 www.baidu.com
 nslookup www.baidu.com 8.8.8.8
 ```
@@ -140,10 +142,10 @@ Content-Encoding: gzip
 Last-Modified: Fri, 08 May 2026 12:00:00 GMT
 ETag: "abc123def456"                            # 实体标签
 Cache-Control: max-age=3600, public             # 缓存控制
-Set-Cookie: session_id=xyz789; HttpOnly; Secure # 设置Cookie
+Set-Cookie: session_id=xyz789; HttpOnly; Secure # 设置 Cookie
 Strict-Transport-Security: max-age=31536000     # HSTS
 X-Frame-Options: DENY                           # 防点击劫持
-X-Content-Type-Options: nosniff                 # 防MIME嗅探
+X-Content-Type-Options: nosniff                 # 防 MIME 嗅探
 ```
 
 ### 缓存控制
@@ -172,18 +174,18 @@ ETag: "abc123"
 | 特性 | 描述 | 优势 |
 |------|------|------|
 | **二进制分帧** | 帧(frame)替代文本 | 解析更高效 |
-| **多路复用** | 一个TCP连接并行多个流 | 解决队头阻塞 |
-| **服务器推送** | 服务器主动推送资源 | 减少RTT |
+| **多路复用** | 一个 TCP 连接并行多个流 | 解决队头阻塞 |
+| **服务器推送** | 服务器主动推送资源 | 减少 RTT |
 | **头部压缩(HPACK)** | 使用静态/动态字典压缩头 | 减少开销 |
 | **流优先级** | 设置资源加载优先级 | 优化页面加载 |
-| **连接重置** | RST_STREAM只重置单个流 | 不中断其他流 |
+| **连接重置** | RST_STREAM 只重置单个流 | 不中断其他流 |
 
 ### HTTP/3 & QUIC
 
 ```
 HTTP/3
     │
-QUIC (基于UDP)
+QUIC (基于 UDP)
     │
 TLS 1.3 (内置加密)
     │
@@ -193,8 +195,8 @@ UDP
 **QUIC 优势:**
 - 0-RTT 连接建立 (之前连过的可直接发数据)
 - 连接迁移 (切换网络不中断)
-- 无TCP队头阻塞 (一个流丢包不影响其他流)
-- 内置TLS 1.3
+- 无 TCP 队头阻塞 (一个流丢包不影响其他流)
+- 内置 TLS 1.3
 
 ## 3. FTP (File Transfer Protocol)
 
@@ -202,18 +204,18 @@ UDP
 
 ```
 主动模式 (Active):
-客户端(端口N) ──控制连接(21)──► 服务器
-客户端(端口N+1)◄──数据连接(20)── 服务器
+客户端(端口 N) ──控制连接(21)──► 服务器
+客户端(端口 N+1)◄──数据连接(20)── 服务器
   (服务器主动连接客户端)
 
 被动模式 (Passive):
-客户端(端口N) ──控制连接(21)──► 服务器
-客户端(端口N+1)──数据连接(>=1024)──► 服务器
-  (客户端主动连接服务器, PASV命令)
+客户端(端口 N) ──控制连接(21)──► 服务器
+客户端(端口 N+1)──数据连接(>=1024)──► 服务器
+  (客户端主动连接服务器, PASV 命令)
 ```
 
 ```bash
-# FTP命令示例
+# FTP 命令示例
 ftp ftp.example.com
 > anonymous          # 匿名登录
 > password@example.com
@@ -313,7 +315,7 @@ DHCP Client                    DHCP Server
     │─────────────────────────────►│
     │                              │
     │ 2. DHCP OFFER (可选单播或广播)│
-    │ 提供IP: 192.168.1.100       │
+    │ 提供 IP: 192.168.1.100       │
     │◄─────────────────────────────│
     │                              │
     │ 3. DHCP REQUEST (广播)       │
@@ -326,15 +328,15 @@ DHCP Client                    DHCP Server
 ```
 
 ```bash
-# Linux DHCP客户端
-dhclient eth0                # 获取IP
-dhclient -r eth0             # 释放IP
+# Linux DHCP 客户端
+dhclient eth0                # 获取 IP
+dhclient -r eth0             # 释放 IP
 dhclient -v eth0             # 显示详细信息
 
 # Windows
-ipconfig /renew              # 续租IP
-ipconfig /release            # 释放IP
-ipconfig /all                # 查看DHCP信息
+ipconfig /renew              # 续租 IP
+ipconfig /release            # 释放 IP
+ipconfig /all                # 查看 DHCP 信息
 ```
 
 ## 6. SSH (Secure Shell)
@@ -344,7 +346,7 @@ ipconfig /all                # 查看DHCP信息
 ```
 客户端                        服务器
   │                              │
-  │ 1. TCP握手(端口22)           │
+  │ 1. TCP 握手(端口22)           │
   │─────────────────────────────►│
   │◄─────────────────────────────│
   │                              │
@@ -379,7 +381,7 @@ ssh -p 2222 user@example.com    # 指定端口
 ssh-keygen -t ed25519 -C "my@email.com"        # 生成密钥对
 ssh-copy-id user@example.com                   # 复制公钥到服务器
 
-# SSH配置文件 (~/.ssh/config)
+# SSH 配置文件 (~/.ssh/config)
 # Host myserver
 #     HostName example.com
 #     User admin
@@ -388,13 +390,13 @@ ssh-copy-id user@example.com                   # 复制公钥到服务器
 ssh myserver   # 使用配置别名
 
 # 端口转发
-# 本地转发: 将本地8080转发到远程的internal:80
+# 本地转发: 将本地8080转发到远程的 internal:80
 ssh -L 8080:internal:80 user@gateway
 
-# 远程转发: 将远程8080转发到本地的localhost:80
+# 远程转发: 将远程8080转发到本地的 localhost:80
 ssh -R 8080:localhost:80 user@gateway
 
-# 动态转发 (SOCKS代理)
+# 动态转发 (SOCKS 代理)
 ssh -D 1080 user@gateway
 
 # 隧道
@@ -404,12 +406,12 @@ ssh -J jumpuser@jump_host target_user@target_host
 ### SCP / SFTP
 
 ```bash
-# SCP (基于SSH的文件复制)
+# SCP (基于 SSH 的文件复制)
 scp file.txt user@example.com:/remote/path/
 scp -r dir/ user@example.com:/remote/path/
 scp user@example.com:/remote/file.txt ./local/
 
-# SFTP (基于SSH的文件传输, 类似FTP)
+# SFTP (基于 SSH 的文件传输, 类似 FTP)
 sftp user@example.com
 > ls
 > get remote_file.txt

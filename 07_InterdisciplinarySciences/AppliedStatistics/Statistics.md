@@ -1,6 +1,8 @@
 ---
 aliases: [Statistics, 统计, 统计科学]
 tags: ['07_InterdisciplinarySciences', 'AppliedStatistics', 'Mathematics', 'DataScience']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 统计学 Statistics

@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['MechanicalAndElectricalEngineering', 'InstrumentScience', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 仪器科学与技术

@@ -1,6 +1,8 @@
 ---
 aliases: [ChineseLiterature]
 tags: ['ChineseLanguageAndLiterature', 'ChineseLiterature', 'ChineseLiterature']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 中国文学概论

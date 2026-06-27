@@ -1,6 +1,8 @@
 ---
 aliases: [LearningPath]
 tags: ['LearningPath']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 艺术学习路线图
@@ -95,10 +97,10 @@ tags: ['LearningPath']
 
 | 主题 | 内容 | 实践 |
 |------|------|------|
-| 曝光三要素 | 光圈/快门/ISO | M档拍摄练习 |
+| 曝光三要素 | 光圈/快门/ISO | M 档拍摄练习 |
 | 景深控制 | 大光圈虚化、小光圈全清晰 | 人像/风景拍摄 |
 | 对焦模式 | 单次对焦/连续对焦/手动 | 静物/运动拍摄 |
-| 白平衡 | 色温 (K值)、不同光源 | 室内外对比 |
+| 白平衡 | 色温 (K 值)、不同光源 | 室内外对比 |
 
 **曝光三角形**:
 ```
@@ -109,7 +111,7 @@ tags: ['LearningPath']
                    │
      ┌──────┐     ┌┴┐     ┌──────┐
      │ 光圈  │◄────┤ ├────►│  快门  │
-     │ (F值) │     │ │     │ (速度) │
+     │ (F 值) │     │ │     │ (速度) │
      └──────┘     └─┘     └──────┘
     (进光量)             (曝光时间)
 ```
@@ -155,7 +157,7 @@ tags: ['LearningPath']
 | Phlearn | 网站 | 后期教程 |
 | The Art of Photography | YouTube | 摄影理论 |
 | Sean Tucker | YouTube | 纪实/街头 |
-| Peter McKinnon | YouTube | 摄影Vlog |
+| Peter McKinnon | YouTube | 摄影 Vlog |
 | 《纽约摄影学院》 | 书籍 | 系统教材 |
 
 ---
@@ -181,7 +183,7 @@ tags: ['LearningPath']
 | 方向 | 工具 | 学习内容 |
 |------|------|---------|
 | UI/UX | Figma | 用户界面、交互设计、原型 |
-| 品牌设计 | Illustrator | Logo设计、VI系统 |
+| 品牌设计 | Illustrator | Logo 设计、VI 系统 |
 | 排版设计 | InDesign | 杂志、书籍、海报 |
 
 **Figma 学习路径**:
@@ -199,7 +201,7 @@ tags: ['LearningPath']
 | 方向 | 职业路径 |
 |------|---------|
 | UI/UX 设计师 | Web/App 产品设计 |
-| 品牌设计师 | 企业VI、包装设计 |
+| 品牌设计师 | 企业 VI、包装设计 |
 | 动效设计师 | After Effects、Lottie |
 | 产品设计师 | 全流程产品设计 |
 
@@ -210,9 +212,9 @@ tags: ['LearningPath']
 | Dribbble | 社区 | 寻找灵感 |
 | Behance | 社区 | 发布作品 |
 | Awwwards | 网站 | 网页设计灵感 |
-| Refactoring UI | 书籍 | UI设计细节 |
-| Material Design | 文档 | Google设计规范 |
-| Human Interface | 文档 | Apple设计规范 |
+| Refactoring UI | 书籍 | UI 设计细节 |
+| Material Design | 文档 | Google 设计规范 |
+| Human Interface | 文档 | Apple 设计规范 |
 
 ### 设计师常用工具
 

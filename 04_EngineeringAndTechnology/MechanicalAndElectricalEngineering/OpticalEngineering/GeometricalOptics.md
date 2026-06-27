@@ -1,6 +1,8 @@
 ---
 aliases: [GeometricalOptics]
 tags: ['MechanicalAndElectricalEngineering', 'OpticalEngineering', 'GeometricalOptics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 几何光学
@@ -22,7 +24,7 @@ tags: ['MechanicalAndElectricalEngineering', 'OpticalEngineering', 'GeometricalO
 - 入射光线、反射光线和法线在同一平面内
 - 入射角等于反射角：$\theta_i = \theta_r$
 
-**折射定律（Snell定律）**：
+**折射定律（Snell 定律）**：
 
 $$n_1 \sin\theta_1 = n_2 \sin\theta_2$$
 

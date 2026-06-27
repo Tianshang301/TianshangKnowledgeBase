@@ -1,6 +1,8 @@
 ---
 aliases: [ChineseHistoryBasics]
 tags: ['JuniorHigh', 'History', 'ChineseHistoryBasics']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # 中国历史基础

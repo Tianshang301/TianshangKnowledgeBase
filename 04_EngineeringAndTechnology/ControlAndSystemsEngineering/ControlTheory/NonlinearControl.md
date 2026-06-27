@@ -1,6 +1,8 @@
 ---
 aliases: [NonlinearControl]
 tags: ['04_EngineeringAndTechnology', 'ControlAndSystemsEngineering', 'ControlTheory', 'NonlinearControl']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 非线性控制

@@ -1,6 +1,8 @@
 ---
 aliases: [TechnicalWriting]
 tags: ['05_ComputerScience', 'ProfessionalEnglish']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 技术写作 (Technical Writing)
@@ -174,7 +176,7 @@ DITA 将文档内容分为三类主题：
 
 ## 七、技术写作中的图形与数据可视化
 
-### 图表的Table类型选择
+### 图表的 Table 类型选择
 
 | 数据类型 | 推荐图表类型 | 工具 |
 |---------|-------------|------|

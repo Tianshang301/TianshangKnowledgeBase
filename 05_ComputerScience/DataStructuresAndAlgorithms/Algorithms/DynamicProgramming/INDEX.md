@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'DynamicProgramming', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 动态规划
@@ -10,4 +12,4 @@ tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'DynamicProgramming', 'INDEX
 ## 文件
 
 - [[DynamicProgramming]]
-- [[区间与状态压缩DP]]
+- [[区间与状态压缩 DP]]

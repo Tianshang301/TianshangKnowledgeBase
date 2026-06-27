@@ -1,6 +1,8 @@
 ---
 aliases: [Compose]
 tags: ['ProgrammingLanguages', 'Kotlin', 'Compose']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Jetpack Compose 指南

@@ -1,4 +1,11 @@
-﻿---
+---
+aliases: [IrrigationEngineering]
+tags: ['CivilEngineering', 'IrrigationEngineering.md']
+created: 2026-05-17
+updated: 2026-05-17
+---
+
+---
 aliases: [IrrigationEngineering]
 tags: ['04_EngineeringAndTechnology', 'CivilEngineering', 'WaterResources']
 ---

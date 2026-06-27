@@ -1,6 +1,8 @@
 ---
 aliases: [CPUArchitecture]
 tags: ['ComputerOrganizationAndArchitecture', 'CPUArchitecture', 'CPUArchitecture']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # CPU 架构 (CPU Architecture)

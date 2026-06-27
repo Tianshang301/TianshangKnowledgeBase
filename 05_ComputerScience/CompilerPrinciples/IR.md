@@ -1,6 +1,8 @@
 ---
 aliases: [IR, IntermediateRepresentation, ThreeAddressCode, SSA]
 tags: ['05_ComputerScience', 'CompilerPrinciples', 'IR', 'IntermediateRepresentation']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 中间表示 (Intermediate Representation)

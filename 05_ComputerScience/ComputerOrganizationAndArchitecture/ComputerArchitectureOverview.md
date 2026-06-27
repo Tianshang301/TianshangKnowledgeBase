@@ -3,8 +3,10 @@ aliases:
   - 计算机体系结构
   - 计算机组成
   - 冯·诺依曼结构
-  - CPU架构
+  - CPU 架构
 tags:
+created: 2026-05-17
+updated: 2026-05-16
   - computer-architecture
   - cpu
   - memory-hierarchy

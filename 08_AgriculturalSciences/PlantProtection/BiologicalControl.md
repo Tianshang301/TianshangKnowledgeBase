@@ -1,6 +1,8 @@
 ---
 aliases: [BiologicalControl]
 tags: ['PlantProtection', 'BiologicalControl']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 生物防治
@@ -25,7 +27,7 @@ tags: ['PlantProtection', 'BiologicalControl']
 
 ### 天敌-猎物动态模型
 
-**Lotka-Volterra经典捕食模型：**
+**Lotka-Volterra 经典捕食模型：**
 
 $$\frac{dN}{dt} = rN - aNP$$
 
@@ -38,7 +40,7 @@ $$\frac{dP}{dt} = baNP - mP$$
 - 确定天敌释放量和释放时机
 - 评估生境复杂性的稳定性效应
 
-**Nicholson-Bailey寄生模型：**
+**Nicholson-Bailey 寄生模型：**
 
 $$\frac{dH}{dt} = rH\left(1 - \frac{H}{K}\right) - cHP$$
 
@@ -88,7 +90,7 @@ $$\frac{dP}{dt} = cHP - dP$$
 - 寄生鳞翅目和鞘翅目幼虫
 - 菜蛾盘绒茧蜂（Cotesia plutellae）
 - 棉铃虫齿唇姬蜂（Campoletis chlorideae）
-- 与Bt制剂联合使用效果更佳
+- 与 Bt 制剂联合使用效果更佳
 
 ## 昆虫病原微生物应用
 
@@ -96,7 +98,7 @@ $$\frac{dP}{dt} = cHP - dP$$
 
 **分类与特性：**
 - Bacillus thuringiensis，革兰氏阳性土壤细菌
-- 产生伴孢晶体蛋白（Cry毒素）
+- 产生伴孢晶体蛋白（Cry 毒素）
 - 不同亚种对不同昆虫具特异性毒力
 
 **作用机制：**
@@ -183,12 +185,12 @@ $$\frac{dP}{dt} = cHP - dP$$
 ### 抗性基因
 
 **植物抗虫基因：**
-- Bt抗虫基因（Cry1Ab, Cry1Ac, Cry3A等）
-- 蛋白酶抑制剂基因（CpTI, SKTI等）
-- 外源凝集素基因（GNA, P-LEC等）
+- Bt 抗虫基因（Cry1Ab, Cry1Ac, Cry3A 等）
+- 蛋白酶抑制剂基因（CpTI, SKTI 等）
+- 外源凝集素基因（GNA, P-LEC 等）
 
 **植物抗病基因：**
-- R基因（抗病基因）介导的效应子触发免疫（ETI）
+- R 基因（抗病基因）介导的效应子触发免疫（ETI）
 - 模式识别受体（PRR）介导的模式触发免疫（PTI）
 - 系统获得抗性（SAR）相关基因
 
@@ -201,12 +203,12 @@ $$\text{Flg22} + \text{FLS2} \rightarrow \text{BAK1} \rightarrow \text{MAPK} \ri
 **系统获得抗性（SAR）：**
 - 由病原物侵染诱导的全株性抗性
 - 依赖水杨酸（SA）信号途径
-- 病程相关蛋白（PR蛋白）积累
+- 病程相关蛋白（PR 蛋白）积累
 
 **诱导系统抗性（ISR）：**
 - 由根际促生菌（PGPR）诱导
 - 依赖茉莉酸（JA）和乙烯（ET）信号途径
-- 不直接激活PR基因表达
+- 不直接激活 PR 基因表达
 
 ## 农作措施防治
 
@@ -277,7 +279,7 @@ $$\text{Flg22} + \text{FLS2} \rightarrow \text{BAK1} \rightarrow \text{MAPK} \ri
 - 淡紫紫孢菌（Purpureocillium lilacinum）制剂
 
 **病毒类：**
-- NPV制剂
+- NPV 制剂
 - 颗粒体病毒（GV）制剂
 - 质型多角体病毒（CPV）制剂
 
@@ -323,9 +325,9 @@ $$\text{Flg22} + \text{FLS2} \rightarrow \text{BAK1} \rightarrow \text{MAPK} \ri
 - 释放方法：定点悬挂卵卡
 - 间隔7-10天分次释放
 
-## 生物防治与IPM框架
+## 生物防治与 IPM 框架
 
-### IPM中的生物防治定位
+### IPM 中的生物防治定位
 
 **综合防治策略框架：**
 - 农业防治作为基础
@@ -356,9 +358,9 @@ $$\text{Flg22} + \text{FLS2} \rightarrow \text{BAK1} \rightarrow \text{MAPK} \ri
 |----------|----------|--------|--------|--------|------------|----------|
 | 捕食性天敌 | 直接捕食 | 较广 | 较长（建立种群） | 中 | 极高 | 中 |
 | 寄生性天敌 | 寄生致死 | 专化 | 中（依赖寄主） | 高 | 极高 | 中高 |
-| Bt制剂 | 胃毒晶体蛋白 | 专化 | 短 | 极高 | 高 | 低 |
+| Bt 制剂 | 胃毒晶体蛋白 | 专化 | 短 | 极高 | 高 | 低 |
 | 昆虫病原真菌 | 体壁侵入 | 较广 | 中（依赖湿度） | 高 | 高 | 中 |
-| NPV病毒 | 中肠感染 | 专化 | 中（受UV影响） | 高 | 极高 | 中 |
+| NPV 病毒 | 中肠感染 | 专化 | 中（受 UV 影响） | 高 | 极高 | 中 |
 | 病原线虫 | 共生细菌致死 | 广谱 | 短（土壤中较长） | 高 | 极高 | 高 |
 | 植物源农药 | 多种作用 | 较广 | 短 | 高 | 高 | 中 |
 | 抗生素农药 | 代谢抑制 | 特异 | 中 | 极高 | 中 | 低 |

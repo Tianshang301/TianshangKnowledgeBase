@@ -1,6 +1,8 @@
 ---
 aliases: [Geochemistry, 地球化学]
 tags: ['EarthSciences', 'Geochemistry', 'Geochemistry', 'IsotopeGeochemistry']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 地球化学 (Geochemistry)
@@ -80,7 +82,7 @@ $$ \delta = \left(\frac{R_{\text{样品}}}{R_{\text{标准}}} - 1\right) \times 
 | δD | VSMOW | 水循环、流体来源 |
 | δ¹³C | VPDB | 碳循环、有机质来源 |
 | δ³⁴S | VCDT | 硫循环、矿床成因 |
-| δ¹⁵N | 大气N₂ | 氮循环、生物过程 |
+| δ¹⁵N | 大气 N₂ | 氮循环、生物过程 |
 
 **分馏系数 α 与 δ 值的关系**：
 

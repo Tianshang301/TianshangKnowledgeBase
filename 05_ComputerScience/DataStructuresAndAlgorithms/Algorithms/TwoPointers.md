@@ -1,6 +1,8 @@
 ---
 aliases: [TwoPointers]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'TwoPointers']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 双指针技巧
@@ -233,7 +235,7 @@ def min_window(s, t):
 | 模式 | 方向 | 典型应用 | 时间复杂度 |
 |-----|------|---------|-----------|
 | 对撞指针 | left++, right-- | 两数之和、回文、三数之和 | O(n) / O(n²) |
-| 快慢指针 | 同向不同速 | 链表环、中点、倒数第K | O(n) |
+| 快慢指针 | 同向不同速 | 链表环、中点、倒数第 K | O(n) |
 | 滑动窗口 | 同向维护区间 | 子串、子数组 | O(n) |
 
 ## 常见问题
@@ -262,7 +264,7 @@ def remove_element(nums, val):
 | LeetCode 16. 最接近的三数之和 | 🟡 中等 | 对撞 |
 | LeetCode 141. 环形链表 | 🟢 简单 | 快慢 |
 | LeetCode 142. 环形链表 II | 🟡 中等 | 快慢 |
-| LeetCode 19. 删除倒数第N个节点 | 🟡 中等 | 快慢 |
+| LeetCode 19. 删除倒数第 N 个节点 | 🟡 中等 | 快慢 |
 | LeetCode 287. 寻找重复数 | 🟡 中等 | 快慢 |
 | LeetCode 26. 删除有序数组重复项 | 🟢 简单 | 快慢 |
 | LeetCode 27. 移除元素 | 🟢 简单 | 快慢 |

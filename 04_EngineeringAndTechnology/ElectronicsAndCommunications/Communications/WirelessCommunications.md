@@ -1,6 +1,8 @@
 ---
 aliases: [WirelessCommunications]
 tags: ['ElectronicsAndCommunications', 'Communications', 'WirelessCommunications']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 无线通信
@@ -12,7 +14,7 @@ tags: ['ElectronicsAndCommunications', 'Communications', 'WirelessCommunications
 - 无线信道特性
 - 蜂窝网络原理
 - 多址接入技术
-- 4G/5G关键技术
+- 4G/5G 关键技术
 
 ## 核心内容
 
@@ -72,7 +74,7 @@ $$f_d = \frac{v}{\lambda}\cos\theta = \frac{vf_c}{c}\cos\theta$$
 - 不同用户分配不同子载波组
 - 代表：LTE、WiMAX
 
-### 4G/5G关键技术
+### 4G/5G 关键技术
 
 **MIMO（多输入多输出）**：
 - 发送端和接收端使用多个天线
@@ -88,19 +90,19 @@ $$f_d = \frac{v}{\lambda}\cos\theta = \frac{vf_c}{c}\cos\theta$$
 
 **毫米波通信**：
 - 频段：24GHz~100GHz
-- 带宽大（可达数GHz）
+- 带宽大（可达数 GHz）
 - 传播损耗大，覆盖距离短
-- 应用：5G热点覆盖
+- 应用：5G 热点覆盖
 
-**5G关键指标**：
+**5G 关键指标**：
 - 峰值速率：20 Gbps
 - 用户体验速率：100 Mbps
 - 时延：<1 ms（URLLC）
 - 连接密度：100万设备/km²
 
-### WiFi技术演进
+### WiFi 技术演进
 
-**WiFi标准**：
+**WiFi 标准**：
 - 802.11b：11 Mbps（2.4GHz）
 - 802.11g：54 Mbps（2.4GHz）
 - 802.11n（WiFi 4）：600 Mbps
@@ -109,7 +111,7 @@ $$f_d = \frac{v}{\lambda}\cos\theta = \frac{vf_c}{c}\cos\theta$$
 
 **WiFi 6关键技术**：
 - OFDMA：多用户同时传输
-- MU-MIMO：上下行多用户MIMO
+- MU-MIMO：上下行多用户 MIMO
 - TWT（目标唤醒时间）：省电
 - 1024-QAM：更高调制阶数
 

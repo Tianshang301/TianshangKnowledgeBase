@@ -1,6 +1,8 @@
 ---
 aliases: [LogisticsManagement]
 tags: ['TransportationEngineering', 'Logistics', 'LogisticsManagement']
+created: 2026-05-17
+updated: 2026-05-13
 ---
 
 # 物流管理 (Logistics Management)

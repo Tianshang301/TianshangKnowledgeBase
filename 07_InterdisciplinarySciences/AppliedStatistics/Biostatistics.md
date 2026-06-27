@@ -1,6 +1,8 @@
 ---
 aliases: [Biostatistics]
 tags: ['AppliedStatistics', 'Biostatistics']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 生物统计?
@@ -15,11 +17,11 @@ tags: ['AppliedStatistics', 'Biostatistics']
 1. 建立原假设（H₢）和备择假设（H₁）
 2. 选择显著性水平（α），通常?.05
 3. 计算棢验统计量
-4. 确定P值或临界?5. 做出统计决策
+4. 确定 P 值或临界?5. 做出统计决策
 
 **常用棢验方法：**
-- **t棢?*：比较两组均值差异（独立样本t棢验配对t棢验）
-- **方差分析（ANOVA?*：比较多组均值差?- **卡方棢?*：检验分类变量间的关联?- **非参数检?*：Wilcoxon棢验Kruskal-Wallis棢验（数据不满足正态分布时使用?
+- **t 棢?*：比较两组均值差异（独立样本 t 棢验配对 t 棢验）
+- **方差分析（ANOVA?*：比较多组均值差?- **卡方棢?*：检验分类变量间的关联?- **非参数检?*：Wilcoxon 棢验 Kruskal-Wallis 棢验（数据不满足正态分布时使用?
 **两类错误?*
 - 第一类错误（α错误）：拒绝了正确的原假设（假阳性）
 - 第二类错误（β错误）：接受了错误的原假设（假阴性）
@@ -96,9 +98,9 @@ $$y_{ij} = \mu + \tau_i + \varepsilon_{ij}$$
 ## 生存分析
 
 生存分析是研究事件发生时间数据的统计方法?
-### Kaplan-Meier曲线
+### Kaplan-Meier 曲线
 
-Kaplan-Meier曲线（乘积极限法）是非参数方法，用于估计生存函数?
+Kaplan-Meier 曲线（乘积极限法）是非参数方法，用于估计生存函数?
 **计算公式?*
 $$S(t) = \prod_{t_i \leq t} \left(1 - \frac{d_i}{n_i}\right)$$
 
@@ -106,9 +108,9 @@ $$S(t) = \prod_{t_i \leq t} \left(1 - \frac{d_i}{n_i}\right)$$
 **特点?*
 - 可以处理删失数据
 - 提供生存概率的阶梯函数估?- 可绘制生存曲线进行组间比?
-### Cox回归
+### Cox 回归
 
-Cox比例风险模型是半参数方法，用于分析多个因素对生存时间的影响?
+Cox 比例风险模型是半参数方法，用于分析多个因素对生存时间的影响?
 **模型形式?*
 $$h(t|X) = h_0(t) \exp(\beta_1 X_1 + \beta_2 X_2 + \cdots + \beta_p X_p)$$
 
@@ -117,12 +119,12 @@ $$h(t|X) = h_0(t) \exp(\beta_1 X_1 + \beta_2 X_2 + \cdots + \beta_p X_p)$$
 - HR > 1：风险增?- HR = 1：无影响
 - HR < 1：风险降?
 **比例风险假设棢验：**
-- Schoenfeld残差棢?- 对数负对数生存曲线图
+- Schoenfeld 残差棢?- 对数负对数生存曲线图
 - 残差随时间变化图
 
 ### 其他生存分析方法
 
-- **Log-rank棢?*：比较两组或多组生存曲线
+- **Log-rank 棢?*：比较两组或多组生存曲线
 - **加失效时间模型（AFT?*：参数方?- **竞争风险模型**：处理多种事件类?
 ## 临床试验统计
 
@@ -143,10 +145,10 @@ $$n = \frac{(Z_{\alpha/2} + Z_{\beta})^2 \times [p_1(1-p_1) + p_2(1-p_2)]}{(p_1 
 
 ### 适应性设?
 - 样本量重?- 剂量探索
-- 无缝设计（II/III期无缝）
+- 无缝设计（II/III 期无缝）
 - 富集设计
 
-## R语言实现
+## R 语言实现
 
 ### 基础统计分析
 
@@ -156,7 +158,7 @@ summary(data)
 sd(data$variable)
 var(data$variable)
 
-# t棢?t.test(group1, group2, var.equal = TRUE)
+# t 棢?t.test(group1, group2, var.equal = TRUE)
 
 # 方差分析
 anova_model <- aov(response ~ factor1 * factor2, data = data)
@@ -174,11 +176,11 @@ library(survminer)
 # 创建生存对象
 surv_obj <- Surv(time = data$time, event = data$status)
 
-# Kaplan-Meier估计
+# Kaplan-Meier 估计
 km_fit <- survfit(surv_obj ~ group, data = data)
 ggsurvplot(km_fit, data = data, pval = TRUE)
 
-# Cox回归
+# Cox 回归
 cox_model <- coxph(Surv(time, status) ~ age + sex + treatment, data = data)
 summary(cox_model)
 
@@ -189,7 +191,7 @@ summary(cox_model)
 ```r
 library(pwr)
 
-# t棢验样本量
+# t 棢验样本量
 pwr.t.test(n = NULL, d = 0.5, sig.level = 0.05, power = 0.8, 
            type = "two.sample")
 

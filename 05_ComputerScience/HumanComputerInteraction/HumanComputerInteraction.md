@@ -1,6 +1,8 @@
 ---
 aliases: [HumanComputerInteraction]
 tags: ['HumanComputerInteraction', 'HumanComputerInteraction']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 人机交互完全指南
@@ -79,7 +81,7 @@ Don Norman 在《The Design of Everyday Things》中提出：
                       ▼
            ┌─────────────────────┐
            │     评估 Evaluate     │
-           │  (可用性测试、A/B测试) │
+           │  (可用性测试、A/B 测试) │
            └──────────┬──────────┘
                       │
          ┌────────────┴────────────┐

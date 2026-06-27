@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['OperatingSystems', 'Linux', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # Linux
@@ -12,9 +14,9 @@ tags: ['OperatingSystems', 'Linux', 'INDEX']
 - [[LinuxAdministration]]
 - [[LinuxKernel]]
 - [[ShellScripting]]
-- [[Advanced]] - Linux高级
+- [[Advanced]] - Linux 高级
 - [[Bash]] - Bash
-- [[Basics]] - Linux基础
+- [[Basics]] - Linux 基础
 - [[Config]] - 配置
 - [[Environment]] - 环境
 - [[Examples]] - 示例

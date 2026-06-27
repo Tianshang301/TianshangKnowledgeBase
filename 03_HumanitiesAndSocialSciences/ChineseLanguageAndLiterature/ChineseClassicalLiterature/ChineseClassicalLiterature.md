@@ -1,6 +1,8 @@
 ---
 aliases: [ChineseClassicalLiterature]
 tags: ['ChineseLanguageAndLiterature', 'ChineseClassicalLiterature', 'ChineseClassicalLiterature']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 中国古代文学

@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['INDEX']
+created: 2026-05-16
+updated: 2026-06-27
 ---
 
 # 04_EngineeringAndTechnology
@@ -79,4 +81,24 @@ tags: ['INDEX']
 - [[04_EngineeringAndTechnology/TransportationEngineering/Logistics/INDEX]] - 物流工程
 - [[04_EngineeringAndTechnology/TransportationEngineering/RoadAndRailway/INDEX]] - 道路与铁道工程
 - [[04_EngineeringAndTechnology/TransportationEngineering/TrafficInformation/INDEX]] - 交通信息工程
+- [[04_EngineeringAndTechnology/RoboticsEngineering/ROS2]] - ROS2
+- [[04_EngineeringAndTechnology/RoboticsEngineering/SLAM]] - SLAM
+- [[04_EngineeringAndTechnology/RoboticsEngineering/RobotKinematics]] - 机器人运动学
+- [[04_EngineeringAndTechnology/RoboticsEngineering/RobotControl]] - 机器人控制
+- [[04_EngineeringAndTechnology/RoboticsEngineering/RobotPerception]] - 机器人感知
+- [[04_EngineeringAndTechnology/RoboticsEngineering/CollaborativeRobotics]] - 协作机器人
+- [[04_EngineeringAndTechnology/AdditiveManufacturing/FDMAndSLA]] - FDM 与 SLA
+- [[04_EngineeringAndTechnology/AdditiveManufacturing/MetalAdditiveManufacturing]] - 金属增材制造
+- [[04_EngineeringAndTechnology/AdditiveManufacturing/AMDesignAndTopology]] - 增材设计与拓扑优化
+- [[04_EngineeringAndTechnology/AdditiveManufacturing/BioprintingAnd4D]] - 生物打印与 4D 打印
+- [[04_EngineeringAndTechnology/Nanotechnology/Nanomaterials]] - 纳米材料
+- [[04_EngineeringAndTechnology/Nanotechnology/Nanofabrication]] - 纳米制造
+- [[04_EngineeringAndTechnology/Nanotechnology/Nanoelectronics]] - 纳米电子
+- [[04_EngineeringAndTechnology/Nanotechnology/Nanomedicine]] - 纳米医学
+- [[04_EngineeringAndTechnology/AdvancedManufacturing/IndustryFourPointO]] - 工业 4.0
+- [[04_EngineeringAndTechnology/AdvancedManufacturing/SmartManufacturing]] - 智能制造
+- [[04_EngineeringAndTechnology/AdvancedManufacturing/DigitalTwinManufacturing]] - 数字孪生制造
+- [[04_EngineeringAndTechnology/SemiconductorEngineering/SemiconductorPhysics]] - 半导体物理
+- [[04_EngineeringAndTechnology/SemiconductorEngineering/LithographyTechnology]] - 光刻技术
+- [[04_EngineeringAndTechnology/SemiconductorEngineering/AdvancedPackaging]] - 先进封装
 - [[LearningPath]]

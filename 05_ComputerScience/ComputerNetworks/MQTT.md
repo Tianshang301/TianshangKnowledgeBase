@@ -1,8 +1,10 @@
 ---
 aliases:
-  - MQTT协议
+  - MQTT 协议
   - 消息队列遥测传输
 tags:
+created: 2026-05-17
+updated: 2026-05-17
   - network
   - protocol
   - IoT

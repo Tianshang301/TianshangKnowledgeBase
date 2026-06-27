@@ -1,6 +1,8 @@
 ---
 aliases: [InformationRetrieval, IR, 信息检索]
 tags: ['05_ComputerScience', 'Databases', 'InformationRetrieval']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 信息检索概述 (Information Retrieval Overview)

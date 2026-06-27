@@ -1,6 +1,8 @@
 ---
 aliases: [CurriculumTheory]
 tags: ['Education', 'CurriculumTheory', 'CurriculumTheory']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 课程论
@@ -145,7 +147,7 @@ $$\text{实施效果} = f(\text{方案质量}, \text{实施者能力}, \text{学
 - **方法**：收集多元证据，呈现丰富描述
 - **报告**：提供案例、轶事、观察记录，而非单一分数
 
-### 5.3 CIPP评价模式
+### 5.3 CIPP 评价模式
 
 斯塔弗尔比姆（Stufflebeam）提出：
 
@@ -177,7 +179,7 @@ $$\text{问责} = \frac{\text{学生实际表现}}{\text{标准要求}} \times 1
 
 ## 七、课程改革运动
 
-### 7.1 STEM/STEAM教育
+### 7.1 STEM/STEAM 教育
 
 | 维度 | STEM | STEAM |
 |------|------|-------|
@@ -197,7 +199,7 @@ $$\text{问责} = \frac{\text{学生实际表现}}{\text{标准要求}} \times 1
 - 创造力与创新、批判性思维与问题解决、沟通与合作
 
 **信息、媒体与技术技能**：
-- 信息素养、媒体素养、ICT素养
+- 信息素养、媒体素养、ICT 素养
 
 **生活与职业技能**：
 - 灵活性与适应性、主动性与自我导向、社交与跨文化能力

@@ -1,6 +1,8 @@
 ---
 aliases: [INDEX]
 tags: ['CrossDisciplinaryK12', 'EnvironmentalEducation', 'INDEX']
+created: 2026-05-16
+updated: 2026-05-13
 ---
 
 # 环境教育

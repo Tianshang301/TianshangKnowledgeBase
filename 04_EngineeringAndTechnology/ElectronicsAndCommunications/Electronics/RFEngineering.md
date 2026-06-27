@@ -1,6 +1,8 @@
 ---
 aliases: [RFEngineering]
 tags: ['ElectronicsAndCommunications', 'Electronics', 'RFEngineering']
+created: 2026-05-16
+updated: 2026-05-16
 ---
 
 # 射频工程
@@ -45,11 +47,11 @@ $$VSWR = \frac{1+|\Gamma|}{1-|\Gamma|}$$
 
 $$Z_{in} = Z_0\frac{Z_L+jZ_0\tan(\beta l)}{Z_0+jZ_L\tan(\beta l)}$$
 
-### Smith圆图
+### Smith 圆图
 
 **阻抗归一化**：$z = Z/Z_0$
 
-**Smith圆图组成**：
+**Smith 圆图组成**：
 - 等电阻圆：圆心在实轴上
 - 等电抗圆：圆心在虚轴上
 - 等反射系数圆：圆心在原点
@@ -63,7 +65,7 @@ $$Z_{in} = Z_0\frac{Z_L+jZ_0\tan(\beta l)}{Z_0+jZ_L\tan(\beta l)}$$
 ### 射频放大器设计
 
 **稳定性判据**：
-- Rollett稳定性因子：
+- Rollett 稳定性因子：
 
 $$K = \frac{1-|S_{11}|^2-|S_{22}|^2+|\Delta|^2}{2|S_{12}||S_{21}|}$$
 
@@ -80,14 +82,14 @@ $$F = F_{min} + \frac{4R_n}{Z_0}\cdot\frac{|\Gamma_s-\Gamma_{opt}|^2}{(1-|\Gamma
 
 ### 振荡器
 
-**LC振荡器**：
+**LC 振荡器**：
 - 哈特莱振荡器：电感分压反馈
 - 科尔匹兹振荡器：电容分压反馈
 - 振荡条件：环路增益 $|A\beta| \geq 1$，相位 $\angle A\beta = 0°$
 
 **晶体振荡器**：
 - 石英晶体谐振器：频率稳定度高
-- 品质因数Q：可达$10^4 \sim 10^6$
+- 品质因数 Q：可达$10^4 \sim 10^6$
 - 频率稳定度：$10^{-6} \sim 10^{-8}$
 
 **VCO（压控振荡器）**：
@@ -139,7 +141,7 @@ $$F_{total} = F_1 + \frac{F_2-1}{G_1} + \frac{F_3-1}{G_1G_2} + \cdots$$
 **增益**：$G(dB) = 10\log_{10}(P_{out}/P_{in})$
 
 **线性度**：
-- 1dB压缩点（P1dB）：增益压缩1dB时的输入功率
+- 1dB 压缩点（P1dB）：增益压缩1dB 时的输入功率
 - 三阶交调截点（IIP3）：三阶交调产物与基波功率相等时的输入功率
 - 动态范围：$DR = \frac{2}{3}(IIP3(dBm)-NF(dB)-P_{in,min}(dBm))$
 

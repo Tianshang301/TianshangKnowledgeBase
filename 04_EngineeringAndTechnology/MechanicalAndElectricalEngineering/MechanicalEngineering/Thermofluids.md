@@ -1,6 +1,8 @@
 ---
 aliases: [Thermofluids]
 tags: ['04_EngineeringAndTechnology', 'MechanicalAndElectricalEngineering', 'MechanicalEngineering']
+created: 2026-05-17
+updated: 2026-05-17
 ---
 
 # 热流体学 (Thermofluids)

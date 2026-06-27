@@ -1,6 +1,8 @@
 ---
 aliases: [FunctionalTraining, 功能性训练, FunctionalFitness, 功能性健身]
 tags: ['13_Others', 'PhysicalEducation', 'Fitness', 'FunctionalTraining', 'SportPerformance']
+created: 2026-05-17
+updated: 2026-05-16
 ---
 
 # 功能性训练 (Functional Training)
