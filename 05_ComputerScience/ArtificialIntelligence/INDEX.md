@@ -31,3 +31,7 @@ updated: 2026-06-27
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/UnsupervisedLearning/INDEX]] - 无监督学习
 - [[05_ComputerScience/ArtificialIntelligence/NaturalLanguageProcessing/NaturalLanguageProcessing]] - 自然语言处理
 - [[05_ComputerScience/ArtificialIntelligence/NaturalLanguageProcessing/序列建模与 Transformer]] - 序列建模与 Transformer
+- [[05_ComputerScience/ArtificialIntelligence/NeuralNetworkArchitectures/AttentionIsAllYouNeed]] - Attention Is All You Need
+- [[05_ComputerScience/ArtificialIntelligence/NeuralNetworkArchitectures/RNNAndLSTM]] - RNN 与 LSTM
+- [[05_ComputerScience/ArtificialIntelligence/NeuralNetworkArchitectures/CNNArchitectures]] - CNN 架构
+- [[05_ComputerScience/ArtificialIntelligence/NeuralNetworkArchitectures/GPTAndScaling]] - GPT 与 Scaling

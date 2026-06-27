@@ -181,4 +181,9 @@ updated: 2026-06-27
 - [[05_ComputerScience/GoDeepDive/GoConcurrencyPatterns]] - Go 并发模式
 - [[05_ComputerScience/GoDeepDive/GoMicroservices]] - Go 微服务
 - [[05_ComputerScience/MobileCrossPlatform/FlutterDeep]] - Flutter 深入
+- [[05_ComputerScience/ModelContextProtocol/MCPOverview]] - MCP 概述
+- [[05_ComputerScience/ModelContextProtocol/MCPPrimitives]] - MCP 原语
+- [[05_ComputerScience/ModelContextProtocol/MCPServerDevelopment]] - MCP 服务端开发
+- [[05_ComputerScience/ModelContextProtocol/MCPClientIntegration]] - MCP 客户端集成
+- [[05_ComputerScience/ModelContextProtocol/MCPSecurityAndPatterns]] - MCP 安全与模式
 - [[LearningPath]]

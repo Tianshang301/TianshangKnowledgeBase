@@ -304,6 +304,253 @@ TruLens提供可视化的RAG评估和监控：
 4. **监控生产**：监控检索质量和用户反馈
 5. **成本优化**：平衡效果和成本，合理使用资源
 
+## Contextual Retrieval（上下文检索）
+
+Anthropic提出的上下文检索方案，通过为每个chunk添加上下文信息，解决传统分块丢失上下文的问题。
+
+### 核心思想
+
+传统分块将文档切分为独立片段，丢失了片段间的关联信息。Contextual Retrieval在分块时为每个chunk生成上下文描述，保留其在原文中的语境。
+
+### Contextual Chunking
+
+```python
+def contextual_chunking(document, llm):
+    """为每个chunk添加上下文前缀"""
+    chunks = split_document(document)
+    
+    contextualized_chunks = []
+    for chunk in chunks:
+        # 使用LLM生成上下文描述
+        context = llm.generate(f"""
+        文档内容：{document[:2000]}...
+        
+        请为以下片段生成简短的上下文说明，解释它在文档中的位置和作用：
+        片段：{chunk}
+        
+        输出格式："这段内容来自...，主要讨论..."
+        """)
+        
+        # 将上下文添加到chunk前面
+        contextualized_chunk = f"{context}\n\n{chunk}"
+        contextualized_chunks.append(contextualized_chunk)
+    
+    return contextualized_chunks
+```
+
+### 上下文保留策略
+
+- **文档级上下文**：chunk所在文档的主题和背景
+- **章节级上下文**：chunk所在章节的核心观点
+- **段落级上下文**：前后段落的逻辑关系
+- **实体上下文**：chunk中提及实体的定义和背景
+
+### 效果对比
+
+| 方法 | 检索准确率 | 实现复杂度 |
+|------|-----------|-----------|
+| 传统分块 | 基准 | 低 |
+| Contextual Retrieval | +35% | 中 |
+| Contextual + BM25 | +49% | 中 |
+
+## Late Chunking（延迟分块）
+
+延迟分块是一种改进的分块策略，先对整个文档进行编码，再进行分块，以获得更好的chunk边界。
+
+### 传统分块的问题
+
+- **边界切割**：在语义完整的内容中间切分
+- **上下文丢失**：chunk脱离原文语境
+- **嵌入质量差**：短chunk的embedding信息量不足
+
+### Late Chunking流程
+
+```python
+def late_chunking(document, chunk_size=512):
+    """先编码整个文档，再基于token位置分块"""
+    # 1. 对整个文档进行token级编码
+    token_embeddings = model.encode_tokens(document)  # [seq_len, dim]
+    
+    # 2. 基于语义边界确定分块位置
+    boundaries = find_semantic_boundaries(document)
+    
+    # 3. 按边界提取embedding并聚合
+    chunks = []
+    for start, end in boundaries:
+        chunk_emb = token_embeddings[start:end].mean(axis=0)
+        chunk_text = document[start:end]
+        chunks.append({"text": chunk_text, "embedding": chunk_emb})
+    
+    return chunks
+
+def find_semantic_boundaries(document):
+    """基于语义变化检测分块边界"""
+    # 句子级embedding差异
+    sentences = split_sentences(document)
+    embeddings = model.encode(sentences)
+    
+    boundaries = [0]
+    for i in range(1, len(embeddings)):
+        similarity = cosine_similarity(embeddings[i-1], embeddings[i])
+        if similarity < 0.5:  # 语义变化阈值
+            boundaries.append(i)
+    boundaries.append(len(sentences))
+    
+    return boundaries
+```
+
+### 优势
+
+- **完整上下文**：编码时考虑整个文档的语义
+- **自然边界**：基于语义变化而非固定长度切分
+- **更好的embedding**：长距离依赖被编码到chunk embedding中
+
+## RAG vs Fine-tuning vs Long-context：决策框架
+
+三种扩展LLM知识的方法各有适用场景，需要根据具体需求选择。
+
+### 对比分析
+
+| 维度 | RAG | Fine-tuning | Long-context |
+|------|-----|-------------|--------------|
+| **知识更新** | 实时（更新文档） | 需要重新训练 | 实时（更新输入） |
+| **成本** | 中等 | 高（训练+推理） | 高（长token计费） |
+| **延迟** | 低-中 | 低 | 高 |
+| **准确性** | 依赖检索质量 | 高（内化知识） | 高（完整上下文） |
+| **可解释性** | 高（可追溯来源） | 低 | 中 |
+| **适用规模** | 大规模知识库 | 小规模专业领域 | 少量长文档 |
+
+### 决策流程
+
+```
+知识量大（>1000文档）→ RAG
+需要实时更新 → RAG
+需要可追溯来源 → RAG
+专业领域且知识稳定 → Fine-tuning
+文档少且需要全局理解 → Long-context
+预算充足且延迟不敏感 → Long-context
+```
+
+### 混合策略
+
+- **RAG + Fine-tuning**：RAG提供外部知识，Fine-tuning提升领域理解
+- **RAG + Long-context**：检索到的chunk用长上下文模型处理
+- **Fine-tuning + Long-context**：微调模型支持长上下文输入
+
+## RAG 2.0 Patterns（下一代RAG模式）
+
+### Speculative RAG
+
+Speculative RAG借鉴speculative decoding的思想，使用多个轻量级RAG系统并行生成候选答案，然后由主模型选择最优答案。
+
+```python
+def speculative_rag(query, main_llm, rag_workers):
+    """多个RAG worker并行生成，主模型选择"""
+    # 并行执行多个RAG worker
+    candidate_answers = []
+    for worker in rag_workers:
+        docs = worker.retriever.retrieve(query)
+        answer = worker.llm.generate(query, docs)
+        candidate_answers.append(answer)
+    
+    # 主模型选择最优答案
+    final_answer = main_llm.generate(f"""
+    问题：{query}
+    
+    候选答案：
+    {format_candidates(candidate_answers)}
+    
+    选择最准确、最完整的答案，或综合多个答案。
+    """)
+    
+    return final_answer
+```
+
+**优势**：
+- 提高答案可靠性
+- 并行执行，延迟可控
+- 综合多个检索源的结果
+
+### RAG-Fusion
+
+RAG-Fusion通过查询改写和结果融合，提高检索的召回率和多样性。
+
+```python
+def rag_fusion(query, llm, retriever, top_k=5):
+    """查询改写 + 多路检索 + RRF融合"""
+    # 1. 生成多个相关查询
+    related_queries = llm.generate(f"""
+    为以下查询生成3-5个相关但不同角度的查询：
+    原始查询：{query}
+    """)
+    all_queries = [query] + related_queries
+    
+    # 2. 对每个查询执行检索
+    all_results = []
+    for q in all_queries:
+        results = retriever.retrieve(q, top_k=top_k)
+        all_results.append(results)
+    
+    # 3. RRF融合排序
+    fused_results = reciprocal_rank_fusion(all_results)
+    return fused_results[:top_k]
+
+def reciprocal_rank_fusion(result_lists, k=60):
+    """RRF融合多个排序列表"""
+    scores = {}
+    for results in result_lists:
+        for rank, doc in enumerate(results):
+            if doc.id not in scores:
+                scores[doc.id] = 0
+            scores[doc.id] += 1 / (k + rank + 1)
+    
+    return sorted(scores.items(), key=lambda x: x[1], reverse=True)
+```
+
+### HyDE（Hypothetical Document Embeddings）
+
+HyDE先让LLM生成假设性答案，然后用这个答案进行检索，而不是直接用用户查询检索。
+
+```python
+def hyde_retrieval(query, llm, retriever):
+    """生成假设文档 → 编码 → 检索"""
+    # 1. 生成假设性答案
+    hypothetical_doc = llm.generate(f"""
+    请回答以下问题（即使你不确定，也请给出最可能的答案）：
+    问题：{query}
+    """)
+    
+    # 2. 用假设答案进行检索
+    results = retriever.retrieve(hypothetical_doc)
+    
+    # 3. 用检索结果生成最终答案
+    final_answer = llm.generate(f"""
+    基于以下信息回答问题。
+    信息：{format_docs(results)}
+    问题：{query}
+    """)
+    
+    return final_answer
+```
+
+**HyDE的原理**：
+- 用户查询通常简短、模糊
+- 假设答案更接近文档的表述方式
+- 用假设答案检索可以提高语义匹配度
+
+**适用场景**：
+- 查询简短或模糊
+- 用户不确定如何描述问题
+- 需要探索性检索
+
+### 各模式对比
+
+| 模式 | 核心思想 | 优势 | 劣势 |
+|------|----------|------|------|
+| Speculative RAG | 多worker并行 | 答案可靠性高 | 成本高 |
+| RAG-Fusion | 查询改写+融合 | 召回率高 | 多次检索 |
+| HyDE | 假设文档检索 | 语义匹配好 | 依赖LLM质量 |
+
 ## 总结
 
-RAG系统是LLM应用的核心架构之一，通过将外部知识与生成能力结合，显著扩展了LLM的应用边界。构建高质量的RAG系统需要关注文档处理、检索策略、重排序和评估等每个环节。随着技术发展，RAG正在向更智能的自适应、多模态、多跳推理方向演进。
+RAG系统是LLM应用的核心架构之一，通过将外部知识与生成能力结合，显著扩展了LLM的应用边界。构建高质量的RAG系统需要关注文档处理、检索策略、重排序和评估等每个环节。随着技术发展，RAG正在向更智能的自适应、多模态、多跳推理方向演进。Contextual Retrieval、Late Chunking等新方法不断涌现，Speculative RAG、RAG-Fusion、HyDE等RAG 2.0模式进一步提升了系统能力。在实际应用中，需要根据具体场景在RAG、Fine-tuning和Long-context之间做出合理选择，或采用混合策略以获得最佳效果。
