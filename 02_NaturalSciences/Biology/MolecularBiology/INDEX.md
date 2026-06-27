@@ -16,4 +16,5 @@ updated: 2026-05-13---
 - [[SyntheticBiology]]
 - [[分子生物学技术]]
 - [[翻译与表达调控]]
+- [[MicrobiomeEngineering]] - 微生物组工程
 

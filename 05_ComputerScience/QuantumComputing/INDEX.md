@@ -13,3 +13,5 @@ updated: 2026-06-27
 - [[QuantumMachineLearning]]
 - [[QuantumProgrammingFrameworks]]
 - [[QubitAndQuantumGates]]
+- [[QuantumSensing]] - 量子传感
+

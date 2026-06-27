@@ -27,4 +27,7 @@ updated: 2026-06-27
 - [[MLOverview]]
 - [[FederatedLearning]] - 联邦学习
 - [[StateSpaceModels]] - 状态空间模型
+- [[SyntheticDataGeneration]] - 合成数据生成
+- [[WorldModels]] - 世界模型
+- [[LiquidNeuralNetworks]] - 液态神经网络
 

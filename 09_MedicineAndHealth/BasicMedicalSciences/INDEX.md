@@ -24,4 +24,5 @@ updated: 2026-05-16
 - [[09_MedicineAndHealth/ClinicalMedicine/INDEX|ClinicalMedicine]]
 - [[09_MedicineAndHealth/Pharmacy/INDEX|Pharmacy]]
 - [[Physiology]]
+- [[LongevityScience]] - 长寿科学
 

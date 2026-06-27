@@ -16,4 +16,5 @@ updated: 2026-05-16
 - [[FoodMicrobiology]]
 - [[FoodNutritionAndSafety]]
 - [[FoodProcessing]]
+- [[VerticalFarmingAndPrecisionFermentation]] - 垂直农业与精准发酵
 

@@ -14,5 +14,6 @@ updated: 2026-05-16
 - [[AIGC]]
 - [[AIGC 妯″瀷鏋舵瀯涓庡簲鐢╙] - AIGC 妯″瀷鏋舵瀯涓庡簲鐢?
 - [[AIGC模型架构与应用]]
-
+- [[MultimodalAI]] - 多模态AI
+- [[DiffusionModels]] - 扩散模型
 
