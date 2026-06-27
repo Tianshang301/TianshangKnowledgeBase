@@ -26,6 +26,5 @@ updated: 2026-05-16
 - [[QuantumMechanics/INDEX|QuantumMechanics]]
 - [[Relativity/INDEX|Relativity]]
 - [[Thermodynamics/INDEX|Thermodynamics]]
-
-
+- [[RecentBreakthroughs2025]] - 物理学最新突破2025-2026
 

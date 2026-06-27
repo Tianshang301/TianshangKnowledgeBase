@@ -32,6 +32,5 @@ updated: 2026-05-16
 - [[ComputerArchitecture2026]]
 - [[EmbeddedSystemsOverview]]
 - [[VerilogAndDigitalDesign]]
-
-
+- [[SupercomputingBreakthroughs2025]] - 超级计算与量子计算突破2025-2026
 

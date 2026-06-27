@@ -39,4 +39,5 @@ updated: 2026-06-27
 - [[AutomaticDifferentiation]]
 - [[SymPy]]
 - [[NLP/INDEX|NLP]]
+- [[RecentBreakthroughs2025]] - AI最新突破2025-2026
 

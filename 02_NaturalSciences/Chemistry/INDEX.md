@@ -32,6 +32,5 @@ updated: 2026-05-16
 - [[02_NaturalSciences/Chemistry/PhysicalChemistry/TheoreticalChemistry|TheoreticalChemistry]]
 - [[02_NaturalSciences/Chemistry/PhysicalChemistry/NuclearChemistry|NuclearChemistry]]
 - [[EnvironmentalChemistry/INDEX|EnvironmentalChemistry]]
-
-
+- [[RecentBreakthroughs2025]] - 化学最新突破2025-2026
 
