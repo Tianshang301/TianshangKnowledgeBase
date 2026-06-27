@@ -152,5 +152,5 @@ updated: 2026-05-17
 - [[Archaeology/INDEX|Archaeology]]
 - [[HistoricalGeography/INDEX|HistoricalGeography]]
 - [[Historiography/INDEX|Historiography]]
-
+- [[RecentBreakthroughs2025]] - 历史学与考古学最新发现2025-2026
 

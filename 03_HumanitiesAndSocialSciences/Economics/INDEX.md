@@ -161,6 +161,5 @@ updated: 2026-05-17
 - [[InternationalTrade/INDEX|InternationalTrade]]
 - [[Statistics/INDEX|Statistics]]
 - [[TheoreticalEconomics/INDEX|TheoreticalEconomics]]
-
-
+- [[RecentBreakthroughs2025]] - 经济学最新研究2025-2026
 
