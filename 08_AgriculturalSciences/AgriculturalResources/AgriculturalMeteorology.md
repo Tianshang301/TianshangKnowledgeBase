@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AgriculturalMeteorology]
 tags: ['AgriculturalResources', 'AgriculturalMeteorology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 农业气象学
@@ -241,3 +241,4 @@ $$ \text{作物生长模型:} \quad \frac{dW}{dt} = \epsilon \times f(I) \times 
 ## 相关条目
 
 [[SoilScience]], [[08_AgriculturalSciences/CropScience/INDEX|CropScience]], [[07_InterdisciplinarySciences/EnvironmentalScience/INDEX|EnvironmentalScience]], [[PrecisionAgriculture]]
+

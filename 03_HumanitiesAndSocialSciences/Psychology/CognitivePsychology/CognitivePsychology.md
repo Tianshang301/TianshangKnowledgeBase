@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CognitivePsychology]
 tags: ['03_HumanitiesAndSocialSciences', 'Psychology', 'CognitivePsychology']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 认知心理学 Cognitive Psychology
@@ -11,11 +11,11 @@ updated: 2026-05-16
 
 ## 相关条目
 
-- [[Attention|注意]]
-- [[MemoryModel|记忆模型]]
-- [[DecisionMaking|决策]]
-- [[CognitiveNeuroscience|认知神经科学]]
-- [[WorkingMemory|工作记忆]]
+- [[03_HumanitiesAndSocialSciences/Psychology/Attention|注意]]
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/MemoryModel|记忆模型]]
+- [[11_ManagementSciences/DecisionMaking|决策]]
+- [[09_MedicineAndHealth/Neuroscience/CognitiveNeuroscience|认知神经科学]]
+- [[03_HumanitiesAndSocialSciences/Psychology/WorkingMemory|工作记忆]]
 ## 深入阅读与扩展分析
 该领域的知识体系经过长期积累已相当丰富。
 以下内容旨在帮助读者进一步把握核心要点。
@@ -140,3 +140,5 @@ updated: 2026-05-16
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CropPhysiology]
 tags: ['CropScience', 'CropPhysiology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 作物生理
@@ -225,3 +225,4 @@ updated: 2026-05-13
 - 潘瑞炽.《植物生理学》
 - 《作物栽培学》
 - 《逆境生理学》
+

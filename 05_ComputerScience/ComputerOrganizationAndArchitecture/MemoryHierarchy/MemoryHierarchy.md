@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MemoryHierarchy]
 tags: ['ComputerOrganizationAndArchitecture', 'MemoryHierarchy', 'MemoryHierarchy']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 存储器层次结构 (Memory Hierarchy)
@@ -393,7 +393,7 @@ Clock 算法：
 
 - Cache
 - VirtualMemory
-- [[CPUArchitecture]]
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/CPUArchitecture/CPUArchitecture|CPUArchitecture]]
 - OperatingSystems/MemoryManagement
 
 ## 参考资源
@@ -403,3 +403,5 @@ Clock 算法：
 - Intel 64 and IA-32 Architectures Optimization Reference Manual
 - DDR5 JEDEC 标准
 - 《Operating Systems: Three Easy Pieces》(OSTEP)
+
+

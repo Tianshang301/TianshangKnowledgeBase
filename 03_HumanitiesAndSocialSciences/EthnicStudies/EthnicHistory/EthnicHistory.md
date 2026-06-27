@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [EthnicHistory]
 tags: ['EthnicStudies', 'EthnicHistory', 'EthnicHistory']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 民族史
@@ -202,10 +202,10 @@ $$\text{Colonial Ethnic Identity} = f(\text{Pre-colonial Structure}, \text{Colon
 
 ## 相关条目
 
-- [[WorldHistory]]
-- [[ChineseHistory]]
-- [[CulturalAnthropology]]
-- [[EthnicCulture]]
+- [[03_HumanitiesAndSocialSciences/History/WorldHistory/WorldHistory|WorldHistory]]
+- [[03_HumanitiesAndSocialSciences/History/ChineseHistory/ChineseHistory|ChineseHistory]]
+- [[03_HumanitiesAndSocialSciences/EthnicStudies/CulturalAnthropology/CulturalAnthropology|CulturalAnthropology]]
+- [[03_HumanitiesAndSocialSciences/EthnicStudies/EthnicCulture/EthnicCulture|EthnicCulture]]
 
 ## 参考资源
 
@@ -219,3 +219,5 @@ $$\text{Colonial Ethnic Identity} = f(\text{Pre-colonial Structure}, \text{Colon
 8. 罗贤佑（2010）。《中国民族史纲要》。北京：中国社会科学出版社。
 9. 翁独健（2001）。《中国民族关系史纲要》。北京：中国社会科学出版社。
 10. Geertz, C. (1963). *Old Societies and New States*. New York: Free Press.
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [WorldWarI]
 tags: ['MilitaryHistory', 'WorldWarI']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 第一次世界大战
@@ -209,3 +209,4 @@ updated: 2026-05-13
 - 军事技术
 - 世界军事史
 - 国际联盟
+

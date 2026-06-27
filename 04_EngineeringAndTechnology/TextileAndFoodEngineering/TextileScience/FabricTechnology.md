@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - Fabric Technology
   - Textile Engineering
@@ -363,4 +363,5 @@ $$R_{ct} = \frac{A(T_{skin} - T_{ambient})}{H - H_{dry}} \quad [\text{m²·K/W}]
 
 ---
 
-**相关概念**: [[Materials Science|材料科学]] | [[Composite Materials|复合材料]] | [[Nanomaterials|纳米材料]] | [[Manufacturing Engineering|制造工程]]
+**相关概念**: [[Materials Science|材料科学]] | [[Composite Materials|复合材料]] | [[04_EngineeringAndTechnology/Nanotechnology/Nanomaterials|纳米材料]] | [[Manufacturing Engineering|制造工程]]
+

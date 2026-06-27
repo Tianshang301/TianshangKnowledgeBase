@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Counting]
 tags: ['Logic', 'MathematicalLogic', 'Counting']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 组合计数详解
@@ -152,3 +152,4 @@ $$P(n) = 1 - \frac{365!}{365^n (365-n)!} \approx 1 - e^{-n(n-1)/(2 \cdot 365)}$$
 **Erdős–Szekeres 定理**：任意 $n^2+1$ 个不同实数序列中，必存在长度为 $n+1$ 的单调子序列。
 
 **应用示例：** 在任意 6 个人中，要么有 3 人相互认识，要么有 3 人互不认识。
+

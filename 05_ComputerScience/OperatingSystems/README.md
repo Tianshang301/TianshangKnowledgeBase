@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [README]
 tags: ['OperatingSystems', 'README']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 操作系统知识索引
@@ -510,8 +510,10 @@ SwapFree:        7345678 kB
 ## 相关条目
 
 - ComputerOrganization
-- [[ComputerNetworks]]
+- [[04_EngineeringAndTechnology/ComputerAndInformationSciences/ComputerNetworks|ComputerNetworks]]
 - [[05_ComputerScience/ProgrammingLanguages/INDEX|ProgrammingLanguages]]
-- [[FileSystems]]
+- [[05_ComputerScience/OperatingSystems/FileSystems/FileSystems|FileSystems]]
 
 > **参考资源**：《Operating System Concepts》(Silberschatz)、《Modern Operating Systems》(Tanenbaum)、《Linux Kernel Development》、Linux 手册页
+
+

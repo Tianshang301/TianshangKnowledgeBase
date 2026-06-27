@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [RiskAssessment, 风险评估]
 tags: ['EnvironmentalScienceAndEngineering', 'SafetyScience', 'RiskAssessment']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 风险评估 (Risk Assessment)
@@ -187,9 +187,11 @@ $$
 
 ## 相关条目
 
-- [[Ecotoxicology]]
+- [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalBiology/Ecotoxicology|Ecotoxicology]]
 - [[FireScience]]
-- [[SystemAnalysis]]
-- [[IndustrialAutomation]]
-- [[ReactorDesign]]
-- [[AirPollutionControl]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/SystemsEngineering/SystemAnalysis|SystemAnalysis]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/Automation/IndustrialAutomation|IndustrialAutomation]]
+- [[04_EngineeringAndTechnology/EnergyAndNuclearEngineering/NuclearEngineering/ReactorDesign|ReactorDesign]]
+- [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalEngineering/AirPollutionControl|AirPollutionControl]]
+
+

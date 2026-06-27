@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ConcreteStructures]
 tags: ['CivilEngineering', 'StructuralEngineering', 'ConcreteStructures']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 混凝土结构
@@ -126,6 +126,8 @@ $$w_{max} = \alpha_{cr}\psi\frac{\sigma_{sq}}{E_s}(1.9c+0.08\frac{d_{eq}}{\rho_{
 ## 相关条目
 - [[SteelStructures]]
 - [[StructuralAnalysis]]
-- [[FoundationEngineering]]
-- [[BuildingMaterials]]
-- [[BuildingPhysics]]
+- [[04_EngineeringAndTechnology/CivilEngineering/GeotechnicalEngineering/FoundationEngineering|FoundationEngineering]]
+- [[04_EngineeringAndTechnology/CivilEngineering/BuildingScience/BuildingMaterials|BuildingMaterials]]
+- [[04_EngineeringAndTechnology/CivilEngineering/BuildingScience/BuildingPhysics|BuildingPhysics]]
+
+

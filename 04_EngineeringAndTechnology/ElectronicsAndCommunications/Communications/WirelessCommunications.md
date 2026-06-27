@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [WirelessCommunications]
 tags: ['ElectronicsAndCommunications', 'Communications', 'WirelessCommunications']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 无线通信
@@ -132,7 +132,9 @@ $$f_d = \frac{v}{\lambda}\cos\theta = \frac{vf_c}{c}\cos\theta$$
 ## 相关条目
 
 - [[CommunicationTheory]]
-- [[AntennaTheory]]
-- [[RFEngineering]]
-- [[DigitalSignalProcessing]]
-- [[MicrowaveEngineering]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/AntennaAndMicrowave/AntennaTheory|AntennaTheory]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Electronics/RFEngineering|RFEngineering]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/SignalProcessing/DigitalSignalProcessing|DigitalSignalProcessing]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/AntennaAndMicrowave/MicrowaveEngineering|MicrowaveEngineering]]
+
+

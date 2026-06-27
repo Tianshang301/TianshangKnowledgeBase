@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ManufacturingProcess]
 tags: ['MechanicalAndElectricalEngineering', 'MechanicalEngineering', 'ManufacturingProcess']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 制造工艺
@@ -198,3 +198,4 @@ $$T = \frac{C_T}{v^{1/n} f^{1/n_1} a_p^{1/n_2}}$$
 - [[04_EngineeringAndTechnology/MechanicsAndMaterials/MaterialsScience/INDEX|MaterialsScience]]
 - IndustrialEngineering
 - QualityControl
+

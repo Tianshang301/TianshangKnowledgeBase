@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [BinarySearchTree]
 tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'BinarySearchTree']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 二叉搜索树 BST
@@ -362,4 +362,6 @@ class BSTIterator:
 - [[Tree]]
 - [[Heap]]
 - [[Graph]]
-- [[Sorting]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/Sorting|Sorting]]
+
+

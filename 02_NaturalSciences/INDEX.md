@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 02_NaturalSciences
@@ -63,3 +63,4 @@ updated: 2026-05-13
 - [[02_NaturalSciences/Physics/QuantumMechanics/INDEX]] - 量子力学
 - [[02_NaturalSciences/Physics/Relativity/INDEX]] - 相对论
 - [[02_NaturalSciences/Physics/Thermodynamics/INDEX]] - 热力学
+

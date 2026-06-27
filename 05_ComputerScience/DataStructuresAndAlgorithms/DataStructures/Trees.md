@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Trees, 树, Tree Structure]
 tags: ['05_ComputerScience', 'DataStructuresAndAlgorithms', 'DataStructures', 'Tree']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 树 (Tree)
@@ -148,3 +148,4 @@ $$
 - [[Graph]]
 - [[Queue]]
 - [[Stack]]
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - Visual Arts
   - 视觉艺术
@@ -201,8 +201,9 @@ $$y' = \frac{f \cdot y}{z}$$
 
 - [[VisualCulture|视觉文化]]
 - [[ArtCriticism|艺术批评]]
-- [[FilmStudies|电影研究]]
+- [[06_ArtsAndCreativity/FilmStudies|电影研究]]
 - [[Museology|博物馆学]]
 - [[Sculpture|雕塑与空间艺术]]
 - [[ArtHistory|艺术史]]
 - [[INDEX|当前目录索引]]
+

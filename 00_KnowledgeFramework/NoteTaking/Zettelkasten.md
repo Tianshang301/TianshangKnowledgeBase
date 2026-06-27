@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Zettelkasten, 卡片盒笔记法, 卢曼笔记法, SlipBox, 知识管理]
 tags: ['00_KnowledgeFramework', 'NoteTaking', 'PersonalKnowledgeManagement', 'PKM']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # Zettelkasten（卡片盒笔记法）
@@ -290,3 +290,4 @@ $$V_{system} = \sum_{i=1}^{n} \text{degree}(i)$$
 - [[FeynmanTechnique]]
 - [[SpacedRepetition]]
 - [[GTD]]
+

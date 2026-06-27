@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [军事人工智能, MilitaryAI]
 tags: ['MilitaryScience', 'MilitaryTechnology', 'ArtificialIntelligence', 'MachineLearning']
 created: 2026-06-27
@@ -242,5 +242,6 @@ AI 系统的供应链安全和技术泄露风险需要高度重视和有效防�
 - [[UnmannedSystems]]
 - [[C4ISR]]
 - [[CyberWarfare]]
-- [[ArmsAndServices]]
-- [[JointOperations]]
+- [[10_MilitarySciences/ArmsAndServices|ArmsAndServices]]
+- [[10_MilitarySciences/MilitaryStrategy/JointOperations|JointOperations]]
+

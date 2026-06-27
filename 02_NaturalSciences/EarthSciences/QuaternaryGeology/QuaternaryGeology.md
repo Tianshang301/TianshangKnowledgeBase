@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [QuaternaryGeology]
 tags: ['EarthSciences', 'QuaternaryGeology', 'QuaternaryGeology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 第四纪地质学
@@ -340,8 +340,8 @@ $$\frac{D}{L} = \frac{1 - e^{-kt}}{1 + e^{-kt}}$$
 
 - Paleoclimatology
 - [[02_NaturalSciences/EarthSciences/Geology/INDEX|Geology]]
-- [[Archaeology]]
-- [[ClimateChange]]
+- [[03_HumanitiesAndSocialSciences/History/Archaeology/Archaeology|Archaeology]]
+- [[07_InterdisciplinarySciences/EnvironmentalScience/ClimateChange|ClimateChange]]
 
 ## 参考资源
 
@@ -353,3 +353,5 @@ $$\frac{D}{L} = \frac{1 - e^{-kt}}{1 + e^{-kt}}$$
 6. 吴汝康. (1989). 《古人类学》. 文物出版社.
 7. 国际地层委员会第四纪地层表: https://stratigraphy.org/
 8. 中国黄土数据库: http://www.loess.cn/
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DistributedSystems, 分布式系统, DistributedComputing]
 tags: ['NetworkedInformationSystems', 'DistributedSystems', 'DistributedComputing']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 分布式系统 (Distributed Systems)
@@ -333,7 +333,9 @@ $$Reduce: (k_2, [v_2]) \to [(k_3, v_3)]$$
 
 ## 相关条目
 
-- [[ComputerNetworks]]
+- [[04_EngineeringAndTechnology/ComputerAndInformationSciences/ComputerNetworks|ComputerNetworks]]
 - [[DistributedSystems]]
-- [[Cybersecurity]]
-- [[CloudComputing]]
+- [[05_ComputerScience/Cybersecurity/Cybersecurity|Cybersecurity]]
+- [[05_ComputerScience/CloudComputingAndDistributedSystems/CloudComputing|CloudComputing]]
+
+

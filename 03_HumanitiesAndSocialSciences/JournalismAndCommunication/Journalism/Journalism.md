@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Journalism]
 tags: ['JournalismAndCommunication', 'Journalism', 'Journalism']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 新闻学
@@ -197,10 +197,10 @@ $$
 
 ## 相关条目
 
-- [[Communication]]
-- [[MediaStudies]]
-- [[DigitalMedia]]
-- [[Advertising]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Microcontrollers/STM32/Communication|Communication]]
+- [[03_HumanitiesAndSocialSciences/JournalismAndCommunication/MediaStudies/MediaStudies|MediaStudies]]
+- [[03_HumanitiesAndSocialSciences/JournalismAndCommunication/DigitalMedia/DigitalMedia|DigitalMedia]]
+- [[03_HumanitiesAndSocialSciences/JournalismAndCommunication/Advertising/Advertising|Advertising]]
 
 ## 参考资源
 
@@ -210,3 +210,5 @@ $$
 4. 张志安 (2020). 《新闻生产与社会控制》. 中国传媒大学出版社.
 5. Pew Research Center 新闻业年度报告
 6. Reuters Institute Digital News Report
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Probability, 概率论]
 tags: ['Mathematics', 'ProbabilityStatistics', 'Probability']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 概率论 (Probability Theory)
@@ -195,3 +195,4 @@ flowchart LR
 ## 相关条目 (Related Entries)
 
 [[02_NaturalSciences/Mathematics/MathematicalAnalysis/INDEX|MathematicalAnalysis]], [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]], [[02_NaturalSciences/Mathematics/Algebra/INDEX|Algebra]], [[StatisticalInference]], [[StochasticProcesses]]
+

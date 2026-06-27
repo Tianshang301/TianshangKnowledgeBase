@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CompilerPrinciples, 编译原理, CompilerDesign, 编译器设计]
 tags: ['05_ComputerScience', 'CompilerPrinciples', 'ProgrammingLanguages', 'FormalLanguage']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 编译原理 (Compiler Principles)
@@ -348,3 +348,4 @@ for (i = 0; i < N; i += 8) {
 - [[05_ComputerScience/OperatingSystems/OperatingSystems|操作系统]]
 - [[05_ComputerScience/TheoryOfComputation/TheoryOfComputation|计算理论]]
 - [[INDEX|当前目录索引]]
+

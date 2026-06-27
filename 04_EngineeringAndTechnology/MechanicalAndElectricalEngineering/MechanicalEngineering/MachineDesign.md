@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MachineDesign]
 tags: ['MechanicalAndElectricalEngineering', 'MechanicalEngineering', 'MachineDesign']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 机械设计
@@ -197,3 +197,4 @@ $$\sigma_p = \frac{2T}{dkl} \leq [\sigma_p]$$
 - Manufacturing
 - [[04_EngineeringAndTechnology/MechanicsAndMaterials/MaterialsScience/INDEX|MaterialsScience]]
 - [[CADCAM]]
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Queue]
 tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'Queue']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 队列详解
@@ -359,4 +359,6 @@ class TaskQueue:
 - [[Array]]
 - [[LinkedList]]
 - [[Heap]]
-- [[BFSDFS]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BFSDFS|BFSDFS]]
+
+

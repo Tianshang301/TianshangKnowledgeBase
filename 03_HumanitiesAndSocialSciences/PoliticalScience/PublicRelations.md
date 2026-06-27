@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [PublicRelations]
 tags: ['03_HumanitiesAndSocialSciences', 'PoliticalScience', 'PublicRelations']
 created: 2026-05-17
@@ -110,9 +110,9 @@ Jones & Chase（1979）：确定组织面临的公共政策和社会问题并准
 - **叙事管理**（Narrative Management）：政府对危机事件如自然灾害、公共卫生（COVID19信息建立公众沟通框架）故事叙述
 
 ## 相关条目
-- [[PoliticalSociology]]
-- [[SocialMovements]]
-- [[CulturalSociology]]
+- [[03_HumanitiesAndSocialSciences/Sociology/PoliticalSociology|PoliticalSociology]]
+- [[03_HumanitiesAndSocialSciences/Sociology/SocialMovements|SocialMovements]]
+- [[03_HumanitiesAndSocialSciences/Sociology/CulturalSociology|CulturalSociology]]
 - [[INDEX|当前目录索引]]
 
 ## 深入阅读与扩展分析
@@ -454,3 +454,4 @@ Jones & Chase（1979）：确定组织面临的公共政策和社会问题并准
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+

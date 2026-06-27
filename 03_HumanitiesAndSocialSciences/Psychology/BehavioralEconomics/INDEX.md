@@ -2,7 +2,7 @@
 aliases: [BehavioralEconomics]
 tags: ['03_HumanitiesAndSocialSciences', 'Psychology', 'BehavioralEconomics']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 # BehavioralEconomics
 
@@ -139,4 +139,5 @@ updated: 2026-05-13
 - [[BehavioralEconomics]]
 - [[前景理论详解]]
 - [[助推理论与应用]]
+
 

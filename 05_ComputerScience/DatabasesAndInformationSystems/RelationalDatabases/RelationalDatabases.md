@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [RelationalDatabases]
 tags: ['DatabasesAndInformationSystems', 'RelationalDatabases', 'RelationalDatabases']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Relational Databases - 关系数据库
@@ -334,7 +334,7 @@ ARIES（Algorithm for Recovery and Isolation Exploiting Semantics）三步恢复
 ## 相关条目
 
 - SQL
-- [[NoSQL]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/NoSQL/NoSQL|NoSQL]]
 - QueryOptimization
 - Transactions
 - DataModeling
@@ -346,3 +346,5 @@ ARIES（Algorithm for Recovery and Isolation Exploiting Semantics）三步恢复
 - Gray, J. & Reuter, A. (1992). Transaction Processing: Concepts and Techniques. Morgan Kaufmann.
 - Mohan, C. et al. (1992). ARIES: A Transaction Recovery Method Supporting Fine-Granularity Locking and Partial Rollbacks. ACM TODS.
 - PostgreSQL Documentation. https://www.postgresql.org/docs/
+
+

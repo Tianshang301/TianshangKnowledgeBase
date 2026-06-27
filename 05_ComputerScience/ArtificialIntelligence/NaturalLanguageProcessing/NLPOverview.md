@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [NaturalLanguageProcessing, 自然语言处理, NLP]
 tags: ['05_ComputerScience', 'AI', 'NLP', 'MachineLearning']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 自然语言处理概述 (NLP Overview)
@@ -156,8 +156,10 @@ $$
 
 ## 相关条目
 
-- [[MLOverview]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/MLOverview|MLOverview]]
 - [[SpeechRecognition]]
-- [[RLOverview]]
-- [[ArtificialIntelligence]]
-- [[HumanComputerInteraction]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/ReinforcementLearning/RLOverview|RLOverview]]
+- [[07_InterdisciplinarySciences/CognitiveScience/ArtificialIntelligence|ArtificialIntelligence]]
+- [[05_ComputerScience/HumanComputerInteraction/HumanComputerInteraction|HumanComputerInteraction]]
+
+

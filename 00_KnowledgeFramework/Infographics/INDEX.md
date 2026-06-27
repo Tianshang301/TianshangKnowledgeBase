@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['Infographics', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Infographics
@@ -13,3 +13,4 @@ updated: 2026-05-13
 
 - [[Infographics]] - 信息图
 - [[信息图设计原理]] - 信息图设计原理
+

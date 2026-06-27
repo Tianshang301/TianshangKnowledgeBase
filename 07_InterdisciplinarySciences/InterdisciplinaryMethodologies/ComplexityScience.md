@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ComplexityScience]
 tags: ['InterdisciplinaryMethodologies', 'ComplexityScience']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 复杂性科?
@@ -228,3 +228,4 @@ $$\lim_{t \to \infty} |x_1(t) - x_2(t)| \to \infty$$
 ## 相关条目
 
 [[SystemsThinking]], [[ComplexityScience]], [[NetworkScience]], [[TransdisciplinaryResearch]]
+

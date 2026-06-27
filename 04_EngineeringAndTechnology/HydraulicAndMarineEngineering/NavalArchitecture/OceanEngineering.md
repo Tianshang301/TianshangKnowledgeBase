@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [OceanEngineering, 海洋工程, Offshore Engineering]
 tags: ['HydraulicAndMarineEngineering', 'NavalArchitecture', 'OceanEngineering', 'OffshoreEngineering']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 海洋工程 (Ocean Engineering / Offshore Engineering)
@@ -202,9 +202,11 @@ $$ \mathbf{v}_{\text{fused}} = \mathbf{v}_{\text{INS}} + \mathbf{K} \cdot (\math
 
 - [[NavalArchitecture]]
 - [[OffshoreWindPower]]
-- [[FluidMechanics]]
+- [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/FluidMechanics|FluidMechanics]]
 - [[MarineRenewableEnergy]]
 - [[StructuralDynamics]]
 - [[SubseaEngineering]]
 - [[UnderwaterRobotics]]
-- [[HydraulicEngineering]]
+- [[04_EngineeringAndTechnology/HydraulicAndMarineEngineering/HydraulicEngineering/HydraulicEngineering|HydraulicEngineering]]
+
+

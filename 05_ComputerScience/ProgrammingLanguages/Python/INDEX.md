@@ -1,7 +1,7 @@
----
+﻿---
 aliases: [Python]
 created: 2026-05-17
-updated: 2026-05-13---
+updated: 2026-05-17---
 
 # Python
 
@@ -17,3 +17,4 @@ updated: 2026-05-13---
 - [[OOP]] - 面向对象
 - [[StandardLibrary]] - 标准库
 - [[Testing]] - 测试
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DrillingEngineering, 钻井工程]
 tags: ['04_EngineeringAndTechnology', 'GeologicalAndMiningEngineering', 'PetroleumEngineering', 'DrillingEngineering']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 钻井工程 (Drilling Engineering)
@@ -237,3 +237,4 @@ flowchart LR
 - **随钻测量 (Measurement While Drilling, MWD)**：实时地质参数
 - **随钻测井 (Logging While Drilling, LWD)**：实时物性评价
 - **控压钻井 (Managed Pressure Drilling, MPD)**：精确控制井底压力
+

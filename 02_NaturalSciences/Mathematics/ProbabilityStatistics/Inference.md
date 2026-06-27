@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 统计推断
   - 参数估计
@@ -11,7 +11,7 @@ aliases:
   - Confidence Interval
 tags:
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
   - Mathematics
   - Statistics
   - Inference
@@ -217,3 +217,4 @@ $$ \chi^2 = \sum_{i=1}^{r} \sum_{j=1}^{c} \frac{(O_{ij} - E_{ij})^2}{E_{ij}} $$
 - 报告效应量（Cohen's d, $\eta^2$ 等）
 - 报告置信区间而非仅 p 值
 - 预先进行功效分析（Power Analysis）确定样本量
+

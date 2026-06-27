@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [NeuralNetworksAndDeepLearning]
 tags: ['ArtificialIntelligence', 'MachineLearning', 'NeuralNetworksAndDeepLearning', 'NeuralNetworksAndDeepLearning']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 神经网络与深度学习
@@ -259,9 +259,9 @@ $$
 
 ## 相关条目
 
-- [[SupervisedLearning]]
-- [[ComputerVision]]
-- [[NaturalLanguageProcessing]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/SupervisedLearning/SupervisedLearning|SupervisedLearning]]
+- [[05_ComputerScience/ArtificialIntelligence/ComputerVision/ComputerVision|ComputerVision]]
+- [[05_ComputerScience/ArtificialIntelligence/NaturalLanguageProcessing/NaturalLanguageProcessing|NaturalLanguageProcessing]]
 - Backpropagation
 
 ## 参考资源
@@ -272,3 +272,5 @@ $$
 - Vaswani, A. et al. (2017). "Attention Is All You Need"
 - Kingma, D. P. & Ba, J. (2015). "Adam: A Method for Stochastic Optimization"
 - Ioffe, S. & Szegedy, C. (2015). "Batch Normalization: Accelerating Deep Network Training"
+
+

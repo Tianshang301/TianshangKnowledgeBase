@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MemoryManagement]
 tags: ['OperatingSystems', 'MemoryManagement', 'MemoryManagement']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 内存管理详解 (Memory Management)
@@ -304,7 +304,7 @@ if (缺页率 < 下限) → 减少分配帧数
 - VirtualMemory
 - Paging
 - Segmentation
-- [[ProcessManagement]]
+- [[05_ComputerScience/OperatingSystems/ProcessManagement/ProcessManagement|ProcessManagement]]
 
 ## 参考资源
 
@@ -312,3 +312,5 @@ if (缺页率 < 下限) → 减少分配帧数
 - Tanenbaum, A. S., & Bos, H. *Modern Operating Systems* (4th ed.)
 - Intel 64 and IA-32 Architectures Software Developer's Manual, Vol. 3A
 - McKusick, M. K., & Neville-Neil, G. V. *The Design and Implementation of the FreeBSD Operating System*
+
+

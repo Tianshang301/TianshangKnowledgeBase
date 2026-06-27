@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ScienceExploration]
 tags: ['PrimarySchool', 'IntegratedStudies', 'ScienceExploration']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 科学探索
@@ -159,3 +159,4 @@ updated: 2026-05-13
 ## 相关条目
 
 [[ScienceExploration]], [[MoralEducation]], InterdisciplinaryLearning, SocialStudies
+

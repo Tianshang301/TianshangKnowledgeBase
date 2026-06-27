@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [HumanoidRobotics, 人形机器人, 具身智能]
 tags: ['04_EngineeringAndTechnology', 'Robotics', 'HumanoidRobotics']
 created: 2026-06-27
@@ -156,10 +156,10 @@ graph TD
 
 ## 相关条目
 
-- [[Robotics]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Robotics/Robotics|Robotics]]
 - [[ControlAndSystemsEngineering]]
-- [[ComputerVision]]
-- [[ReinforcementLearning]]
+- [[05_ComputerScience/ArtificialIntelligence/ComputerVision/ComputerVision|ComputerVision]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/ReinforcementLearning/ReinforcementLearning|ReinforcementLearning]]
 
 ## 参考资源
 
@@ -168,3 +168,4 @@ graph TD
 3. NVIDIA. "Isaac GR00T: Foundation Model for Humanoid Robots." 2026.
 4. Google DeepMind. "Gemini Robotics: Embodied AI." 2025.
 5. Physical Intelligence. "π0: A Vision-Language-Action Flow Model." 2025.
+

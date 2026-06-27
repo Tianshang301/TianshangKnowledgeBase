@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Array]
 tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'Array']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 数组详解
@@ -308,4 +308,6 @@ def reverse(arr, l, r):
 - [[Stack]]
 - [[Queue]]
 - [[HashTable]]
-- [[Sorting]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/Sorting|Sorting]]
+
+

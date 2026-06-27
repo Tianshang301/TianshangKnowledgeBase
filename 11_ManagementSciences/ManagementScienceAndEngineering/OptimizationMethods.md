@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [OptimizationMethods, 优化方法, 最优化, MathematicalProgramming]
 tags: ['11_ManagementSciences', 'ManagementScienceAndEngineering', 'OperationsResearch']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 优化方法 (Optimization Methods)
@@ -173,3 +173,4 @@ graph LR
 - [[OperationsResearch|运筹学]]
 - [[INDEX|ManagementScienceAndEngineering 索引]]
 - [[../../INDEX|TianshangKnowledgeBase 索引]]
+

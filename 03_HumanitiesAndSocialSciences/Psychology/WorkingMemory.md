@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [WorkingMemory]
 tags: ['03_HumanitiesAndSocialSciences', 'Psychology', 'WorkingMemory']
 created: 2026-05-17
@@ -124,7 +124,7 @@ WMC 是个体认知能力的重要预测因子——WMC 高者：
 - [[Attention]]
 - [[AbnormalPsychology]]
 - [[PersonalityPsychology]]
-- [[Epistemology]]
+- [[03_HumanitiesAndSocialSciences/Philosophy/Epistemology|Epistemology]]
 - [[INDEX|当前目录索引]]
 
 ## 深入阅读与扩展分析
@@ -430,3 +430,4 @@ WMC 是个体认知能力的重要预测因子——WMC 高者：
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+

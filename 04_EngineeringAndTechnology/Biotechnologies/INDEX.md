@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['Biotechnologies', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Biotechnologies
@@ -16,3 +16,4 @@ updated: 2026-05-13
 - [[04_EngineeringAndTechnology/Biotechnologies/FermentationEngineering/INDEX]]
 - [[04_EngineeringAndTechnology/Biotechnologies/GeneticEngineering/INDEX]]
 - [[../INDEX]]
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['EarthSciences', 'QuaternaryGeology', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # QuaternaryGeology
@@ -13,5 +13,7 @@ updated: 2026-05-13
 
 - [[QuaternaryGeology]]
 - [[02_NaturalSciences/EarthSciences/Geology/INDEX|Geology]]
-- [[Archaeology]]
-- [[ClimateChange]]
+- [[03_HumanitiesAndSocialSciences/History/Archaeology/Archaeology|Archaeology]]
+- [[07_InterdisciplinarySciences/EnvironmentalScience/ClimateChange|ClimateChange]]
+
+

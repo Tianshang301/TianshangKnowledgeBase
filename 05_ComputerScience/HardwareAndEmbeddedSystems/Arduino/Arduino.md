@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Arduino]
 tags: ['HardwareAndEmbeddedSystems', 'Arduino', 'Arduino']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Arduino
@@ -252,10 +252,10 @@ myservo.write(90);        // 转动到 90°
 ## 相关条目
 
 - [[Arduino 传感器与执行器]]
-- [[RaspberryPi]]
-- [[IoT]]
-- [[MCU51]]
-- [[Robotics]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/RaspberryPi/RaspberryPi|RaspberryPi]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/IoT/IoT|IoT]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Microcontrollers/MCU51/MCU51|MCU51]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Robotics/Robotics|Robotics]]
 
 ## 参考资源
 
@@ -263,3 +263,5 @@ myservo.write(90);        // 转动到 90°
 - 《Arduino Cookbook》（Michael Margolis）
 - [Arduino 项目中心](https://projecthub.arduino.cc/)
 - ATmega328P 数据手册
+
+

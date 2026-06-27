@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CyberPhysicalSystems]
 tags: ['NetworkedInformationSystems', 'CyberPhysicalSystems']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 信息物理系统
@@ -284,4 +284,6 @@ updated: 2026-05-13
 
 ## 相关条目
 
-[[ComputerNetworks]], [[DistributedSystems]], [[Cybersecurity]], CloudComputing
+[[04_EngineeringAndTechnology/ComputerAndInformationSciences/ComputerNetworks|ComputerNetworks]], [[DistributedSystems]], [[05_ComputerScience/Cybersecurity/Cybersecurity|Cybersecurity]], CloudComputing
+
+

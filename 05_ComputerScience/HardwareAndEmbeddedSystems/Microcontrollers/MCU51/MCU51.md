@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [MCU51]
 tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'MCU51', 'MCU51']
 created: 2026-05-16
@@ -267,10 +267,10 @@ void main(void) {
 ## 相关条目
 
 - [[51单片机外设编程]]
-- [[Arduino]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Arduino/Arduino|Arduino]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/Microcontrollers/STM32/INDEX|STM32]]
-- [[EmbeddedLinux]]
-- [[RTOS]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/EmbeddedLinux/EmbeddedLinux|EmbeddedLinux]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/RTOS/RTOS|RTOS]]
 
 ## 参考资源
 
@@ -279,3 +279,4 @@ void main(void) {
 - STC89C52 数据手册
 - [SDCC 编译器文档](http://sdcc.sourceforge.net/doc/)
 - Keil C51 开发工具
+

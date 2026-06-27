@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CMake]
 tags: ['ProgrammingLanguages', 'CCpp', 'CMake']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # CMake 构建系统
@@ -416,3 +416,4 @@ install(TARGETS webserver webserver_app
 )
 install(FILES ${PUBLIC_HEADERS} DESTINATION include/webserver)
 ```
+

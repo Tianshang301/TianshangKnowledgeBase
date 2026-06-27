@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Advanced]
 tags: ['OperatingSystems', 'Linux', 'Advanced']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 正则表达式进阶
@@ -282,3 +282,4 @@ a+b                # 简化（有效）
 - [[Examples]]
 - [[Bash]]
 - [[Scripting]]
+

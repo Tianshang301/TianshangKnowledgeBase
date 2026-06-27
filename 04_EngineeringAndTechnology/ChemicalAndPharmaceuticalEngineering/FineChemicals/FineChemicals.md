@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FineChemicals]
 tags: ['ChemicalAndPharmaceuticalEngineering', 'FineChemicals', 'FineChemicals']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 精细化学品
@@ -255,7 +255,9 @@ $$\text{Atom Economy} = \frac{\text{目标产物的分子量}}{\text{所有反�
 
 ## 相关条目
 - [[精细有机合成工艺]]
-- [[ProcessDesign]]
-- [[DrugDesign]]
-- [[Formulation]]
-- [[UnitOperations]]
+- [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/ChemicalEngineering/ProcessDesign|ProcessDesign]]
+- [[09_MedicineAndHealth/Pharmacy/DrugDesign|DrugDesign]]
+- [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/PharmaceuticalEngineering/Formulation|Formulation]]
+- [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/ChemicalEngineering/UnitOperations|UnitOperations]]
+
+

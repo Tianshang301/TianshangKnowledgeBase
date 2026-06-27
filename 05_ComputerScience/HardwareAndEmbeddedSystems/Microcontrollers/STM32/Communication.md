@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Communication]
 tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'STM32', 'Communication']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # STM32 通信协议详解
@@ -396,3 +396,4 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan) {
 - **CAN**: 高可靠性、远距离、工业/汽车标准
 
 根据项目需求选择合适的通信协议，考虑速度、距离、可靠性、引脚资源和功耗等因素。
+

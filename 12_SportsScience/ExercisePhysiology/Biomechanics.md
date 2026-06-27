@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Biomechanics]
 tags: ['ExercisePhysiology', 'Biomechanics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 运动生物力学
@@ -382,3 +382,4 @@ updated: 2026-05-13
 ## 相关条目
 
 运动生理学、肌肉生理学、力量训练、运动损伤预防、运动表现分析、人体解剖学、运动装备设计、技能学习与控制
+

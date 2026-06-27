@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [HighThroughputScreening]
 tags: ['MaterialsInformatics', 'HighThroughputScreening']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 高通量材料筛选
@@ -247,3 +247,4 @@ $$ZT = \frac{S^2\sigma T}{\kappa}$$
 ## 相关条目
 
 [[04_EngineeringAndTechnology/MechanicsAndMaterials/MaterialsScience/INDEX|MaterialsScience]], [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]], ComputationalChemistry, [[MaterialsGenome]]
+

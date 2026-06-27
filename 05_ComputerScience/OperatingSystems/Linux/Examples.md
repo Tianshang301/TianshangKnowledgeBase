@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Examples]
 tags: ['OperatingSystems', 'Linux', 'Examples']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 正则表达式实战
@@ -336,3 +336,4 @@ Ab1!            ❌ 太短
 - [[Languages]]
 - [[Bash]]
 - [[Scripting]]
+

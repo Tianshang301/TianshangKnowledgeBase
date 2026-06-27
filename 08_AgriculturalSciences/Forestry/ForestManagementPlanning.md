@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ForestManagementPlanning]
 tags: ['Forestry', 'ForestManagementPlanning']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 森林经理学
@@ -289,4 +289,6 @@ $$x_j \geq 0, \; j = 1,2,\ldots,n$$
 - [[ForestEcology]]
 - [[07_InterdisciplinarySciences/EnvironmentalScience/INDEX|EnvironmentalScience]]
 - GeographicInformationSystem
-- [[RemoteSensing]]
+- [[04_EngineeringAndTechnology/GeologicalAndMiningEngineering/GeologicalEngineering/RemoteSensing|RemoteSensing]]
+
+

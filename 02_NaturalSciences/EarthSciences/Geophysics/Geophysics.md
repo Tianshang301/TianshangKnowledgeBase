@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Geophysics]
 tags: ['EarthSciences', 'Geophysics', 'Geophysics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 地球物理学（地球科学）
@@ -294,3 +294,4 @@ $$c = \sqrt{gh}$$
 5. 曾融生. (1984). 《固体地球物理学导论》. 科学出版社.
 6. 美国地质调查局（USGS）地震信息网: https://earthquake.usgs.gov/
 7. 太平洋海啸预警中心: https://ptwc.weather.gov/
+

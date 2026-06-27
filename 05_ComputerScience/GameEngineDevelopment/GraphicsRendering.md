@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 图形学渲染
   - 图形API
@@ -283,7 +283,8 @@ Lumen 是 UE5 的全动态 GI 系统：
 
 ## 相关链接
 
-- [[RenderingPipeline]] - 3D 渲染管线
+- [[05_ComputerScience/ARVRXR/RenderingPipeline|RenderingPipeline]] - 3D 渲染管线
 - [[UnrealEngine5]] - 虚幻引擎 5
 - [[UnityDeep]] - Unity 深度
 - [[GamePhysics]] - 游戏物理
+

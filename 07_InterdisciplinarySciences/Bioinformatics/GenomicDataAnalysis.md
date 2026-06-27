@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [GenomicDataAnalysis]
 tags: ['Bioinformatics', 'GenomicDataAnalysis']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 基因组数据分?
@@ -263,3 +263,4 @@ process ALIGN {
 ## 相关条目
 
 ComputationalBiology, [[02_NaturalSciences/Biology/Genetics/INDEX|Genetics]], [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]], Genomics, [[02_NaturalSciences/Biology/MolecularBiology/INDEX|MolecularBiology]]
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [WorldHistoryBasics, 世界史基础]
 tags: ['JuniorHigh', 'History', 'WorldHistoryBasics']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 世界历史基础
@@ -277,4 +277,6 @@ updated: 2026-05-16
 
 ## 相关条目
 
-[[WorldHistory]], [[ChineseHistory]], SocialStudies, Civilization
+[[03_HumanitiesAndSocialSciences/History/WorldHistory/WorldHistory|WorldHistory]], [[03_HumanitiesAndSocialSciences/History/ChineseHistory/ChineseHistory|ChineseHistory]], SocialStudies, Civilization
+
+

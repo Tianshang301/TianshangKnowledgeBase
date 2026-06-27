@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [BiologicalControl]
 tags: ['PlantProtection', 'BiologicalControl']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 生物防治
@@ -404,3 +404,4 @@ $$B_{net} = \sum (Y \times P \times E_{bio}) - C_{bio} - L_{conv}$$
 ## 相关条目
 
 [[Entomology]], [[PlantPathology]], [[PesticideScience]], [[WeedScience]], [[PlantQuarantine]], [[08_AgriculturalSciences/CropScience/INDEX|CropScience]], [[08_AgriculturalSciences/Horticulture/INDEX|Horticulture]]
+

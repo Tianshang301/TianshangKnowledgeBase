@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'STM32', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # STM32
@@ -18,3 +18,4 @@ updated: 2026-05-13
 - [[ADCDAC]] - AD/DA 转换
 - [[Communication]] - 通信外设
 - [[Interrupt]] - 中断
+

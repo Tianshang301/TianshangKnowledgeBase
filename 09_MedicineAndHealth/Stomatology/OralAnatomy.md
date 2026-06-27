@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [OralAnatomy]
 tags: ['Stomatology', 'OralAnatomy']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 口腔解剖学
@@ -186,3 +186,4 @@ updated: 2026-05-13
 - 口腔生理学
 - 牙体牙髓病学
 - 口腔颌面外科学
+

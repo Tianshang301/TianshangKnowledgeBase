@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['ChineseLanguageAndLiterature', 'INDEX']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # ChineseLanguageAndLiterature
@@ -17,10 +17,10 @@ updated: 2026-05-13
 - [[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/ChineseLinguistics/INDEX]]
 - [[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/ChineseModernLiterature/INDEX]]
 - [[ClassicalChinesePhilology]]
-- [[ComparativeLiterature]]
+- [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/ComparativeLiterature/ComparativeLiterature|ComparativeLiterature]]
 - [[ContemporaryChineseLiterature]]
 - [[LiteraryCriticism]]
-- [[WorldLiterature]]
+- [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/WorldLiterature|WorldLiterature]]
 
 ## 娣卞叆闃呰涓庢墿灞曞垎鏋?
 璇ラ鍩熺殑鐭ヨ瘑浣撶郴缁忚繃闀挎湡绉疮宸茬浉褰撲赴瀵屻€?
@@ -152,4 +152,6 @@ updated: 2026-05-13
 - [[ChineseWriting/INDEX|ChineseWriting]]
 - [[LiteraryTheory/INDEX|LiteraryTheory]]
 - [[ModernChinese/INDEX|ModernChinese]]
+
+
 

@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 笔记应用
   - Note-Taking Apps
@@ -6,7 +6,7 @@ aliases:
   - 笔记软件
 tags:
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
   - notes
   - knowledge-management
   - productivity
@@ -219,3 +219,4 @@ Web Clipper → 任何笔记应用 (网页保存)
 ---
 
 > 最好的笔记系统不是最复杂的，而是最能让你坚持使用的。
+

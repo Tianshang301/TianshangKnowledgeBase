@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['ComputerOrganizationAndArchitecture', 'Pipelining', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 娴佹按绾挎妧鏈?
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[Pipelining]]
 - [[瓒呮爣閲忎笌涔卞簭鎵ц]]
 - [[超标量与乱序执行]]
+
 

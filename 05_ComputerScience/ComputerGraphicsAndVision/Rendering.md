@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Rendering]
 tags: ['05_ComputerScience', 'ComputerGraphicsAndVision']
 created: 2026-05-17
@@ -253,6 +253,7 @@ Draw Call 数:                   < 2000 (移动端) / < 5000 (桌面)
 ```
 
 ## 相关条目
-- [[UserInterfaceDesign]]
-- [[ParallelArchitecture]]
+- [[05_ComputerScience/HumanComputerInteraction/UserInterfaceDesign|UserInterfaceDesign]]
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/ParallelArchitecture|ParallelArchitecture]]
 - [[05_ComputerScience/ComputerGraphicsAndVision/INDEX]]
+

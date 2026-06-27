@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Geography', 'INDEX']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # Geography
@@ -12,12 +12,12 @@ updated: 2026-05-13
 ## 鏂囦欢
 
 > 璇︾粏鍐呭璇疯 [[GIS 閬ユ劅涓庡湴鍥惧]]
-- [[EconomicGeography]]
-- [[GeographicInformationSystems]]
-- [[HumanGeography]]
-- [[PhysicalGeography]]
-- [[RegionalGeography]]
-- [[UrbanGeography]]
+- [[02_NaturalSciences/EarthSciences/EconomicGeography|EconomicGeography]]
+- [[02_NaturalSciences/EarthSciences/GeographicInformationSystems|GeographicInformationSystems]]
+- [[01_K12/JuniorHigh/Geography/HumanGeography|HumanGeography]]
+- [[01_K12/JuniorHigh/Geography/PhysicalGeography|PhysicalGeography]]
+- [[02_NaturalSciences/EarthSciences/RegionalGeography|RegionalGeography]]
+- [[02_NaturalSciences/EarthSciences/UrbanGeography|UrbanGeography]]
 > **瀵艰埅**锛歔[../INDEX]] | [[../History/INDEX]] | [[../Anthropology/INDEX]]
 - [[浜烘枃鍦扮悊瀛]
 - [[鑷劧鍦扮悊瀛]
@@ -149,4 +149,6 @@ updated: 2026-05-13
 - [[GIS遥感与地图学]]
 - [[人文地理学]]
 - [[自然地理学]]
+
+
 

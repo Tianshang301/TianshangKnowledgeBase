@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [InternetOfThings]
 tags: ['NetworkedInformationSystems', 'InternetOfThings']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 物联?
@@ -254,4 +254,6 @@ $$D_{\text{total}} = D_{\text{prop}} + D_{\text{trans}} + D_{\text{proc}} + D_{\
 
 ## 相关条目
 
-[[ComputerNetworks]], [[DistributedSystems]], [[Cybersecurity]], CloudComputing
+[[04_EngineeringAndTechnology/ComputerAndInformationSciences/ComputerNetworks|ComputerNetworks]], [[DistributedSystems]], [[05_ComputerScience/Cybersecurity/Cybersecurity|Cybersecurity]], CloudComputing
+
+

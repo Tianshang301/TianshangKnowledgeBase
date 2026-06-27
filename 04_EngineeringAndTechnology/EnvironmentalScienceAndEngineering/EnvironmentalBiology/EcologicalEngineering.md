@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [生态工程, 生态工学, Ecological Engineering, Eco-Engineering]
 tags: [生态工程, 环境工程, 生态修复, 人工湿地, 植物修复, 生物修复, 可持续工程]
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 生态工程 (Ecological Engineering)
@@ -213,3 +213,4 @@ $$
 3. Raskin, I., & Ensley, B. D. (2000). *Phytoremediation of Toxic Metals*. Wiley.
 4. Atlas, R. M., & Philp, J. C. (2005). *Bioremediation*. Cambridge University Press.
 5. 颜京松 等. (2013). 《生态工程学》. 化学工业出版社.
+

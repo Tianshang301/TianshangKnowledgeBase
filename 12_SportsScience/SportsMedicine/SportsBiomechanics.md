@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [运动生物力学, 生物力學, 運動バイオメカニクス]
 tags: [运动科学, 生物力学, 运动医学, 运动训练, 损伤预防, 运动分析]
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 运动生物力学 (Sports Biomechanics)
@@ -195,3 +195,4 @@ $$
 3. 刘大庆. (2010). 《运动生物力学》. 人民体育出版社.
 4. Nigg, B. M., & Herzog, W. (2007). *Biomechanics of the Musculo-skeletal System* (3rd ed.). Wiley.
 5. 全国体育院校教材委员会. (2012). 《运动生物力学》. 人民体育出版社.
+

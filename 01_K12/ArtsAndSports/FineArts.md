@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FineArts]
 tags: ['ArtsAndSports', 'FineArts']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # K12 美术基础与鉴赏
@@ -249,3 +249,4 @@ updated: 2026-05-13
 ## 相关条目
 
 [[PhysicalEducation]], [[FineArts]], MusicEducation, ArtEducation
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Biophysics, 生物物理学]
 tags: ['02_NaturalSciences', 'Biology', 'Biophysics', 'MolecularBiophysics']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 生物物理学 (Biophysics)
@@ -214,3 +214,4 @@ $$ D = \frac{k_B T}{6 \pi \eta R} $$
 - [[结构生物学]]
 - [[生物力学]]
 - [[INDEX|当前目录索引]]
+

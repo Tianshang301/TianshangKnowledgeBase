@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['TheoryOfComputation', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 璁＄畻鐞嗚
@@ -15,4 +15,5 @@ updated: 2026-05-13
 - [[ComputationalComplexity]]
 - [[BooleanAlgebra]]
 - [[FormalLanguages]]
+
 

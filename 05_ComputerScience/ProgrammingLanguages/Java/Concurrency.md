@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Concurrency]
 tags: ['ProgrammingLanguages', 'Java', 'Concurrency']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Java 并发编程
@@ -444,3 +444,4 @@ public class FalseSharingExample {
     public volatile long y;
 }
 ```
+

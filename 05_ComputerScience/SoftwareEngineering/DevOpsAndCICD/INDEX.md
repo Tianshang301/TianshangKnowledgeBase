@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['SoftwareEngineering', 'DevOpsAndCICD', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # DevOpsAndCICD
@@ -20,4 +20,5 @@ updated: 2026-05-13
 - [[Pipeline]] - 娴佹按绾?
 - [[QuickStart]] - 蹇€熷紑濮?
 - [[DevOps]]
+
 

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [军事地理学, MilitaryGeography]
 tags: ['MilitaryScience', 'MilitaryGeography', 'TerrainAnalysis', 'GIS']
 created: 2026-06-27
@@ -270,9 +270,10 @@ GEOINT 融合多种地理数据源，提供全面的战场环境认知能力。
 
 ## 相关条目
 
-- [[StrategicTheory]]
-- [[MaritimeStrategy]]
-- [[NationalDefenseEconomy]]
+- [[10_MilitarySciences/MilitaryStrategy/StrategicTheory|StrategicTheory]]
+- [[10_MilitarySciences/MilitaryStrategy/MaritimeStrategy|MaritimeStrategy]]
+- [[10_MilitarySciences/NationalDefense/NationalDefenseEconomy|NationalDefenseEconomy]]
 - [[MilitaryOperationsResearch]]
-- [[SpaceStrategy]]
-- [[InformationWarfare]]
+- [[10_MilitarySciences/ModernWarfare/SpaceStrategy|SpaceStrategy]]
+- [[10_MilitarySciences/ModernWarfare/InformationWarfare|InformationWarfare]]
+

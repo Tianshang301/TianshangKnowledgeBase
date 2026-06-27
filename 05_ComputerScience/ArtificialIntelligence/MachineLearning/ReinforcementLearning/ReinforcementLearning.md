@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ReinforcementLearning]
 tags: ['ArtificialIntelligence', 'MachineLearning', 'ReinforcementLearning', 'ReinforcementLearning']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 强化学习
@@ -220,9 +220,9 @@ $$
 
 ## 相关条目
 
-- [[SupervisedLearning]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/SupervisedLearning/SupervisedLearning|SupervisedLearning]]
 - [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/INDEX|ControlTheory]]
-- [[Robotics]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Robotics/Robotics|Robotics]]
 - GameAI
 
 ## 参考资源
@@ -233,3 +233,5 @@ $$
 - Lillicrap, T. P. et al. (2015). "Continuous control with deep reinforcement learning"
 - Silver, D. et al. (2016). "Mastering the game of Go with deep neural networks and tree search"
 - Haarnoja, T. et al. (2018). "Soft Actor-Critic: Off-Policy Maximum Entropy Deep RL with a Stochastic Actor"
+
+

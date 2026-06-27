@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [PharmaceuticalChemistry]
 tags: ['Pharmacy', 'PharmaceuticalChemistry']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 药物化学
@@ -213,3 +213,4 @@ ARB 类药物选择性阻断 AT1受体，不影响缓激肽代谢（克服 ACEI 
 - 药剂学
 - 药理学
 - 有机化学
+

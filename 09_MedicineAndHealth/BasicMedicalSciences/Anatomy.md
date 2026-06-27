@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Anatomy]
 tags: ['BasicMedicalSciences', 'Anatomy']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 人体解剖学
@@ -192,3 +192,4 @@ updated: 2026-05-13
 - 病理学
 - 组织学
 - 局部解剖学
+

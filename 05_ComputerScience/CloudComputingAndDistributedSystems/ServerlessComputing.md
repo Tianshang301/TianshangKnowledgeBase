@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - ServerlessComputing
   - Serverless
@@ -7,7 +7,7 @@ aliases:
   - FunctionAsAService
 tags:
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
   - '05_ComputerScience'
   - 'CloudComputing'
   - 'ServerlessComputing'
@@ -136,7 +136,9 @@ $$ \text{总成本} = \sum (\text{调用次数} \times \text{价格/次}) + \sum
 ## 相关条目
 
 - [[CloudComputing]]
-- [[DevOps]]
-- [[SoftwareArchitecture]]
-- [[DistributedSystems]]
+- [[05_ComputerScience/SoftwareEngineering/DevOpsAndCICD/DevOps|DevOps]]
+- [[05_ComputerScience/SoftwareEngineering/SoftwareArchitecture|SoftwareArchitecture]]
+- [[07_InterdisciplinarySciences/NetworkedInformationSystems/DistributedSystems|DistributedSystems]]
 - [[Virtualization]]
+
+

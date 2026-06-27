@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ChineseMilitaryHistory]
 tags: ['MilitaryHistory', 'ChineseMilitaryHistory']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 中国军事史
@@ -209,3 +209,4 @@ updated: 2026-05-13
 - 中国国防
 - 中国人民解放军
 - 军事技术史
+

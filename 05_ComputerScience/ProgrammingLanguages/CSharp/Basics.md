@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Basics]
 tags: ['ProgrammingLanguages', 'CSharp', 'Basics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # C# 基础语法
@@ -342,3 +342,4 @@ List<int> list = query.ToList();
 int count = query.Count();
 int first = query.First();
 ```
+

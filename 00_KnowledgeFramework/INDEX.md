@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 00_KnowledgeFramework
@@ -18,7 +18,7 @@ updated: 2026-05-13
 - [[00_KnowledgeFramework/LearningPaths/INDEX]]
 - [[00_KnowledgeFramework/AcademicPapers/INDEX]]
 - [[00_KnowledgeFramework/BibTeX/INDEX]]
-- [[Zotero]]
+- [[00_KnowledgeFramework/BibTeX/Zotero|Zotero]]
 - [[LearningPath]]
 - [[DataSets/INDEX|DataSets]]
 - [[Ebooks/INDEX|Ebooks]]
@@ -26,4 +26,6 @@ updated: 2026-05-13
 - [[LicenseAndCopyright/INDEX|LicenseAndCopyright]]
 - [[Templates/INDEX|Templates]]
 - [[VersionHistory/INDEX|VersionHistory]]
+
+
 

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['Biotechnologies', 'BiomedicalEngineering', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # BiomedicalEngineering
@@ -14,3 +14,4 @@ updated: 2026-05-13
 - [[01_K12/JuniorHigh/Biology/INDEX|Biology]]
 - [[Biomaterials]]
 - [[MedicalDevices]]
+

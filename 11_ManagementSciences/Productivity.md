@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Productivity]
 tags: ['Productivity', 'ManagementScience', 'PersonalManagement', 'Efficiency']
 created: 2026-05-17
@@ -131,6 +131,7 @@ Cal Newport 提出的理念——有意识地限制数字工具的使用，聚�
 
 - [[ProductivityTools]]
 - [[TimeBlocking]]
-- [[ProductivitySystems]]
+- [[00_KnowledgeFramework/Methodology/ProductivitySystems|ProductivitySystems]]
 - [[DecisionMaking]]
 - [[INDEX|当前目录索引]]
+

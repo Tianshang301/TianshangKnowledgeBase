@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 游戏物理
   - 物理引擎
@@ -305,5 +305,6 @@ Game Logic Update
 
 - [[UnrealEngine5]] - 虚幻引擎物理系统
 - [[UnityDeep]] - Unity 物理系统
-- [[RenderingPipeline]] - 渲染管线
+- [[05_ComputerScience/ARVRXR/RenderingPipeline|RenderingPipeline]] - 渲染管线
 - [[GameAI]] - 游戏 AI
+

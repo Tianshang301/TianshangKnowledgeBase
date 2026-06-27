@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MedicalDevices]
 tags: ['Biotechnologies', 'BiomedicalEngineering', 'MedicalDevices']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 医疗器械
@@ -106,7 +106,9 @@ $$\Delta f = \frac{2f_0 v \cos\theta}{c}$$
 
 ## 相关条目
 - [[Biomaterials]]
-- [[DrugDesign]]
-- [[SensorTechnology]]
-- [[MeasurementTheory]]
-- [[LaserTechnology]]
+- [[09_MedicineAndHealth/Pharmacy/DrugDesign|DrugDesign]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/InstrumentScience/SensorTechnology|SensorTechnology]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/InstrumentScience/MeasurementTheory|MeasurementTheory]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/OpticalEngineering/LaserTechnology|LaserTechnology]]
+
+

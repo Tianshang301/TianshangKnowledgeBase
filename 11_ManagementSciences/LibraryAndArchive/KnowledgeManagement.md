@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [KnowledgeManagement]
 tags: ['LibraryAndArchive', 'KnowledgeManagement']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 知识管理
@@ -212,3 +212,4 @@ updated: 2026-05-13
 - 人力资源管理
 - 战略管理
 - 组织行为学
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['PlantProtection', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # PlantProtection
@@ -20,3 +20,4 @@ updated: 2026-05-13
 - [[08_AgriculturalSciences/AgriculturalResources/INDEX|AgriculturalResources]]
 - [[BiologicalControl]] - 生物防治
 - [[PlantQuarantine]] - 植物检疫
+

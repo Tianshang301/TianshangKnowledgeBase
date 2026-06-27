@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['AnimalScience', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # AnimalScience
@@ -18,3 +18,4 @@ updated: 2026-05-13
 - [[FeedScience]] - 饲料学：涉及饲料原料、添加剂、加工工艺与配方设计
 - [[AnimalPhysiology]] - 动物生理学
 - [[LivestockEconomics]] - 畜牧经济学
+

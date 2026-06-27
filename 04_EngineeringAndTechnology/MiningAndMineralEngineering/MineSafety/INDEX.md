@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['MiningAndMineralEngineering', 'MineSafety', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 鐭垮北瀹夊叏
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[MineSafety]]
 - [[鐭垮北鐏惧涓庡簲鎬ユ晳鎻碷]
 - [[矿山灾害与应急救援]]
+
 

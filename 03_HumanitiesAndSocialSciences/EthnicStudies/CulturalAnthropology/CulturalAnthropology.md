@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CulturalAnthropology]
 tags: ['EthnicStudies', 'CulturalAnthropology', 'CulturalAnthropology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 文化人类学
@@ -298,9 +298,9 @@ $$\text{深描} = \text{表面行为描述} + \text{文化意义阐释}$$
 
 ## 相关条目
 
-- [[Ethnology]]
-- [[EthnicCulture]]
-- [[Archaeology]]
+- [[03_HumanitiesAndSocialSciences/Sociology/Ethnology/Ethnology|Ethnology]]
+- [[03_HumanitiesAndSocialSciences/EthnicStudies/EthnicCulture/EthnicCulture|EthnicCulture]]
+- [[03_HumanitiesAndSocialSciences/History/Archaeology/Archaeology|Archaeology]]
 - [[03_HumanitiesAndSocialSciences/Sociology/INDEX|Sociology]]
 
 ## 参考资源
@@ -315,3 +315,5 @@ $$\text{深描} = \text{表面行为描述} + \text{文化意义阐释}$$
 8. Eriksen, T. H. (2015). *Small Places, Large Issues: An Introduction to Social and Cultural Anthropology* (4th ed.). London: Pluto Press.
 9. 王铭铭（2009）。《社会人类学与中国研究》。北京：生活·读书·新知三联书店。
 10. Boas, F. (1940). *Race, Language, and Culture*. New York: Macmillan.
+
+

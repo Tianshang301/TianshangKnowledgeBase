@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Overtraining, 过度训练, OvertrainingSyndrome, OTS]
 tags: ['12_SportsScience', 'SportsMedicine', 'Overtraining', 'Recovery', 'Fatigue']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 过度训练 (Overtraining)
@@ -229,8 +229,10 @@ $$EA = \frac{\text{能量摄入} - \text{运动消耗}}{\text{去脂体重}}$$
 ## 相关条目
 
 - [[RecoveryAndRegeneration|恢复与再生 (Recovery)]]
-- [[Periodization|周期化 (Periodization)]]
-- [[FatigueMonitoring|疲劳监测 (Fatigue Monitoring)]]
-- [[SportsPsychology|运动心理学 (Sports Psychology)]]
+- [[12_SportsScience/SportsTraining/Periodization|周期化 (Periodization)]]
+- [[12_SportsScience/SportsTraining/FatigueMonitoring|疲劳监测 (Fatigue Monitoring)]]
+- [[12_SportsScience/SportsTraining/SportsPsychology|运动心理学 (Sports Psychology)]]
 - [[HeartRateVariability|心率变异性 (HRV)]]
 - [[INDEX|SportsMedicine 索引]]
+
+

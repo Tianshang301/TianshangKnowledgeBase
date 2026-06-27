@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [EnvironmentConfig]
 tags: ['Basics', 'EnvironmentConfig']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 环境配置完全指南
@@ -199,3 +199,4 @@ debug = os.getenv("DEBUG", "false")  # 默认值
 | 不用引号包裹 | 除非值包含空格，如 `SECRET="my secret"` |
 | 不使用换行 | 每行一个键值对 |
 | 生产环境禁掉 DEBUG | `.env.production` 中的 `DEBUG=false` |
+

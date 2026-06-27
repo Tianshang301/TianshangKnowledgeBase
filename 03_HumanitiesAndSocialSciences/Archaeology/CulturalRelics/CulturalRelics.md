@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CulturalRelics, WenwuXue]
 tags: ['03_HumanitiesAndSocialSciences', 'Archaeology', 'CulturalRelics']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 文物学 (Cultural Relics Studies)
@@ -202,8 +202,10 @@ updated: 2026-05-13
 
 ## 相关条目
 
-- [[ArchaeologicalMethods]]
-- [[HistoricalArchaeology]]
-- [[ArtHistory]]
+- [[03_HumanitiesAndSocialSciences/Archaeology/ArchaeologicalMethods/ArchaeologicalMethods|ArchaeologicalMethods]]
+- [[03_HumanitiesAndSocialSciences/Archaeology/HistoricalArchaeology/HistoricalArchaeology|HistoricalArchaeology]]
+- [[06_ArtsAndCreativity/FineArts/ArtHistory/ArtHistory|ArtHistory]]
 - [[MuseumStudies]]
 - [[INDEX|当前目录索引]]
+
+

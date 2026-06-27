@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Statistics]
 tags: ['Economics', 'Statistics', 'Statistics']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 统计学
@@ -164,7 +164,7 @@ $SST = SSB + SSW$。$F = \frac{SSB/(k-1)}{SSW/(n-k)}$。$F$值大→组间差异
 
 ## 相关条目
 
-[[Econometrics]] · Mathematics/ProbabilityStatistics · [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]] · [[AppliedEconomics]]
+[[03_HumanitiesAndSocialSciences/Economics/Econometrics/Econometrics|Econometrics]] · Mathematics/ProbabilityStatistics · [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]] · [[03_HumanitiesAndSocialSciences/Economics/AppliedEconomics/AppliedEconomics|AppliedEconomics]]
 
 ## 参考资源
 
@@ -301,3 +301,5 @@ $SST = SSB + SSW$。$F = \frac{SSB/(k-1)}{SSW/(n-k)}$。$F$值大→组间差异
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+
+

@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Philosophy', 'INDEX']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # Philosophy
@@ -16,7 +16,7 @@ updated: 2026-05-13
 - [[ContemporaryPhilosophy]]
 - [[Epistemology]]
 - [[03_HumanitiesAndSocialSciences/Philosophy/Ethics/INDEX]]
-- [[Logic]]
+- [[02_NaturalSciences/Logic/MathematicalLogic/Logic|Logic]]
 - [[MedievalPhilosophy]]
 - [[Metaphysics]]
 - [[ModernPhilosophy]]
@@ -153,4 +153,6 @@ updated: 2026-05-13
 - [[Aesthetics/INDEX|Aesthetics]]
 - [[Eastern/INDEX|Eastern]]
 - [[MarxistPhilosophy/INDEX|MarxistPhilosophy]]
+
+
 

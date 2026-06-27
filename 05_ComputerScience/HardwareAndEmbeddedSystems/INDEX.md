@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['HardwareAndEmbeddedSystems', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # HardwareAndEmbeddedSystems
@@ -14,9 +14,9 @@ updated: 2026-05-13
 - [[EmbeddedSystems]] 鈥?宓屽叆寮忕郴缁?
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/FPGA/INDEX]] 鈥?FPGA
 - [[LearningPath]] 鈥?纭欢瀛︿範璺嚎鍥?
-- [[Microcontrollers]] 鈥?寰帶鍒跺櫒
-- [[SystemOnChip]] 鈥?鐗囦笂绯荤粺
-- [[VHDL]] 鈥?VHDL
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Microcontrollers/Microcontrollers|Microcontrollers]] 鈥?寰帶鍒跺櫒
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/InstrumentScience/SystemOnChip|SystemOnChip]] 鈥?鐗囦笂绯荤粺
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/InstrumentScience/VHDL|VHDL]] 鈥?VHDL
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/AnalogCircuits/INDEX|Analog Circuits]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/Arduino/INDEX|Arduino]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/DigitalCircuits/INDEX|Digital Circuits]]
@@ -32,4 +32,6 @@ updated: 2026-05-13
 - [[ComputerArchitecture2026]]
 - [[EmbeddedSystemsOverview]]
 - [[VerilogAndDigitalDesign]]
+
+
 

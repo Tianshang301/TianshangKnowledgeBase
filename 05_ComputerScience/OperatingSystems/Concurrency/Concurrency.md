@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Concurrency]
 tags: ['OperatingSystems', 'Concurrency', 'Concurrency']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 并发详解 (Concurrency)
@@ -438,10 +438,10 @@ $$S = \frac{1}{(1-p) + p/n}$$
 
 ## 相关条目
 
-- [[ProcessManagement]]
+- [[05_ComputerScience/OperatingSystems/ProcessManagement/ProcessManagement|ProcessManagement]]
 - Synchronization
 - Deadlock
-- [[RTOS]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/RTOS/RTOS|RTOS]]
 
 ## 参考资源
 
@@ -449,3 +449,5 @@ $$S = \frac{1}{(1-p) + p/n}$$
 - Herlihy, M., & Shavit, N. *The Art of Multiprocessor Programming*
 - Tanenbaum, A. S., & Bos, H. *Modern Operating Systems* (4th ed.)
 - Intel 64 and IA-32 Architectures Software Developer's Manual
+
+

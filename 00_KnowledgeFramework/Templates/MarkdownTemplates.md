@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [MarkdownTemplates, Markdown 模板, Markdown 指南, MarkdownGuide]
 tags: ['00_KnowledgeFramework', 'Templates', 'MarkdownTemplates', 'Markdown', 'Formatting']
 created: 2024-08-01
@@ -381,9 +381,10 @@ $$
 - 每个句子后使用一个空格 (而非两个)
 
 ## 相关条目
-- [[NoteTaking|笔记方法]]
-- [[KnowledgeManagement|知识管理]]
-- [[AcademicWriting|学术写作]]
-- [[Zettelkasten|卡片盒笔记法]]
+- [[00_KnowledgeFramework/NoteTaking/NoteTaking|笔记方法]]
+- [[11_ManagementSciences/LibraryAndArchive/KnowledgeManagement|知识管理]]
+- [[13_Others/AcademicWriting/AcademicWriting|学术写作]]
+- [[00_KnowledgeFramework/NoteTaking/Zettelkasten|卡片盒笔记法]]
 - [[ObsidianWorkflow|Obsidian 工作流]]
 - [[MarkdownSyntaxChecklist|Markdown 语法速查]]
+

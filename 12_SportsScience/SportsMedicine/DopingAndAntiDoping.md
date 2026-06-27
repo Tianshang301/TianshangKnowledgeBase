@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DopingAndAntiDoping]
 tags: ['SportsMedicine', 'DopingAndAntiDoping']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 兴奋剂与反兴奋剂
@@ -190,3 +190,4 @@ TUE 需提供完备的医疗诊断和用药必要性证明。
 ## 相关条目
 
 运动营养学、运动医学、运动伦理、体育法规、运动生理学、运动员健康管理、WADA、血检
+

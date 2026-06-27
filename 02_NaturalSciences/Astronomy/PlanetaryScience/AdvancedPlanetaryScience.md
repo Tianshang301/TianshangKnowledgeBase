@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AdvancedPlanetaryScience]
 tags: ['Astronomy', 'PlanetaryScience', 'AdvancedPlanetaryScience']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 行星科学进阶
@@ -200,3 +200,4 @@ $$
 - Kopparapu et al. (2013) Habitable zones around main-sequence stars
 - Boss《行星形成理论》
 - Lissauer & De Pater《行星科学基础》（Fundamental Planetary Science）
+

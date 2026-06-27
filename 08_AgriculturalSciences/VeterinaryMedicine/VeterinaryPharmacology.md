@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [VeterinaryPharmacology]
 tags: ['VeterinaryMedicine', 'VeterinaryPharmacology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 兽医药理学
@@ -216,4 +216,6 @@ $$
 
 ## 相关条目
 
-[[08_AgriculturalSciences/AnimalScience/INDEX|AnimalScience]], [[VeterinaryPathology]], [[VeterinaryInternalMedicine]], [[VeterinarySurgery]], [[AnimalHealth]]
+[[08_AgriculturalSciences/AnimalScience/INDEX|AnimalScience]], [[VeterinaryPathology]], [[VeterinaryInternalMedicine]], [[VeterinarySurgery]], [[08_AgriculturalSciences/AnimalScience/AnimalHealth|AnimalHealth]]
+
+

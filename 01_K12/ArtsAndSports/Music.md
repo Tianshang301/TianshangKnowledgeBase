@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Music]
 tags: ['ArtsAndSports', 'Music']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # K12 音乐基础与鉴赏
@@ -243,3 +243,4 @@ timeline
 ## 相关条目
 
 [[PhysicalEducation]], [[FineArts]], MusicEducation, ArtEducation
+

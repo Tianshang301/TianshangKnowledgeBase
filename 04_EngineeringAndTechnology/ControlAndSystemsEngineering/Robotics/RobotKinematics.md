@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [RobotKinematics, 机器人运动学]
 tags: ['ControlAndSystemsEngineering', 'Robotics', 'RobotKinematics', 'Manipulator']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 机器人运动学 (Robot Kinematics)
@@ -253,7 +253,9 @@ $$\min_{q(t)} \int_0^{t_f} 1 \, dt$$
 ## 相关条目
 
 - [[RobotDynamics]]
-- [[RoboticsBasics]]
-- [[ControlSystems]]
-- [[SolidMechanics]]
-- [[PLCProgramming]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/Mechatronics/RoboticsBasics|RoboticsBasics]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/Mechatronics/ControlSystems|ControlSystems]]
+- [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/SolidMechanics|SolidMechanics]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/Mechatronics/PLCProgramming|PLCProgramming]]
+
+

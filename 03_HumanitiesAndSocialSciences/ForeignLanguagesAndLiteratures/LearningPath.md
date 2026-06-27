@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LearningPath]
 tags: ['ForeignLanguagesAndLiteratures', 'LearningPath']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 外语学习路线图
@@ -220,3 +220,4 @@ updated: 2026-05-13
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+

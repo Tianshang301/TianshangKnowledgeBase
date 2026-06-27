@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Aquaculture]
 tags: ['Fishery', 'Aquaculture']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 水产养殖学
@@ -188,3 +188,4 @@ $$
 ## 相关条目
 
 [[FisheriesScience]], [[MarineBiology]], [[07_InterdisciplinarySciences/EnvironmentalScience/INDEX|EnvironmentalScience]], FisheriesManagement
+

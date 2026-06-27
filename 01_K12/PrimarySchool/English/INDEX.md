@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['PrimarySchool', 'English', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # English
@@ -16,7 +16,9 @@ updated: 2026-05-13
 | [[SimpleGrammar]] | 鍩虹鍙ュ瀷銆佹椂鎬佸叆闂ㄣ€佽娉曟蹇?|
 | [[OralCommunication]] | 鏃ュ父瀵硅瘽銆佽鍫傜敤璇€佹儏鏅氦闄?|
 | [[缁冧範棰樹笌瑙ｆ瀽]] | 缁煎悎缁冧範棰樹笌璇︾粏瑙ｆ瀽 |
-- [[LanguageLearning]]
-- [[ProfessionalEnglish]]
+- [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/LanguageLearning/LanguageLearning|LanguageLearning]]
+- [[05_ComputerScience/ProfessionalEnglish/ProfessionalEnglish|ProfessionalEnglish]]
 - [[练习题与解析]]
+
+
 

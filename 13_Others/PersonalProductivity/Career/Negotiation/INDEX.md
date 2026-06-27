@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['PersonalProductivity', 'Career', 'Negotiation', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Negotiation
@@ -15,4 +15,5 @@ updated: 2026-05-13
 - [[璋堝垽鎶€宸] 鈥?璋堝垽鎶€宸т笌鏂规硶璁?
 - [[薪资谈判与职场沟通]]
 - [[谈判技巧]]
+
 

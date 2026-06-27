@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [VeterinaryImmunology]
 tags: ['VeterinaryMedicine', 'VeterinaryImmunology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 兽医免疫学
@@ -194,3 +194,4 @@ $$
 - VeterinaryVirology
 - [[08_AgriculturalSciences/AnimalScience/INDEX|AnimalScience]]
 - BiomedicalScience/Immunology
+

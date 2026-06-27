@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [InformationRetrieval, IR, 信息检索]
 tags: ['05_ComputerScience', 'Databases', 'InformationRetrieval']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 信息检索概述 (Information Retrieval Overview)
@@ -198,8 +198,10 @@ $$
 ## 相关条目
 
 - [[DatabaseSystems|数据库系统]]
-- [[NaturalLanguageProcessing|自然语言处理 (NLP)]]
-- [[MachineLearning|机器学习 (ML)]]
-- [[DataMining|数据挖掘]]
+- [[05_ComputerScience/ArtificialIntelligence/NaturalLanguageProcessing/NaturalLanguageProcessing|自然语言处理 (NLP)]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/MachineLearning|机器学习 (ML)]]
+- [[07_InterdisciplinarySciences/DataScience/DataMining|数据挖掘]]
 - [[Elasticsearch|Elasticsearch]]
 - [[RAG|检索增强生成 (RAG)]]
+
+

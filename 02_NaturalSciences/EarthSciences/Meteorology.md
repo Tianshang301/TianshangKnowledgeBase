@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Meteorology, 气象学]
 tags: ['02_NaturalSciences', 'EarthSciences', 'Meteorology']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 气象学
@@ -231,3 +231,4 @@ $$
 - [[水文地理学]]
 - [[地貌学]]
 - [[02_NaturalSciences/EarthSciences/PhysicalGeography/INDEX|自然地理索引]]
+

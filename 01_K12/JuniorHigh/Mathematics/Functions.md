@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Functions]
 tags: ['JuniorHigh', 'Mathematics', 'Functions']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 函数
@@ -190,3 +190,4 @@ S = x·(20-x)/2 = -0.5x² + 10x（0<x<20）
 ## 相关条目
 
 [[02_NaturalSciences/Mathematics/Algebra/INDEX|Algebra]], [[02_NaturalSciences/Mathematics/MathematicalAnalysis/INDEX|MathematicalAnalysis]], [[02_NaturalSciences/Mathematics/Geometry/INDEX|Geometry]], [[02_NaturalSciences/Mathematics/ProbabilityStatistics/INDEX|ProbabilityStatistics]]
+

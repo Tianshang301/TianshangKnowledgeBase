@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [HumanGeography]
 tags: ['JuniorHigh', 'Geography', 'HumanGeography']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 人文地理
@@ -203,3 +203,4 @@ updated: 2026-05-13
 ## 相关条目
 
 [[PhysicalGeography]], [[HumanGeography]], [[02_NaturalSciences/EarthSciences/INDEX|EarthSciences]], MapReading
+

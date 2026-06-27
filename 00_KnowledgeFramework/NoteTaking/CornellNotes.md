@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CornellNotes]
 tags: ['NoteTaking', 'CornellNotes']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 康奈尔笔记法
@@ -178,3 +178,4 @@ updated: 2026-05-13
 ## 相关条目
 
 [[Zettelkasten]], [[ProgressiveSummarization]], [[CornellNotes]], [[DigitalNoteTools]]
+

@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['ComputerOrganizationAndArchitecture', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # ComputerOrganizationAndArchitecture
@@ -28,4 +28,5 @@ updated: 2026-05-13
 - [[MemoryModel]]
 - [[NumberSystems]]
 - [[DigitalLogic/INDEX|DigitalLogic]]
+
 

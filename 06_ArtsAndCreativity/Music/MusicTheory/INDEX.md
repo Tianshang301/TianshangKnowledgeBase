@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Music', 'MusicTheory', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # MusicTheory
@@ -16,4 +16,5 @@ updated: 2026-05-13
 - [[Intervals]] - 闊崇▼
 - [[Scales]] - 闊抽樁
 - [[MusicTheory]]
+
 

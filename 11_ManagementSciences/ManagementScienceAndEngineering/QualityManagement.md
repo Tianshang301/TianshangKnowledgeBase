@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [QualityManagement]
 tags: ['ManagementScienceAndEngineering', 'QualityManagement']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 质量管理
@@ -203,3 +203,4 @@ ISO 9001认证是国际认可的质量管理体系认证。认证过程包括文
 - 生产管理
 - 流程管理
 - 卓越绩效
+

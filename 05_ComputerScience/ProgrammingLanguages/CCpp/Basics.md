@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Basics]
 tags: ['ProgrammingLanguages', 'CCpp', 'Basics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # C/C++ 基础语法
@@ -363,3 +363,4 @@ auto getValue(T t) {
     }
 }
 ```
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SportsNutrition]
 tags: ['SportsMedicine', 'SportsNutrition']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 运动营养学
@@ -167,3 +167,4 @@ B 族维生素是能量代谢的辅酶成分。
 ## 相关条目
 
 运动医学、兴奋剂检测、力量训练、耐力训练、运动生理学、恢复与再生、营养补充剂、运动与代谢
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [IoT 通信协议与云平台]
 tags: ['HardwareAndEmbeddedSystems', 'IoT', 'IoT 通信协议与云平台']
 ---
@@ -318,10 +318,10 @@ IoT 数据管道架构：
 ## 相关条目
 
 - [[IoT]]
-- [[EmbeddedLinux]]
-- [[RaspberryPi]]
-- [[Arduino]]
-- [[NetworkProtocols]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/EmbeddedLinux/EmbeddedLinux|EmbeddedLinux]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/RaspberryPi/RaspberryPi|RaspberryPi]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Arduino/Arduino|Arduino]]
+- [[05_ComputerScience/ComputerNetworks/NetworkProtocols/NetworkProtocols|NetworkProtocols]]
 
 ## 参考资源
 
@@ -332,3 +332,4 @@ IoT 数据管道架构：
 5. Azure IoT 文档：https://docs.microsoft.com/azure/iot
 6. 《物联网：架构、协议与安全》书籍
 7. MQTT X 客户端工具：https://mqttx.app
+

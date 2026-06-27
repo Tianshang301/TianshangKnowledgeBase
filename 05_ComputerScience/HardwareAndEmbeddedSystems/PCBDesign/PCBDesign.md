@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [PCBDesign]
 tags: ['HardwareAndEmbeddedSystems', 'PCBDesign', 'PCBDesign']
 created: 2026-05-16
@@ -238,10 +238,10 @@ $$R_{\theta via} = \frac{1}{N} \cdot \frac{h}{k_{cu} \cdot \pi r^2}$$
 ## 相关条目
 
 - [[高速 PCB 设计要点]]
-- [[AnalogCircuits]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/AnalogCircuits/AnalogCircuits|AnalogCircuits]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/DigitalCircuits/INDEX|DigitalCircuits]]
-- [[EmbeddedLinux]]
-- [[IoT]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/EmbeddedLinux/EmbeddedLinux|EmbeddedLinux]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/IoT/IoT|IoT]]
 
 ## 参考资源
 
@@ -250,3 +250,4 @@ $$R_{\theta via} = \frac{1}{N} \cdot \frac{h}{k_{cu} \cdot \pi r^2}$$
 - 《Right the First Time》（Lee Ritchey）
 - [KiCad 官方文档](https://docs.kicad.org/)
 - [Saturn PCB Design Toolkit](https://saturnpcb.com/saturn-pcb-toolkit/)
+

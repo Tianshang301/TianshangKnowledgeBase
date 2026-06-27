@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SensorTechnology]
 tags: ['MechanicalAndElectricalEngineering', 'InstrumentScience', 'SensorTechnology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 传感器技术
@@ -150,7 +150,9 @@ updated: 2026-05-13
 ## 相关条目
 
 - [[MeasurementTheory]]
-- [[ControlSystems]]
-- [[RoboticsBasics]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/Mechatronics/ControlSystems|ControlSystems]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/Mechatronics/RoboticsBasics|RoboticsBasics]]
 - [[04_EngineeringAndTechnology/ElectronicsAndCommunications/SignalProcessing/INDEX|SignalProcessing]]
-- [[PLCProgramming]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/Mechatronics/PLCProgramming|PLCProgramming]]
+
+

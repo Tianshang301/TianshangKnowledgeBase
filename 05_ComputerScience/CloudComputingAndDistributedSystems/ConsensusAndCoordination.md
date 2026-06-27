@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ConsensusAndCoordination]
 tags: ['CloudComputingAndDistributedSystems', 'ConsensusAndCoordination']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 分布式一致性与协调
@@ -378,9 +378,9 @@ Snowflake 64bit:
 
 ## 相关条目
 
-- [[DistributedSystems]]
-- [[ConsensusMechanisms]]
-- [[Blockchain]]
+- [[07_InterdisciplinarySciences/NetworkedInformationSystems/DistributedSystems|DistributedSystems]]
+- [[05_ComputerScience/Blockchain/ConsensusMechanisms|ConsensusMechanisms]]
+- [[05_ComputerScience/Blockchain/Blockchain|Blockchain]]
 - CAPTheorem
 
 ## 参考资源
@@ -392,3 +392,5 @@ Snowflake 64bit:
 - ZAB: High-performance broadcast for primary-backup systems
 - Practical Byzantine Fault Tolerance — Miguel Castro & Barbara Liskov
 - etcd Raft 库: https://github.com/etcd-io/raft
+
+

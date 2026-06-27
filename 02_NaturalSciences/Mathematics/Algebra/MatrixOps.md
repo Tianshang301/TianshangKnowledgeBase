@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MatrixOps]
 tags: ['Mathematics', 'Algebra', 'MatrixOps']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 矩阵运算详解
@@ -128,3 +128,4 @@ cond = np.linalg.cond(A)  # 默认使用 2-范数
 ## 相关条目
 
 [[02_NaturalSciences/Mathematics/Geometry/INDEX|Geometry]], [[02_NaturalSciences/Mathematics/NumberTheory/INDEX|NumberTheory]], [[02_NaturalSciences/Mathematics/MathematicalAnalysis/INDEX|MathematicalAnalysis]], LinearAlgebra
+

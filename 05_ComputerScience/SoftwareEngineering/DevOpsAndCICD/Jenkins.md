@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Jenkins]
 tags: ['SoftwareEngineering', 'DevOpsAndCICD', 'Jenkins']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Jenkins 指南
@@ -496,3 +496,4 @@ java -jar jenkins-cli.jar -s http://localhost:8080 apply-system-config < jenkins
 - [[GitHubActions]]
 - [[Dockerfile]]
 - [[K8s]]
+

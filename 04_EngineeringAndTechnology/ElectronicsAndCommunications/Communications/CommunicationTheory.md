@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CommunicationTheory]
 tags: ['ElectronicsAndCommunications', 'Communications', 'CommunicationTheory']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 通信原理
@@ -143,6 +143,8 @@ $C$ 为信道容量（b/s），$B$ 为带宽（Hz），$S/N$ 为信噪比。
 ## 相关条目
 
 - [[04_EngineeringAndTechnology/ElectronicsAndCommunications/SignalProcessing/INDEX|SignalProcessing]]
-- [[ComputerNetworks]]
-- [[WirelessNetworks]]
+- [[04_EngineeringAndTechnology/ComputerAndInformationSciences/ComputerNetworks|ComputerNetworks]]
+- [[05_ComputerScience/ComputerNetworks/WirelessNetworks/WirelessNetworks|WirelessNetworks]]
 - InformationTheory
+
+

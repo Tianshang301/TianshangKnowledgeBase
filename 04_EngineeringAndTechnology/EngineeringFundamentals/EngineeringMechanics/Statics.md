@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Statics, 静力学]
 tags: ['EngineeringFundamentals', 'EngineeringMechanics', 'Statics']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 静力学 (Statics)
@@ -209,7 +209,9 @@ $$
 ## 相关条目
 
 - [[Dynamics]]
-- [[EngineeringMechanics]]
-- [[StructuralAnalysis]]
+- [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/EngineeringMechanics|EngineeringMechanics]]
+- [[04_EngineeringAndTechnology/CivilEngineering/StructuralEngineering/StructuralAnalysis|StructuralAnalysis]]
 - [[MechanicsOfMaterials]]
-- [[SoilMechanics]]
+- [[04_EngineeringAndTechnology/CivilEngineering/GeotechnicalEngineering/SoilMechanics|SoilMechanics]]
+
+

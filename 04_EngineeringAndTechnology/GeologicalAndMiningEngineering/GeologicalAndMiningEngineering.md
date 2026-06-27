@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [GeologicalAndMiningEngineering]
 tags: ['GeologicalAndMiningEngineering', 'GeologicalAndMiningEngineering']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 地质与矿业工程
@@ -205,8 +205,10 @@ updated: 2026-05-13
 
 - [[02_NaturalSciences/EarthSciences/Geology/INDEX|Geology]]
 - [[04_EngineeringAndTechnology/CivilEngineering/GeotechnicalEngineering/INDEX|GeotechnicalEngineering]]
-- [[MineralProcessing]]
+- [[04_EngineeringAndTechnology/MiningAndMineralEngineering/MineralProcessing/MineralProcessing|MineralProcessing]]
 - [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalEngineering/INDEX|EnvironmentalEngineering]]
 - [[04_EngineeringAndTechnology/GeologicalAndMiningEngineering/GeologicalEngineering/INDEX|GeologicalEngineering]]
 - [[04_EngineeringAndTechnology/GeologicalAndMiningEngineering/MiningEngineering/INDEX|MiningEngineering]]
 - [[04_EngineeringAndTechnology/GeologicalAndMiningEngineering/PetroleumEngineering/INDEX|PetroleumEngineering]]
+
+

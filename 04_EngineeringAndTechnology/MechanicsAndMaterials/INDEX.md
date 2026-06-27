@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['MechanicsAndMaterials', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # MechanicsAndMaterials
@@ -11,13 +11,15 @@ updated: 2026-05-13
 
 ## 文件
 
-- [[CompositeMaterials]]
-- [[Elasticity]]
-- [[FluidMechanics]]
-- [[FractureMechanics]]
+- [[04_EngineeringAndTechnology/MechanicsAndMaterials/MaterialsScience/CompositeMaterials|CompositeMaterials]]
+- [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/Elasticity|Elasticity]]
+- [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/FluidMechanics|FluidMechanics]]
+- [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/FractureMechanics|FractureMechanics]]
 - [[04_EngineeringAndTechnology/MechanicsAndMaterials/MaterialsScience/INDEX]]
-- [[Nanomaterials]]
-- [[Plasticity]]
-- [[SolidMechanics]]
-- [[Thermodynamics]]
+- [[04_EngineeringAndTechnology/Nanotechnology/Nanomaterials|Nanomaterials]]
+- [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/Plasticity|Plasticity]]
+- [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/SolidMechanics|SolidMechanics]]
+- [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringThermophysics/Thermodynamics|Thermodynamics]]
 - [[../INDEX]]
+
+

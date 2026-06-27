@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Physics', 'Thermodynamics', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Thermodynamics
@@ -12,7 +12,7 @@ updated: 2026-05-13
 ## 鏂囦欢
 
 - [[缁熻鍔涘]]
-- [[HeatTransfer]]
+- [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringThermophysics/HeatTransfer|HeatTransfer]]
 - [[鐑姏瀛﹀畾寰媇]
 - [[鐩稿彉]]
 - [[Entropy]]
@@ -21,4 +21,6 @@ updated: 2026-05-13
 - [[热力学定律]]
 - [[相变]]
 - [[统计力学]]
+
+
 

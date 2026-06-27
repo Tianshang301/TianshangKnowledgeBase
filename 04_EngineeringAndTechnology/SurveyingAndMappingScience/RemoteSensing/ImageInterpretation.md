@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ImageInterpretation, 遥感图像解译, 遥感影像判读, RemoteSensingInterpretation, 影像解译, 图像判读, 遥感判读]
 tags: ['04_EngineeringAndTechnology', 'SurveyingAndMappingScience', 'RemoteSensing', 'ImageInterpretation', 'ImageProcessing', 'Photogrammetry']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 遥感图像判读（Remote Sensing Image Interpretation）
@@ -142,3 +142,4 @@ $$EVI = G \times \frac{NIR - Red}{NIR + C_1 \times Red - C_2 \times Blue + L}$$
 - Lillesand *Remote Sensing and Image Interpretation*（第 7 版）
 - 《遥感数字图像处理》（贾永红）
 - Richards *Remote Sensing Digital Image Analysis*（第 5 版）
+

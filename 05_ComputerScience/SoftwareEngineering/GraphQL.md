@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [GraphQL, GraphQL查询, Apollo]
 tags: ['05_ComputerScience', 'SoftwareEngineering', 'GraphQL', 'API']
 created: 2026-06-27
@@ -590,11 +590,12 @@ schema = strawberry.Schema(
 ## 相关条目
 
 - [[Microservices]]
-- [[HTTPAPI]]
-- [[NetworkSecurity]]
+- [[05_ComputerScience/ProgrammingLanguages/Web/HTTPAPI|HTTPAPI]]
+- [[05_ComputerScience/Cybersecurity/NetworkSecurity|NetworkSecurity]]
 
 ## 参考资源
 
 1. GraphQL. "Official Specification." graphql.org
 2. Apollo. "Apollo Server Documentation." apollographql.com
 3. Strawberry. "Strawberry GraphQL." strawberry-graphql.github.io
+

@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Physics', 'Relativity', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Relativity
@@ -15,4 +15,5 @@ updated: 2026-05-13
 - [[鐙箟鐩稿璁篯]
 - [[广义相对论]]
 - [[狭义相对论]]
+
 

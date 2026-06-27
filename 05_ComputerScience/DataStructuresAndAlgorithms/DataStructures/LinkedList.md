@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LinkedList]
 tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'LinkedList']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 链表详解
@@ -388,3 +388,4 @@ def add_two_numbers(l1, l2):
 - [[Queue]]
 - [[HashTable]]
 - [[Tree]]
+

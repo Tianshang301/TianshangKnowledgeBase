@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [IntervalTraining]
 tags: ['SportsScience', 'ExercisePhysiology', 'Fitness', 'HIIT']
 created: 2026-05-17
@@ -134,5 +134,6 @@ $$ \text{充分热身 5-10 分钟动态拉伸/轻度有氧} \rightarrow \text{�
 
 - [[BadmintonTechniques]]
 - [[GaitAnalysis]]
-- [[Physiotherapy]]
+- [[09_MedicineAndHealth/Physiotherapy|Physiotherapy]]
 - [[INDEX|当前目录索引]]
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MapDesign, 地图设计, CartographicDesign, MapCompilation]
 tags: ['SurveyingAndMappingScience', 'Cartography', 'MapDesign', 'Symbology', 'GIS']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 地图设计 (Map Design)
@@ -247,9 +247,11 @@ graph TD
 
 ## 相关条目
 
-- [[Cartography|地图学 (Cartography)]]
+- [[02_NaturalSciences/EarthSciences/Cartography/Cartography|地图学 (Cartography)]]
 - [[MapProjection|地图投影 (Map Projection)]]
 - [[ThematicMapping|专题制图 (Thematic Mapping)]]
 - [[GIS|地理信息系统 (GIS)]]
-- [[RemoteSensing|遥感 (Remote Sensing)]]
+- [[04_EngineeringAndTechnology/GeologicalAndMiningEngineering/GeologicalEngineering/RemoteSensing|遥感 (Remote Sensing)]]
 - [[INDEX|Cartography 索引]]
+
+

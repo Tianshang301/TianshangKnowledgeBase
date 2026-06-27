@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [CompositionBasics]
 tags: ['PrimarySchool', 'Chinese', 'CompositionBasics']
 created: 2026-05-16
@@ -203,4 +203,5 @@ updated: 2026-05-16
 
 ## 相关条目
 
-[[ReadingComprehension]], [[Writing]], Pinyin, ChineseCharacters
+[[ReadingComprehension]], [[01_K12/SeniorHigh/English/Writing|Writing]], Pinyin, ChineseCharacters
+

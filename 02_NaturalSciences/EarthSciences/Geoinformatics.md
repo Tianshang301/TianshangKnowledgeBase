@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Geoinformatics]
 tags: ['EarthSciences', 'Geoinformatics.md']
 created: 2026-05-17
@@ -209,7 +209,7 @@ GNSS (GPS, GLONASS, Galileo, BeiDou) 提供全球定位。室内定位使用 Wi-
 
 - [[Cartography|地图学]]：地图设计与制作的理论与技术
 - [[GeographicInformationSystems|地理信息系统]]：空间数据的存储与分析平台
-- [[RemoteSensing|遥感科学]]：对地观测的技术与方法
+- [[04_EngineeringAndTechnology/GeologicalAndMiningEngineering/GeologicalEngineering/RemoteSensing|遥感科学]]：对地观测的技术与方法
 - [[Surveying|测绘学]]：地球表面测量的基础学科
 
 ## 扩展阅读与参考资料 (Further Reading)
@@ -233,3 +233,4 @@ GNSS (GPS, GLONASS, Galileo, BeiDou) 提供全球定位。室内定位使用 Wi-
 ## 参考文献索引 (Reference Index)
 
 - [[../../INDEX|返回知识库首页]]
+

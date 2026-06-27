@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [ADCDAC]
 tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'STM32', 'ADCDAC']
 created: 2026-05-16
@@ -261,4 +261,5 @@ HAL_DAC_Start_DMA(&hdac, DAC_CHANNEL_1, dac_buffer, BUFFER_SIZE, DAC_ALIGN_12B_R
 - [[Timer]]
 - [[Interrupt]]
 - [[Communication]]
-- [[AnalogCircuits]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/AnalogCircuits/AnalogCircuits|AnalogCircuits]]
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Virology]
 tags: ['Virology', 'Medicine', 'Microbiology', 'InfectiousDisease']
 created: 2026-05-17
@@ -67,9 +67,10 @@ COVID-19由SARS-CoV-2引起，通过呼吸道飞沫和气溶胶传播。mRNA疫�
 
 ## 相关条目
 
-- [[MedicalMicrobiology]]
-- [[Immunology]]
-- [[Epidemiology]]
-- [[Pharmacology]]
+- [[09_MedicineAndHealth/BasicMedicalSciences/MedicalMicrobiology|MedicalMicrobiology]]
+- [[09_MedicineAndHealth/BasicMedicalSciences/Immunology|Immunology]]
+- [[09_MedicineAndHealth/PublicHealth/Epidemiology|Epidemiology]]
+- [[09_MedicineAndHealth/BasicMedicalSciences/Pharmacology|Pharmacology]]
 - [[InfectiousDisease]]
-- [[BiochemistryAndMolecularBiology]]
+- [[09_MedicineAndHealth/BasicMedicalSciences/BiochemistryAndMolecularBiology|BiochemistryAndMolecularBiology]]
+

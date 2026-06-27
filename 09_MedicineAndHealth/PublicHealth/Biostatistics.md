@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Biostatistics]
 tags: ['PublicHealth', 'Biostatistics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 卫生统计学
@@ -192,3 +192,4 @@ Meta 分析是对多个独立研究结果进行定量综合的统计方法。统
 - [[Biostatistics]]
 - [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]]
 - HealthPolicy
+

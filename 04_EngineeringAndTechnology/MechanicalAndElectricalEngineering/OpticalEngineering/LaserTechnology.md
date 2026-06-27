@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LaserTechnology]
 tags: ['MechanicalAndElectricalEngineering', 'OpticalEngineering', 'LaserTechnology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 激光技术
@@ -130,7 +130,9 @@ $$N_2 > N_1 \Rightarrow \text{增益大于损耗}$$
 ## 相关条目
 
 - [[GeometricalOptics]]
-- [[SemiconductorPhysics]]
-- [[ManufacturingProcess]]
-- [[OpticalCommunications]]
+- [[04_EngineeringAndTechnology/SemiconductorEngineering/SemiconductorPhysics|SemiconductorPhysics]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/MechanicalEngineering/ManufacturingProcess|ManufacturingProcess]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Communications/OpticalCommunications|OpticalCommunications]]
 - FiberOptics
+
+

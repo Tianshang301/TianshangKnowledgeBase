@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [IoT]
 tags: ['HardwareAndEmbeddedSystems', 'IoT', 'IoT']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 物联网（IoT）
@@ -150,9 +150,9 @@ require_certificate true
 
 ## 相关条目
 
-- [[WirelessNetworks]]
+- [[05_ComputerScience/ComputerNetworks/WirelessNetworks/WirelessNetworks|WirelessNetworks]]
 - EmbeddedSystems
-- [[Cybersecurity]]
+- [[05_ComputerScience/Cybersecurity/Cybersecurity|Cybersecurity]]
 - CloudComputing
 
 ## 参考资源
@@ -162,3 +162,5 @@ require_certificate true
 - 《Building the Internet of Things》（Maciej Kranz）
 - [ThingsBoard 文档](https://thingsboard.io/docs/)
 - [ESP-IDF 编程指南](https://docs.espressif.com/projects/esp-idf/)
+
+

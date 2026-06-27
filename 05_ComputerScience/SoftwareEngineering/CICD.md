@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [CICD, CI-CD, 持续集成, 持续部署, GitHub Actions]
 tags: ['05_ComputerScience', 'SoftwareEngineering', 'DevOps', 'CI-CD']
 created: 2026-06-27
@@ -554,10 +554,11 @@ gitgraph
 
 - [[DockerAndContainerization]]
 - [[KubernetesDeep]]
-- [[DevOps]]
+- [[05_ComputerScience/SoftwareEngineering/DevOpsAndCICD/DevOps|DevOps]]
 
 ## 参考资源
 
 1. GitHub. "GitHub Actions Documentation." docs.github.com/actions
 2. GitLab. "GitLab CI/CD Documentation." docs.gitlab.com
 3. Jenkins. "Pipeline Documentation." jenkins.io/doc/book
+

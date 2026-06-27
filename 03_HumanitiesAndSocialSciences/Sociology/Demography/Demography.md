@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Demography]
 tags: ['Sociology', 'Demography', 'Demography']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 人口学
@@ -233,9 +233,9 @@ $$
 
 ## 相关条目
 
-- [[SociologicalTheory]]
-- [[UrbanSociology]]
-- [[Statistics]]
+- [[03_HumanitiesAndSocialSciences/Sociology/SociologicalTheory/SociologicalTheory|SociologicalTheory]]
+- [[03_HumanitiesAndSocialSciences/Sociology/UrbanSociology/UrbanSociology|UrbanSociology]]
+- [[07_InterdisciplinarySciences/AppliedStatistics/Statistics|Statistics]]
 - [[09_MedicineAndHealth/PublicHealth/INDEX|PublicHealth]]
 
 ## 参考资源
@@ -247,3 +247,5 @@ $$
 - Lesthaeghe《第二次人口转变》
 - United Nations《世界人口展望》
 - IPCC《世界城市化展望》
+
+

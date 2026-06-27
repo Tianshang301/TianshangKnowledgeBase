@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [国防工业, DefenseIndustry]
 tags: ['MilitaryScience', 'NationalDefense', 'DefenseIndustry', 'MilitaryIndustrialComplex']
 created: 2026-06-27
@@ -229,8 +229,9 @@ Lockheed Martin、Boeing、Raytheon、Northrop Grumman 和 General Dynamics 等�
 ## 相关条目
 
 - [[DefenseBudget]]
-- [[MilitarySupplyChain]]
-- [[ArmsAndServices]]
+- [[10_MilitarySciences/MilitaryLogistics/MilitarySupplyChain|MilitarySupplyChain]]
+- [[10_MilitarySciences/ArmsAndServices|ArmsAndServices]]
 - [[NationalDefenseEconomy]]
 - [[CivilMilitaryIntegration]]
 - [[DefenseMobilization]]
+

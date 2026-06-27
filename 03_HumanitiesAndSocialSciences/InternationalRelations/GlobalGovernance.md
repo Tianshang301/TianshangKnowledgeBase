@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 全球治理
   - Global Governance
@@ -150,4 +150,5 @@ updated: 2026-06-27
 - [[IRTheories|国际关系理论]]
 - [[InternationalOrganizations|国际组织]]
 - [[Geopolitics|地缘政治]]
-- [[GlobalizationAndCulture|全球化与文化]]
+- [[03_HumanitiesAndSocialSciences/CulturalStudies/GlobalizationAndCulture|全球化与文化]]
+

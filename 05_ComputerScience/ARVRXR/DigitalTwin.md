@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 数字孪生
   - Digital Twin
@@ -249,5 +249,6 @@ Level 4: 认知数字孪生 (Cognitive Digital Twin)
 
 - [[ARDevelopment]] - AR 技术在数字孪生可视化中的应用
 - [[VRDevelopment]] - VR 技术在数字孪生沉浸式体验中的应用
-- [[GamePhysics]] - 物理仿真技术
-- [[GameAI]] - AI 在数字孪生预测中的应用
+- [[05_ComputerScience/GameEngineDevelopment/GamePhysics|GamePhysics]] - 物理仿真技术
+- [[05_ComputerScience/GameEngineDevelopment/GameAI|GameAI]] - AI 在数字孪生预测中的应用
+

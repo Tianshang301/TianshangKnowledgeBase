@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CriticalThinking]
 tags: ['Methodology', 'CriticalThinking']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 批判性思维
@@ -174,7 +174,7 @@ updated: 2026-05-13
 
 ## 相关条目
 
-- [[Logic]]
+- [[02_NaturalSciences/Logic/MathematicalLogic/Logic|Logic]]
 - [[ResearchMethods]]
 - [[ScientificMethod]]
 - ProblemSolving
@@ -185,3 +185,5 @@ updated: 2026-05-13
 - 《逻辑学导论》
 - 《学会提问》
 - 《思考的艺术》
+
+

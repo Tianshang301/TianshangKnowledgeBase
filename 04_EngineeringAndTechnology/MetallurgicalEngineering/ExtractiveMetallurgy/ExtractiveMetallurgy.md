@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [ExtractiveMetallurgy]
 tags: ['04_EngineeringAndTechnology', 'MetallurgicalEngineering', 'ExtractiveMetallurgy', 'ExtractiveMetallurgy']
 created: 2026-05-17
@@ -243,4 +243,5 @@ Pourbaix 图（电位-pH 图）是湿法冶金的工具，显示金属-水体系
 ## 相关条目
 - [[04_EngineeringAndTechnology/MetallurgicalEngineering/ExtractiveMetallurgy/INDEX|当前目录索引]]
 - [[04_EngineeringAndTechnology/MetallurgicalEngineering/MaterialsProcessing/INDEX]]
-- [[MiningEngineering]]
+- [[04_EngineeringAndTechnology/GeologicalAndMiningEngineering/MiningEngineering/MiningEngineering|MiningEngineering]]
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - EntrepreneurshipForTeens
   - TeenEntrepreneurship
@@ -268,5 +268,6 @@ $$ \text{成功} = P(\text{正确假设}) \times \text{学习速度} \times \tex
 - [[DesignThinking|设计思维]]
 - [[ProjectBasedLearning|项目式学习]]
 - [[LeadershipForTeens|青少年领导力]]
-- [[DigitalMarketing|数字营销]]
+- [[11_ManagementSciences/BusinessAdministration/Marketing/DigitalMarketing|数字营销]]
 - [[../INDEX|CrossDisciplinaryK12 索引]]
+

@@ -15,7 +15,7 @@ updated: 2026-06-27
 - [[鑸炶箞璁粌涓庣紪鍒沒] - 鑸炶箞璁粌涓庣紪鍒?
 - [[鎽勫奖甯冨厜涓庡悗鏈熻皟鑹瞉] - 鎽勫奖甯冨厜涓庡悗鏈熻皟鑹?
 - [[鎽勫奖鎶€娉曚笌鍚庢湡]] - 鎽勫奖鎶€娉曚笌鍚庢湡
-- [[Calligraphy]]
+- [[06_ArtsAndCreativity/FineArts/Calligraphy/Calligraphy|Calligraphy]]
 - [[06_ArtsAndCreativity/AnimationAndVFX/AnimationPrinciples]] - 鍔ㄧ敾鍘熺悊
 - [[06_ArtsAndCreativity/AnimationAndVFX/MotionDesign]] - 鍔ㄦ€佽璁?
 - [[06_ArtsAndCreativity/AnimationAndVFX/ThreeDModeling]] - 涓夌淮寤烘ā
@@ -31,4 +31,5 @@ updated: 2026-06-27
 - [[FineArts/INDEX|FineArts]]
 - [[Music/INDEX|Music]]
 - [[PhotographyAndCinematography/INDEX|PhotographyAndCinematography]]
+
 

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [PhysicalEducation]
 tags: ['ArtsAndSports', 'PhysicalEducation']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # K12 体育与运动知识
@@ -185,4 +185,6 @@ updated: 2026-05-13
 - [[12_SportsScience/SportsTraining/INDEX|SportsTraining]]
 - [[12_SportsScience/ExercisePhysiology/INDEX|ExercisePhysiology]]
 - [[12_SportsScience/SportsMedicine/INDEX|SportsMedicine]]
-- [[Pedagogy]]
+- [[03_HumanitiesAndSocialSciences/Education/Pedagogy/Pedagogy|Pedagogy]]
+
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Dermatology]
 tags: ['ClinicalMedicine', 'Dermatology']
 created: 2026-05-19
@@ -118,6 +118,7 @@ updated: 2026-05-19
 
 - [[InternalMedicine]]
 - [[InfectiousDisease]]
-- [[Immunology]]
-- [[Pathology]]
+- [[09_MedicineAndHealth/BasicMedicalSciences/Immunology|Immunology]]
+- [[09_MedicineAndHealth/BasicMedicalSciences/Pathology|Pathology]]
 - [[ClinicalDiagnosis]]
+

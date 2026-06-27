@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [StatisticalLearning]
 tags: ['AppliedStatistics', 'StatisticalLearning']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 统计学习
@@ -302,7 +302,7 @@ scores = cross_val_score(rf, X, y, cv=10, scoring='roc_auc')
 
 - [[02_NaturalSciences/Mathematics/ProbabilityStatistics/INDEX|ProbabilityStatistics]]
 - [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]]
-- [[Econometrics]]
+- [[03_HumanitiesAndSocialSciences/Economics/Econometrics/Econometrics|Econometrics]]
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]]
 
 ## 参考资料
@@ -311,3 +311,5 @@ scores = cross_val_score(rf, X, y, cv=10, scoring='roc_auc')
 - James G, et al. *An Introduction to Statistical Learning*
 - 《统计学习方法》李航
 - 《机器学习》周志华
+
+

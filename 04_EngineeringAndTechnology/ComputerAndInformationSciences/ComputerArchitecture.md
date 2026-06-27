@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ComputerArchitecture]
 tags: ['ComputerAndInformationSciences', 'ComputerArchitecture']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 计算机体系结构
@@ -264,3 +264,4 @@ $$ P = CV^2f $$
 3. Stallings W. Computer Organization and Architecture. 11th ed. Pearson, 2018.
 4. 姚永斌. 超标量处理器设计. 清华大学出版社, 2014.
 5. 胡伟武等. 计算机体系结构基础. 机械工业出版社, 2019.
+

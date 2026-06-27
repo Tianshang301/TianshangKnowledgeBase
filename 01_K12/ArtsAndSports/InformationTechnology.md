@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [InformationTechnology]
 tags: ['ArtsAndSports', 'InformationTechnology']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # K12 信息技术
@@ -348,3 +348,4 @@ print(add(3, 5))  # 输出 8
 ## 相关条目
 
 [[PhysicalEducation]], [[FineArts]], MusicEducation, ArtEducation
+

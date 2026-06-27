@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SystemModeling]
 tags: ['ControlAndSystemsEngineering', 'SystemsEngineering', 'SystemModeling']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 系统建模
@@ -124,7 +124,9 @@ $$\dot{x} = f(x,u), \quad y = g(x,u)$$
 
 ## 相关条目
 - [[SystemAnalysis]]
-- [[ClassicalControl]]
-- [[ModernControl]]
-- [[OptimalControl]]
-- [[IndustrialAutomation]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/ClassicalControl|ClassicalControl]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/ModernControl|ModernControl]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/OptimalControl|OptimalControl]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/Automation/IndustrialAutomation|IndustrialAutomation]]
+
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 全球化史
   - History of Globalization
@@ -167,5 +167,6 @@ updated: 2026-06-27
 
 - [[ColdWarHistory|冷战史]]
 - [[HistoryOfScienceAndTechnology|科技史]]
-- [[GlobalizationAndCulture|全球化与文化]]
+- [[03_HumanitiesAndSocialSciences/CulturalStudies/GlobalizationAndCulture|全球化与文化]]
 - [[EconomicHistory|经济史]]
+

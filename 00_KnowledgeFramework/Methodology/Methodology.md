@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Methodology]
 tags: ['Methodology', 'Methodology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 方法论
@@ -121,15 +121,17 @@ updated: 2026-05-13
 
 - 每学习一个新概念，记录在笔记时标注使用了哪种方法论
 - 每周回顾时反思：本周选择的方法论是否合适？下次如何优化？
-- 在 [[NoteTaking]] 中应用文章中的各种方法
-- 结合 [[LearningPaths]] 为不同路径匹配最适合的方法论
+- 在 [[00_KnowledgeFramework/NoteTaking/NoteTaking|NoteTaking]] 中应用文章中的各种方法
+- 结合 [[00_KnowledgeFramework/LearningPaths/LearningPaths|LearningPaths]] 为不同路径匹配最适合的方法论
 - 参见 [[CriticalThinking]] 学习批判性思维方式
 - 参见 [[ResearchMethods]] 了解更全面的研究方法
 
 ## 相关条目
 
-- [[NoteTaking]] — 笔记法
+- [[00_KnowledgeFramework/NoteTaking/NoteTaking|NoteTaking]] — 笔记法
 - [[CriticalThinking]] — 批判性思维
-- [[LearningPaths]] — 学习路径
+- [[00_KnowledgeFramework/LearningPaths/LearningPaths|LearningPaths]] — 学习路径
 - [[ResearchMethods]] — 研究方法
-- [[Productivity]] — 效率提升
+- [[11_ManagementSciences/Productivity|Productivity]] — 效率提升
+
+

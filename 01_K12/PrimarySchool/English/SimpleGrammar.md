@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SimpleGrammar]
 tags: ['PrimarySchool', 'English', 'SimpleGrammar']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 简单语法
@@ -242,4 +242,6 @@ How are you?
 
 ## 相关条目
 
-[[Phonics]], [[Grammar]], [[Vocabulary]], [[OralCommunication]]
+[[Phonics]], [[01_K12/SeniorHigh/English/Grammar|Grammar]], [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/English/Vocabulary|Vocabulary]], [[OralCommunication]]
+
+

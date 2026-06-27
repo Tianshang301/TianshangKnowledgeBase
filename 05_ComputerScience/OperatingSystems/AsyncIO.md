@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [AsyncIO, 异步IO, epoll, io_uring, Reactor模式]
 tags: ['05_ComputerScience', 'OperatingSystems', 'AsyncIO', 'SystemsProgramming']
 created: 2026-06-27
@@ -485,9 +485,9 @@ asyncio.run(main())
 
 ## 相关条目
 
-- [[Concurrency]]
-- [[OperatingSystems]]
-- [[HighConcurrencyDesign]]
+- [[05_ComputerScience/ProgrammingLanguages/Go/Concurrency|Concurrency]]
+- [[04_EngineeringAndTechnology/ComputerAndInformationSciences/OperatingSystems|OperatingSystems]]
+- [[05_ComputerScience/SoftwareEngineering/HighConcurrencyDesign|HighConcurrencyDesign]]
 
 ## 参考资源
 
@@ -495,3 +495,4 @@ asyncio.run(main())
 2. Linux. "io_uring(7) man page." kernel.dk
 3. Stevens, W. "Unix Network Programming." Addison-Wesley, 1998
 4. liburing. "io_uring library." github.com/axboe/liburing
+

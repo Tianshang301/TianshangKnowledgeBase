@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Music', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Music
@@ -21,10 +21,10 @@ updated: 2026-05-13
 - [[06_ArtsAndCreativity/Music/MusicHistory/INDEX|MusicHistory]]
 - [[06_ArtsAndCreativity/Music/Harmony/INDEX]]
 - [[06_ArtsAndCreativity/Music/EarTraining/INDEX|EarTraining]]
-- [[Chords]]
+- [[06_ArtsAndCreativity/Music/MusicTheory/Chords|Chords]]
 - [[06_ArtsAndCreativity/Music/Harmony/INDEX]]
-- [[Intervals]]
-- [[Scales]]
+- [[06_ArtsAndCreativity/Music/MusicTheory/Intervals|Intervals]]
+- [[06_ArtsAndCreativity/Music/MusicTheory/Scales|Scales]]
 - [[06_ArtsAndCreativity/Music/MusicalForm/INDEX]]
 - [[06_ArtsAndCreativity/Music/InstrumentalPerformance/INDEX|InstrumentalPerformance]]
 - [[LearningPath]]
@@ -34,4 +34,6 @@ updated: 2026-05-13
 - [[MusicProduction/INDEX|MusicProduction]]
 - [[MusicTheory/INDEX|MusicTheory]]
 - [[Piano/INDEX|Piano]]
+
+
 

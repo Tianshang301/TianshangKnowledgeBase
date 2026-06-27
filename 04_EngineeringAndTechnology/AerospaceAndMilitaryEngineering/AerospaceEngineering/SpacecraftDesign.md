@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SpacecraftDesign, 航天器设计, SatelliteEngineering]
 tags: ['AerospaceEngineering', 'SpacecraftDesign', 'SatelliteTechnology', 'SpaceSystems']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 航天器设计
@@ -276,3 +276,4 @@ $\boldsymbol{\tau}$ 为力矩。
 - [[SatelliteTechnology]]
 - [[SpaceEnvironment]]
 - [[OrbitalMechanics]]
+

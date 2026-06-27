@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [OlympicLifting, 奥林匹克举重, 举重, Weightlifting, OlympicWeightlifting]
 tags: ['12_SportsScience', 'SportsTraining', 'OlympicLifting', 'StrengthAndConditioning']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 奥林匹克举重
@@ -242,6 +242,8 @@ $$ \text{蛋白质}: 1.6-2.2 \, \text{g/kg}, \quad \text{碳水}: 4-7 \, \text{g
 
 - [[INDEX|SportsTraining 索引]]
 - [[StrengthTraining|力量训练]]
-- [[Biomechanics|运动生物力学]]
+- [[12_SportsScience/ExercisePhysiology/Biomechanics|运动生物力学]]
 - [[Periodization|周期化训练]]
 - [[../../INDEX|TianshangKnowledgeBase 索引]]
+
+

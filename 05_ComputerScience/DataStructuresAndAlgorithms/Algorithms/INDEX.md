@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Algorithms
@@ -21,14 +21,16 @@ updated: 2026-05-13
 - [[Greedy]]
 - [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/GreedyAlgorithms/INDEX]]
 - [[MST]]
-- [[SearchAlgorithms]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/SearchAlgorithms|SearchAlgorithms]]
 - [[SlidingWindow]]
 - [[Sorting]]
-- [[SortingAlgorithms]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/SortingAlgorithms|SortingAlgorithms]]
 - [[TwoPointers]]
 - [[Algorithms]]
 - [[GraphTheory]]
 - [[BasicAlgorithms/INDEX|BasicAlgorithms]]
 - [[GraphAlgorithms/INDEX|GraphAlgorithms]]
 - [[StringAlgorithms/INDEX|StringAlgorithms]]
+
+
 

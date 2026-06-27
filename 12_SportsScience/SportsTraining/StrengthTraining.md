@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [StrengthTraining]
 tags: ['SportsTraining', 'StrengthTraining']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 力量训练
@@ -170,3 +170,4 @@ SAID 原则指身体适应与所做训练最相关。
 ## 相关条目
 
 耐力训练、训练周期化、运动生理学、肌肉生理学、运动营养学、运动恢复、爆发力训练、增强式训练
+

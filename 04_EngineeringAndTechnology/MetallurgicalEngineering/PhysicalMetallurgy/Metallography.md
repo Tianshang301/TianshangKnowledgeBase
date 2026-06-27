@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Metallography, 金相学, 金相分析, Metallographic Analysis, Microscopy]
 tags: ['MetallurgicalEngineering', 'PhysicalMetallurgy', 'Metallography', 'Microscopy']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 金相分析
@@ -231,3 +231,4 @@ $$
 - ASTM E112 — 13. *Standard Test Methods for Determining Average Grain Size*.
 - Goldstein, J., et al. (2017). *Scanning Electron Microscopy and X-ray Microanalysis*. Springer.
 - 汪守朴. (2015). 《金相分析基础》. 机械工业出版社.
+

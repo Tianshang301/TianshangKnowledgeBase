@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Physics', 'Electromagnetism', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Electromagnetism
@@ -16,4 +16,5 @@ updated: 2026-05-13
 - [[楹﹀厠鏂煢鏂圭▼]]
 - [[磁学与电磁感应]]
 - [[静电学]]
+
 

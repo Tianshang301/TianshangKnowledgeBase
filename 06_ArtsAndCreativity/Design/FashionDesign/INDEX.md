@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Design', 'FashionDesign', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # FashionDesign
@@ -16,4 +16,5 @@ updated: 2026-05-13
 - [[服装制版与工艺]]
 - [[服装版型与工艺]]
 - [[服装设计]]
+
 

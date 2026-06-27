@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ObservationalTechniques]
 tags: ['Astronomy', 'ObservationalAstronomy', 'ObservationalTechniques']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 观测天文学技术
@@ -266,3 +266,4 @@ $$
 - Chromey《天文测量学》（To Measure the Sky）
 - Schroeder《天文光学》（Astronomical Optics, 2nd ed.）
 - Birney, González & Oesper《观测天文学》（Observational Astronomy, 2nd ed.）
+

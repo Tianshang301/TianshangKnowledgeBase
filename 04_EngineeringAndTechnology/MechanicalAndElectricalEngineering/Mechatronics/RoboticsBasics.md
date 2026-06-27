@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [RoboticsBasics, 机器人基础]
 tags: ['MechanicalAndElectricalEngineering', 'Mechatronics', 'RoboticsBasics', 'Automation']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 机器人基础 (Robotics Basics)
@@ -231,8 +231,10 @@ $$
 
 ## 相关条目 (Related Entries)
 
-- [[RobotKinematics]]
-- [[RobotDynamics]]
+- [[04_EngineeringAndTechnology/RoboticsEngineering/RobotKinematics|RobotKinematics]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/Robotics/RobotDynamics|RobotDynamics]]
 - [[ControlSystems]]
 - [[PLCProgramming]]
-- [[IndustrialAutomation]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/Automation/IndustrialAutomation|IndustrialAutomation]]
+
+

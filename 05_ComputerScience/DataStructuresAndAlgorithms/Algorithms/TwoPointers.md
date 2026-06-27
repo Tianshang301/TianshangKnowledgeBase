@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [TwoPointers]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'TwoPointers']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 双指针技巧
@@ -275,7 +275,9 @@ def remove_element(nums, val):
 ## 相关条目
 
 - [[SlidingWindow]]
-- [[Array]]
-- [[LinkedList]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/DataStructures/Array|Array]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/DataStructures/LinkedList|LinkedList]]
 - [[Sorting]]
 - [[BinarySearch]]
+
+

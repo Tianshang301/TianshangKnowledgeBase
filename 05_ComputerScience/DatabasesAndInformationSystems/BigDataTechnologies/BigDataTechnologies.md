@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [BigDataTechnologies]
 tags: ['DatabasesAndInformationSystems', 'BigDataTechnologies', 'BigDataTechnologies']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Big Data Technologies - 大数据技术
@@ -441,8 +441,8 @@ $$ \text{CAP: 一致性 (Consistency)} \land \text{可用性 (Availability)} \la
 - MapReduce
 - Hadoop
 - Spark
-- [[NoSQL]]
-- [[DataWarehousing]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/NoSQL/NoSQL|NoSQL]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/DataWarehousing/DataWarehousing|DataWarehousing]]
 
 ## 参考资源
 
@@ -452,3 +452,5 @@ $$ \text{CAP: 一致性 (Consistency)} \land \text{可用性 (Availability)} \la
 - Kreps, J. et al. (2011). Kafka: A Distributed Messaging System for Log Processing. NetDB.
 - Apache Hadoop Documentation. https://hadoop.apache.org/docs/
 - Apache Spark Documentation. https://spark.apache.org/docs/latest/
+
+

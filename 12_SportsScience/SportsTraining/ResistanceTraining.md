@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ResistanceTraining, 抗阻训练, StrengthTraining, WeightTraining]
 tags: ['12_SportsScience', 'SportsTraining', 'ResistanceTraining', 'Strength', 'Hypertrophy']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 抗阻训练 (Resistance Training)
@@ -256,7 +256,9 @@ $$RFD = \frac{\Delta F}{\Delta t}$$
 - [[Periodization|周期化 (Periodization)]]
 - [[MuscleHypertrophy|肌肥大 (Muscle Hypertrophy)]]
 - [[StrengthTesting|力量测试 (Strength Testing)]]
-- [[RecoveryAndRegeneration|恢复与再生 (Recovery)]]
-- [[SportsNutrition|运动营养 (Sports Nutrition)]]
+- [[12_SportsScience/SportsMedicine/RecoveryAndRegeneration|恢复与再生 (Recovery)]]
+- [[12_SportsScience/SportsMedicine/SportsNutrition|运动营养 (Sports Nutrition)]]
 - [[INDEX|SportsTraining 索引]]
 - [[../../INDEX|TianshangKnowledgeBase 索引]]
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CrossDisciplinaryLinks]
 tags: ['KnowledgeGraph', 'CrossDisciplinaryLinks']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 跨学科关联索引
@@ -126,7 +126,7 @@ updated: 2026-05-13
 
 - [[SemanticWeb]]
 - [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]]
-- [[InformationRetrieval]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/InformationRetrieval/InformationRetrieval|InformationRetrieval]]
 - AI/KnowledgeRepresentation
 
 ## 参考资源
@@ -135,3 +135,5 @@ updated: 2026-05-13
 - 《知识图谱：方法与应用》
 - 各学科交叉研究期刊
 - 跨学科研究中心网站
+
+

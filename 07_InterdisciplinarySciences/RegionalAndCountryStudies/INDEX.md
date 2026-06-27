@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['RegionalAndCountryStudies', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # RegionalAndCountryStudies
@@ -18,4 +18,6 @@ updated: 2026-05-13
 - [[03_HumanitiesAndSocialSciences/PoliticalScience/INDEX|PoliticalScience]]
 - [[03_HumanitiesAndSocialSciences/Economics/INDEX|Economics]]
 - [[01_K12/JuniorHigh/History/INDEX|History]]
-- [[CulturalAnthropology]]
+- [[03_HumanitiesAndSocialSciences/EthnicStudies/CulturalAnthropology/CulturalAnthropology|CulturalAnthropology]]
+
+

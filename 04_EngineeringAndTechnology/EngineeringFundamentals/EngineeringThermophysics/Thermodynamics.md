@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Thermodynamics]
 tags: ['EngineeringThermophysics', 'Thermodynamics', 'EnergyEngineering', 'ThermalScience']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 工程热力学 (Engineering Thermodynamics)
@@ -196,8 +196,10 @@ $$
 ## 相关条目 (Related Notes)
 
 - [[HeatTransfer]] — 传热学（热量传递的三种基本方式）
-- [[FluidMechanics]] — 流体力学（流体运动规律）
+- [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/FluidMechanics|FluidMechanics]] — 流体力学（流体运动规律）
 - [[EnergyConversion]] — 能量转换技术
 - [[PowerPlantEngineering]] — 发电厂工程
 - [[HVAC]] — 暖通空调
 - [[GasDynamics]] — 气体动力学
+
+

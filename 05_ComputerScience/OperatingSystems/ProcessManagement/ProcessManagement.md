@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ProcessManagement]
 tags: ['OperatingSystems', 'ProcessManagement', 'ProcessManagement']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 进程管理详解 (Process Management)
@@ -300,9 +300,9 @@ if (fork() == 0) {
 
 ## 相关条目
 
-- [[Concurrency]]
-- [[MemoryManagement]]
-- [[Scheduling]]
+- [[05_ComputerScience/ProgrammingLanguages/Go/Concurrency|Concurrency]]
+- [[05_ComputerScience/OperatingSystems/MemoryManagement/MemoryManagement|MemoryManagement]]
+- [[05_ComputerScience/OperatingSystems/Scheduling|Scheduling]]
 - IPC
 
 ## 参考资源
@@ -311,3 +311,5 @@ if (fork() == 0) {
 - Tanenbaum, A. S., & Bos, H. *Modern Operating Systems* (4th ed.)
 - Love, R. *Linux Kernel Development* (3rd ed.)
 - Linux kernel source: https://kernel.org/
+
+

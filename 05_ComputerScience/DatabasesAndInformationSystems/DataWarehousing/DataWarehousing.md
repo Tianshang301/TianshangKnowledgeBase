@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DataWarehousing]
 tags: ['DatabasesAndInformationSystems', 'DataWarehousing', 'DataWarehousing']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Data Warehousing - 数据仓库
@@ -334,7 +334,7 @@ SELECT * FROM iceberg_catalog.nyc.taxis
 
 - OLAP
 - ETL
-- [[BigDataTechnologies]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/BigDataTechnologies/BigDataTechnologies|BigDataTechnologies]]
 - BusinessIntelligence
 
 ## 参考资源
@@ -344,3 +344,5 @@ SELECT * FROM iceberg_catalog.nyc.taxis
 - Armbrust, M. et al. (2021). Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics. CIDR.
 - Apache Iceberg Documentation. https://iceberg.apache.org/docs/latest/
 - Delta Lake Documentation. https://docs.delta.io/latest/
+
+

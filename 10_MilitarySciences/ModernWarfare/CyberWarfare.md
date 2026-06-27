@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [网络战, CyberWarfare]
 tags: ['MilitaryScience', 'ModernWarfare', 'CyberWarfare', 'APT']
 created: 2026-06-27
@@ -273,8 +273,9 @@ AI 技术在网络战中的应用也带来新的安全风险和伦理挑战。
 ## 相关条目
 
 - [[InformationWarfare]]
-- [[C4ISR]]
-- [[MilitaryAI]]
+- [[10_MilitarySciences/C4ISR|C4ISR]]
+- [[10_MilitarySciences/MilitaryTechnology/MilitaryAI|MilitaryAI]]
 - [[SpaceStrategy]]
 - [[SpecialOperations]]
-- [[MilitaryCommunication]]
+- [[10_MilitarySciences/MilitaryLogistics/MilitaryCommunication|MilitaryCommunication]]
+

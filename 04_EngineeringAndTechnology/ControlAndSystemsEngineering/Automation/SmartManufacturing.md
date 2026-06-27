@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SmartManufacturing, 智能制造, 工业4.0]
 tags: ['ControlAndSystemsEngineering', 'Automation', 'SmartManufacturing', 'Industry4.0']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 智能制造 (Smart Manufacturing)
@@ -239,7 +239,9 @@ $$ \text{延迟} = T_{\text{采集}} + T_{\text{处理}} + T_{\text{执行}} $$
 ## 相关条目
 
 - [[IndustrialAutomation]]
-- [[RoboticsBasics]]
-- [[PLCProgramming]]
-- [[CADCAM]]
-- [[InternetOfThings]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/Mechatronics/RoboticsBasics|RoboticsBasics]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/Mechatronics/PLCProgramming|PLCProgramming]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/MechanicalEngineering/CADCAM|CADCAM]]
+- [[07_InterdisciplinarySciences/NetworkedInformationSystems/InternetOfThings|InternetOfThings]]
+
+

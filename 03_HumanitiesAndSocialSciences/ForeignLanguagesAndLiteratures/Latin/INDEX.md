@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['ForeignLanguagesAndLiteratures', 'Latin', 'INDEX']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # Latin
@@ -139,4 +139,5 @@ updated: 2026-05-13
 - [[INDEX|褰撳墠鐩綍绱㈠紩]]
 - [[基础拉丁语]]
 - [[拉丁语语法进阶]]
+
 

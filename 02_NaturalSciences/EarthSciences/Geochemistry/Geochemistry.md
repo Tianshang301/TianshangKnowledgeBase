@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Geochemistry, 地球化学]
 tags: ['EarthSciences', 'Geochemistry', 'Geochemistry', 'IsotopeGeochemistry']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 地球化学 (Geochemistry)
@@ -203,3 +203,4 @@ $$ \text{FeS}_2 + \frac{15}{4}\text{O}_2 + \frac{7}{2}\text{H}_2\text{O} \righta
 ## 相关条目
 
 [[02_NaturalSciences/EarthSciences/Geology/INDEX|Geology]], [[02_NaturalSciences/Chemistry/EnvironmentalChemistry/INDEX|EnvironmentalChemistry]], Petrology
+

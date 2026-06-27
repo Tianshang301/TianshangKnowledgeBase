@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LearningPath]
 tags: ['PersonalProductivity', 'LearningPath']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 生活技能学习路线图
@@ -170,3 +170,4 @@ updated: 2026-05-13
 - **本月**：建立应急基金 + 学会 3 道菜
 - **本季度**：优化简历 + 开始定投
 - **今年**：学习投资基础 + 养成运动习惯
+

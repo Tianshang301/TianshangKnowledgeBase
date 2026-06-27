@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['ArtificialIntelligence', 'NaturalLanguageProcessing', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 鑷劧璇█澶勭悊
@@ -16,4 +16,5 @@ updated: 2026-05-13
 - [[NLPOverview]]
 - [[SpeechRecognition]]
 - [[序列建模与Transformer]]
+
 

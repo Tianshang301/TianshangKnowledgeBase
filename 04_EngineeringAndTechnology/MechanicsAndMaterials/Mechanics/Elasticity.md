@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Elasticity]
 tags: ['04_EngineeringAndTechnology', 'MechanicsAndMaterials', 'Mechanics', 'Elasticity']
 created: 2026-05-17
@@ -299,4 +299,5 @@ $$
 - [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/INDEX|当前目录索引]]
 - [[Plasticity]]
 - [[FractureMechanics]]
-- [[Nanomaterials]]
+- [[04_EngineeringAndTechnology/Nanotechnology/Nanomaterials|Nanomaterials]]
+

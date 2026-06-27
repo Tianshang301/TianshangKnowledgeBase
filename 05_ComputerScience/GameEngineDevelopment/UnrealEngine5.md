@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 虚幻引擎5
   - UE5
@@ -289,5 +289,6 @@ public:
 
 - [[UnityDeep]] - Unity 引擎深度
 - [[GraphicsRendering]] - 图形学渲染
-- [[RenderingPipeline]] - 3D 渲染管线
+- [[05_ComputerScience/ARVRXR/RenderingPipeline|RenderingPipeline]] - 3D 渲染管线
 - [[GamePhysics]] - 游戏物理
+

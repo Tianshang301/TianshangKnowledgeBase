@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['SoftwareEngineering', 'DesignPatterns', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # DesignPatterns
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[DesignPatterns]] - 璁捐妯″紡
 - [[鏋舵瀯妯″紡涓庝紒涓氬簲鐢╙] - 鏋舵瀯妯″紡涓庝紒涓氬簲鐢?
 - [[架构模式与企业应用]]
+
 

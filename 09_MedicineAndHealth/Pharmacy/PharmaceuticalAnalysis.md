@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [PharmaceuticalAnalysis]
 tags: ['Pharmacy', 'PharmaceuticalAnalysis']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 药物分析
@@ -182,3 +182,4 @@ updated: 2026-05-13
 - 药剂学
 - 分析化学
 - 中药分析
+

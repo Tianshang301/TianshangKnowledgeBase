@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [区间与状态压缩 DP]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'DynamicProgramming', '区间与状态压缩 DP']
 ---
@@ -188,10 +188,10 @@ while sub:
 ## 相关条目
 
 - [[DynamicProgramming]]
-- [[DP]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/DP|DP]]
 - [[贪心算法证明与技巧]]
-- [[Backtracking]]
-- [[BasicAlgorithms]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/Backtracking|Backtracking]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BasicAlgorithms/BasicAlgorithms|BasicAlgorithms]]
 
 ## 参考资源
 
@@ -202,3 +202,4 @@ while sub:
 5. Yao, F. F. "Efficient Dynamic Programming Using Quadrangle Inequalities." SODA, 1980.
 6. Dasgupta, S., et al. "Algorithms." McGraw-Hill, 2006.
 7. Skiena, S. S. "The Algorithm Design Manual." 3rd ed., Springer, 2020.
+

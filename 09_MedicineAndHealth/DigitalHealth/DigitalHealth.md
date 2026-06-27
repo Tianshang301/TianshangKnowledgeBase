@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [DigitalHealth, 数字健康, 健康信息化]
 tags: ['09_MedicineAndHealth', 'DigitalHealth', 'HealthInformatics']
 created: 2026-06-27
@@ -171,10 +171,10 @@ $$
 
 ## 相关条目
 
-- [[DrugDesign]]
-- [[ClinicalDiagnosis]]
+- [[09_MedicineAndHealth/Pharmacy/DrugDesign|DrugDesign]]
+- [[09_MedicineAndHealth/ClinicalMedicine/ClinicalDiagnosis|ClinicalDiagnosis]]
 - [[PublicHealth]]
-- [[Epidemiology]]
+- [[09_MedicineAndHealth/PublicHealth/Epidemiology|Epidemiology]]
 
 ## 参考资源
 
@@ -182,3 +182,4 @@ $$
 2. FDA. "Digital Health Innovation Action Plan."
 3. Topol, E. (2019). *Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again*
 4. McKinsey. "Digital Health: A Path to Value." 2024.
+

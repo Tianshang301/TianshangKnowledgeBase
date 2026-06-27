@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['HardwareAndEmbeddedSystems', 'RaspberryPi', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # RaspberryPi
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[RaspberryPi]] - Raspberry Pi
 - [[RaspberryPi 椤圭洰瀹炶返]] - Raspberry Pi 椤圭洰瀹炶返
 - [[RaspberryPi项目实践]]
+
 

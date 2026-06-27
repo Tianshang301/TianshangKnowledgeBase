@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LinkLayer]
 tags: ['ComputerNetworks', 'LinkLayer']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 链路层详解 (Link Layer)
@@ -338,5 +338,7 @@ S1# show spanning-tree
 
 - [[NetworkLayer]]
 - [[TransportLayer]]
-- [[NetworkModels]]
-- [[NetworkSecurity]]
+- [[05_ComputerScience/ComputerNetworks/NetworkModels/NetworkModels|NetworkModels]]
+- [[05_ComputerScience/Cybersecurity/NetworkSecurity|NetworkSecurity]]
+
+

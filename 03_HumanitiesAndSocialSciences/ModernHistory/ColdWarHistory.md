@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 冷战史
   - Cold War History
@@ -201,7 +201,8 @@ updated: 2026-06-27
 
 ## 参见
 
-- [[Geopolitics|地缘政治]]
-- [[IRTheories|国际关系理论]]
+- [[03_HumanitiesAndSocialSciences/InternationalRelations/Geopolitics|地缘政治]]
+- [[03_HumanitiesAndSocialSciences/InternationalRelations/IRTheories|国际关系理论]]
 - [[HistoryOfGlobalization|全球化史]]
 - [[NuclearHistory|核武器史]]
+

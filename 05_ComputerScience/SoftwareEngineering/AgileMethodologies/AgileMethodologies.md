@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AgileMethodologies]
 tags: ['SoftwareEngineering', 'AgileMethodologies', 'AgileMethodologies']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 敏捷方法论 (Agile Methodologies)
@@ -243,7 +243,7 @@ Team Level (团队层) — Scrum/XP 团队
 - Scrum
 - Kanban
 - DevOps
-- [[SoftwareTesting]]
+- [[05_ComputerScience/SoftwareEngineering/SoftwareTesting/SoftwareTesting|SoftwareTesting]]
 
 ## 参考资源
 
@@ -252,3 +252,5 @@ Team Level (团队层) — Scrum/XP 团队
 - Beck, K. *Extreme Programming Explained* (2nd ed.)
 - Anderson, D. J. *Kanban: Successful Evolutionary Change*
 - Rubin, K. *Essential Scrum*
+
+

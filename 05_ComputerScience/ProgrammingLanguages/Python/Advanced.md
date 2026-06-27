@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Advanced]
 tags: ['ProgrammingLanguages', 'Python', 'Advanced']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Python 进阶特性
@@ -627,3 +627,4 @@ print(list(Color))           # [<Color.RED: 1>, ...]
 ```
 
 > 进阶特性是区分 Python 新手和专家的关键。装饰器、生成器、上下文管理器是日常开发中使用最多的进阶特性, 建议重点掌握。元类和描述器虽然不常用, 但在框架开发中非常重要。
+

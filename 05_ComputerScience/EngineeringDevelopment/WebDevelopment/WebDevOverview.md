@@ -1,11 +1,11 @@
----
+﻿---
 aliases:
   - 网站开发
   - Web Development
   - Web 开发
 tags:
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
   - web-dev
   - frontend
   - backend
@@ -184,3 +184,4 @@ flowchart LR
 ---
 
 > Web 开发是一个不断演进的领域，保持学习是开发者最重要的能力。
+

@@ -1,9 +1,9 @@
----
+﻿---
 title: 计算机发展史 (History of Computing)
 aliases: [计算简史, 计算机历史]
 tags: [History, Computing, Evolution, Technology, CS]
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 计算机发展史 (History of Computing)
@@ -153,3 +153,4 @@ $$
 其中 $|\alpha|^2 + |\beta|^2 = 1$，系数 $\\alpha$ 与 $\\beta$ 为复数概率幅。
 
 从 ENIAC 到量子计算机，从主机房到云端，计算机发展史见证了人类不断突破物理极限、拓展智力边界的伟大历程。每一次计算范式的转换都催生了新的产业、新的文化形态与新的社会结构。未来，脑机接口、光子计算与类脑芯片等前沿方向将继续书写这部未完成的史诗。
+

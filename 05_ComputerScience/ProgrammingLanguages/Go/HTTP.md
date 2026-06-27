@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [HTTP]
 tags: ['ProgrammingLanguages', 'Go', 'HTTP']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Go HTTP 编程
@@ -378,3 +378,4 @@ func TestHandlers(t *testing.T) {
     }
 }
 ```
+

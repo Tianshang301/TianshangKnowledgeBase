@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [SelfStudyPath]
 tags: ['LearningPaths', 'SelfStudyPath']
 created: 2026-05-16
@@ -164,8 +164,8 @@ updated: 2026-05-16
 
 ## 相关条目
 
-- [[NoteTaking]]
-- [[Methodology]]
+- [[00_KnowledgeFramework/NoteTaking/NoteTaking|NoteTaking]]
+- [[00_KnowledgeFramework/Methodology/Methodology|Methodology]]
 - [[13_Others/PersonalProductivity/INDEX|PersonalProductivity]]
 
 ## 参考资源
@@ -175,3 +175,4 @@ updated: 2026-05-16
 - 《学习之道》
 - 《认知天性》
 - 自学社区和论坛
+

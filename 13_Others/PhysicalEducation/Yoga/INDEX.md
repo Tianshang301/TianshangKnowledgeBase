@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['PhysicalEducation', 'Yoga', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Yoga
@@ -15,4 +15,5 @@ updated: 2026-05-13
 - [[鐟滀冀娴佹淳涓庝綋寮忕簿璁瞉] 鈥?鐟滀冀鍚勬祦娲捐瑙ｄ笌浣撳紡绮捐
 - [[瑜伽基础]]
 - [[瑜伽流派与体式精讲]]
+
 

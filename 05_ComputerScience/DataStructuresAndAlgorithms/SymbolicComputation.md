@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SymbolicComputation, 符号计算, 计算机代数, ComputerAlgebra, CAS]
 tags: ['05_ComputerScience', 'DataStructuresAndAlgorithms', 'SymbolicComputation']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 符号计算
@@ -260,3 +260,4 @@ $$ G(s) = \frac{K}{s^2 + 2\zeta \omega_n s + \omega_n^2} $$
 - [[05_ComputerScience/DataStructuresAndAlgorithms/AutomaticDifferentiation|自动微分]]
 - [[05_ComputerScience/Mathematics/PolynomialTheory|多项式理论]]
 - [[05_ComputerScience/DataStructuresAndAlgorithms/SymPy|SymPy 库]]
+

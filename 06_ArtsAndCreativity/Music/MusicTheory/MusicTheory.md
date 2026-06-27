@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MusicTheory, 音乐理论, MusicTheoryBasics, 乐理基础]
 tags: ['06_ArtsAndCreativity', 'Music', 'MusicTheory', 'Harmony', 'Rhythm']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 音乐理论 (Music Theory)
@@ -314,3 +314,4 @@ flowchart LR
 - [[06_ArtsAndCreativity/Music/MusicTheory/HarmonyAnalysis|和声分析]]
 - [[06_ArtsAndCreativity/Music/MusicTheory/Orchestration|配器法]]
 - [[INDEX|当前目录索引]]
+

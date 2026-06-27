@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [StringAlgorithms]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'StringAlgorithms', 'StringAlgorithms']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # String Algorithms - 字符串算法
@@ -586,10 +586,10 @@ def regex_match(s, p):
 ## 相关条目
 
 - [[模式匹配与字符串处理]]
-- [[BasicAlgorithms]]
-- [[Trie]]
-- [[Sorting]]
-- [[Tree]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BasicAlgorithms/BasicAlgorithms|BasicAlgorithms]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/DataStructures/Trie|Trie]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/Sorting|Sorting]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/DataStructures/Tree|Tree]]
 
 ## 参考资源
 
@@ -598,3 +598,5 @@ def regex_match(s, p):
 - Ukkonen, E. (1995). On-Line Construction of Suffix Trees. Algorithmica.
 - Aho, A. V. & Corasick, M. J. (1975). Efficient String Matching: An Aid to Bibliographic Search. CACM.
 - Gusfield, D. (1997). Algorithms on Strings, Trees, and Sequences. Cambridge University Press.
+
+

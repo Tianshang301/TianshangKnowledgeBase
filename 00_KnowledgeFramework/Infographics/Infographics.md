@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 信息图
   - Infographic
@@ -7,7 +7,7 @@ aliases:
   - InformationGraphics
 tags:
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
   - infographics
   - data-visualization
   - data-storytelling
@@ -251,4 +251,6 @@ $$ \text{数据-墨水比} = \frac{\text{数据相关墨水}}{\text{总墨水用
 
 ## 相关条目
 
-[[DataVisualization]], [[InformationDesign]], [[GraphicDesign]], [[VisualCommunication]]
+[[07_InterdisciplinarySciences/DataScience/DataVisualization|DataVisualization]], [[InformationDesign]], [[GraphicDesign]], [[VisualCommunication]]
+
+

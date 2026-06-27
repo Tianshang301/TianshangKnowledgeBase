@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DiscreteMathematics]
 tags: ['Mathematics', 'DiscreteMathematics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 离散数学
@@ -146,7 +146,9 @@ $$E(x) = \sum_{n=0}^\infty a_n \frac{x^n}{n!}$$
 
 ## 相关条目
 
-- [[GraphTheory]]
+- [[02_NaturalSciences/Logic/MathematicalLogic/GraphTheory|GraphTheory]]
 - Combinatorics
 - ComputerScience
-- [[Logic]]
+- [[02_NaturalSciences/Logic/MathematicalLogic/Logic|Logic]]
+
+

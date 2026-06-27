@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [TextileTechnology]
 tags: ['TextileAndFoodEngineering', 'TextileScience', 'TextileTechnology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 纺织工艺
@@ -132,3 +132,4 @@ updated: 2026-05-13
 - [[06_ArtsAndCreativity/Design/FashionDesign/INDEX|FashionDesign]]
 - [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/ChemicalEngineering/INDEX|ChemicalEngineering]]
 - PolymerScience
+

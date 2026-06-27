@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [HTML]
 tags: ['ProgrammingLanguages', 'Web', 'HTML']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # HTML5 完整参考
@@ -503,3 +503,4 @@ updated: 2026-05-13
 ```
 
 > HTML5 是 Web 开发的基石。重点掌握语义化结构、表单控件、无障碍访问。良好的 HTML 结构是 SEO 和可访问性的基础。
+

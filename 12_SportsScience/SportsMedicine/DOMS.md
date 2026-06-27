@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [延迟性肌肉酸痛, DOMS, 肌肉酸痛, 运动后酸痛, Delayed Onset Muscle Soreness]
 tags: [运动医学, 运动生理, 肌肉损伤, 恢复, 运动训练, 疼痛管理, 离心收缩]
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 延迟性肌肉酸痛 (Delayed Onset Muscle Soreness, DOMS)
@@ -185,3 +185,4 @@ flowchart LR
 3. Schoenfeld, B. J. (2012). The use of nonsteroidal anti-inflammatory drugs for exercise-induced muscle damage. *Sports Medicine*, 42(12), 1017–1028.
 4. Clarkson, P. M., & Hubal, M. J. (2002). Exercise-induced muscle damage in humans. *American Journal of Physical Medicine & Rehabilitation*, 81(11), S52–S69.
 5. 王瑞元 等. (2012). 《运动生理学》. 人民体育出版社.
+

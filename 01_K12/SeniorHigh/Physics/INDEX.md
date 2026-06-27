@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['SeniorHigh', 'Physics', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Physics
@@ -18,7 +18,7 @@ updated: 2026-05-13
 | 瀹為獙 | [[瀹為獙涓撻]] | 鍏ㄩ儴鏍稿績瀛︾敓瀹為獙 |
 | 缁冧範 | [[缁冧範棰樹笌瑙ｆ瀽]] | 缁煎悎缁冧範棰樹笌璇︾粏瑙ｆ瀽 |
 - [[01_K12/JuniorHigh/Physics/INDEX|Physics]]
-- [[EngineeringFundamentals]]
+- [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringFundamentals|EngineeringFundamentals]]
 - [[01_K12/JuniorHigh/Mathematics/INDEX|Mathematics]]
 - [[光学与电磁学实验]]
 - [[力学]]
@@ -27,4 +27,6 @@ updated: 2026-05-13
 - [[电磁学]]
 - [[练习题与解析]]
 - [[近代物理专题]]
+
+
 

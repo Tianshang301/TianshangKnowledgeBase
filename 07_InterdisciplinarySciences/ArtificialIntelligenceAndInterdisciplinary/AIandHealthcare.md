@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AIandHealthcare]
 tags: ['ArtificialIntelligenceAndInterdisciplinary', 'AIandHealthcare']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 人工智能与医疗健康
@@ -313,4 +313,6 @@ $$ \min_{C, \{z_i\}} \sum_{i=1}^N \| x_i - C z_i \|^2 + \lambda \sum_{i=1}^N \| 
 
 ## 相关条目
 
-[[07_InterdisciplinarySciences/CognitiveScience/INDEX|CognitiveScience]], [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]], [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]], [[AIEthics]]
+[[07_InterdisciplinarySciences/CognitiveScience/INDEX|CognitiveScience]], [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]], [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]], [[05_ComputerScience/ArtificialIntelligence/AIEthics/AIEthics|AIEthics]]
+
+

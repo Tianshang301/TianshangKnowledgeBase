@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [OrnamentalHorticulture]
 tags: ['Horticulture', 'OrnamentalHorticulture']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 观赏园艺
@@ -257,3 +257,4 @@ $$
 ## 相关条目
 
 [[08_AgriculturalSciences/CropScience/INDEX|CropScience]], [[08_AgriculturalSciences/PlantProtection/INDEX|PlantProtection]], [[04_EngineeringAndTechnology/CivilEngineering/LandscapeArchitecture/INDEX|LandscapeArchitecture]], Pomology, [[02_NaturalSciences/Biology/Botany/INDEX|Botany]], Floriculture
+

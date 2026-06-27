@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [BuildingMaterials]
 tags: ['CivilEngineering', 'BuildingScience', 'BuildingMaterials']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 建筑材料
@@ -151,3 +151,4 @@ $$\sigma = E\varepsilon$$
 - [[04_EngineeringAndTechnology/CivilEngineering/GeotechnicalEngineering/INDEX|GeotechnicalEngineering]]
 - ConstructionMaterials
 - Concrete
+

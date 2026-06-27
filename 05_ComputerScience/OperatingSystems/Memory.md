@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Memory]
 tags: ['OperatingSystems', 'Memory']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 内存管理详解 (Memory Management)
@@ -535,8 +535,10 @@ Linux 内核当前默认的分配器（简化 Slab，更适合大内存系统）
 
 ## 相关条目
 
-- [[MemoryManagement]]
+- [[05_ComputerScience/OperatingSystems/MemoryManagement/MemoryManagement|MemoryManagement]]
 - [[分页分段与交换技术]]
 - [[FileSystem]]
 - [[IO]]
 - [[LinuxKernel]]
+
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Physiology]
 tags: ['BasicMedicalSciences', 'Physiology']
 created: 2026-05-16
@@ -103,5 +103,6 @@ updated: 2026-05-19
 - [[Pathophysiology]]
 - [[BiochemistryAndMolecularBiology]]
 - [[Pharmacology]]
-- [[InternalMedicine]]
+- [[09_MedicineAndHealth/ClinicalMedicine/InternalMedicine|InternalMedicine]]
 - [[ClinicalMedicine]]
+

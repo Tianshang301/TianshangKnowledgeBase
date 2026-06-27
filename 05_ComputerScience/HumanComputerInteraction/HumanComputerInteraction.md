@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [HumanComputerInteraction]
 tags: ['HumanComputerInteraction', 'HumanComputerInteraction']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 人机交互完全指南
@@ -254,7 +254,7 @@ Tufte 原则:
 
 - [[UsabilityEngineering]]
 - [[06_ArtsAndCreativity/Design/InteractionDesign/INDEX|InteractionDesign]]
-- [[EngineeringPsychology]]
+- [[03_HumanitiesAndSocialSciences/Psychology/EngineeringPsychology/EngineeringPsychology|EngineeringPsychology]]
 - UXDesign
 
 ## 参考资源
@@ -265,3 +265,5 @@ Tufte 原则:
 - Nielsen Norman Group: https://www.nngroup.com
 - WCAG 2.1 指南: https://www.w3.org/TR/WCAG21
 - Figma 设计资源: https://www.figma.com/community
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CircuitAnalysis]
 tags: ['MechanicalAndElectricalEngineering', 'ElectricalEngineering', 'CircuitAnalysis']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 电路分析
@@ -141,7 +141,9 @@ $$Z_L = Z_s^*$$
 
 ## 相关条目
 
-- [[DigitalLogic]]
-- [[AnalogCircuits]]
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/DigitalLogic/DigitalLogic|DigitalLogic]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/AnalogCircuits/AnalogCircuits|AnalogCircuits]]
 - [[04_EngineeringAndTechnology/ElectronicsAndCommunications/SignalProcessing/INDEX|SignalProcessing]]
 - [[PowerSystems]]
+
+

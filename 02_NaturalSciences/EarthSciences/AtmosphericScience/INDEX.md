@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['EarthSciences', 'AtmosphericScience', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # AtmosphericScience
@@ -17,4 +17,5 @@ updated: 2026-05-13
 - [[大气动力学]]
 - [[大气结构与天气]]
 - [[气候系统]]
+
 

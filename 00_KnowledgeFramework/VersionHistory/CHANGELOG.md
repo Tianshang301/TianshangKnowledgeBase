@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CHANGELOG]
 tags: ['00_KnowledgeFramework', 'VersionHistory', 'CHANGELOG']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 版本历史
@@ -185,3 +185,4 @@ updated: 2026-05-13
 - 增加 Anki 间隔重复卡片导出功能
 - 整合 arXiv 论文摘要自动同步
 - 建立社区贡献与审稿流程
+

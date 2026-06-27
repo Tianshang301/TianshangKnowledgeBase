@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['ArtificialIntelligence', 'KnowledgeRepresentation', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 鐭ヨ瘑琛ㄧず
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[KnowledgeRepresentation]]
 - [[鐭ヨ瘑鍥捐氨鏋勫缓鎶€鏈痌]
 - [[知识图谱构建技术]]
+
 

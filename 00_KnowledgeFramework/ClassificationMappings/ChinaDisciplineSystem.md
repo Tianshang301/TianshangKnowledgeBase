@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [ChinaDisciplineSystem]
 tags: ['ClassificationMappings', 'ChinaDisciplineSystem']
 created: 2026-05-16
@@ -271,4 +271,5 @@ updated: 2026-05-16
 
 ## 相关条目
 
-[[00_KnowledgeFramework/KnowledgeGraph/INDEX|KnowledgeGraph]], [[CrossDisciplinaryLinks]], InformationArchitecture, Taxonomy
+[[00_KnowledgeFramework/KnowledgeGraph/INDEX|KnowledgeGraph]], [[00_KnowledgeFramework/KnowledgeGraph/CrossDisciplinaryLinks|CrossDisciplinaryLinks]], InformationArchitecture, Taxonomy
+

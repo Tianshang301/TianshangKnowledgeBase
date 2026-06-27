@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LearningPath, ManagementSciencePath, 管理科学, 管理学学习路线]
 tags: ['LearningPath', 'ManagementSciences', 'Education', 'CareerDevelopment']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 学习路径：管理科学 (Management Science Learning Path)
@@ -171,3 +171,4 @@ graph LR
 - [[01_K12/CrossDisciplinaryK12/FinancialLiteracyForTeens/PersonalFinance\|个人理财]]
 - [[10_MilitarySciences/LearningPath\|军事科学学习路径]]
 - [[09_MedicineAndHealth/LearningPath\|医学健康学习路径]]
+

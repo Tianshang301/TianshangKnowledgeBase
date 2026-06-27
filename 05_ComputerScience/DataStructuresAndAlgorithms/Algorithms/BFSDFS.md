@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [BFSDFS]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'BFSDFS']
 created: 2026-05-16
@@ -411,8 +411,9 @@ def longest_increasing_path(matrix):
 
 ## 相关条目
 
-- [[Graph]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/DataStructures/Graph|Graph]]
 - [[Backtracking]]
 - [[Dijkstra]]
-- [[Tree]]
-- [[UnionFind]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/DataStructures/Tree|Tree]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/DataStructures/UnionFind|UnionFind]]
+

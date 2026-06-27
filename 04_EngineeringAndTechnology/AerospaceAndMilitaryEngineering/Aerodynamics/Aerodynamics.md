@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - Aerodynamics
   - Fluid Dynamics
@@ -6,7 +6,7 @@ aliases:
   - Computational Fluid Dynamics
 tags:
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
   - engineering
   - aerospace
   - fluid-mechanics
@@ -299,3 +299,4 @@ $$(L/D)_{max} = \frac{1}{2\sqrt{k C_{D,0}}}$$
 ---
 
 **相关概念**: [[Ballistics|弹道学]] | [[Naval Architecture|船舶设计]] | [[Fluid Dynamics|流体力学]] | [[CFD|计算流体力学]]
+

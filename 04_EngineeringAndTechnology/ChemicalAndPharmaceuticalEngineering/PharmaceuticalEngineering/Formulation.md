@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Formulation, 药物制剂, PharmaceuticalFormulation, DosageForms]
 tags: ['ChemicalAndPharmaceuticalEngineering', 'PharmaceuticalEngineering', 'Formulation', 'Pharmaceutics', 'DrugDelivery']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 药物制剂（Pharmaceutical Formulation）
@@ -279,9 +279,11 @@ BCS 分类：
 ## 相关条目
 
 - [[DrugDesign|药物设计]]
-- [[FineChemicals|精细化工]]
-- [[ProcessDesign|工艺设计]]
-- [[Biomaterials|生物材料]]
-- [[MedicalDevices|医疗器械]]
+- [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/FineChemicals/FineChemicals|精细化工]]
+- [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/ChemicalEngineering/ProcessDesign|工艺设计]]
+- [[04_EngineeringAndTechnology/Biotechnologies/BiomedicalEngineering/Biomaterials|生物材料]]
+- [[04_EngineeringAndTechnology/Biotechnologies/BiomedicalEngineering/MedicalDevices|医疗器械]]
 - [[Pharmacokinetics|药物动力学]]
 - [[INDEX|PharmaceuticalEngineering 索引]]
+
+

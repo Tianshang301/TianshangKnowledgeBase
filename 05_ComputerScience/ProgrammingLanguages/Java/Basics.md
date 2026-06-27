@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Basics]
 tags: ['ProgrammingLanguages', 'Java', 'Basics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Java 基础语法
@@ -345,3 +345,4 @@ import static java.lang.Math.*; // 静态导入
 | default | ✓ | ✓ | - | - |
 | protected | ✓ | ✓ | ✓ | - |
 | public | ✓ | ✓ | ✓ | ✓ |
+

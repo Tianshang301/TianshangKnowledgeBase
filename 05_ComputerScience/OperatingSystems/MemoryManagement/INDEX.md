@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['OperatingSystems', 'MemoryManagement', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 鍐呭瓨绠＄悊
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[MemoryManagement]]
 - [[鍒嗛〉鍒嗘涓庝氦鎹㈡妧鏈痌]
 - [[分页分段与交换技术]]
+
 

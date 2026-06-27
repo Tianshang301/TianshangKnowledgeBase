@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ComparativeLiterature]
 tags: ['ForeignLanguagesAndLiteratures', 'ComparativeLiterature', 'ComparativeLiterature']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 比较文学
@@ -192,9 +192,9 @@ $$\text{作品} \leftrightarrow (\text{宇宙} + \text{艺术家} + \text{欣赏
 
 ## 相关条目
 
-- [[TranslationStudies]]
-- [[LanguageLearning]]
-- [[LiteraryTheory]]
+- [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/TranslationStudies/TranslationStudies|TranslationStudies]]
+- [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/LanguageLearning/LanguageLearning|LanguageLearning]]
+- [[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/LiteraryTheory/LiteraryTheory|LiteraryTheory]]
 - WorldLiterature
 
 ## 参考资源
@@ -209,3 +209,5 @@ $$\text{作品} \leftrightarrow (\text{宇宙} + \text{艺术家} + \text{欣赏
 8. Lefevere, A. (1992). *Translation, Rewriting, and the Manipulation of Literary Fame*. London: Routledge.
 9. 叶维廉（1983）。《比较诗学》。台北：东大图书。
 10. Casanova, P. (1999). *La République mondiale des Lettres*. Paris: Seuil.
+
+

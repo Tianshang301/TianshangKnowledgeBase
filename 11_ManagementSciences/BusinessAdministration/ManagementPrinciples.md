@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [ManagementPrinciples]
 tags: ['BusinessAdministration', 'ManagementPrinciples']
 created: 2026-05-19
@@ -90,7 +90,8 @@ updated: 2026-05-19
 
 - [[OrganizationalBehavior]]
 - [[StrategicManagement]]
-- [[HRMPrinciples]]
-- [[PerformanceManagement]]
-- [[DecisionScience]]
-- [[ProjectManagement]]
+- [[11_ManagementSciences/BusinessAdministration/HumanResources/HRMPrinciples|HRMPrinciples]]
+- [[11_ManagementSciences/BusinessAdministration/HumanResources/PerformanceManagement|PerformanceManagement]]
+- [[11_ManagementSciences/ManagementScienceAndEngineering/DecisionScience|DecisionScience]]
+- [[11_ManagementSciences/ManagementScienceAndEngineering/ProjectManagement|ProjectManagement]]
+

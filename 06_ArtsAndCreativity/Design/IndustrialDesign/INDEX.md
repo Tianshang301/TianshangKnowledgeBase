@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Design', 'IndustrialDesign', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # IndustrialDesign
@@ -16,4 +16,5 @@ updated: 2026-05-13
 - [[产品设计与制造工程]]
 - [[产品设计与制造工艺]]
 - [[工业设计]]
+
 

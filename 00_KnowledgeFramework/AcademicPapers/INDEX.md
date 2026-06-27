@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['AcademicPapers', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # AcademicPapers
@@ -16,4 +16,5 @@ updated: 2026-05-13
 - [[璁烘枃缁撴瀯鎸囧崡]] - 璁烘枃缁撴瀯鎸囧崡
 - [[IMRaD]]
 - [[学术论文]]
+
 

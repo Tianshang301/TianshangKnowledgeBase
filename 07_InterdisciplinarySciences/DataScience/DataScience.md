@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DataScience, 数据科学, DataAnalytics, 数据分析]
 tags: ['07_InterdisciplinarySciences', 'DataScience', 'MachineLearning', 'Statistics', 'BigData']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 数据科学 (Data Science)
@@ -328,3 +328,4 @@ $$
 - [[07_InterdisciplinarySciences/DataScience/BigData|大数据技术]]
 - [[07_InterdisciplinarySciences/DataScience/NaturalLanguageProcessing|自然语言处理]]
 - [[INDEX|当前目录索引]]
+

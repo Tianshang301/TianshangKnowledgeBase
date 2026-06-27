@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Physics', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Physics
@@ -11,13 +11,13 @@ updated: 2026-05-13
 
 ## 鏂囦欢
 
-- [[Acoustics]]
-- [[AtomicPhysics]]
-- [[Biophysics]]
+- [[02_NaturalSciences/Physics/ClassicalMechanics/Acoustics|Acoustics]]
+- [[02_NaturalSciences/Physics/ParticlePhysics/AtomicPhysics|AtomicPhysics]]
+- [[02_NaturalSciences/Biology/Biophysics|Biophysics]]
 - [[02_NaturalSciences/Physics/CondensedMatterPhysics/INDEX]]
-- [[NuclearPhysics]]
+- [[04_EngineeringAndTechnology/EnergyAndNuclearEngineering/NuclearEngineering/NuclearPhysics|NuclearPhysics]]
 - [[02_NaturalSciences/EarthSciences/Geophysics/INDEX]]
-- [[MedicalPhysics]]
+- [[09_MedicineAndHealth/MedicalPhysics|MedicalPhysics]]
 - [[Physics]]
 - [[ClassicalMechanics/INDEX|ClassicalMechanics]]
 - [[Electromagnetism/INDEX|Electromagnetism]]
@@ -26,4 +26,6 @@ updated: 2026-05-13
 - [[QuantumMechanics/INDEX|QuantumMechanics]]
 - [[Relativity/INDEX|Relativity]]
 - [[Thermodynamics/INDEX|Thermodynamics]]
+
+
 

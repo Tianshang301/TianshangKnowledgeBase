@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Scheduling]
 tags: ['OperatingSystems', 'Scheduling']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # CPU 调度详解 (CPU Scheduling)
@@ -433,8 +433,10 @@ numastat -p PID                                 # 查看进程 NUMA 统计
 
 ## 相关条目
 
-- [[ProcessManagement]]
+- [[05_ComputerScience/OperatingSystems/ProcessManagement/ProcessManagement|ProcessManagement]]
 - [[进程调度与同步]]
 - [[Thread]]
 - [[Process]]
-- [[Concurrency]]
+- [[05_ComputerScience/ProgrammingLanguages/Go/Concurrency|Concurrency]]
+
+

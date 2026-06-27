@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ChineseWriting]
 tags: ['ChineseLanguageAndLiterature', 'ChineseWriting', 'ChineseWriting']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 中文写作
@@ -149,7 +149,7 @@ updated: 2026-05-13
 
 ## 相关条目
 
-[[ChineseLiterature]] · [[ChineseLinguistics]] · CreativeWriting · [[LanguageLearning]]
+[[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/ChineseLiterature/ChineseLiterature|ChineseLiterature]] · [[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/ChineseLinguistics/ChineseLinguistics|ChineseLinguistics]] · CreativeWriting · [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/LanguageLearning/LanguageLearning|LanguageLearning]]
 
 ## 参考资源
 
@@ -286,3 +286,5 @@ updated: 2026-05-13
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Periodization]
 tags: ['SportsTraining', 'Periodization']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 训练周期化
@@ -171,3 +171,4 @@ Selye 的一般适应综合征指出应激源先引起警觉反应。
 ## 相关条目
 
 耐力训练、力量训练、训练理论、运动生理学、运动恢复、运动表现分析、疲劳监控、超量恢复
+

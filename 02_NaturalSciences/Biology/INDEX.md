@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Biology', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Biology
@@ -14,13 +14,13 @@ updated: 2026-05-13
 - [[01_K12/JuniorHigh/Chemistry/INDEX|Chemistry]]
 - [[02_NaturalSciences/Biology/Ecology/INDEX]]
 - [[07_InterdisciplinarySciences/Bioinformatics/INDEX|Bioinformatics]]
-- [[Anthropology]]
-- [[Astrobiology]]
+- [[03_HumanitiesAndSocialSciences/Anthropology/Anthropology|Anthropology]]
+- [[02_NaturalSciences/Biology/EvolutionaryBiology/Astrobiology|Astrobiology]]
 - [[Biomathematics]]
-- [[Biotechnology]]
-- [[Cryobiology]]
-- [[DevelopmentalBiology]]
-- [[SyntheticBiology]]
+- [[04_EngineeringAndTechnology/TextileAndFoodEngineering/Biotechnology/Biotechnology|Biotechnology]]
+- [[02_NaturalSciences/Biology/CellBiology/Cryobiology|Cryobiology]]
+- [[02_NaturalSciences/Biology/CellBiology/DevelopmentalBiology|DevelopmentalBiology]]
+- [[02_NaturalSciences/Biology/MolecularBiology/SyntheticBiology|SyntheticBiology]]
 - [[02_NaturalSciences/Biology/Botany/INDEX]]
 - [[02_NaturalSciences/Biology/CellBiology/INDEX]]
 - [[02_NaturalSciences/Biology/Ecology/INDEX]]
@@ -29,8 +29,10 @@ updated: 2026-05-13
 - [[02_NaturalSciences/Biology/Microbiology/INDEX]]
 - [[02_NaturalSciences/Biology/MolecularBiology/INDEX]]
 - [[02_NaturalSciences/Biology/Zoology/INDEX]]
-- [[Virology]]
+- [[09_MedicineAndHealth/Virology|Virology]]
 - [[Biophysics]]
 - [[EvolutionOfComputers]]
 - [[Neuroscience/INDEX|Neuroscience]]
+
+
 

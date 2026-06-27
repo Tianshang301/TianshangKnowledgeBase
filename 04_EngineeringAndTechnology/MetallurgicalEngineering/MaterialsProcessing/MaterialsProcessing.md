@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MaterialsProcessing]
 tags: ['MetallurgicalEngineering', 'MaterialsProcessing', 'MaterialsProcessing']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 材料加工
@@ -274,3 +274,4 @@ $$\sigma = K\varepsilon^n$$
 - 《Deformation and Fracture Mechanics of Engineering Materials》（Hertzberg）
 - 《Welding Metallurgy》（Kou）
 - 《Additive Manufacturing Technologies》（Gibson et al.）
+

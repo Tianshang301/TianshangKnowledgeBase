@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [GitHubActions]
 tags: ['SoftwareEngineering', 'DevOpsAndCICD', 'GitHubActions']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # GitHub Actions 指南
@@ -489,5 +489,7 @@ jobs:
 - [[CI-CD 与 DevOps 实践]]
 - [[Pipeline]]
 - [[Jenkins]]
-- [[GitHub]]
+- [[05_ComputerScience/SoftwareEngineering/GitAndVersionControl/GitHub|GitHub]]
 - [[Dockerfile]]
+
+

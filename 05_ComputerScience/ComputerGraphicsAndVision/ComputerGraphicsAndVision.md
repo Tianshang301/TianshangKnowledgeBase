@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ComputerGraphicsAndVision]
 tags: ['ComputerGraphicsAndVision', 'ComputerGraphicsAndVision']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 计算机图形学与视觉完全指南
@@ -277,10 +277,10 @@ __global__ void addVectors(float* a, float* b, float* c, int n) {
 
 ## 相关条目
 
-- [[ComputerVision]]
+- [[05_ComputerScience/ArtificialIntelligence/ComputerVision/ComputerVision|ComputerVision]]
 - Mathematics/Geometry
-- [[ImageProcessing]]
-- [[GameDevelopment]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/SignalProcessing/ImageProcessing|ImageProcessing]]
+- [[05_ComputerScience/EngineeringDevelopment/GameDevelopment/GameDevelopment|GameDevelopment]]
 
 ## 参考资源
 
@@ -290,3 +290,5 @@ __global__ void addVectors(float* a, float* b, float* c, int n) {
 - OpenGL 官方文档: https://www.opengl.org/documentation
 - Vulkan 教程: https://vulkan-tutorial.com
 - NVIDIA CUDA 文档: https://docs.nvidia.com/cuda
+
+

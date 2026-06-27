@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - CompilerPrinciples
   - 编译原理
@@ -6,7 +6,7 @@ aliases:
   - CompilerDesign
 tags:
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
   - '05_ComputerScience'
   - 'CompilerPrinciples'
   - 'CoreCourses'
@@ -141,8 +141,10 @@ $$ \frac{\Gamma \vdash e_1 : \text{int} \quad \Gamma \vdash e_2 : \text{int}}{\G
 
 ## 相关条目
 
-- [[OperatingSystems]]
-- [[ProgrammingLanguages]]
-- [[ComputerArchitecture]]
-- [[FormalLanguages]]
-- [[SoftwareEngineering]]
+- [[04_EngineeringAndTechnology/ComputerAndInformationSciences/OperatingSystems|OperatingSystems]]
+- [[05_ComputerScience/ProgrammingLanguages/ProgrammingLanguages|ProgrammingLanguages]]
+- [[04_EngineeringAndTechnology/ComputerAndInformationSciences/ComputerArchitecture|ComputerArchitecture]]
+- [[05_ComputerScience/TheoryOfComputation/FormalLanguages|FormalLanguages]]
+- [[05_ComputerScience/SoftwareEngineering/SoftwareEngineering|SoftwareEngineering]]
+
+

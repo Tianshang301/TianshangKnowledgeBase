@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [SmartHome]
 tags: ['05_ComputerScience', 'ComputerNetworks']
 created: 2026-05-17
@@ -210,6 +210,7 @@ $$E_{savings} = \sum (P_{base,i} - P_{smart,i}) \times t_i \times 365$$
 - [[MQTT]]
 - [[LoRaWAN]]
 - [[IndustrialIoT]]
-- [[UserExperience]]
-- [[InteractionDesign]]
+- [[05_ComputerScience/HumanComputerInteraction/UserExperience|UserExperience]]
+- [[05_ComputerScience/HumanComputerInteraction/InteractionDesign|InteractionDesign]]
 - [[05_ComputerScience/ComputerNetworks/INDEX]]
+

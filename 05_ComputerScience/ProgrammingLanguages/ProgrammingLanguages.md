@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ProgrammingLanguages, PL, 编程语言]
 tags: ['05_ComputerScience', 'ProgrammingLanguages', 'Languages', 'Compilers']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 编程语言 Programming Languages
@@ -259,3 +259,4 @@ $$ \text{Program} : \text{Type} \iff \text{Proof} : \text{Proposition} $$
 - [[FunctionalProgramming]]
 - [[ConcurrencyModels]]
 - [[ProgrammingParadigms]]
+

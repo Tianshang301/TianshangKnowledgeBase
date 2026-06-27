@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [README]
 tags: ['SoftwareEngineering', 'README']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # IDE 配置与效率技巧
@@ -282,7 +282,9 @@ ssh -L 3000:localhost:3000 dev-server
 
 ## 相关条目
 
-- [[AgileMethodologies]]
-- [[DesignPatterns]]
-- [[SoftwareTesting]]
-- [[ProjectManagement]]
+- [[05_ComputerScience/SoftwareEngineering/AgileMethodologies/AgileMethodologies|AgileMethodologies]]
+- [[05_ComputerScience/SoftwareEngineering/DesignPatterns/DesignPatterns|DesignPatterns]]
+- [[05_ComputerScience/SoftwareEngineering/SoftwareTesting/SoftwareTesting|SoftwareTesting]]
+- [[11_ManagementSciences/ManagementScienceAndEngineering/ProjectManagement|ProjectManagement]]
+
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [嵌入式 Linux 驱动开发]
 tags: ['HardwareAndEmbeddedSystems', 'EmbeddedLinux', '嵌入式 Linux 驱动开发']
 ---
@@ -380,10 +380,10 @@ test:
 ## 相关条目
 
 - [[EmbeddedLinux]]
-- [[LinuxKernel]]
-- [[RaspberryPi]]
-- [[IoT]]
-- [[FPGA]]
+- [[05_ComputerScience/OperatingSystems/LinuxKernel|LinuxKernel]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/RaspberryPi/RaspberryPi|RaspberryPi]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/IoT/IoT|IoT]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/FPGA/FPGA|FPGA]]
 
 ## 参考资源
 
@@ -394,3 +394,4 @@ test:
 5. Free Electron 设备树文档：https://devicetree.org
 6. ELinux.org 嵌入式 Linux 维基
 7. LWN.net 内核开发新闻
+

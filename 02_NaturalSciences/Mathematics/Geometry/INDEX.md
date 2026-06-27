@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Mathematics', 'Geometry', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Geometry
@@ -15,4 +15,5 @@ updated: 2026-05-13
 - [[闈炴鍑犱綍涓庡井鍒嗗嚑浣昡]
 - [[欧氏几何与解析几何]]
 - [[非欧几何与微分几何]]
+
 

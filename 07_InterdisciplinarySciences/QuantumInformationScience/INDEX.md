@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['QuantumInformationScience', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # QuantumInformationScience
@@ -16,4 +16,5 @@ updated: 2026-05-13
 - [[QuantumCryptography]] - 閲忓瓙瀵嗙爜瀛︼細鍒╃敤閲忓瓙鍔涘鍘熺悊淇濋殰淇℃伅瀹夊叏鐨勫瘑鐮佺悊璁轰笌鍗忚
 - [[QuantumErrorCorrection]] - 閲忓瓙绾犻敊锛氫繚鎶ら噺瀛愪俊鎭厤鍙楀櫔澹颁笌閫€鐩稿共褰卞搷鐨勭紪鐮佷笌瀹归敊鎶€鏈?
 - [[QuantumComputingOverview]]
+
 

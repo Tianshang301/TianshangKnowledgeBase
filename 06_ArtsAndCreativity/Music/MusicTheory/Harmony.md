@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - Harmony
   - 和声学
@@ -6,7 +6,7 @@ aliases:
   - 四部和声
 tags:
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
   - music-theory
   - harmony
   - voice-leading
@@ -245,3 +245,4 @@ CΔ7  Dm7  Em7  FΔ7  G7   Am7  Bø7
 ## 相关条目
 
 [[Scales]], [[Chords]], [[Intervals]], [[06_ArtsAndCreativity/Music/EarTraining/INDEX|EarTraining]]
+

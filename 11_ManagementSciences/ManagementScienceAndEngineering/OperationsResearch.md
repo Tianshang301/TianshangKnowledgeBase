@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [OperationsResearch]
 tags: ['ManagementScienceAndEngineering', 'OperationsResearch']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 运筹学
@@ -157,7 +157,7 @@ updated: 2026-05-13
 ## 相关条目
 
 - [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]]
-- [[Statistics]]
+- [[07_InterdisciplinarySciences/AppliedStatistics/Statistics|Statistics]]
 - ManagementScience
 - DecisionTheory
 
@@ -166,3 +166,5 @@ updated: 2026-05-13
 1. 钱颂迪.《运筹学》
 2. Winston, W.L. *Operations Research: Applications and Algorithms*
 3. Hillier, F.S. *Introduction to Operations Research*
+
+

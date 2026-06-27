@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [GraphTheory]
 tags: ['Logic', 'MathematicalLogic', 'GraphTheory']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 图论详解
@@ -198,3 +198,4 @@ def ford_fulkerson(graph, s, t):
 ```
 
 **Edmonds-Karp**：Ford-Fulkerson 的 BFS 实现，$O(VE^2)$。
+

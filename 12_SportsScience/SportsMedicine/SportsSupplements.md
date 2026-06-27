@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SportsSupplements, 运动补剂]
 tags: ['12_SportsScience', 'SportsMedicine', 'SportsSupplements', 'Nutrition']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 运动补剂 (Sports Supplements)
@@ -242,3 +242,4 @@ NO 通过 cGMP 通路引起血管舒张，改善氧输送和利用效率。
 - [[DopingAndAntiDoping|兴奋剂与反兴奋剂]]
 - [[MetabolismAndExercise|运动与代谢]]
 - [[INDEX|SportsMedicine 索引]]
+

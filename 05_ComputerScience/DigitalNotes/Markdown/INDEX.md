@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['DigitalNotes', 'Markdown', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Markdown
@@ -11,8 +11,10 @@ updated: 2026-05-13
 
 ## 鏂囦欢
 
-- [[LaTeX]]
+- [[05_ComputerScience/DigitalNotes/LaTeX/LaTeX|LaTeX]]
 - [[Markdown]]
 - [[Markdown 鎵╁睍涓庡伐鍏烽摼]] - Markdown 鎵╁睍涓庡伐鍏烽摼
 - [[Markdown扩展与工具链]]
+
+
 

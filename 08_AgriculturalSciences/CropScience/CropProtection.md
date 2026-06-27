@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CropProtection]
 tags: ['CropScience', 'CropProtection']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 作物保护学
@@ -173,4 +173,6 @@ $$ET = \frac{C}{Y \times P \times E \times D}$$
 
 ## 相关条目
 
-[[CropBreeding]], [[CropGenetics]], [[08_AgriculturalSciences/AgriculturalResources/INDEX|AgriculturalResources]], [[08_AgriculturalSciences/Horticulture/INDEX|Horticulture]], [[Ecology]]
+[[CropBreeding]], [[CropGenetics]], [[08_AgriculturalSciences/AgriculturalResources/INDEX|AgriculturalResources]], [[08_AgriculturalSciences/Horticulture/INDEX|Horticulture]], [[07_InterdisciplinarySciences/EnvironmentalScience/Ecology|Ecology]]
+
+

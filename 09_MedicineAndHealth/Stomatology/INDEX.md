@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['Stomatology', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Stomatology
@@ -17,5 +17,7 @@ updated: 2026-05-13
 - [[Orthodontics]] — 口腔正畸学：牙颌畸形矫治
 - [[09_MedicineAndHealth/ClinicalMedicine/INDEX|ClinicalMedicine]]
 - [[09_MedicineAndHealth/BasicMedicalSciences/INDEX|BasicMedicalSciences]]
-- [[Surgery]]
+- [[09_MedicineAndHealth/ClinicalMedicine/Surgery|Surgery]]
 - [[04_EngineeringAndTechnology/MechanicsAndMaterials/MaterialsScience/INDEX|MaterialsScience]]
+
+

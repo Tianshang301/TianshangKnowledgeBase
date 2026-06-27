@@ -2,7 +2,7 @@
 aliases: [Linguistics]
 tags: ['03_HumanitiesAndSocialSciences', 'Linguistics']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 # Linguistics
 
@@ -148,4 +148,5 @@ updated: 2026-05-13
 - [[语言学与应用语言学]]
 - [[语言学核心分支]]
 - [[语言学的分支]]
+
 

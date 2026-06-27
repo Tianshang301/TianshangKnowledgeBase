@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Arts', 'INDEX']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # Arts
@@ -11,11 +11,11 @@ updated: 2026-05-13
 
 ## 鏂囦欢
 
-- [[ArtHistory]]
-- [[FilmTheory]]
-- [[Musicology]]
-- [[TheaterStudies]]
-- [[VisualArts]]
+- [[06_ArtsAndCreativity/FineArts/ArtHistory/ArtHistory|ArtHistory]]
+- [[06_ArtsAndCreativity/DramaAndFilm/FilmTheory|FilmTheory]]
+- [[06_ArtsAndCreativity/Music/Musicology|Musicology]]
+- [[06_ArtsAndCreativity/DramaAndFilm/TheaterStudies|TheaterStudies]]
+- [[06_ArtsAndCreativity/FineArts/VisualArts|VisualArts]]
 
 ## 娣卞叆闃呰涓庢墿灞曞垎鏋?
 璇ラ鍩熺殑鐭ヨ瘑浣撶郴缁忚繃闀挎湡绉疮宸茬浉褰撲赴瀵屻€?
@@ -147,4 +147,6 @@ updated: 2026-05-13
 - [[Design/INDEX|Design]]
 - [[DramaAndFilm/INDEX|DramaAndFilm]]
 - [[FineArts/INDEX|FineArts]]
+
+
 

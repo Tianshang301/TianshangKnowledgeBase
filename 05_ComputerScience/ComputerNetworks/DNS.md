@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DNS]
 tags: ['ComputerNetworks', 'DNS']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # DNS 深入指南 (DNS In-Depth Guide)
@@ -347,4 +347,6 @@ done
 - [[HTTP]]
 - [[NetworkLayer]]
 - [[TransportLayer]]
-- [[NetworkModels]]
+- [[05_ComputerScience/ComputerNetworks/NetworkModels/NetworkModels|NetworkModels]]
+
+

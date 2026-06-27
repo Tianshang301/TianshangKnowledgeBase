@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Education', 'INDEX']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # Education
@@ -14,11 +14,11 @@ updated: 2026-05-13
 > 璇︾粏鍐呭璇疯 [[鏁欒偛瀛﹀師鐞嗕笌璇剧▼鏁欏璁篯]銆乕[鏁欒偛蹇冪悊瀛︿笌鏁欒偛鎶€鏈]]銆乕[姣旇緝鏁欒偛瀛︿笌楂樼瓑鏁欒偛瀛]
 - [[AdultEducation]]
 - [[03_HumanitiesAndSocialSciences/Education/ComparativeEducation/INDEX]]
-- [[CurriculumDesign]]
+- [[12_SportsScience/PhysicalEducation/CurriculumDesign|CurriculumDesign]]
 - [[DistanceEducation]]
 - [[EarlyChildhoodEducation]]
 - [[EducationalPhilosophy]]
-- [[EducationalPsychology]]
+- [[03_HumanitiesAndSocialSciences/Psychology/EducationalPsychology/EducationalPsychology|EducationalPsychology]]
 - [[03_HumanitiesAndSocialSciences/Education/EducationalTechnology/INDEX]]
 - [[HigherEducation]]
 - [[InclusiveEducation]]
@@ -154,4 +154,6 @@ updated: 2026-05-13
 - [[比较教育学与高等教育学]]
 - [[CurriculumTheory/INDEX|CurriculumTheory]]
 - [[Pedagogy/INDEX|Pedagogy]]
+
+
 

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Surgery]
 tags: ['ClinicalMedicine', 'Surgery']
 created: 2026-05-16
@@ -125,7 +125,8 @@ updated: 2026-05-19
 
 - [[InternalMedicine]]
 - [[Anesthesiology]]
-- [[Pharmacology]]
+- [[09_MedicineAndHealth/BasicMedicalSciences/Pharmacology|Pharmacology]]
 - [[DiagnosticImaging]]
 - [[EmergencyMedicine]]
-- [[Pathophysiology]]
+- [[09_MedicineAndHealth/BasicMedicalSciences/Pathophysiology|Pathophysiology]]
+

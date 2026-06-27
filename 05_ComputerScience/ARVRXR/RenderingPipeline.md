@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 3D渲染管线
   - 渲染管线
@@ -282,7 +282,8 @@ G-Buffer 3: RGB = Emission, A = AO
 
 ## 相关链接
 
-- [[GraphicsRendering]] - 图形学渲染
-- [[UnityDeep]] - Unity 深度
-- [[UnrealEngine5]] - 虚幻引擎 5
+- [[05_ComputerScience/GameEngineDevelopment/GraphicsRendering|GraphicsRendering]] - 图形学渲染
+- [[05_ComputerScience/GameEngineDevelopment/UnityDeep|UnityDeep]] - Unity 深度
+- [[05_ComputerScience/GameEngineDevelopment/UnrealEngine5|UnrealEngine5]] - 虚幻引擎 5
 - [[XRInteractionDesign]] - XR 交互设计
+

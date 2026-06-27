@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LearningPath]
 tags: ['HardwareAndEmbeddedSystems', 'LearningPath']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 硬件学习路线图
@@ -130,6 +130,8 @@ updated: 2026-05-13
 ## 相关条目
 
 - ComputerOrganization
-- [[IoT]]
-- [[Robotics]]
-- [[PCBDesign]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/IoT/IoT|IoT]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Robotics/Robotics|Robotics]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/PCBDesign/PCBDesign|PCBDesign]]
+
+

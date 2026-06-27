@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [BadmintonTechniques]
 tags: ['SportsScience', 'Badminton', 'PhysicalEducation', 'RacketSports']
 created: 2026-05-17
@@ -145,5 +145,6 @@ $$ \text{步法效率} = \frac{\text{球场覆盖范围}}{\text{步数} \times \
 
 - [[IntervalTraining]]
 - [[GaitAnalysis]]
-- [[Physiotherapy]]
+- [[09_MedicineAndHealth/Physiotherapy|Physiotherapy]]
 - [[INDEX|当前目录索引]]
+

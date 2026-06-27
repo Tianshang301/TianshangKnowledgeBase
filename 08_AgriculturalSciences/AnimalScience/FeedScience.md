@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FeedScience]
 tags: ['AnimalScience', 'FeedScience']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 饲料学
@@ -314,3 +314,4 @@ $$ \text{FCR} = \frac{\text{采食量}}{\text{增重}} $$
 ## 相关条目
 
 [[AnimalBreeding]], [[AnimalGenetics]], [[AnimalHealth]], [[AnimalNutrition]]
+

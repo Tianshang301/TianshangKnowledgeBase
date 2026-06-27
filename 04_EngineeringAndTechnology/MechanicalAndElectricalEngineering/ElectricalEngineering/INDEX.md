@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['MechanicalAndElectricalEngineering', 'ElectricalEngineering', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 鐢垫皵宸ョ▼
@@ -16,4 +16,5 @@ updated: 2026-05-13
 - [[PowerSystems]]
 - [[ElectricalMachines]]
 - [[PowerElectronics]]
+
 

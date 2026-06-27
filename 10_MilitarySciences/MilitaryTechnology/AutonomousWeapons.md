@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [自主武器系统, AutonomousWeapons]
 tags: ['MilitaryScience', 'MilitaryTechnology', 'Autonomous', 'LAWS']
 created: 2026-06-27
@@ -244,5 +244,6 @@ Swarm Intelligence 技术使大规模自主武器编队能够协同作战。
 - [[UnmannedSystems]]
 - [[DirectedEnergyWeapons]]
 - [[HypersonicTechnology]]
-- [[ArmsAndServices]]
-- [[JointOperations]]
+- [[10_MilitarySciences/ArmsAndServices|ArmsAndServices]]
+- [[10_MilitarySciences/MilitaryStrategy/JointOperations|JointOperations]]
+

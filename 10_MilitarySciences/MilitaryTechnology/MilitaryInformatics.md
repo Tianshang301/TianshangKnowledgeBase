@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MilitaryInformatics]
 tags: ['MilitaryTechnology', 'MilitaryInformatics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 军事信息学
@@ -178,3 +178,4 @@ C4ISR（指挥、控制、通信、计算机、情报、监视、侦察）系统
 - 信息化战争
 - 军事技术
 - 信息安全
+

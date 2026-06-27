@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [RaspberryPi 项目实践]
 tags: ['HardwareAndEmbeddedSystems', 'RaspberryPi', 'RaspberryPi 项目实践']
 ---
@@ -342,10 +342,10 @@ while True:
 ## 相关条目
 
 - [[RaspberryPi]]
-- [[EmbeddedLinux]]
-- [[IoT]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/EmbeddedLinux/EmbeddedLinux|EmbeddedLinux]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/IoT/IoT|IoT]]
 - [[05_ComputerScience/ProgrammingLanguages/Python/INDEX|Python]]
-- [[GPIO]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Microcontrollers/STM32/GPIO|GPIO]]
 
 ## 参考资源
 
@@ -356,3 +356,4 @@ while True:
 5. 《Raspberry Pi 用户指南》Eben Upton 著
 6. Raspberry Pi 论坛：https://forums.raspberrypi.com
 7. PiShrink - SD 卡镜像压缩工具
+

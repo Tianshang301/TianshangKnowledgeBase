@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SupervisedLearning]
 tags: ['ArtificialIntelligence', 'MachineLearning', 'SupervisedLearning', 'SupervisedLearning']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 监督学习
@@ -268,9 +268,9 @@ $$
 
 ## 相关条目
 
-- [[UnsupervisedLearning]]
-- [[ReinforcementLearning]]
-- [[ModelEvaluation]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/UnsupervisedLearning/UnsupervisedLearning|UnsupervisedLearning]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/ReinforcementLearning/ReinforcementLearning|ReinforcementLearning]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/ModelEvaluation/ModelEvaluation|ModelEvaluation]]
 - NeuralNetworks
 
 ## 参考资源
@@ -281,3 +281,5 @@ $$
 - Chen, T. & Guestrin, C. (2016). "XGBoost: A Scalable Tree Boosting System"
 - Ke, G. et al. (2017). "LightGBM: A Highly Efficient Gradient Boosting Decision Tree"
 - Cortes, C. & Vapnik, V. (1995). "Support-vector networks"
+
+

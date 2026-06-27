@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [TeachingMethods]
 tags: ['PhysicalEducation', 'TeachingMethods']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 体育教学方法
@@ -178,3 +178,4 @@ updated: 2026-05-13
 ## 相关条目
 
 体育课程设计、运动技能学习、体育评估、适应体育教育、体育教学研究、教师专业发展、合作学习、教学策略
+

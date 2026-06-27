@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LinuxKernel]
 tags: ['OperatingSystems', 'LinuxKernel']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Linux 内核基础 (Linux Kernel Fundamentals)
@@ -553,8 +553,10 @@ grub2-mkconfig -o /boot/grub2/grub.cfg  # RHEL/CentOS
 
 ## 相关条目
 
-- [[ProcessManagement]]
-- [[MemoryManagement]]
-- [[FileSystems]]
+- [[05_ComputerScience/OperatingSystems/ProcessManagement/ProcessManagement|ProcessManagement]]
+- [[05_ComputerScience/OperatingSystems/MemoryManagement/MemoryManagement|MemoryManagement]]
+- [[05_ComputerScience/OperatingSystems/FileSystems/FileSystems|FileSystems]]
 - [[IO]]
 - [[Scheduling]]
+
+

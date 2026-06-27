@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FoodProcessing]
 tags: ['FoodScience', 'FoodProcessing']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # FoodProcessing
@@ -160,4 +160,6 @@ $$ \frac{M - M_e}{M_0 - M_e} = \exp(-kt^n) $$
 - [[FoodChemistry]]
 - FoodEngineering
 - Preservation
-- [[Biotechnology]]
+- [[04_EngineeringAndTechnology/TextileAndFoodEngineering/Biotechnology/Biotechnology|Biotechnology]]
+
+

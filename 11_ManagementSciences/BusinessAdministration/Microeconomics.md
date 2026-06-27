@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Microeconomics]
 tags: ['BusinessAdministration', 'Microeconomics']
 created: 2026-05-19
@@ -114,8 +114,9 @@ updated: 2026-05-19
 ## 相关条目
 
 - [[Macroeconomics]]
-- [[MarketingPrinciples]]
-- [[ManagerialAccounting]]
-- [[FinancialMarkets]]
-- [[ProbabilityTheory]]
-- [[Statistics]]
+- [[11_ManagementSciences/BusinessAdministration/Marketing/MarketingPrinciples|MarketingPrinciples]]
+- [[11_ManagementSciences/BusinessAdministration/Accounting/ManagerialAccounting|ManagerialAccounting]]
+- [[11_ManagementSciences/BusinessAdministration/Finance/FinancialMarkets|FinancialMarkets]]
+- [[11_ManagementSciences/ManagementScienceAndEngineering/ProbabilityTheory|ProbabilityTheory]]
+- [[07_InterdisciplinarySciences/AppliedStatistics/Statistics|Statistics]]
+

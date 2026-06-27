@@ -1,11 +1,11 @@
----
+﻿---
 aliases:
   - 游戏开发
   - Game Development
   - 游戏制作
 tags:
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
   - game-dev
   - engineering
   - software-development
@@ -158,3 +158,4 @@ flowchart LR
 ---
 
 > 游戏开发是技术与艺术的交叉领域，需要多学科协作与持续学习。
+

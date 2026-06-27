@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['SoftwareEngineering', 'AgileMethodologies', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 鏁忔嵎寮€鍙戞柟娉?
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[AgileMethodologies]]
 - [[Scrum 涓庣湅鏉垮疄璺礭]
 - [[Scrum与看板实践]]
+
 

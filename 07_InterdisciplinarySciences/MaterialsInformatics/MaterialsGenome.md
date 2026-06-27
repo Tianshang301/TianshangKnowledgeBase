@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MaterialsGenome]
 tags: ['MaterialsInformatics', 'MaterialsGenome']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 材料基因?
@@ -213,3 +213,4 @@ with MPRester("API_KEY") as mpr:
 ## 相关条目
 
 [[04_EngineeringAndTechnology/MechanicsAndMaterials/MaterialsScience/INDEX|MaterialsScience]], [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]], ComputationalChemistry, [[MaterialsGenome]]
+

@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Arts', 'ArtTheory', 'INDEX']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # ArtTheory
@@ -139,4 +139,5 @@ updated: 2026-05-13
 - [[INDEX|褰撳墠鐩綍绱㈠紩]]
 - [[艺术批评与艺术史]]
 - [[艺术理论与美学]]
+
 

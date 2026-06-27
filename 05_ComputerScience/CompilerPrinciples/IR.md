@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [IR, IntermediateRepresentation, ThreeAddressCode, SSA]
 tags: ['05_ComputerScience', 'CompilerPrinciples', 'IR', 'IntermediateRepresentation']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 中间表示 (Intermediate Representation)
@@ -259,3 +259,4 @@ ireturn     // 返回结果
 4. **内存效率**：紧凑的 IR 表示减少内存占用
 5. **调试支持**：保留源位置信息便于调试
 6. **增量编译**：支持模块化和增量重构
+

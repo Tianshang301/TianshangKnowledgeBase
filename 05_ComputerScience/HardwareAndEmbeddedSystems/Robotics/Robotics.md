@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Robotics]
 tags: ['HardwareAndEmbeddedSystems', 'Robotics', 'Robotics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 机器人学 (Robotics)
@@ -326,7 +326,7 @@ $$f(n) = g(n) + h(n)$$
 - AI
 - [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/INDEX|ControlTheory]]
 - EmbeddedSystems
-- [[ComputerVision]]
+- [[05_ComputerScience/ArtificialIntelligence/ComputerVision/ComputerVision|ComputerVision]]
 
 ## 参考资源
 
@@ -335,3 +335,5 @@ $$f(n) = g(n) + h(n)$$
 - Corke, P. *Robotics, Vision and Control* (2nd ed.)
 - Thrun, S., Burgard, W., & Fox, D. *Probabilistic Robotics*
 - ROS Documentation: https://docs.ros.org/
+
+

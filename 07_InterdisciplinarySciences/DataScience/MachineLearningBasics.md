@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MachineLearningBasics]
 tags: ['DataScience', 'MachineLearningBasics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 机器学习基础
@@ -250,4 +250,6 @@ print(f"AUC: {roc_auc_score(y_test, lr.predict_proba(X_test_scaled)[:, 1]):.4f}"
 
 ## 相关条目
 
-[[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]], [[Statistics]], [[ArtificialIntelligence]], [[BigDataAnalytics]]
+[[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]], [[07_InterdisciplinarySciences/AppliedStatistics/Statistics|Statistics]], [[07_InterdisciplinarySciences/CognitiveScience/ArtificialIntelligence|ArtificialIntelligence]], [[BigDataAnalytics]]
+
+

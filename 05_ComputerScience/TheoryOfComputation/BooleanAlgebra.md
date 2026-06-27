@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [BooleanAlgebra]
 tags: ['05_ComputerScience', 'TheoryOfComputation']
 created: 2026-05-17
@@ -317,5 +317,6 @@ $$f(x_1, ..., x_n) = a_0 \oplus a_1 x_1 \oplus a_2 x_2 \oplus ... \oplus a_{12} 
 
 ## 相关条目
 - [[FormalLanguages]]
-- [[ComputerAlgebra]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/ComputerAlgebra|ComputerAlgebra]]
 - [[INDEX|当前目录索引]]
+

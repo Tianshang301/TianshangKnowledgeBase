@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CompositeMaterials]
 tags: ['MechanicsAndMaterials', 'MaterialsScience', 'CompositeMaterials']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 复合材料
@@ -150,3 +150,4 @@ $$F_i\sigma_i + F_{ij}\sigma_i\sigma_j = 1$$
 - [[PolymerMaterials]]
 - [[04_EngineeringAndTechnology/MechanicsAndMaterials/MaterialsScience/INDEX|MaterialsScience]]
 - [[04_EngineeringAndTechnology/AerospaceAndMilitaryEngineering/AerospaceEngineering/INDEX|AerospaceEngineering]]
+

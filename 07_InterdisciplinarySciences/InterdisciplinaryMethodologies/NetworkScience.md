@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [NetworkScience, 网络科学]
 tags: ['InterdisciplinaryMethodologies', 'NetworkScience', 'ComplexSystems', 'GraphTheory']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 网络科学
@@ -208,4 +208,6 @@ $$\frac{d\theta_i}{dt} = \omega_i + K \sum_{j} A_{ij} \sin(\theta_j - \theta_i)$
 - [[SystemsThinking]]
 - [[ComplexityScience]]
 - [[TransdisciplinaryResearch]]
-- [[GraphTheory]]
+- [[02_NaturalSciences/Logic/MathematicalLogic/GraphTheory|GraphTheory]]
+
+

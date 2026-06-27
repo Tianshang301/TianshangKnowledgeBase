@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['JuniorHigh', 'History', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # History
@@ -15,4 +15,5 @@ updated: 2026-05-13
 | [[WorldHistoryBasics]] | 涓栫晫鍙や唬鍙层€佽繎浠ｅ彶銆佺幇浠ｅ彶鏍稿績鑴夌粶 |
 | [[缁冧範棰樹笌瑙ｆ瀽]] | 缁煎悎缁冧範棰樹笌璇︾粏瑙ｆ瀽 |
 - [[练习题与解析]]
+
 

@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['MiningAndMineralEngineering', 'CoalMining', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 鐓ょ偔寮€閲?
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[CoalMining]]
 - [[鐓ょ熆瀹夊叏涓庨€氶鎶€鏈痌]
 - [[煤矿安全与通风技术]]
+
 

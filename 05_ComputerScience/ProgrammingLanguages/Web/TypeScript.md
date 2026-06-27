@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [TypeScript]
 tags: ['ProgrammingLanguages', 'Web', 'TypeScript']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # TypeScript 快速指南
@@ -531,3 +531,4 @@ const Counter: FC = () => {
 ```
 
 > TypeScript 为 JavaScript 添加了类型安全, 显著提升大型项目的可维护性。重点掌握: 接口与类型别名、泛型、工具类型, 以及 React 与 TypeScript 的结合使用。
+

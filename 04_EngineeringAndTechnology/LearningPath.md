@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [EngineeringLearningPath, 工程技术学习路径, EngineeringPath]
 tags: ['04_EngineeringAndTechnology', 'LearningPath', 'Engineering', 'STEM', 'CareerPath']
 created: 2024-10-01
@@ -231,7 +231,8 @@ flowchart TD
 - [[02_HigherEducation/EngineeringEducation|工程教育]]
 - [[04_EngineeringAndTechnology/Apprenticeship|工程学徒制]]
 - [[00_KnowledgeFramework/StudyMethods/STEMStudy|STEM 学习方法]]
-- [[CareerPlanning|职业规划]]
-- [[ProjectManagement|项目管理基础]]
+- [[01_K12/CrossDisciplinaryK12/CareerEducation/CareerPlanning|职业规划]]
+- [[11_ManagementSciences/ManagementScienceAndEngineering/ProjectManagement|项目管理基础]]
 - [[CADBasics|CAD 基础教程]]
 - [[ProgrammingForEngineers|工程师编程入门]]
+

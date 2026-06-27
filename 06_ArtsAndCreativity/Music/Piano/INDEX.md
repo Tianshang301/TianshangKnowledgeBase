@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Music', 'Piano', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Piano
@@ -15,4 +15,5 @@ updated: 2026-05-13
 - [[閽㈢惔缁冧範鏇蹭笌鎶€宸] - 閽㈢惔缁冧範鏇蹭笌鎶€宸?
 - [[钢琴基础]]
 - [[钢琴练习曲与技巧]]
+
 

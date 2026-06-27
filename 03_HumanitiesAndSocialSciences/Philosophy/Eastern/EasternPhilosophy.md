@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [EasternPhilosophy]
 tags: ['Philosophy', 'Eastern', 'EasternPhilosophy']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 东方哲学
@@ -308,3 +308,4 @@ updated: 2026-05-13
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+

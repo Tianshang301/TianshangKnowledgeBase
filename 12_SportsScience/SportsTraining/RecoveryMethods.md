@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [RecoveryMethods, 恢复方法, 运动恢复, PostExerciseRecovery, SportRecovery, 疲劳恢复, 再平衡, 恢复策略]
 tags: ['12_SportsScience', 'SportsTraining', 'RecoveryMethods']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 恢复方法（Recovery Methods）
@@ -206,6 +206,8 @@ Optimization）包括红光疗法、温度调控和认知行为干预。营养
 
 - [[Supercompensation]]
 - [[SportsPhysiology]]
-- [[InjuryPrevention]]
-- [[SportsNutrition]]
+- [[12_SportsScience/SportsMedicine/InjuryPrevention|InjuryPrevention]]
+- [[12_SportsScience/SportsMedicine/SportsNutrition|SportsNutrition]]
 - [[INDEX|SportsTraining 索引]]
+
+

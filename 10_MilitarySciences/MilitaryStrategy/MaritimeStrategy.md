@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MaritimeStrategy]
 tags: ['MilitaryStrategy', 'MaritimeStrategy']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 海权战略
@@ -211,3 +211,4 @@ updated: 2026-05-13
 - 海军技术
 - 地缘政治
 - 海上安全
+

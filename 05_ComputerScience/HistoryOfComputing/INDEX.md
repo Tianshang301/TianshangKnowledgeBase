@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['HistoryOfComputing', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # HistoryOfComputing
@@ -12,9 +12,11 @@ updated: 2026-05-13
 ## 鏂囦欢
 
 - [[ComputerPioneers]] - 璁＄畻鏈哄厛椹?
-- [[EvolutionOfComputers]] - 璁＄畻鏈烘紨鍖?
+- [[02_NaturalSciences/Biology/EvolutionOfComputers|EvolutionOfComputers]] - 璁＄畻鏈烘紨鍖?
 - [[HistoryOfComputing]] - 璁＄畻鍘嗗彶
 - [[ProgrammingHistory]] - 缂栫▼鍘嗗彶
 - [[缂栫▼璇█鍙戝睍鍙瞉] - 缂栫▼璇█鍙戝睍鍙?
 - [[编程语言发展史]]
+
+
 

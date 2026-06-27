@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DigitalMarketing]
 tags: ['BusinessAdministration', 'Marketing', 'DigitalMarketing']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 数字营销
@@ -199,3 +199,4 @@ Facebook 和 Instagram 是重要社交营销平台。精准定向基于用户兴
 - 电子商务
 - 数据挖掘
 - 网络营销
+

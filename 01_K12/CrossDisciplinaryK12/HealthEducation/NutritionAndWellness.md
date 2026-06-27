@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - NutritionAndWellness
   - TeenNutrition
@@ -244,7 +244,8 @@ $$ \text{推荐睡眠时长} = 8\text{–}10 \text{ 小时/天} $$
 - [[PhysicalActivity|体育活动]]
 - [[MentalHealthEducation|心理健康教育]]
 - [[AdolescentDevelopment|青少年发展]]
-- [[SportsNutrition|运动营养]]
+- [[12_SportsScience/SportsMedicine/SportsNutrition|运动营养]]
 - [[SleepHygiene|睡眠卫生]]
-- [[FoodSafety|食品安全]]
+- [[04_EngineeringAndTechnology/TextileAndFoodEngineering/FoodScience/FoodSafety|食品安全]]
 - [[../INDEX|CrossDisciplinaryK12 索引]]
+

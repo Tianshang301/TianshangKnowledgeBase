@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['DigitalNotes', 'LaTeX', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # LaTeX
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[LaTeX]]
 - [[LaTeX 杩涢樁鎺掔増鎶€宸] - LaTeX 杩涢樁鎺掔増鎶€宸?
 - [[LaTeX进阶排版技巧]]
+
 

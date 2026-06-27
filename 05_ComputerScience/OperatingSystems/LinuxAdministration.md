@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [LinuxAdministration]
 tags: ['05_ComputerScience', 'OperatingSystems']
 created: 2026-05-17
@@ -258,6 +258,7 @@ fs.file-max = 2097152
 
 ## 相关条目
 - [[ShellScripting]]
-- [[SystemDesign]]
-- [[MemoryModel]]
+- [[05_ComputerScience/SoftwareEngineering/SystemDesign|SystemDesign]]
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/MemoryModel|MemoryModel]]
 - [[05_ComputerScience/OperatingSystems/INDEX]]
+

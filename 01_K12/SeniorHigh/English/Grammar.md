@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Grammar]
 tags: ['SeniorHigh', 'English', 'Grammar']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 高中英语 · 语法完整?
@@ -802,4 +802,5 @@ with + 宾语 + 宾补（doing/done/to do/adj/adv/prep 短语?
 
 
 HighSchoolEducation, CollegeEntranceExam, SubjectStudy, AdvancedPlacement
+
 

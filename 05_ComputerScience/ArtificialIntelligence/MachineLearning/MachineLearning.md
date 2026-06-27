@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MachineLearning]
 tags: ['05_ComputerScience', 'ArtificialIntelligence', 'MachineLearning']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 机器学习 (Machine Learning)
@@ -161,8 +161,10 @@ $$
 ## 相关条目
 
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX]]
-- [[NeuralNetworks]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/NeuralNetworksAndDeepLearning/NeuralNetworks|NeuralNetworks]]
 - [[深度学习概论|深度学习 (Deep Learning)]]
-- [[NaturalLanguageProcessing]]
-- [[ComputerVision]]
-- [[ReinforcementLearning]]
+- [[05_ComputerScience/ArtificialIntelligence/NaturalLanguageProcessing/NaturalLanguageProcessing|NaturalLanguageProcessing]]
+- [[05_ComputerScience/ArtificialIntelligence/ComputerVision/ComputerVision|ComputerVision]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/ReinforcementLearning/ReinforcementLearning|ReinforcementLearning]]
+
+

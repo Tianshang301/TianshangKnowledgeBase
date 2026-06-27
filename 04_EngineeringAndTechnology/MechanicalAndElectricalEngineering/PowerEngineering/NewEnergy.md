@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [NewEnergy]
 tags: ['MechanicalAndElectricalEngineering', 'PowerEngineering', 'NewEnergy']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 新能源
@@ -150,8 +150,10 @@ $$P = \frac{1}{2}\rho A v^3 C_p$$
 
 ## 相关条目
 
-- [[SolarEnergy]]
-- [[WindEnergy]]
-- [[HydrogenEnergy]]
+- [[04_EngineeringAndTechnology/EnergyAndNuclearEngineering/RenewableEnergy/SolarEnergy|SolarEnergy]]
+- [[04_EngineeringAndTechnology/EnergyAndNuclearEngineering/RenewableEnergy/WindEnergy|WindEnergy]]
+- [[04_EngineeringAndTechnology/EnergyAndNuclearEngineering/RenewableEnergy/HydrogenEnergy|HydrogenEnergy]]
 - [[Hydropower]]
-- [[EnergySystems]]
+- [[12_SportsScience/ExercisePhysiology/EnergySystems|EnergySystems]]
+
+

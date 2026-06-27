@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SportsInjuries]
 tags: ['SportsMedicine', 'SportsInjuries']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 运动损伤
@@ -176,3 +176,4 @@ RICE 用于闭合性软组织。
 ## 相关条目
 
 运动康复、康复治疗、运动按摩、运动生物力学、运动医学、运动营养学、损伤预防、ACL 康复
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AnalogElectronics]
 tags: ['ElectronicsAndCommunications', 'Electronics', 'AnalogElectronics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 模拟电子
@@ -132,3 +132,4 @@ updated: 2026-05-13
 - ComputerEngineering
 - [[04_EngineeringAndTechnology/ElectronicsAndCommunications/SignalProcessing/INDEX|SignalProcessing]]
 - EmbeddedSystems
+

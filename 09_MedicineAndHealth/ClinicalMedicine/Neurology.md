@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Neurology]
 tags: ['ClinicalMedicine', 'Neurology']
 created: 2026-05-19
@@ -103,9 +103,10 @@ updated: 2026-05-19
 
 ## 相关条目
 
-- [[Anatomy]]
-- [[Physiology]]
-- [[Pathology]]
+- [[09_MedicineAndHealth/BasicMedicalSciences/Anatomy|Anatomy]]
+- [[09_MedicineAndHealth/BasicMedicalSciences/Physiology|Physiology]]
+- [[09_MedicineAndHealth/BasicMedicalSciences/Pathology|Pathology]]
 - [[DiagnosticImaging]]
 - [[InternalMedicine]]
 - [[EmergencyMedicine]]
+

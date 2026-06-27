@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Phonics]
 tags: ['PrimarySchool', 'English', 'Phonics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 自然拼读
@@ -246,4 +246,6 @@ updated: 2026-05-13
 
 ## 相关条目
 
-[[Phonics]], [[Grammar]], [[Vocabulary]], [[OralCommunication]]
+[[Phonics]], [[01_K12/SeniorHigh/English/Grammar|Grammar]], [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/English/Vocabulary|Vocabulary]], [[OralCommunication]]
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Dynamics, 动力学]
 tags: ['EngineeringFundamentals', 'EngineeringMechanics', 'Dynamics']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 动力学 (Dynamics)
@@ -223,6 +223,8 @@ $$
 ## 相关条目
 
 - [[Statics]]
-- [[EngineeringMechanics]]
-- [[StructuralAnalysis]]
+- [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/EngineeringMechanics|EngineeringMechanics]]
+- [[04_EngineeringAndTechnology/CivilEngineering/StructuralEngineering/StructuralAnalysis|StructuralAnalysis]]
 - [[VibrationAnalysis]]
+
+

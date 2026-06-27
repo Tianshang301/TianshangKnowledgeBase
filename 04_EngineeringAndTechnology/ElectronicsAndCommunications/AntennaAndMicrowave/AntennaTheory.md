@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AntennaTheory]
 tags: ['ElectronicsAndCommunications', 'AntennaAndMicrowave', 'AntennaTheory']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 天线理论
@@ -142,8 +142,10 @@ $H$ 为信道矩阵，$x$ 为发射信号，$n$ 为噪声。
 
 ## 相关条目
 
-- [[RFEngineering]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Electronics/RFEngineering|RFEngineering]]
 - [[MicrowaveEngineering]]
-- [[WirelessCommunications]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Communications/WirelessCommunications|WirelessCommunications]]
 - [[02_NaturalSciences/Physics/Electromagnetism/INDEX|Electromagnetism]]
-- [[CommunicationTheory]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Communications/CommunicationTheory|CommunicationTheory]]
+
+

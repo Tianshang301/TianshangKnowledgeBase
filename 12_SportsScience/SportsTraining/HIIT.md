@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [HIIT, 高强度间歇训练, HighIntensityIntervalTraining]
 tags: ['12_SportsScience', 'SportsTraining', 'HIIT', 'IntervalTraining', 'Cardio']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 高强度间歇训练（HIIT）
@@ -209,9 +209,11 @@ graph TD
 ## 相关条目
 
 - [[VO2max|最大摄氧量]]
-- [[IntervalTraining|间歇训练]]
+- [[12_SportsScience/IntervalTraining|间歇训练]]
 - [[EnduranceTraining|耐力训练]]
 - [[LactateThreshold|乳酸阈]]
 - [[Periodization|周期化训练]]
 - [[RecoveryAndRegeneration|恢复与再生]]
 - [[INDEX|SportsTraining 索引]]
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [WoodScience]
 tags: ['Forestry', 'WoodScience']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 木材学
@@ -228,4 +228,6 @@ $$f_m = \frac{3P_{max}L}{2bh^2}$$
 
 ## 相关条目
 
-[[Ecology]], [[Silviculture]], [[07_InterdisciplinarySciences/EnvironmentalScience/INDEX|EnvironmentalScience]], [[ForestManagement]], [[Biomaterials]]
+[[07_InterdisciplinarySciences/EnvironmentalScience/Ecology|Ecology]], [[Silviculture]], [[07_InterdisciplinarySciences/EnvironmentalScience/INDEX|EnvironmentalScience]], [[ForestManagement]], [[04_EngineeringAndTechnology/Biotechnologies/BiomedicalEngineering/Biomaterials|Biomaterials]]
+
+

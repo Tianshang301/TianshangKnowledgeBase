@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['SeniorHigh', 'Politics', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Politics
@@ -21,4 +21,5 @@ updated: 2026-05-13
 - [[法律与生活]]
 - [[练习题与解析]]
 - [[逻辑与思维]]
+
 

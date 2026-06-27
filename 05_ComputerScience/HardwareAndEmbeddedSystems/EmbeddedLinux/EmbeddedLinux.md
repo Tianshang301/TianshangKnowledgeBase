@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [EmbeddedLinux]
 tags: ['HardwareAndEmbeddedSystems', 'EmbeddedLinux', 'EmbeddedLinux']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 嵌入式 Linux
@@ -232,9 +232,9 @@ cat /sys/kernel/debug/tracing/trace
 ## 相关条目
 
 - [[05_ComputerScience/OperatingSystems/Linux/INDEX|Linux]]
-- [[RTOS]]
-- [[Arduino]]
-- [[RaspberryPi]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/RTOS/RTOS|RTOS]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Arduino/Arduino|Arduino]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/RaspberryPi/RaspberryPi|RaspberryPi]]
 - DeviceDrivers
 
 ## 参考资源
@@ -244,3 +244,5 @@ cat /sys/kernel/debug/tracing/trace
 - 《Mastering Embedded Linux Programming》（Chris Simmonds）
 - [Linux 内核文档 - Device Tree](https://www.kernel.org/doc/html/latest/devicetree/)
 - [Bootlin ELinux 文档](https://bootlin.com/docs/)
+
+

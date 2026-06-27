@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ArchaeologicalMethods]
 tags: ['Archaeology', 'ArchaeologicalMethods', 'ArchaeologicalMethods']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 考古学方法论
@@ -199,7 +199,7 @@ $$ t = -8033 \cdot \ln\left(\frac{A}{A_0}\right) $$
 
 ## 相关条目
 
-[[PrehistoricArchaeology]] · [[HistoricalArchaeology]] · [[UnderwaterArchaeology]] · [[CulturalRelics]]
+[[03_HumanitiesAndSocialSciences/Archaeology/PrehistoricArchaeology/PrehistoricArchaeology|PrehistoricArchaeology]] · [[03_HumanitiesAndSocialSciences/Archaeology/HistoricalArchaeology/HistoricalArchaeology|HistoricalArchaeology]] · [[03_HumanitiesAndSocialSciences/Archaeology/UnderwaterArchaeology/UnderwaterArchaeology|UnderwaterArchaeology]] · [[03_HumanitiesAndSocialSciences/Archaeology/CulturalRelics/CulturalRelics|CulturalRelics]]
 
 ## 参考资源
 
@@ -212,3 +212,5 @@ $$ t = -8033 \cdot \ln\left(\frac{A}{A_0}\right) $$
 | 植物考古 | Pearsall《Paleoethnobotany》 |
 | GIS 考古 | Conolly & Lake《Geographical Information Systems in Archaeology》 |
 | 数字考古 | Beale & Reilly《Digital Archaeology》 |
+
+

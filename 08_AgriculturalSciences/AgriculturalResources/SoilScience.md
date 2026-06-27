@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SoilScience]
 tags: ['AgriculturalResources', 'SoilScience']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 土壤学
@@ -249,3 +249,4 @@ $$ \text{土壤 pH 对养分有效性的影响:} \quad \text{养分有效性} = 
 ## 相关条目
 
 [[AgriculturalChemistry]], [[08_AgriculturalSciences/CropScience/INDEX|CropScience]], [[07_InterdisciplinarySciences/EnvironmentalScience/INDEX|EnvironmentalScience]], [[PrecisionAgriculture]]
+

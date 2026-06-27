@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [EducationalPsychology]
 tags: ['Psychology', 'EducationalPsychology', 'EducationalPsychology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 教育心理学
@@ -268,9 +268,9 @@ Erikson 的心理社会发展阶段为理解学生各阶段的发展任务提供
 
 ## 相关条目
 
-- [[ClinicalPsychology]]
-- [[CognitivePsychology]]
-- [[Pedagogy]]
+- [[03_HumanitiesAndSocialSciences/Psychology/ClinicalPsychology/ClinicalPsychology|ClinicalPsychology]]
+- [[07_InterdisciplinarySciences/CognitiveScience/CognitivePsychology|CognitivePsychology]]
+- [[03_HumanitiesAndSocialSciences/Education/Pedagogy/Pedagogy|Pedagogy]]
 - [[03_HumanitiesAndSocialSciences/Psychology/DevelopmentalPsychology/INDEX|DevelopmentalPsychology]]
 
 ## 参考资源
@@ -283,3 +283,5 @@ Erikson 的心理社会发展阶段为理解学生各阶段的发展任务提供
 - Bandura《自我效能》
 - Sweller《认知负荷理论》
 - Deci & Ryan《内在动机与自我决定》
+
+

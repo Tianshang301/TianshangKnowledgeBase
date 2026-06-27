@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [ICDesign]
 tags: ['ElectronicsAndCommunications', 'Microelectronics', 'ICDesign']
 created: 2026-05-16
@@ -129,7 +129,8 @@ updated: 2026-05-16
 ## 相关条目
 
 - [[SemiconductorPhysics]]
-- [[DigitalElectronics]]
-- [[AnalogElectronics]]
-- [[ComputerArchitecture]]
-- [[DigitalSignalProcessing]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Electronics/DigitalElectronics|DigitalElectronics]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Electronics/AnalogElectronics|AnalogElectronics]]
+- [[04_EngineeringAndTechnology/ComputerAndInformationSciences/ComputerArchitecture|ComputerArchitecture]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/SignalProcessing/DigitalSignalProcessing|DigitalSignalProcessing]]
+

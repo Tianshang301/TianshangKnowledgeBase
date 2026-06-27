@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [PoliticalTheory]
 tags: ['PoliticalScience', 'PoliticalTheory', 'PoliticalTheory']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 政治理论
@@ -236,8 +236,8 @@ updated: 2026-05-13
 
 ## 相关条目
 
-- [[ComparativePolitics]]
-- [[PublicAdministration]]
+- [[07_InterdisciplinarySciences/RegionalAndCountryStudies/ComparativePolitics|ComparativePolitics]]
+- [[03_HumanitiesAndSocialSciences/PoliticalScience/PublicAdministration/PublicAdministration|PublicAdministration]]
 - [[03_HumanitiesAndSocialSciences/Philosophy/INDEX|Philosophy]]
 - [[01_K12/JuniorHigh/History/INDEX|History]]
 
@@ -251,3 +251,5 @@ updated: 2026-05-13
 - Nozick《无政府、国家与乌托邦》
 - Burke《对法国大革命的反思》
 - Kymlicka《多元文化的公民身份》
+
+

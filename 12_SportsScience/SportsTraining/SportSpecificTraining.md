@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SportSpecificTraining]
 tags: ['SportsTraining', 'SportSpecificTraining']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 不同运动项目的训练方法
@@ -186,3 +186,4 @@ updated: 2026-05-13
 ## 相关条目
 
 力量训练、耐力训练、训练理论、运动生理学、运动生物力学、训练周期化、运动专项分析、体能训练
+

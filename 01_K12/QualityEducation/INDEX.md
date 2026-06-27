@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['QualityEducation', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # QualityEducation
@@ -19,4 +19,5 @@ updated: 2026-05-13
 - [[心理健康教育]]
 - [[综合实践活动]]
 - [[通用技术]]
+
 

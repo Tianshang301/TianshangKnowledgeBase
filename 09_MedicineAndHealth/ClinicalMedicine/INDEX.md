@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['ClinicalMedicine', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # ClinicalMedicine
@@ -25,5 +25,7 @@ updated: 2026-05-13
 - [[Otorhinolaryngology]] — 耳鼻咽喉科学：耳鼻咽喉头颈疾病
 - [[Dermatology]] — 皮肤性病学：皮肤疾病与性传播疾病
 - [[09_MedicineAndHealth/BasicMedicalSciences/INDEX|BasicMedicalSciences]]
-- [[Pharmacology]]
+- [[09_MedicineAndHealth/BasicMedicalSciences/Pharmacology|Pharmacology]]
 - [[09_MedicineAndHealth/Nursing/INDEX|Nursing]]
+
+

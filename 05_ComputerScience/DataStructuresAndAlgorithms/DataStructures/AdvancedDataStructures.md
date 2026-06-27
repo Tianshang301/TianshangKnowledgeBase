@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AdvancedDataStructures, 高级数据结构]
 tags: ['05_ComputerScience', 'DataStructuresAndAlgorithms', 'DataStructures']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 高级数据结构 (Advanced Data Structures)
@@ -138,3 +138,4 @@ $$
 - [[HashTable]]
 - [[Array]]
 - [[INDEX]]
+

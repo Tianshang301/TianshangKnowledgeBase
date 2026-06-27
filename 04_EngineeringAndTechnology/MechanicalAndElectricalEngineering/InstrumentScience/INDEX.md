@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['MechanicalAndElectricalEngineering', 'InstrumentScience', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 浠櫒绉戝涓庢妧鏈?
@@ -15,4 +15,5 @@ updated: 2026-05-13
 - [[SensorTechnology]]
 - [[SystemOnChip]]
 - [[VHDL]]
+
 

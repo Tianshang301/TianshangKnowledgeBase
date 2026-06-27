@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SportsMedicine, 运动医学, SportMedicine]
 tags: ['12_SportsScience', 'SportsMedicine', 'InjuryPrevention', 'Rehabilitation']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 运动医学 (Sports Medicine)
@@ -250,3 +250,4 @@ flowchart TD
 - [[../../09_MedicineAndHealth/Pharmacy/Pharmacology|药理学]]
 - [[../../02_NaturalSciences/Biology/Physiology/Physiology|生理学]]
 - [[../../INDEX|TianshangKnowledgeBase 索引]]
+

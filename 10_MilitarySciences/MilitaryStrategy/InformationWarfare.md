@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [InformationWarfare]
 tags: ['MilitaryStrategy', 'InformationWarfare']
 created: 2026-05-19
@@ -104,9 +104,10 @@ updated: 2026-05-19
 
 ## 相关条目
 
-- [[CyberWarfare]]
-- [[C4ISR]]
-- [[MilitaryInformatics]]
+- [[10_MilitarySciences/ModernWarfare/CyberWarfare|CyberWarfare]]
+- [[10_MilitarySciences/C4ISR|C4ISR]]
+- [[10_MilitarySciences/MilitaryTechnology/MilitaryInformatics|MilitaryInformatics]]
 - [[StrategicTheory]]
-- [[UnmannedSystems]]
+- [[10_MilitarySciences/UnmannedSystems|UnmannedSystems]]
 - [[JointOperations]]
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [TextMining]
 tags: ['DigitalHumanities', 'TextMining']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 文本挖掘（数字人文）
@@ -286,3 +286,4 @@ result = pipeline("北京大学是中国著名高等学?)
 ## 相关条目
 
 [[ComputationalLinguistics]], [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]], [[TextMining]], [[CulturalAnalytics]]
+

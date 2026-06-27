@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [重力测量, 重力量测, Gravity Measurement, Gravimetry, Gravimetric Survey]
 tags: [测绘科学, 大地测量学, 重力测量, 地球物理, 地球重力场, 大地水准面, 导航]
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 重力测量 (Gravity Measurement)
@@ -199,3 +199,4 @@ SGG（Satellite Gravity Gradiometry）：
 3. Li, X., & Götze, H.-J. (2001). *Tutorial: Ellipsoid, Geoid, Gravity, Geodesy, and Geophysics*. Geophysics, 66(6), 1660–1668.
 4. 宁津生 等. (2016). 《大地测量学基础》. 武汉大学出版社.
 5. 郭俊义. (2006). 《重力测量学》. 测绘出版社.
+

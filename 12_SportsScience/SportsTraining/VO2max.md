@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [最大摄氧量, VO2max, 有氧能力, 心肺耐力, Maximal Oxygen Uptake]
 tags: [运动生理, 运动训练, 耐力运动, 运动医学, 体能测试, 心肺功能, 运动表现]
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 最大摄氧量 (Maximal Oxygen Uptake, VO₂max)
@@ -221,3 +221,4 @@ $$
 3. Joyner, M. J., & Coyle, E. F. (2008). Endurance exercise performance. *Journal of Physiology*, 586(1), 35–44.
 4. Bouchard, C., et al. (2011). Genomic predictors of the maximal O₂ uptake response. *Journal of Applied Physiology*, 110(5), 1160–1170.
 5. 邓树勋 等. (2015). 《运动生理学》. 高等教育出版社.
+

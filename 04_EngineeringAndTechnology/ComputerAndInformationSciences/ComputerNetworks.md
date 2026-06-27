@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ComputerNetworks]
 tags: ['ComputerAndInformationSciences', 'ComputerNetworks']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 计算机网络
@@ -245,3 +245,4 @@ $$ \text{吞吐量} \approx \frac{\text{MSS} \times \text{cwnd}}{\text{RTT}} $$
 3. Stevens W R. TCP/IP Illustrated, Vol. 1: The Protocols. 2nd ed. Addison-Wesley, 2011.
 4. 谢希仁. 计算机网络. 8版. 电子工业出版社, 2021.
 5. Comer D E. Internetworking with TCP/IP, Vol. 1. 6th ed. Pearson, 2013.
+

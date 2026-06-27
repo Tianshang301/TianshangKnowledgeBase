@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['History', 'INDEX']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # History
@@ -152,4 +152,5 @@ updated: 2026-05-13
 - [[Archaeology/INDEX|Archaeology]]
 - [[HistoricalGeography/INDEX|HistoricalGeography]]
 - [[Historiography/INDEX|Historiography]]
+
 

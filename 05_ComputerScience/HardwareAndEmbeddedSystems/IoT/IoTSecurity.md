@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [IoTSecurity]
 tags: ['05_ComputerScience', 'HardwareAndEmbeddedSystems', 'IoT']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # IoT 安全
@@ -235,3 +235,4 @@ sequenceDiagram
 - [[网络安全]]
 - [[密码学]]
 - [[INDEX|当前目录索引]]
+

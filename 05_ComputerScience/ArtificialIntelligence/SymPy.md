@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [SymPy]
 tags: ['05_ComputerScience', 'ArtificialIntelligence']
 created: 2026-05-17
@@ -285,5 +285,6 @@ SymPy 与 Latex 输出结合在 Jupyter Notebook 中最为高效，适合数学�
 
 ## 相关条目
 - [[AutomaticDifferentiation]]
-- [[InformationTheory]]
+- [[05_ComputerScience/InformationTheory/InformationTheory|InformationTheory]]
 - [[05_ComputerScience/ArtificialIntelligence/INDEX]]
+

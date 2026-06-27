@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Tree]
 tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'Tree']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 树基础
@@ -396,5 +396,7 @@ def preorder_nary(root):
 - [[BinarySearchTree]]
 - [[AVL]]
 - [[Graph]]
-- [[BFSDFS]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BFSDFS|BFSDFS]]
 - [[Heap]]
+
+

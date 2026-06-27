@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ConsumerBehavior]
 tags: ['BusinessAdministration', 'Marketing', 'ConsumerBehavior']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 消费者行为
@@ -204,3 +204,4 @@ updated: 2026-05-13
 - 心理学
 - 市场调研
 - 广告学
+

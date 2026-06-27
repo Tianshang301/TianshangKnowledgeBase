@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ForestSilviculture]
 tags: ['Forestry', 'ForestSilviculture']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 森林培育学
@@ -363,3 +363,4 @@ $$C_{total} = C_{above} + C_{below} + C_{soil} + C_{litter}$$
 - [[07_InterdisciplinarySciences/EnvironmentalScience/INDEX|EnvironmentalScience]]
 - [[08_AgriculturalSciences/PlantProtection/INDEX|PlantProtection]]
 - CarbonCycle
+

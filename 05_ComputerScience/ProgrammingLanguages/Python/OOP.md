@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [OOP]
 tags: ['ProgrammingLanguages', 'Python', 'OOP']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Python 面向对象编程
@@ -540,3 +540,4 @@ def handle_union(value: Union[int, str]) -> str:
 ```
 
 > 面向对象编程是 Python 的核心范式。理解类、继承、封装、多态以及魔术方法, 对于编写可维护、可扩展的 Python 代码至关重要。
+

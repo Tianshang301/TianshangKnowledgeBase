@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [NoSQL]
 tags: ['DatabasesAndInformationSystems', 'NoSQL', 'NoSQL']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # NoSQL Databases - NoSQL 数据库
@@ -345,10 +345,10 @@ COMMIT;  -- 全局一致性，跨节点原子提交
 
 ## 相关条目
 
-- [[RelationalDatabases]]
-- [[BigDataTechnologies]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/RelationalDatabases|RelationalDatabases]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/BigDataTechnologies/BigDataTechnologies|BigDataTechnologies]]
 - CAPTheorem
-- [[DistributedSystems]]
+- [[07_InterdisciplinarySciences/NetworkedInformationSystems/DistributedSystems|DistributedSystems]]
 
 ## 参考资源
 
@@ -358,3 +358,5 @@ COMMIT;  -- 全局一致性，跨节点原子提交
 - MongoDB Documentation. https://www.mongodb.com/docs/
 - Neo4j Graph Database. https://neo4j.com/docs/
 - CockroachDB Documentation. https://www.cockroachlabs.com/docs/
+
+

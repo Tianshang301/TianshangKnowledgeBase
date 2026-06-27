@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['AcademicWriting', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # AcademicWriting
@@ -16,4 +16,5 @@ updated: 2026-05-13
 - [[AcademicWriting]]
 - [[AcademicWritingOverview]]
 - [[论文选题与文献综述]]
+
 

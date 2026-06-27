@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [VectorSpace]
 tags: ['Mathematics', 'Algebra', 'VectorSpace']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 向量空间详解
@@ -172,3 +172,4 @@ x_ls = np.linalg.lstsq(A, b, rcond=None)[0]
 ## 相关条目
 
 [[02_NaturalSciences/Mathematics/Geometry/INDEX|Geometry]], [[02_NaturalSciences/Mathematics/NumberTheory/INDEX|NumberTheory]], [[02_NaturalSciences/Mathematics/MathematicalAnalysis/INDEX|MathematicalAnalysis]], LinearAlgebra
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Statistics, 统计, 统计科学]
 tags: ['07_InterdisciplinarySciences', 'AppliedStatistics', 'Mathematics', 'DataScience']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 统计学 Statistics
@@ -189,10 +189,12 @@ $$
 
 ## 相关条目
 
-- [[ProbabilityTheory]]
-- [[DataScience]]
-- [[MachineLearning]]
-- [[Econometrics]]
+- [[11_ManagementSciences/ManagementScienceAndEngineering/ProbabilityTheory|ProbabilityTheory]]
+- [[07_InterdisciplinarySciences/DataScience/DataScience|DataScience]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/MachineLearning|MachineLearning]]
+- [[03_HumanitiesAndSocialSciences/Economics/Econometrics/Econometrics|Econometrics]]
 - [[Biostatistics]]
 - [[AppliedStatisticsOverview]]
 - [[BayesianInference]]
+
+

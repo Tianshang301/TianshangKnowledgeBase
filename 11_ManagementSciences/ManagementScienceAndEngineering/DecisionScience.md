@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DecisionScience]
 tags: ['ManagementScienceAndEngineering', 'DecisionScience']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 决策科学
@@ -216,3 +216,4 @@ updated: 2026-05-13
 - 统计学
 - 行为经济学
 - 人工智能
+

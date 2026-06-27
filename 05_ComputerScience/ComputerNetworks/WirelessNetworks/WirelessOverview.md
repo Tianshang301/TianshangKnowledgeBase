@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [WirelessNetworks, 无线网络, WiFi, Cellular, 5G, 无线通信]
 tags: ['ComputerNetworks', 'WirelessNetworks', 'Telecommunications', 'Communication']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 无线网络概述
@@ -265,10 +265,12 @@ CP 长度应大于最大多径时延。
 
 ## 相关条目
 
-- [[ComputerNetworks]]
-- [[DigitalSignalProcessing]]
-- [[MobileDevelopment]]
-- [[EmbeddedSystems]]
-- [[Cryptography]]
+- [[04_EngineeringAndTechnology/ComputerAndInformationSciences/ComputerNetworks|ComputerNetworks]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/SignalProcessing/DigitalSignalProcessing|DigitalSignalProcessing]]
+- [[05_ComputerScience/EngineeringDevelopment/MobileDevelopment/MobileDevelopment|MobileDevelopment]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/EmbeddedSystems|EmbeddedSystems]]
+- [[05_ComputerScience/Cybersecurity/Cryptography|Cryptography]]
 - [[OFDM]]
-- [[AntennaTheory]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/AntennaAndMicrowave/AntennaTheory|AntennaTheory]]
+
+

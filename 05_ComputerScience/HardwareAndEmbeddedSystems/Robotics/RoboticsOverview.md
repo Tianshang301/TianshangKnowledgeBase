@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Robotics, 机器人学]
 tags: ['05_ComputerScience', 'Robotics']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 机器人学概述 (Robotics Overview)
@@ -179,9 +179,11 @@ $$
 
 ## 相关条目
 
-- [[ArtificialIntelligence|人工智能 (AI)]]
+- [[07_InterdisciplinarySciences/CognitiveScience/ArtificialIntelligence|人工智能 (AI)]]
 - [[EmbeddedSystemsOverview|嵌入式系统]]
-- [[ComputerVisionOverview|计算机视觉 (CV)]]
-- [[MachineLearning|机器学习 (ML)]]
-- [[ReinforcementLearning|强化学习]]
+- [[05_ComputerScience/ArtificialIntelligence/ComputerVision/ComputerVisionOverview|计算机视觉 (CV)]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/MachineLearning|机器学习 (ML)]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/ReinforcementLearning/ReinforcementLearning|强化学习]]
 - [[ROS|机器人操作系统 (ROS)]]
+
+

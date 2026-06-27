@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 移动开发
   - Mobile Development
@@ -6,7 +6,7 @@ aliases:
   - 手机开发
 tags:
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
   - mobile-dev
   - ios
   - android
@@ -206,3 +206,4 @@ flowchart LR
 ---
 
 > 移动开发的核心挑战在于平衡原生体验、开发效率和跨平台一致性。
+

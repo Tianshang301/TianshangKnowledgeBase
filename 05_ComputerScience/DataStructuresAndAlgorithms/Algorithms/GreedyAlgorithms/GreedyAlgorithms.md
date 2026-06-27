@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [GreedyAlgorithms]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'GreedyAlgorithms', 'GreedyAlgorithms']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Greedy Algorithms - 贪心算法
@@ -363,10 +363,10 @@ $$ \text{贪心选择性质：} \max_{A \in I} \sum_{x \in A} w(x) \text{ 可通
 ## 相关条目
 
 - [[贪心算法证明与技巧]]
-- [[DynamicProgramming]]
-- [[BasicAlgorithms]]
-- [[MST]]
-- [[GraphAlgorithms]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/DynamicProgramming/DynamicProgramming|DynamicProgramming]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BasicAlgorithms/BasicAlgorithms|BasicAlgorithms]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/MST|MST]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/GraphAlgorithms/GraphAlgorithms|GraphAlgorithms]]
 
 ## 参考资源
 
@@ -374,3 +374,5 @@ $$ \text{贪心选择性质：} \max_{A \in I} \sum_{x \in A} w(x) \text{ 可通
 - Kleinberg, J. & Tardos, É. (2005). Algorithm Design. Addison-Wesley.
 - Edmonds, J. (1971). Matroids and the Greedy Algorithm. Mathematical Programming.
 - Oxley, J. (2011). Matroid Theory. 2nd Edition. Oxford University Press.
+
+

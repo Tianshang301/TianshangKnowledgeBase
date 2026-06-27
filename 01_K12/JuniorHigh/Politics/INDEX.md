@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['JuniorHigh', 'Politics', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Politics
@@ -15,4 +15,5 @@ updated: 2026-05-13
 | [[CivicEducation]] | 鍥芥儏鏁欒偛銆佺ぞ浼氳矗浠汇€佷腑鍥界壒鑹茬ぞ浼氫富涔?|
 | [[缁冧範棰樹笌瑙ｆ瀽]] | 缁煎悎缁冧範棰樹笌璇︾粏瑙ｆ瀽 |
 - [[练习题与解析]]
+
 

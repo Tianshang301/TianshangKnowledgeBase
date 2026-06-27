@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [RedisDeep, Redis深度, Redis数据结构, Redis集群]
 tags: ['05_ComputerScience', 'Databases', 'Redis', 'Cache']
 created: 2026-06-27
@@ -575,11 +575,12 @@ values = redis_client.mget([f"key:{i}" for i in range(1000)])
 ## 相关条目
 
 - [[DatabasesAndInformationSystems]]
-- [[MessageQueues]]
-- [[HighConcurrencyDesign]]
+- [[05_ComputerScience/CloudComputingAndDistributedSystems/MessageQueues|MessageQueues]]
+- [[05_ComputerScience/SoftwareEngineering/HighConcurrencyDesign|HighConcurrencyDesign]]
 
 ## 参考资源
 
 1. Redis. "Documentation." redis.io
 2. Redis. "Redis University." university.redis.com
 3. Carlson, J. "Redis in Action." Manning, 2013
+

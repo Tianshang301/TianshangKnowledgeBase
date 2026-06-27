@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Harmony, 和声学, Harmony Overview]
 tags: ['06_ArtsAndCreativity', 'Music', 'Harmony', 'MusicTheory']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 和声学概论 (Harmony Overview)
@@ -175,3 +175,4 @@ flowchart LR
 ### 练习建议
 
 在钢琴上弹奏上述和弦进行，注意体会不同进行带来的情感色彩。配合耳训 (Ear Training) 训练，逐步建立对和弦功能的听觉认知。
+

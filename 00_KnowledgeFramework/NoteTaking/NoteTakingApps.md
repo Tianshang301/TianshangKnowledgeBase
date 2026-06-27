@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [NoteTakingApps]
 tags: ['00_KnowledgeFramework', 'NoteTaking']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 笔记应用对比
@@ -271,3 +271,4 @@ flowchart TD
 - [[课堂笔记]]
 - [[Markdown 工具与扩展]]
 - [[INDEX|当前目录索引]]
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Thread]
 tags: ['OperatingSystems', 'Thread']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 线程与并发 (Threads and Concurrency)
@@ -606,7 +606,9 @@ void* writer(void* arg) {
 ## 相关条目
 
 - [[Process]]
-- [[Concurrency]]
+- [[05_ComputerScience/ProgrammingLanguages/Go/Concurrency|Concurrency]]
 - [[死锁与并发控制]]
 - [[Scheduling]]
-- [[ProcessManagement]]
+- [[05_ComputerScience/OperatingSystems/ProcessManagement/ProcessManagement|ProcessManagement]]
+
+

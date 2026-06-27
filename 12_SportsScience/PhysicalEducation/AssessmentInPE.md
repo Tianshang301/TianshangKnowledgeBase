@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AssessmentInPE]
 tags: ['PhysicalEducation', 'AssessmentInPE']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 体育评估
@@ -193,3 +193,4 @@ Dartfish 和 Kinovea 是常用的运动分析软件。
 ## 相关条目
 
 体育教学、课程设计、适应体育教育、运动技能学习、体质健康标准、体育科学研究方法、形成性评价、终结性评价
+

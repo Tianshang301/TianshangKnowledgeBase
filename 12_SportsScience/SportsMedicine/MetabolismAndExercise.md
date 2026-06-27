@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MetabolismAndExercise, 运动与代谢]
 tags: ['12_SportsScience', 'SportsMedicine', 'Metabolism', 'ExercisePhysiology']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 运动与代谢 (Metabolism and Exercise)
@@ -245,5 +245,7 @@ $$EPOC = EPOC_{快速成分} + EPOC_{慢速成分}$$
 - [[Hydration|水合作用]]
 - [[SportsSupplements|运动补剂]]
 - [[RecoveryAndRegeneration|恢复与再生]]
-- [[EnduranceTraining|耐力训练]]
+- [[12_SportsScience/SportsTraining/EnduranceTraining|耐力训练]]
 - [[INDEX|SportsMedicine 索引]]
+
+

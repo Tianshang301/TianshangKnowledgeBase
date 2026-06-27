@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LogisticsManagement]
 tags: ['TransportationEngineering', 'Logistics', 'LogisticsManagement']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 物流管理 (Logistics Management)
@@ -236,7 +236,9 @@ $$Q^* = \sqrt{\frac{2DS}{H}}$$
 ## 相关条目
 
 - [[SupplyChain]]
-- [[TransportationEngineering]]
+- [[04_EngineeringAndTechnology/TransportationEngineering/TransportationEngineering|TransportationEngineering]]
 - [[Logistics]]
 - [[InventoryManagement]]
 - [[INDEX|TransportationEngineering 索引]]
+
+

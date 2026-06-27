@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MineSafety, 矿山安全]
 tags: ['04_EngineeringAndTechnology', 'GeologicalAndMiningEngineering', 'MiningEngineering', 'MineSafety']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 矿山安全 (Mine Safety)
@@ -221,3 +221,4 @@ flowchart TD
 - **矿工定位系统**：UWB 厘米级井下人员定位
 - **智能应急通信**：5G + Mesh 网络井下全覆盖
 - **虚拟现实培训**：VR 矿工安全模拟训练
+

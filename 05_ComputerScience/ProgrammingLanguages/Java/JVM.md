@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [JVM]
 tags: ['ProgrammingLanguages', 'Java', 'JVM']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # JVM 深入
@@ -342,3 +342,4 @@ jmap -heap <pid>
 jstack <pid>
 jstack <pid> | grep "BLOCKED"
 ```
+

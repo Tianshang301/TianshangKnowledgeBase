@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Logic]
 tags: ['Logic', 'MathematicalLogic', 'Logic']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 数理逻辑详解
@@ -126,3 +126,4 @@ $$\text{若 } P(1) \wedge \forall k(P(k) \to P(k+1)) \text{，则 } \forall n P(
 
 归纳：假设 $1 + \cdots + k = k(k+1)/2$，则：
 $$1 + \cdots + k + (k+1) = \frac{k(k+1)}{2} + (k+1) = \frac{(k+1)(k+2)}{2}$$ ✓
+

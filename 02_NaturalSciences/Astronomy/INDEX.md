@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Astronomy', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Astronomy
@@ -17,4 +17,5 @@ updated: 2026-05-13
 - [[PlanetaryScience/INDEX|PlanetaryScience]]
 - [[SpacePhysics/INDEX|SpacePhysics]]
 - [[StellarAstrophysics/INDEX|StellarAstrophysics]]
+
 

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [RelationalDatabases, RDBMS, SQLDatabases]
 tags: ['05_ComputerScience', 'DatabasesAndInformationSystems']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 关系数据库 Relational Databases
@@ -270,7 +270,9 @@ $$ \text{Cost}_{\text{Total}} = \text{Cost}_{\text{CPU}} \times \text{Cardinalit
 ## 相关条目
 
 - [[DatabaseSystemsOverview]]
-- [[ACID]]
-- [[SQL]]
+- [[05_ComputerScience/CloudComputingAndDistributedSystems/ACID|ACID]]
+- [[05_ComputerScience/ProgrammingLanguages/SQL|SQL]]
 - [[QueryOptimization]]
-- [[BigDataOverview]]
+- [[05_ComputerScience/CloudComputingAndDistributedSystems/BigDataOverview|BigDataOverview]]
+
+

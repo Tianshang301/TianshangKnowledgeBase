@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [InternationalRelations, 国际关系, IR]
 tags: ['RegionalAndCountryStudies', 'InternationalRelations', 'PoliticalScience', 'GlobalGovernance']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 国际关系
@@ -200,4 +200,6 @@ graph TD
 - [[03_HumanitiesAndSocialSciences/PoliticalScience/INDEX|PoliticalScience]]
 - [[ComparativePolitics]]
 - [[AreaStudies]]
-- [[GlobalGovernance]]
+- [[03_HumanitiesAndSocialSciences/InternationalRelations/GlobalGovernance|GlobalGovernance]]
+
+

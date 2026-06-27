@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [TaxAccounting]
 tags: ['BusinessAdministration', 'Accounting', 'TaxAccounting']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 税务会计
@@ -183,3 +183,4 @@ updated: 2026-05-13
 - 税法
 - 税务管理
 - 国际税收
+

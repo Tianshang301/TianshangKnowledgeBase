@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Maven]
 tags: ['ProgrammingLanguages', 'Java', 'Maven']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Maven 构建工具
@@ -460,3 +460,4 @@ common（工具类、DTO）
     </profiles>
 </settings>
 ```
+

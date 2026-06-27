@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Pharmacology]
 tags: ['BasicMedicalSciences', 'Pharmacology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 药理学
@@ -196,3 +196,4 @@ CYP2D6、CYP2C9和 CYP2C19等药物代谢酶具有遗传多态性，影响药物
 - 药剂学
 - 药物化学
 - 药物治疗学
+

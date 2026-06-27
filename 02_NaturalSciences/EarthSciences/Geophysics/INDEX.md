@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['EarthSciences', 'Geophysics', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Geophysics
@@ -12,3 +12,4 @@ updated: 2026-05-13
 ## 文件
 
 - [[Geophysics]]
+

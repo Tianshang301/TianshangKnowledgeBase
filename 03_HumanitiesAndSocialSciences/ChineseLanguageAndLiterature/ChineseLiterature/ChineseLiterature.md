@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ChineseLiterature]
 tags: ['ChineseLanguageAndLiterature', 'ChineseLiterature', 'ChineseLiterature']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 中国文学概论
@@ -152,7 +152,7 @@ updated: 2026-05-13
 
 ## 相关条目
 
-[[ChineseClassicalLiterature]] · [[ChineseModernLiterature]] · [[LiteraryTheory]] · [[ChineseHistory]]
+[[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/ChineseClassicalLiterature/ChineseClassicalLiterature|ChineseClassicalLiterature]] · [[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/ChineseModernLiterature/ChineseModernLiterature|ChineseModernLiterature]] · [[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/LiteraryTheory/LiteraryTheory|LiteraryTheory]] · [[03_HumanitiesAndSocialSciences/History/ChineseHistory/ChineseHistory|ChineseHistory]]
 
 ## 参考资源
 
@@ -289,3 +289,5 @@ updated: 2026-05-13
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+
+

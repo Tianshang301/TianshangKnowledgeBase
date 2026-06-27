@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [NuclearPhysics]
 tags: ['EnergyAndNuclearEngineering', 'NuclearEngineering', 'NuclearPhysics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 核物理学
@@ -206,6 +206,8 @@ $$\xi = 1 + \frac{(A-1)^2}{2A} \ln\frac{A-1}{A+1}$$
 ## 相关条目
 
 - [[NuclearPhysics]]
-- [[EnergySystems]]
+- [[12_SportsScience/ExercisePhysiology/EnergySystems|EnergySystems]]
 - RadiationProtection
 - ThermalEngineering
+
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [AIEthicsandPhilosophy]
 tags: ['ArtificialIntelligenceAndInterdisciplinary', 'AIEthicsandPhilosophy']
 created: 2026-05-16
@@ -192,4 +192,5 @@ $$ \text{奖励函数: } R^* = \arg\max_R \mathbb{E}_{\pi_R}[U(\text{人类偏�
 
 ## 相关条目
 
-[[07_InterdisciplinarySciences/CognitiveScience/INDEX|CognitiveScience]], [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]], [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]], [[AIEthics]]
+[[07_InterdisciplinarySciences/CognitiveScience/INDEX|CognitiveScience]], [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]], [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]], [[05_ComputerScience/ArtificialIntelligence/AIEthics/AIEthics|AIEthics]]
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CorporateFinance]
 tags: ['BusinessAdministration', 'Finance', 'CorporateFinance']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 公司金融
@@ -189,3 +189,4 @@ updated: 2026-05-13
 - 风险管理
 - 财务会计
 - 公司治理
+

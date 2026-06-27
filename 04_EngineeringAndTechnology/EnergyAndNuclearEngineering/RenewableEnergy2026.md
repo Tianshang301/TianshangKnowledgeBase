@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [RenewableEnergy2026, 可再生能源2026, 新能源技术]
 tags: ['04_EngineeringAndTechnology', 'Energy', 'RenewableEnergy']
 created: 2026-06-27
@@ -227,7 +227,7 @@ graph TD
 - [[RenewableEnergy]]
 - [[EnergyStorage]]
 - [[NuclearEngineering]]
-- [[EnvironmentalScience]]
+- [[07_InterdisciplinarySciences/EnvironmentalScience/EnvironmentalScience|EnvironmentalScience]]
 
 ## 参考资源
 
@@ -236,3 +236,4 @@ graph TD
 3. BloombergNEF. "New Energy Outlook 2024." 2024.
 4. NREL. "Best Research-Cell Efficiency Chart." 2024.
 5. ITER Organization. "ITER Project Status." 2024.
+

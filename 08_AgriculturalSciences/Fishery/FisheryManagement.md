@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FisheryManagement]
 tags: ['Fishery', 'FisheryManagement']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 渔业管理
@@ -318,3 +318,4 @@ IUU（Illegal, Unreported and Unregulated）捕捞是当前全球渔业面临的
 - Cochrane, K. L., & Garcia, S. M. (Eds.). (2009). *A Fishery Manager's Guidebook*. FAO/Wiley-Blackwell.
 - 联合国海洋法公约 (UNCLOS, 1982)
 - FAO 负责任渔业行为守则 (1995)
+

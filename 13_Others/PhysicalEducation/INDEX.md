@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['PhysicalEducation', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # PhysicalEducation
@@ -18,3 +18,4 @@ updated: 2026-05-13
 - [[13_Others/PhysicalEducation/Swimming/INDEX|Swimming]]
 - [[13_Others/PhysicalEducation/Yoga/INDEX|Yoga]]
 - [[../INDEX|Others]]
+

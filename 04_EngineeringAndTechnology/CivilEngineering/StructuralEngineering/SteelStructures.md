@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SteelStructures, 钢结构, 钢结设计]
 tags: ['CivilEngineering', 'StructuralEngineering', 'SteelStructures', 'MetalStructures']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 钢结构 (Steel Structures)
@@ -243,3 +243,4 @@ $$ E_{\text{阻尼器}} = \oint F \cdot du = \text{滞回环面积} $$
 - [[04_EngineeringAndTechnology/CivilEngineering/GeotechnicalEngineering/INDEX|GeotechnicalEngineering]]
 - [[EarthquakeEngineering]]
 - [[ConcreteStructures]]
+

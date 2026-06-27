@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CardiovascularResponse]
 tags: ['ExercisePhysiology', 'CardiovascularResponse']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 心血管反应
@@ -365,3 +365,4 @@ VO₂max 的提高是耐力训练追求的核心目标之一。
 ## 相关条目
 
 运动生理学、能量系统、耐力训练、运动与健康、高原训练、运动前医学筛查、运动与年龄、环境生理学
+

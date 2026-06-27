@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Epidemiology]
 tags: ['PublicHealth', 'Epidemiology']
 created: 2026-05-16
@@ -99,6 +99,7 @@ updated: 2026-05-19
 
 - [[Biostatistics]]
 - [[EnvironmentalHealth]]
-- [[MedicalMicrobiology]]
+- [[09_MedicineAndHealth/BasicMedicalSciences/MedicalMicrobiology|MedicalMicrobiology]]
 - [[HealthPolicyAndManagement]]
 - [[PublicHealth]]
+

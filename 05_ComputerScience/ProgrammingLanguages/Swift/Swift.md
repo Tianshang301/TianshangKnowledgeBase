@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Swift]
 tags: ['ProgrammingLanguages', 'Swift', 'Swift']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Swift
@@ -435,7 +435,7 @@ let package = Package(
 
 ## 相关条目
 
-- [[MobileDevelopment]]
+- [[05_ComputerScience/EngineeringDevelopment/MobileDevelopment/MobileDevelopment|MobileDevelopment]]
 - iOS
 - [[05_ComputerScience/ProgrammingLanguages/INDEX|ProgrammingLanguages]]
 - AppDevelopment
@@ -447,3 +447,5 @@ let package = Package(
 - [SwiftUI 教程](https://developer.apple.com/tutorials/swiftui)
 - 《Swift Programming: The Big Nerd Ranch Guide》
 - [Swift Package Index](https://swiftpackageindex.com/)
+
+

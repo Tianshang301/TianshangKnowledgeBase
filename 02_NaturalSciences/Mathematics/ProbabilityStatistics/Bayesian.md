@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Bayesian]
 tags: ['Mathematics', 'ProbabilityStatistics', 'Bayesian']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 贝叶斯统计
@@ -132,3 +132,4 @@ with pm.Model():
 ## 相关条目
 
 [[02_NaturalSciences/Mathematics/MathematicalAnalysis/INDEX|MathematicalAnalysis]], [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]], [[02_NaturalSciences/Mathematics/Algebra/INDEX|Algebra]], StatisticalInference
+

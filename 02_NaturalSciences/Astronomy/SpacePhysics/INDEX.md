@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Astronomy', 'SpacePhysics', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # SpacePhysics
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[SpacePhysics]]
 - [[绌洪棿鐗╃悊瀛]
 - [[空间物理学]]
+
 

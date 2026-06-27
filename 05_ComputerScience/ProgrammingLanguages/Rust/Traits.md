@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Traits]
 tags: ['ProgrammingLanguages', 'Rust', 'Traits']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Rust Trait 系统
@@ -268,3 +268,4 @@ impl Iterator for Range {
 let range = Range { start: 0, end: 5 };
 let collected: Vec<u32> = range.collect();  // [0, 1, 2, 3, 4]
 ```
+

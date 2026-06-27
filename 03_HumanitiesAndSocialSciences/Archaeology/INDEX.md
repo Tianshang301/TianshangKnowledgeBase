@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Archaeology', 'INDEX']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # Archaeology
@@ -16,11 +16,11 @@ updated: 2026-05-13
 - [[01_K12/JuniorHigh/History/INDEX|History]]
 - [[03_HumanitiesAndSocialSciences/Anthropology/INDEX|Anthropology]]
 - [[03_HumanitiesAndSocialSciences/Archaeology/CulturalRelics/INDEX]]
-- [[HistoricalGeography]]
+- [[03_HumanitiesAndSocialSciences/History/HistoricalGeography/HistoricalGeography|HistoricalGeography]]
 - [[03_HumanitiesAndSocialSciences/Archaeology/ArchaeologicalMethods/INDEX]]
-- [[ArchaeologicalTheory]]
-- [[ChineseArchaeology]]
-- [[WorldArchaeology]]
+- [[03_HumanitiesAndSocialSciences/History/Archaeology/ArchaeologicalTheory|ArchaeologicalTheory]]
+- [[03_HumanitiesAndSocialSciences/History/Archaeology/ChineseArchaeology|ChineseArchaeology]]
+- [[03_HumanitiesAndSocialSciences/History/Archaeology/WorldArchaeology|WorldArchaeology]]
 > **瀵艰埅**锛歔[../INDEX]] | [[../History/INDEX]] | [[../Anthropology/INDEX]]
 
 ## 娣卞叆闃呰涓庢墿灞曞垎鏋?
@@ -153,4 +153,6 @@ updated: 2026-05-13
 - [[HistoricalArchaeology/INDEX|HistoricalArchaeology]]
 - [[PrehistoricArchaeology/INDEX|PrehistoricArchaeology]]
 - [[UnderwaterArchaeology/INDEX|UnderwaterArchaeology]]
+
+
 

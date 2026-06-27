@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Anthropology', 'INDEX']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # Anthropology
@@ -13,9 +13,9 @@ updated: 2026-05-13
 
 瑙乕[../Archaeology/INDEX]]
 > 璇︾粏鍐呭璇疯 [[浜插睘鍒跺害涓庡叏鐞冨寲]]銆乕[浣撹川浜虹被瀛︿笌鑰冨彜瀛]
-- [[CulturalAnthropology]]
+- [[03_HumanitiesAndSocialSciences/EthnicStudies/CulturalAnthropology/CulturalAnthropology|CulturalAnthropology]]
 - [[PhysicalAnthropology]]
-- [[SocialAnthropology]]
+- [[03_HumanitiesAndSocialSciences/Sociology/SocialAnthropology|SocialAnthropology]]
 > **瀵艰埅**锛歔[../INDEX]] | [[../Archaeology/INDEX]] | [[../Sociology/INDEX]] | [[../Linguistics/INDEX]]
 - [[鏂囧寲浜虹被瀛]
 
@@ -147,4 +147,6 @@ updated: 2026-05-13
 - [[亲属制度与全球化]]
 - [[体质人类学与考古学]]
 - [[文化人类学]]
+
+
 

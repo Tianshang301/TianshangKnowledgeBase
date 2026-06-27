@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [UnitOperations]
 tags: ['ChemicalAndPharmaceuticalEngineering', 'ChemicalEngineering', 'UnitOperations']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 化工单元操作
@@ -103,6 +103,8 @@ $$\frac{p_1}{\rho} + \frac{u_1^2}{2} + gz_1 = \frac{p_2}{\rho} + \frac{u_2^2}{2}
 ## 相关条目
 - [[ProcessDesign]]
 - [[ReactionEngineering]]
-- [[FineChemicals]]
-- [[Thermodynamics]]
-- [[FluidMechanics]]
+- [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/FineChemicals/FineChemicals|FineChemicals]]
+- [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringThermophysics/Thermodynamics|Thermodynamics]]
+- [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/FluidMechanics|FluidMechanics]]
+
+

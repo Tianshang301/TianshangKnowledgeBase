@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Async]
 tags: ['ProgrammingLanguages', 'CSharp', 'Async']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # C# 异步编程
@@ -323,3 +323,4 @@ public class DataProcessor {
 
 public record Result(string Url, int ContentLength);
 ```
+

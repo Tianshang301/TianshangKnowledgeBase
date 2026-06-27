@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Concurrency]
 tags: ['ProgrammingLanguages', 'Rust', 'Concurrency']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Rust 并发编程
@@ -267,3 +267,4 @@ async fn main() {
 | CPU 密集任务 | 不适合（需 spawn_blocking） | 适合 |
 | 阻塞操作 | 会阻塞整个线程 | 只阻塞当前线程 |
 | 调试难度 | 较复杂 | 较直接 |
+

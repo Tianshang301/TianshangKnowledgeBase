@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['BasicMedicalSciences', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # BasicMedicalSciences
@@ -24,3 +24,4 @@ updated: 2026-05-13
 - [[09_MedicineAndHealth/ClinicalMedicine/INDEX|ClinicalMedicine]]
 - [[09_MedicineAndHealth/Pharmacy/INDEX|Pharmacy]]
 - [[Physiology]]
+

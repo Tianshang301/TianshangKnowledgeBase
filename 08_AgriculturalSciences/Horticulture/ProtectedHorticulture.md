@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ProtectedHorticulture]
 tags: ['Horticulture', 'ProtectedHorticulture']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 设施园艺学
@@ -271,4 +271,6 @@ $$
 
 ## 相关条目
 
-[[VegetableScience]], [[FruitScience]], [[OrnamentalHorticulture]], [[HorticulturalProductStorage]], [[08_AgriculturalSciences/PlantProtection/INDEX|PlantProtection]], [[SoilScience]]
+[[VegetableScience]], [[FruitScience]], [[OrnamentalHorticulture]], [[HorticulturalProductStorage]], [[08_AgriculturalSciences/PlantProtection/INDEX|PlantProtection]], [[08_AgriculturalSciences/AgriculturalResources/SoilScience|SoilScience]]
+
+

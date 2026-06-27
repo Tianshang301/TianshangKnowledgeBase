@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Docker, Containerization, 容器化, Dockerfile]
 tags: ['05_ComputerScience', 'SoftwareEngineering', 'Docker', 'DevOps']
 created: 2026-06-27
@@ -500,10 +500,11 @@ docker pull localhost:5000/my-image:latest
 
 - [[KubernetesDeep]]
 - [[CI-CD]]
-- [[DevOps]]
+- [[05_ComputerScience/SoftwareEngineering/DevOpsAndCICD/DevOps|DevOps]]
 
 ## 参考资源
 
 1. Docker. "Official Documentation." docs.docker.com
 2. Docker. "Best Practices." docs.docker.com/develop
 3. Docker. "Compose File Reference." docs.docker.com/compose
+

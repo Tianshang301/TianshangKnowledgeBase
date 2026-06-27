@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Physiotherapy]
 tags: ['Physiotherapy', 'Medicine', 'Rehabilitation', 'PhysicalTherapy']
 created: 2026-05-17
@@ -130,7 +130,8 @@ $$ \text{脑可塑性原理} \rightarrow \text{任务导向性训练} + \text{�
 ## 相关条目
 
 - [[MedicalPhysics]]
-- [[GaitAnalysis]]
-- [[IntervalTraining]]
+- [[12_SportsScience/GaitAnalysis|GaitAnalysis]]
+- [[12_SportsScience/IntervalTraining|IntervalTraining]]
 - [[健康与养生]]
 - [[INDEX|当前目录索引]]
+

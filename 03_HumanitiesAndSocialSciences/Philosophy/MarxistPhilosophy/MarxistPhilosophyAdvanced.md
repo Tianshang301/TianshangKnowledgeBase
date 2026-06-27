@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MarxistPhilosophyAdvanced]
 tags: ['Philosophy', 'MarxistPhilosophy', 'MarxistPhilosophyAdvanced']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 马克思主义哲学进阶
@@ -220,3 +220,4 @@ G. A. 柯亨（1941-2009）在《卡尔·马克思的历史理论：一个辩护
 - 阿尔都塞《保卫马克思》《阅读〈资本论〉》
 - G. A. 柯亨《卡尔·马克思的历史理论》
 - 孙正聿《马克思主义哲学基础》
+

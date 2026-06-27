@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [NeuralNetworks, 神经网络, ArtificialNeuralNetworks, ANN]
 tags: ['05_ComputerScience', 'ArtificialIntelligence', 'MachineLearning', 'NeuralNetworksAndDeepLearning', 'DeepLearning']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 神经网络（Neural Networks）
@@ -198,10 +198,12 @@ $$R(f) \leq R_{\text{emp}}(f) + \sqrt{\frac{h(\ln(2n/h)+1) - \ln(\delta/4)}{n}}$
 
 ## 相关条目
 
-- [[MachineLearning|机器学习]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/MachineLearning|机器学习]]
 - [[DeepLearning|深度学习]]
 - [[ConvolutionalNeuralNetworks|卷积神经网络]]
 - [[RecurrentNeuralNetworks|循环神经网络]]
 - [[Transformer|Transformer]]
-- [[Optimization|优化算法]]
+- [[05_ComputerScience/CompilerPrinciples/Optimization|优化算法]]
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/NeuralNetworksAndDeepLearning/INDEX|神经网络与深度学习索引]]
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MedicalNursing]
 tags: ['Nursing', 'MedicalNursing']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 内科护理学
@@ -207,3 +207,4 @@ COVID-19护理包括隔离管理（呼吸道隔离和接触隔离）、病情监
 - 护理学基础
 - 外科护理学
 - 临床护理技术
+

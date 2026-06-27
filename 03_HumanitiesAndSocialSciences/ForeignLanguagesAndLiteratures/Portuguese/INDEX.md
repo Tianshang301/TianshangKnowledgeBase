@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['ForeignLanguagesAndLiteratures', 'Portuguese', 'INDEX']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # Portuguese
@@ -139,4 +139,5 @@ updated: 2026-05-13
 - [[INDEX|褰撳墠鐩綍绱㈠紩]]
 - [[基础葡萄牙语]]
 - [[葡萄牙语语法进阶]]
+
 

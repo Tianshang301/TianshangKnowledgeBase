@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [InstructionSet]
 tags: ['ComputerOrganizationAndArchitecture', 'InstructionSet', 'InstructionSet']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 指令集 (Instruction Set Architecture)
@@ -320,8 +320,8 @@ J-type: [imm[20|10:1|11|19:12](20)][rd(5)][opcode(7)]
 
 ## 相关条目
 
-- [[CPUArchitecture]]
-- [[Assembly]]
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/CPUArchitecture/CPUArchitecture|CPUArchitecture]]
+- [[05_ComputerScience/ProgrammingLanguages/Assembly/Assembly|Assembly]]
 - RISC_V
 - [[05_ComputerScience/CompilerPrinciples/INDEX|CompilerPrinciples]]
 
@@ -332,3 +332,5 @@ J-type: [imm[20|10:1|11|19:12](20)][rd(5)][opcode(7)]
 - Intel 64 and IA-32 Architectures Manual
 - RISC-V Specifications (https://riscv.org/)
 - ARM Architecture Reference Manual
+
+

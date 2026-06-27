@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Containerization]
 tags: ['CloudComputing', 'Containerization']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 容器化 (Containerization)
@@ -283,8 +283,10 @@ jobs:
 
 ## 相关条目
 - [[Kubernetes]]
-- [[Microservices]]
+- [[05_ComputerScience/SoftwareEngineering/Microservices|Microservices]]
 - [[CI_CD]]
 - [[Virtualization]]
-- [[DevOps]]
+- [[05_ComputerScience/SoftwareEngineering/DevOpsAndCICD/DevOps|DevOps]]
 - [[INDEX|当前目录索引]]
+
+

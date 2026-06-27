@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ChinesePhilosophyHistory]
 tags: ['Philosophy', 'ChinesePhilosophy', 'ChinesePhilosophyHistory']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 中国哲学史
@@ -173,8 +173,8 @@ updated: 2026-05-13
 ## 相关条目
 
 - [[03_HumanitiesAndSocialSciences/Philosophy/WesternPhilosophy/INDEX|WesternPhilosophy]]
-- [[MarxistPhilosophy]]
-- [[Ethics]]
+- [[03_HumanitiesAndSocialSciences/Philosophy/MarxistPhilosophy/MarxistPhilosophy|MarxistPhilosophy]]
+- [[03_HumanitiesAndSocialSciences/Philosophy/Ethics/Ethics|Ethics]]
 - [[01_K12/JuniorHigh/History/INDEX|History]]
 
 ## 参考资源
@@ -312,3 +312,5 @@ updated: 2026-05-13
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+
+

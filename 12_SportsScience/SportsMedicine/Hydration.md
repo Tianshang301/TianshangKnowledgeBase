@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Hydration, 水合状态, 补水]
 tags: ['12_SportsScience', 'SportsMedicine', 'Hydration', 'FluidBalance', 'Performance']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 水合状态（Hydration）
@@ -225,3 +225,4 @@ graph LR
 - [[Electrolytes|电解质]]
 - [[Thermoregulation|体温调节]]
 - [[INDEX|SportsMedicine 索引]]
+

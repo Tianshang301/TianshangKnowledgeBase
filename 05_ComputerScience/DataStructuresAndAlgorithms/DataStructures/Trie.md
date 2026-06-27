@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Trie]
 tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'Trie']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 字典树 (Trie)
@@ -402,6 +402,8 @@ def find_maximum_xor(nums):
 
 - [[HashTable]]
 - [[Tree]]
-- [[StringAlgorithms]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/StringAlgorithms/StringAlgorithms|StringAlgorithms]]
 - [[BinarySearchTree]]
 - [[SegmentTree]]
+
+

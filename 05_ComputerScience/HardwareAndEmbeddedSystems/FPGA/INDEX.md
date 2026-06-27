@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['HardwareAndEmbeddedSystems', 'FPGA', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # FPGA
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[FPGA]]
 - [[Verilog 纭欢鎻忚堪璇█]] - Verilog 纭欢鎻忚堪璇█
 - [[Verilog硬件描述语言]]
+
 

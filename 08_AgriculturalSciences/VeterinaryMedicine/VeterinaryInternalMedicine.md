@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [VeterinaryInternalMedicine]
 tags: ['VeterinaryMedicine', 'VeterinaryInternalMedicine']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 兽医内科学
@@ -290,4 +290,6 @@ updated: 2026-05-13
 
 ## 相关条目
 
-[[08_AgriculturalSciences/AnimalScience/INDEX|AnimalScience]], [[VeterinaryPharmacology]], [[VeterinaryPathology]], [[VeterinarySurgery]], [[AnimalHealth]]
+[[08_AgriculturalSciences/AnimalScience/INDEX|AnimalScience]], [[VeterinaryPharmacology]], [[VeterinaryPathology]], [[VeterinarySurgery]], [[08_AgriculturalSciences/AnimalScience/AnimalHealth|AnimalHealth]]
+
+

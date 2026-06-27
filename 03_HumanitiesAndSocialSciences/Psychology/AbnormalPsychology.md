@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [AbnormalPsychology]
 tags: ['03_HumanitiesAndSocialSciences', 'Psychology', 'AbnormalPsychology']
 created: 2026-05-17
@@ -121,7 +121,7 @@ $$ P(\text{障碍}) = \text{先天素质} \times \text{环境应激} $$
 - [[PersonalityPsychology]]
 - [[WorkingMemory]]
 - [[Attention]]
-- [[SocialPsychology]]
+- [[03_HumanitiesAndSocialSciences/Sociology/SocialPsychology/SocialPsychology|SocialPsychology]]
 - [[INDEX|当前目录索引]]
 
 ## 深入阅读与扩展分析
@@ -452,3 +452,4 @@ $$ P(\text{障碍}) = \text{先天素质} \times \text{环境应激} $$
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+

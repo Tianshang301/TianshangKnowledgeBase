@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FreeRTOS]
 tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'STM32', 'FreeRTOS']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # FreeRTOS on STM32
@@ -378,3 +378,4 @@ int main(void) {
 3. **ISR 中调用非 FromISR 函数**：必须使用 `FromISR` 版本的 API
 4. **优先级反转**：使用互斥量（带优先级继承）而非二进制信号量
 5. **内存不足**：检查 `configTOTAL_HEAP_SIZE`，使用 heap_4 减少碎片
+

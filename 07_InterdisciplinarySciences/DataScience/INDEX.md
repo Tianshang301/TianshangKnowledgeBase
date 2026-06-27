@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['DataScience', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # DataScience
@@ -15,11 +15,13 @@ updated: 2026-05-13
 - [[BigDataAnalytics]] - 澶ф暟鎹垎鏋愶細澶勭悊涓庡垎鏋愭捣閲忔暟鎹殑鍒嗗竷寮忚绠楁鏋朵笌鏂规硶锛屾兜鐩?Hadoop銆丼park 绛夌敓鎬佺郴缁?
 - [[DataVisualization]] - 鏁版嵁鍙鍖栵細鏁版嵁鍥惧舰鍖栬〃绀虹殑鍘熺悊涓庢妧鏈紝鍖呮嫭缁熻鍥捐〃銆佷氦浜掑紡浠〃鐩樸€佷俊鎭彲瑙嗗寲绛?
 - [[MachineLearningBasics]] - 鏈哄櫒瀛︿範鍩虹锛氭満鍣ㄥ涔犳牳蹇冩蹇典笌绠楁硶锛屾兜鐩栫洃鐫ｅ涔犮€侀潪鐩戠潱瀛︿範銆佹ā鍨嬭瘎浼颁笌璋冧紭
-- [[Statistics]]
+- [[07_InterdisciplinarySciences/AppliedStatistics/Statistics|Statistics]]
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]]
-- [[BigDataTechnologies]]
-- [[InformationRetrieval]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/BigDataTechnologies/BigDataTechnologies|BigDataTechnologies]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/InformationRetrieval/InformationRetrieval|InformationRetrieval]]
 - [[DataMiningOverview]]
 - [[DataScience]]
 - [[DataVisualizationOverview]]
+
+
 

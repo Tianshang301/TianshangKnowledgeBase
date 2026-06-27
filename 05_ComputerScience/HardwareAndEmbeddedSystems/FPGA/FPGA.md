@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FPGA]
 tags: ['HardwareAndEmbeddedSystems', 'FPGA', 'FPGA']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # FPGA
@@ -259,10 +259,10 @@ void fir(int input, int output[1], int coeff[32]) {
 
 ## 相关条目
 
-- [[DigitalLogic]]
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/DigitalLogic/DigitalLogic|DigitalLogic]]
 - ComputerOrganization
-- [[Assembly]]
-- [[PCBDesign]]
+- [[05_ComputerScience/ProgrammingLanguages/Assembly/Assembly|Assembly]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/PCBDesign/PCBDesign|PCBDesign]]
 
 ## 参考资源
 
@@ -271,3 +271,5 @@ void fir(int input, int output[1], int coeff[32]) {
 - [Vivado Design Suite 用户指南](https://docs.xilinx.com/)
 - [Quartus Prime 文档](https://www.intel.com/content/www/us/en/docs/programmable/)
 - [OpenCores - 开源 IP 核](https://opencores.org/)
+
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Arduino 传感器与执行器]
 tags: ['HardwareAndEmbeddedSystems', 'Arduino', 'Arduino 传感器与执行器']
 ---
@@ -340,10 +340,10 @@ void enterSleep() {
 ## 相关条目
 
 - [[Arduino]]
-- [[RaspberryPi]]
-- [[IoT]]
-- [[Robotics]]
-- [[AnalogCircuits]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/RaspberryPi/RaspberryPi|RaspberryPi]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/IoT/IoT|IoT]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Robotics/Robotics|Robotics]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/AnalogCircuits/AnalogCircuits|AnalogCircuits]]
 
 ## 参考资源
 
@@ -354,3 +354,4 @@ void enterSleep() {
 5. 《Arduino 权威指南》Massimo Banzi 著
 6. MPU6050数据手册
 7. HC-SR04数据手册
+

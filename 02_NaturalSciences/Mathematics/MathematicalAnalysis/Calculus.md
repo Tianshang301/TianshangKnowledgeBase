@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 微积分
   - Calculus
@@ -7,7 +7,7 @@ aliases:
   - 积分学
 tags:
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
   - mathematics
   - analysis
   - calculus
@@ -268,3 +268,4 @@ graph LR
 参数曲线 $x = f(t), y = g(t)$ 的弧长：$L = \int_a^b \sqrt{(dx/dt)^2 + (dy/dt)^2} \, dt$
 
 极坐标面积：$A = \frac{1}{2} \int_\alpha^\beta r(\theta)^2 \, d\theta$
+

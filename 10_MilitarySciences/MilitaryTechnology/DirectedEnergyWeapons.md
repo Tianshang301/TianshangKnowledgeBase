@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [定向能武器, DirectedEnergyWeapons]
 tags: ['MilitaryScience', 'MilitaryTechnology', 'DirectedEnergy', 'LaserWeapons']
 created: 2026-06-27
@@ -213,6 +213,7 @@ AI 技术用于目标自动识别、威胁优先级排序和最优打击策略�
 - [[HypersonicTechnology]]
 - [[StealthTechnology]]
 - [[AutonomousWeapons]]
-- [[SpaceStrategy]]
+- [[10_MilitarySciences/ModernWarfare/SpaceStrategy|SpaceStrategy]]
 - [[MilitaryAI]]
-- [[ArmsAndServices]]
+- [[10_MilitarySciences/ArmsAndServices|ArmsAndServices]]
+

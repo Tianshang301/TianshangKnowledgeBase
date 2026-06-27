@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Bioremediation, 生物修复]
 tags: ['EnvironmentalScienceAndEngineering', 'EnvironmentalBiology', 'Bioremediation']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 生物修复 (Bioremediation)
@@ -161,6 +161,8 @@ $$
 
 - [[Ecotoxicology]]
 - [[EcologicalEngineering]]
-- [[WastewaterTreatment]]
-- [[WaterChemistry]]
-- [[AirChemistry]]
+- [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalEngineering/WastewaterTreatment|WastewaterTreatment]]
+- [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalChemistry/WaterChemistry|WaterChemistry]]
+- [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalChemistry/AirChemistry|AirChemistry]]
+
+

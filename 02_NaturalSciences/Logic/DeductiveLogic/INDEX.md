@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Logic', 'DeductiveLogic', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # DeductiveLogic
@@ -14,7 +14,9 @@ updated: 2026-05-13
 - [[鍛介閫昏緫涓庢帹鐞嗚鍒橾]
 - [[璋撹瘝閫昏緫涓庡舰寮忕郴缁焆]
 - [[02_NaturalSciences/Logic/MathematicalLogic/INDEX|MathematicalLogic]]
-- [[SetTheory]]
+- [[02_NaturalSciences/Logic/MathematicalLogic/SetTheory|SetTheory]]
 - [[命题逻辑与推理规则]]
 - [[谓词逻辑与形式系统]]
+
+
 

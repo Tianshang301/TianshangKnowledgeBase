@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [ComputerArchitecture2026, 计算机体系结构2026, RISC-V, AI加速器]
 tags: ['05_ComputerScience', 'ComputerArchitecture', 'RISC-V', 'AI']
 created: 2026-06-27
@@ -211,9 +211,9 @@ $$
 ## 相关条目
 
 - [[ComputerOrganizationAndArchitecture]]
-- [[ParallelArchitecture]]
-- [[CacheMemory]]
-- [[InstructionSetArchitecture]]
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/ParallelArchitecture|ParallelArchitecture]]
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/CacheMemory|CacheMemory]]
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/InstructionSetArchitecture|InstructionSetArchitecture]]
 
 ## 参考资源
 
@@ -222,3 +222,4 @@ $$
 3. AMD. "CDNA 3 Architecture." 2023.
 4. Intel. "Meteor Lake Architecture Deep Dive." 2023.
 5. UCIe Consortium. "UCIe 1.0 Specification." 2022.
+

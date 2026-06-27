@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MeasurementTheory]
 tags: ['MechanicalAndElectricalEngineering', 'InstrumentScience', 'MeasurementTheory']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 测量理论
@@ -142,6 +142,8 @@ $$b = \frac{n\sum x_iy_i - \sum x_i\sum y_i}{n\sum x_i^2 - (\sum x_i)^2}$$
 ## 相关条目
 
 - [[SensorTechnology]]
-- [[SystemAnalysis]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/SystemsEngineering/SystemAnalysis|SystemAnalysis]]
 - QualityControl
 - [[04_EngineeringAndTechnology/ElectronicsAndCommunications/SignalProcessing/INDEX|SignalProcessing]]
+
+

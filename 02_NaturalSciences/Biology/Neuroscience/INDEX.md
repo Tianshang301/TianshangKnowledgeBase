@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Biology', 'Neuroscience', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Neuroscience
@@ -17,4 +17,5 @@ updated: 2026-05-13
 - [[感觉与运动系统]]
 - [[神经元与突触传递]]
 - [[神经系统的结构与功能]]
+
 

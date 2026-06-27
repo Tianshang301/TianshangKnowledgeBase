@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Music', 'MusicProduction', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # MusicProduction
@@ -16,4 +16,5 @@ updated: 2026-05-13
 - [[混音与母带处理]]
 - [[音乐制作与录音]]
 - [[音乐制作技术]]
+
 

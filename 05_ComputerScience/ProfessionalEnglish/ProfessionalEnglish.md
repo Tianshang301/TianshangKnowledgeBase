@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ProfessionalEnglish]
 tags: ['ProfessionalEnglish', 'ProfessionalEnglish']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 专业英语完全指南
@@ -330,10 +330,10 @@ This paper presents a novel approach...
 
 ## 相关条目
 
-- [[AcademicWriting]]
+- [[13_Others/AcademicWriting/AcademicWriting|AcademicWriting]]
 - TechnicalWriting
-- [[ScientificCommunication]]
-- [[LanguageLearning]]
+- [[13_Others/ScientificCommunication/ScientificCommunication|ScientificCommunication]]
+- [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/LanguageLearning/LanguageLearning|LanguageLearning]]
 
 ## 参考资源
 
@@ -343,3 +343,5 @@ This paper presents a novel approach...
 - ACM 模板: https://www.acm.org/publications/proceedings-template
 - Grammarly 写作助手: https://www.grammarly.com
 - 《The Elements of Style》— Strunk & White
+
+

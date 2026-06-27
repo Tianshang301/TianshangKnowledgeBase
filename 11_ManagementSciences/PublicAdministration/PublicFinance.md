@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [PublicFinance]
 tags: ['PublicAdministration', 'PublicFinance']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 公共财政
@@ -205,3 +205,4 @@ updated: 2026-05-13
 - 财政学
 - 政府预算
 - 税收制度
+

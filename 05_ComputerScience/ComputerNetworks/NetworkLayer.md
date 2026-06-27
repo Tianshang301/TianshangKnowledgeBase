@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [NetworkLayer]
 tags: ['ComputerNetworks', 'NetworkLayer']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 网络层详解 (Network Layer)
@@ -392,4 +392,6 @@ birdc show route all             # 查看 BGP 路由
 - [[TransportLayer]]
 - [[LinkLayer]]
 - [[DNS]]
-- [[NetworkModels]]
+- [[05_ComputerScience/ComputerNetworks/NetworkModels/NetworkModels|NetworkModels]]
+
+

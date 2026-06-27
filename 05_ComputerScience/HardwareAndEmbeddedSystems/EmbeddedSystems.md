@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [EmbeddedSystems, 嵌入式系统]
 tags: ['05_ComputerScience', 'HardwareAndEmbeddedSystems']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 嵌入式系统 (Embedded Systems)
@@ -187,8 +187,10 @@ EDF 利用率上限为 100%，但实现复杂性更高。
 ## 相关条目
 
 - [[EmbeddedSystemsOverview|嵌入式系统概述]]
-- [[IoTOverview|物联网 (IoT)]]
-- [[RoboticsOverview|机器人学 (Robotics)]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/IoT/IoTOverview|物联网 (IoT)]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Robotics/RoboticsOverview|机器人学 (Robotics)]]
 - [[ComputerArchitecture|计算机体系结构]]
 - [[RealTimeSystems|实时系统]]
 - [[CProgramming|C 语言编程]]
+
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [CADCAM]
 tags: ['MechanicalAndElectricalEngineering', 'MechanicalEngineering', 'CADCAM']
 created: 2026-05-16
@@ -181,5 +181,6 @@ $$MRR = \frac{a_p \cdot a_e \cdot v_f \cdot a}{1000}$$
 
 - [[ManufacturingProcess]]
 - [[MachineDesign]]
-- [[RoboticsBasics]]
-- [[IndustrialAutomation]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/Mechatronics/RoboticsBasics|RoboticsBasics]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/Automation/IndustrialAutomation|IndustrialAutomation]]
+

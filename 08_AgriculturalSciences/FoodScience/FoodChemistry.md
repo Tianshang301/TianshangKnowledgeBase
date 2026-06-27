@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FoodChemistry]
 tags: ['FoodScience', 'FoodChemistry']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 食品化学
@@ -233,3 +233,4 @@ $$V_T = V_A + V_R = -\frac{A}{12\pi h^2} + 2\pi\varepsilon r \psi_0^2 \exp(-\kap
 3. Damodaran S, Parkin K L. Fennema's Food Chemistry. 5th ed. CRC Press, 2017.
 4. 王璋, 许时婴, 汤坚. 食品化学. 中国轻工业出版社, 2011.
 5. 阚建全. 食品化学. 第3版. 中国农业大学出版社, 2016.
+

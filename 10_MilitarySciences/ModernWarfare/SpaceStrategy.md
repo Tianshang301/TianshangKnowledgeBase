@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [太空战略, SpaceStrategy]
 tags: ['MilitaryScience', 'ModernWarfare', 'SpaceStrategy', 'SpaceSecurity']
 created: 2026-06-27
@@ -246,7 +246,8 @@ Space Control、Space Denial 和 Space Power Projection 等作战概念不断涌
 
 - [[InformationWarfare]]
 - [[CyberWarfare]]
-- [[MilitaryAI]]
-- [[DirectedEnergyWeapons]]
-- [[NationalDefenseEconomy]]
-- [[ArmsAndServices]]
+- [[10_MilitarySciences/MilitaryTechnology/MilitaryAI|MilitaryAI]]
+- [[10_MilitarySciences/MilitaryTechnology/DirectedEnergyWeapons|DirectedEnergyWeapons]]
+- [[10_MilitarySciences/NationalDefense/NationalDefenseEconomy|NationalDefenseEconomy]]
+- [[10_MilitarySciences/ArmsAndServices|ArmsAndServices]]
+

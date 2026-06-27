@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Config]
 tags: ['OperatingSystems', 'Linux', 'Config']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Vim 配置指南
@@ -373,3 +373,4 @@ vim.api.nvim_create_autocmd('FileType', {
 - [[Basics]]
 - [[Bash]]
 - [[Environment]]
+

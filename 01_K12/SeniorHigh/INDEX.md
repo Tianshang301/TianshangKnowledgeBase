@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['SeniorHigh', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # SeniorHigh
@@ -21,3 +21,4 @@ updated: 2026-05-13
 - [[01_K12/JuniorHigh/Physics/INDEX|物理]]
 - [[01_K12/JuniorHigh/Politics/INDEX|政治]]
 - [[../INDEX|K12 教育]]
+

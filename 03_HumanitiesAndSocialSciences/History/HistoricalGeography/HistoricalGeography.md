@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [HistoricalGeography]
 tags: ['History', 'HistoricalGeography', 'HistoricalGeography']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 历史地理学
@@ -202,9 +202,9 @@ $$ \text{Who rules the World-Island commands the World.} $$
 
 ## 相关条目
 
-- [[ChineseHistory]]
-- [[WorldHistory]]
-- [[Cartography]]
+- [[03_HumanitiesAndSocialSciences/History/ChineseHistory/ChineseHistory|ChineseHistory]]
+- [[03_HumanitiesAndSocialSciences/History/WorldHistory/WorldHistory|WorldHistory]]
+- [[02_NaturalSciences/EarthSciences/Cartography/Cartography|Cartography]]
 - GIS
 
 ## 参考资源
@@ -219,3 +219,5 @@ $$ \text{Who rules the World-Island commands the World.} $$
 8. Spykman, N. (1944). *The Geography of the Peace*. New York: Harcourt.
 9. 史念海（1991）。《中国历史地理纲要》。太原：山西人民出版社。
 10. CHGIS (2004—). China Historical GIS. Harvard University & Fudan University.
+
+

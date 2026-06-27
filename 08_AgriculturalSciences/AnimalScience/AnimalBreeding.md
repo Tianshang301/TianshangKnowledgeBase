@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AnimalBreeding]
 tags: ['AnimalScience', 'AnimalBreeding']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 动物育种学
@@ -285,3 +285,4 @@ $$ \text{配合力} = \frac{\text{特定组合后代均值} - \text{所有组合
 ## 相关条目
 
 [[AnimalGenetics]], [[FeedScience]], [[08_AgriculturalSciences/VeterinaryMedicine/INDEX|VeterinaryMedicine]], [[LivestockEconomics]]
+

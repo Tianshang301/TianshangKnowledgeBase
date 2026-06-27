@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [NetworkProtocols]
 tags: ['ComputerNetworks', 'NetworkProtocols', 'NetworkProtocols']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 网络协议 (Network Protocols)
@@ -340,9 +340,9 @@ SNMP 用于网络设备监控和管理。
 
 ## 相关条目
 
-- [[NetworkSecurity]]
-- [[WirelessNetworks]]
-- [[Cybersecurity]]
+- [[05_ComputerScience/Cybersecurity/NetworkSecurity|NetworkSecurity]]
+- [[05_ComputerScience/ComputerNetworks/WirelessNetworks/WirelessNetworks|WirelessNetworks]]
+- [[05_ComputerScience/Cybersecurity/Cybersecurity|Cybersecurity]]
 
 ## 参考资源
 
@@ -350,3 +350,5 @@ SNMP 用于网络设备监控和管理。
 - IETF RFC 文档
 - 《计算机网络：自顶向下方法》(Kurose & Ross)
 - MDN Web 文档 (HTTP)
+
+

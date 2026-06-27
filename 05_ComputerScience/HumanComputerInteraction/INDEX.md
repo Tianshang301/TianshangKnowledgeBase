@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['HumanComputerInteraction', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # HumanComputerInteraction
@@ -18,4 +18,5 @@ updated: 2026-05-13
 - [[UserExperience]] - 鐢ㄦ埛浣撻獙
 - [[UserInterfaceDesign]] - 鐢ㄦ埛鐣岄潰璁捐
 - [[HCIOverview]]
+
 

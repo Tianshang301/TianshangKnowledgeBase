@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [NumericalAnalysis, 数值分析, ScientificComputing, 科学计算, ApproximationTheory]
 tags: ['02_NaturalSciences', 'Mathematics', 'ComputationalMathematics', 'ScientificComputing']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 数值分析 Numerical Analysis
@@ -208,10 +208,12 @@ $$
 
 ## 相关条目
 
-- [[AppliedMathematics]]
-- [[ComputationalMathematics]]
-- [[MachineLearning]]
-- [[Physics]]
-- [[DataScience]]
+- [[02_NaturalSciences/Mathematics/AppliedMathematics|AppliedMathematics]]
+- [[02_NaturalSciences/Mathematics/ComputationalMathematics|ComputationalMathematics]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/MachineLearning|MachineLearning]]
+- [[02_NaturalSciences/Physics/Physics|Physics]]
+- [[07_InterdisciplinarySciences/DataScience/DataScience|DataScience]]
 - [[FluidDynamics]]
 - [[OptimizationTheory]]
+
+

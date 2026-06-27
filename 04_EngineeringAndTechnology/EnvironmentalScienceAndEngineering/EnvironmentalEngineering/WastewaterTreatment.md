@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [WastewaterTreatment, 废水处理, Water and Wastewater Treatment, Sewage Treatment, WWT]
 tags: ['EnvironmentalScienceAndEngineering', 'EnvironmentalEngineering', 'WastewaterTreatment', 'WaterTreatment']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 废水处理
@@ -268,3 +268,4 @@ graph TD
 - 任南琪等. (2019). 《废水生物处理原理》. 哈尔滨工业大学出版社.
 - US EPA. (2023). *Guidelines for Water Reuse*.
 - GB/T 51345 — 2018. 《海绵城市建设评价标准》.
+

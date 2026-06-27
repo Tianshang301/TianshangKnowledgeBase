@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SetTheory]
 tags: ['Logic', 'MathematicalLogic', 'SetTheory']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 集合论详解
@@ -143,3 +143,4 @@ $$\aleph_0 + \aleph_0 = \aleph_0, \quad \aleph_0 \cdot \aleph_0 = \aleph_0, \qua
 ### 连续统假设
 
 不存在基数严格介于 $\aleph_0$（可数）和 $2^{\aleph_0}$（连续统）之间的集合。
+

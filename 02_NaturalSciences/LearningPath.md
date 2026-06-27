@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LearningPath]
 tags: ['LearningPath']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 自然科学学习路线图
@@ -131,3 +131,4 @@ updated: 2026-05-13
 4. **跨学科思维**：生物需要化学，化学需要物理，物理需要数学
 5. **保持好奇心**：看到自然现象多问为什么
 6. **关注前沿**：读科普杂志（Scientific American、New Scientist）
+

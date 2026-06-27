@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['ForeignLanguagesAndLiteratures', 'INDEX']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # ForeignLanguagesAndLiteratures
@@ -29,12 +29,12 @@ updated: 2026-05-13
 - [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/Thai/INDEX|娉拌]]
 - [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/TranslationStudies/INDEX|缈昏瘧鐮旂┒]]
 - [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/Vietnamese/INDEX|瓒婂崡璇璢]
-- [[AppliedLinguistics]]
+- [[03_HumanitiesAndSocialSciences/Linguistics/AppliedLinguistics|AppliedLinguistics]]
 - [[EnglishLanguageAndLiterature]]
 - [[FrenchLanguageAndLiterature]]
 - [[GermanLanguageAndLiterature]]
 - [[JapaneseLanguageAndLiterature]]
-- [[Linguistics]]
+- [[03_HumanitiesAndSocialSciences/Linguistics/Linguistics|Linguistics]]
 - [[RussianLanguageAndLiterature]]
 - [[SpanishLanguageAndLiterature]]
 - [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/TranslationStudies/INDEX]]
@@ -165,4 +165,6 @@ updated: 2026-05-13
 ## 鐩稿叧鏉＄洰
 - [[INDEX|褰撳墠鐩綍绱㈠紩]]
 - [[WorldLiterature]]
+
+
 

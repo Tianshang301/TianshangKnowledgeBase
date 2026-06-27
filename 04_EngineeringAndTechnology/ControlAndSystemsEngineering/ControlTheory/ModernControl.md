@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ModernControl]
 tags: ['ControlAndSystemsEngineering', 'ControlTheory', 'ModernControl']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 现代控制
@@ -191,6 +191,8 @@ $$A^T P + PA - PBR^{-1}B^T P + Q = 0$$
 
 ## 相关条目
 
-- [[Robotics]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Robotics/Robotics|Robotics]]
 - AI/ReinforcementLearning
 - [[04_EngineeringAndTechnology/ElectronicsAndCommunications/SignalProcessing/INDEX|SignalProcessing]]
+
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [VisualCulture, VisualStudies, 视觉文化]
 tags: ['VisualCulture', 'CulturalStudies', 'ArtsAndCreativity', 'MediaStudies']
 created: 2026-05-17
@@ -144,7 +144,8 @@ $$ \text{图像学分析（Iconological）} \rightarrow \text{揭示深层的文
 ## 相关条目
 
 - [[VisualArts]]
-- [[FilmTheory]]
+- [[06_ArtsAndCreativity/DramaAndFilm/FilmTheory|FilmTheory]]
 - [[ArtCriticism]]
 - [[Museology]]
 - [[INDEX|当前目录索引]]
+

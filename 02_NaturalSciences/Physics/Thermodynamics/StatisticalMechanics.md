@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [StatisticalMechanics, 统计力学, 统计物理, 系综, StatisticalPhysics, PartitionFunction, BoltzmannDistribution]
 tags: ['02_NaturalSciences', 'Physics', 'Thermodynamics', 'StatisticalMechanics', 'QuantumMechanics']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 统计力学 (Statistical Mechanics)
@@ -234,3 +234,4 @@ $$ \overline{(\Delta N)^2} = k_B T \left(\frac{\partial \langle N \rangle}{\part
 
 - [[02_NaturalSciences/Physics/Thermodynamics/Entropy\|熵 (Entropy)]]
 - [[02_NaturalSciences/Physics/Thermodynamics/INDEX\|热力学索引]]
+

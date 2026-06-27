@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [UNESCOFramework, UNESCO 学科分类, UNESCO Basic Sciences Classification]
 tags: ['ClassificationMappings', 'UNESCO', 'KnowledgeFramework', 'Taxonomy']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 联合国教科文组织基础科学分类体系 (UNESCO Basic Sciences Classification Framework)
@@ -210,9 +210,11 @@ UNESCO 分类体系是全球教育统计（Education Statistics）和科技统�
 ## 相关条目
 
 - [[00_KnowledgeFramework/KnowledgeGraph/INDEX|KnowledgeGraph]]
-- [[CrossDisciplinaryLinks]]
+- [[00_KnowledgeFramework/KnowledgeGraph/CrossDisciplinaryLinks|CrossDisciplinaryLinks]]
 - [[InformationArchitecture]]
 - [[OECDClassification]]
 - [[Taxonomy]]
-- [[KnowledgeManagement]]
+- [[11_ManagementSciences/LibraryAndArchive/KnowledgeManagement|KnowledgeManagement]]
 - [[ISCED]]
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ComputerVision, CV, ImageProcessing, ObjectDetection]
 tags: ['05_ComputerScience', 'ArtificialIntelligence', 'ComputerVision', 'DeepLearning']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 计算机视觉 (Computer Vision)
@@ -248,3 +248,4 @@ $$x_t = \sqrt{1 - \beta_t} \cdot x_{t-1} + \sqrt{\beta_t} \cdot \epsilon$$
 4. **多模态视觉语言模型**：CLIP, BLIP, SAM
 5. **NeRF (Neural Radiance Fields)**：神经渲染与3D 重建
 6. **Foundation Models in CV**：SAM, DINOv2 等通用视觉模型
+

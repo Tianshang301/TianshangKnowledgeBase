@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['MetallurgicalEngineering', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # MetallurgicalEngineering
@@ -15,3 +15,4 @@ updated: 2026-05-13
 - [[04_EngineeringAndTechnology/MetallurgicalEngineering/MaterialsProcessing/INDEX]]
 - [[04_EngineeringAndTechnology/MetallurgicalEngineering/PhysicalMetallurgy/INDEX]]
 - [[../INDEX]]
+

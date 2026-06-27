@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ImageProcessing]
 tags: ['ElectronicsAndCommunications', 'SignalProcessing', 'ImageProcessing']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 图像处理
@@ -132,7 +132,9 @@ $$s = T(r) = (L-1)\int_0^r p_r(w)dw$$
 ## 相关条目
 
 - [[DigitalSignalProcessing]]
-- [[ComputerVision]]
+- [[05_ComputerScience/ArtificialIntelligence/ComputerVision/ComputerVision|ComputerVision]]
 - [[02_NaturalSciences/Physics/Optics/INDEX|Optics]]
-- [[ArtificialIntelligence]]
-- [[ICDesign]]
+- [[07_InterdisciplinarySciences/CognitiveScience/ArtificialIntelligence|ArtificialIntelligence]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Microelectronics/ICDesign|ICDesign]]
+
+

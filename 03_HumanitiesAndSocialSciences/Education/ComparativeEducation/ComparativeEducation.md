@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ComparativeEducation]
 tags: ['Education', 'ComparativeEducation', 'ComparativeEducation']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 比较教育学
@@ -242,8 +242,8 @@ $$\text{经济增长} = f(\text{物质资本}, \text{人力资本}, \text{技术
 
 ## 相关条目
 
-- [[Pedagogy]]
-- [[CurriculumTheory]]
+- [[03_HumanitiesAndSocialSciences/Education/Pedagogy/Pedagogy|Pedagogy]]
+- [[03_HumanitiesAndSocialSciences/Education/CurriculumTheory/CurriculumTheory|CurriculumTheory]]
 - EducationalPolicy
 - InternationalEducation
 
@@ -257,3 +257,5 @@ $$\text{经济增长} = f(\text{物质资本}, \text{人力资本}, \text{技术
 6. 朱旭东、宋萑（2015）。《比较教育学的理论与方法——国外比较教育理论译介》。北京：教育科学出版社。
 7. Arnove, R. F., Torres, C. A., & Franz, S. (2013). *Comparative Education: The Dialectic of the Global and the Local*. Lanham: Rowman & Littlefield.
 8. 联合国教科文组织（2016）。《反思教育：向"全球共同利益"的理念转变？》。巴黎：UNESCO。
+
+

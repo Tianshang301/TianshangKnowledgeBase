@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [HorticulturalProductStorage]
 tags: ['Horticulture', 'HorticulturalProductStorage']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 园艺产品贮藏加工
@@ -255,3 +255,4 @@ $$
 ## 相关条目
 
 [[PostharvestTechnology]], [[FruitScience]], [[VegetableScience]], [[ProtectedHorticulture]], [[08_AgriculturalSciences/FoodScience/INDEX|FoodScience]], [[08_AgriculturalSciences/CropScience/INDEX|CropScience]]
+

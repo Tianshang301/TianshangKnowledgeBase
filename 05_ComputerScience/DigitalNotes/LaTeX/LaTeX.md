@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LaTeX]
 tags: ['DigitalNotes', 'LaTeX', 'LaTeX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # LaTeX 完全指南
@@ -393,9 +393,9 @@ Overleaf 是最流行的在线 LaTeX 编辑器：
 
 ## 相关条目
 
-- [[Markdown]]
-- [[AcademicWriting]]
-- [[ProfessionalEnglish]]
+- [[05_ComputerScience/DigitalNotes/Markdown/Markdown|Markdown]]
+- [[13_Others/AcademicWriting/AcademicWriting|AcademicWriting]]
+- [[05_ComputerScience/ProfessionalEnglish/ProfessionalEnglish|ProfessionalEnglish]]
 - Typesetting
 
 ## 参考资源
@@ -406,3 +406,5 @@ Overleaf 是最流行的在线 LaTeX 编辑器：
 - 《The LaTeX Companion》— Mittelbach 等
 - BibTeX 样式指南: https://www.bibtex.com
 - CTAN (宏包仓库): https://ctan.org
+
+

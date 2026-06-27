@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [BigDataOverview, BigDataIntro]
 tags: ['05_ComputerScience', 'CloudComputingAndDistributedSystems']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 大数据概述 Big Data Overview
@@ -237,6 +237,8 @@ ML 管道与大数据平台的融合趋势包括：
 ## 相关条目
 
 - [[BigData]]
-- [[DataMining]]
+- [[07_InterdisciplinarySciences/DataScience/DataMining|DataMining]]
 - [[CloudComputing]]
-- [[DatabaseSystemsOverview]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/DatabaseSystemsOverview|DatabaseSystemsOverview]]
+
+

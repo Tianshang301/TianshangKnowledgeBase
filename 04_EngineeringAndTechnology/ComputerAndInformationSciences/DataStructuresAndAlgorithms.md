@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DataStructuresAndAlgorithms]
 tags: ['ComputerAndInformationSciences', 'DataStructuresAndAlgorithms']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 数据结构与算法
@@ -235,3 +235,4 @@ $$ T(n) = aT(n/b) + f(n) $$
 3. 严蔚敏, 吴伟民. 数据结构（C 语言版）. 清华大学出版社, 2012.
 4. Skiena S S. The Algorithm Design Manual. 3rd ed. Springer, 2020.
 5. Kleinberg J, Tardos E. Algorithm Design. Pearson, 2005.
+

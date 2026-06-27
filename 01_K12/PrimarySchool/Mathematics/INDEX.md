@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['PrimarySchool', 'Mathematics', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Mathematics
@@ -16,7 +16,9 @@ updated: 2026-05-13
 | [[WordProblems]] | 鍏稿瀷搴旂敤棰橈紙琛岀▼銆佸伐绋嬨€佺泩浜忕瓑锛?|
 | [[缁冧範棰樹笌瑙ｆ瀽]] | 缁煎悎缁冧範棰樹笌璇︾粏瑙ｆ瀽 |
 - [[01_K12/JuniorHigh/Mathematics/INDEX|Mathematics]]
-- [[Logic]]
+- [[02_NaturalSciences/Logic/MathematicalLogic/Logic|Logic]]
 - [[数学实验与探究]]
 - [[练习题与解析]]
+
+
 

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [OptimalControl]
 tags: ['ControlAndSystemsEngineering', 'ControlTheory', 'OptimalControl']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 最优控制
@@ -134,6 +134,8 @@ $$\min_{u_0,\ldots,u_{N-1}} \sum_{k=0}^{N-1}[x_k^TQx_k + u_k^TRu_k] + x_N^TPx_N$
 
 - [[ClassicalControl]]
 - [[ModernControl]]
-- [[RobotDynamics]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/Robotics/RobotDynamics|RobotDynamics]]
 - AI/ReinforcementLearning
-- [[SystemModeling]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/SystemsEngineering/SystemModeling|SystemModeling]]
+
+

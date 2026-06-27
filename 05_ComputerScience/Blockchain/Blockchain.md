@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Blockchain]
 tags: ['Blockchain', 'Blockchain']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 区块链技术完全指南
@@ -409,8 +409,8 @@ Layer 2 和分片技术正在尝试在不牺牲去中心化和安全性的前提
 ## 相关条目
 
 - Cryptography
-- [[Cybersecurity]]
-- [[DistributedSystems]]
+- [[05_ComputerScience/Cybersecurity/Cybersecurity|Cybersecurity]]
+- [[07_InterdisciplinarySciences/NetworkedInformationSystems/DistributedSystems|DistributedSystems]]
 - [[03_HumanitiesAndSocialSciences/Economics/INDEX|Economics]]
 
 ## 参考资源
@@ -421,3 +421,5 @@ Layer 2 和分片技术正在尝试在不牺牲去中心化和安全性的前提
 - 《Mastering Ethereum》— Andreas M. Antonopoulos & Gavin Wood
 - Solidity 官方文档: https://docs.soliditylang.org
 - OpenZeppelin 合约库: https://www.openzeppelin.com/contracts
+
+

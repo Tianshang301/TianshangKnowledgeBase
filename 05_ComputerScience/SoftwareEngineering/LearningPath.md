@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LearningPath]
 tags: ['SoftwareEngineering', 'LearningPath']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 工具链学习路线图
@@ -175,3 +175,4 @@ jobs:
 - **Docker**：Docker 官方文档 + Play with Docker
 - **正则**：RegexOne 交互式教学
 - **Vim**：vimtutor（终端直接运行）
+

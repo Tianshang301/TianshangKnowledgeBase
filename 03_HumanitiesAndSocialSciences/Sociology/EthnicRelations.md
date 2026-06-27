@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [EthnicRelations]
 tags: ['03_HumanitiesAndSocialSciences', 'Sociology', 'EthnicRelations']
 created: 2026-05-17
@@ -207,7 +207,7 @@ Kymlicka 辩护：
 - [[GenderStudies]]
 - [[PoliticalSociology]]
 - [[CulturalSociology]]
-- [[Ethnography]]
+- [[03_HumanitiesAndSocialSciences/Sociology/Ethnology/Ethnography|Ethnography]]
 - [[INDEX|当前目录索引]]
 
 ## 深入阅读与扩展分析
@@ -430,3 +430,4 @@ Kymlicka 辩护：
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+

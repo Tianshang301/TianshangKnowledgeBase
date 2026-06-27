@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [WorldMilitaryHistory]
 tags: ['MilitaryHistory', 'WorldMilitaryHistory']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 世界军事史
@@ -212,3 +212,4 @@ updated: 2026-05-13
 - 第二次世界大战
 - 军事技术史
 - 军事思想史
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Silviculture]
 tags: ['Forestry', 'Silviculture']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 造林学
@@ -244,4 +244,6 @@ $$ESV = \sum_{i=1}^{n} A_i \times V_i$$
 
 ## 相关条目
 
-[[Ecology]], [[WoodScience]], [[07_InterdisciplinarySciences/EnvironmentalScience/INDEX|EnvironmentalScience]], [[ForestManagement]], Agroforestry
+[[07_InterdisciplinarySciences/EnvironmentalScience/Ecology|Ecology]], [[WoodScience]], [[07_InterdisciplinarySciences/EnvironmentalScience/INDEX|EnvironmentalScience]], [[ForestManagement]], Agroforestry
+
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [AITrainingWorkflows, AI训练工作流, 模型训练流程, Training Pipeline]
 tags: ['05_ComputerScience', 'ArtificialIntelligence', 'MachineLearning', 'Training']
 created: 2026-06-27
@@ -958,10 +958,10 @@ $$
 ## 相关条目
 
 - [[MachineLearning]]
-- [[DeepLearning]]
-- [[NeuralNetworksAndDeepLearning]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/NeuralNetworksAndDeepLearning/DeepLearning|DeepLearning]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/NeuralNetworksAndDeepLearning/NeuralNetworksAndDeepLearning|NeuralNetworksAndDeepLearning]]
 - [[MLOverview]]
-- [[ModelArchitectures2026]]
+- [[05_ComputerScience/ArtificialIntelligence/ModelArchitectures/ModelArchitectures2026|ModelArchitectures2026]]
 - [[AIGC模型架构与应用]]
 
 ## 参考资源
@@ -974,3 +974,4 @@ $$
 6. DeepSpeed. "DeepSpeed Documentation." 2024.
 7. PyTorch. "Distributed Training Overview." 2024.
 8. MLOps Community. "MLOps Landscape." 2024.
+

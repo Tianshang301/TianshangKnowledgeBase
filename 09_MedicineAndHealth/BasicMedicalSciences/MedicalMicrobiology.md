@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MedicalMicrobiology]
 tags: ['BasicMedicalSciences', 'MedicalMicrobiology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 医学微生物学
@@ -201,3 +201,4 @@ A 类生物恐怖病原体包括炭疽芽胞杆菌（炭疽病）、鼠疫耶尔
 - 传染病学
 - 临床微生物学检验
 - 医院感染管理
+

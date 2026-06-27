@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [FreeRTOS 任务与同步]
 tags: ['HardwareAndEmbeddedSystems', 'RTOS', 'FreeRTOS']
 ---
@@ -357,7 +357,7 @@ taskEXIT_CRITICAL();
 - [[RTOS]]
 - [[进程调度与同步]]
 - [[死锁与并发控制]]
-- [[Concurrency]]
+- [[05_ComputerScience/ProgrammingLanguages/Go/Concurrency|Concurrency]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/Microcontrollers/STM32/INDEX|STM32]]
 
 ## 参考资料
@@ -369,3 +369,4 @@ taskEXIT_CRITICAL();
 5. STM32CubeMX + FreeRTOS 配置指南
 6. Amazon FreeRTOS 文档（已更名为 FreeRTOS）
 7. FreeRTOS + Tracealyzer 可视化分析工具
+

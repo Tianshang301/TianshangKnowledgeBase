@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AppliedStatistics, 应用统计学, 实用统计]
 tags: ['07_InterdisciplinarySciences', 'AppliedStatistics', 'DataScience', 'Engineering']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 应用统计学概论 Applied Statistics Overview
@@ -270,11 +270,13 @@ $$
 ## 相关条目
 
 - [[Statistics]]
-- [[DataMining]]
-- [[MachineLearning]]
-- [[NumericalAnalysis]]
-- [[ProbabilityTheory]]
+- [[07_InterdisciplinarySciences/DataScience/DataMining|DataMining]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/MachineLearning|MachineLearning]]
+- [[02_NaturalSciences/Mathematics/ComputationalMathematics/NumericalAnalysis|NumericalAnalysis]]
+- [[11_ManagementSciences/ManagementScienceAndEngineering/ProbabilityTheory|ProbabilityTheory]]
 - [[Biostatistics]]
-- [[Econometrics]]
+- [[03_HumanitiesAndSocialSciences/Economics/Econometrics/Econometrics|Econometrics]]
 - [[StatisticalQualityControl]]
 - [[ExperimentalDesign]]
+
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [AtmosphericChemistry]
 tags: ['04_EngineeringAndTechnology', 'EnvironmentalScienceAndEngineering', 'EnvironmentalChemistry', 'AtmosphericChemistry']
 created: 2026-05-17
@@ -312,4 +312,5 @@ AQI（Air Quality Index）计算基于六种污染物分级：
 
 ## 相关条目
 - [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalChemistry/INDEX|当前目录索引]]
-- [[SoilAndWaterConservation]]
+- [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalEngineering/SoilAndWaterConservation|SoilAndWaterConservation]]
+

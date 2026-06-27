@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [PhysicalTherapy]
 tags: ['12_SportsScience', 'SportsMedicine']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 物理治疗 (Physical Therapy)
@@ -207,3 +207,4 @@ graph TD
 - [[SportsMassageAndManualTherapy]]
 - [[ExercisePhysiology]]
 - [[INDEX|SportsMedicine 索引]]
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [OperationsManagement]
 tags: ['ManagementScienceAndEngineering', 'OperationsManagement']
 created: 2026-05-19
@@ -117,6 +117,7 @@ updated: 2026-05-19
 - [[SupplyChainManagement]]
 - [[QualityManagement]]
 - [[ProjectManagement]]
-- [[ManagementPrinciples]]
-- [[LogisticsSupportSystems]]
+- [[11_ManagementSciences/BusinessAdministration/ManagementPrinciples|ManagementPrinciples]]
+- [[10_MilitarySciences/MilitaryLogistics/LogisticsSupportSystems|LogisticsSupportSystems]]
 - [[DecisionScience]]
+

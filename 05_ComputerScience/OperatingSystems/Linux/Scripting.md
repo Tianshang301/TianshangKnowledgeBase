@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Scripting]
 tags: ['OperatingSystems', 'Linux', 'Scripting']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Shell 脚本最佳实践
@@ -489,4 +489,6 @@ echo "总计: $test_count, 通过: $pass_count, 失败: $((test_count - pass_cou
 - [[Environment]]
 - [[Advanced]]
 - [[Neovim]]
-- [[LinuxKernel]]
+- [[05_ComputerScience/OperatingSystems/LinuxKernel|LinuxKernel]]
+
+

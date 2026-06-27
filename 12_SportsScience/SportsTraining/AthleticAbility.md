@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AthleticAbility, 运动能力, PhysicalFitness, 身体素质, LTAD, 长期运动员发展]
 tags: ['12_SportsScience', 'SportsTraining', 'AthleticDevelopment', 'PhysicalPreparation']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 运动能力 Athletic Ability
@@ -207,7 +207,9 @@ graph LR
 - [[PowerTraining]]
 - [[SportsPeriodization]]
 - [[StrengthAndConditioning]]
-- [[SportsNutrition]]
+- [[12_SportsScience/SportsMedicine/SportsNutrition|SportsNutrition]]
 - [[SleepAndRecovery]]
 - [[INDEX|SportsTraining 索引]]
 - [[../../INDEX|TianshangKnowledgeBase 索引]]
+
+

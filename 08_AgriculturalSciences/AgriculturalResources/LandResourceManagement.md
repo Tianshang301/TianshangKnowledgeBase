@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LandResourceManagement]
 tags: ['AgriculturalResources', 'LandResourceManagement']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 土地资源管理
@@ -224,3 +224,4 @@ updated: 2026-05-13
 - 《土地利用规划学》
 - 《土地管理学》
 - 《土地退化与修复》
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [NoteTaking]
 tags: ['NoteTaking', 'NoteTaking']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 笔记法
@@ -145,8 +145,10 @@ Tiago Forte 提出的五层笔记精炼方法：
 
 ## 相关条目
 
-- [[Methodology]] — 学习方法论
-- [[Productivity]] — 效率提升
+- [[00_KnowledgeFramework/Methodology/Methodology|Methodology]] — 学习方法论
+- [[11_ManagementSciences/Productivity|Productivity]] — 效率提升
 - [[Zettelkasten]] — 卡片盒笔记法详解
-- [[SecondBrain]] — 第二大脑系统
-- [[LearningPaths]] — 学习路径设计
+- [[00_KnowledgeFramework/Methodology/SecondBrain|SecondBrain]] — 第二大脑系统
+- [[00_KnowledgeFramework/LearningPaths/LearningPaths|LearningPaths]] — 学习路径设计
+
+

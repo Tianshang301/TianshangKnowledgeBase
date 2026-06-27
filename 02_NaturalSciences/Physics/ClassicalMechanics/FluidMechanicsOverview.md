@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FluidMechanics, 流体力学, 流体力学概论]
 tags: ['02_NaturalSciences', 'Physics', 'ClassicalMechanics', 'Engineering', 'Aerodynamics']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 流体力学 Fluid Mechanics
@@ -237,10 +237,12 @@ $$
 
 ## 相关条目
 
-- [[Thermodynamics]]
-- [[NumericalAnalysis]]
-- [[Aerodynamics]]
-- [[AppliedMathematics]]
-- [[HeatTransfer]]
-- [[Hydraulics]]
+- [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringThermophysics/Thermodynamics|Thermodynamics]]
+- [[02_NaturalSciences/Mathematics/ComputationalMathematics/NumericalAnalysis|NumericalAnalysis]]
+- [[04_EngineeringAndTechnology/AerospaceAndMilitaryEngineering/Aerodynamics/Aerodynamics|Aerodynamics]]
+- [[02_NaturalSciences/Mathematics/AppliedMathematics|AppliedMathematics]]
+- [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringThermophysics/HeatTransfer|HeatTransfer]]
+- [[04_EngineeringAndTechnology/HydraulicAndMarineEngineering/HydraulicEngineering/Hydraulics|Hydraulics]]
 - [[TurbulenceTheory]]
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AreaStudies]
 tags: ['RegionalAndCountryStudies', 'AreaStudies']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 区域研究
@@ -223,8 +223,8 @@ updated: 2026-05-13
 
 - [[03_HumanitiesAndSocialSciences/PoliticalScience/INDEX|PoliticalScience]]
 - [[03_HumanitiesAndSocialSciences/Economics/INDEX|Economics]]
-- [[CulturalAnthropology]]
-- [[WorldHistory]]
+- [[03_HumanitiesAndSocialSciences/EthnicStudies/CulturalAnthropology/CulturalAnthropology|CulturalAnthropology]]
+- [[03_HumanitiesAndSocialSciences/History/WorldHistory/WorldHistory|WorldHistory]]
 
 ## 参考资源
 
@@ -232,3 +232,5 @@ updated: 2026-05-13
 - 《中国的区域国别研究》
 - 各区域研究机构网站
 - 相关学术期刊
+
+

@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Physics', 'Optics', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Optics
@@ -12,10 +12,12 @@ updated: 2026-05-13
 ## 鏂囦欢
 
 - [[閲忓瓙鍏夊涓庢縺鍏塢]
-- [[ComputerVision]]
+- [[05_ComputerScience/ArtificialIntelligence/ComputerVision/ComputerVision|ComputerVision]]
 - [[02_NaturalSciences/Physics/Electromagnetism/INDEX|Electromagnetism]]
 - [[鍑犱綍鍏夊]]
 - [[娉㈠姩鍏夊]]
 - [[波动光学]]
 - [[量子光学与激光]]
+
+
 

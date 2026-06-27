@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Greedy]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'Greedy']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 贪心算法详解
@@ -311,8 +311,10 @@ def monotone_increasing_digits(n):
 
 ## 相关条目
 
-- [[GreedyAlgorithms]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/GreedyAlgorithms/GreedyAlgorithms|GreedyAlgorithms]]
 - [[DP]]
 - [[MST]]
 - [[Backtracking]]
 - [[Sorting]]
+
+

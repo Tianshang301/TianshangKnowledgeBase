@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [React]
 tags: ['ProgrammingLanguages', 'Web', 'React']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # React 快速指南
@@ -628,3 +628,4 @@ function SearchPage() {
 ```
 
 > React 是现代 Web 开发的主流框架。重点掌握: 函数组件、Hooks (useState/useEffect/useContext/useRef)、自定义 Hooks、性能优化。推荐使用 Zustand 进行简单状态管理, React Router 处理路由。
+

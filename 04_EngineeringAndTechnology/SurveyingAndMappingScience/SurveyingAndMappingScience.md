@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SurveyingAndMappingScience, 测绘科学与技术, Geomatics]
 tags: ['SurveyingAndMappingScience', 'Geomatics', 'Geodesy', 'Cartography']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 测绘科学与技术 (Surveying and Mapping Science / Geomatics)
@@ -211,11 +211,13 @@ $$ \hat{\sigma}_0^2 = \frac{\mathbf{V}^T \mathbf{P} \mathbf{V}}{n - t} $$
 
 ## 相关条目
 
-- [[Cartography]]
+- [[02_NaturalSciences/EarthSciences/Cartography/Cartography|Cartography]]
 - [[GeographicInformationSystem]]
 - [[04_EngineeringAndTechnology/CivilEngineering/INDEX|CivilEngineering]]
 - [[01_K12/JuniorHigh/Geography/INDEX|Geography]]
 - [[GlobalNavigationSatelliteSystem]]
 - [[DigitalImageProcessing]]
-- [[RemoteSensing]]
-- [[DigitalTwin]]
+- [[04_EngineeringAndTechnology/GeologicalAndMiningEngineering/GeologicalEngineering/RemoteSensing|RemoteSensing]]
+- [[05_ComputerScience/ARVRXR/DigitalTwin|DigitalTwin]]
+
+

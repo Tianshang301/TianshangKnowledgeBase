@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AnalogCircuits]
 tags: ['HardwareAndEmbeddedSystems', 'AnalogCircuits', 'AnalogCircuits']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 模拟电路
@@ -272,10 +272,10 @@ $$\text{Phase Margin} = 180^\circ + \angle(\beta A_{OL})$$
 ## 相关条目
 
 - [[运算放大器与滤波电路]]
-- [[PCBDesign]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/PCBDesign/PCBDesign|PCBDesign]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/DigitalCircuits/INDEX|DigitalCircuits]]
-- [[ADCDAC]]
-- [[IoT]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Microcontrollers/STM32/ADCDAC|ADCDAC]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/IoT/IoT|IoT]]
 
 ## 参考资源
 
@@ -283,3 +283,5 @@ $$\text{Phase Margin} = 180^\circ + \angle(\beta A_{OL})$$
 - 《The Art of Electronics》（Horowitz & Hill）
 - 《Microelectronic Circuits》（Sedra & Smith）
 - TI 模拟应用手册（Analog Applications Journal）
+
+

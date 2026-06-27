@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MilitaryElectronics]
 tags: ['MilitaryTechnology', 'MilitaryElectronics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 军事电子
@@ -208,3 +208,4 @@ updated: 2026-05-13
 - 电子战
 - 通信技术
 - 导航技术
+

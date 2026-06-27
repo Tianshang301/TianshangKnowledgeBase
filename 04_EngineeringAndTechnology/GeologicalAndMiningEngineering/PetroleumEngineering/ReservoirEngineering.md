@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ReservoirEngineering, 油藏工程]
 tags: ['04_EngineeringAndTechnology', 'GeologicalAndMiningEngineering', 'PetroleumEngineering', 'ReservoirEngineering']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 油藏工程 (Reservoir Engineering)
@@ -268,3 +268,4 @@ flowchart TD
 - **数字岩心 (Digital Core)**：CT 扫描构建三维孔隙网络模型
 - **机器学习预测 (ML Prediction)**：基于历史数据的产量预测
 - **微地震监测 (Microseismic Monitoring)**：水力压裂裂缝实时成像
+

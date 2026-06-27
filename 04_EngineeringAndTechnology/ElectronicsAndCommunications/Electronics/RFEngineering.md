@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [RFEngineering]
 tags: ['ElectronicsAndCommunications', 'Electronics', 'RFEngineering']
 created: 2026-05-16
@@ -161,8 +161,9 @@ $$F_{total} = F_1 + \frac{F_2-1}{G_1} + \frac{F_3-1}{G_1G_2} + \cdots$$
 
 ## 相关条目
 
-- [[AntennaTheory]]
-- [[MicrowaveEngineering]]
-- [[WirelessCommunications]]
-- [[CommunicationTheory]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/AntennaAndMicrowave/AntennaTheory|AntennaTheory]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/AntennaAndMicrowave/MicrowaveEngineering|MicrowaveEngineering]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Communications/WirelessCommunications|WirelessCommunications]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Communications/CommunicationTheory|CommunicationTheory]]
 - [[AnalogElectronics]]
+

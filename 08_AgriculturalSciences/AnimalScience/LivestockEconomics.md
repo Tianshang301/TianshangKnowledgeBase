@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LivestockEconomics]
 tags: ['AnimalScience', 'LivestockEconomics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 畜牧经济学
@@ -325,3 +325,4 @@ $$ROI = \frac{总收益 - 总投资}{总投资} \times 100\%$$
 ## 相关条目
 
 [[FeedScience]], [[AnimalNutrition]], [[AnimalBreeding]], [[AnimalHealth]], AgriculturalEconomics
+

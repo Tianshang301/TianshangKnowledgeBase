@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CoalMining]
 tags: ['MiningAndMineralEngineering', 'CoalMining', 'CoalMining']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 煤矿开采
@@ -214,8 +214,8 @@ $$
 
 ## 相关条目
 
-- [[MineralProcessing]]
-- [[MineSafety]]
+- [[04_EngineeringAndTechnology/MiningAndMineralEngineering/MineralProcessing/MineralProcessing|MineralProcessing]]
+- [[04_EngineeringAndTechnology/MiningAndMineralEngineering/MineSafety/MineSafety|MineSafety]]
 - [[02_NaturalSciences/EarthSciences/Geology/INDEX|Geology]]
 - [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/ChemicalEngineering/INDEX|ChemicalEngineering]]
 
@@ -226,3 +226,5 @@ $$
 3. Hartman, H.L. Introductory Mining Engineering[M]. 2nd ed. Wiley, 2002.
 4. 全国煤炭标准化技术委员会. 煤质分析国家标准汇编[S]. 北京: 中国标准出版社, 2018.
 5. BHP. Coal Mining Safety and Health Regulation 2017[S]. Queensland Government, 2017.
+
+

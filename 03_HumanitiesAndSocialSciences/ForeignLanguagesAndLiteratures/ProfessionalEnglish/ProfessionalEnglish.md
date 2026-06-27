@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ProfessionalEnglish]
 tags: ['ForeignLanguagesAndLiteratures', 'ProfessionalEnglish', 'ProfessionalEnglish']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 专业英语
@@ -205,10 +205,10 @@ ESP 测试强调：
 
 ## 相关条目
 
-- [[LanguageLearning]]
-- [[TranslationStudies]]
-- [[AcademicWriting]]
-- [[ScientificCommunication]]
+- [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/LanguageLearning/LanguageLearning|LanguageLearning]]
+- [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/TranslationStudies/TranslationStudies|TranslationStudies]]
+- [[13_Others/AcademicWriting/AcademicWriting|AcademicWriting]]
+- [[13_Others/ScientificCommunication/ScientificCommunication|ScientificCommunication]]
 
 ## 参考资源
 
@@ -222,3 +222,5 @@ ESP 测试强调：
 8. Bhatia, V. K. (1993). *Analysing Genre: Language Use in Professional Settings*. London: Longman.
 9. Hyland, K. (2006). *English for Academic Purposes: An Advanced Resource Book*. London: Routledge.
 10. Hofstede, G. (2001). *Culture's Consequences* (2nd ed.). Thousand Oaks: Sage.
+
+

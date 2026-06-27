@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Assembly]
 tags: ['ProgrammingLanguages', 'Assembly', 'Assembly']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 汇编语言
@@ -267,3 +267,4 @@ xxd program.bin | head -20
 - [NASM 文档](https://www.nasm.us/doc/)
 - [x86-64 System V ABI](https://github.com/hjl-tools/x86-psABI/wiki/X86-psABI)
 - [Ghidra 逆向工程工具](https://ghidra-sre.org/)
+

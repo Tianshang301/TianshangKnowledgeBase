@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [PowerSystems]
 tags: ['MechanicalAndElectricalEngineering', 'ElectricalEngineering', 'PowerSystems']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 电力系统
@@ -135,6 +135,8 @@ $$\eta = \frac{P_2}{P_2 + P_{Cu} + P_{Fe}} \times 100\%$$
 
 - [[CircuitAnalysis]]
 - [[ElectricMachines]]
-- [[NewEnergy]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/PowerEngineering/NewEnergy|NewEnergy]]
 - [[04_EngineeringAndTechnology/EnergyAndNuclearEngineering/RenewableEnergy/INDEX|RenewableEnergy]]
-- [[ControlSystems]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/Mechatronics/ControlSystems|ControlSystems]]
+
+

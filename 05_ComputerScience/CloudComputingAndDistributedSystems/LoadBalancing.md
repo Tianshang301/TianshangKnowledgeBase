@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [LoadBalancing, 负载均衡, L4负载均衡, L7负载均衡]
 tags: ['05_ComputerScience', 'CloudComputing', 'LoadBalancing', 'DistributedSystems']
 created: 2026-06-27
@@ -494,8 +494,8 @@ class FailoverBalancer:
 
 - [[CloudComputingAndDistributedSystems]]
 - [[Nginx]]
-- [[K8s]]
-- [[NetworkSecurity]]
+- [[05_ComputerScience/SoftwareEngineering/DevOpsAndCICD/K8s|K8s]]
+- [[05_ComputerScience/Cybersecurity/NetworkSecurity|NetworkSecurity]]
 
 ## 参考资源
 
@@ -503,3 +503,4 @@ class FailoverBalancer:
 2. HAProxy. "Configuration Manual." haproxy.org
 3. Istio. "Traffic Management." istio.io
 4. AWS. "Elastic Load Balancing." aws.amazon.com
+

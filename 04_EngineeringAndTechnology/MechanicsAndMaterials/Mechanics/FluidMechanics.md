@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FluidMechanics]
 tags: ['MechanicsAndMaterials', 'Mechanics', 'FluidMechanics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 流体力学
@@ -156,8 +156,10 @@ $$\frac{1}{\sqrt{f}} = -2\log\left(\frac{\varepsilon/D}{3.7} + \frac{2.51}{Re\sq
 
 ## 相关条目
 
-- [[Thermodynamics]]
-- [[Aerodynamics]]
-- [[Hydraulics]]
+- [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringThermophysics/Thermodynamics|Thermodynamics]]
+- [[04_EngineeringAndTechnology/AerospaceAndMilitaryEngineering/Aerodynamics/Aerodynamics|Aerodynamics]]
+- [[04_EngineeringAndTechnology/HydraulicAndMarineEngineering/HydraulicEngineering/Hydraulics|Hydraulics]]
 - CFD
-- [[HeatTransfer]]
+- [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringThermophysics/HeatTransfer|HeatTransfer]]
+
+

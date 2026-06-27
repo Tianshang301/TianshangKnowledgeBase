@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ResourceScience]
 tags: ['EnvironmentalScienceAndEngineering', 'ResourceScience', 'ResourceScience']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 资源科学
@@ -272,3 +272,4 @@ $$MSY = \frac{rK}{4}$$
 - 《The Economics of Natural Resource Use》（Hartwick & Olewiler）
 - 《Material Flow Analysis in the Context of Circular Economy》（Brunner & Rechberger）
 - 《Planetary Boundaries: Exploring the Safe Operating Space for Humanity》（Rockström et al.）
+

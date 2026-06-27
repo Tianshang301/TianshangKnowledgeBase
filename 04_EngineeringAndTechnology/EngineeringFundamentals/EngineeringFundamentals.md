@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [EngineeringFundamentals, 工程基础, Engineering Foundations]
 tags: ['EngineeringFundamentals', 'EngineeringBasics', 'Mechanics', 'Thermodynamics']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 工程基础 (Engineering Fundamentals)
@@ -237,9 +237,11 @@ $$ h_f = f \frac{L}{D} \frac{V^2}{2g} $$
 - [[01_K12/JuniorHigh/Mathematics/INDEX|Mathematics]]
 - [[01_K12/JuniorHigh/Physics/INDEX|Physics]]
 - [[04_EngineeringAndTechnology/MechanicsAndMaterials/INDEX|MechanicsAndMaterials]]
-- [[StrengthOfMaterials]]
-- [[FluidMechanics]]
-- [[Thermodynamics]]
-- [[HeatTransfer]]
-- [[MachineDesign]]
+- [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringMechanics/StrengthOfMaterials|StrengthOfMaterials]]
+- [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/FluidMechanics|FluidMechanics]]
+- [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringThermophysics/Thermodynamics|Thermodynamics]]
+- [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringThermophysics/HeatTransfer|HeatTransfer]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/MechanicalEngineering/MachineDesign|MachineDesign]]
 - [[EngineeringDrawing]]
+
+

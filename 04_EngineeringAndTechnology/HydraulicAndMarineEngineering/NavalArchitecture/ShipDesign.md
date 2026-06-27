@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ShipDesign]
 tags: ['HydraulicAndMarineEngineering', 'NavalArchitecture', 'ShipDesign']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 船舶设计
@@ -101,3 +101,4 @@ $$C_T = C_F + C_R + C_A$$
 - 特种船舶设计
 - 游艇设计
 - 极地船舶
+

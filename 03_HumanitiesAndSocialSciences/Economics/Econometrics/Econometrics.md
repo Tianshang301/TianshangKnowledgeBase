@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Econometrics]
 tags: ['Economics', 'Econometrics', 'Econometrics']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 计量经济学
@@ -180,7 +180,7 @@ $P(Y=1|X) = F(\beta_0 + \beta_1 X_1 + \cdots + \beta_k X_k)$
 
 ## 相关条目
 
-[[Statistics]] · Mathematics/ProbabilityStatistics · [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]] · [[AppliedEconomics]]
+[[07_InterdisciplinarySciences/AppliedStatistics/Statistics|Statistics]] · Mathematics/ProbabilityStatistics · [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]] · [[03_HumanitiesAndSocialSciences/Economics/AppliedEconomics/AppliedEconomics|AppliedEconomics]]
 
 ## 参考资源
 
@@ -317,3 +317,5 @@ $P(Y=1|X) = F(\beta_0 + \beta_1 X_1 + \cdots + \beta_k X_k)$
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+
+

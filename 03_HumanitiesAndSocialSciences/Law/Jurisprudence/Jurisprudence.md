@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Jurisprudence]
 tags: ['Law', 'Jurisprudence', 'Jurisprudence']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 法理学
@@ -228,7 +228,7 @@ $$
 - [[03_HumanitiesAndSocialSciences/Law/LegalHistory/INDEX|LegalHistory]]
 - [[03_HumanitiesAndSocialSciences/Law/CivilLaw/INDEX|CivilLaw]]
 - [[03_HumanitiesAndSocialSciences/Law/CriminalLaw/INDEX|CriminalLaw]]
-- [[PoliticalTheory]]
+- [[03_HumanitiesAndSocialSciences/PoliticalScience/PoliticalTheory/PoliticalTheory|PoliticalTheory]]
 
 ## 参考资源
 
@@ -238,3 +238,5 @@ $$
 4. 沈宗灵 (2014). 《现代西方法理学》. 北京大学出版社.
 5. Finnis, J. (2011). *Natural Law and Natural Rights* (2nd ed.). Oxford University Press.
 6. 博登海默 (2017). 《法理学：法律哲学与法律方法》. 中国政法大学出版社.
+
+

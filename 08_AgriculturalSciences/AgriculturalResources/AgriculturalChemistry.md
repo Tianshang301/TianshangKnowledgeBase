@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AgriculturalChemistry]
 tags: ['AgriculturalResources', 'AgriculturalChemistry']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 农业化学
@@ -254,3 +254,4 @@ $$ \text{肥料利用率} = \frac{\text{施肥区养分吸收量} - \text{对照
 ## 相关条目
 
 [[SoilScience]], [[08_AgriculturalSciences/CropScience/INDEX|CropScience]], [[07_InterdisciplinarySciences/EnvironmentalScience/INDEX|EnvironmentalScience]], [[PrecisionAgriculture]]
+

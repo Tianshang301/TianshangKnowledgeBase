@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [ManagementInformationSystems]
 tags: ['ManagementScienceAndEngineering', 'ManagementInformationSystems']
 created: 2026-05-19
@@ -106,6 +106,7 @@ updated: 2026-05-19
 - [[DecisionScience]]
 - [[ProjectManagement]]
 - [[SupplyChainManagement]]
-- [[KnowledgeManagement]]
-- [[EGovernment]]
+- [[11_ManagementSciences/LibraryAndArchive/KnowledgeManagement|KnowledgeManagement]]
+- [[11_ManagementSciences/PublicAdministration/EGovernment|EGovernment]]
 - [[BusinessAnalytics]]
+

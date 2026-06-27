@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [BibTeX, BibTeX 安装与使用, BibliographyManagement]
 tags: ['00_KnowledgeFramework', 'BibTeX', 'LaTeX']
 ---
@@ -281,5 +281,6 @@ latex makebst
 
 ## 相关条目 (Related Entries)
 
-- [[LaTeX]], [[BibliographyManagement]], [[AcademicWriting]]
+- [[05_ComputerScience/DigitalNotes/LaTeX/LaTeX|LaTeX]], [[BibliographyManagement]], [[13_Others/AcademicWriting/AcademicWriting|AcademicWriting]]
 - [[常用格式指南]], [[../INDEX|00_KnowledgeFramework 索引]]
+

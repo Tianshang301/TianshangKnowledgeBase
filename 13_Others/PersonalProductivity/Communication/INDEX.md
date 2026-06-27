@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['PersonalProductivity', 'Communication', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Communication
@@ -15,4 +15,5 @@ updated: 2026-05-13
 - [[闈炴毚鍔涙矡閫氫笌鍐茬獊瑙ｅ喅]] 鈥?闈炴毚鍔涙矡閫氭妧宸т笌鍐茬獊瑙ｅ喅绛栫暐
 - [[沟通技巧]]
 - [[非暴力沟通与冲突解决]]
+
 

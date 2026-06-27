@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Concurrency]
 tags: ['ProgrammingLanguages', 'Go', 'Concurrency']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Go 并发编程
@@ -405,3 +405,4 @@ func main() {
 | 通信方式 | Channel（CSP） | 共享内存+锁 |
 | 标识符 | 无内置 ID | 有线程 ID |
 | 调度点 | channel/syscall/函数调用 | 时间片/抢占 |
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [PrehistoricArchaeology]
 tags: ['Archaeology', 'PrehistoricArchaeology', 'PrehistoricArchaeology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 史前考古学
@@ -211,7 +211,7 @@ updated: 2026-05-13
 
 ## 相关条目
 
-[[ArchaeologicalMethods]] · [[03_HumanitiesAndSocialSciences/Anthropology/INDEX|Anthropology]] · [[02_NaturalSciences/Biology/EvolutionaryBiology/INDEX|EvolutionaryBiology]] · [[CulturalRelics]]
+[[03_HumanitiesAndSocialSciences/Archaeology/ArchaeologicalMethods/ArchaeologicalMethods|ArchaeologicalMethods]] · [[03_HumanitiesAndSocialSciences/Anthropology/INDEX|Anthropology]] · [[02_NaturalSciences/Biology/EvolutionaryBiology/INDEX|EvolutionaryBiology]] · [[03_HumanitiesAndSocialSciences/Archaeology/CulturalRelics/CulturalRelics|CulturalRelics]]
 
 ## 参考资源
 
@@ -224,3 +224,5 @@ updated: 2026-05-13
 | 冶金考古 | Roberts & Thornton《Archaeometallurgy in Global Perspective》 |
 | 社会演化 | Johnson & Earle《The Evolution of Human Societies》 |
 | 中国史前 | 严文明《史前考古论集》 |
+
+

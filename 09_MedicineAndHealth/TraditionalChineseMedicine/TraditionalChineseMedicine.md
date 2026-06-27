@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [TraditionalChineseMedicine]
 tags: ['TraditionalChineseMedicine', 'TraditionalChineseMedicine']
 created: 2026-05-16
@@ -117,5 +117,6 @@ updated: 2026-05-19
 - [[ChineseMateriaMedica]]
 - [[ChineseFormulas]]
 - [[AcupunctureAndMoxibustion]]
-- [[Pharmacology]]
+- [[09_MedicineAndHealth/BasicMedicalSciences/Pharmacology|Pharmacology]]
 - [[ClinicalMedicine]]
+

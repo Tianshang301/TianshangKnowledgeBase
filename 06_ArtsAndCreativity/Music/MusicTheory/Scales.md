@@ -1,11 +1,11 @@
----
+﻿---
 aliases:
   - Scales
   - 音阶
   - 调式
 tags:
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
   - music-theory
   - scales
   - modes
@@ -206,3 +206,4 @@ C: C C♯ D D♯ E F F♯ G G♯ A A♯ B C
 ## 相关条目
 
 [[Chords]], [[06_ArtsAndCreativity/Music/EarTraining/INDEX|EarTraining]], [[Intervals]], [[Harmony]]
+

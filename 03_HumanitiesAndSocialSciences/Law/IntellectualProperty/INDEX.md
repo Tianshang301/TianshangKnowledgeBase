@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Law', 'IntellectualProperty', 'INDEX']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # IntellectualProperty
@@ -140,4 +140,5 @@ updated: 2026-05-13
 - [[INDEX|褰撳墠鐩綍绱㈠紩]]
 - [[知识产权法学]]
 - [[知识产权诉讼实务]]
+
 

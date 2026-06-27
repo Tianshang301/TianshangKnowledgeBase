@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SpacePhysics]
 tags: ['Astronomy', 'SpacePhysics', 'SpacePhysics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 空间物理学
@@ -231,3 +231,4 @@ $$
 - Bothmer & Daglis《空间天气：物理学与效应》
 - Henderson《太阳物理学导论》
 - Priest《太阳磁流体动力学》
+

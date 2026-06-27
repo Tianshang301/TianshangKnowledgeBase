@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 游戏AI
   - 游戏人工智能
@@ -305,4 +305,5 @@ PCG（Procedural Content Generation）是用算法生成游戏内容：
 - [[UnrealEngine5]] - UE5 AI 系统
 - [[UnityDeep]] - Unity AI 系统
 - [[GamePhysics]] - 物理系统
-- [[RenderingPipeline]] - 渲染管线
+- [[05_ComputerScience/ARVRXR/RenderingPipeline|RenderingPipeline]] - 渲染管线
+

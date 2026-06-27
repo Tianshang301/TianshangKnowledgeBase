@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [InformationRetrieval]
 tags: ['DatabasesAndInformationSystems', 'InformationRetrieval', 'InformationRetrieval']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Information Retrieval - 信息检索
@@ -342,9 +342,9 @@ $$ \text{pred}(u, i) = \bar{r}_u + \frac{\sum_{v \in N(u)} \text{sim}(u, v) \tim
 ## 相关条目
 
 - [[搜索引擎原理与实践]]
-- [[RelationalDatabases]]
-- [[NoSQL]]
-- [[BigDataTechnologies]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/RelationalDatabases|RelationalDatabases]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/NoSQL/NoSQL|NoSQL]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/BigDataTechnologies/BigDataTechnologies|BigDataTechnologies]]
 - [[流处理与实时计算]]
 
 ## 参考资源
@@ -354,3 +354,5 @@ $$ \text{pred}(u, i) = \bar{r}_u + \frac{\sum_{v \in N(u)} \text{sim}(u, v) \tim
 - Robertson, S. & Zaragoza, H. (2009). The Probabilistic Relevance Framework: BM25 and Beyond. Foundations and Trends in IR.
 - Burges, C. J. C. (2010). From RankNet to LambdaRank to LambdaMART: An Overview. MSR-TR.
 - Ricci, F., Rokach, L., & Shapira, B. (2015). Recommender Systems Handbook. Springer.
+
+

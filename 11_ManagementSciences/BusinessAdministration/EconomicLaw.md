@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [EconomicLaw]
 tags: ['BusinessAdministration', 'EconomicLaw']
 created: 2026-05-19
@@ -108,7 +108,8 @@ updated: 2026-05-19
 
 - [[ManagementPrinciples]]
 - [[BusinessEthics]]
-- [[CorporateFinance]]
-- [[TaxAccounting]]
-- [[PublicPolicy]]
+- [[11_ManagementSciences/BusinessAdministration/Finance/CorporateFinance|CorporateFinance]]
+- [[11_ManagementSciences/BusinessAdministration/Accounting/TaxAccounting|TaxAccounting]]
+- [[11_ManagementSciences/PublicAdministration/PublicPolicy|PublicPolicy]]
 - [[IntellectualProperty]]
+

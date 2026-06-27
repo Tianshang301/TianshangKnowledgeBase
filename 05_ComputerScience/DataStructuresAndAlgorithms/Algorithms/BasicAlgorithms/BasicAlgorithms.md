@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [BasicAlgorithms]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'BasicAlgorithms', 'BasicAlgorithms']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Basic Algorithms - 基础算法
@@ -391,10 +391,10 @@ def single_number(nums):
 ## 相关条目
 
 - [[排序与搜索算法深入]]
-- [[BinarySearch]]
-- [[Sorting]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BinarySearch|BinarySearch]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/Sorting|Sorting]]
 - [[贪心算法证明与技巧]]
-- [[DP]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/DP|DP]]
 
 ## 参考资源
 
@@ -402,3 +402,5 @@ def single_number(nums):
 - Sedgewick, R. & Wayne, K. (2011). Algorithms. 4th Edition. Addison-Wesley.
 - Kleinberg, J. & Tardos, É. (2005). Algorithm Design. Addison-Wesley.
 - LeetCode. https://leetcode.com/problemset/
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Historiography]
 tags: ['History', 'Historiography', 'Historiography']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 史学史
@@ -217,3 +217,4 @@ $$\text{历史叙事} = \text{历史事实} \times \text{情节化模式} \times
 8. Ginzburg, C. (1976). *Il Formaggio e i Vermi*. Turin: Einaudi.
 9. Thompson, E. P. (1963). *The Making of the English Working Class*. London: Gollancz.
 10. 何兆武（2005）。《历史理论与史学理论》。北京：商务印书馆。
+

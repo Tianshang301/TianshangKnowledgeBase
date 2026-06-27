@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ClassicalControl]
 tags: ['ControlAndSystemsEngineering', 'ControlTheory', 'ClassicalControl']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 经典控制
@@ -151,6 +151,8 @@ $$G_c(s) = \frac{1+Ts}{1+\beta Ts}, \quad \beta > 1$$
 ## 相关条目
 
 - [[ModernControl]]
-- [[Robotics]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Robotics/Robotics|Robotics]]
 - [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/Automation/INDEX|Automation]]
 - AI/ReinforcementLearning
+
+

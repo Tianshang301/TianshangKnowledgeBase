@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [GraphAlgorithms]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'GraphAlgorithms', 'GraphAlgorithms']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Graph Algorithms - 图算法
@@ -522,10 +522,10 @@ def fleury(graph):
 ## 相关条目
 
 - [[网络流与匹配算法]]
-- [[Graph]]
-- [[BFSDFS]]
-- [[Dijkstra]]
-- [[MST]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/DataStructures/Graph|Graph]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BFSDFS|BFSDFS]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/Dijkstra|Dijkstra]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/MST|MST]]
 
 ## 参考资源
 
@@ -533,3 +533,5 @@ def fleury(graph):
 - Sedgewick, R. & Wayne, K. (2011). Algorithms. 4th Edition. Addison-Wesley.
 - Tarjan, R. (1972). Depth-First Search and Linear Graph Algorithms. SIAM Journal on Computing.
 - Dinic, E. A. (1970). Algorithm for Solution of a Problem of Maximum Flow in a Network. Soviet Math. Doklady.
+
+

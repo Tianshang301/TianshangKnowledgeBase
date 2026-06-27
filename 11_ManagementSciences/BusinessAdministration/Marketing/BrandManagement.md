@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [BrandManagement]
 tags: ['BusinessAdministration', 'Marketing', 'BrandManagement']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 品牌管理
@@ -206,3 +206,4 @@ updated: 2026-05-13
 - 广告学
 - 营销战略
 - 传播学
+

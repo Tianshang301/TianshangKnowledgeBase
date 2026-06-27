@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Logic', 'Methodology', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Methodology
@@ -16,4 +16,5 @@ updated: 2026-05-13
 - [[科学方法论]]
 - [[论证与批判性思维]]
 - [[论证理论与谬误]]
+
 

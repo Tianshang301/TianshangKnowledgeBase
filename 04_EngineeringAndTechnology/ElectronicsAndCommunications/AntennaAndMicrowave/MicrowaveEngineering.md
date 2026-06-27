@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MicrowaveEngineering]
 tags: ['ElectronicsAndCommunications', 'AntennaAndMicrowave', 'MicrowaveEngineering']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 微波工程
@@ -134,7 +134,9 @@ $P_t$ 为发射功率，$G$ 为天线增益，$\sigma$ 为目标 RCS，$T_s$ 为
 ## 相关条目
 
 - [[AntennaTheory]]
-- [[RFEngineering]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Electronics/RFEngineering|RFEngineering]]
 - RadarSystems
-- [[WirelessCommunications]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Communications/WirelessCommunications|WirelessCommunications]]
 - SatelliteCommunications
+
+

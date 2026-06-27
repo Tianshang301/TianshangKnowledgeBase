@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DigitalArchives]
 tags: ['DigitalHumanities', 'DigitalArchives']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 数字档案
@@ -201,3 +201,4 @@ for line in result[0]:
 ## 相关条目
 
 [[ComputationalLinguistics]], [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]], [[TextMining]], [[CulturalAnalytics]]
+

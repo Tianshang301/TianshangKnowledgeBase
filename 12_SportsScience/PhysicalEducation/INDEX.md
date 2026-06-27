@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['PhysicalEducation', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # PhysicalEducation
@@ -16,3 +16,4 @@ updated: 2026-05-13
 - [[MotorLearning]] — 运动技能学习：技能习得机制
 - [[TeachingMethods]] — 体育教学法：教学方法与策略
 - [[AdaptedPhysicalEducation]] — 适应性体育教育：特殊需要学生的体育
+

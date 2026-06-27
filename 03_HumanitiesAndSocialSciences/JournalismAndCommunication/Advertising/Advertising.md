@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Advertising]
 tags: ['JournalismAndCommunication', 'Advertising', 'Advertising']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 广告学
@@ -197,9 +197,9 @@ $$
 
 ## 相关条目
 
-- [[Communication]]
-- [[MediaStudies]]
-- [[DigitalMedia]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Microcontrollers/STM32/Communication|Communication]]
+- [[03_HumanitiesAndSocialSciences/JournalismAndCommunication/MediaStudies/MediaStudies|MediaStudies]]
+- [[03_HumanitiesAndSocialSciences/JournalismAndCommunication/DigitalMedia/DigitalMedia|DigitalMedia]]
 - [[11_ManagementSciences/BusinessAdministration/Marketing/INDEX|Marketing]]
 
 ## 参考资源
@@ -210,3 +210,5 @@ $$
 4. 丁俊杰 (2019). 《现代广告通论》. 中国传媒大学出版社.
 5. American Association of Advertising Agencies (AAAA) 行业报告
 6. 中国广告协会年度统计报告
+
+

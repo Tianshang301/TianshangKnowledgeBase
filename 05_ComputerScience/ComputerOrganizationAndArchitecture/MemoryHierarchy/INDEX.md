@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['ComputerOrganizationAndArchitecture', 'MemoryHierarchy', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 瀛樺偍鍣ㄥ眰娆＄粨鏋?
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[MemoryHierarchy]]
 - [[铏氭嫙鍐呭瓨涓庣紦瀛樹紭鍖朷]
 - [[虚拟内存与缓存优化]]
+
 

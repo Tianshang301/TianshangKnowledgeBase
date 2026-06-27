@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [ShellScripting]
 tags: ['05_ComputerScience', 'OperatingSystems']
 created: 2026-05-17
@@ -299,5 +299,6 @@ shellcheck script.sh
 
 ## 相关条目
 - [[LinuxAdministration]]
-- [[VersionControl]]
+- [[05_ComputerScience/SoftwareEngineering/VersionControl|VersionControl]]
 - [[05_ComputerScience/OperatingSystems/INDEX]]
+

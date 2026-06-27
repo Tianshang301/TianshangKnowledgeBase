@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [TalentAcquisition]
 tags: ['BusinessAdministration', 'HumanResources', 'TalentAcquisition']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 人才招聘
@@ -189,3 +189,4 @@ updated: 2026-05-13
 - 培训与开发
 - 组织行为学
 - 雇主品牌
+

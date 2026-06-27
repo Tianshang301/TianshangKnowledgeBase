@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Basics]
 tags: ['OperatingSystems', 'Linux', 'Basics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 正则表达式基础
@@ -202,3 +202,4 @@ https?://[\w./?=&%-]+
 - [[Examples]]
 - [[Bash]]
 - [[Scripting]]
+

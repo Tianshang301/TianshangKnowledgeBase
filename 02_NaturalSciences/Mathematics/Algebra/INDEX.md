@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['Mathematics', 'Algebra', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Algebra
@@ -17,3 +17,4 @@ updated: 2026-05-13
 - [[Applications]]
 - [[02_NaturalSciences/Mathematics/NumberTheory/INDEX|NumberTheory]]
 - [[02_NaturalSciences/Mathematics/Geometry/INDEX|Geometry]]
+

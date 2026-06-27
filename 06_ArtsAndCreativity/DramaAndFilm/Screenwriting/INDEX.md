@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['DramaAndFilm', 'Screenwriting', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Screenwriting
@@ -16,4 +16,5 @@ updated: 2026-05-13
 - [[剧本创作]]
 - [[导演编剧与演员]]
 - [[编剧技巧与案例]]
+
 

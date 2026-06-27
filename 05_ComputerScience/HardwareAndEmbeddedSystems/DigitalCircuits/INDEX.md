@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['HardwareAndEmbeddedSystems', 'DigitalCircuits', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # DigitalCircuits
@@ -15,3 +15,4 @@ updated: 2026-05-13
 - [[Gates]] - 门电路
 - [[Sequential]] - 时序逻辑
 - [[StateMachine]] - 状态机
+

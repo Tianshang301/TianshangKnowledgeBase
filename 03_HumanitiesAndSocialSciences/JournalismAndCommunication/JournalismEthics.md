@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [JournalismEthics]
 tags: ['03_HumanitiesAndSocialSciences', 'JournalismAndCommunication', 'JournalismEthics']
 created: 2026-05-17
@@ -228,8 +228,9 @@ flowchart TD
 
 ## 相关条目
 
-- [[CommunicationTheory]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Communications/CommunicationTheory|CommunicationTheory]]
 - [[03_HumanitiesAndSocialSciences/JournalismAndCommunication/DigitalMedia/INDEX|DigitalMedia]]
 - [[03_HumanitiesAndSocialSciences/JournalismAndCommunication/MediaStudies/INDEX|MediaStudies]]
-- [[PoliticalEconomy]]
+- [[03_HumanitiesAndSocialSciences/Economics/PoliticalEconomy|PoliticalEconomy]]
 - [[INDEX|当前目录索引]]
+

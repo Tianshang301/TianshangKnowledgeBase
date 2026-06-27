@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [BuildingPhysics]
 tags: ['CivilEngineering', 'BuildingScience', 'BuildingPhysics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 建筑物理
@@ -95,6 +95,8 @@ $V$ 为房间体积，$A$ 为总吸声量。
 
 ## 相关条目
 - [[BuildingMaterials]]
-- [[ConcreteStructures]]
-- [[UrbanDesign]]
-- [[LandscapeDesign]]
+- [[04_EngineeringAndTechnology/CivilEngineering/StructuralEngineering/ConcreteStructures|ConcreteStructures]]
+- [[04_EngineeringAndTechnology/CivilEngineering/UrbanPlanning/UrbanDesign|UrbanDesign]]
+- [[04_EngineeringAndTechnology/CivilEngineering/LandscapeArchitecture/LandscapeDesign|LandscapeDesign]]
+
+

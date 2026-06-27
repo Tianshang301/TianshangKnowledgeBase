@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LiteraryTheory]
 tags: ['ChineseLanguageAndLiterature', 'LiteraryTheory', 'LiteraryTheory']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 文学理论
@@ -148,7 +148,7 @@ updated: 2026-05-13
 
 ## 相关条目
 
-[[ChineseLiterature]] · [[ChineseClassicalLiterature]] · [[03_HumanitiesAndSocialSciences/Philosophy/INDEX|Philosophy]] · [[Aesthetics]]
+[[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/ChineseLiterature/ChineseLiterature|ChineseLiterature]] · [[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/ChineseClassicalLiterature/ChineseClassicalLiterature|ChineseClassicalLiterature]] · [[03_HumanitiesAndSocialSciences/Philosophy/INDEX|Philosophy]] · [[03_HumanitiesAndSocialSciences/Philosophy/Aesthetics/Aesthetics|Aesthetics]]
 
 ## 参考资源
 
@@ -285,3 +285,5 @@ updated: 2026-05-13
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+
+

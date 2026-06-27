@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SemanticWeb]
 tags: ['KnowledgeGraph', 'SemanticWeb']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 语义网基础
@@ -157,7 +157,7 @@ ex:张三 ex:职业 ex:工程师 .
 
 - [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]]
 - AI/KnowledgeRepresentation
-- [[InformationRetrieval]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/InformationRetrieval/InformationRetrieval|InformationRetrieval]]
 
 ## 参考资源
 
@@ -165,3 +165,5 @@ ex:张三 ex:职业 ex:工程师 .
 - 《语义 Web 技术》
 - 《知识图谱：方法、实践与应用》
 - Linked Open Data 项目网站
+
+

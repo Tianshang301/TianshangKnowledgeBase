@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Pharmacognosy]
 tags: ['Pharmacy', 'Pharmacognosy']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 生药学
@@ -205,3 +205,4 @@ DNA 条形码技术利用标准 DNA 片段进行物种鉴定。ITS2和 psbA-trnH
 - 天然药物化学
 - 药用植物学
 - 中药鉴定学
+

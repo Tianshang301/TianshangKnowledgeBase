@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Calligraphy]
 tags: ['FineArts', 'Calligraphy', 'Calligraphy']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 书法
@@ -175,9 +175,11 @@ updated: 2026-05-13
 
 ## 相关条目
 
-- [[FineArts]]
+- [[01_K12/ArtsAndSports/FineArts|FineArts]]
 - [[06_ArtsAndCreativity/FineArts/Composition/INDEX|Composition]]
-- [[ArtHistory]]
+- [[06_ArtsAndCreativity/FineArts/ArtHistory/ArtHistory|ArtHistory]]
 - ChineseCulture
 
 ## 参考资源
+
+

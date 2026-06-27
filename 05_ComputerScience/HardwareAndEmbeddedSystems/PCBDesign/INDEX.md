@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['HardwareAndEmbeddedSystems', 'PCBDesign', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # PCBDesign
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[PCBDesign]] - PCB 璁捐
 - [[楂橀€?PCB 璁捐瑕佺偣]] - 楂橀€?PCB 璁捐瑕佺偣
 - [[高速PCB设计要点]]
+
 

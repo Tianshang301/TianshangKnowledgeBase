@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 数据集
   - Datasets
@@ -7,7 +7,7 @@ aliases:
   - 科学数据集
 tags:
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
   - datasets
   - open-data
   - scientific-data
@@ -249,4 +249,6 @@ $$ \text{DQ}_{\text{score}} = \sum_{i=1}^{n} w_i \cdot \text{metric}_i $$
 
 ## 相关条目
 
-[[数据集选择指南]], [[OpenData]], [[DataScience]], [[ResearchMethods]], [[LicenseAndCopyright]]
+[[数据集选择指南]], [[OpenData]], [[07_InterdisciplinarySciences/DataScience/DataScience|DataScience]], [[00_KnowledgeFramework/Methodology/ResearchMethods|ResearchMethods]], [[00_KnowledgeFramework/LicenseAndCopyright/LicenseAndCopyright|LicenseAndCopyright]]
+
+

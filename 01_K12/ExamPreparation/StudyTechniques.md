@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [StudyTechniques]
 tags: ['ExamPreparation', 'StudyTechniques']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 学习技巧
@@ -209,3 +209,4 @@ updated: 2026-05-13
 ## 相关条目
 
 [[StudyTechniques]], Gaokao, Zhongkao, TestTakingStrategies
+

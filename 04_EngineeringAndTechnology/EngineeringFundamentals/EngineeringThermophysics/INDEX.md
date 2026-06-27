@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['EngineeringFundamentals', 'EngineeringThermophysics', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # EngineeringThermophysics
@@ -14,3 +14,4 @@ updated: 2026-05-13
 - [[Combustion]]
 - [[HeatTransfer]]
 - [[Thermodynamics]]
+

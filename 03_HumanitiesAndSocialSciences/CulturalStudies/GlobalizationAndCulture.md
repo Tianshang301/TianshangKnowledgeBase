@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 全球化与文化
   - Globalization and Culture
@@ -183,4 +183,5 @@ updated: 2026-06-27
 - [[CulturalTheory|文化理论]]
 - [[PostcolonialStudies|后殖民研究]]
 - [[MediaCulture|媒体文化]]
-- [[HistoryOfGlobalization|全球化史]]
+- [[03_HumanitiesAndSocialSciences/ModernHistory/HistoryOfGlobalization|全球化史]]
+

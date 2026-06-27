@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [AmphibiousOperations]
 tags: ['MilitaryStrategy', 'AmphibiousOperations']
 created: 2026-05-19
@@ -131,4 +131,5 @@ updated: 2026-05-19
 - [[ArmsAndServices]]
 - [[SpecialOperations]]
 - [[MilitaryDecisionMaking]]
-- [[WeaponsSystems]]
+- [[10_MilitarySciences/MilitaryTechnology/WeaponsSystems|WeaponsSystems]]
+

@@ -2,7 +2,7 @@
 aliases: [PhysicalGeography]
 tags: ['02_NaturalSciences', 'EarthSciences', 'PhysicalGeography']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 # PhysicalGeography
 
@@ -15,4 +15,5 @@ updated: 2026-05-13
 - [[地貌学]]
 - [[气象气候学]]
 - [[水文地理学]]
+
 

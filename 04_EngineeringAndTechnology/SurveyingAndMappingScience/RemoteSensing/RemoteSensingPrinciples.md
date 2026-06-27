@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [RemoteSensingPrinciples]
 tags: ['SurveyingAndMappingScience', 'RemoteSensing', 'RemoteSensingPrinciples']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 遥感原理 (Remote Sensing Principles)
@@ -237,3 +237,4 @@ graph LR
 - [[DigitalImageProcessing]]
 - [[GeographicInformationSystem]]
 - [[INDEX|EngineeringAndTechnology 索引]]
+

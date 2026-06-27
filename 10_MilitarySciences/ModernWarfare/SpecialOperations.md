@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [特种作战, SpecialOperations]
 tags: ['MilitaryScience', 'ModernWarfare', 'SpecialOperations', 'CounterTerrorism']
 created: 2026-06-27
@@ -255,6 +255,7 @@ FID 需要与东道国政府和安全部队建立密切的信任关系和合作�
 - [[UrbanWarfare]]
 - [[CyberWarfare]]
 - [[InformationWarfare]]
-- [[MilitaryAI]]
-- [[ArmsAndServices]]
-- [[JointOperations]]
+- [[10_MilitarySciences/MilitaryTechnology/MilitaryAI|MilitaryAI]]
+- [[10_MilitarySciences/ArmsAndServices|ArmsAndServices]]
+- [[10_MilitarySciences/MilitaryStrategy/JointOperations|JointOperations]]
+

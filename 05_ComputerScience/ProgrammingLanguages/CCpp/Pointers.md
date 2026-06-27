@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Pointers]
 tags: ['ProgrammingLanguages', 'CCpp', 'Pointers']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 指针与内存管理
@@ -390,3 +390,4 @@ delete p;
 | 算术运算 | 支持指针运算 | 不支持 |
 | 内存 | 需要额外存储 | 别名，通常不占用额外内存 |
 | 适用场景 | 可选参数、动态分配、数组遍历 | 函数参数传递、运算符重载 |
+

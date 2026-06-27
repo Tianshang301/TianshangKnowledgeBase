@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Macroeconomics]
 tags: ['BusinessAdministration', 'Macroeconomics']
 created: 2026-05-19
@@ -124,8 +124,9 @@ updated: 2026-05-19
 ## 相关条目
 
 - [[Microeconomics]]
-- [[PublicFinance]]
-- [[FinancialMarkets]]
-- [[InternationalTrade]]
-- [[ProbabilityTheory]]
-- [[Statistics]]
+- [[11_ManagementSciences/PublicAdministration/PublicFinance|PublicFinance]]
+- [[11_ManagementSciences/BusinessAdministration/Finance/FinancialMarkets|FinancialMarkets]]
+- [[03_HumanitiesAndSocialSciences/Economics/InternationalTrade/InternationalTrade|InternationalTrade]]
+- [[11_ManagementSciences/ManagementScienceAndEngineering/ProbabilityTheory|ProbabilityTheory]]
+- [[07_InterdisciplinarySciences/AppliedStatistics/Statistics|Statistics]]
+

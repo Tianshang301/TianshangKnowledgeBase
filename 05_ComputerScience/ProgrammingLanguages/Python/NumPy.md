@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [NumPy]
 tags: ['ProgrammingLanguages', 'Python', 'NumPy']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # NumPy 快速指南
@@ -324,3 +324,4 @@ loaded = np.load("array.npy")
 ```
 
 > NumPy 是 Python 科学计算的基石。核心要点: 使用向量化操作替代循环、理解广播机制、善用切片和索引。熟练掌握 NumPy 是学习 Pandas、Scikit-learn 和深度学习框架的基础。
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [HeapsAndPriorityQueues, 堆与优先队列, BinaryHeap]
 tags: ['05_ComputerScience', 'DataStructuresAndAlgorithms', 'DataStructures', 'HeapsAndPriorityQueues', 'Algorithm']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 堆与优先队列 (Heaps and Priority Queues)
@@ -244,5 +244,7 @@ graph TD
 - [[Queue|队列 (Queue)]]
 - [[SegmentTree|线段树 (Segment Tree)]]
 - [[DijkstraAlgorithm|Dijkstra 算法]]
-- [[SortingAlgorithms|排序算法 (Sorting Algorithms)]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/SortingAlgorithms|排序算法 (Sorting Algorithms)]]
 - [[INDEX|DataStructures 索引]]
+
+

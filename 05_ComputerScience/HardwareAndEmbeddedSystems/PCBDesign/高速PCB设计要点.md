@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [高速 PCB 设计要点]
 tags: ['HardwareAndEmbeddedSystems', 'PCBDesign', '高速 PCB 设计要点']
 ---
@@ -258,8 +258,8 @@ PCB 设计检查清单：
 - [[PCBDesign]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/DigitalCircuits/INDEX|DigitalCircuits]]
 - SignalIntegrity
-- [[FPGA]]
-- [[EmbeddedLinux]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/FPGA/FPGA|FPGA]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/EmbeddedLinux/EmbeddedLinux|EmbeddedLinux]]
 
 ## 参考资源
 
@@ -270,3 +270,4 @@ PCB 设计检查清单：
 5. Cadence Allegro 约束管理器文档
 6. Keysight ADS 高速仿真教程
 7. SI-List 信号完整性邮件列表
+

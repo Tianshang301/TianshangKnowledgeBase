@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SolarEnergy, 太阳能, Photovoltaics]
 tags: ['EnergyAndNuclearEngineering', 'RenewableEnergy', 'SolarEnergy', 'Photovoltaics']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 太阳能 (Solar Energy / Photovoltaics)
@@ -232,10 +232,12 @@ $$ \text{LCOE} = \frac{I_0 + \sum_{t=1}^T (O_t + M_t + F_t) (1 + r)^{-t}}{\sum_{
 
 - [[WindEnergy]]
 - [[HydrogenEnergy]]
-- [[EnergyEfficiency]]
-- [[EnergySystems]]
-- [[SemiconductorPhysics]]
-- [[PowerElectronics]]
+- [[04_EngineeringAndTechnology/EnergyAndNuclearEngineering/EnergyScience/EnergyEfficiency|EnergyEfficiency]]
+- [[12_SportsScience/ExercisePhysiology/EnergySystems|EnergySystems]]
+- [[04_EngineeringAndTechnology/SemiconductorEngineering/SemiconductorPhysics|SemiconductorPhysics]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/ElectricalEngineering/PowerElectronics|PowerElectronics]]
 - [[BatteryEnergyStorage]]
 - [[ThermalEnergyStorage]]
 - [[ConcentratedSolarPower]]
+
+

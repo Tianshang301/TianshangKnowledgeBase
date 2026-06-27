@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 01_K12
@@ -49,3 +49,4 @@ updated: 2026-05-13
 - [[01_K12/QualityEducation/通用技术]] - 通用技术
 - [[01_K12/QualityEducation/心理健康教育]] - 心理健康教育
 - [[01_K12/QualityEducation/综合实践活动]] - 综合实践活动
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ProcessDesign]
 tags: ['ChemicalAndPharmaceuticalEngineering', 'ChemicalEngineering', 'ProcessDesign']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 化工过程设计
@@ -97,6 +97,8 @@ $$Q - W = \Delta H + \Delta E_k + \Delta E_p$$
 ## 相关条目
 - [[UnitOperations]]
 - [[ReactionEngineering]]
-- [[FineChemicals]]
-- [[DrugDesign]]
-- [[Formulation]]
+- [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/FineChemicals/FineChemicals|FineChemicals]]
+- [[09_MedicineAndHealth/Pharmacy/DrugDesign|DrugDesign]]
+- [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/PharmaceuticalEngineering/Formulation|Formulation]]
+
+

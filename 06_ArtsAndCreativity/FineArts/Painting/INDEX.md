@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['FineArts', 'Painting', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Painting
@@ -16,4 +16,5 @@ updated: 2026-05-13
 - [[绘画技法]]
 - [[绘画流派与名作]]
 - [[绘画艺术]]
+
 

@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Logic', 'Applications', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Applications
@@ -15,4 +15,5 @@ updated: 2026-05-13
 - [[褰㈠紡鍖栨柟娉曚笌绋嬪簭楠岃瘉]]
 - [[人工智能中的逻辑]]
 - [[形式化方法与程序验证]]
+
 

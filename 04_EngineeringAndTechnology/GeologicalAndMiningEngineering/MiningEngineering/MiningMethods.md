@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MiningMethods, 采矿方法]
 tags: ['04_EngineeringAndTechnology', 'GeologicalAndMiningEngineering', 'MiningEngineering', 'MiningMethods']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 采矿方法 (Mining Methods)
@@ -254,3 +254,4 @@ $$
 - **原位流体化采矿 (In-Situ Fluidization)**：钻孔水力破碎抽取
 - **共伴生资源综合回收**：尾矿中有价元素再选
 - **绿色矿山标准体系**：废弃物零排放、碳中和开采目标
+

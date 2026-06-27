@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Dijkstra]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'Dijkstra']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Dijkstra 最短路径算法
@@ -342,8 +342,10 @@ def a_star(graph: Graph, start: int, goal: int,
 
 ## 相关条目
 
-- [[Graph]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/DataStructures/Graph|Graph]]
 - [[BFSDFS]]
 - [[MST]]
-- [[Heap]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/DataStructures/Heap|Heap]]
 - [[DP]]
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SocialPsychology]
 tags: ['03_HumanitiesAndSocialSciences', 'Psychology', 'SocialPsychology']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 社会心理学 (Social Psychology)
@@ -157,3 +157,4 @@ updated: 2026-05-16
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [PowerShell]
 tags: ['OperatingSystems', 'Linux', 'PowerShell']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # PowerShell 脚本编程
@@ -361,3 +361,4 @@ Import-PSSession -Session $session -Module ActiveDirectory
 - [[Environment]]
 - [[Basics]]
 - [[Advanced]]
+

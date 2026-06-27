@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Archaeology]
 tags: ['History', 'Archaeology', 'Archaeology']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 考古学（历史学）
@@ -315,3 +315,4 @@ $$\text{Silk Road Exchange} = \text{Material Goods} + \text{Technologies} + \tex
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ThermalPower]
 tags: ['MechanicalAndElectricalEngineering', 'PowerEngineering', 'ThermalPower']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 火力发电
@@ -150,6 +150,8 @@ $\eta_{total} = \eta_b \times \eta_p \times \eta_t \times \eta_g \times (1-\eta_
 
 - [[Hydropower]]
 - [[NewEnergy]]
-- [[EnergySystems]]
-- [[Thermodynamics]]
-- [[ControlSystems]]
+- [[12_SportsScience/ExercisePhysiology/EnergySystems|EnergySystems]]
+- [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringThermophysics/Thermodynamics|Thermodynamics]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/Mechatronics/ControlSystems|ControlSystems]]
+
+

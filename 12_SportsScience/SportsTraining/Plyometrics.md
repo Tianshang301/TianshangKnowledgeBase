@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Plyometrics, 超等长训练, 增强式训练, Stretch-ShorteningCycle, SSC, JumpTraining, DepthJump]
 tags: ['12_SportsScience', 'SportsTraining', 'Plyometrics', 'PowerDevelopment', 'ExplosiveTraining']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 增强式训练 Plyometrics
@@ -237,7 +237,9 @@ $$
 - [[FatigueMonitoring]]
 - [[StrengthAndConditioning]]
 - [[SportsPeriodization]]
-- [[Biomechanics]]
-- [[InjuryPrevention]]
+- [[12_SportsScience/ExercisePhysiology/Biomechanics|Biomechanics]]
+- [[12_SportsScience/SportsMedicine/InjuryPrevention|InjuryPrevention]]
 - [[INDEX|SportsTraining 索引]]
 - [[../../INDEX|TianshangKnowledgeBase 索引]]
+
+

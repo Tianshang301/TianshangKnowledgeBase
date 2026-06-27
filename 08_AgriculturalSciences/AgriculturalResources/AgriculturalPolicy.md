@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AgriculturalPolicy]
 tags: ['AgriculturalResources', 'AgriculturalPolicy']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 农业政策与管理
@@ -214,3 +214,4 @@ $$
 ## 相关条目
 
 [[LandResourceManagement]], [[AgriculturalEcology]], [[PrecisionAgriculture]], [[AgriculturalChemistry]], [[08_AgriculturalSciences/CropScience/INDEX|CropScience]], [[SoilScience]]
+

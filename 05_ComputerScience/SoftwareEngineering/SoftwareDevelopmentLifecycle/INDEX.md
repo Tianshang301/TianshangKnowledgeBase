@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['SoftwareEngineering', 'SoftwareDevelopmentLifecycle', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 杞欢寮€鍙戠敓鍛藉懆鏈?
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[CI-CD 涓?DevOps 瀹炶返]]
 - [[SoftwareDevelopmentLifecycle]]
 - [[CI-CD与DevOps实践]]
+
 

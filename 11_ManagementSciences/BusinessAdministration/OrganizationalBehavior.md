@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [OrganizationalBehavior]
 tags: ['BusinessAdministration', 'OrganizationalBehavior']
 created: 2026-05-19
@@ -98,8 +98,9 @@ updated: 2026-05-19
 ## 相关条目
 
 - [[ManagementPrinciples]]
-- [[HRMPrinciples]]
-- [[PerformanceManagement]]
+- [[11_ManagementSciences/BusinessAdministration/HumanResources/HRMPrinciples|HRMPrinciples]]
+- [[11_ManagementSciences/BusinessAdministration/HumanResources/PerformanceManagement|PerformanceManagement]]
 - [[StrategicManagement]]
 - [[Psychology]]
-- [[SocialPsychology]]
+- [[03_HumanitiesAndSocialSciences/Sociology/SocialPsychology/SocialPsychology|SocialPsychology]]
+

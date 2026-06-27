@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [TechnicalWriting]
 tags: ['05_ComputerScience', 'ProfessionalEnglish']
 created: 2026-05-17
@@ -297,7 +297,8 @@ DITA 将文档内容分为三类主题：
 ```
 
 ## 相关条目
-- [[Documentation]]
-- [[UserExperience]]
-- [[RequirementsEngineering]]
+- [[05_ComputerScience/SoftwareEngineering/Documentation|Documentation]]
+- [[05_ComputerScience/HumanComputerInteraction/UserExperience|UserExperience]]
+- [[05_ComputerScience/SoftwareEngineering/RequirementsEngineering|RequirementsEngineering]]
 - [[05_ComputerScience/ProfessionalEnglish/INDEX]]
+

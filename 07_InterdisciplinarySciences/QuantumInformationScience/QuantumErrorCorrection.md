@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [QuantumErrorCorrection, 量子纠错]
 tags: ['QuantumInformationScience', 'QuantumComputing', 'QuantumErrorCorrection']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 量子纠错
@@ -214,4 +214,6 @@ $$A_s = \prod_{i \in \text{star}(s)} X_i, \quad B_p = \prod_{i \in \partial p} Z
 - [[02_NaturalSciences/Physics/QuantumMechanics/INDEX|QuantumMechanics]]
 - [[QuantumComputing]]
 - [[02_NaturalSciences/Physics/CondensedMatterPhysics/TopologicalPhases]]
-- [[InformationTheory]]
+- [[05_ComputerScience/InformationTheory/InformationTheory|InformationTheory]]
+
+

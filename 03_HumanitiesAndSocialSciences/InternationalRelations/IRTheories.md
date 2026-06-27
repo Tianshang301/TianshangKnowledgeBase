@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 国际关系理论
   - IR Theories
@@ -148,4 +148,5 @@ updated: 2026-06-27
 - [[InternationalOrganizations|国际组织]]
 - [[GlobalGovernance|全球治理]]
 - [[Geopolitics|地缘政治]]
-- [[PoliticalPhilosophy|政治哲学]]
+- [[03_HumanitiesAndSocialSciences/Philosophy/PoliticalPhilosophy|政治哲学]]
+

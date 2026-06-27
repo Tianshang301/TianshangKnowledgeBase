@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Biotechnology]
 tags: ['TextileAndFoodEngineering', 'Biotechnology', 'Biotechnology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 生物技术（纺织与食品工程方向）
@@ -237,3 +237,4 @@ $$
 3. 王璋. 食品生物技术[M]. 北京: 中国轻工业出版社, 2016.
 4. 陈坚. 发酵工程原理[M]. 北京: 化学工业出版社, 2012.
 5. Okafor, N. Modern Industrial Microbiology and Biotechnology[M]. CRC Press, 2021.
+

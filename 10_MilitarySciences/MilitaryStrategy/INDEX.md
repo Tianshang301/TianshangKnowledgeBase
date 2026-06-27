@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['MilitaryStrategy', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # MilitaryStrategy
@@ -24,3 +24,4 @@ updated: 2026-05-13
 - [[AmphibiousOperations]] — 两栖作战：海上登陆作战
 - [[03_HumanitiesAndSocialSciences/PoliticalScience/INDEX|PoliticalScience]]
 - [[10_MilitarySciences/NationalDefense/INDEX|NationalDefense]]
+

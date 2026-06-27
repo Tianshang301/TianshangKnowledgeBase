@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Astronomy', 'Cosmology', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Cosmology
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[AdvancedCosmology]]
 - [[瀹囧畽瀛]
 - [[宇宙学]]
+
 

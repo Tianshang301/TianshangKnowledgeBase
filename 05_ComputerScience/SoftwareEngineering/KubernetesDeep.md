@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [KubernetesDeep, K8s深度, 容器编排]
 tags: ['05_ComputerScience', 'SoftwareEngineering', 'Kubernetes', 'DevOps']
 created: 2026-06-27
@@ -620,11 +620,12 @@ spec:
 ## 相关条目
 
 - [[DockerAndContainerization]]
-- [[K8s]]
-- [[DevOps]]
+- [[05_ComputerScience/SoftwareEngineering/DevOpsAndCICD/K8s|K8s]]
+- [[05_ComputerScience/SoftwareEngineering/DevOpsAndCICD/DevOps|DevOps]]
 
 ## 参考资源
 
 1. Kubernetes. "Official Documentation." kubernetes.io
 2. Kubernetes. "Best Practices." kubernetes.io/docs
 3. Helm. "Documentation." helm.sh
+

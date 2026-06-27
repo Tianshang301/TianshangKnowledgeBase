@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['ArtificialIntelligence', 'AIGC', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # AIGC
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[AIGC]]
 - [[AIGC 妯″瀷鏋舵瀯涓庡簲鐢╙] - AIGC 妯″瀷鏋舵瀯涓庡簲鐢?
 - [[AIGC模型架构与应用]]
+
 

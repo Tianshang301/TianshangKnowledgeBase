@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Design', 'GraphicDesign', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # GraphicDesign
@@ -15,4 +15,5 @@ updated: 2026-05-13
 - [[骞抽潰璁捐]]
 - [[品牌视觉识别系统]]
 - [[平面设计]]
+
 

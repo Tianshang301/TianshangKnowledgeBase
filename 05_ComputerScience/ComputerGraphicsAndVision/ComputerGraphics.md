@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ComputerGraphics]
 tags: ['ComputerGraphicsAndVision', 'ComputerGraphics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 计算机图形学
@@ -264,10 +264,10 @@ $$v' = \sum_{i=1}^{n} w_i \cdot (M_i \cdot M_{bind_i}^{-1}) \cdot v$$
 
 ## 相关条目
 
-- [[ComputerVision]]
-- [[GameDevelopment]]
+- [[05_ComputerScience/ArtificialIntelligence/ComputerVision/ComputerVision|ComputerVision]]
+- [[05_ComputerScience/EngineeringDevelopment/GameDevelopment/GameDevelopment|GameDevelopment]]
 - Mathematics/Geometry
-- [[ImageProcessing]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/SignalProcessing/ImageProcessing|ImageProcessing]]
 
 ## 参考资源
 
@@ -280,3 +280,5 @@ $$v' = \sum_{i=1}^{n} w_i \cdot (M_i \cdot M_{bind_i}^{-1}) \cdot v$$
 - WebGPU 规范: https://www.w3.org/TR/webgpu
 - LearnOpenGL: https://learnopengl.com
 - Scratchapixel: https://www.scratchapixel.com
+
+

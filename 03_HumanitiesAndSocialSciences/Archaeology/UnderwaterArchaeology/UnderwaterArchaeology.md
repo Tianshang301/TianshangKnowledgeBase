@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [UnderwaterArchaeology]
 tags: ['Archaeology', 'UnderwaterArchaeology', 'UnderwaterArchaeology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 水下考古学
@@ -250,3 +250,4 @@ updated: 2026-05-13
 | 法律框架 | UNESCO《Convention on the Protection of the Underwater Cultural Heritage》 |
 | 船舶考古 | Steffy《Wooden Ship Building and the Interpretation of Shipwrecks》 |
 | 海洋景观 | Westerdahl《The Maritime Cultural Landscape》 |
+

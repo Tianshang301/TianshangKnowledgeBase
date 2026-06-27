@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [TrainingTheory]
 tags: ['SportsTraining', 'TrainingTheory']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 训练理论
@@ -235,4 +235,6 @@ updated: 2026-05-13
 
 - [[12_SportsScience/ExercisePhysiology/INDEX|ExercisePhysiology]]
 - [[12_SportsScience/SportsMedicine/INDEX|SportsMedicine]]
-- [[PhysicalEducation]]
+- [[01_K12/ArtsAndSports/PhysicalEducation|PhysicalEducation]]
+
+

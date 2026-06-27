@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ControlSystems]
 tags: ['MechanicalAndElectricalEngineering', 'Mechatronics', 'ControlSystems']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 控制系统
@@ -130,7 +130,9 @@ margin(sys);  % 稳定裕度
 ## 相关条目
 
 - [[PLCProgramming]]
-- [[ClassicalControl]]
-- [[ModernControl]]
-- [[SensorTechnology]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/ClassicalControl|ClassicalControl]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/ModernControl|ModernControl]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/InstrumentScience/SensorTechnology|SensorTechnology]]
 - [[RoboticsBasics]]
+
+

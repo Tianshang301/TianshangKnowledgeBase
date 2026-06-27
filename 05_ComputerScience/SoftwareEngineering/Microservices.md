@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Microservices, 微服务架构, 微服务设计]
 tags: ['05_ComputerScience', 'SoftwareEngineering', 'Microservices', 'Architecture']
 created: 2026-06-27
@@ -518,10 +518,10 @@ class OrderQueryHandler:
 
 ## 相关条目
 
-- [[CloudComputingAndDistributedSystems]]
+- [[05_ComputerScience/CloudComputingAndDistributedSystems/CloudComputingAndDistributedSystems|CloudComputingAndDistributedSystems]]
 - [[DockerAndContainerization]]
 - [[KubernetesDeep]]
-- [[ServiceMesh]]
+- [[05_ComputerScience/CloudComputingAndDistributedSystems/ServiceMesh|ServiceMesh]]
 
 ## 参考资源
 
@@ -529,3 +529,4 @@ class OrderQueryHandler:
 2. Chris Richardson. "Microservices Patterns." Manning, 2018
 3. Martin Fowler. "Microservices." martinfowler.com
 4. Netflix. "Microservices Architecture." netflix.github.io
+

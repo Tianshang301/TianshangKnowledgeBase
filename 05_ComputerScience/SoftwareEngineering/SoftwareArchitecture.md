@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - SoftwareArchitecture
   - 软件架构
@@ -6,7 +6,7 @@ aliases:
   - SystemDesign
 tags:
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
   - '05_ComputerScience'
   - 'SoftwareEngineering'
   - 'Architecture'
@@ -137,7 +137,9 @@ mindmap
 ## 相关条目
 
 - [[SoftwareEngineering]]
-- [[TestingOverview]]
-- [[DistributedSystems]]
-- [[ProgrammingLanguages]]
-- [[DevOps]]
+- [[05_ComputerScience/SoftwareEngineering/SoftwareTesting/TestingOverview|TestingOverview]]
+- [[07_InterdisciplinarySciences/NetworkedInformationSystems/DistributedSystems|DistributedSystems]]
+- [[05_ComputerScience/ProgrammingLanguages/ProgrammingLanguages|ProgrammingLanguages]]
+- [[05_ComputerScience/SoftwareEngineering/DevOpsAndCICD/DevOps|DevOps]]
+
+

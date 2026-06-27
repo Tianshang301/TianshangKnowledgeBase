@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['PrimarySchool', 'Chinese', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Chinese
@@ -17,8 +17,10 @@ updated: 2026-05-13
 | [[鍙よ瘲鏂囪璇籡] | 鏂拌鏍囧繀鑳?5棣栧彜璇楁枃 |
 | [[缁冧範棰樹笌瑙ｆ瀽]] | 缁煎悎缁冧範棰樹笌璇︾粏瑙ｆ瀽 |
 - [[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/INDEX|ChineseLanguageAndLiterature]]
-- [[ChineseWriting]]
-- [[ClassicalChinese]]
+- [[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/ChineseWriting/ChineseWriting|ChineseWriting]]
+- [[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/ClassicalChinese/ClassicalChinese|ClassicalChinese]]
 - [[古诗文诵读]]
 - [[练习题与解析]]
+
+
 

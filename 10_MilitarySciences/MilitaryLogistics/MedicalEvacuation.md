@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [MedicalEvacuation]
 tags: ['MilitaryLogistics', 'MedicalEvacuation']
 created: 2026-05-19
@@ -99,5 +99,6 @@ updated: 2026-05-19
 - [[MilitaryLogisticsOverview]]
 - [[LogisticsSupportSystems]]
 - [[MilitarySupplyChain]]
-- [[CivilDefense]]
-- [[EmergencyMedicine]]
+- [[10_MilitarySciences/NationalDefense/CivilDefense|CivilDefense]]
+- [[09_MedicineAndHealth/ClinicalMedicine/EmergencyMedicine|EmergencyMedicine]]
+

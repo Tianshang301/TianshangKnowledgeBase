@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [QuantumComputing]
 tags: ['QuantumInformationScience', 'QuantumComputing']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 量子计算
@@ -264,3 +264,4 @@ print(result.histogram(key='q(0),q(1)'))
 ## 相关条目
 
 [[02_NaturalSciences/Physics/QuantumMechanics/INDEX|QuantumMechanics]], ComputerScience, Cryptography, [[QuantumComputing]]
+

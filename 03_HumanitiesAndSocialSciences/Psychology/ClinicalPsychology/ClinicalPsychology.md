@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ClinicalPsychology]
 tags: ['Psychology', 'ClinicalPsychology', 'ClinicalPsychology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 临床心理学
@@ -237,8 +237,8 @@ Rogers 的以人为中心疗法提出三个核心条件：
 
 ## 相关条目
 
-- [[EducationalPsychology]]
-- [[CognitivePsychology]]
+- [[03_HumanitiesAndSocialSciences/Psychology/EducationalPsychology/EducationalPsychology|EducationalPsychology]]
+- [[07_InterdisciplinarySciences/CognitiveScience/CognitivePsychology|CognitivePsychology]]
 - [[02_NaturalSciences/Biology/Neuroscience/INDEX|Neuroscience]]
 - [[13_Others/PersonalProductivity/Health/MentalHealth/INDEX|MentalHealth]]
 
@@ -251,3 +251,5 @@ Rogers 的以人为中心疗法提出三个核心条件：
 - APA《伦理原则与行为准则》
 - Barlow《临床心理学》
 - Comer《异常心理学》
+
+

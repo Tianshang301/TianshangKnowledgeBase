@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Branch]
 tags: ['SoftwareEngineering', 'GitAndVersionControl', 'Branch']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Git 分支策略
@@ -354,3 +354,4 @@ git add -p    # 交互式暂存
 - [[Advanced]]
 - [[GitHub]]
 - [[05_ComputerScience/SoftwareEngineering/GitAndVersionControl/INDEX|GitAndVersionControl]]
+

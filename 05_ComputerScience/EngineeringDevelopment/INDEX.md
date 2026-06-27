@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['EngineeringDevelopment', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # EngineeringDevelopment
@@ -11,12 +11,14 @@ updated: 2026-05-13
 
 ## 鏂囦欢
 
-- [[DevOps]]
-- [[SoftwareArchitecture]]
-- [[SoftwareTesting]]
-- [[SystemDesign]]
+- [[05_ComputerScience/SoftwareEngineering/DevOpsAndCICD/DevOps|DevOps]]
+- [[05_ComputerScience/SoftwareEngineering/SoftwareArchitecture|SoftwareArchitecture]]
+- [[05_ComputerScience/SoftwareEngineering/SoftwareTesting/SoftwareTesting|SoftwareTesting]]
+- [[05_ComputerScience/SoftwareEngineering/SystemDesign|SystemDesign]]
 - [[DesktopDevelopment/INDEX|DesktopDevelopment]]
 - [[GameDevelopment/INDEX|GameDevelopment]]
 - [[MobileDevelopment/INDEX|MobileDevelopment]]
 - [[WebDevelopment/INDEX|WebDevelopment]]
+
+
 

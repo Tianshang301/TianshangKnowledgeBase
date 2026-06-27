@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FinancialAccounting]
 tags: ['BusinessAdministration', 'Accounting', 'FinancialAccounting']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 财务会计
@@ -185,3 +185,4 @@ updated: 2026-05-13
 - 税务会计
 - 会计信息系统
 - 公司金融
+

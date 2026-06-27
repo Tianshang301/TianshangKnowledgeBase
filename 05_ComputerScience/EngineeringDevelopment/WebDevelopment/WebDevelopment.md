@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [WebDevelopment]
 tags: ['EngineeringDevelopment', 'WebDevelopment', 'WebDevelopment']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Web 开发完全指南
@@ -364,7 +364,7 @@ server {
 
 - Frontend
 - Backend
-- [[MobileDevelopment]]
+- [[05_ComputerScience/EngineeringDevelopment/MobileDevelopment/MobileDevelopment|MobileDevelopment]]
 - Database
 - DevOps
 
@@ -377,3 +377,5 @@ server {
 - 《Web 全栈工程师的自我修养》— 余果
 - 《HTTP 权威指南》— Gourley 等
 - web.dev: https://web.dev
+
+

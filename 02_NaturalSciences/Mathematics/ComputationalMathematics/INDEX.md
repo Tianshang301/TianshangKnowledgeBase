@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Mathematics', 'ComputationalMathematics', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # ComputationalMathematics
@@ -18,4 +18,5 @@ updated: 2026-05-13
 - [[微分方程数值解]]
 - [[插值与数值积分]]
 - [[线性代数与非线性方程数值解]]
+
 

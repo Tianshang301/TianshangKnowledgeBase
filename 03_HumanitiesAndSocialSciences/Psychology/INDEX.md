@@ -2,7 +2,7 @@
 aliases: [Psychology]
 tags: ['03_HumanitiesAndSocialSciences', 'Psychology']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 # Psychology
 
@@ -148,4 +148,5 @@ updated: 2026-05-13
 - [[DevelopmentalPsychology/INDEX|DevelopmentalPsychology]]
 - [[EducationalPsychology/INDEX|EducationalPsychology]]
 - [[EngineeringPsychology/INDEX|EngineeringPsychology]]
+
 

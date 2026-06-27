@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ChineseFormulas]
 tags: ['TraditionalChineseMedicine', 'ChineseFormulas']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 方剂学
@@ -222,3 +222,4 @@ updated: 2026-05-13
 - 中医诊断学
 - 中医内科学
 - 温病学
+

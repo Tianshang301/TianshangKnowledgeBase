@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LearningPath, MedicinePath, 医学学习路线, 医学健康, HealthSciencePath, PremedPath]
 tags: ['LearningPath', 'MedicineAndHealth', 'MedicalEducation', 'Healthcare', 'Premed']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 学习路径：医学与健康 (Medicine and Health Learning Path)
@@ -188,3 +188,4 @@ graph LR
 - [[02_NaturalSciences/Physics/Thermodynamics/Entropy\|熵]]
 - [[02_NaturalSciences/Physics/Thermodynamics/StatisticalMechanics\|统计力学]]
 - [[11_ManagementSciences/LearningPath\|管理科学学习路径]]
+

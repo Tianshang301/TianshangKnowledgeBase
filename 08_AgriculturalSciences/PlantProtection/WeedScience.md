@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [WeedScience]
 tags: ['PlantProtection', 'WeedScience']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 杂草科学
@@ -224,3 +224,4 @@ $$E = \frac{D_{ref} - D_{test}}{D_{ref}} \times 100\%$$
 ## 相关条目
 
 [[08_AgriculturalSciences/CropScience/INDEX|CropScience]], [[Entomology]], [[08_AgriculturalSciences/Horticulture/INDEX|Horticulture]], [[PesticideScience]], [[PlantPathology]], [[WeedScience]]
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SupplyChain]
 tags: ['TransportationEngineering', 'Logistics', 'SupplyChain']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 供应链管理 (Supply Chain Management)
@@ -246,6 +246,8 @@ $$SS = z \times \sigma_L = z \times \sqrt{L \times \sigma_d^2 + d^2 \times \sigm
 
 - [[LogisticsManagement]]
 - [[InventoryManagement]]
-- [[OperationsResearch]]
-- [[RiskManagement]]
+- [[11_ManagementSciences/ManagementScienceAndEngineering/OperationsResearch|OperationsResearch]]
+- [[11_ManagementSciences/BusinessAdministration/Finance/RiskManagement|RiskManagement]]
 - [[INDEX|TransportationEngineering 索引]]
+
+

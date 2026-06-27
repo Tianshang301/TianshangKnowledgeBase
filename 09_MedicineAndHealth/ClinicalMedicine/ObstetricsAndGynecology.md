@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ObstetricsAndGynecology]
 tags: ['ClinicalMedicine', 'ObstetricsAndGynecology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 妇产科学
@@ -189,3 +189,4 @@ updated: 2026-05-13
 - 生殖医学
 - 内分泌学
 - 围产医学
+

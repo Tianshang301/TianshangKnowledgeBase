@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Memory]
 tags: ['ProgrammingLanguages', 'CCpp', 'Memory']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # C++ 内存模型
@@ -276,3 +276,4 @@ void wrapper(T&& arg) {
     func(std::forward<T>(arg));
 }
 ```
+

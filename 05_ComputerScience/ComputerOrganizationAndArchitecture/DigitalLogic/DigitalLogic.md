@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DigitalLogic]
 tags: ['ComputerOrganizationAndArchitecture', 'DigitalLogic', 'DigitalLogic']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 数字逻辑 (Digital Logic)
@@ -410,9 +410,9 @@ $$t_{hold\_slack} = t_{clk-to-q} + t_{logic} - t_{hold} - t_{skew} \geq 0$$
 
 ## 相关条目
 
-- [[CPUArchitecture]]
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/CPUArchitecture/CPUArchitecture|CPUArchitecture]]
 - BooleanAlgebra
-- [[FPGA]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/FPGA/FPGA|FPGA]]
 - Verilog
 
 ## 参考资源
@@ -421,3 +421,5 @@ $$t_{hold\_slack} = t_{clk-to-q} + t_{logic} - t_{hold} - t_{skew} \geq 0$$
 - 《数字设计：原理与实践》(Wakerly)
 - 《FPGA 原理与实现》(Xilinx)
 - Harris & Harris, "Digital Design and Computer Architecture"
+
+

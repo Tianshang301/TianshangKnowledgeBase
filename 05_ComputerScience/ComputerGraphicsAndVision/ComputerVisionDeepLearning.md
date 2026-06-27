@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ComputerVisionDeepLearning]
 tags: ['ComputerGraphicsAndVision', 'ComputerVisionDeepLearning']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 深度学习计算机视觉
@@ -287,9 +287,9 @@ TSM (Temporal Shift Module):
 
 ## 相关条目
 
-- [[ComputerVision]]
+- [[05_ComputerScience/ArtificialIntelligence/ComputerVision/ComputerVision|ComputerVision]]
 - DeepLearning
-- [[ImageProcessing]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/SignalProcessing/ImageProcessing|ImageProcessing]]
 - NeuralNetworks
 
 ## 参考资源
@@ -301,3 +301,5 @@ TSM (Temporal Shift Module):
 - PyTorch 官方 CV 教程: https://pytorch.org/tutorials/intermediate/torchvision_tutorial.html
 - MMDetection: https://github.com/open-mmlab/mmdetection
 - OpenCV 文档: https://docs.opencv.org
+
+

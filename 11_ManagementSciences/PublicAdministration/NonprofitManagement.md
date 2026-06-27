@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [NonprofitManagement]
 tags: ['PublicAdministration', 'NonprofitManagement']
 created: 2026-05-19
@@ -105,9 +105,10 @@ updated: 2026-05-19
 
 ## 相关条目
 
-- [[PublicAdministration]]
+- [[03_HumanitiesAndSocialSciences/PoliticalScience/PublicAdministration/PublicAdministration|PublicAdministration]]
 - [[PublicPolicy]]
 - [[PublicFinance]]
 - [[EGovernment]]
-- [[StrategicManagement]]
+- [[11_ManagementSciences/BusinessAdministration/StrategicManagement|StrategicManagement]]
 - [[HumanResources]]
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Aesthetics]
 tags: ['Philosophy', 'Aesthetics', 'Aesthetics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 美学
@@ -246,3 +246,4 @@ updated: 2026-05-13
 - 王国维《人间词话》
 - 叶朗《中国美学史大纲》
 - 李泽厚《美的历程》
+

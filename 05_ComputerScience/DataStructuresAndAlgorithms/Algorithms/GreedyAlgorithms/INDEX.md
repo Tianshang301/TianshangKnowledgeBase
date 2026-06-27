@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'GreedyAlgorithms', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 璐績绠楁硶
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[GreedyAlgorithms]]
 - [[璐績绠楁硶璇佹槑涓庢妧宸]
 - [[贪心算法证明与技巧]]
+
 

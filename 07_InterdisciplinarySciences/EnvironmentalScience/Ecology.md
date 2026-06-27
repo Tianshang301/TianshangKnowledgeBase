@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Ecology, 生态学, EcosystemEcology]
 tags: ['EnvironmentalScience', 'Ecology', 'Ecosystems', 'Biodiversity']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 生态学 (Ecology)
@@ -261,3 +261,4 @@ $$ \text{受威胁物种比例: } 28\% \text{ 评估物种} \ (\text{IPBES, 2019
 ## 相关条目
 
 - [[Ecology]], [[ClimateChange]], [[EnvironmentalPolicy]], [[Sustainability]]
+

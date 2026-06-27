@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['ControlAndSystemsEngineering', 'SystemsEngineering', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 绯荤粺宸ョ▼
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[SystemAnalysis]]
 - [[SystemModeling]]
 - [[SystemsEngineering]]
+
 

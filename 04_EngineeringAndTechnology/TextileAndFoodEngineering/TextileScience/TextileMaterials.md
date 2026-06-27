@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [TextileMaterials, 纺织材料]
 tags: ['TextileEngineering', 'TextileScience', 'MaterialsScience', 'FiberTechnology']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 纺织材料
@@ -203,3 +203,4 @@ Peirce 几何模型描述了纱线在织物中的截面形态和弯曲状态。
 - [[NonwovenTechnology]]
 - [[FiberReinforcedComposites]]
 - [[FabricStructure]]
+

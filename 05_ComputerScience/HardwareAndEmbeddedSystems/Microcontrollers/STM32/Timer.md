@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Timer]
 tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'STM32', 'Timer']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # STM32 定时器详解
@@ -221,3 +221,4 @@ uint32_t measure_frequency(void) {
 - [[ADCDAC]]
 - PWM
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/Microcontrollers/STM32/INDEX|STM32]]
+

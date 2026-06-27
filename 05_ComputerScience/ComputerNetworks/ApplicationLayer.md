@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ApplicationLayer]
 tags: ['ComputerNetworks', 'ApplicationLayer']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 应用层详解 (Application Layer)
@@ -424,5 +424,7 @@ sftp user@example.com
 - [[TransportLayer]]
 - [[DNS]]
 - [[HTTP]]
-- [[NetworkModels]]
+- [[05_ComputerScience/ComputerNetworks/NetworkModels/NetworkModels|NetworkModels]]
 - [[NetworkLayer]]
+
+

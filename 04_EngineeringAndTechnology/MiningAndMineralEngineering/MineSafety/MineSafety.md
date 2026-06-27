@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MineSafety]
 tags: ['MiningAndMineralEngineering', 'MineSafety', 'MineSafety']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 矿山安全
@@ -254,9 +254,9 @@ $$
 
 ## 相关条目
 
-- [[CoalMining]]
-- [[MineralProcessing]]
-- [[OccupationalHealth]]
+- [[04_EngineeringAndTechnology/MiningAndMineralEngineering/CoalMining/CoalMining|CoalMining]]
+- [[04_EngineeringAndTechnology/MiningAndMineralEngineering/MineralProcessing/MineralProcessing|MineralProcessing]]
+- [[09_MedicineAndHealth/PublicHealth/OccupationalHealth|OccupationalHealth]]
 - SafetyEngineering
 
 ## 参考资源
@@ -266,3 +266,5 @@ $$
 3. 俞启香. 矿井瓦斯防治[M]. 徐州: 中国矿业大学出版社, 2008.
 4. McPherson, M.J. Subsurface Ventilation Engineering[M]. Mine Ventilation Services, 2009.
 5. Kecojevic, V. Mine Safety and Health[M]. Wiley, 2019.
+
+

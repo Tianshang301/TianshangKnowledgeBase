@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [PoetryAppreciation]
 tags: ['SeniorHigh', 'Chinese', 'PoetryAppreciation']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 高中语文 · 古诗鉴赏系统知识
@@ -256,4 +256,5 @@ updated: 2026-05-13
 
 
 [[01_K12/CrossDisciplinaryK12/ClassicalLiterature/INDEX|ClassicalLiterature]], AncientPoems, LanguageArts, LiteraryAnalysis
+
 

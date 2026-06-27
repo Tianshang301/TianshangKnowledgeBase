@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['MaterialsInformatics', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # MaterialsInformatics
@@ -18,3 +18,4 @@ updated: 2026-05-13
 - [[04_EngineeringAndTechnology/MechanicsAndMaterials/MaterialsScience/INDEX|MaterialsScience]]
 - [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]]
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]]
+

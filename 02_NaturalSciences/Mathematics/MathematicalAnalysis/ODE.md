@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 常微分方程
   - Ordinary Differential Equations
@@ -8,7 +8,7 @@ aliases:
   - 拉普拉斯变换
 tags:
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
   - mathematics
   - ODE
   - differential equations
@@ -225,3 +225,4 @@ $$
 | 受迫振动 (Forced Oscillation) | $m x'' + c x' + k x = F_0 \cos \omega t$ | $c$: 阻尼系数 |
 | Logistic 增长 | $dP/dt = rP(1 - P/K)$ | $r$: 增长率, $K$: 环境容量 |
 | RLC 电路 | $L I'' + R I' + I/C = V'(t)$ | $L$: 电感, $R$: 电阻 |
+

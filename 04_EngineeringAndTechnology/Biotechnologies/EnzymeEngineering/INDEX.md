@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Biotechnologies', 'EnzymeEngineering', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 閰跺伐绋?
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[EnzymeEngineering]]
 - [[閰跺浐瀹氬寲涓庣敓鐗╁偓鍖朷]
 - [[酶固定化与生物催化]]
+
 

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [NumberTheory, 数论, ElementaryNumberTheory, 初等数论]
 tags: ['02_NaturalSciences', 'Mathematics', 'NumberTheory', 'PrimeNumbers', 'Cryptography']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 数论 (Number Theory)
@@ -288,3 +288,4 @@ $$
 - [[02_NaturalSciences/Mathematics/AbstractAlgebra/AbstractAlgebra|抽象代数]]
 - [[02_NaturalSciences/Mathematics/AppliedMathematics/Cryptography|密码学]]
 - [[INDEX|当前目录索引]]
+

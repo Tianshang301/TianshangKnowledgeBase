@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LibraryScience]
 tags: ['LibraryAndArchive', 'LibraryScience']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 图书馆学
@@ -195,3 +195,4 @@ updated: 2026-05-13
 - 文献学
 - 情报学
 - 出版学
+

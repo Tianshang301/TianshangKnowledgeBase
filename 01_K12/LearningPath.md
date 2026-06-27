@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LearningPath]
 tags: ['LearningPath']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # K12 学习路径 (K12 Learning Path)
@@ -251,5 +251,7 @@ graph LR
 - [[SeniorHigh]]
 - [[ExamPreparation]]
 - [[STEMEducation]]
-- [[CriticalThinking]]
+- [[00_KnowledgeFramework/Methodology/CriticalThinking|CriticalThinking]]
 - [[INDEX|K12 索引]]
+
+

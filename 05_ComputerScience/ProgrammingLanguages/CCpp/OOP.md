@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [OOP]
 tags: ['ProgrammingLanguages', 'CCpp', 'OOP']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # C++ 面向对象
@@ -392,3 +392,4 @@ public:
     }
 };
 ```
+

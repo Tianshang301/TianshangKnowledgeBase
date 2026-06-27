@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SoftwareEngineering, 软件工程, SoftwareDevelopment, 软件开发, SE]
 tags: ['05_ComputerScience', 'SoftwareEngineering', 'SDLC', 'Agile', 'DevOps']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 软件工程 (Software Engineering)
@@ -288,3 +288,4 @@ $$
 - [[05_ComputerScience/SoftwareEngineering/DevOps|DevOps]]
 - [[05_ComputerScience/SoftwareEngineering/SoftwareTesting|软件测试]]
 - [[INDEX|当前目录索引]]
+

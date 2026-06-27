@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [RobotDynamics]
 tags: ['Robotics', 'RobotDynamics', 'ControlSystems', 'Dynamics']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 机器人动力学 (Robot Dynamics)
@@ -199,9 +199,11 @@ $$
 ## 相关条目 (Related Notes)
 
 - [[RobotKinematics]] — 机器人运动学（不考虑力的几何分析）
-- [[RoboticsBasics]] — 机器人学基础概念
-- [[ControlSystems]] — 控制系统理论基础
-- [[ClassicalControl]] — 经典控制理论
-- [[ModernControl]] — 现代控制理论
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/Mechatronics/RoboticsBasics|RoboticsBasics]] — 机器人学基础概念
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/Mechatronics/ControlSystems|ControlSystems]] — 控制系统理论基础
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/ClassicalControl|ClassicalControl]] — 经典控制理论
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/ModernControl|ModernControl]] — 现代控制理论
 - [[SensorFusion]] — 多传感器融合
 - [[TrajectoryPlanning]] — 轨迹规划
+
+

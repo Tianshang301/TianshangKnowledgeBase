@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [KotlinBasics]
 tags: ['05_ComputerScience', 'ProgrammingLanguages', 'Kotlin']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # Kotlin 基础
@@ -277,3 +277,4 @@ val result = with(StringBuilder()) {
 - [[Android]]
 - [[Compose]]
 - [[INDEX|当前目录索引]]
+

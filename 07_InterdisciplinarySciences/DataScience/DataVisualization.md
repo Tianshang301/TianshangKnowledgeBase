@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DataVisualization]
 tags: ['DataScience', 'DataVisualization']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 数据可视?
@@ -215,4 +215,6 @@ option = {
 
 ## 相关条目
 
-[[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]], [[Statistics]], [[ArtificialIntelligence]], [[BigDataAnalytics]]
+[[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]], [[07_InterdisciplinarySciences/AppliedStatistics/Statistics|Statistics]], [[07_InterdisciplinarySciences/CognitiveScience/ArtificialIntelligence|ArtificialIntelligence]], [[BigDataAnalytics]]
+
+

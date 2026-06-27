@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [NaturalLanguageProcessing]
 tags: ['ArtificialIntelligence', 'NaturalLanguageProcessing', 'NaturalLanguageProcessing']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 自然语言处理
@@ -238,8 +238,8 @@ $$
 
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]]
 - SpeechRecognition
-- [[ComputationalLinguistics]]
-- [[AIGC]]
+- [[07_InterdisciplinarySciences/DigitalHumanities/ComputationalLinguistics|ComputationalLinguistics]]
+- [[05_ComputerScience/ArtificialIntelligence/AIGC/AIGC|AIGC]]
 
 ## 参考资源
 
@@ -249,3 +249,5 @@ $$
 - Brown, T. B. et al. (2020). "Language Models are Few-Shot Learners"
 - Radford, A. et al. (2018). "Improving Language Understanding by Generative Pre-Training"
 - Lewis, M. et al. (2020). "BART: Denoising Sequence-to-Sequence Pre-training for NLG"
+
+

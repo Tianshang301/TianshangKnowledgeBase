@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AgriculturalEcology]
 tags: ['AgriculturalResources', 'AgriculturalEcology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 农业生态学
@@ -223,3 +223,4 @@ $$
 ## 相关条目
 
 [[SoilScience]], [[08_AgriculturalSciences/CropScience/INDEX|CropScience]], [[PrecisionAgriculture]], [[07_InterdisciplinarySciences/EnvironmentalScience/INDEX|EnvironmentalScience]], SustainableAgriculture, [[AgriculturalPolicy]]
+

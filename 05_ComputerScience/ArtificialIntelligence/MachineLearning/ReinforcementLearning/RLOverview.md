@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ReinforcementLearning, 强化学习, RL]
 tags: ['05_ComputerScience', 'AI', 'ReinforcementLearning', 'MachineLearning']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 强化学习概述 (Reinforcement Learning Overview)
@@ -198,8 +198,10 @@ $$
 
 ## 相关条目
 
-- [[MLOverview]]
-- [[ArtificialIntelligence]]
-- [[NeuralNetworks]]
-- [[Robotics]]
-- [[GameDevelopment]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/MLOverview|MLOverview]]
+- [[07_InterdisciplinarySciences/CognitiveScience/ArtificialIntelligence|ArtificialIntelligence]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/NeuralNetworksAndDeepLearning/NeuralNetworks|NeuralNetworks]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Robotics/Robotics|Robotics]]
+- [[05_ComputerScience/EngineeringDevelopment/GameDevelopment/GameDevelopment|GameDevelopment]]
+
+

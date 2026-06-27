@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SportsMedicine]
 tags: ['12_SportsScience', 'SportsMedicine']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # SportsMedicine
@@ -40,3 +40,4 @@ updated: 2026-05-13
 - [[../ExercisePhysiology/INDEX|ExercisePhysiology]]
 - [[../SportsTraining/INDEX|SportsTraining]]
 - [[../INDEX|SportsScience 索引]]
+

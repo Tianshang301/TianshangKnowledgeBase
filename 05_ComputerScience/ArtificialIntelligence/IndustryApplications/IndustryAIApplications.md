@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [IndustryAIApplications, 行业AI应用]
 tags: ['ArtificialIntelligence', 'IndustryApplications', 'Enterprise AI']
 created: 2026-06-27
@@ -149,10 +149,10 @@ $$
 
 ## 相关条目
 
-- [[AIAgents]]
-- [[AIGC]]
-- [[ModelArchitectures2026]]
-- [[AIEthics]]
+- [[05_ComputerScience/ArtificialIntelligence/AIAgents/AIAgents|AIAgents]]
+- [[05_ComputerScience/ArtificialIntelligence/AIGC/AIGC|AIGC]]
+- [[05_ComputerScience/ArtificialIntelligence/ModelArchitectures/ModelArchitectures2026|ModelArchitectures2026]]
+- [[05_ComputerScience/ArtificialIntelligence/AIEthics/AIEthics|AIEthics]]
 
 ## 参考资源
 
@@ -163,3 +163,4 @@ $$
 5. Prime Intellect. "prime-rl 0.6.0: Training Trillion-Parameter MoE." 2026.
 6. Google Cloud. "Open Knowledge Format (OKF) for AI Agents." 2026.
 7. Anthropic. "Claude Fable 5 and Mythos 5." 2026.
+

@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['JournalismAndCommunication', 'INDEX']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # JournalismAndCommunication
@@ -13,12 +13,12 @@ updated: 2026-05-13
 
 > 璇︾粏鍐呭璇疯 [[鏂伴椈瀛﹀熀纭€]]銆乕[浼犳挱瀛︾悊璁篯]銆乕[鏂板獟浣撲笌鑸嗚瀛]
 - [[03_HumanitiesAndSocialSciences/JournalismAndCommunication/Advertising/INDEX]]
-- [[CommunicationTheory]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Communications/CommunicationTheory|CommunicationTheory]]
 - [[03_HumanitiesAndSocialSciences/JournalismAndCommunication/DigitalMedia/INDEX]]
-- [[FilmStudies]]
+- [[06_ArtsAndCreativity/FilmStudies|FilmStudies]]
 - [[JournalismEthics]]
 - [[03_HumanitiesAndSocialSciences/JournalismAndCommunication/MediaStudies/INDEX]]
-- [[PublicRelations]]
+- [[03_HumanitiesAndSocialSciences/PoliticalScience/PublicRelations|PublicRelations]]
 
 ## 娣卞叆闃呰涓庢墿灞曞垎鏋?
 璇ラ鍩熺殑鐭ヨ瘑浣撶郴缁忚繃闀挎湡绉疮宸茬浉褰撲赴瀵屻€?
@@ -147,4 +147,6 @@ updated: 2026-05-13
 - [[传播学理论]]
 - [[新媒体与舆论学]]
 - [[新闻学基础]]
+
+
 

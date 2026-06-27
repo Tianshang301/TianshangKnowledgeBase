@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [NationalDefenseEconomy]
 tags: ['NationalDefense', 'NationalDefenseEconomy']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 国防经济
@@ -196,3 +196,4 @@ updated: 2026-05-13
 - 军事采购
 - 经济安全
 - 国民经济动员
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [SoilAndWaterConservation]
 tags: ['04_EngineeringAndTechnology', 'EnvironmentalScienceAndEngineering', 'EnvironmentalEngineering', 'SoilAndWaterConservation']
 created: 2026-05-17
@@ -258,4 +258,5 @@ $$
 
 ## 相关条目
 - [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalEngineering/INDEX|当前目录索引]]
-- [[AtmosphericChemistry]]
+- [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalChemistry/AtmosphericChemistry|AtmosphericChemistry]]
+

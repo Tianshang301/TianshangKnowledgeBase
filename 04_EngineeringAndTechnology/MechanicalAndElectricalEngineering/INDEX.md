@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['MechanicalAndElectricalEngineering', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # MechanicalAndElectricalEngineering
@@ -11,18 +11,20 @@ updated: 2026-05-13
 
 ## 鏂囦欢
 
-- [[AutomotiveEngineering]]
-- [[ElectricalMachines]]
-- [[EnergySystems]]
-- [[HeatingVentilationAndAirConditioning]]
-- [[ManufacturingEngineering]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/MechanicalEngineering/AutomotiveEngineering|AutomotiveEngineering]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/ElectricalEngineering/ElectricalMachines|ElectricalMachines]]
+- [[12_SportsScience/ExercisePhysiology/EnergySystems|EnergySystems]]
+- [[04_EngineeringAndTechnology/CivilEngineering/HeatingVentilationAndAirConditioning|HeatingVentilationAndAirConditioning]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/MechanicalEngineering/ManufacturingEngineering|ManufacturingEngineering]]
 - [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/Mechatronics/INDEX]]
-- [[PowerElectronics]]
-- [[Robotics]]
-- [[Thermofluids]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/ElectricalEngineering/PowerElectronics|PowerElectronics]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Robotics/Robotics|Robotics]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/MechanicalEngineering/Thermofluids|Thermofluids]]
 - [[../INDEX]]
 - [[InstrumentScience/INDEX|InstrumentScience]]
 - [[MechanicalEngineering/INDEX|MechanicalEngineering]]
 - [[OpticalEngineering/INDEX|OpticalEngineering]]
 - [[PowerEngineering/INDEX|PowerEngineering]]
+
+
 

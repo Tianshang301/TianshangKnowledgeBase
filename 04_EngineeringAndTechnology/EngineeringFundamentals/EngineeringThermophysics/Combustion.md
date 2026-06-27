@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Combustion, 燃烧学]
 tags: ['EngineeringFundamentals', 'EngineeringThermophysics', 'Combustion']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 燃烧学 (Combustion Science)
@@ -249,7 +249,9 @@ $$
 
 - [[Thermodynamics]]
 - [[HeatTransfer]]
-- [[FluidMechanics]]
+- [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/FluidMechanics|FluidMechanics]]
 - [[EngineeringThermophysics]]
-- [[AirPollutionControl]]
-- [[ReactorDesign]]
+- [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalEngineering/AirPollutionControl|AirPollutionControl]]
+- [[04_EngineeringAndTechnology/EnergyAndNuclearEngineering/NuclearEngineering/ReactorDesign|ReactorDesign]]
+
+

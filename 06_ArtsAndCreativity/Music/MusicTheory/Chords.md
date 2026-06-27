@@ -1,11 +1,11 @@
----
+﻿---
 aliases:
   - Chords
   - 和弦
   - 和声
 tags:
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
   - music-theory
   - chords
   - harmony
@@ -158,3 +158,4 @@ F/G = F 大和弦，G 为低音 (复合和弦)
 ## 相关条目
 
 [[Harmony]], [[Scales]], [[06_ArtsAndCreativity/Music/EarTraining/INDEX|EarTraining]], [[Intervals]]
+

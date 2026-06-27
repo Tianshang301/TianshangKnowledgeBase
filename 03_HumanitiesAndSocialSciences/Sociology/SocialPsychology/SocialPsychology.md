@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SocialPsychology]
 tags: ['Sociology', 'SocialPsychology', 'SocialPsychology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 社会心理学
@@ -237,7 +237,7 @@ Latane & Darley（1970）的五步干预决策模型和旁观者效应：
 ## 相关条目
 
 - [[03_HumanitiesAndSocialSciences/Psychology/INDEX|Psychology]]
-- [[SociologicalTheory]]
+- [[03_HumanitiesAndSocialSciences/Sociology/SociologicalTheory/SociologicalTheory|SociologicalTheory]]
 - [[07_InterdisciplinarySciences/CognitiveScience/INDEX|CognitiveScience]]
 - [[03_HumanitiesAndSocialSciences/Psychology/BehavioralEconomics/INDEX|BehavioralEconomics]]
 
@@ -250,3 +250,5 @@ Latane & Darley（1970）的五步干预决策模型和旁观者效应：
 - Kahneman《思考，快与慢》
 - Cialdini《影响力》
 - Baron & Branscombe《社会心理学》
+
+

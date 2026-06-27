@@ -1,11 +1,11 @@
----
+﻿---
 aliases:
   - 渗透测试
   - Pentest
   - 红队测试
 tags:
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
   - cybersecurity
   - pentest
   - red-team
@@ -300,3 +300,4 @@ graph TD
 - [PTES Technical Guidelines](http://www.pentest-standard.org/)
 - [Metasploit Unleashed](https://www.offensive-security.com/metasploit-unleashed/)
 - [Hack The Box](https://www.hackthebox.com/)
+

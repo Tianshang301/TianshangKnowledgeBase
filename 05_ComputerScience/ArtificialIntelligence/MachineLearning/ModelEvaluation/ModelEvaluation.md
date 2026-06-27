@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ModelEvaluation]
 tags: ['ArtificialIntelligence', 'MachineLearning', 'ModelEvaluation', 'ModelEvaluation']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 模型评估
@@ -228,7 +228,7 @@ $$
 
 ## 相关条目
 
-- [[SupervisedLearning]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/SupervisedLearning/SupervisedLearning|SupervisedLearning]]
 - FeatureEngineering
 - Overfitting
 - CrossValidation
@@ -241,3 +241,5 @@ $$
 - Bergstra, J. & Bengio, Y. (2012). "Random Search for Hyper-Parameter Optimization"
 - Snoek, J. et al. (2012). "Practical Bayesian Optimization of Machine Learning Algorithms"
 - Akiba, T. et al. (2019). "Optuna: A Next-generation Hyperparameter Optimization Framework"
+
+

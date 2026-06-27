@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Economics', 'INDEX']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # Economics
@@ -12,11 +12,11 @@ updated: 2026-05-13
 ## 鏂囦欢
 
 > 璇︾粏鍐呭璇疯 [[璁￠噺缁忔祹瀛︿笌閲戣瀺瀛]
-- [[BehavioralEconomics]]
+- [[03_HumanitiesAndSocialSciences/Psychology/BehavioralEconomics/BehavioralEconomics|BehavioralEconomics]]
 - [[DevelopmentEconomics]]
 - [[03_HumanitiesAndSocialSciences/Economics/Econometrics/INDEX]]
 - [[EnvironmentalEconomics]]
-- [[GameTheory]]
+- [[11_ManagementSciences/ManagementScienceAndEngineering/GameTheory|GameTheory]]
 - [[IndustrialOrganization]]
 - [[InternationalEconomics]]
 - [[LaborEconomics]]
@@ -161,4 +161,6 @@ updated: 2026-05-13
 - [[InternationalTrade/INDEX|InternationalTrade]]
 - [[Statistics/INDEX|Statistics]]
 - [[TheoreticalEconomics/INDEX|TheoreticalEconomics]]
+
+
 

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [DigitalNoteTaking, 数字化笔记, DigitalNote, NoteTaking, 数字笔记]
 tags: ['05_ComputerScience', 'DigitalNotes', 'NoteTaking', 'Zettelkasten', 'KnowledgeManagement', 'PKM']
 created: 2024-09-01
@@ -324,10 +324,11 @@ MOC 是连接同一主题下所有笔记的导航入口。
 ```
 
 ## 相关条目
-- [[Zettelkasten|卡片盒笔记法]]
+- [[00_KnowledgeFramework/NoteTaking/Zettelkasten|卡片盒笔记法]]
 - [[NoteTakingApps|笔记应用对比]]
 - [[KnowledgeManagement|知识管理方法论]]
 - [[00_KnowledgeFramework/Templates/MarkdownTemplates|Markdown 模板]]
-- [[SecondBrain|第二大脑概念]]
-- [[ProgressiveSummarization|渐进式总结]]
+- [[00_KnowledgeFramework/Methodology/SecondBrain|第二大脑概念]]
+- [[00_KnowledgeFramework/NoteTaking/ProgressiveSummarization|渐进式总结]]
 - [[ObsidianWorkflow|Obsidian 工作流]]
+

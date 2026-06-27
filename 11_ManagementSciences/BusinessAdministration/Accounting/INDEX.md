@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['BusinessAdministration', 'Accounting', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Accounting
@@ -15,3 +15,4 @@ updated: 2026-05-13
 - [[FinancialAccounting]] — 财务会计：对外财务报告
 - [[ManagerialAccounting]] — 管理会计：内部决策支持
 - [[TaxAccounting]] — 税务会计：税务规划与申报
+

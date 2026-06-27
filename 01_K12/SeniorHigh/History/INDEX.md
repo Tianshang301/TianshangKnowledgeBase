@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['SeniorHigh', 'History', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # History
@@ -17,4 +17,5 @@ updated: 2026-05-13
 - [[世界通史]]
 - [[中国通史]]
 - [[练习题与解析]]
+
 

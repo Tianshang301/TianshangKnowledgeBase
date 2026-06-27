@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['DigitalNotes', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 鏁板瓧绗旇
@@ -13,7 +13,9 @@ updated: 2026-05-13
 
 - [[DigitalNoteTaking]]
 - [[NoteTakingApps]]
-- [[Zettelkasten]]
+- [[00_KnowledgeFramework/NoteTaking/Zettelkasten|Zettelkasten]]
 - [[LaTeX/INDEX|LaTeX]]
 - [[Markdown/INDEX|Markdown]]
+
+
 

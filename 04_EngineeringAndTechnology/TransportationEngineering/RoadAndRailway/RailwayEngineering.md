@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [RailwayEngineering, 铁道工程, Railway, TrackEngineering]
 tags: ['TransportationEngineering', 'RoadAndRailway', 'RailwayEngineering', 'Track', 'HighSpeedRail']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 铁道工程 (Railway Engineering)
@@ -235,5 +235,7 @@ graph LR
 - [[TrackGeometry|轨道几何 (Track Geometry)]]
 - [[RailwaySignaling|铁路信号 (Railway Signaling)]]
 - [[SubgradeEngineering|路基工程 (Subgrade Engineering)]]
-- [[TransportationEngineering|交通工程 (Transportation Engineering)]]
+- [[04_EngineeringAndTechnology/TransportationEngineering/TransportationEngineering|交通工程 (Transportation Engineering)]]
 - [[INDEX|RoadAndRailway 索引]]
+
+

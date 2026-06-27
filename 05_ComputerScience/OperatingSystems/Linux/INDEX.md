@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['OperatingSystems', 'Linux', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Linux
@@ -11,9 +11,9 @@ updated: 2026-05-13
 
 ## 文件
 
-- [[LinuxAdministration]]
-- [[LinuxKernel]]
-- [[ShellScripting]]
+- [[05_ComputerScience/OperatingSystems/LinuxAdministration|LinuxAdministration]]
+- [[05_ComputerScience/OperatingSystems/LinuxKernel|LinuxKernel]]
+- [[05_ComputerScience/OperatingSystems/ShellScripting|ShellScripting]]
 - [[Advanced]] - Linux 高级
 - [[Bash]] - Bash
 - [[Basics]] - Linux 基础
@@ -25,3 +25,5 @@ updated: 2026-05-13
 - [[Plugins]] - 插件
 - [[PowerShell]] - PowerShell
 - [[Scripting]] - 脚本
+
+

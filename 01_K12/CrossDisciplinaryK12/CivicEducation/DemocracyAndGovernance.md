@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DemocracyAndGovernance, 民主与治理, 公民教育, CivicEducation, 民主制度]
 tags: ['CrossDisciplinaryK12', 'CivicEducation', 'DemocracyAndGovernance', 'SocialStudies', 'Citizenship']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 民主与治理 (Democracy and Governance)
@@ -159,3 +159,4 @@ graph TD
 
 - [[INDEX\|总索引]]
 - [[01_K12/CrossDisciplinaryK12/FinancialLiteracyForTeens/PersonalFinance\|个人理财]]
+

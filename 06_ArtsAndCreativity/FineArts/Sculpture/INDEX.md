@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['FineArts', 'Sculpture', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Sculpture
@@ -16,4 +16,5 @@ updated: 2026-05-13
 - [[雕塑与空间艺术]]
 - [[雕塑史与名作]]
 - [[雕塑技法与材料]]
+
 

@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Methodology', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Methodology
@@ -19,4 +19,5 @@ updated: 2026-05-13
 - [[../INDEX|鐭ヨ瘑妗嗘灦 (KnowledgeFramework)]]
 - [[ProductivitySystems]]
 - [[SecondBrain]]
+
 

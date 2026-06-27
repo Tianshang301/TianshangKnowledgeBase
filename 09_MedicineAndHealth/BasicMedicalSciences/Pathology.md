@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Pathology]
 tags: ['BasicMedicalSciences', 'Pathology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 病理学
@@ -190,3 +190,4 @@ updated: 2026-05-13
 - 病理生理学
 - 组织学
 - 肿瘤学
+

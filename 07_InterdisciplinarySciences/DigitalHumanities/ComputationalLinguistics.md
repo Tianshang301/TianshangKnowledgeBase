@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ComputationalLinguistics, 计算语言学]
 tags: [DigitalHumanities, ComputationalLinguistics, NaturalLanguageProcessing, ArtificialIntelligence]
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 计算语言学
@@ -204,4 +204,6 @@ $$F_1 = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} +
 
 ## 相关条目
 
-[[NaturalLanguageProcessing]], [[DataScience]], [[TextMining]], [[CulturalAnalytics]], [[MachineLearning]], [[ArtificialIntelligence]]
+[[05_ComputerScience/ArtificialIntelligence/NaturalLanguageProcessing/NaturalLanguageProcessing|NaturalLanguageProcessing]], [[07_InterdisciplinarySciences/DataScience/DataScience|DataScience]], [[TextMining]], [[CulturalAnalytics]], [[05_ComputerScience/ArtificialIntelligence/MachineLearning/MachineLearning|MachineLearning]], [[07_InterdisciplinarySciences/CognitiveScience/ArtificialIntelligence|ArtificialIntelligence]]
+
+

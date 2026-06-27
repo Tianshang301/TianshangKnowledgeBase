@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['ArtsAndSports', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # ArtsAndSports
@@ -15,3 +15,4 @@ updated: 2026-05-13
 - [[InformationTechnology]]
 - [[Music]]
 - [[PhysicalEducation]]
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CulturalAnalytics]
 tags: ['DigitalHumanities', 'CulturalAnalytics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 文化分析
@@ -251,7 +251,7 @@ plt.show()
 - [[ComputationalLinguistics]]
 - [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]]
 - [[01_K12/JuniorHigh/History/INDEX|History]]
-- [[MediaStudies]]
+- [[03_HumanitiesAndSocialSciences/JournalismAndCommunication/MediaStudies/MediaStudies|MediaStudies]]
 
 ## 参考资源
 
@@ -259,3 +259,5 @@ plt.show()
 - 《计算社会科学》
 - 《文化分析方法》
 - 《网络文化研究》
+
+

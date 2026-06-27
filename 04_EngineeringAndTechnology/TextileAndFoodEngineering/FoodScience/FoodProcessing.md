@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FoodProcessing, 食品加工, 食品工艺学]
 tags: ['TextileAndFoodEngineering', 'FoodScience', 'FoodProcessing', 'FoodTechnology']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 食品加工 (Food Processing)
@@ -234,5 +234,7 @@ $$ E = 4 \times P + 4 \times C + 9 \times F $$
 
 - [[08_AgriculturalSciences/FoodScience/INDEX|FoodScience]]
 - [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/ChemicalEngineering/INDEX|ChemicalEngineering]]
-- [[Biotechnology]]
-- [[ProcessControl]]
+- [[04_EngineeringAndTechnology/TextileAndFoodEngineering/Biotechnology/Biotechnology|Biotechnology]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/ProcessControl|ProcessControl]]
+
+

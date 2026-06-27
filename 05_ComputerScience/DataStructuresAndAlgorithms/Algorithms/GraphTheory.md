@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [GraphTheory, 图论, GraphAlgorithms, 图算法]
 tags: ['05_ComputerScience', 'DataStructures', 'GraphAlgorithms', 'DiscreteMathematics']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 图论 Graph Theory
@@ -232,9 +232,11 @@ $$
 
 ## 相关条目
 
-- [[DataStructures]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/DataStructures/DataStructures|DataStructures]]
 - [[Algorithms]]
-- [[NetworkScience]]
-- [[ComputationalMathematics]]
-- [[DiscreteMathematics]]
+- [[07_InterdisciplinarySciences/InterdisciplinaryMethodologies/NetworkScience|NetworkScience]]
+- [[02_NaturalSciences/Mathematics/ComputationalMathematics|ComputationalMathematics]]
+- [[02_NaturalSciences/Mathematics/DiscreteMathematics|DiscreteMathematics]]
 - [[OptimizationTheory]]
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Basics]
 tags: ['ProgrammingLanguages', 'Go', 'Basics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Go 基础语法
@@ -349,3 +349,4 @@ func safeDivide(a, b int) (result int) {
     return a / b  // 如果 b=0 会 panic
 }
 ```
+

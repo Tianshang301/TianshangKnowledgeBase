@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [EvolutionOfComputers, 计算机进化论, ComputingHistory]
 tags: ['02_NaturalSciences', 'Biology', 'Computing', 'ComputerArchitecture']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 计算机进化论 (Evolution of Computing)
@@ -187,3 +187,4 @@ $$ V_m(t) = V_{\text{rest}} + \sum_i w_i \cdot K(t - t_i) $$
 - [[量子力学]]
 - [[人工智能]]
 - [[INDEX|当前目录索引]]
+

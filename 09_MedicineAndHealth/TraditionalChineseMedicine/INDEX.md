@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['TraditionalChineseMedicine', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # TraditionalChineseMedicine
@@ -16,7 +16,9 @@ updated: 2026-05-13
 - [[ChineseMateriaMedica]] — 中药学：中药性能与应用
 - [[TCMDiagnostics]] — 中医诊断学：四诊与辨证
 - [[TraditionalChineseMedicine]] — 中医学概论
-- [[Pharmacology]]
+- [[09_MedicineAndHealth/BasicMedicalSciences/Pharmacology|Pharmacology]]
 - [[09_MedicineAndHealth/ClinicalMedicine/INDEX|ClinicalMedicine]]
 - [[09_MedicineAndHealth/Nursing/INDEX|Nursing]]
 - [[09_MedicineAndHealth/BasicMedicalSciences/INDEX|BasicMedicalSciences]]
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Backtracking]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'Backtracking']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 回溯算法详解
@@ -411,4 +411,6 @@ def permute_unique(nums):
 - [[BFSDFS]]
 - [[Greedy]]
 - [[BitManipulation]]
-- [[BasicAlgorithms]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BasicAlgorithms/BasicAlgorithms|BasicAlgorithms]]
+
+

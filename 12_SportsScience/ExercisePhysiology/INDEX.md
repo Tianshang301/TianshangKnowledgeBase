@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['ExercisePhysiology', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # ExercisePhysiology
@@ -18,3 +18,4 @@ updated: 2026-05-13
 - [[MusclePhysiology]] — 肌肉生理学：肌肉结构与功能
 - [[12_SportsScience/SportsMedicine/INDEX|SportsMedicine]]
 - [[12_SportsScience/SportsTraining/INDEX|SportsTraining]]
+

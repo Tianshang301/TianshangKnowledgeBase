@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [C4ISR]
 tags: ['MilitaryTechnology', 'C4ISR']
 created: 2026-05-19
@@ -115,6 +115,7 @@ C4ISR系统高度依赖网络，也面临严重的网络安全风险。网络攻
 - [[CyberWarfare]]
 - [[MilitaryInformatics]]
 - [[MilitaryElectronics]]
-- [[JointOperations]]
-- [[MilitaryDecisionMaking]]
+- [[10_MilitarySciences/MilitaryStrategy/JointOperations|JointOperations]]
+- [[10_MilitarySciences/MilitaryStrategy/MilitaryDecisionMaking|MilitaryDecisionMaking]]
 - [[WeaponsSystems]]
+

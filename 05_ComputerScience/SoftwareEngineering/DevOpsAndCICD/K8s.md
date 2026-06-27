@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [K8s]
 tags: ['SoftwareEngineering', 'DevOpsAndCICD', 'K8s']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Kubernetes 基础
@@ -435,3 +435,4 @@ appVersion: "1.0.0"
 - [[CI-CD 与 DevOps 实践]]
 - [[Pipeline]]
 - [[BestPractices]]
+

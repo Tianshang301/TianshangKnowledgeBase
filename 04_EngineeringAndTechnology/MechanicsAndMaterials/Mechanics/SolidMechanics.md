@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SolidMechanics]
 tags: ['MechanicsAndMaterials', 'Mechanics', 'SolidMechanics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 固体力学
@@ -146,3 +146,4 @@ $$G = \frac{\partial}{\partial a}\left(U_{strain} - W_{external}\right)$$
 - 断裂力学
 - 有限元分析
 - 结构力学
+

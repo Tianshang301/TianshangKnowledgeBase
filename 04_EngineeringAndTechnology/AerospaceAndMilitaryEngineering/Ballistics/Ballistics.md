@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - Ballistics
   - Internal Ballistics
@@ -6,7 +6,7 @@ aliases:
   - Terminal Ballistics
 tags:
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
   - engineering
   - aerospace
   - military
@@ -251,3 +251,4 @@ $$\frac{\partial (\rho \mathbf{u})}{\partial t} + \nabla \cdot (\rho \mathbf{u} 
 ---
 
 **相关概念**: [[Aerodynamics|空气动力学]] | [[Fluid Dynamics|流体力学]] | [[Fracture Mechanics|断裂力学]] | [[Terminal Ballistics|终点弹道学]]
+

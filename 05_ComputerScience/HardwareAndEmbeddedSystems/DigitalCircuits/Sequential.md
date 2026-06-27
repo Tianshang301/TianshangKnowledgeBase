@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Sequential]
 tags: ['HardwareAndEmbeddedSystems', 'DigitalCircuits', 'Sequential']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 时序逻辑电路
@@ -351,3 +351,4 @@ always @(posedge clk or posedge rst)
 - 使用两级同步器 (2-FF synchronizer)
 - 降低时钟频率
 - 使用边沿检测器
+

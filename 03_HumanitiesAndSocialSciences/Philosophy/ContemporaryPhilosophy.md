@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [ContemporaryPhilosophy]
 tags: ['03_HumanitiesAndSocialSciences', 'Philosophy', 'ContemporaryPhilosophy']
 created: 2026-05-17
@@ -150,8 +150,8 @@ graph TD
 - [[ModernPhilosophy]]
 - [[Epistemology]]
 - [[Metaphysics]]
-- [[PoliticalSociology]]
-- [[GenderStudies]]
+- [[03_HumanitiesAndSocialSciences/Sociology/PoliticalSociology|PoliticalSociology]]
+- [[03_HumanitiesAndSocialSciences/Sociology/GenderStudies|GenderStudies]]
 - [[INDEX|当前目录索引]]
 
 ## 深入阅读与扩展分析
@@ -428,3 +428,4 @@ graph TD
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+

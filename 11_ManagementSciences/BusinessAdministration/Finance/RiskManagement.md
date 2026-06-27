@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [RiskManagement]
 tags: ['BusinessAdministration', 'Finance', 'RiskManagement']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 风险管理
@@ -198,3 +198,4 @@ COSO 企业风险管理框架提供了一个全面的风险管理体系。框架
 - 保险学
 - 金融工程
 - 金融监管
+

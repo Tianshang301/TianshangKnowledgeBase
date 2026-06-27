@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ProbabilityTheory, 概率论, 概率, Probability]
 tags: ['11_ManagementSciences', 'ManagementScienceAndEngineering', 'Mathematics', 'Statistics']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 概率论 (Probability Theory)
@@ -234,6 +234,8 @@ $$
 - [[GameTheory|博弈论]]
 - [[StatisticalInference|统计推断]]
 - [[StochasticProcesses|随机过程]]
-- [[RiskManagement|风险管理]]
+- [[11_ManagementSciences/BusinessAdministration/Finance/RiskManagement|风险管理]]
 - [[INDEX|ManagementScienceAndEngineering 索引]]
 - [[../../INDEX|TianshangKnowledgeBase 索引]]
+
+

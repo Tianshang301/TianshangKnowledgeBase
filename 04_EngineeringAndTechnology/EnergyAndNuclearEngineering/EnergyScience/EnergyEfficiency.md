@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [EnergyEfficiency, 能源效率, Energy Conservation, Energy Saving, EE]
 tags: ['EnergyAndNuclearEngineering', 'EnergyScience', 'EnergyEfficiency', 'EnergyConservation']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 能源效率
@@ -208,3 +208,4 @@ $$
 - ASHRAE. (2023). *Handbook — Fundamentals*. Chapter 26: Energy Estimating and Modeling Methods.
 - 中国标准化研究院. (2023). 《能效标准白皮书》.
 - IRENA. (2024). *Energy Efficiency Indicators*.
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FisheriesScience]
 tags: ['Fishery', 'FisheriesScience']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 渔业科学
@@ -164,3 +164,4 @@ $$
 ## 相关条目
 
 [[Aquaculture]], [[MarineBiology]], [[07_InterdisciplinarySciences/EnvironmentalScience/INDEX|EnvironmentalScience]], FisheriesManagement
+

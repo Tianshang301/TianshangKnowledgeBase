@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ExerciseAndHealth]
 tags: ['ExercisePhysiology', 'ExerciseAndHealth']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 运动与健康
@@ -267,3 +267,4 @@ PAR-Q+问卷是国际通用的运动前自我筛查工具。
 ## 相关条目
 
 心血管反应、运动处方、慢性病预防、运动康复、运动营养学、运动心理学、久坐行为、公共健康、运动生理学
+

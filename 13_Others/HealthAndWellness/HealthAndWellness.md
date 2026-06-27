@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [HealthAndWellness]
 tags: ['HealthAndWellness', 'HealthAndWellness']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 健康与养生
@@ -308,3 +308,4 @@ $$BMI = \frac{体重(kg)}{身高(m)^2}$$
 - 国家体育总局. *全民健身指南*.
 - 中华医学会. *常见癌症筛查指南*.
 - MyFitnessPal / Strava / 潮汐 - 健康应用推荐
+

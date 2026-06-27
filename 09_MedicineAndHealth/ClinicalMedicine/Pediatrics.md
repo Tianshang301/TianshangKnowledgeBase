@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Pediatrics]
 tags: ['ClinicalMedicine', 'Pediatrics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 儿科学
@@ -195,3 +195,4 @@ updated: 2026-05-13
 - 新生儿学
 - 儿童保健学
 - 小儿外科学
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Ecotoxicology, 生态毒理学]
 tags: ['EnvironmentalScienceAndEngineering', 'EnvironmentalBiology', 'Ecotoxicology']
 created: 2026-05-17
@@ -164,6 +164,7 @@ $$
 
 - [[Bioremediation]]
 - [[EnvironmentalChemistry]]
-- [[RiskAssessment]]
-- [[WaterChemistry]]
-- [[AirChemistry]]
+- [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/SafetyScience/RiskAssessment|RiskAssessment]]
+- [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalChemistry/WaterChemistry|WaterChemistry]]
+- [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalChemistry/AirChemistry|AirChemistry]]
+

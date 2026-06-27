@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Vocabulary]
 tags: ['ForeignLanguagesAndLiteratures', 'English', 'Vocabulary']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 英语词汇积累指南
@@ -271,3 +271,4 @@ This paper aims to...
 | sympathetic | 同情的 | 同情的 (不是"有魅力的") |
 | eventually | 最终 | 最终 (不是"可能") |
 | college | 大学 | 学院/大学 (不是"专科") |
+

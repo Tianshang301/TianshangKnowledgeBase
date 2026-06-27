@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [OralCommunication]
 tags: ['PrimarySchool', 'English', 'OralCommunication']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # Primary English — Oral Communication
@@ -313,4 +313,6 @@ Waiter: Thank you. Enjoy your meal!
 
 ## 相关条目
 
-[[Phonics]], [[Grammar]], [[Vocabulary]], [[OralCommunication]]
+[[Phonics]], [[01_K12/SeniorHigh/English/Grammar|Grammar]], [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/English/Vocabulary|Vocabulary]], [[OralCommunication]]
+
+

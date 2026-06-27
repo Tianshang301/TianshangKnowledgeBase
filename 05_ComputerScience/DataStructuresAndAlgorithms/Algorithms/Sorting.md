@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Sorting]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'Sorting']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 排序算法大全
@@ -473,7 +473,9 @@ def sort_colors(nums):
 ## 相关条目
 
 - [[BinarySearch]]
-- [[BasicAlgorithms]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BasicAlgorithms/BasicAlgorithms|BasicAlgorithms]]
 - [[TwoPointers]]
-- [[Heap]]
-- [[Array]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/DataStructures/Heap|Heap]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/DataStructures/Array|Array]]
+
+

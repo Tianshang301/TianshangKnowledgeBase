@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Compression]
 tags: ['Basics', 'Compression']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 压缩与解压缩完全指南
@@ -153,7 +153,7 @@ tar -rf archive.tar newfile.txt
 
 ## 相关条目
 
-- [[DigitalLogic]]
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/DigitalLogic/DigitalLogic|DigitalLogic]]
 - ComputerOrganization
 - InformationTheory
 - Cryptography
@@ -253,3 +253,5 @@ gpg -d data.tar.gz.gpg | tar -xzf -
 | 加密文件头 | 7z 的 `-mhe=on` 可保护文件名不被泄露 |
 | 先压缩后加密 | 用 GPG 等工具加密比压缩软件自带加密更灵活 |
 | 勿通过不安全的渠道传输密码 | 密码与压缩包分开传输 |
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CloudComputingAndDistributedSystems]
 tags: ['CloudComputingAndDistributedSystems', 'CloudComputingAndDistributedSystems']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 云计算与分布式系统完全指南
@@ -361,9 +361,9 @@ def handler(event, context):
 
 ## 相关条目
 
-- [[ComputerNetworks]]
-- [[BigDataTechnologies]]
-- [[Cybersecurity]]
+- [[04_EngineeringAndTechnology/ComputerAndInformationSciences/ComputerNetworks|ComputerNetworks]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/BigDataTechnologies/BigDataTechnologies|BigDataTechnologies]]
+- [[05_ComputerScience/Cybersecurity/Cybersecurity|Cybersecurity]]
 - Virtualization
 
 ## 参考资源
@@ -374,3 +374,5 @@ def handler(event, context):
 - AWS Well-Architected Framework
 - Docker 官方文档: https://docs.docker.com
 - Kubernetes 官方文档: https://kubernetes.io/docs
+
+

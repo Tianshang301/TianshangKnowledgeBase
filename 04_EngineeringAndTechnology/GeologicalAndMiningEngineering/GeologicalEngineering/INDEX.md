@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['GeologicalAndMiningEngineering', 'GeologicalEngineering', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # GeologicalEngineering
@@ -15,4 +15,5 @@ updated: 2026-05-13
 - [[RemoteSensing]]
 - [[Crystallography]]
 - [[Mineralogy]]
+
 

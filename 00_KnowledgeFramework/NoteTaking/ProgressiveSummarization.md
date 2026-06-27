@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ProgressiveSummarization]
 tags: ['NoteTaking', 'ProgressiveSummarization']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 渐进式总结
@@ -146,3 +146,4 @@ updated: 2026-05-13
 ## 相关条目
 
 [[Zettelkasten]], [[ProgressiveSummarization]], [[CornellNotes]], [[DigitalNoteTools]]
+

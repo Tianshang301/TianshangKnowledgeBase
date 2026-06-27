@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [BestPractices]
 tags: ['SoftwareEngineering', 'DevOpsAndCICD', 'BestPractices']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Docker 生产实践
@@ -373,3 +373,4 @@ docker system prune -af --volumes
 - [[K8s]]
 - [[CI-CD 与 DevOps 实践]]
 - [[QuickStart]]
+

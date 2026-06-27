@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [BitManipulation]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'BitManipulation']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 位运算技巧
@@ -360,5 +360,7 @@ def tsp_bitmask(n, dist):
 - [[DP]]
 - [[Backtracking]]
 - [[Sorting]]
-- [[BasicAlgorithms]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BasicAlgorithms/BasicAlgorithms|BasicAlgorithms]]
 - [[BinarySearch]]
+
+

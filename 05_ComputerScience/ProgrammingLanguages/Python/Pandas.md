@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Pandas]
 tags: ['ProgrammingLanguages', 'Python', 'Pandas']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Pandas 快速指南
@@ -408,3 +408,4 @@ df["姓名首字"] = df["姓名"].str[0]
 ```
 
 > Pandas 是 Python 数据分析的核心库。建议重点掌握: 数据选择(loc/iloc)、分组聚合(groupby)、合并(merge)、缺失值处理、时间序列。配合 NumPy 和 Matplotlib 可完成绝大部分数据分析任务。
+

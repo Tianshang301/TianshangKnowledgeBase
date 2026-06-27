@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DrugDesign, 药物设计]
 tags: ['04_EngineeringAndTechnology', 'ChemicalAndPharmaceuticalEngineering', 'PharmaceuticalEngineering', 'DrugDesign']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 药物设计 (Drug Design)
@@ -241,7 +241,9 @@ $$\text{目标分子} \xrightarrow{\text{逆向切割}} \text{前体} \xrightarr
 
 - [[Formulation|药物制剂]]
 - [[FineChemicals|精细化学品]]
-- [[GeneCloning|基因克隆]]
-- [[Biomaterials|生物材料]]
+- [[04_EngineeringAndTechnology/Biotechnologies/GeneticEngineering/GeneCloning|基因克隆]]
+- [[04_EngineeringAndTechnology/Biotechnologies/BiomedicalEngineering/Biomaterials|生物材料]]
 - [[Pharmacokinetics|药代动力学]]
 - [[Toxicology|毒理学]]
+
+

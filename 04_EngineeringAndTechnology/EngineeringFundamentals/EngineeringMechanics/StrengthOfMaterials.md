@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [StrengthOfMaterials, 材料力学, Mechanics of Materials]
 tags: ['EngineeringFundamentals', 'EngineeringMechanics', 'StrengthOfMaterials', 'SolidMechanics']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 材料力学 (Strength of Materials / Mechanics of Materials)
@@ -245,8 +245,10 @@ $$P \leq \frac{P_{cr}}{n_{st}} \quad \text{或} \quad \sigma \leq \frac{\sigma_{
 
 - [[TheoreticalMechanics]]
 - [[StructureMechanics]]
-- [[Elasticity]]
-- [[EngineeringFundamentals]]
-- [[FluidMechanics]]
-- [[MachineDesign]]
-- [[Plasticity]]
+- [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/Elasticity|Elasticity]]
+- [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringFundamentals|EngineeringFundamentals]]
+- [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/FluidMechanics|FluidMechanics]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/MechanicalEngineering/MachineDesign|MachineDesign]]
+- [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/Plasticity|Plasticity]]
+
+

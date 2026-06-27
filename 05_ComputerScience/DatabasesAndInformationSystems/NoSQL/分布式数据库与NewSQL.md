@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [分布式数据库与 NewSQL]
 tags: ['DatabasesAndInformationSystems', 'NoSQL', '分布式数据库与 NewSQL']
 ---
@@ -141,9 +141,9 @@ SQL 查询在多节点上并行执行，通过数据交换算子(Exchange)在节
 ## 相关条目
 
 - [[NoSQL]]
-- [[RelationalDatabases]]
-- [[Transaction]]
-- [[MongoDBDeep]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/RelationalDatabases|RelationalDatabases]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/Transaction|Transaction]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/MongoDBDeep|MongoDBDeep]]
 - [[流处理与实时计算]]
 
 ## 参考资源
@@ -155,3 +155,4 @@ SQL 查询在多节点上并行执行，通过数据交换算子(Exchange)在节
 5. DeCandia, G., et al. "Dynamo: Amazon's Highly Available Key-Value Store." SOSP, 2007.
 6. Gilbert, S., Lynch, N. "Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services." ACM SIGACT News, 2002.
 7. Stonebraker, M. "NewSQL: An Alternative to NoSQL and Old SQL for New OLTP Apps." Communications of the ACM, 2012.
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ManagerialAccounting]
 tags: ['BusinessAdministration', 'Accounting', 'ManagerialAccounting']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 管理会计
@@ -193,3 +193,4 @@ updated: 2026-05-13
 - 预算管理
 - 绩效管理
 - 战略管理
+

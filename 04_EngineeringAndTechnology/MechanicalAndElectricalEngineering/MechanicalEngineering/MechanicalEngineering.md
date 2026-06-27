@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MechanicalEngineering, 机械工程]
 tags: ['04_EngineeringAndTechnology', 'MechanicalAndElectricalEngineering', 'MechanicalEngineering', 'Engineering']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 机械工程 Mechanical Engineering
@@ -234,9 +234,11 @@ $$ \text{where } [K] \text{ is stiffness matrix, } \{u\} \text{ is displacement 
 
 ## 相关条目
 
-- [[Thermodynamics]]
-- [[FluidMechanics]]
+- [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringThermophysics/Thermodynamics|Thermodynamics]]
+- [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/FluidMechanics|FluidMechanics]]
 - [[MaterialsScience]]
 - [[ManufacturingEngineering]]
 - [[FiniteElementAnalysis]]
 - [[CAD]]
+
+

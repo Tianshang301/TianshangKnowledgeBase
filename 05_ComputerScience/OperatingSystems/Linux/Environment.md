@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Environment]
 tags: ['OperatingSystems', 'Linux', 'Environment']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Shell 环境配置
@@ -416,4 +416,6 @@ setenv PYTHON_HOME /usr/local/python3.9
 - [[Scripting]]
 - [[Config]]
 - [[Basics]]
-- [[LinuxKernel]]
+- [[05_ComputerScience/OperatingSystems/LinuxKernel|LinuxKernel]]
+
+

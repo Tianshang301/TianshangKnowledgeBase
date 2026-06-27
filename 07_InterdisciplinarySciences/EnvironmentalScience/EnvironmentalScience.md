@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [EnvironmentalScience]
 tags: ['07_InterdisciplinarySciences', 'EnvironmentalScience']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 环境科学概论
@@ -247,3 +247,4 @@ $$ \text{CO}_2,\ \text{CH}_4,\ \text{N}_2\text{O},\ \text{HFCs},\ \text{PFCs},\ 
 ## 相关条目
 
 [[07_InterdisciplinarySciences/EnvironmentalScience/INDEX|EnvironmentalScience 索引]], [[ClimateChange]], [[Ecology]], [[EnvironmentalPolicy]]
+

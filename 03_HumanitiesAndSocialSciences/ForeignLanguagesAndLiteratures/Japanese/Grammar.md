@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Grammar]
 tags: ['ForeignLanguagesAndLiteratures', 'Japanese', 'Grammar']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 日语语法详解
@@ -315,3 +315,4 @@ I       apple   eat.
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+

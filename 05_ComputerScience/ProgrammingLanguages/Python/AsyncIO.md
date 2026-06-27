@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AsyncIO]
 tags: ['ProgrammingLanguages', 'Python', 'AsyncIO']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Python 异步编程
@@ -432,3 +432,4 @@ class CustomEventLoopPolicy(asyncio.DefaultEventLoopPolicy):
 ```
 
 > asyncio 是 Python 实现高并发的利器。核心思想: 在单线程中通过协程协作式调度, 遇到 IO 操作时主动让出控制权。熟练掌握 asyncio 能让你用少量资源处理大量并发连接。
+

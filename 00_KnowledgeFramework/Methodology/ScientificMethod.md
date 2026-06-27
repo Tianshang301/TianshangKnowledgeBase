@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ScientificMethod]
 tags: ['Methodology', 'ScientificMethod']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 科学方法论
@@ -152,3 +152,4 @@ updated: 2026-05-13
 ## 相关条目
 
 [[CriticalThinking]], [[ScientificMethod]], [[ResearchMethods]], [[InterdisciplinaryApproach]]
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Writing]
 tags: ['ForeignLanguagesAndLiteratures', 'English', 'Writing']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 英语写作指南
@@ -241,3 +241,4 @@ Student ID: 2024001
 - [ ] 词汇是否准确多样?
 - [ ] 是否有拼写/标点错误?
 - [ ] 是否符合指定的格式要求?
+

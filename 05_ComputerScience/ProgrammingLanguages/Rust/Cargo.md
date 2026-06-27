@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Cargo]
 tags: ['ProgrammingLanguages', 'Rust', 'Cargo']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Rust 包管理与 Cargo
@@ -275,3 +275,4 @@ cargo yank --version 0.1.0 --undo
 - 二进制项目应提交 Cargo.lock 到版本控制
 - 库项目不应提交 Cargo.lock（让下游决定依赖版本）
 - `cargo update` 根据语义版本规则更新依赖
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SportsScienceLearningPath, 体育科学学习路径, ExerciseScience]
 tags: ['12_SportsScience', 'LearningPath', 'ExercisePhysiology', 'SportTraining']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 体育科学学习路径 Sports Science Learning Path
@@ -254,8 +254,10 @@ $$ \text{RICE} = \text{Rest} + \text{Ice} + \text{Compression} + \text{Elevation
 ## 相关条目
 
 - [[ExercisePhysiology]]
-- [[SportsBiomechanics]]
+- [[12_SportsScience/SportsMedicine/SportsBiomechanics|SportsBiomechanics]]
 - [[SportPsychology]]
 - [[SportNutrition]]
-- [[TrainingTheory]]
+- [[12_SportsScience/SportsTraining/TrainingTheory|TrainingTheory]]
 - [[SportMedicine]]
+
+

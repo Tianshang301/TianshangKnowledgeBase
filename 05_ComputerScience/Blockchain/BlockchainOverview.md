@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 区块链
   - Blockchain
@@ -7,7 +7,7 @@ aliases:
   - 加密货币
 tags:
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
   - blockchain
   - distributed-ledger
   - smart-contracts
@@ -234,3 +234,4 @@ $$
 ---
 
 > 区块链的最终价值不在于技术本身，而在于它对社会协作方式的根本性重塑。
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AIandScience]
 tags: ['ArtificialIntelligenceAndInterdisciplinary', 'AIandScience']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 人工智能与科学
@@ -250,4 +250,6 @@ $$ x_{n+1} = \arg\max_x \mu_n(x) + \kappa \sigma_n(x) $$
 
 ## 相关条目
 
-[[07_InterdisciplinarySciences/CognitiveScience/INDEX|CognitiveScience]], [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]], [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]], [[AIEthics]]
+[[07_InterdisciplinarySciences/CognitiveScience/INDEX|CognitiveScience]], [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]], [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]], [[05_ComputerScience/ArtificialIntelligence/AIEthics/AIEthics|AIEthics]]
+
+

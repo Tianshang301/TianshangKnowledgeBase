@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AdvancedStellarAstrophysics]
 tags: ['Astronomy', 'StellarAstrophysics', 'AdvancedStellarAstrophysics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 恒星天体物理进阶
@@ -250,3 +250,4 @@ $$
 - Carroll & Ostlie《天体物理学导论》（An Introduction to Modern Astrophysics）
 - Salaris & Cassisi《恒星与恒星种群演化》
 - LeBlanc《恒星天体物理学导论》（An Introduction to Stellar Astrophysics）
+

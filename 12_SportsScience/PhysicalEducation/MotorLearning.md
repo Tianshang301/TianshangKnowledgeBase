@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MotorLearning]
 tags: ['PhysicalEducation', 'MotorLearning']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 运动学习
@@ -189,3 +189,4 @@ updated: 2026-05-13
 ## 相关条目
 
 体育教学、课程设计、体育心理学、运动技能发展、生物力学、体育评估、运动控制、教练法
+

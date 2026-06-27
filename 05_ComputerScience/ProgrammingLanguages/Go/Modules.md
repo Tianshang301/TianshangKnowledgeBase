@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Modules]
 tags: ['ProgrammingLanguages', 'Go', 'Modules']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Go Modules 包管理
@@ -267,3 +267,4 @@ go mod tidy
 go install github.com/dominikh/go-tools/cmd/staticcheck@latest
 staticcheck ./...
 ```
+

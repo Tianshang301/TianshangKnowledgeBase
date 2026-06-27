@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DynamicProgramming]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'DynamicProgramming', 'DynamicProgramming']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Dynamic Programming - 动态规划
@@ -390,9 +390,9 @@ def max_sliding_window(nums, k):
 
 ## 相关条目
 
-- [[BasicAlgorithms]]
-- [[GraphAlgorithms]]
-- [[GreedyAlgorithms]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BasicAlgorithms/BasicAlgorithms|BasicAlgorithms]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/GraphAlgorithms/GraphAlgorithms|GraphAlgorithms]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/GreedyAlgorithms/GreedyAlgorithms|GreedyAlgorithms]]
 
 ## 参考资源
 
@@ -400,3 +400,5 @@ def max_sliding_window(nums, k):
 - Cormen, T. H. et al. (2022). Introduction to Algorithms. 4th Edition. MIT Press.
 - Dasgupta, S., Papadimitriou, C. H., & Vazirani, U. (2006). Algorithms. McGraw-Hill.
 - LeetCode DP Problems. https://leetcode.com/tag/dynamic-programming/
+
+

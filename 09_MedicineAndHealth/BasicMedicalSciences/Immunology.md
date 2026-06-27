@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Immunology]
 tags: ['BasicMedicalSciences', 'Immunology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 免疫学
@@ -205,3 +205,4 @@ B 细胞在骨髓中经历前 B 细胞、未成熟 B 细胞和成熟 B 细胞阶
 - 医学微生物学
 - 传染病学
 - 变态反应学
+

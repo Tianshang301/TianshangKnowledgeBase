@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ModernWarfare]
 tags: ['MilitaryHistory', 'ModernWarfare']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 现代战争
@@ -206,3 +206,4 @@ updated: 2026-05-13
 - 军事技术
 - 军事战略
 - 反恐战争
+

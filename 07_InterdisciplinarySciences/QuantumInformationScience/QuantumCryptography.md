@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [QuantumCryptography]
 tags: ['QuantumInformationScience', 'QuantumCryptography']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 量子密码?
@@ -223,3 +223,4 @@ $$U|\psi\rangle|0\rangle = |\psi\rangle|\psi\rangle$$
 ## 相关条目
 
 [[02_NaturalSciences/Physics/QuantumMechanics/INDEX|QuantumMechanics]], ComputerScience, Cryptography, [[QuantumComputing]]
+

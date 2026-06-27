@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [SwiftUI 与 iOS 开发]
 tags: ['ProgrammingLanguages', 'Swift', 'SwiftUI 与 iOS 开发']
 ---
@@ -491,7 +491,7 @@ final class AppUITests: XCTestCase {
 ## 相关条目
 
 - [[Swift]]
-- [[MobileDevelopment]]
+- [[05_ComputerScience/EngineeringDevelopment/MobileDevelopment/MobileDevelopment|MobileDevelopment]]
 - UI_UX
 - AppDevelopment
 
@@ -504,3 +504,4 @@ final class AppUITests: XCTestCase {
 5. Swift UI 设计指南：Apple HIG
 6. WWDC SwiftUI 相关视频
 7. Point-Free 函数式 Swift 教程
+

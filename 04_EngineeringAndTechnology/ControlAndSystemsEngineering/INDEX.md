@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['ControlAndSystemsEngineering', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # ControlAndSystemsEngineering
@@ -11,17 +11,19 @@ updated: 2026-05-13
 
 ## 鏂囦欢
 
-- [[AdaptiveControl]]
-- [[DigitalControl]]
-- [[NonlinearControl]]
-- [[OptimalControl]]
-- [[ProcessControl]]
-- [[RobustControl]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/AdaptiveControl|AdaptiveControl]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/DigitalControl|DigitalControl]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/NonlinearControl|NonlinearControl]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/OptimalControl|OptimalControl]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/ProcessControl|ProcessControl]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/RobustControl|RobustControl]]
 - [[SignalProcessing]]
-- [[SystemIdentification]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/SystemIdentification|SystemIdentification]]
 - [[../INDEX]]
 - [[Automation/INDEX|Automation]]
 - [[ControlTheory/INDEX|ControlTheory]]
 - [[Robotics/INDEX|Robotics]]
 - [[SystemsEngineering/INDEX|SystemsEngineering]]
+- [[ControlAndSystemsEngineering/HumanoidRobotics/HumanoidRobotics|HumanoidRobotics]]
+
 

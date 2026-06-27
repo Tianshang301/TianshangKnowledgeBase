@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LearningPath]
 tags: ['LearningPath']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 艺术学习路线图
@@ -261,3 +261,4 @@ updated: 2026-05-13
 | 小红书 | 国内作品分享 |
 | ArtStation / Behance | 国际作品集 |
 | 站酷 (Zcool) | 国内设计社区 |
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FoodChemistry]
 tags: ['TextileAndFoodEngineering', 'FoodScience', 'FoodChemistry']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 食品化学
@@ -96,3 +96,4 @@ $$还原糖 + 氨基酸 \to 类黑精 + 风味物质$$
 - 食品保藏技术
 - 功能食品开发
 - 食品质量控制
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CPUArchitecture]
 tags: ['ComputerOrganizationAndArchitecture', 'CPUArchitecture', 'CPUArchitecture']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # CPU 架构 (CPU Architecture)
@@ -330,10 +330,10 @@ I — Invalid (无效): 数据无效
 
 ## 相关条目
 
-- [[InstructionSet]]
-- [[Pipelining]]
-- [[MemoryHierarchy]]
-- [[DigitalLogic]]
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/InstructionSet/InstructionSet|InstructionSet]]
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/Pipelining/Pipelining|Pipelining]]
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/MemoryHierarchy/MemoryHierarchy|MemoryHierarchy]]
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/DigitalLogic/DigitalLogic|DigitalLogic]]
 
 ## 参考资源
 
@@ -342,3 +342,5 @@ I — Invalid (无效): 数据无效
 - 《深入理解计算机系统》(CS:APP)
 - Intel 64 and IA-32 Architectures Optimization Reference Manual
 - ARM Architecture Reference Manual
+
+

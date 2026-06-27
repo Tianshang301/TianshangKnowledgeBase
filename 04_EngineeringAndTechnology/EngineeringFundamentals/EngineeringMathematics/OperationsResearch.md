@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [OperationsResearch, 运筹学]
 tags: ['EngineeringFundamentals', 'EngineeringMathematics', 'OperationsResearch']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 运筹学 (Operations Research)
@@ -199,5 +199,7 @@ $$
 
 - [[NumericalMethods]]
 - [[EngineeringMathematics]]
-- [[SystemAnalysis]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/SystemsEngineering/SystemAnalysis|SystemAnalysis]]
 - [[ControlTheory]]
+
+

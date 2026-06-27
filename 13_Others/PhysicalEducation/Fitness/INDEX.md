@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['PhysicalEducation', 'Fitness', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Fitness
@@ -16,4 +16,5 @@ updated: 2026-05-13
 - [[FunctionalTraining]]
 - [[健身训练]]
 - [[周期化训练与营养]]
+
 

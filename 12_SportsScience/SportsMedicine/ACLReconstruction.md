@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ACLReconstruction, ACL 重建, 前交叉韧带重建]
 tags: [SportsMedicine, Orthopedics, Rehabilitation, KneeSurgery]
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 前交叉韧带重建
@@ -229,4 +229,6 @@ ACL-RSI 评分与 RTS 成功率显著相关（OR 2.3, 95% CI 1.5-3.5）。推荐
 
 ## 相关条目
 
-[[SportsInjuries]], [[Rehabilitation]], [[Physiotherapy]], [[ReturnToSport]], [[FunctionalAssessment]], [[Orthopedics]]
+[[SportsInjuries]], [[Rehabilitation]], [[09_MedicineAndHealth/Physiotherapy|Physiotherapy]], [[ReturnToSport]], [[FunctionalAssessment]], [[Orthopedics]]
+
+

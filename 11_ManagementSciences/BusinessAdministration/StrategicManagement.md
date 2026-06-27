@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [StrategicManagement]
 tags: ['BusinessAdministration', 'StrategicManagement']
 created: 2026-05-19
@@ -95,8 +95,9 @@ SWOT分析整合了外部和内部环境分析结果。优势和组织劣势是�
 ## 相关条目
 
 - [[ManagementPrinciples]]
-- [[MarketingPrinciples]]
-- [[CorporateFinance]]
-- [[InnovationManagement]]
-- [[DecisionScience]]
+- [[11_ManagementSciences/BusinessAdministration/Marketing/MarketingPrinciples|MarketingPrinciples]]
+- [[11_ManagementSciences/BusinessAdministration/Finance/CorporateFinance|CorporateFinance]]
+- [[11_ManagementSciences/ManagementScienceAndEngineering/InnovationManagement|InnovationManagement]]
+- [[11_ManagementSciences/ManagementScienceAndEngineering/DecisionScience|DecisionScience]]
 - [[OrganizationalBehavior]]
+

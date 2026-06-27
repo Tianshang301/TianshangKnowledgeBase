@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [PortEngineering, 港口工程]
 tags: ['04_EngineeringAndTechnology', 'HydraulicAndMarineEngineering', 'HarborAndCoastalEngineering', 'PortEngineering']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 港口工程 (Port Engineering)
@@ -242,6 +242,8 @@ graph LR
 - [[CoastalEngineering|海岸工程]]
 - [[DredgingEngineering|疏浚工程]]
 - [[MarineStructure|海洋结构物]]
-- [[OffshoreEngineering|海洋工程]]
-- [[HydraulicEngineering|水利工程]]
+- [[04_EngineeringAndTechnology/HydraulicAndMarineEngineering/NavalArchitecture/OffshoreEngineering|海洋工程]]
+- [[04_EngineeringAndTechnology/HydraulicAndMarineEngineering/HydraulicEngineering/HydraulicEngineering|水利工程]]
 - [[TransportationEngineering|交通运输工程]]
+
+

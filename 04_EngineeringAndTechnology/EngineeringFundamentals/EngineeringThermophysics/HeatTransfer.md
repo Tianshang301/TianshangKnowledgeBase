@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [HeatTransfer]
 tags: ['EngineeringFundamentals', 'EngineeringThermophysics', 'HeatTransfer']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 传热学
@@ -144,3 +144,4 @@ $$J_A = -D_{AB}\frac{dc_A}{dx}$$
 - 发动机冷却
 - 航天热防护
 - 工业炉设计
+

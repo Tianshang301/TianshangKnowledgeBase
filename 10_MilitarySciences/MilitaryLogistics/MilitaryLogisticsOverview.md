@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MilitaryLogisticsOverview]
 tags: ['MilitaryLogistics', 'MilitaryLogisticsOverview']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 军事后勤概论
@@ -211,8 +211,8 @@ $$运输吨位 = \sum (每单位人数量 \times 单兵负重) + \sum (装备数
 
 - [[10_MilitarySciences/MilitaryStrategy/INDEX|MilitaryStrategy]]
 - [[10_MilitarySciences/NationalDefense/INDEX|NationalDefense]]
-- [[LogisticsManagement]]
-- [[SupplyChain]]
+- [[04_EngineeringAndTechnology/TransportationEngineering/Logistics/LogisticsManagement|LogisticsManagement]]
+- [[04_EngineeringAndTechnology/TransportationEngineering/Logistics/SupplyChain|SupplyChain]]
 
 ## 参考资源
 
@@ -221,3 +221,5 @@ $$运输吨位 = \sum (每单位人数量 \times 单兵负重) + \sum (装备数
 3. U.S. Army. FM 4-0: Sustainment Operations. Headquarters, Department of the Army, 2019.
 4. Joint Chiefs of Staff. JP 4-0: Joint Logistics. 2019.
 5. 王宗军. 军事后勤学. 国防大学出版社, 2015.
+
+

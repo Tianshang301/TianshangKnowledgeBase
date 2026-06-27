@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [BusinessStatistics]
 tags: ['AppliedStatistics', 'BusinessStatistics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 商业统计
@@ -219,4 +219,6 @@ print(f'R²: {model.score(X, y)}')
 
 ## 相关条目
 
-[[Probability]], [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]], [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]], StatisticalModeling
+[[02_NaturalSciences/Mathematics/ProbabilityStatistics/Probability|Probability]], [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]], [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]], StatisticalModeling
+
+

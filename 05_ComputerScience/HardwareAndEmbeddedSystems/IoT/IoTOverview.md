@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [IoT, InternetOfThings]
 tags: ['05_ComputerScience', 'HardwareAndEmbeddedSystems', 'IoT']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 物联网概述 (IoT Overview)
@@ -151,10 +151,12 @@ Matter (原 Project CHIP) 是 CSA 联盟推出的智能家居互操作标准：
 
 ## 相关条目
 
-- [[MQTT|MQTT 协议]]
-- [[LoRaWAN|LoRaWAN 协议]]
+- [[05_ComputerScience/ComputerNetworks/MQTT|MQTT 协议]]
+- [[05_ComputerScience/ComputerNetworks/LoRaWAN|LoRaWAN 协议]]
 - [[EmbeddedSystemsOverview|嵌入式系统]]
 - [[IoTSecurity|物联网安全]]
-- [[SmartHome|智能家居]]
+- [[05_ComputerScience/ComputerNetworks/SmartHome|智能家居]]
 - [[IndustrialIoT|工业物联网]]
-- [[EdgeComputing|边缘计算]]
+- [[07_InterdisciplinarySciences/NetworkedInformationSystems/EdgeComputing|边缘计算]]
+
+

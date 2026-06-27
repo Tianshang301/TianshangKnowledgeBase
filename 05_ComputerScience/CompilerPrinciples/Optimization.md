@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Optimization]
 tags: ['CompilerPrinciples', 'Optimization']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 编译优化
@@ -411,3 +411,4 @@ unit-at-a-time
 -O2：部分变量优化掉，行号信息可能偏移
 -O3：函数可能内联消失，调试困难
 ```
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['PublicAdministration', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # PublicAdministration
@@ -18,3 +18,4 @@ updated: 2026-05-13
 - [[NonprofitManagement]] — 非营利组织管理：公益组织运营
 - [[PublicAdministrationTheory]] — 公共管理理论：学科演进与流派
 - [[UrbanGovernance]] — 城市治理：城市公共事务管理
+

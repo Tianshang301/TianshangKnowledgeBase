@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Argumentation]
 tags: ['CrossDisciplinaryK12', 'CriticalThinkingForTeens', 'Argumentation']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 论证技巧
@@ -164,4 +164,6 @@ updated: 2026-05-13
 
 ## 相关条目
 
-InterdisciplinaryLearning, [[01_K12/CrossDisciplinaryK12/STEM/INDEX|STEM]], [[CriticalThinking]], ProjectBasedLearning
+InterdisciplinaryLearning, [[01_K12/CrossDisciplinaryK12/STEM/INDEX|STEM]], [[00_KnowledgeFramework/Methodology/CriticalThinking|CriticalThinking]], ProjectBasedLearning
+
+

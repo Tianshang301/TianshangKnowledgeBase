@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - Art History
   - 美术史
@@ -6,7 +6,7 @@ aliases:
   - History of Art
 tags:
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
   - art
   - history
   - fine-arts
@@ -247,3 +247,4 @@ graph LR
 艺术史是一部视觉思维的演进史。从史前洞穴中的野牛轮廓到数字屏幕上的像素矩阵，人类不断发明新的方式来看见、理解并表达世界。艺术史的学习不仅是对过去的回顾，更是培养批判性视觉素养（Visual Literacy）的过程——在图像泛滥的当代，这种能力尤为珍贵。
 
 > 「艺术不是再现可见之物，而是使不可见成为可见。」—— 保罗·克利 (Paul Klee)
+

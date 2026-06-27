@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['SurveyingAndMappingScience', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # SurveyingAndMappingScience
@@ -17,3 +17,4 @@ updated: 2026-05-13
 - [[04_EngineeringAndTechnology/SurveyingAndMappingScience/Photogrammetry/INDEX]]
 - [[04_EngineeringAndTechnology/SurveyingAndMappingScience/RemoteSensing/INDEX]]
 - [[../INDEX]]
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CurriculumTheory]
 tags: ['Education', 'CurriculumTheory', 'CurriculumTheory']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 课程论
@@ -275,10 +275,10 @@ $$\text{课程} = \text{官方知识} = \text{意识形态的选择与传递}$$
 
 ## 相关条目
 
-- [[Pedagogy]]
-- [[EducationalTechnology]]
-- [[ComparativeEducation]]
-- [[EducationalPsychology]]
+- [[03_HumanitiesAndSocialSciences/Education/Pedagogy/Pedagogy|Pedagogy]]
+- [[03_HumanitiesAndSocialSciences/Education/EducationalTechnology/EducationalTechnology|EducationalTechnology]]
+- [[03_HumanitiesAndSocialSciences/Education/ComparativeEducation/ComparativeEducation|ComparativeEducation]]
+- [[03_HumanitiesAndSocialSciences/Psychology/EducationalPsychology/EducationalPsychology|EducationalPsychology]]
 
 ## 参考资源
 
@@ -292,3 +292,5 @@ $$\text{课程} = \text{官方知识} = \text{意识形态的选择与传递}$$
 8. 钟启泉（2008）。《课程论》。北京：教育科学出版社。
 9. Stenhouse, L. (1975). *An Introduction to Curriculum Research and Development*. London: Heinemann.
 10. 崔允漷（2012）。《有效教学》。上海：华东师范大学出版社。
+
+

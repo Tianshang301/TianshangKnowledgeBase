@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Collections]
 tags: ['ProgrammingLanguages', 'Java', 'Collections']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Java 集合框架
@@ -366,3 +366,4 @@ list.sort(Comparator.comparing(Student::getName)
 | ConcurrentHashMap | 数组+链表+红黑树+CAS | 否 | 是 | 不允许 null | get/put O(1) |
 | PriorityQueue | 堆 | 优先级顺序 | 否 | 不允许 null | offer/poll O(log n) |
 | ArrayDeque | 循环数组 | 插入顺序 | 否 | 不允许 null | 两端操作 O(1) |
+

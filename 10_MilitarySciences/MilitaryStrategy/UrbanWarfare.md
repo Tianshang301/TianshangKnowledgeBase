@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [UrbanWarfare]
 tags: ['MilitaryStrategy', 'UrbanWarfare']
 created: 2026-05-19
@@ -119,6 +119,7 @@ updated: 2026-05-19
 - [[SpecialOperations]]
 - [[JointOperations]]
 - [[ArmsAndServices]]
-- [[UnmannedSystems]]
+- [[10_MilitarySciences/UnmannedSystems|UnmannedSystems]]
 - [[InformationWarfare]]
-- [[WeaponsSystems]]
+- [[10_MilitarySciences/MilitaryTechnology/WeaponsSystems|WeaponsSystems]]
+

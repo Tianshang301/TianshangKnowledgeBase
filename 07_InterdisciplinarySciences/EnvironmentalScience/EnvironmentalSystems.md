@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [EnvironmentalSystems]
 tags: ['EnvironmentalScience', 'EnvironmentalSystems']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 环境系统科学
@@ -205,3 +205,4 @@ $$ \text{EROI} = \frac{\text{产出能量}}{\text{投入能量}} $$
 ## 相关条目
 
 [[Ecology]], [[ClimateChange]], [[EnvironmentalPolicy]], Sustainability
+

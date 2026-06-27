@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [HashTable]
 tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'HashTable']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 哈希表详解
@@ -389,4 +389,6 @@ def longest_consecutive(nums):
 - [[LinkedList]]
 - [[Trie]]
 - [[BinarySearchTree]]
-- [[Sorting]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/Sorting|Sorting]]
+
+

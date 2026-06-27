@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['CrossDisciplinaryK12', 'CivicEducation', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 公民教育
@@ -13,3 +13,4 @@ updated: 2026-05-13
 
 - [[DemocracyAndGovernance]]
 - [[HumanRightsEducation]]
+

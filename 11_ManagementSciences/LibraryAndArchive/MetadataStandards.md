@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [MetadataStandards]
 tags: ['LibraryAndArchive', 'MetadataStandards']
 created: 2026-05-19
@@ -97,4 +97,5 @@ OAI-PMH协议支持元数据的收割和交换。OAI-PMH定义了仓库和数据
 - [[ArchivalScience]]
 - [[InformationScience]]
 - [[KnowledgeManagement]]
-- [[DataScience]]
+- [[07_InterdisciplinarySciences/DataScience/DataScience|DataScience]]
+

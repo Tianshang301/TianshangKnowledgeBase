@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SelfMassage, 自我按摩]
 tags: ['12_SportsScience', 'SportsMedicine', 'SelfMassage', 'Recovery']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 自我按摩 (Self-Massage)
@@ -233,3 +233,4 @@ graph TD
 - [[SportsMassageAndManualTherapy|运动按摩与手法治疗]]
 - [[FlexibilityTraining|柔韧性训练]]
 - [[INDEX|SportsMedicine 索引]]
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [HydraulicAndMarineEngineering]
 tags: ['HydraulicAndMarineEngineering', 'HydraulicAndMarineEngineering']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 水利与海洋工程
@@ -218,9 +218,11 @@ updated: 2026-05-13
 - [[04_EngineeringAndTechnology/CivilEngineering/INDEX|CivilEngineering]]
 - [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalEngineering/INDEX|EnvironmentalEngineering]]
 - EnergyEngineering
-- [[WaterResources]]
+- [[04_EngineeringAndTechnology/HydraulicAndMarineEngineering/HydraulicEngineering/WaterResources|WaterResources]]
 - Hydrology
-- [[FluidMechanics]]
+- [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/FluidMechanics|FluidMechanics]]
 - [[04_EngineeringAndTechnology/HydraulicAndMarineEngineering/HydraulicEngineering/INDEX|HydraulicEngineering]]
 - [[04_EngineeringAndTechnology/HydraulicAndMarineEngineering/HarborAndCoastalEngineering/INDEX|HarborAndCoastalEngineering]]
 - [[04_EngineeringAndTechnology/HydraulicAndMarineEngineering/NavalArchitecture/INDEX|NavalArchitecture]]
+
+

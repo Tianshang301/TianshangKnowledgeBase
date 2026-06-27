@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Documentation]
 tags: ['05_ComputerScience', 'SoftwareEngineering']
 created: 2026-05-17
@@ -310,7 +310,8 @@ MIT
 文档质量的最终标准：**新团队成员只看 README 加 API 文档就能在 1 小时内独立完成一个功能开发**。
 
 ## 相关条目
-- [[TechnicalWriting]]
+- [[05_ComputerScience/ProfessionalEnglish/TechnicalWriting|TechnicalWriting]]
 - [[RequirementsEngineering]]
 - [[VersionControl]]
 - [[05_ComputerScience/SoftwareEngineering/INDEX]]
+

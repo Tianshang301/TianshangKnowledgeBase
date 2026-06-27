@@ -1,10 +1,10 @@
----
+﻿---
 aliases:
   - DeFi
   - 去中心化金融
 tags:
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
   - blockchain
   - finance
   - smart-contract
@@ -201,3 +201,4 @@ DeFi 正在向以下方向发展：
 - [DeFi Llama](https://defillama.com/)
 - [Uniswap Documentation](https://docs.uniswap.org/)
 - [Aave Documentation](https://docs.aave.com/)
+

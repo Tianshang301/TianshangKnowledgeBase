@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [StateMachine]
 tags: ['HardwareAndEmbeddedSystems', 'DigitalCircuits', 'StateMachine']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 状态机设计
@@ -351,3 +351,4 @@ endmodule
 3. **毛刺输出**: Mealy 机的组合输出易受输入毛刺影响
 4. **死锁**: 是否存在吸收态 (不可达状态被误使用)
 5. **时序违规**: 保持等式中 FSM 状态码的独特性
+

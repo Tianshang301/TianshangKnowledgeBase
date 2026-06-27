@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [TeacherEducation]
 tags: ['03_HumanitiesAndSocialSciences', 'Education', 'TeacherEducation']
 created: 2026-05-17
@@ -203,7 +203,8 @@ flowchart TD
 ## 相关条目
 
 - [[EducationalPhilosophy]]
-- [[EducationalPsychology]]
+- [[03_HumanitiesAndSocialSciences/Psychology/EducationalPsychology/EducationalPsychology|EducationalPsychology]]
 - [[HigherEducation]]
 - [[InclusiveEducation]]
 - [[INDEX|当前目录索引]]
+

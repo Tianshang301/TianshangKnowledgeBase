@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Listening]
 tags: ['ForeignLanguagesAndLiteratures', 'English', 'Listening']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 英语听力训练指南
@@ -230,3 +230,4 @@ After:
 - The Crown (王冠) - 英式英语
 - Breaking Bad (绝命毒师) - 美国西南口音
 ```
+

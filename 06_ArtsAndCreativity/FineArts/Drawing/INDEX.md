@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['FineArts', 'Drawing', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Drawing
@@ -17,4 +17,5 @@ updated: 2026-05-13
 - [[素描基础与透视原理]]
 - [[素描技法]]
 - [[绘画技法]]
+
 

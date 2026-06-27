@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LearningPath]
 tags: ['Music', 'LearningPath']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 音乐学习路线图
@@ -214,3 +214,4 @@ updated: 2026-05-13
 | Complete Ear Trainer | 耳训 | 安卓 |
 | Moises | 分离音轨 | 全平台 |
 | iReal Pro | 伴奏生成 | 全平台 |
+

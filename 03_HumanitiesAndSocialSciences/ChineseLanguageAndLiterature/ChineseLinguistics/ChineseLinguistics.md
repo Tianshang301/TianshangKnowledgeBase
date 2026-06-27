@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ChineseLinguistics]
 tags: ['ChineseLanguageAndLiterature', 'ChineseLinguistics', 'ChineseLinguistics']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 汉语语言学
@@ -187,7 +187,7 @@ updated: 2026-05-13
 
 ## 相关条目
 
-[[ModernChinese]] · [[ClassicalChinese]] · ForeignLanguages · [[LanguageLearning]]
+[[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/ModernChinese/ModernChinese|ModernChinese]] · [[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/ClassicalChinese/ClassicalChinese|ClassicalChinese]] · ForeignLanguages · [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/LanguageLearning/LanguageLearning|LanguageLearning]]
 
 ## 参考资源
 
@@ -324,3 +324,5 @@ updated: 2026-05-13
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+
+

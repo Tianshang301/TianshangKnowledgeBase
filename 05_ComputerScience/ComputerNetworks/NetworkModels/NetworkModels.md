@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [NetworkModels]
 tags: ['ComputerNetworks', 'NetworkModels', 'NetworkModels']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 网络模型 (Network Models)
@@ -214,7 +214,7 @@ TCP/IP 模型是实际 Internet 使用的协议栈，精简为四层。
 
 ## 相关条目
 
-- [[NetworkProtocols]]
+- [[05_ComputerScience/ComputerNetworks/NetworkProtocols/NetworkProtocols|NetworkProtocols]]
 - OSIModel
 - TCPIP
 - NetworkArchitecture
@@ -226,3 +226,5 @@ TCP/IP 模型是实际 Internet 使用的协议栈，精简为四层。
 - ISO/IEC 7498-1 (OSI 模型)
 - RFC 1122/1123 (Internet 主机需求)
 - IETF 官方文档 (https://www.ietf.org/)
+
+

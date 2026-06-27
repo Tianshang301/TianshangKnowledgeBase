@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [StructuralAnalysis]
 tags: ['CivilEngineering', 'StructuralEngineering', 'StructuralAnalysis']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 结构分析
@@ -215,3 +215,4 @@ $$[k]^e = \int_V [B]^T[D][B]dV$$
 - [[SteelStructures]]
 - [[ConcreteStructures]]
 - EarthquakeEngineering
+

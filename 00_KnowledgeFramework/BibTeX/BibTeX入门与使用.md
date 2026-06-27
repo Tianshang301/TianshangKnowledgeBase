@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [BibTeX 入门与使用]
 tags: ['BibTeX', 'BibTeX 入门与使用', 'LaTeX', 'Bibliography']
 ---
@@ -193,4 +193,5 @@ pdflatex paper.tex       % 更新交叉引用
 
 ## 相关条目
 
-[[AcademicPapers]], CitationManagement, [[ResearchMethods]], [[LaTeX]]
+[[00_KnowledgeFramework/AcademicPapers/AcademicPapers|AcademicPapers]], CitationManagement, [[00_KnowledgeFramework/Methodology/ResearchMethods|ResearchMethods]], [[05_ComputerScience/DigitalNotes/LaTeX/LaTeX|LaTeX]]
+

@@ -2,7 +2,7 @@
 aliases: [DevelopmentalPsychology]
 tags: ['03_HumanitiesAndSocialSciences', 'Psychology', 'DevelopmentalPsychology']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 # DevelopmentalPsychology
 
@@ -12,9 +12,9 @@ updated: 2026-05-13
 
 - [[鍎跨涓庨潚灏戝勾鍙戝睍]]
 - [[鎴愪汉鍙戝睍涓庤€侀緞鍖朷]
-- [[EducationalPsychology]]
-- [[ClinicalPsychology]]
-- [[Pedagogy]]
+- [[03_HumanitiesAndSocialSciences/Psychology/EducationalPsychology/EducationalPsychology|EducationalPsychology]]
+- [[03_HumanitiesAndSocialSciences/Psychology/ClinicalPsychology/ClinicalPsychology|ClinicalPsychology]]
+- [[03_HumanitiesAndSocialSciences/Education/Pedagogy/Pedagogy|Pedagogy]]
 - [[02_NaturalSciences/Biology/Neuroscience/INDEX|Neuroscience]]
 
 > **瀵艰埅**: [[../INDEX|Psychology 绱㈠紩]] | [[../CognitivePsychology/INDEX|璁ょ煡蹇冪悊瀛] | [[../SocialPsychology/INDEX|绀句細蹇冪悊瀛] | [[../BehavioralEconomics/INDEX|琛屼负缁忔祹瀛]
@@ -145,4 +145,6 @@ updated: 2026-05-13
 - [[INDEX|褰撳墠鐩綍绱㈠紩]]
 - [[儿童与青少年发展]]
 - [[成人发展与老龄化]]
+
+
 

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Entropy, 熵, 热力学熵, StatisticalEntropy, InformationEntropy, BoltzmannEntropy, ShannonEntropy]
 tags: ['02_NaturalSciences', 'Physics', 'Thermodynamics', 'StatisticalMechanics', 'InformationTheory', 'Entropy']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 熵 (Entropy)
@@ -177,3 +177,4 @@ $$ \Delta G = \Delta H - T\Delta S $$
 
 - [[02_NaturalSciences/Physics/Thermodynamics/StatisticalMechanics\|统计力学 (Statistical Mechanics)]]
 - [[02_NaturalSciences/Physics/Thermodynamics/INDEX\|热力学索引]]
+

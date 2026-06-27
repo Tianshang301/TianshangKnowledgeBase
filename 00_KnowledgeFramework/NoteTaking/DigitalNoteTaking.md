@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 数字化笔记
   - 数字笔记
@@ -196,7 +196,7 @@ Zotero 文献管理 → Obsidian 文献笔记 →
 
 ## 相关条目
 
-- [[SecondBrain]]
+- [[00_KnowledgeFramework/Methodology/SecondBrain|SecondBrain]]
 - [[LectureNotes]]
 - [[PomodoroTechnique]]
 - [[ProgressiveSummarization]]
@@ -211,3 +211,4 @@ Zotero 文献管理 → Obsidian 文献笔记 →
 - Logseq 官方文档: https://docs.logseq.com
 - Zettelkasten 方法: https://zettelkasten.de
 - Tiago Forte PARA 方法: https://fortelabs.com/blog/para
+

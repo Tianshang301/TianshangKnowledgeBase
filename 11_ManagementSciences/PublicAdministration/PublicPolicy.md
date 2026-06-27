@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [PublicPolicy]
 tags: ['PublicAdministration', 'PublicPolicy']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 公共政策
@@ -160,3 +160,4 @@ updated: 2026-05-13
 - 政治学
 - 公共经济学
 - 社会科学研究方法
+

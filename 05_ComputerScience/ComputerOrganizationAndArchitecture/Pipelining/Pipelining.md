@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Pipelining]
 tags: ['ComputerOrganizationAndArchitecture', 'Pipelining', 'Pipelining']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 流水线技术 (Pipelining)
@@ -458,10 +458,10 @@ VLIW 将指令并行性的调度从硬件转移到编译器：
 
 ## 相关条目
 
-- [[CPUArchitecture]]
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/CPUArchitecture/CPUArchitecture|CPUArchitecture]]
 - Hazards
 - Superscalar
-- [[InstructionSet]]
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/InstructionSet/InstructionSet|InstructionSet]]
 
 ## 参考资源
 
@@ -471,3 +471,5 @@ VLIW 将指令并行性的调度从硬件转移到编译器：
 - Intel 64 and IA-32 Architectures Optimization Reference Manual
 - "A Survey of Branch Prediction Techniques" (Smith, 1981)
 - "TAGE-SC-L Branch Predictor" (Seznec)
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MobileDevelopment]
 tags: ['EngineeringDevelopment', 'MobileDevelopment', 'MobileDevelopment']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 移动开发完全指南
@@ -386,8 +386,8 @@ $$M_{\text{bitmap}} = \text{width} \times \text{height} \times \text{bytesPerPix
 
 ## 相关条目
 
-- [[WebDevelopment]]
-- [[DesktopDevelopment]]
+- [[05_ComputerScience/EngineeringDevelopment/WebDevelopment/WebDevelopment|WebDevelopment]]
+- [[05_ComputerScience/EngineeringDevelopment/DesktopDevelopment/DesktopDevelopment|DesktopDevelopment]]
 - AppDevelopment
 - UI_UX
 
@@ -399,3 +399,5 @@ $$M_{\text{bitmap}} = \text{width} \times \text{height} \times \text{bytesPerPix
 - React Native 文档: https://reactnative.dev/docs
 - Material Design: https://material.io/design
 - Human Interface Guidelines: https://developer.apple.com/design/human-interface-guidelines
+
+

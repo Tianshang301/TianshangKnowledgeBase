@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ChineseHistory]
 tags: ['History', 'ChineseHistory', 'ChineseHistory']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 中国历史
@@ -208,10 +208,10 @@ $$ \text{中国白银进口} \approx \text{全球白银产量的1/3—1/2 (1500�
 
 ## 相关条目
 
-- [[WorldHistory]]
-- [[HistoricalGeography]]
-- [[Historiography]]
-- [[Archaeology]]
+- [[03_HumanitiesAndSocialSciences/History/WorldHistory/WorldHistory|WorldHistory]]
+- [[03_HumanitiesAndSocialSciences/History/HistoricalGeography/HistoricalGeography|HistoricalGeography]]
+- [[03_HumanitiesAndSocialSciences/History/Historiography/Historiography|Historiography]]
+- [[03_HumanitiesAndSocialSciences/History/Archaeology/Archaeology|Archaeology]]
 
 ## 参考资源
 
@@ -225,3 +225,5 @@ $$ \text{中国白银进口} \approx \text{全球白银产量的1/3—1/2 (1500�
 8. Spence, J. (1990). *The Search for Modern China*. New York: Norton.
 9. 余英时（1987）。《士与中国文化》。上海：上海人民出版社。
 10. 孔飞力（Kuhn, P.）(1990). *Soulstealers: The Chinese Sorcery Scare of 1768*. Cambridge: Harvard University Press.
+
+

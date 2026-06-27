@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Ballistics]
 tags: ['AerospaceAndMilitaryEngineering', 'OrdnanceScience', 'Ballistics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 弹道学
@@ -95,5 +95,7 @@ $$b = K \cdot \frac{v_0^{1.43} m^{0.715}}{d^{1.07}}$$
 ## 相关条目
 - [[WeaponSystems]]
 - [[弹道测量与仿真]]
-- [[Aerodynamics]]
-- [[FlightMechanics]]
+- [[04_EngineeringAndTechnology/AerospaceAndMilitaryEngineering/Aerodynamics/Aerodynamics|Aerodynamics]]
+- [[04_EngineeringAndTechnology/AerospaceAndMilitaryEngineering/AerospaceEngineering/FlightMechanics|FlightMechanics]]
+
+

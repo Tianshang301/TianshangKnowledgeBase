@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['Nursing', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Nursing
@@ -17,3 +17,4 @@ updated: 2026-05-13
 - [[SurgicalNursing]] — 外科护理：外科疾病护理
 - [[09_MedicineAndHealth/ClinicalMedicine/INDEX|ClinicalMedicine]]
 - [[09_MedicineAndHealth/PublicHealth/INDEX|PublicHealth]]
+

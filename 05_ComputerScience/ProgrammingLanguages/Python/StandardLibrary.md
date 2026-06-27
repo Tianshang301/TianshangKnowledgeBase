@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [StandardLibrary]
 tags: ['ProgrammingLanguages', 'Python', 'StandardLibrary']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Python 标准库常用模块
@@ -487,3 +487,4 @@ print(hello.__name__)  # 'hello' (没有 wraps 会输出'wrapper')
 ```
 
 > 熟练掌握标准库能大幅提高开发效率。建议重点掌握 os/sys、re、json、datetime、collections 和 itertools, 它们是日常开发中使用最频繁的模块。
+

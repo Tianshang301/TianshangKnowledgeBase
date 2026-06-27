@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [JavaScript]
 tags: ['ProgrammingLanguages', 'Web', 'JavaScript']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # JavaScript 完整指南
@@ -597,3 +597,4 @@ function throttle(func, limit = 300) {
 ```
 
 > JavaScript 是 Web 的核心语言。重点掌握: ES6+ 语法、异步编程 (Promise/async-await)、DOM 操作、原型与类。理解闭包和作用域是进阶的关键。
+

@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['PersonalProductivity', 'Health', 'FirstAid', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # FirstAid
@@ -15,4 +15,5 @@ updated: 2026-05-13
 - [[甯歌鎬ョ棁涓庢埛澶栨€ユ晳]] 鈥?甯歌鎬ョ棁澶勭悊涓庢埛澶栨€ユ晳鎶€鑳?
 - [[常见急症与户外急救]]
 - [[急救常识]]
+
 

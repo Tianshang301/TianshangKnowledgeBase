@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [HigherEducation]
 tags: ['03_HumanitiesAndSocialSciences', 'Education']
 created: 2026-05-17
@@ -224,7 +224,7 @@ flowchart LR
 - [[AdultEducation]]
 - [[DistanceEducation]]
 - [[TeacherEducation]]
-- [[ComparativeEducation]]
+- [[03_HumanitiesAndSocialSciences/Education/ComparativeEducation/ComparativeEducation|ComparativeEducation]]
 - [[INDEX|当前目录索引]]
 
 ## 深入阅读与扩展分析
@@ -351,3 +351,4 @@ flowchart LR
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+

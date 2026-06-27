@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [联合作战, JointOperations]
 tags: ['MilitaryScience', 'MilitaryStrategy', 'JointOperations', 'MultiDomainOperations']
 created: 2026-06-27
@@ -245,8 +245,9 @@ Manned-Unmanned Teaming（MUM-T）有人-无人协同作战模式成为重要作
 ## 相关条目
 
 - [[ArmsAndServices]]
-- [[C4ISR]]
+- [[10_MilitarySciences/C4ISR|C4ISR]]
 - [[InformationWarfare]]
 - [[MilitaryOperationsResearch]]
-- [[MilitaryAI]]
-- [[MilitarySupplyChain]]
+- [[10_MilitarySciences/MilitaryTechnology/MilitaryAI|MilitaryAI]]
+- [[10_MilitarySciences/MilitaryLogistics/MilitarySupplyChain|MilitarySupplyChain]]
+

@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['EthnicStudies', 'INDEX']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # EthnicStudies
@@ -12,9 +12,9 @@ updated: 2026-05-13
 ## 鏂囦欢
 
 > 璇︾粏鍐呭璇疯 [[姘戞棌瀛︾悊璁轰笌姘戞棌鏂囧寲]]銆乕[鏂囧寲浜虹被瀛︽柟娉曚笌搴旂敤]]
-- [[EthnicRelations]]
-- [[Ethnography]]
-- [[MinorityLanguages]]
+- [[03_HumanitiesAndSocialSciences/Sociology/EthnicRelations|EthnicRelations]]
+- [[03_HumanitiesAndSocialSciences/Sociology/Ethnology/Ethnography|Ethnography]]
+- [[03_HumanitiesAndSocialSciences/Linguistics/MinorityLanguages|MinorityLanguages]]
 - [[涓崕姘戞棌澶氬厓涓€浣撴牸灞€]]
 
 ## 娣卞叆闃呰涓庢墿灞曞垎鏋?
@@ -148,4 +148,6 @@ updated: 2026-05-13
 - [[EthnicCulture/INDEX|EthnicCulture]]
 - [[EthnicHistory/INDEX|EthnicHistory]]
 - [[Ethnology/INDEX|Ethnology]]
+
+
 

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ProteinStructure]
 tags: ['Bioinformatics', 'ProteinStructure']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 蛋白质结?
@@ -254,3 +254,4 @@ gmx mdrun -deffnm md
 ## 相关条目
 
 ComputationalBiology, [[02_NaturalSciences/Biology/Genetics/INDEX|Genetics]], [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]], Genomics, [[02_NaturalSciences/Biology/MolecularBiology/INDEX|MolecularBiology]]
+

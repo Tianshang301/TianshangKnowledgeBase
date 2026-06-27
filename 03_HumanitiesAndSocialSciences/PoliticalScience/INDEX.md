@@ -2,7 +2,7 @@
 aliases: [PoliticalScience]
 tags: ['03_HumanitiesAndSocialSciences', 'PoliticalScience']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 # PoliticalScience
 
@@ -146,4 +146,5 @@ updated: 2026-05-13
 - [[PoliticalTheory/INDEX|PoliticalTheory]]
 - [[PublicAdministration/INDEX|PublicAdministration]]
 - [[PublicPolicy/INDEX|PublicPolicy]]
+
 

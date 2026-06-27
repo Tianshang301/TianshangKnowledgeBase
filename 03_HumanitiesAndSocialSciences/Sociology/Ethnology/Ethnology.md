@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Ethnology]
 tags: ['Sociology', 'Ethnology', 'Ethnology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 民族社会学
@@ -247,10 +247,10 @@ Anderson 提出"想象的共同体"概念：民族是被想象出来的政治共
 
 ## 相关条目
 
-- [[CulturalAnthropology]]
+- [[03_HumanitiesAndSocialSciences/EthnicStudies/CulturalAnthropology/CulturalAnthropology|CulturalAnthropology]]
 - [[03_HumanitiesAndSocialSciences/EthnicStudies/INDEX|EthnicStudies]]
-- [[SociologicalTheory]]
-- [[SocialPsychology]]
+- [[03_HumanitiesAndSocialSciences/Sociology/SociologicalTheory/SociologicalTheory|SociologicalTheory]]
+- [[03_HumanitiesAndSocialSciences/Sociology/SocialPsychology/SocialPsychology|SocialPsychology]]
 
 ## 参考资源
 
@@ -261,3 +261,5 @@ Anderson 提出"想象的共同体"概念：民族是被想象出来的政治共
 - Lijphart《协和制民主》
 - Bonilla-Silva《种族主义的结构理论》
 - 马戎《民族社会学》
+
+

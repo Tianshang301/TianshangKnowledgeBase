@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['PersonalProductivity', 'Meditation', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Meditation
@@ -15,4 +15,5 @@ updated: 2026-05-13
 - [[姝ｅ康缁冧範涓庡啣鎯虫妧鏈痌] 鈥?姝ｅ康缁冧範鏂规硶涓庡啣鎯宠繘闃舵妧鏈?
 - [[冥想与正念]]
 - [[正念练习与冥想技术]]
+
 

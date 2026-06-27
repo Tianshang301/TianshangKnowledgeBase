@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['Biotechnologies', 'FermentationEngineering', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # FermentationEngineering
@@ -13,3 +13,4 @@ updated: 2026-05-13
 
 - [[EnzymeEngineering]]
 - [[FermentationProcess]]
+

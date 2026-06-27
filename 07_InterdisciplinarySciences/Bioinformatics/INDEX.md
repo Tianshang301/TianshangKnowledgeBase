@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['Bioinformatics', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Bioinformatics
@@ -17,3 +17,4 @@ updated: 2026-05-13
 - [[Phylogenetics]] - 系统发育学：物种与基因进化关系的推断方法，涵盖距离法、最大简约法、最大似然法、贝叶斯推断等
 - [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]]
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]]
+

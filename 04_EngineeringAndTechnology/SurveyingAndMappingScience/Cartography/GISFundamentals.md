@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [GISFundamentals, GIS 基础, GeographicInformationSystem, 地理信息系统]
 tags: ['SurveyingAndMappingScience', 'Cartography', 'GIS', 'SpatialData', 'RemoteSensing']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # GIS 基础（GIS Fundamentals）
@@ -252,10 +252,12 @@ WebGIS 技术栈：
 
 ## 相关条目
 
-- [[RemoteSensing|遥感技术]]
+- [[04_EngineeringAndTechnology/GeologicalAndMiningEngineering/GeologicalEngineering/RemoteSensing|遥感技术]]
 - [[Cartography|地图学]]
 - [[Surveying|测量学]]
 - [[SpatialAnalysis|空间分析]]
-- [[RemoteSensing|遥感]]
+- [[04_EngineeringAndTechnology/GeologicalAndMiningEngineering/GeologicalEngineering/RemoteSensing|遥感]]
 - [[GPS|全球定位系统]]
 - [[INDEX|Cartography 索引]]
+
+

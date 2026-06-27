@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ComparativePolitics]
 tags: ['RegionalAndCountryStudies', 'ComparativePolitics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 比较政治?
@@ -254,3 +254,4 @@ updated: 2026-05-13
 ## 相关条目
 
 [[03_HumanitiesAndSocialSciences/PoliticalScience/INDEX|PoliticalScience]], [[InternationalRelations]], [[ComparativePolitics]], [[AreaStudies]]
+

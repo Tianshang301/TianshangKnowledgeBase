@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [BasicOperations]
 tags: ['ComputerBasics', 'OperatingSystem', 'Productivity', 'DigitalLiteracy']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 计算机基础操作指南 (Basic Computer Operations)
@@ -231,4 +231,6 @@ rename 's/ /_/g' *.txt
 
 - [[SystemMaintenance]] — 系统维护与优化
 
-- [[ProductivityTools]] — 效率工具推荐
+- [[11_ManagementSciences/ProductivityTools|ProductivityTools]] — 效率工具推荐
+
+

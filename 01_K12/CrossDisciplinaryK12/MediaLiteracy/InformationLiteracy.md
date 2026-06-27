@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - InformationLiteracy
   - InfoLit
@@ -240,10 +240,11 @@ flowchart LR
 
 ## 相关条目
 
-- [[CriticalThinking|批判性思维]]
+- [[00_KnowledgeFramework/Methodology/CriticalThinking|批判性思维]]
 - [[DigitalCitizenship|数字公民]]
 - [[ResearchMethodology|研究方法论]]
 - [[MediaProduction|媒体制作]]
 - [[AI Literacy|人工智能素养]]
 - [[DataLiteracy|数据素养]]
 - [[../INDEX|CrossDisciplinaryK12 索引]]
+

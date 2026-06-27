@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SlidingWindow]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'SlidingWindow']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 滑动窗口详解
@@ -310,7 +310,9 @@ def sliding_window_template(s, condition_fn):
 ## 相关条目
 
 - [[TwoPointers]]
-- [[BasicAlgorithms]]
-- [[Array]]
-- [[StringAlgorithms]]
-- [[HashTable]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BasicAlgorithms/BasicAlgorithms|BasicAlgorithms]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/DataStructures/Array|Array]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/StringAlgorithms/StringAlgorithms|StringAlgorithms]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/DataStructures/HashTable|HashTable]]
+
+

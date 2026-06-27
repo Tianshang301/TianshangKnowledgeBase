@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [ElectricityBasics]
 tags: ['JuniorHigh', 'Physics', 'ElectricityBasics']
 created: 2026-05-16
@@ -149,4 +149,5 @@ Q = I²Rt
 
 ## 相关条目
 
-[[02_NaturalSciences/Physics/ClassicalMechanics/INDEX|ClassicalMechanics]], [[02_NaturalSciences/Physics/QuantumMechanics/INDEX|QuantumMechanics]], [[Thermodynamics]], [[02_NaturalSciences/Physics/Electromagnetism/INDEX|Electromagnetism]]
+[[02_NaturalSciences/Physics/ClassicalMechanics/INDEX|ClassicalMechanics]], [[02_NaturalSciences/Physics/QuantumMechanics/INDEX|QuantumMechanics]], [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringThermophysics/Thermodynamics|Thermodynamics]], [[02_NaturalSciences/Physics/Electromagnetism/INDEX|Electromagnetism]]
+

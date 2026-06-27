@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Tapering, 减量训练, 赛前减量, Peaking]
 tags: ['SportsScience', 'SportsTraining', 'Periodization', 'PerformanceOptimization']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 减量训练 (Tapering)
@@ -200,7 +200,7 @@ graph TD
 
 - [[Supercompensation|超量补偿]] — 训练适应的生理学机制
 
-- [[Overtraining|过度训练]] — 训练与恢复失衡的综合征
+- [[12_SportsScience/SportsMedicine/Overtraining|过度训练]] — 训练与恢复失衡的综合征
 
 - [[PeakingForCompetition|赛前高峰]] — 竞技高峰的规划与实现
 
@@ -211,3 +211,5 @@ graph TD
 - [[INDEX|SportsTraining 索引]]
 
 - [[../../INDEX|TianshangKnowledgeBase 索引]]
+
+

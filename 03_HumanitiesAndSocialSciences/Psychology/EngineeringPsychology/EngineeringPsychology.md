@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [EngineeringPsychology]
 tags: ['Psychology', 'EngineeringPsychology', 'EngineeringPsychology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 工程心理学
@@ -224,8 +224,8 @@ Reason 的分类：
 
 ## 相关条目
 
-- [[HumanComputerInteraction]]
-- [[CognitivePsychology]]
+- [[05_ComputerScience/HumanComputerInteraction/HumanComputerInteraction|HumanComputerInteraction]]
+- [[07_InterdisciplinarySciences/CognitiveScience/CognitivePsychology|CognitivePsychology]]
 - Ergonomics
 - [[06_ArtsAndCreativity/Design/IndustrialDesign/INDEX|IndustrialDesign]]
 
@@ -238,3 +238,5 @@ Reason 的分类：
 - Karwowski《国际人因与工效学》
 - Parasuraman《自动化与人因》
 - 孙林岩《工程心理学》
+
+

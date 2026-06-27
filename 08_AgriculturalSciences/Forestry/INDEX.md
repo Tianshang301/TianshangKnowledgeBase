@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['Forestry', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Forestry
@@ -17,7 +17,9 @@ updated: 2026-05-13
 - [[WoodScience]] - 木材学：研究木材构造、性质、缺陷及其加工利用
 - [[ForestManagementPlanning]] - 森林经营规划
 - [[ForestSilviculture]] - 森林培育
-- [[Ecology]]
+- [[07_InterdisciplinarySciences/EnvironmentalScience/Ecology|Ecology]]
 - [[08_AgriculturalSciences/PlantProtection/INDEX|PlantProtection]]
 - [[07_InterdisciplinarySciences/EnvironmentalScience/INDEX|EnvironmentalScience]]
 - [[08_AgriculturalSciences/AgriculturalResources/INDEX|AgriculturalResources]]
+
+

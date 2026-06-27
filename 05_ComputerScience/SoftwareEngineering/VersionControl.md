@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [VersionControl]
 tags: ['05_ComputerScience', 'SoftwareEngineering']
 created: 2026-05-17
@@ -261,5 +261,6 @@ git cat-file -p a1b2c3d   # 显示对象内容
 ## 相关条目
 - [[Documentation]]
 - [[SoftwareProjectManagement]]
-- [[ShellScripting]]
+- [[05_ComputerScience/OperatingSystems/ShellScripting|ShellScripting]]
 - [[05_ComputerScience/SoftwareEngineering/INDEX]]
+

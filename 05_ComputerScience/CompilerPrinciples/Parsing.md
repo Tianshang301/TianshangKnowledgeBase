@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Parsing]
 tags: ['05_ComputerScience', 'CompilerPrinciples']
 created: 2026-05-17
@@ -286,5 +286,6 @@ def build_ast(tokens):
 - [[LexicalAnalysis]]
 - [[SemanticAnalysis]]
 - [[CodeGeneration]]
-- [[FormalLanguages]]
+- [[05_ComputerScience/TheoryOfComputation/FormalLanguages|FormalLanguages]]
 - [[INDEX|当前目录索引]]
+

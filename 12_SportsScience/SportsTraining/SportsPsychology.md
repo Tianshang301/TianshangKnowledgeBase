@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SportsPsychology]
 tags: ['SportsTraining', 'SportsPsychology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 运动心理学
@@ -196,3 +196,4 @@ Nideffer 注意类型模型有两个维度。
 ## 相关条目
 
 训练理论、运动技能学习、体育教学、运动损伤康复、教练学、运动社会学、动机理论、自信训练
+

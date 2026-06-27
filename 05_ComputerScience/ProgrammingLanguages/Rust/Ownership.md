@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Ownership]
 tags: ['ProgrammingLanguages', 'Rust', 'Ownership']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Rust 所有权系统
@@ -173,3 +173,4 @@ fn first_word(s: &str) -> &str {  // 省略后等价于 <'a>(&'a str) -> &'a str
 // 存活于整个程序期间
 let s: &'static str = "Hello";  // 字符串字面量是 'static
 ```
+

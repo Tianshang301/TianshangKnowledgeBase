@@ -1,7 +1,7 @@
 ﻿---
 aliases: [WesternPhilosophy]
 created: 2026-05-17
-updated: 2026-05-13---
+updated: 2026-05-17---
 
 # WesternPhilosophy
 
@@ -138,4 +138,5 @@ updated: 2026-05-13---
 ## 鐩稿叧鏉＄洰
 - [[INDEX|褰撳墠鐩綍绱㈠紩]]
 - [[西方哲学史]]
+
 

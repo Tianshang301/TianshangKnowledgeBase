@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [QuantumComputing, 量子计算, QC]
 tags: ['07_Interdisciplinary', 'QuantumInformation', 'QuantumComputing']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 量子计算概论
@@ -253,7 +253,9 @@ gantt
 ## 相关条目
 
 - [[07_InterdisciplinarySciences/QuantumInformationScience/Cryptography|量子密码学]]
-- [[ComputerArchitecture]]
+- [[04_EngineeringAndTechnology/ComputerAndInformationSciences/ComputerArchitecture|ComputerArchitecture]]
 - [[07_InterdisciplinarySciences/QuantumInformationScience/QuantumAlgorithms|量子算法]]
 - [[07_InterdisciplinarySciences/QuantumInformationScience/QuantumErrorCorrection|量子纠错]]
 - [[05_ComputerScience/MachineLearning/QuantumMachineLearning|量子机器学习]]
+
+

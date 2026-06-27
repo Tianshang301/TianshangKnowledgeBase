@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [BinarySearch]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'BinarySearch']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 二分查找完全指南
@@ -284,7 +284,9 @@ def binary_search_template(arr, target):
 ## 相关条目
 
 - [[Sorting]]
-- [[BasicAlgorithms]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BasicAlgorithms/BasicAlgorithms|BasicAlgorithms]]
 - [[TwoPointers]]
-- [[Array]]
-- [[Tree]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/DataStructures/Array|Array]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/DataStructures/Tree|Tree]]
+
+

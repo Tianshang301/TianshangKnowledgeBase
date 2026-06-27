@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['PersonalProductivity', 'PublicSpeaking', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # PublicSpeaking
@@ -15,4 +15,5 @@ updated: 2026-05-13
 - [[婕旇缁撴瀯涓庤垶鍙版妧宸] 鈥?婕旇缁撴瀯璁捐涓庤垶鍙拌〃鐜版妧宸?
 - [[演讲与表达]]
 - [[演讲结构与舞台技巧]]
+
 

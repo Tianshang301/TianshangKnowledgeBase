@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AdaptedPhysicalEducation]
 tags: ['PhysicalEducation', 'AdaptedPhysicalEducation']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 适应性体育教育
@@ -214,3 +214,4 @@ IEP 中还应明确支持服务和参与普通体育教育的程度。
 ## 相关条目
 
 体育教学、全纳教育、体育课设计、运动康复、儿童运动发展、残奥运动、特殊教育、物理治疗
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Languages]
 tags: ['OperatingSystems', 'Linux', 'Languages']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 各语言正则实现对比
@@ -538,3 +538,4 @@ fn main() {
 - [[Examples]]
 - [[Bash]]
 - [[Scripting]]
+

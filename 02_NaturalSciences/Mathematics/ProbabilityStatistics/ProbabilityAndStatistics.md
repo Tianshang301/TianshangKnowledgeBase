@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ProbabilityAndStatistics, 概率论与数理统计]
 tags: ['ProbabilityAndStatistics', 'Statistics', 'Mathematics', 'ProbabilityTheory']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 概率论与数理统计 (Probability and Statistics)
@@ -287,3 +287,4 @@ $$ \text{CLT: } \bar{X} \sim N(\mu, \sigma^2/n) $$
 ---
 
 [[02_NaturalSciences/Mathematics/ProbabilityStatistics/INDEX|当前目录索引]]
+

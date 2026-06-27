@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Anesthesiology]
 tags: ['ClinicalMedicine', 'Anesthesiology']
 created: 2026-05-19
@@ -106,8 +106,9 @@ updated: 2026-05-19
 ## 相关条目
 
 - [[Surgery]]
-- [[Pharmacology]]
+- [[09_MedicineAndHealth/BasicMedicalSciences/Pharmacology|Pharmacology]]
 - [[EmergencyMedicine]]
-- [[Physiology]]
-- [[Pathophysiology]]
+- [[09_MedicineAndHealth/BasicMedicalSciences/Physiology|Physiology]]
+- [[09_MedicineAndHealth/BasicMedicalSciences/Pathophysiology|Pathophysiology]]
 - [[ClinicalDiagnosis]]
+

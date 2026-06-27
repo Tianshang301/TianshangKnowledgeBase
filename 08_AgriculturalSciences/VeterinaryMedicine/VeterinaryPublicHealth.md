@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [VeterinaryPublicHealth]
 tags: ['VeterinaryMedicine', 'VeterinaryPublicHealth']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 兽医公共卫生
@@ -150,4 +150,6 @@ $$
 - VeterinaryEpidemiology
 - [[08_AgriculturalSciences/AnimalScience/INDEX|AnimalScience]]
 - [[08_AgriculturalSciences/FoodScience/INDEX|FoodScience]]
-- [[EnvironmentalHealth]]
+- [[09_MedicineAndHealth/PublicHealth/EnvironmentalHealth|EnvironmentalHealth]]
+
+

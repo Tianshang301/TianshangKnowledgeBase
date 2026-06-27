@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SatelliteGeodesy]
 tags: ['SurveyingAndMappingScience', 'Geodesy', 'SatelliteGeodesy']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 卫星大地测量 (Satellite Geodesy)
@@ -207,5 +207,7 @@ $$PWV = \Pi \cdot ZTD_{\text{wet}}$$
 - [[Geodesy]]
 - [[GNSS]]
 - [[ReferenceFrame]]
-- [[RemoteSensing]]
+- [[04_EngineeringAndTechnology/GeologicalAndMiningEngineering/GeologicalEngineering/RemoteSensing|RemoteSensing]]
 - [[INDEX|SurveyingAndMappingScience 索引]]
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MedicalParasitology]
 tags: ['BasicMedicalSciences', 'MedicalParasitology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 医学寄生虫学
@@ -195,3 +195,4 @@ PCR 技术检测寄生虫特异性 DNA 序列，具有高敏感性和特异性�
 - 免疫学
 - 传染病学
 - 热带医学
+

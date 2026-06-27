@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['TextileAndFoodEngineering', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # TextileAndFoodEngineering
@@ -16,3 +16,4 @@ updated: 2026-05-13
 - [[04_EngineeringAndTechnology/TextileAndFoodEngineering/FoodScience/INDEX]]
 - [[04_EngineeringAndTechnology/TextileAndFoodEngineering/TextileScience/INDEX]]
 - [[../INDEX]]
+

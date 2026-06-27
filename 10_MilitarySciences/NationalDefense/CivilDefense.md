@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CivilDefense]
 tags: ['NationalDefense', 'CivilDefense']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 人民防空
@@ -180,3 +180,4 @@ updated: 2026-05-13
 - 应急管理
 - 国防教育
 - 战略物资储备
+

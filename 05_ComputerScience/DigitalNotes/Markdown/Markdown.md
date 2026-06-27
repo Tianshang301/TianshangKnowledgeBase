@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Markdown]
 tags: ['DigitalNotes', 'Markdown', 'Markdown 语法']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # Markdown 完全指南
@@ -356,9 +356,9 @@ pandoc chapter1.md chapter2.md -o book.html
 
 ## 相关条目
 
-- [[LaTeX]]
-- [[NoteTaking]]
-- [[AcademicWriting]]
+- [[05_ComputerScience/DigitalNotes/LaTeX/LaTeX|LaTeX]]
+- [[00_KnowledgeFramework/NoteTaking/NoteTaking|NoteTaking]]
+- [[13_Others/AcademicWriting/AcademicWriting|AcademicWriting]]
 - Documentation
 
 ## 参考资料
@@ -369,3 +369,5 @@ pandoc chapter1.md chapter2.md -o book.html
 - Mermaid 官方文档: https://mermaid.js.org
 - Pandoc 用户指南: https://pandoc.org/MANUAL.html
 - Obsidian 帮助: https://help.obsidian.md
+
+

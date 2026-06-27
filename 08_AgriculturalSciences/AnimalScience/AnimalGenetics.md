@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AnimalGenetics]
 tags: ['AnimalScience', 'AnimalGenetics']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # AnimalGenetics
@@ -171,3 +171,4 @@ $$ y = Xb + Zg + e $$
 ## 相关条目
 
 [[AnimalBreeding]], [[FeedScience]], [[08_AgriculturalSciences/VeterinaryMedicine/INDEX|VeterinaryMedicine]], [[08_AgriculturalSciences/FoodScience/INDEX|FoodScience]]
+

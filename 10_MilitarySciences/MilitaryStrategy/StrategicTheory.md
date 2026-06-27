@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [StrategicTheory]
 tags: ['MilitaryStrategy', 'StrategicTheory']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 战略理论
@@ -195,3 +195,4 @@ SWOT 分析（优势、劣势、机会、威胁）是战略形势评估的基本
 - 人民战争
 - 战略文化
 - 国家安全战略
+

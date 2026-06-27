@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [EnvironmentalHealth]
 tags: ['PublicHealth', 'EnvironmentalHealth']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 环境卫生学
@@ -193,3 +193,4 @@ updated: 2026-05-13
 - 营养与食品卫生学
 - 流行病学
 - 卫生毒理学
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [ServiceMesh, 服务网格, Istio, Envoy, Sidecar]
 tags: ['05_ComputerScience', 'CloudComputing', 'ServiceMesh', 'Microservices']
 created: 2026-06-27
@@ -588,10 +588,10 @@ spec:
 
 ## 相关条目
 
-- [[Microservices]]
-- [[KubernetesDeep]]
+- [[05_ComputerScience/SoftwareEngineering/Microservices|Microservices]]
+- [[05_ComputerScience/SoftwareEngineering/KubernetesDeep|KubernetesDeep]]
 - [[LoadBalancing]]
-- [[Observability]]
+- [[05_ComputerScience/SoftwareEngineering/Observability|Observability]]
 
 ## 参考资源
 
@@ -599,3 +599,4 @@ spec:
 2. Linkerd. "Official Documentation." linkerd.io
 3. Envoy. "Official Documentation." envoyproxy.io
 4. Gateway API. "Specification." gateway-api.sigs.k8s.io
+

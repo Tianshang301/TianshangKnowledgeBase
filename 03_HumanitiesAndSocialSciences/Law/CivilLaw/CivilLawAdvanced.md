@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CivilLawAdvanced]
 tags: ['Law', 'CivilLaw', 'CivilLawAdvanced']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 民法学进阶
@@ -232,3 +232,4 @@ updated: 2026-05-13
 - [[03_HumanitiesAndSocialSciences/Law/ConstitutionalLaw/INDEX|ConstitutionalLaw]]
 - [[03_HumanitiesAndSocialSciences/Law/CriminalLaw/INDEX|CriminalLaw]]
 - [[03_HumanitiesAndSocialSciences/Law/IntellectualProperty/INDEX|IntellectualProperty]]
+

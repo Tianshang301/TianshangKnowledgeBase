@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [DigitalLibraries]
 tags: ['LibraryAndArchive', 'DigitalLibraries']
 created: 2026-05-19
@@ -82,6 +82,7 @@ updated: 2026-05-19
 - [[LibraryScience]]
 - [[InformationScience]]
 - [[MetadataStandards]]
-- [[DataScience]]
+- [[07_InterdisciplinarySciences/DataScience/DataScience|DataScience]]
 - [[KnowledgeManagement]]
-- [[InformationRetrieval]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/InformationRetrieval/InformationRetrieval|InformationRetrieval]]
+

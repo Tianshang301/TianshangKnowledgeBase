@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [GaitAnalysis, 步态分析, Gait, 步行生物力学]
 tags: ['SportsScience', 'Biomechanics', 'Rehabilitation', 'Kinesiology']
 created: 2026-05-17
@@ -264,10 +264,11 @@ $$ \text{跑步}：\text{存在腾空期——双足均离地} $$
 
 ## 相关条目
 
-- [[Physiotherapy]]
+- [[09_MedicineAndHealth/Physiotherapy|Physiotherapy]]
 - [[BadmintonTechniques]]
 - [[IntervalTraining]]
 - [[BiomechanicalAnalysis]]
-- [[Biomechanics]]
+- [[12_SportsScience/ExercisePhysiology/Biomechanics|Biomechanics]]
 - [[SportsInjury]]
 - [[FunctionalAnatomy]]
+

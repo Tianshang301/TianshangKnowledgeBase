@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Intervals, 音程, 音程基础, MusicIntervals, 音程理论]
 tags: ['MusicTheory', 'Intervals', 'EarTraining', 'Harmony']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 音程详解
@@ -290,3 +290,4 @@ $$ \text{复音程度数} = \text{对应单音程度数} + 7 \times \text{八度
 - [[MusicNotation]]
 - [[ChordProgressions]]
 - [[CircleOfFifths]]
+

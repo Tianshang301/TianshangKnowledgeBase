@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DeepLearning, 深度学习]
 tags: ['05_ComputerScience', 'ArtificialIntelligence', 'MachineLearning', 'DeepLearning']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 深度学习
@@ -240,8 +240,10 @@ $$\mathcal{L} = \mathbb{E}_{t, x_0, \epsilon}\left[ \|\epsilon - \epsilon_\theta
 
 ## 相关条目
 
-- [[MachineLearning]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/MachineLearning|MachineLearning]]
 - [[NeuralNetworks]]
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/NeuralNetworksAndDeepLearning/INDEX]]
 - [[Transformer]]
-- [[ReinforcementLearning]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/ReinforcementLearning/ReinforcementLearning|ReinforcementLearning]]
+
+

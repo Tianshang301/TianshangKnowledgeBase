@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Scrum 与看板实践]
 tags: ['SoftwareEngineering', 'AgileMethodologies', 'Scrum 与看板实践']
 ---
@@ -273,7 +273,7 @@ Team Level: Scrum 团队
 ## 相关条目
 
 - [[AgileMethodologies]]
-- [[SoftwareDevelopmentLifecycle]]
+- [[05_ComputerScience/SoftwareEngineering/SoftwareDevelopmentLifecycle/SoftwareDevelopmentLifecycle|SoftwareDevelopmentLifecycle]]
 - [[CI-CD 与 DevOps 实践]]
 - [[自动化测试框架]]
 - [[架构模式与企业应用]]
@@ -287,3 +287,4 @@ Team Level: Scrum 团队
 5. Scrum.org 官方资源：https://www.scrum.org
 6. 《用户故事与敏捷方法》Mike Cohn 著
 7. Atlassian 敏捷指南：https://www.atlassian.com/agile
+

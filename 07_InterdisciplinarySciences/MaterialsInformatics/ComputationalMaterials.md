@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ComputationalMaterials]
 tags: ['MaterialsInformatics', 'ComputationalMaterials']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 计算材料?
@@ -280,3 +280,4 @@ $$G = \sum_i x_i^0G_i + RT\sum_i x_i\ln x_i + G^{excess}$$
 ## 相关条目
 
 [[04_EngineeringAndTechnology/MechanicsAndMaterials/MaterialsScience/INDEX|MaterialsScience]], [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]], ComputationalChemistry, [[MaterialsGenome]]
+

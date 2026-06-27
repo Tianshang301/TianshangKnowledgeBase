@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DatabaseSystems, DBOverview]
 tags: ['05_ComputerScience', 'DatabasesAndInformationSystems']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 数据库系统概述 Database Systems Overview
@@ -228,7 +228,9 @@ BASE 理论（Basically Available, Soft State, Eventually Consistent）是对 AC
 ## 相关条目
 
 - [[RelationalDatabases]]
-- [[BigDataOverview]]
-- [[NoSQL]]
-- [[ACID]]
-- [[CloudServices]]
+- [[05_ComputerScience/CloudComputingAndDistributedSystems/BigDataOverview|BigDataOverview]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/NoSQL/NoSQL|NoSQL]]
+- [[05_ComputerScience/CloudComputingAndDistributedSystems/ACID|ACID]]
+- [[05_ComputerScience/CloudComputingAndDistributedSystems/CloudServices|CloudServices]]
+
+

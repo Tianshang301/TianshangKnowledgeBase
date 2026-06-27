@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [TimeBlocking]
 tags: ['Productivity', 'TimeManagement', 'ManagementScience', 'Focus']
 created: 2026-05-17
@@ -142,7 +142,8 @@ $$ \text{Time Blocking（宏观调度）} + \text{Pomodoro（微观执行）} = 
 ## 相关条目
 
 - [[Productivity]]
-- [[ProductivitySystems]]
-- [[PomodoroTechnique]]
+- [[00_KnowledgeFramework/Methodology/ProductivitySystems|ProductivitySystems]]
+- [[00_KnowledgeFramework/NoteTaking/PomodoroTechnique|PomodoroTechnique]]
 - [[ProductivityTools]]
 - [[INDEX|当前目录索引]]
+

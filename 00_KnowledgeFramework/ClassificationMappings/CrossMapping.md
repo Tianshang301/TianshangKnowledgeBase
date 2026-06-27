@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CrossMapping]
 tags: ['ClassificationMappings', 'CrossMapping']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 跨体系对照表
@@ -93,7 +93,7 @@ updated: 2026-05-13
 ## 相关条目
 
 - [[00_KnowledgeFramework/KnowledgeGraph/INDEX|KnowledgeGraph]]
-- [[LearningPaths]]
+- [[00_KnowledgeFramework/LearningPaths/LearningPaths|LearningPaths]]
 
 ## 参考资源
 
@@ -102,3 +102,5 @@ updated: 2026-05-13
 - ACM 计算机科学分类系统(CCS 2012)
 - MSC 数学学科分类(2020)
 - OECD 研究与实验发展(R&D)学科分类
+
+

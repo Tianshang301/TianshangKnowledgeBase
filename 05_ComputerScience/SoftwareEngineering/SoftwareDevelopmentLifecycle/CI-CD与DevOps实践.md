@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [CI-CD 与 DevOps 实践]
 tags: ['SoftwareEngineering', 'SoftwareDevelopmentLifecycle', 'CI-CD 与 DevOps 实践']
 ---
@@ -428,11 +428,11 @@ security-scan:
 
 ## 相关条目
 
-- [[Pipeline]]
-- [[Jenkins]]
-- [[GitHubActions]]
-- [[K8s]]
-- [[Dockerfile]]
+- [[05_ComputerScience/SoftwareEngineering/DevOpsAndCICD/Pipeline|Pipeline]]
+- [[05_ComputerScience/SoftwareEngineering/DevOpsAndCICD/Jenkins|Jenkins]]
+- [[05_ComputerScience/SoftwareEngineering/DevOpsAndCICD/GitHubActions|GitHubActions]]
+- [[05_ComputerScience/SoftwareEngineering/DevOpsAndCICD/K8s|K8s]]
+- [[05_ComputerScience/SoftwareEngineering/DevOpsAndCICD/Dockerfile|Dockerfile]]
 
 ## 参考资源
 
@@ -443,3 +443,4 @@ security-scan:
 5. Terraform 入门指南：https://learn.hashicorp.com/terraform
 6. 《Site Reliability Engineering》Google 著
 7. CNCF 云原生全景图：https://landscape.cncf.io
+

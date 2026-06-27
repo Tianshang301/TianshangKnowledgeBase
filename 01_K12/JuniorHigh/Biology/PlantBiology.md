@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [PlantBiology]
 tags: ['JuniorHigh', 'Biology', 'PlantBiology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 植物生物学
@@ -133,3 +133,4 @@ updated: 2026-05-13
 ## 相关条目
 
 [[02_NaturalSciences/Biology/CellBiology/INDEX|CellBiology]], [[02_NaturalSciences/Biology/MolecularBiology/INDEX|MolecularBiology]], [[02_NaturalSciences/Biology/Genetics/INDEX|Genetics]], [[02_NaturalSciences/Chemistry/Biochemistry/INDEX|Biochemistry]]
+

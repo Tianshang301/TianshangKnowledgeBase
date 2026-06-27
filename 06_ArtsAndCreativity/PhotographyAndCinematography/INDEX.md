@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['PhotographyAndCinematography', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # PhotographyAndCinematography
@@ -12,11 +12,13 @@ updated: 2026-05-13
 ## 鏂囦欢
 
 - [[06_ArtsAndCreativity/Design/GraphicDesign/INDEX|GraphicDesign]]
-- [[ComputerVision]]
+- [[05_ComputerScience/ArtificialIntelligence/ComputerVision/ComputerVision|ComputerVision]]
 - [[鎽勫奖甯冨厜涓庡悗鏈熻皟鑹瞉] - 鎽勫奖甯冨厜涓庡悗鏈熻皟鑹?
 - [[鎽勫奖鎶€娉曚笌鍚庢湡]] - 鎽勫奖鎶€娉曚笌鍚庢湡
 - [[摄影与摄像技术]]
 - [[摄影与视觉艺术]]
 - [[摄影布光与后期调色]]
 - [[摄影技法与后期]]
+
+
 

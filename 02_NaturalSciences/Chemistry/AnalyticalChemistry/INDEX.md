@@ -11,8 +11,9 @@ updated: 2026-05-13---
 
 - [[瀹氶噺鍒嗘瀽鍩虹]]
 - [[02_NaturalSciences/Chemistry/EnvironmentalChemistry/INDEX|EnvironmentalChemistry]]
-- [[FoodChemistry]]
+- [[08_AgriculturalSciences/FoodScience/FoodChemistry|FoodChemistry]]
 - [[浠櫒鍒嗘瀽]]
 - [[仪器分析]]
 - [[定量分析基础]]
+
 

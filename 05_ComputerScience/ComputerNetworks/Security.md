@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Security]
 tags: ['ComputerNetworks', 'Security']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 网络安全详解 (Network Security)
@@ -497,7 +497,9 @@ systemctl enable wg-quick@wg0                          # 开机启动
 
 ## 相关条目
 
-- [[NetworkSecurity]]
+- [[05_ComputerScience/Cybersecurity/NetworkSecurity|NetworkSecurity]]
 - [[网络攻防技术]]
 - [[TransportLayer]]
 - [[HTTP]]
+
+

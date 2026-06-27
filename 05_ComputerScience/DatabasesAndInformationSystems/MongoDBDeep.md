@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [MongoDBDeep]
 tags: ['DatabasesAndInformationSystems', 'MongoDBDeep']
 created: 2026-05-16
@@ -490,8 +490,9 @@ sh.shardCollection("mydb.orders", { created_at: 1 })
 
 ## 相关条目
 
-- [[NoSQL]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/NoSQL/NoSQL|NoSQL]]
 - [[RedisDeep]]
 - [[分布式数据库与 NewSQL]]
 - [[RelationalDatabases]]
 - [[SQLDeep]]
+

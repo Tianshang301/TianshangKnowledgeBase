@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Stack]
 tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'Stack']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 栈详解
@@ -357,4 +357,6 @@ def factorial(n):
 - [[Array]]
 - [[LinkedList]]
 - [[Tree]]
-- [[BFSDFS]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BFSDFS|BFSDFS]]
+
+

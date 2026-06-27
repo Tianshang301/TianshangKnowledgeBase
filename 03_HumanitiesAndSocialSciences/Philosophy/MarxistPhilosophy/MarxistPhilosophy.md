@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MarxistPhilosophy]
 tags: ['Philosophy', 'MarxistPhilosophy', 'MarxistPhilosophy']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 马克思主义哲学
@@ -243,3 +243,4 @@ $$
 - 葛兰西《狱中札记》
 - 霍克海默、阿多诺《启蒙辩证法》
 - 毛泽东《实践论》《矛盾论》
+

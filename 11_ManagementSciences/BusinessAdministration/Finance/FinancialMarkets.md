@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FinancialMarkets]
 tags: ['BusinessAdministration', 'Finance', 'FinancialMarkets']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 金融市场
@@ -181,3 +181,4 @@ updated: 2026-05-13
 - 货币银行学
 - 证券投资
 - 金融监管
+

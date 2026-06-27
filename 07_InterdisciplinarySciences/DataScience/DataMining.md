@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DataMining]
 tags: ['DataScience', 'DataMining']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 数据挖掘
@@ -241,4 +241,6 @@ anomalies = iso_forest.fit_predict(data)
 
 ## 相关条目
 
-[[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]], [[Statistics]], [[ArtificialIntelligence]], [[BigDataAnalytics]]
+[[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]], [[07_InterdisciplinarySciences/AppliedStatistics/Statistics|Statistics]], [[07_InterdisciplinarySciences/CognitiveScience/ArtificialIntelligence|ArtificialIntelligence]], [[BigDataAnalytics]]
+
+

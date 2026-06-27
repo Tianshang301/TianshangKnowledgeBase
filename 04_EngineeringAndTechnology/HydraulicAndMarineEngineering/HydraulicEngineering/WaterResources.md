@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [WaterResources, 水资源工程, WaterResourcesEngineering, Hydrology]
 tags: ['HydraulicAndMarineEngineering', 'HydraulicEngineering', 'WaterResources', 'Hydrology', 'Irrigation']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 水资源工程（Water Resources Engineering）
@@ -243,8 +243,10 @@ $$\text{下泄流量} = \begin{cases} Q_{\text{生态基流}} & \text{if } V < V
 
 - [[Hydrology|水文学]]
 - [[HydraulicEngineering|水工结构]]
-- [[IrrigationEngineering|灌溉工程]]
+- [[04_EngineeringAndTechnology/CivilEngineering/IrrigationEngineering|灌溉工程]]
 - [[FloodControl|防洪工程]]
 - [[DamEngineering|大坝工程]]
 - [[WaterQuality|水质学]]
 - [[INDEX|HydraulicEngineering 索引]]
+
+

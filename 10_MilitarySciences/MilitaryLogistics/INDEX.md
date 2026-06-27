@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['MilitaryLogistics', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # MilitaryLogistics
@@ -17,4 +17,5 @@ updated: 2026-05-13
 - [[MedicalEvacuation]] 鈥?鍖荤枟鍚庨€侊細浼ょ梾鍛樿浆杩愪綋绯?
 - [[../INDEX|Military Sciences]]
 - [[MilitaryCommunication]]
+
 

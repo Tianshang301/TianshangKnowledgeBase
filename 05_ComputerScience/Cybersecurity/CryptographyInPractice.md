@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CryptographyInPractice]
 tags: ['Cybersecurity', 'CryptographyInPractice']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 密码学实践 (Cryptography in Practice)
@@ -316,3 +316,4 @@ NIST 已选定的后量子算法 (2024):
 - IETF TLS 1.3 RFC 8446
 - NIST Post-Quantum Cryptography Standardization
 - Latacora Cryptographic Right Answers: https://latacora.micro.blog/2018/04/03/cryptographic-right-answers.html
+

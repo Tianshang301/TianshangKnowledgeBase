@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 课堂笔记
   - 听课笔记
@@ -6,7 +6,7 @@ aliases:
   - 笔记方法
 tags:
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
   - note-taking
   - learning
   - study-skills
@@ -287,3 +287,4 @@ source: 《XX 书籍》
 ## 相关条目
 
 [[Zettelkasten]], [[ProgressiveSummarization]], [[CornellNotes]], [[DigitalNoteTools]], [[DigitalNoteTaking]]
+

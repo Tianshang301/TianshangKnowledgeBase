@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [HTTP]
 tags: ['ComputerNetworks', 'HTTP']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # HTTP 协议深度指南 (HTTP Protocol Deep Guide)
@@ -444,4 +444,6 @@ wscat -c wss://echo.websocket.org
 - [[TransportLayer]]
 - [[NetworkLayer]]
 - [[DNS]]
-- [[NetworkModels]]
+- [[05_ComputerScience/ComputerNetworks/NetworkModels/NetworkModels|NetworkModels]]
+
+

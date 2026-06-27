@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CareerPath, 职业发展路径]
 tags: ['00_KnowledgeFramework', 'LearningPaths', 'Career']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 职业发展路径 (Career Path)
@@ -204,3 +204,4 @@ Linux（系统管理/脚本）
 - [[SelfStudyPath]]
 - [[UniversityPath]]
 - [[../INDEX|00_KnowledgeFramework 索引]]
+

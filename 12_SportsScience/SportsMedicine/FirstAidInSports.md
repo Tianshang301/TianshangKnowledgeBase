@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FirstAidInSports, 运动急救, 体育急救]
 tags: [SportsMedicine, FirstAid, EmergencyCare, Safety]
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 运动急救
@@ -223,3 +223,4 @@ flowchart TD
 ## 相关条目
 
 [[SportsInjuries]], [[FunctionalAssessment]], [[ReturnToSport]], [[SportsMedicine]], [[ConcussionManagement]], [[SportsSafety]]
+

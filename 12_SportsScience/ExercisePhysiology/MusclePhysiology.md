@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MusclePhysiology]
 tags: ['ExercisePhysiology', 'MusclePhysiology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 肌肉生理学
@@ -312,3 +312,4 @@ IIx 型向 IIa 型转化。
 ## 相关条目
 
 运动生物力学、能量系统、力量训练、运动性疲劳、运动康复、运动营养学、神经肌肉适应、运动单位募集
+

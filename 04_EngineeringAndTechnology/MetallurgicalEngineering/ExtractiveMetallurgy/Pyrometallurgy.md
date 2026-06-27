@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Pyrometallurgy, 火法冶金, 高温冶金, FireMetallurgy, HighTemperatureMetallurgy, 干法冶金, 火法]
 tags: ['04_EngineeringAndTechnology', 'MetallurgicalEngineering', 'ExtractiveMetallurgy', 'Pyrometallurgy', 'HighTemperatureProcessing', 'Smelting', 'Metallurgy']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 火法冶金（Pyrometallurgy）
@@ -135,3 +135,4 @@ flowchart LR
 
 - [[Hydrometallurgy]]
 - [[INDEX|ExtractiveMetallurgy 索引]]
+

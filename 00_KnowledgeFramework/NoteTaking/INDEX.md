@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['NoteTaking', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # NoteTaking
@@ -21,4 +21,5 @@ updated: 2026-05-13
 - [[DigitalNoteTaking]]
 - [[NoteTakingApps]]
 - [[PomodoroTechnique]]
+
 

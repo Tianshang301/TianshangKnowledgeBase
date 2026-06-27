@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [交通工程, 交通工学, Traffic Engineering, Transportation Engineering]
 tags: [交通工程, 交通运输, 交通流理论, 信号控制, 智能交通, 交通安全, 交通规划]
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 交通工程 (Traffic Engineering)
@@ -249,3 +249,4 @@ $$
 3. Mannering, F. L., et al. (2020). *Principles of Highway Engineering and Traffic Analysis* (7th ed.). Wiley.
 4. 王炜 等. (2011). 《交通工程学》. 东南大学出版社.
 5. 杨晓光 等. (2015). 《交通管理与控制》. 人民交通出版社.
+

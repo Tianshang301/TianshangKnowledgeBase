@@ -1,10 +1,10 @@
----
+﻿---
 aliases:
   - 区块链应用
   - Blockchain Use Cases
 tags:
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
   - blockchain
   - application
   - supply-chain
@@ -241,3 +241,4 @@ graph TD
 - [Hyperledger Use Cases](https://www.hyperledger.org/use)
 - [MIT Digital Currency Initiative](https://dci.mit.edu/)
 - [W3C DID Specification](https://www.w3.org/TR/did-core/)
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 多元微积分
   - Multivariable Calculus
@@ -7,7 +7,7 @@ aliases:
   - 多重积分
 tags:
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
   - mathematics
   - calculus
   - multivariable
@@ -299,3 +299,4 @@ graph TD
 | 计算机图形学 (CG) | 法向量、光照 | 梯度、曲面积分 |
 | 最优化 (Optimization) | 多维极值 | 梯度、海森矩阵 |
 | 弹性力学 (Elasticity) | 应力-应变分析 | 张量微积分 |
+

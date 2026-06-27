@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['HardwareAndEmbeddedSystems', 'IoT', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # IoT
@@ -16,4 +16,5 @@ updated: 2026-05-13
 - [[IoTOverview]]
 - [[IoTSecurity]]
 - [[IoT通信协议与云平台]]
+
 

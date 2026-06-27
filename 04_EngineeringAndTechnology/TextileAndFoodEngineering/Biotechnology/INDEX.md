@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['TextileAndFoodEngineering', 'Biotechnology', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 鐢熺墿鎶€鏈?
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[Biotechnology]]
 - [[鍙戦叺宸ョ▼涓庣敓鐗╁垎绂籡]
 - [[发酵工程与生物分离]]
+
 

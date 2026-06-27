@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MoralEducation]
 tags: ['PrimarySchool', 'IntegratedStudies', 'MoralEducation']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 道德与法治基础
@@ -149,3 +149,4 @@ updated: 2026-05-13
 ## 相关条目
 
 [[ScienceExploration]], [[MoralEducation]], InterdisciplinaryLearning, SocialStudies
+

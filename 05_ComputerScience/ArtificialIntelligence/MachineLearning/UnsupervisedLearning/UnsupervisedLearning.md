@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [UnsupervisedLearning]
 tags: ['ArtificialIntelligence', 'MachineLearning', 'UnsupervisedLearning', 'UnsupervisedLearning']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 无监督学习
@@ -276,10 +276,10 @@ $$
 
 ## 相关条目
 
-- [[SupervisedLearning]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/SupervisedLearning/SupervisedLearning|SupervisedLearning]]
 - DimensionalityReduction
 - Clustering
-- [[ModelEvaluation]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/ModelEvaluation/ModelEvaluation|ModelEvaluation]]
 
 ## 参考资源
 
@@ -289,3 +289,5 @@ $$
 - van der Maaten, L. & Hinton, G. (2008). "Visualizing Data using t-SNE"
 - McInnes, L. et al. (2018). "UMAP: Uniform Manifold Approximation and Projection"
 - Chen, T. et al. (2020). "A Simple Framework for Contrastive Learning of Visual Representations"
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ExperimentalDesign, 实验设计]
 tags: [AppliedStatistics, ExperimentalDesign, StatisticalMethodology]
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 实验设计
@@ -238,4 +238,6 @@ $$Y_{ijk} = \mu + \alpha_i + \beta_{j(i)} + \gamma_k + (\alpha\gamma)_{ik} + \va
 
 ## 相关条目
 
-[[Probability]], [[DataScience]], [[MachineLearning]], [[StatisticalModeling]], [[BayesianStatistics]]
+[[02_NaturalSciences/Mathematics/ProbabilityStatistics/Probability|Probability]], [[07_InterdisciplinarySciences/DataScience/DataScience|DataScience]], [[05_ComputerScience/ArtificialIntelligence/MachineLearning/MachineLearning|MachineLearning]], [[StatisticalModeling]], [[BayesianStatistics]]
+
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [DrugDesign, 药物设计, 合理药物设计, RationalDrugDesign]
 tags: ['09_MedicineAndHealth', 'Pharmacy', 'MedicinalChemistry', 'DrugDiscovery']
 created: 2026-05-17
@@ -338,8 +338,9 @@ $$
 
 - [[LeadDiscovery|先导化合物发现]]
 - [[CADD|计算机辅助药物设计]]
-- [[QSAR|定量构效关系]]
-- [[MolecularDocking|分子对接]]
+- [[02_NaturalSciences/Chemistry/Biochemistry/QSAR|定量构效关系]]
+- [[02_NaturalSciences/Chemistry/Biochemistry/MolecularDocking|分子对接]]
 - [[ADMETox|ADME 与毒性预测]]
 - [[Pharmacokinetics|药物代谢动力学]]
 - [[MedicinalChemistry|药物化学]]
+

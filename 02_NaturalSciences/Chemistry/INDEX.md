@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Chemistry', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Chemistry
@@ -15,21 +15,23 @@ updated: 2026-05-13
 - [[01_K12/JuniorHigh/Physics/INDEX|Physics]]
 - [[04_EngineeringAndTechnology/MechanicsAndMaterials/MaterialsScience/INDEX|MaterialsScience]]
 - [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/ChemicalEngineering/INDEX|ChemicalEngineering]]
-- [[AppliedChemistry]]
-- [[ChemicalBiology]]
-- [[ColloidChemistry]]
-- [[Crystallography]]
-- [[FoodChemistry]]
-- [[Geochemistry]]
-- [[MedicinalChemistry]]
+- [[02_NaturalSciences/Chemistry/PhysicalChemistry/AppliedChemistry|AppliedChemistry]]
+- [[02_NaturalSciences/Chemistry/Biochemistry/ChemicalBiology|ChemicalBiology]]
+- [[02_NaturalSciences/Chemistry/PhysicalChemistry/ColloidChemistry|ColloidChemistry]]
+- [[04_EngineeringAndTechnology/GeologicalAndMiningEngineering/GeologicalEngineering/Crystallography|Crystallography]]
+- [[08_AgriculturalSciences/FoodScience/FoodChemistry|FoodChemistry]]
+- [[02_NaturalSciences/EarthSciences/Geochemistry/Geochemistry|Geochemistry]]
+- [[09_MedicineAndHealth/Pharmacy/MedicinalChemistry|MedicinalChemistry]]
 - [[02_NaturalSciences/Chemistry/AnalyticalChemistry/INDEX]]
 - [[02_NaturalSciences/Chemistry/Biochemistry/INDEX]]
 - [[02_NaturalSciences/Chemistry/InorganicChemistry/INDEX]]
 - [[02_NaturalSciences/Chemistry/OrganicChemistry/INDEX]]
 - [[02_NaturalSciences/Chemistry/PhysicalChemistry/INDEX]]
 - [[02_NaturalSciences/Chemistry/PolymerChemistry/INDEX]]
-- [[QuantumChemistry]]
-- [[TheoreticalChemistry]]
-- [[NuclearChemistry]]
+- [[02_NaturalSciences/Chemistry/PhysicalChemistry/QuantumChemistry|QuantumChemistry]]
+- [[02_NaturalSciences/Chemistry/PhysicalChemistry/TheoreticalChemistry|TheoreticalChemistry]]
+- [[02_NaturalSciences/Chemistry/PhysicalChemistry/NuclearChemistry|NuclearChemistry]]
 - [[EnvironmentalChemistry/INDEX|EnvironmentalChemistry]]
+
+
 

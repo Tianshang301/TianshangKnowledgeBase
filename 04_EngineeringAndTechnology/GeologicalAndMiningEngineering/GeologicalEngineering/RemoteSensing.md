@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [RemoteSensing, 遥感地质, GeologicalRemoteSensing, RSG]
 tags: ['GeologicalAndMiningEngineering', 'GeologicalEngineering', 'RemoteSensing', 'Geology', 'MineralExploration']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 遥感地质 (Remote Sensing in Geology)
@@ -248,5 +248,7 @@ graph LR
 - [[GeologicalMapping|地质填图 (Geological Mapping)]]
 - [[MineralExploration|矿产勘查 (Mineral Exploration)]]
 - [[HyperspectralRemoteSensing|高光谱遥感 (Hyperspectral RS)]]
-- [[ImageProcessing|图像处理 (Image Processing)]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/SignalProcessing/ImageProcessing|图像处理 (Image Processing)]]
 - [[INDEX|GeologicalEngineering 索引]]
+
+

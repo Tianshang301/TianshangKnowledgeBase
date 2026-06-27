@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AppliedCalculus]
 tags: ['EngineeringFundamentals', 'EngineeringMathematics', 'AppliedCalculus']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 应用微积分
@@ -96,3 +96,4 @@ $$\int_a^b f(x)dx = F(b)-F(a)$$
 - 电路分析
 - 流体力学
 - 热传导分析
+

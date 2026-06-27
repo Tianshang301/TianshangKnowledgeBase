@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['AerospaceAndMilitaryEngineering', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # AerospaceAndMilitaryEngineering
@@ -16,3 +16,4 @@ updated: 2026-05-13
 - [[04_EngineeringAndTechnology/AerospaceAndMilitaryEngineering/Ballistics/INDEX]]
 - [[04_EngineeringAndTechnology/AerospaceAndMilitaryEngineering/OrdnanceScience/INDEX]]
 - [[../INDEX]]
+

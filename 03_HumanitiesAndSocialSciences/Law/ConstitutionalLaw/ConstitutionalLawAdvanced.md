@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ConstitutionalLawAdvanced]
 tags: ['Law', 'ConstitutionalLaw', 'ConstitutionalLawAdvanced']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 宪法学进阶
@@ -237,5 +237,7 @@ updated: 2026-05-13
 - [[03_HumanitiesAndSocialSciences/Law/ConstitutionalLaw/INDEX|ConstitutionalLaw]]
 - [[宪法学]]
 - [[03_HumanitiesAndSocialSciences/PoliticalScience/INDEX|PoliticalScience]]
-- [[Jurisprudence]]
+- [[03_HumanitiesAndSocialSciences/Law/Jurisprudence/Jurisprudence|Jurisprudence]]
 - [[03_HumanitiesAndSocialSciences/Law/CivilLaw/INDEX|CivilLaw]]
+
+

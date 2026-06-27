@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['ComputerOrganizationAndArchitecture', 'InstructionSet', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 鎸囦护闆嗕綋绯荤粨鏋?
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[InstructionSet]]
 - [[RISC-V 鎸囦护闆嗘灦鏋刔]
 - [[RISC-V指令集架构]]
+
 

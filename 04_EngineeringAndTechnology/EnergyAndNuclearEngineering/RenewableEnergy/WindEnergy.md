@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [WindEnergy, 风能, Wind Power, Wind Turbine, Wind Farm]
 tags: ['EnergyAndNuclearEngineering', 'RenewableEnergy', 'WindEnergy', 'WindPower']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 风能
@@ -238,3 +238,4 @@ graph TD
 - IEC 61400 系列标准. *Wind Turbines*.
 - Global Wind Energy Council. (2024). *Global Wind Report*.
 - WindEurope. (2023). *Wind Energy in Europe: Outlook to 2025*.
+

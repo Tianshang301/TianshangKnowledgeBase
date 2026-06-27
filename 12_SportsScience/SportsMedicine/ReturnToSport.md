@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ReturnToSport, RTS, 重返运动, 回归赛场]
 tags: [SportsMedicine, Rehabilitation, ReturnToSport, SportsInjury]
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 重返运动
@@ -238,4 +238,6 @@ RTS 的最终目标不仅是回归竞技，更是维护运动员长期健康（L
 
 ## 相关条目
 
-[[ACLReconstruction]], [[FunctionalAssessment]], [[Rehabilitation]], [[SportsInjuries]], [[PainScience]], [[SportsPsychology]]
+[[ACLReconstruction]], [[FunctionalAssessment]], [[Rehabilitation]], [[SportsInjuries]], [[PainScience]], [[12_SportsScience/SportsTraining/SportsPsychology|SportsPsychology]]
+
+

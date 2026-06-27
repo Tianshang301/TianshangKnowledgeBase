@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MappingsAndIndices, 映射与索引, ClassificationMappings, IndexingTechniques]
 tags: ['ClassificationMappings', 'MappingsAndIndices', 'Indexing', 'InformationRetrieval', 'KnowledgeOrganization']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 映射与索引技术指南（Mappings and Indices）
@@ -284,4 +284,6 @@ $$ \text{标签约束可达性查询: 从 } v_s \text{ 沿标签 } l_1, l_2, \ld
 
 ## 相关条目
 
-[[00_KnowledgeFramework/KnowledgeGraph/INDEX|KnowledgeGraph]], [[CrossDisciplinaryLinks]], InformationArchitecture, Taxonomy
+[[00_KnowledgeFramework/KnowledgeGraph/INDEX|KnowledgeGraph]], [[00_KnowledgeFramework/KnowledgeGraph/CrossDisciplinaryLinks|CrossDisciplinaryLinks]], InformationArchitecture, Taxonomy
+
+

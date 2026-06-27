@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Regression]
 tags: ['Mathematics', 'ProbabilityStatistics', 'Regression']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 回归分析
@@ -185,4 +185,6 @@ scores = cross_val_score(lr, X[:, 1:], y, cv=3)
 
 - [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]]
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]]
-- [[Econometrics]]
+- [[03_HumanitiesAndSocialSciences/Economics/Econometrics/Econometrics|Econometrics]]
+
+

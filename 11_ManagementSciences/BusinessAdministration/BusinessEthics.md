@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [BusinessEthics]
 tags: ['BusinessAdministration', 'BusinessEthics']
 created: 2026-05-19
@@ -101,7 +101,8 @@ updated: 2026-05-19
 
 - [[ManagementPrinciples]]
 - [[StrategicManagement]]
-- [[HRMPrinciples]]
-- [[MarketingPrinciples]]
-- [[CorporateFinance]]
+- [[11_ManagementSciences/BusinessAdministration/HumanResources/HRMPrinciples|HRMPrinciples]]
+- [[11_ManagementSciences/BusinessAdministration/Marketing/MarketingPrinciples|MarketingPrinciples]]
+- [[11_ManagementSciences/BusinessAdministration/Finance/CorporateFinance|CorporateFinance]]
 - [[EconomicLaw]]
+

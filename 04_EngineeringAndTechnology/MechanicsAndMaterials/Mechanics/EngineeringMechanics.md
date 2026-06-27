@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [EngineeringMechanics]
 tags: ['Mechanics', 'EngineeringMechanics', 'SolidMechanics', 'Dynamics']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 工程力学 (Engineering Mechanics)
@@ -208,8 +208,10 @@ $$
 
 - [[SolidMechanics]] — 固体力学，研究固体材料在载荷下的变形与破坏
 - [[FluidMechanics]] — 流体力学，研究流体的运动规律和力学行为
-- [[StructuralAnalysis]] — 结构分析，工程结构的静力与动力响应分析
-- [[MachineDesign]] — 机械设计，机械系统的设计理论与方法
-- [[Dynamics]] — 动力学通论
+- [[04_EngineeringAndTechnology/CivilEngineering/StructuralEngineering/StructuralAnalysis|StructuralAnalysis]] — 结构分析，工程结构的静力与动力响应分析
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/MechanicalEngineering/MachineDesign|MachineDesign]] — 机械设计，机械系统的设计理论与方法
+- [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringMechanics/Dynamics|Dynamics]] — 动力学通论
 - [[VibrationAnalysis]] — 振动分析
 - [[FiniteElementMethod]] — 有限元方法
+
+

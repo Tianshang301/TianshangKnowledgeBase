@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['JuniorHigh', 'Physics', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Physics
@@ -16,7 +16,9 @@ updated: 2026-05-13
 | [[OpticsBasics]] | 鍏夌殑鐩寸嚎浼犳挱銆佸弽灏勩€佹姌灏勩€侀€忛暅 |
 | [[缁冧範棰樹笌瑙ｆ瀽]] | 缁煎悎缁冧範棰樹笌璇︾粏瑙ｆ瀽 |
 - [[01_K12/JuniorHigh/Physics/INDEX|Physics]]
-- [[EngineeringFundamentals]]
+- [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringFundamentals|EngineeringFundamentals]]
 - [[01_K12/JuniorHigh/Mathematics/INDEX|Mathematics]]
 - [[练习题与解析]]
+
+
 

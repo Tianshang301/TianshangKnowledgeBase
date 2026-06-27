@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MST]
 tags: ['DataStructuresAndAlgorithms', 'Algorithms', 'MST']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 最小生成树
@@ -291,8 +291,10 @@ def kruskal_max(n, edges):
 
 ## 相关条目
 
-- [[Graph]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/DataStructures/Graph|Graph]]
 - [[Dijkstra]]
 - [[BFSDFS]]
-- [[UnionFind]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/DataStructures/UnionFind|UnionFind]]
 - [[Greedy]]
+
+

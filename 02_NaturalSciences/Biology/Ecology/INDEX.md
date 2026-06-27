@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Biology', 'Ecology', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Ecology
@@ -17,4 +17,5 @@ updated: 2026-05-13
 - [[全球变化与生物多样性]]
 - [[生态系统结构与功能]]
 - [[种群与群落生态学]]
+
 

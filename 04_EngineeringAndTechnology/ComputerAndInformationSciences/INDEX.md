@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['ComputerAndInformationSciences', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # ComputerAndInformationSciences
@@ -15,3 +15,4 @@ updated: 2026-05-13
 - [[ComputerNetworks]]
 - [[DataStructuresAndAlgorithms]]
 - [[OperatingSystems]]
+

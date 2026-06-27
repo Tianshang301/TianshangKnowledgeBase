@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AnimalPhysiology]
 tags: ['AnimalScience', 'AnimalPhysiology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 动物生理学
@@ -364,3 +364,4 @@ $$BMR = k \times BW^{0.75}$$
 ## 相关条目
 
 [[AnimalNutrition]], [[AnimalHealth]], [[08_AgriculturalSciences/VeterinaryMedicine/INDEX|VeterinaryMedicine]], [[AnimalBreeding]], [[FeedScience]]
+

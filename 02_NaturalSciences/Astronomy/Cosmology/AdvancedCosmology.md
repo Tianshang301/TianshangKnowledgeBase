@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AdvancedCosmology]
 tags: ['Astronomy', 'Cosmology', 'AdvancedCosmology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 宇宙学进阶
@@ -329,3 +329,4 @@ BAO 作为宇宙学标准尺，与超新星、CMB 形成互补约束。
 - Peebles & Ratra (2003) The cosmological constant and dark energy
 - Guth (1981) Inflationary universe: A possible solution
 - Ade et al. (BICEP/Keck) (2021) Improved Constraints on Primordial Gravitational Waves
+

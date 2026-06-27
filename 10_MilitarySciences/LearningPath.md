@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LearningPath, MilitarySciencePath, 军事科学, 军事学学习路线, DefenseStudies]
 tags: ['LearningPath', 'MilitarySciences', 'Defense', 'Strategy', 'NationalSecurity']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 学习路径：军事科学 (Military Science Learning Path)
@@ -144,3 +144,4 @@ graph LR
 - [[INDEX\|总索引]]
 - [[11_ManagementSciences/LearningPath\|管理科学学习路径]]
 - [[02_NaturalSciences/Physics/Thermodynamics/StatisticalMechanics\|统计力学]]
+

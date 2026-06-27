@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [IO]
 tags: ['OperatingSystems', 'IO']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # I/O 管理详解 (Input/Output Management)
@@ -460,7 +460,9 @@ brw-rw---- 1 root disk 8, 0 /dev/sda        # b=块设备, 主号8, 次号0
 ## 相关条目
 
 - [[FileSystem]]
-- [[FileSystems]]
+- [[05_ComputerScience/OperatingSystems/FileSystems/FileSystems|FileSystems]]
 - [[Memory]]
 - [[LinuxKernel]]
 - [[Scheduling]]
+
+

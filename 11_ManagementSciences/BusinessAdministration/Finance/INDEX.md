@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['BusinessAdministration', 'Finance', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Finance
@@ -15,3 +15,4 @@ updated: 2026-05-13
 - [[FinancialMarkets]] — 金融市场：市场结构与运作
 - [[InvestmentAnalysis]] — 投资分析：资产定价与组合管理
 - [[RiskManagement]] — 风险管理：金融风险识别与控制
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DigitalSignalProcessing, DSP, 数字信号处理, 信号处理]
 tags: ['04_EngineeringAndTechnology', 'ElectronicsAndCommunications', 'SignalProcessing', 'DSP']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 数字信号处理概论
@@ -284,3 +284,4 @@ $$ P_{\text{per}}(f) = \frac{1}{N} \left| \sum_{n=0}^{N-1} x[n] e^{-j2\pi fn} \r
 - [[04_EngineeringAndTechnology/EmbeddedSystems|嵌入式系统]]
 - [[05_ComputerScience/MachineLearning/DLForSignal|深度学习与信号处理]]
 - [[04_EngineeringAndTechnology/ElectronicsAndCommunications/ImageProcessing|图像处理]]
+

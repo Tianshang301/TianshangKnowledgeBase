@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [PublicAdministration]
 tags: ['PoliticalScience', 'PublicAdministration', 'PublicAdministration']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 公共行政学
@@ -236,8 +236,8 @@ Moore 提出"公共价值"（public value）框架——公共管理者不仅是
 
 ## 相关条目
 
-- [[PublicPolicy]]
-- [[PoliticalTheory]]
+- [[11_ManagementSciences/PublicAdministration/PublicPolicy|PublicPolicy]]
+- [[03_HumanitiesAndSocialSciences/PoliticalScience/PoliticalTheory/PoliticalTheory|PoliticalTheory]]
 - ManagementSciences
 - [[03_HumanitiesAndSocialSciences/Sociology/INDEX|Sociology]]
 
@@ -250,3 +250,5 @@ Moore 提出"公共价值"（public value）框架——公共管理者不仅是
 - Denhardt《新公共服务》
 - Rhodes《理解治理》
 - Frederickson《公共行政的精神》
+
+

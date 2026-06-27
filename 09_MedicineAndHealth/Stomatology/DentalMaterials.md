@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DentalMaterials]
 tags: ['Stomatology', 'DentalMaterials']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 口腔材料学
@@ -210,3 +210,4 @@ updated: 2026-05-13
 - 口腔正畸学
 - 口腔种植学
 - 口腔内科学
+

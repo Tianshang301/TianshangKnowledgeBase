@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['MilitaryTechnology', 'INDEX']
 created: 2026-05-16
@@ -25,6 +25,7 @@ updated: 2026-06-27
 - [[MilitaryAI]] — 军事人工智能：目标识别与决策支持
 
 ## 相关条目
-- [[Cybersecurity]]
+- [[05_ComputerScience/Cybersecurity/Cybersecurity|Cybersecurity]]
 - [[04_EngineeringAndTechnology/AerospaceAndMilitaryEngineering/AerospaceEngineering/INDEX|AerospaceEngineering]]
 - [[10_MilitarySciences/NationalDefense/INDEX|NationalDefense]]
+

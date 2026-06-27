@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [PerformanceAnalysis, 运动表现分析, 比赛分析, 视频分析, MatchAnalysis]
 tags: ['12_SportsScience', 'SportsTraining', 'PerformanceAnalysis', 'SportsTechnology']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 运动表现分析
@@ -243,6 +243,8 @@ graph LR
 
 - [[INDEX|SportsTraining 索引]]
 - [[OlympicLifting|奥林匹克举重]]
-- [[Biomechanics|运动生物力学]]
+- [[12_SportsScience/ExercisePhysiology/Biomechanics|运动生物力学]]
 - [[SportsTechnology|体育科技]]
 - [[../../INDEX|TianshangKnowledgeBase 索引]]
+
+

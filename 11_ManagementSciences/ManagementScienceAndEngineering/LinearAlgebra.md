@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LinearAlgebra, 线性代数, 向量空间, 矩阵论]
 tags: ['11_ManagementSciences', 'ManagementScienceAndEngineering', 'Mathematics']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 线性代数 (Linear Algebra)
@@ -124,6 +124,8 @@ $$
 - [[ProbabilityTheory|概率论]]
 - [[GameTheory|博弈论]]
 - [[DecisionTheory|决策理论]]
-- [[DataMining|数据挖掘]]
+- [[07_InterdisciplinarySciences/DataScience/DataMining|数据挖掘]]
 - [[INDEX|ManagementScienceAndEngineering 索引]]
 - [[../../INDEX|TianshangKnowledgeBase 索引]]
+
+

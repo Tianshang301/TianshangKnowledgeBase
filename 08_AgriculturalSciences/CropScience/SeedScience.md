@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SeedScience]
 tags: ['CropScience', 'SeedScience']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 种子科学与技术
@@ -276,3 +276,4 @@ $$
 ## 相关条目
 
 [[CropBreeding]], [[CropPhysiology]], [[CropGenetics]], [[CropProtection]], [[08_AgriculturalSciences/PlantProtection/INDEX|PlantProtection]], [[08_AgriculturalSciences/FoodScience/INDEX|FoodScience]], [[08_AgriculturalSciences/AgriculturalResources/INDEX|AgriculturalResources]]
+

@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['ElectronicsAndCommunications', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # ElectronicsAndCommunications
@@ -11,16 +11,18 @@ updated: 2026-05-13
 
 ## 鏂囦欢
 
-- [[AnalogElectronics]]
-- [[AntennaTheory]]
-- [[DigitalSignalProcessing]]
-- [[FiberOptics]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Electronics/AnalogElectronics|AnalogElectronics]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/AntennaAndMicrowave/AntennaTheory|AntennaTheory]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/SignalProcessing/DigitalSignalProcessing|DigitalSignalProcessing]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/OpticalEngineering/FiberOptics|FiberOptics]]
 - [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Microelectronics/INDEX]]
-- [[MicrowaveEngineering]]
-- [[Optoelectronics]]
-- [[Photonics]]
-- [[WirelessCommunications]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/AntennaAndMicrowave/MicrowaveEngineering|MicrowaveEngineering]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/OpticalEngineering/Optoelectronics|Optoelectronics]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/OpticalEngineering/Photonics|Photonics]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Communications/WirelessCommunications|WirelessCommunications]]
 - [[../INDEX]]
 - [[DSPOverview]]
 - [[AntennaAndMicrowave/INDEX|AntennaAndMicrowave]]
+
+
 

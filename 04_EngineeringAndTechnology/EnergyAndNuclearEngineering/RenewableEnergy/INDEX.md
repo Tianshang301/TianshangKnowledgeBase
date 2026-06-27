@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['EnergyAndNuclearEngineering', 'RenewableEnergy', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # RenewableEnergy
@@ -14,3 +14,4 @@ updated: 2026-05-13
 - [[HydrogenEnergy]]
 - [[SolarEnergy]]
 - [[WindEnergy]]
+

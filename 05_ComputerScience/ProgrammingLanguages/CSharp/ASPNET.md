@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ASPNET]
 tags: ['ProgrammingLanguages', 'CSharp', 'ASPNET']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # ASP.NET Core 指南
@@ -429,3 +429,4 @@ public async Task GetProduct_ReturnsProduct_WhenExists() {
     Assert.Equal("Test", returnValue.Name);
 }
 ```
+

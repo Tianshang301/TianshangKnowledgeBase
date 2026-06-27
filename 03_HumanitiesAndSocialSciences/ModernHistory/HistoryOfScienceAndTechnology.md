@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 科技史
   - History of Science and Technology
@@ -195,5 +195,6 @@ AI革命正在深刻改变社会：
 
 - [[ColdWarHistory|冷战史]]
 - [[HistoryOfGlobalization|全球化史]]
-- [[PhilosophyOfScience|科学哲学]]
+- [[03_HumanitiesAndSocialSciences/Philosophy/PhilosophyOfScience/PhilosophyOfScience|科学哲学]]
 - [[TechnologyAndSociety|技术与社会]]
+

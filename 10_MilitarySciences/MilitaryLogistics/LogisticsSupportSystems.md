@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LogisticsSupportSystems]
 tags: ['MilitaryLogistics', 'LogisticsSupportSystems']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 后勤保障体系
@@ -195,3 +195,4 @@ updated: 2026-05-13
 - 国防动员
 - 军民融合
 - 装备保障
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [WebSecurity]
 tags: ['Cybersecurity', 'WebSecurity']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Web 安全完全指南
@@ -289,3 +289,4 @@ Secrets 加密 → etcd 加密静态数据
 - PortSwigger Web Security Academy: https://portswigger.net/web-security
 - CWE/SANS Top 25: https://cwe.mitre.org/top25
 - 《Web 安全深度剖析》— 张兆森
+

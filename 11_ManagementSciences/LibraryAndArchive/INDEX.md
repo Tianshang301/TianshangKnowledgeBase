@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['LibraryAndArchive', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # LibraryAndArchive
@@ -20,3 +20,4 @@ updated: 2026-05-13
 - [[InformationScience]]
 - [[KnowledgeManagement]]
 - [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]]
+

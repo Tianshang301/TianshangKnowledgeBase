@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AncientWarfare]
 tags: ['MilitaryHistory', 'AncientWarfare']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 古代战争
@@ -219,3 +219,4 @@ updated: 2026-05-13
 - 攻城战
 - 军事战略
 - 武器发展史
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [ArmsAndServices]
 tags: ['MilitaryStrategy', 'ArmsAndServices']
 created: 2026-05-19
@@ -121,7 +121,8 @@ updated: 2026-05-19
 
 - [[JointOperations]]
 - [[StrategicTheory]]
-- [[WeaponsSystems]]
-- [[MissileTechnology]]
-- [[StealthTechnology]]
-- [[MilitaryElectronics]]
+- [[10_MilitarySciences/MilitaryTechnology/WeaponsSystems|WeaponsSystems]]
+- [[10_MilitarySciences/MilitaryTechnology/MissileTechnology|MissileTechnology]]
+- [[10_MilitarySciences/MilitaryTechnology/StealthTechnology|StealthTechnology]]
+- [[10_MilitarySciences/MilitaryTechnology/MilitaryElectronics|MilitaryElectronics]]
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [RaspberryPi]
 tags: ['HardwareAndEmbeddedSystems', 'RaspberryPi', 'RaspberryPi']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Raspberry Pi
@@ -295,9 +295,9 @@ $$\Delta T = P \times R_{\theta}$$
 ## 相关条目
 
 - [[RaspberryPi 项目实践]]
-- [[EmbeddedLinux]]
-- [[IoT]]
-- [[Arduino]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/EmbeddedLinux/EmbeddedLinux|EmbeddedLinux]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/IoT/IoT|IoT]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Arduino/Arduino|Arduino]]
 - [[05_ComputerScience/OperatingSystems/Linux/INDEX|Linux]]
 
 ## 参考资源
@@ -307,3 +307,5 @@ $$\Delta T = P \times R_{\theta}$$
 - [picamera2 文档](https://github.com/raspberrypi/picamera2)
 - [Pico C++ SDK 文档](https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf)
 - 《Raspberry Pi Cookbook》（Simon Monk）
+
+

@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['PersonalProductivity', 'TimeManagement', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # TimeManagement
@@ -11,10 +11,12 @@ updated: 2026-05-13
 
 ## 鏂囦欢
 
-- [[PomodoroTechnique]] 鈥?鐣寗宸ヤ綔娉?
-- [[TimeBlocking]] 鈥?鏃堕棿鍧楃鐞?
+- [[00_KnowledgeFramework/NoteTaking/PomodoroTechnique|PomodoroTechnique]] 鈥?鐣寗宸ヤ綔娉?
+- [[11_ManagementSciences/TimeBlocking|TimeBlocking]] 鈥?鏃堕棿鍧楃鐞?
 - [[鏃堕棿绠＄悊宸ュ叿涓庢柟娉昡] 鈥?鏃堕棿绠＄悊宸ュ叿浣跨敤涓庡疄鐢ㄦ柟娉?
 - [[鏃堕棿绠＄悊]]
 - [[时间管理]]
 - [[时间管理工具与方法]]
+
+
 

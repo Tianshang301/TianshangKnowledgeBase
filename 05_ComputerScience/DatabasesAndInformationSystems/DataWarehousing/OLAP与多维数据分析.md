@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [OLAP 与多维数据分析]
 tags: ['DatabasesAndInformationSystems', 'DataWarehousing', 'OLAP 与多维数据分析']
 ---
@@ -150,9 +150,9 @@ OLAP 是数据仓库的核心分析能力。现代数据架构中，数据湖与
 ## 相关条目
 
 - [[DataWarehousing]]
-- [[BigDataTechnologies]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/BigDataTechnologies/BigDataTechnologies|BigDataTechnologies]]
 - [[查询优化与事务管理]]
-- [[RelationalDatabases]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/RelationalDatabases|RelationalDatabases]]
 - [[流处理与实时计算]]
 
 ## 参考资源
@@ -164,3 +164,4 @@ OLAP 是数据仓库的核心分析能力。现代数据架构中，数据湖与
 5. Armbrust, M., et al. "Lakehouse: A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics." CIDR, 2021.
 6. Lamb, A., et al. "The Vertica Analytic Database: C-Store 7 Years Later." VLDB, 2012.
 7. Abadi, D. J., et al. "Column-Stores vs. Row-Stores: How Different Are They Really?" SIGMOD, 2008.
+

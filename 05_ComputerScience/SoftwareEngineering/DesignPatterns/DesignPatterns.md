@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DesignPatterns]
 tags: ['SoftwareEngineering', 'DesignPatterns', 'DesignPatterns']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 设计模式
@@ -300,7 +300,7 @@ def execute(fn, *args):
 ## 相关条目
 
 - ArchitecturePatterns
-- [[OOP]]
+- [[05_ComputerScience/ProgrammingLanguages/CCpp/OOP|OOP]]
 - SOLID
 - Refactoring
 
@@ -311,3 +311,5 @@ def execute(fn, *args):
 - 《Clean Architecture》（Robert C. Martin）
 - [Refactoring.Guru - 设计模式](https://refactoring.guru/design-patterns)
 - [SourceMaking - Design Patterns](https://sourcemaking.com/design_patterns)
+
+

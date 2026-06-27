@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DigitalMedia]
 tags: ['JournalismAndCommunication', 'DigitalMedia', 'DigitalMedia']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 数字媒体
@@ -214,3 +214,4 @@ $$
 4. van Dijck, J. (2013). *The Culture of Connectivity*. Oxford University Press.
 5. 中国互联网络信息中心 (CNNIC) 统计报告
 6. Reuters Institute Digital News Report
+

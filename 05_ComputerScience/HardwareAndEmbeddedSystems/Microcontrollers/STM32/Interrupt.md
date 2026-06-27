@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Interrupt]
 tags: ['HardwareAndEmbeddedSystems', 'Microcontrollers', 'STM32', 'Interrupt']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # STM32 中断系统
@@ -265,3 +265,4 @@ void EXTI0_IRQHandler(void) {
 - [[ADCDAC]]
 - [[Communication]]
 - [[FreeRTOS]]
+

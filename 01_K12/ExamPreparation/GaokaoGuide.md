@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [GaokaoGuide]
 tags: ['ExamPreparation', 'GaokaoGuide']
 created: 2026-05-16
@@ -193,7 +193,7 @@ updated: 2026-05-16
 ## 相关条目
 
 - K12
-- [[LearningPaths]]
+- [[00_KnowledgeFramework/LearningPaths/LearningPaths|LearningPaths]]
 - [[13_Others/PersonalProductivity/TimeManagement/INDEX|TimeManagement]]
 - StudySkills
 
@@ -203,3 +203,4 @@ updated: 2026-05-16
 - 历年高考真题
 - 志愿填报指导
 - 高考复习资料
+

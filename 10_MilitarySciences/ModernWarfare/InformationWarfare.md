@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [信息化战争, InformationWarfare]
 tags: ['MilitaryScience', 'ModernWarfare', 'InformationWarfare', 'NetworkCentricWarfare']
 created: 2026-06-27
@@ -257,9 +257,10 @@ Information Operations（IO）是在军事行动中综合运用各种信息能�
 
 ## 相关条目
 
-- [[C4ISR]]
+- [[10_MilitarySciences/C4ISR|C4ISR]]
 - [[CyberWarfare]]
-- [[MilitaryAI]]
+- [[10_MilitarySciences/MilitaryTechnology/MilitaryAI|MilitaryAI]]
 - [[SpaceStrategy]]
-- [[JointOperations]]
-- [[MilitaryOperationsResearch]]
+- [[10_MilitarySciences/MilitaryStrategy/JointOperations|JointOperations]]
+- [[10_MilitarySciences/MilitaryOperationsResearch|MilitaryOperationsResearch]]
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [TriggerPointTherapy, 扳机点疗法, 肌筋膜激痛点]
 tags: [SportsMedicine, ManualTherapy, PainManagement, Rehabilitation]
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 扳机点疗法
@@ -201,3 +201,4 @@ flowchart TD
 ## 相关条目
 
 [[FasciaRelease]], [[SelfMassage]], [[SportsMassageAndManualTherapy]], [[PhysicalTherapy]], [[Acupuncture]], [[PainScience]]
+

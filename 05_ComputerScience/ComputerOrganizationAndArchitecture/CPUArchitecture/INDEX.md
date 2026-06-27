@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['ComputerOrganizationAndArchitecture', 'CPUArchitecture', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # CPU 浣撶郴缁撴瀯
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[CPUArchitecture]]
 - [[鐜颁唬澶勭悊鍣ㄥ井鏋舵瀯]]
 - [[现代处理器微架构]]
+
 

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CourseIndex]
 tags: ['LearningPaths', 'CourseIndex']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 开放课程索引
@@ -168,4 +168,6 @@ updated: 2026-05-13
 - [[OpenCoursewareIndex]] — 开放课程平台汇总
 - [[OnlineLearning]] — 在线学习策略
 - [[CareerPath]] — 职业发展路径
-- [[Methodology]] — 学习方法论
+- [[00_KnowledgeFramework/Methodology/Methodology|Methodology]] — 学习方法论
+
+

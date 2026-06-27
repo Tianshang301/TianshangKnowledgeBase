@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SoilMechanics]
 tags: ['CivilEngineering', 'GeotechnicalEngineering', 'SoilMechanics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 土力学
@@ -216,3 +216,4 @@ $$F_s = \frac{\sum \left[c_i b_i + (W_i - u_i b_i)\tan\varphi_i\right]/m_{\alpha
 - [[FoundationEngineering]]
 - RockMechanics
 - [[02_NaturalSciences/EarthSciences/Geology/INDEX|Geology]]
+

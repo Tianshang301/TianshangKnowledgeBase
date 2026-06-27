@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Commands]
 tags: ['SoftwareEngineering', 'GitAndVersionControl', 'Commands']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Git 命令速查
@@ -268,3 +268,4 @@ git submodule update --init --recursive
 - [[Advanced]]
 - [[GitHub]]
 - [[05_ComputerScience/SoftwareEngineering/GitAndVersionControl/INDEX|GitAndVersionControl]]
+

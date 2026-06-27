@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [KnowledgeRepresentation]
 tags: ['ArtificialIntelligence', 'KnowledgeRepresentation', 'KnowledgeRepresentation']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 知识表示
@@ -218,7 +218,7 @@ $$
 
 ## 相关条目
 
-- [[SemanticWeb]]
+- [[00_KnowledgeFramework/KnowledgeGraph/SemanticWeb|SemanticWeb]]
 - [[00_KnowledgeFramework/KnowledgeGraph/INDEX|KnowledgeGraph]]
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]]
 - NLP
@@ -230,3 +230,5 @@ $$
 - Wang, Z. et al. (2014). "Knowledge Graph Embedding by Translating on Hyperplanes"
 - 刘知远等. (2016). 《知识图谱构建技术综述》
 - Hogan, A. et al. (2021). "Knowledge Graphs"
+
+

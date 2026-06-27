@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SupplyChainManagement]
 tags: ['ManagementScienceAndEngineering', 'SupplyChainManagement']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 供应链管理
@@ -230,3 +230,4 @@ updated: 2026-05-13
 - 项目管理
 - 采购管理
 - 信息系统
+

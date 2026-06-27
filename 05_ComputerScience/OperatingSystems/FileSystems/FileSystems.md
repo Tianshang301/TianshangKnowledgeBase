@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FileSystems]
 tags: ['OperatingSystems', 'FileSystems', 'FileSystems']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 文件系统详解 (File System)
@@ -333,3 +333,4 @@ HDD (10ms, 1-20TB)
 - Tanenbaum, A. S., & Bos, H. *Modern Operating Systems* (4th ed.)
 - ext4 Wiki: https://ext4.wiki.kernel.org/
 - Oracle Solaris ZFS Administration Guide
+

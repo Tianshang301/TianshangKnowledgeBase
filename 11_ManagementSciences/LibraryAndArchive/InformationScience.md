@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [InformationScience]
 tags: ['LibraryAndArchive', 'InformationScience']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 信息科学
@@ -215,3 +215,4 @@ SECI 模型描述知识转化过程：社会化——隐性知识到隐性知识
 - 计算机科学
 - 信息系统
 - 数据科学
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Musicology, 音乐学]
 tags: ['Musicology', 'MusicStudies', 'ArtsAndCreativity', 'MusicTheory']
 created: 2026-05-17
@@ -131,5 +131,6 @@ $$ \text{Ethnomusicology} = \text{Music} + \text{Culture} + \text{Fieldwork} $$
 ## 相关条目 (Related Entries)
 
 - [[Chord]], [[Scale]], [[Counterpoint]], [[JazzHarmony]]
-- [[MusicTheory]], [[Ethnomusicology]], [[Acoustics]]
+- [[06_ArtsAndCreativity/Music/MusicTheory/MusicTheory|MusicTheory]], [[Ethnomusicology]], [[02_NaturalSciences/Physics/ClassicalMechanics/Acoustics|Acoustics]]
 - [[INDEX|当前目录索引]]
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AquaticDiseasePrevention]
 tags: ['Fishery', 'AquaticDiseasePrevention']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 水产病害防治
@@ -303,5 +303,7 @@ $$
 - [[AquaticNutrition]]
 - [[02_NaturalSciences/Biology/Microbiology/INDEX|Microbiology]]
 - [[08_AgriculturalSciences/VeterinaryMedicine/INDEX|VeterinaryMedicine]]
-- [[Immunology]]
+- [[09_MedicineAndHealth/BasicMedicalSciences/Immunology|Immunology]]
 - WaterQualityManagement
+
+

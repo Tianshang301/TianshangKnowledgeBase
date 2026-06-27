@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SystemsThinking]
 tags: ['InterdisciplinaryMethodologies', 'SystemsThinking']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 系统思维
@@ -252,9 +252,9 @@ updated: 2026-05-13
 ## 相关条目
 
 - [[SystemsThinking]]
-- [[ResearchMethods]]
+- [[00_KnowledgeFramework/Methodology/ResearchMethods|ResearchMethods]]
 - [[ComplexityScience]]
-- [[Methodology]]
+- [[00_KnowledgeFramework/Methodology/Methodology|Methodology]]
 
 ## 参考资源
 
@@ -262,3 +262,5 @@ updated: 2026-05-13
 - 《第五项修炼》彼得·圣吉
 - Sterman JD. *Business Dynamics*
 - Meadows DH. *Thinking in Systems*
+
+

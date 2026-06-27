@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [OpenCoursewareIndex]
 tags: ['LearningPaths', 'OnlineEducation', 'OpenCourseware', 'SelfStudy']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 开放课程资源汇总 (Open Courseware Index)
@@ -201,7 +201,7 @@ MOOC 平台是开放课程资源的核心载体。
    预估每周所需时间（建议不少于 5 小时），
    合理排期并设置里程碑
 
-2. **做好笔记** — 推荐结合 [[NoteTaking]] 中的
+2. **做好笔记** — 推荐结合 [[00_KnowledgeFramework/NoteTaking/NoteTaking|NoteTaking]] 中的
    Cornell Note-Taking System
    或 Zettelkasten（卡片盒笔记法）方法，
    建立知识之间的连接
@@ -239,6 +239,8 @@ MOOC 平台是开放课程资源的核心载体。
 
 - [[LearningPaths]] — 学习路径设计方法论
 
-- [[NoteTaking]] — 笔记方法指南
+- [[00_KnowledgeFramework/NoteTaking/NoteTaking|NoteTaking]] — 笔记方法指南
 
 - [[../../INDEX|TianshangKnowledgeBase 索引]]
+
+

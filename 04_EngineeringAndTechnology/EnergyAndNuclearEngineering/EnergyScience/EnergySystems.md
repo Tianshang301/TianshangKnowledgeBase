@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [EnergySystems, 能源系统, Energy System, Power System, Smart Grid]
 tags: ['EnergyAndNuclearEngineering', 'EnergyScience', 'EnergySystems', 'SmartGrid', 'PowerSystem']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 能源系统
@@ -221,3 +221,4 @@ $$
 - IEEE Std 1547. *Standard for Interconnection and Interoperability of Distributed Energy Resources*.
 - 周孝信等. (2022). 《新一代能源系统》. 科学出版社.
 - EnergyPLAN. (2023). *Advanced Energy System Analysis Model Documentation*.
+

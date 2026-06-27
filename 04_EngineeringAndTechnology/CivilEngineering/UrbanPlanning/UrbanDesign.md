@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [UrbanDesign]
 tags: ['CivilEngineering', 'UrbanPlanning', 'UrbanDesign']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 城市设计
@@ -105,6 +105,8 @@ updated: 2026-05-13
 
 ## 相关条目
 - [[RegionalPlanning]]
-- [[LandscapeDesign]]
-- [[BuildingPhysics]]
-- [[BuildingMaterials]]
+- [[04_EngineeringAndTechnology/CivilEngineering/LandscapeArchitecture/LandscapeDesign|LandscapeDesign]]
+- [[04_EngineeringAndTechnology/CivilEngineering/BuildingScience/BuildingPhysics|BuildingPhysics]]
+- [[04_EngineeringAndTechnology/CivilEngineering/BuildingScience/BuildingMaterials|BuildingMaterials]]
+
+

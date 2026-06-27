@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['EngineeringFundamentals', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # EngineeringFundamentals
@@ -19,7 +19,9 @@ updated: 2026-05-13
 - [[EngineeringEthics]]
 - [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringMathematics/INDEX]]
 - [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringMechanics/INDEX]]
-- [[EngineeringStatistics]]
-- [[SystemsEngineering]]
-- [[TechnicalDrawing]]
+- [[04_EngineeringAndTechnology/EngineeringFundamentals/EngineeringMathematics/EngineeringStatistics|EngineeringStatistics]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/SystemsEngineering/SystemsEngineering|SystemsEngineering]]
+- [[04_EngineeringAndTechnology/CivilEngineering/TechnicalDrawing|TechnicalDrawing]]
 - [[../INDEX]]
+
+

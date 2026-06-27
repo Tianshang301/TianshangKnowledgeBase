@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ComputationalComplexity]
 tags: ['TheoryOfComputation', 'ComputationalComplexity']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 计算复杂性理论
@@ -250,3 +250,4 @@ Karp-Lipton 定理：若 $NP \subseteq P/poly$，则 $PH$ 坍塌至 $\Sigma_2^P$
 3. Papadimitriou C H. Computational Complexity. Addison-Wesley, 1994.
 4. Goldreich O. Computational Complexity: A Conceptual Perspective. Cambridge University Press, 2008.
 5. 堵丁柱. 计算复杂性理论. 高等教育出版社, 2017.
+

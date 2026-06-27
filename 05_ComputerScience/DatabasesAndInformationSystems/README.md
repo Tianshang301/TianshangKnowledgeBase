@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [README]
 tags: ['DatabasesAndInformationSystems', 'README']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 数据库工具指南
@@ -383,3 +383,4 @@ LIMIT 10;
 - [[05_ComputerScience/DatabasesAndInformationSystems/InformationRetrieval/INDEX]] — 信息检索
 - [[05_ComputerScience/DatabasesAndInformationSystems/NoSQL/INDEX]] — NoSQL
 - [[05_ComputerScience/DatabasesAndInformationSystems/RelationalDatabases/INDEX]] — 关系数据库
+

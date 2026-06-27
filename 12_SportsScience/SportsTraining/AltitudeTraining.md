@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - AltitudeTraining
   - HypoxicTraining
@@ -235,7 +235,8 @@ $$ \text{赛后窗口} = 7\text{–}21 \text{ 天} $$
 - [[VO2maxTraining|最大摄氧量训练]]
 - [[SportsPhysiology|运动生理学]]
 - [[RecoveryMethods|恢复方法]]
-- [[SportsNutrition|运动营养]]
+- [[12_SportsScience/SportsMedicine/SportsNutrition|运动营养]]
 - [[IronDeficiencyInAthletes|运动员缺铁]]
 - [[INDEX|SportsTraining 索引]]
 - [[../../INDEX|TianshangKnowledgeBase 索引]]
+

@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Music', 'EarTraining', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # EarTraining
@@ -15,4 +15,5 @@ updated: 2026-05-13
 - [[瑙嗗敱缁冭€砞] - 瑙嗗敱缁冭€?
 - [[节奏训练与视唱进阶]]
 - [[视唱练耳]]
+
 

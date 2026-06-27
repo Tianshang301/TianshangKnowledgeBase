@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ReactionEngineering]
 tags: ['ChemicalAndPharmaceuticalEngineering', 'ChemicalEngineering', 'ReactionEngineering']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 化学反应工程
@@ -105,3 +105,4 @@ $$r = kC_A^n, \quad k = A\exp\left(-\frac{E_a}{RT}\right)$$
 - ChemicalKinetics
 - Catalysis
 - ProcessControl
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [PerformanceManagement]
 tags: ['BusinessAdministration', 'HumanResources', 'PerformanceManagement']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 绩效管理
@@ -193,3 +193,4 @@ KPI 应遵循 SMART 原则：Specific（具体的）、Measurable（可衡量的
 - 组织行为学
 - 战略管理
 - 领导力
+

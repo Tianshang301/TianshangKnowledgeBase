@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['BusinessAdministration', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # BusinessAdministration
@@ -23,4 +23,5 @@ updated: 2026-05-13
 - [[11_ManagementSciences/BusinessAdministration/Accounting/INDEX|Accounting]]
 - [[11_ManagementSciences/BusinessAdministration/HumanResources/INDEX|HumanResources]]
 - [[Finance/INDEX|Finance]]
+
 

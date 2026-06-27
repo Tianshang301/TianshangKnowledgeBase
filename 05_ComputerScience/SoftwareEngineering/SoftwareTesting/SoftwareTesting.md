@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SoftwareTesting]
 tags: ['SoftwareEngineering', 'SoftwareTesting', 'SoftwareTesting']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 软件测试
@@ -315,3 +315,4 @@ jobs:
 - [pytest 文档](https://docs.pytest.org/)
 - 《xUnit Test Patterns》（Gerard Meszaros）
 - [Google Testing Blog](https://testing.googleblog.com/)
+

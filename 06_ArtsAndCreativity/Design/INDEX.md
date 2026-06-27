@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Design', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Design
@@ -16,4 +16,5 @@ updated: 2026-05-13
 - [[06_ArtsAndCreativity/Design/InteractionDesign/INDEX|InteractionDesign]]
 - [[06_ArtsAndCreativity/Design/EnvironmentalDesign/INDEX|EnvironmentalDesign]]
 - [[FashionDesign/INDEX|FashionDesign]]
+
 

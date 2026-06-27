@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['MilitaryHistory', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # MilitaryHistory
@@ -18,5 +18,7 @@ updated: 2026-05-13
 - [[WorldWarI]] — 第一次世界大战
 - [[ColdWarConflicts]] — 冷战冲突：冷战时期的军事对抗
 - [[10_MilitarySciences/MilitaryStrategy/INDEX|MilitaryStrategy]]
-- [[WorldHistory]]
+- [[03_HumanitiesAndSocialSciences/History/WorldHistory/WorldHistory|WorldHistory]]
 - [[03_HumanitiesAndSocialSciences/PoliticalScience/INDEX|PoliticalScience]]
+
+

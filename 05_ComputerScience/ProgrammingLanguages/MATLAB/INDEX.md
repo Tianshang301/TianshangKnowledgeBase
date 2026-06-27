@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['ProgrammingLanguages', 'MATLAB', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # MATLAB
@@ -15,4 +15,5 @@ updated: 2026-05-13
 - [[MATLAB]]
 - [[MATLAB 鏁板€艰绠椾笌浠跨湡]] - MATLAB 鏁板€艰绠椾笌浠跨湡
 - [[MATLAB数值计算与仿真]]
+
 

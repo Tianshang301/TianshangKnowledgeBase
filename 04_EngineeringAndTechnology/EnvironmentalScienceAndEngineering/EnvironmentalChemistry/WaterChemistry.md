@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [WaterChemistry, 水化学, AquaticChemistry]
 tags: ['EnvironmentalScienceAndEngineering', 'EnvironmentalChemistry', 'WaterChemistry', 'WaterQuality', 'Pollution']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 水化学（Water Chemistry）
@@ -236,8 +236,10 @@ $$O_3 + H_2O_2 \rightarrow \cdot OH + O_2 + HO_2 \cdot$$
 ## 相关条目
 
 - [[AirChemistry|大气化学]]
-- [[WastewaterTreatment|污水处理]]
-- [[Bioremediation|生物修复]]
+- [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalEngineering/WastewaterTreatment|污水处理]]
+- [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalBiology/Bioremediation|生物修复]]
 - [[EcologicalEngineering|生态工程]]
 - [[WaterQuality|水质学]]
 - [[INDEX|EnvironmentalChemistry 索引]]
+
+

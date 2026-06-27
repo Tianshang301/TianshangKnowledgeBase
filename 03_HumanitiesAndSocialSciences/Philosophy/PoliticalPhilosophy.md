@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [PoliticalPhilosophy]
 tags: ['03_HumanitiesAndSocialSciences', 'Philosophy']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # PoliticalPhilosophy
@@ -137,3 +137,4 @@ updated: 2026-05-16
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+

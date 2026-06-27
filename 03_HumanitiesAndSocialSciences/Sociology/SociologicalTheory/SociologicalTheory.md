@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SociologicalTheory]
 tags: ['Sociology', 'SociologicalTheory', 'SociologicalTheory']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 社会学理论
@@ -261,9 +261,9 @@ Lockwood 区分了两种整合："社会整合"指行动者之间的团结程度
 
 ## 相关条目
 
-- [[SocialPsychology]]
-- [[UrbanSociology]]
-- [[Demography]]
+- [[03_HumanitiesAndSocialSciences/Sociology/SocialPsychology/SocialPsychology|SocialPsychology]]
+- [[03_HumanitiesAndSocialSciences/Sociology/UrbanSociology/UrbanSociology|UrbanSociology]]
+- [[03_HumanitiesAndSocialSciences/Sociology/Demography/Demography|Demography]]
 - [[03_HumanitiesAndSocialSciences/PoliticalScience/INDEX|PoliticalScience]]
 
 ## 参考资源
@@ -278,3 +278,5 @@ Lockwood 区分了两种整合："社会整合"指行动者之间的团结程度
 - 福柯《规训与惩罚》
 - 吉登斯《社会的构成》
 - 拉图尔《我们从未现代过》
+
+

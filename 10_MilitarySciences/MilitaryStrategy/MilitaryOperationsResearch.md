@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [MilitaryOperationsResearch]
 tags: ['MilitaryStrategy', 'MilitaryOperationsResearch']
 created: 2026-05-19
@@ -107,9 +107,10 @@ $$ \frac{dR}{dt} = -\rho B $$
 
 ## 相关条目
 
-- [[DecisionTheory]]
-- [[OperationsResearch]]
+- [[11_ManagementSciences/ManagementScienceAndEngineering/DecisionTheory|DecisionTheory]]
+- [[11_ManagementSciences/ManagementScienceAndEngineering/OperationsResearch|OperationsResearch]]
 - [[MilitaryDecisionMaking]]
 - [[StrategicTheory]]
-- [[LogisticsSupportSystems]]
-- [[WeaponsSystems]]
+- [[10_MilitarySciences/MilitaryLogistics/LogisticsSupportSystems|LogisticsSupportSystems]]
+- [[10_MilitarySciences/MilitaryTechnology/WeaponsSystems|WeaponsSystems]]
+

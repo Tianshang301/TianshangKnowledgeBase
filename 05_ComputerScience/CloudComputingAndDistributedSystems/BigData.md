@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [BigData, BigDataTech]
 tags: ['05_ComputerScience', 'CloudComputingAndDistributedSystems']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 大数据 Big Data
@@ -313,3 +313,4 @@ flowchart TD
 - [[StreamProcessing]]
 - [[DataWarehouse]]
 - [[DataLake]]
+

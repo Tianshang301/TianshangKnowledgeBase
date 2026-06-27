@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CivicEducation]
 tags: ['JuniorHigh', 'Politics', 'CivicEducation']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 公民教育
@@ -202,4 +202,6 @@ updated: 2026-05-13
 
 ## 相关条目
 
-[[CivicEducation]], [[MoralEducation]], SocialStudies, LawBasics
+[[CivicEducation]], [[01_K12/PrimarySchool/IntegratedStudies/MoralEducation|MoralEducation]], SocialStudies, LawBasics
+
+

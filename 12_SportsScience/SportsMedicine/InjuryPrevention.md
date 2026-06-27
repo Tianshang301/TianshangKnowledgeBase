@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [InjuryPrevention, 运动损伤预防, 伤病预防, SportsInjuryPrevention, 损伤防护, 预防策略, 损伤管理]
 tags: ['12_SportsScience', 'SportsMedicine', 'InjuryPrevention', 'SportsTraining', 'SportsPhysiotherapy', 'ExerciseScience']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 运动损伤预防（Injury Prevention）
@@ -127,6 +127,8 @@ $$ACWR = \frac{\text{本周负荷}}{\text{前 4 周平均周负荷}}$$
 - [[FirstAidInSports]]
 - [[FunctionalAssessment]]
 - [[SportsBiomechanics]]
-- [[RecoveryMethods]]
-- [[Supercompensation]]
+- [[12_SportsScience/SportsTraining/RecoveryMethods|RecoveryMethods]]
+- [[12_SportsScience/SportsTraining/Supercompensation|Supercompensation]]
 - [[INDEX|SportsMedicine 索引]]
+
+

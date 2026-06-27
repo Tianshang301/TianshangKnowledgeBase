@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AtomicStructure]
 tags: ['JuniorHigh', 'Chemistry', 'AtomicStructure']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 原子结构
@@ -178,3 +178,4 @@ updated: 2026-05-13
 ## 相关条目
 
 [[02_NaturalSciences/Chemistry/OrganicChemistry/INDEX|OrganicChemistry]], [[02_NaturalSciences/Chemistry/InorganicChemistry/INDEX|InorganicChemistry]], [[02_NaturalSciences/Chemistry/AnalyticalChemistry/INDEX|AnalyticalChemistry]], [[02_NaturalSciences/Chemistry/PhysicalChemistry/INDEX|PhysicalChemistry]]
+

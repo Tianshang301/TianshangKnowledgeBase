@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AnimalHealth]
 tags: ['AnimalScience', 'AnimalHealth']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # AnimalHealth
@@ -168,3 +168,4 @@ $$ \text{受胎率} = \frac{\text{妊娠母畜数}}{\text{配种母畜数}} \tim
 ## 相关条目
 
 [[08_AgriculturalSciences/VeterinaryMedicine/INDEX|VeterinaryMedicine]], [[08_AgriculturalSciences/FoodScience/INDEX|FoodScience]], [[AnimalGenetics]], [[FeedScience]], [[LivestockEconomics]]
+

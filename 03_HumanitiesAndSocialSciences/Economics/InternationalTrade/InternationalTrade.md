@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [InternationalTrade]
 tags: ['Economics', 'InternationalTrade', 'InternationalTrade']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 国际贸易
@@ -154,8 +154,8 @@ GATT（1947）→WTO（1995）。**核心原则**：最惠国待遇（MFN，一�
 
 ## 相关条目
 
-- [[AppliedEconomics]]
-- [[Finance]]
+- [[03_HumanitiesAndSocialSciences/Economics/AppliedEconomics/AppliedEconomics|AppliedEconomics]]
+- [[03_HumanitiesAndSocialSciences/Economics/Finance/Finance|Finance]]
 - [[03_HumanitiesAndSocialSciences/PoliticalScience/INDEX|PoliticalScience]]
 - EconomicGeography
 
@@ -294,3 +294,5 @@ GATT（1947）→WTO（1995）。**核心原则**：最惠国待遇（MFN，一�
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+
+

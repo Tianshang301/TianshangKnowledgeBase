@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Semantic]
 tags: ['CompilerPrinciples', 'Semantic']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 语义分析
@@ -408,3 +408,4 @@ int f() { return "hello"; }  // 错误：返回类型不匹配
 // 8. void 表达式
 int a = void_func();     // 错误：void 函数不能有返回值
 ```
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Biostatistics]
 tags: ['AppliedStatistics', 'Biostatistics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 生物统计?
@@ -208,4 +208,6 @@ pwr.t.test(n = NULL, d = 0.5, sig.level = 0.05, power = 0.8,
 
 ## 相关条目
 
-[[Probability]], [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]], [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]], StatisticalModeling
+[[02_NaturalSciences/Mathematics/ProbabilityStatistics/Probability|Probability]], [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]], [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]], StatisticalModeling
+
+

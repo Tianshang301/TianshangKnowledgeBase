@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [HighConcurrencyDesign, 高并发设计, 限流, 熔断, 缓存策略]
 tags: ['05_ComputerScience', 'SoftwareEngineering', 'HighConcurrency', 'SystemDesign']
 created: 2026-06-27
@@ -910,10 +910,10 @@ async def handle_request(request):
 
 ## 相关条目
 
-- [[CloudComputingAndDistributedSystems]]
-- [[LoadBalancing]]
-- [[MessageQueues]]
-- [[RedisDeep]]
+- [[05_ComputerScience/CloudComputingAndDistributedSystems/CloudComputingAndDistributedSystems|CloudComputingAndDistributedSystems]]
+- [[05_ComputerScience/CloudComputingAndDistributedSystems/LoadBalancing|LoadBalancing]]
+- [[05_ComputerScience/CloudComputingAndDistributedSystems/MessageQueues|MessageQueues]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/RedisDeep|RedisDeep]]
 
 ## 参考资源
 
@@ -921,3 +921,4 @@ async def handle_request(request):
 2. Google. "SRE Book." sre.google
 3. Netflix. "Hystrix Wiki." github.com/Netflix/Hystrix
 4. Alibaba. "Sentinel Documentation." github.com/alibaba/Sentinel
+

@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['ArtificialIntelligence', 'AIEthics', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 浜哄伐鏅鸿兘浼︾悊
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[AIEthics]]
 - [[AI 瀹夊叏涓庡榻怾]
 - [[AI安全与对齐]]
+
 

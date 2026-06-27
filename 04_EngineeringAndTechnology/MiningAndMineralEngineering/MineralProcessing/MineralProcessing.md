@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MineralProcessing]
 tags: ['MiningAndMineralEngineering', 'MineralProcessing', 'MineralProcessing']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 矿物加工
@@ -272,8 +272,8 @@ $$
 
 ## 相关条目
 
-- [[CoalMining]]
-- [[MineSafety]]
+- [[04_EngineeringAndTechnology/MiningAndMineralEngineering/CoalMining/CoalMining|CoalMining]]
+- [[04_EngineeringAndTechnology/MiningAndMineralEngineering/MineSafety/MineSafety|MineSafety]]
 - Metallurgy
 - [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/ChemicalEngineering/INDEX|ChemicalEngineering]]
 
@@ -284,3 +284,5 @@ $$
 3. 孙传尧. 选矿工程师手册[M]. 北京: 冶金工业出版社, 2015.
 4. Napier-Munn, T.J. Mineral Comminution Circuits[M]. JKMRC, 1996.
 5. 国土资源部. 选矿厂设计规范[S]. 北京: 中国标准出版社, 2017.
+
+

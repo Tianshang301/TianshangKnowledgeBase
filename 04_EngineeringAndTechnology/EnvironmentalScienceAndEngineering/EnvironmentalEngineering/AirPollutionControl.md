@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AirPollutionControl, 大气污染控制, Air Quality Control, Emission Control, APC]
 tags: ['EnvironmentalScienceAndEngineering', 'EnvironmentalEngineering', 'AirPollutionControl', 'EmissionControl']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 大气污染控制
@@ -221,3 +221,4 @@ $$
 - GB/T 18883 — 2022. 《室内空气质量标准》.
 - IPCC. (2022). *Carbon Dioxide Capture and Storage*.
 - 中国环境保护产业协会. (2023). 《除尘脱硫脱硝技术手册》.
+

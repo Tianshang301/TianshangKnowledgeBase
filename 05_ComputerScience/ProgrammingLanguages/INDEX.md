@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['ProgrammingLanguages', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # ProgrammingLanguages
@@ -27,7 +27,7 @@ updated: 2026-05-13
 - [[05_ComputerScience/ProgrammingLanguages/CSharp/INDEX]]
 - [[05_ComputerScience/ProgrammingLanguages/Go/INDEX]]
 - [[05_ComputerScience/ProgrammingLanguages/Java/INDEX]]
-- [[JavaScript]]
+- [[05_ComputerScience/ProgrammingLanguages/Web/JavaScript|JavaScript]]
 - [[05_ComputerScience/ProgrammingLanguages/Kotlin/INDEX]]
 - [[PHP]]
 - [[05_ComputerScience/ProgrammingLanguages/Python/INDEX]]
@@ -36,8 +36,10 @@ updated: 2026-05-13
 - [[05_ComputerScience/ProgrammingLanguages/Rust/INDEX]]
 - [[Scala]]
 - [[05_ComputerScience/ProgrammingLanguages/Swift/INDEX]]
-- [[TypeScript]]
+- [[05_ComputerScience/ProgrammingLanguages/Web/TypeScript|TypeScript]]
 - [[../INDEX|Computer Science]]
 - [[ProgrammingLanguages]]
 - [[SQL]]
+
+
 

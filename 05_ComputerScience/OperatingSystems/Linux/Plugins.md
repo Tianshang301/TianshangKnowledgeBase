@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Plugins]
 tags: ['OperatingSystems', 'Linux', 'Plugins']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Vim 插件生态
@@ -453,3 +453,4 @@ require('gitsigns').setup({
 - [[Languages]]
 - [[Bash]]
 - [[Scripting]]
+

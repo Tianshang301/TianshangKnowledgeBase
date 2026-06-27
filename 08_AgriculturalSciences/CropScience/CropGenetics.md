@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CropGenetics]
 tags: ['CropScience', 'CropGenetics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 作物遗传学
@@ -180,3 +180,4 @@ $$p^2 + 2pq + q^2 = 1$$
 ## 相关条目
 
 [[CropBreeding]], [[08_AgriculturalSciences/PlantProtection/INDEX|PlantProtection]], [[08_AgriculturalSciences/AgriculturalResources/INDEX|AgriculturalResources]], [[08_AgriculturalSciences/Horticulture/INDEX|Horticulture]], [[02_NaturalSciences/Biology/MolecularBiology/INDEX|MolecularBiology]]
+

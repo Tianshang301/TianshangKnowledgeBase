@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [OralPathology]
 tags: ['Stomatology', 'OralPathology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 口腔病理学
@@ -209,3 +209,4 @@ updated: 2026-05-13
 - 口腔内科学
 - 口腔颌面外科学
 - 口腔黏膜病学
+

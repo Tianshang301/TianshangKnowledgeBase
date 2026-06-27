@@ -1,9 +1,9 @@
----
+﻿---
 aliases:
   - AcademicPapers
 tags:
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
   - AcademicPapers
 ---
 
@@ -228,10 +228,10 @@ $$ \text{影响因子 (IF)} = \frac{\text{某年引用前两年文章数}}{\text
 
 ## 相关条目
 
-- [[ResearchMethodology]]
-- [[ScientificCommunication]]
+- [[13_Others/ResearchMethodology/ResearchMethodology|ResearchMethodology]]
+- [[13_Others/ScientificCommunication/ScientificCommunication|ScientificCommunication]]
 - [[00_KnowledgeFramework/BibTeX/INDEX|BibTeX]]
-- [[AcademicWriting]]
+- [[13_Others/AcademicWriting/AcademicWriting|AcademicWriting]]
 
 ## 参考资源
 
@@ -241,3 +241,5 @@ $$ \text{影响因子 (IF)} = \frac{\text{某年引用前两年文章数}}{\text
 - Overleaf 模板库: https://www.overleaf.com/latex/templates
 - Zotero 官方文档: https://www.zotero.org/support
 - PRISMA 声明: https://www.prisma-statement.org
+
+

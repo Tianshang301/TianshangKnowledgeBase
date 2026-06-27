@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['SurveyingAndMappingScience', 'Photogrammetry', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Photogrammetry
@@ -15,4 +15,5 @@ updated: 2026-05-13
 - [[CloseRangePhotogrammetry]]
 - [[鎽勫奖娴嬮噺涓庨仴鎰焆]
 - [[摄影测量与遥感]]
+
 

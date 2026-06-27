@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [SpecialOperations]
 tags: ['MilitaryStrategy', 'SpecialOperations']
 created: 2026-05-19
@@ -107,5 +107,6 @@ updated: 2026-05-19
 - [[UrbanWarfare]]
 - [[MilitaryDecisionMaking]]
 - [[ArmsAndServices]]
-- [[C4ISR]]
-- [[UnmannedSystems]]
+- [[10_MilitarySciences/C4ISR|C4ISR]]
+- [[10_MilitarySciences/UnmannedSystems|UnmannedSystems]]
+

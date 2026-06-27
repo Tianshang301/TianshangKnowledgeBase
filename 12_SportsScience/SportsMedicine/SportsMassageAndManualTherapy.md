@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SportsMassageAndManualTherapy]
 tags: ['SportsMedicine', 'SportsMassageAndManualTherapy']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 运动按摩与手法治疗
@@ -162,3 +162,4 @@ Maitland 手法分 I 至 IV 级。
 ## 相关条目
 
 运动康复、康复治疗、运动损伤、筋膜放松、物理治疗、运动医学、自我按摩、激痛点疗法
+

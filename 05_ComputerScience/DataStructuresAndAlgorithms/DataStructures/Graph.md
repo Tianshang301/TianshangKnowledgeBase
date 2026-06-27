@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Graph]
 tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'Graph']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 图详解
@@ -505,7 +505,9 @@ def clone_graph(node):
 ## 相关条目
 
 - [[Tree]]
-- [[BFSDFS]]
-- [[Dijkstra]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BFSDFS|BFSDFS]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/Dijkstra|Dijkstra]]
 - [[UnionFind]]
 - [[Heap]]
+
+

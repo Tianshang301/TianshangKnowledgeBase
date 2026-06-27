@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ResearchMethodology]
 tags: ['ResearchMethodology', 'ResearchMethodology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 研究方法论
@@ -283,10 +283,10 @@ $$n = \frac{1.96^2 \times 0.5 \times 0.5}{0.05^2} \approx 385$$
 
 ## 相关条目
 
-- [[AcademicWriting]]
-- [[ScientificCommunication]]
-- [[Statistics]]
-- [[CriticalThinking]]
+- [[13_Others/AcademicWriting/AcademicWriting|AcademicWriting]]
+- [[13_Others/ScientificCommunication/ScientificCommunication|ScientificCommunication]]
+- [[07_InterdisciplinarySciences/AppliedStatistics/Statistics|Statistics]]
+- [[00_KnowledgeFramework/Methodology/CriticalThinking|CriticalThinking]]
 
 ## 参考资源
 
@@ -299,3 +299,5 @@ $$n = \frac{1.96^2 \times 0.5 \times 0.5}{0.05^2} \approx 385$$
 - 风笑天. (2018). *社会研究方法* (第5版). 中国人民大学出版社.
 - 张文彤. *SPSS 统计分析基础教程*.
 - SPSS / R / NVivo / MAXQDA - 分析工具
+
+

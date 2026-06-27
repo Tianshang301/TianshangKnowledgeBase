@@ -2,7 +2,7 @@
 aliases: [SocialPsychology]
 tags: ['03_HumanitiesAndSocialSciences', 'Psychology', 'SocialPsychology']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 # SocialPsychology
 
@@ -142,4 +142,5 @@ updated: 2026-05-13
 - [[SocialPsychology]]
 - [[社会认知与社会影响]]
 - [[群体过程与人际关系]]
+
 

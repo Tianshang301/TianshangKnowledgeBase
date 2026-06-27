@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FarmingSystems]
 tags: ['CropScience', 'FarmingSystems']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 耕作学
@@ -241,4 +241,6 @@ LER = 1.65，表明间作比单作增产65%，土地利用效率显著提高。
 
 ## 相关条目
 
-[[CropPhysiology]], [[CropProtection]], [[SoilScience]], [[08_AgriculturalSciences/AgriculturalResources/INDEX|AgriculturalResources]], [[CropBreeding]], [[08_AgriculturalSciences/PlantProtection/INDEX|PlantProtection]], EcologyAgriculture
+[[CropPhysiology]], [[CropProtection]], [[08_AgriculturalSciences/AgriculturalResources/SoilScience|SoilScience]], [[08_AgriculturalSciences/AgriculturalResources/INDEX|AgriculturalResources]], [[CropBreeding]], [[08_AgriculturalSciences/PlantProtection/INDEX|PlantProtection]], EcologyAgriculture
+
+

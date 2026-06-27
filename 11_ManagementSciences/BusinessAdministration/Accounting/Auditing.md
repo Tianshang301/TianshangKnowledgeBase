@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Auditing]
 tags: ['BusinessAdministration', 'Accounting', 'Auditing']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 审计学
@@ -218,3 +218,4 @@ updated: 2026-05-13
 - 风险管理
 - 公司治理
 - 税务审计
+

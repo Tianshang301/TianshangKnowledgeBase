@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SpeechRecognition, 语音识别, ASR]
 tags: ['05_ComputerScience', 'AI', 'NLP', 'SpeechRecognition']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 语音识别 (Speech Recognition)
@@ -177,8 +177,10 @@ $$
 ## 相关条目
 
 - [[NLPOverview]]
-- [[MLOverview]]
-- [[ArtificialIntelligence]]
-- [[DigitalSignalProcessing]]
-- [[HumanComputerInteraction]]
-- [[DeepLearning]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/MLOverview|MLOverview]]
+- [[07_InterdisciplinarySciences/CognitiveScience/ArtificialIntelligence|ArtificialIntelligence]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/SignalProcessing/DigitalSignalProcessing|DigitalSignalProcessing]]
+- [[05_ComputerScience/HumanComputerInteraction/HumanComputerInteraction|HumanComputerInteraction]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/NeuralNetworksAndDeepLearning/DeepLearning|DeepLearning]]
+
+

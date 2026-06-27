@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Economics', 'Econometrics', 'INDEX']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 璁￠噺缁忔祹瀛?
@@ -139,4 +139,5 @@ updated: 2026-05-13
 ## 鐩稿叧鏉＄洰
 - [[INDEX|褰撳墠鐩綍绱㈠紩]]
 - [[时间序列与面板数据分析]]
+
 

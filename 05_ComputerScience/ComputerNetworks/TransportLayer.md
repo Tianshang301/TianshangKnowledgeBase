@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [TransportLayer]
 tags: ['ComputerNetworks', 'TransportLayer']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 传输层详解 (Transport Layer)
@@ -378,4 +378,6 @@ tcp.analysis.ack_rtt
 - [[NetworkLayer]]
 - [[ApplicationLayer]]
 - [[HTTP]]
-- [[NetworkModels]]
+- [[05_ComputerScience/ComputerNetworks/NetworkModels/NetworkModels|NetworkModels]]
+
+

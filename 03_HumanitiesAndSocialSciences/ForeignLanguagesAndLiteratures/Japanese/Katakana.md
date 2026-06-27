@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Katakana]
 tags: ['ForeignLanguagesAndLiteratures', 'Japanese', 'Katakana']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 片假名完全指南
@@ -205,3 +205,4 @@ updated: 2026-05-13
    - ソ (so) vs ン (n) → 左下是点 vs 左下一撇
    - ク (ku) vs ケ (ke) → ク是勾 + 点，ケ是 开 的部分
    - フ (fu) vs ワ (wa) → フ像富士山，ワ像波浪
+

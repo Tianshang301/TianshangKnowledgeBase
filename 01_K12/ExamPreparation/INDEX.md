@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['ExamPreparation', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # ExamPreparation
@@ -15,3 +15,4 @@ updated: 2026-05-13
 - [[StudyTechniques]] — 学习技巧
 - [[ZhongkaoGuide]] — 中考指南
 - [[../INDEX|K12 教育]]
+

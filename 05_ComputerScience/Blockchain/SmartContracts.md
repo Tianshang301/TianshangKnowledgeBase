@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SmartContracts]
 tags: ['Blockchain', 'SmartContracts']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 智能合约 (Smart Contracts)
@@ -407,3 +407,4 @@ Storage Slot 打包:
 - Ethers.js / Web3.js 文档
 - Hardhat 文档: https://hardhat.org
 - Foundry Book: https://book.getfoundry.sh
+

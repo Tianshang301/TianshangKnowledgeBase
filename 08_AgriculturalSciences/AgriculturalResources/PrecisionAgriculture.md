@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [PrecisionAgriculture]
 tags: ['AgriculturalResources', 'PrecisionAgriculture']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 精准农业
@@ -252,3 +252,4 @@ $$ ET_c = ET_0 \times K_c $$
 ## 相关条目
 
 [[SoilScience]], [[08_AgriculturalSciences/CropScience/INDEX|CropScience]], [[07_InterdisciplinarySciences/EnvironmentalScience/INDEX|EnvironmentalScience]], [[AgriculturalChemistry]]
+

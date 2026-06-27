@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [UsabilityEngineering]
 tags: ['HumanComputerInteraction', 'UsabilityEngineering']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 可用性工程
@@ -365,3 +365,4 @@ NPS 问题: "您向朋友或同事推荐此产品的可能性有多大？" (0-10
 - SUS 论文: Brooke, J. (1996). "SUS: A quick and dirty usability scale"
 - WCAG 2.1: https://www.w3.org/TR/WCAG21
 - System Usability Scale: https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 计算机体系结构
   - 计算机组成
@@ -6,7 +6,7 @@ aliases:
   - CPU 架构
 tags:
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
   - computer-architecture
   - cpu
   - memory-hierarchy
@@ -258,3 +258,4 @@ $C$ = 电容，$V$ = 电压，$f$ = 频率。这也是**暗硅（Dark Silicon）
 - Patterson, D. A., & Hennessy, J. L. (2020). *Computer Organization and Design: The Hardware/Software Interface* (RISC-V Edition)
 - Hennessy, J. L., & Patterson, D. A. (2019). *Computer Architecture: A Quantitative Approach* (6th ed.)
 - 袁春风. (2018). *计算机组成与系统结构*
+

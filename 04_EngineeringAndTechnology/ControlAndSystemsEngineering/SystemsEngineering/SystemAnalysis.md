@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SystemAnalysis]
 tags: ['ControlAndSystemsEngineering', 'SystemsEngineering', 'SystemAnalysis']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 系统分析
@@ -101,7 +101,9 @@ $$R_{sys} = 1 - (1-R_1)(1-R_2)\cdots(1-R_n)$$
 
 ## 相关条目
 - [[SystemModeling]]
-- [[ClassicalControl]]
-- [[ModernControl]]
-- [[OptimalControl]]
-- [[IndustrialAutomation]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/ClassicalControl|ClassicalControl]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/ModernControl|ModernControl]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/OptimalControl|OptimalControl]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/Automation/IndustrialAutomation|IndustrialAutomation]]
+
+

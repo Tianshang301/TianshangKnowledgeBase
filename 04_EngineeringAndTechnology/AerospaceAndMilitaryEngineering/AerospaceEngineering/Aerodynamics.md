@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Aerodynamics]
 tags: ['AerospaceAndMilitaryEngineering', 'AerospaceEngineering', 'Aerodynamics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 空气动力学
@@ -102,4 +102,6 @@ $$C_p = \frac{C_{p,0}}{\sqrt{1-M_\infty^2}}$$
 - [[FlightMechanics]]
 - Propulsion
 - CFD
-- [[FluidMechanics]]
+- [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/FluidMechanics|FluidMechanics]]
+
+

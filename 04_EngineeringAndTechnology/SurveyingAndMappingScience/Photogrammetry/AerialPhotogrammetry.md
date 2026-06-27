@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AerialPhotogrammetry, 航空摄影测量, AerialSurvey, PhotogrammetryAerial]
 tags: ['SurveyingAndMappingScience', 'Photogrammetry', 'AerialPhotogrammetry', 'DEM', 'Stereoscopy']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 航空摄影测量 (Aerial Photogrammetry)
@@ -266,3 +266,4 @@ graph LR
 - [[Orthophoto|正射影像 (Orthophoto)]]
 - [[AerialTriangulation|空中三角测量 (Aerial Triangulation)]]
 - [[INDEX|Photogrammetry 索引]]
+

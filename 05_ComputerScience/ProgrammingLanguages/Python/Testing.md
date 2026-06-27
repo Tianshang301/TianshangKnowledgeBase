@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Testing]
 tags: ['ProgrammingLanguages', 'Python', 'Testing']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Python 测试指南
@@ -539,3 +539,4 @@ def test_sorting(lst):
 ```
 
 > 测试是保障代码质量的关键。unittest 适合简单项目, pytest 提供更强大的功能和更简洁的语法。建议 pytest + pytest-cov + unittest.mock 组合使用。对于关键业务逻辑, 可辅以 hypothesis 进行属性基测试。
+

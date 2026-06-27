@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DistributedStorage]
 tags: ['CloudComputingAndDistributedSystems', 'DistributedStorage']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 分布式存储
@@ -365,8 +365,8 @@ $$W + R > N$$
 
 - CloudComputing
 - [[ConsensusAndCoordination]]
-- [[BigDataTechnologies]]
-- [[NoSQL]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/BigDataTechnologies/BigDataTechnologies|BigDataTechnologies]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/NoSQL/NoSQL|NoSQL]]
 
 ## 参考资源
 
@@ -377,3 +377,5 @@ $$W + R > N$$
 - Cassandra 文档: https://cassandra.apache.org/doc/latest
 - etcd 文档: https://etcd.io/docs
 - TiDB 文档: https://docs.pingcap.com/zh/tidb/stable
+
+

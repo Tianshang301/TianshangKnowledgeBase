@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [QueryOptimization]
 tags: ['05_ComputerScience', 'DatabasesAndInformationSystems']
 created: 2026-05-17
@@ -325,6 +325,7 @@ SELECT * FROM mv_daily_sales WHERE day = CURRENT_DATE;
 | 分区表 (Partitioning) | 2-5x | 时间序列、大表管理 | 分区数过多影响 |
 
 ## 相关条目
-- [[ACID]]
-- [[SystemDesign]]
+- [[05_ComputerScience/CloudComputingAndDistributedSystems/ACID|ACID]]
+- [[05_ComputerScience/SoftwareEngineering/SystemDesign|SystemDesign]]
 - [[05_ComputerScience/DatabasesAndInformationSystems/INDEX]]
+

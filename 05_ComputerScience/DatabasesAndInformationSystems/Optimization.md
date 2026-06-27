@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Optimization]
 tags: ['DatabasesAndInformationSystems', 'Optimization']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 数据库性能优化
@@ -642,3 +642,4 @@ def deduct_stock(product_id, qty):
 - [[MySQLDeep]]
 - [[RedisDeep]]
 - [[RelationalDatabases]]
+

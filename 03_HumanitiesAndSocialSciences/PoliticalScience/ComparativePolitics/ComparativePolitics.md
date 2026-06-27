@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ComparativePolitics]
 tags: ['PoliticalScience', 'ComparativePolitics', 'ComparativePolitics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 比较政治学
@@ -239,9 +239,9 @@ Huntington 在《第三波》中描述了三次全球民主化浪潮：
 
 ## 相关条目
 
-- [[PoliticalTheory]]
+- [[03_HumanitiesAndSocialSciences/PoliticalScience/PoliticalTheory/PoliticalTheory|PoliticalTheory]]
 - History/WorldHistory
-- [[SociologicalTheory]]
+- [[03_HumanitiesAndSocialSciences/Sociology/SociologicalTheory/SociologicalTheory|SociologicalTheory]]
 
 ## 参考资源
 
@@ -253,3 +253,5 @@ Huntington 在《第三波》中描述了三次全球民主化浪潮：
 - Ragin《比较方法》
 - Moore《专制与民主的社会起源》
 - Duverger《政党》
+
+

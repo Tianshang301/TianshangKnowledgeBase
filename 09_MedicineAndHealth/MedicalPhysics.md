@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [MedicalPhysics]
 tags: ['MedicalPhysics', 'Medicine', 'Physics', 'Radiology']
 created: 2026-05-17
@@ -66,7 +66,8 @@ SPECT使用单光子发射放射性核素。PET使用正电子发射放射性核
 ## 相关条目
 
 - [[Physiotherapy]]
-- [[DiagnosticImaging]]
+- [[09_MedicineAndHealth/ClinicalMedicine/DiagnosticImaging|DiagnosticImaging]]
 - [[Oncology]]
 - [[Radiology]]
 - [[NuclearMedicine]]
+

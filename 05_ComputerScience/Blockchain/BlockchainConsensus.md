@@ -1,10 +1,10 @@
----
+﻿---
 aliases:
   - 共识机制
   - Consensus Mechanism
 tags:
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
   - blockchain
   - consensus
   - distributed-systems
@@ -269,3 +269,4 @@ $$\text{Honest Majority: } \beta > \frac{2}{3}$$
 - [Bitcoin Whitepaper](https://bitcoin.org/bitcoin.pdf)
 - [Ethereum Consensus Docs](https://ethereum.org/en/developers/docs/consensus-mechanisms/)
 - [PBFT Original Paper](https://pmg.csail.mit.edu/papers/osdi99.pdf)
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [GitHub, GitHub 使用]
 tags: ['SoftwareEngineering', 'GitAndVersionControl', 'GitHub']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # GitHub 使用 (GitHub Usage)
@@ -319,8 +319,10 @@ gh release create v1.0.0 --title "v1.0.0" --notes "发布说明"
 
 ## 相关条目
 
-- [[GitHubActions]]
+- [[05_ComputerScience/SoftwareEngineering/DevOpsAndCICD/GitHubActions|GitHubActions]]
 - [[Workflow]]
 - [[Branch]]
 - [[Commands]]
 - [[Advanced]]
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['AgriculturalResources', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # AgriculturalResources
@@ -21,3 +21,4 @@ updated: 2026-05-13
 - [[SoilScience]]
 - [[AgriculturalEcology]] - 农业生态学
 - [[AgriculturalPolicy]] - 农业政策
+

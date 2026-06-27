@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FoodEngineeringPrinciples]
 tags: ['FoodScience', 'FoodEngineeringPrinciples']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 食品工程原理
@@ -386,7 +386,7 @@ $$Q_f = m[c_p(T_i - T_f) + L_f + c_{pf}(T_f - T_s)]$$
 - [[FoodProcessing]]
 - [[FoodChemistry]]
 - [[FoodMicrobiology]]
-- [[FluidMechanics]]
+- [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/FluidMechanics|FluidMechanics]]
 - TransportPhenomena
 
 ## 参考资源
@@ -398,3 +398,5 @@ $$Q_f = m[c_p(T_i - T_f) + L_f + c_{pf}(T_f - T_s)]$$
 5. 李云飞, 葛克山. 食品工程原理. 第4版. 中国农业大学出版社, 2018.
 6. 杨同舟. 食品工程原理. 中国农业出版社, 2012.
 7. 潘永康, 王喜忠, 刘相东. 现代干燥技术. 第2版. 化学工业出版社, 2007.
+
+

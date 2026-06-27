@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [GeometricalOptics]
 tags: ['MechanicalAndElectricalEngineering', 'OpticalEngineering', 'GeometricalOptics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 几何光学
@@ -133,6 +133,8 @@ $d$ 为两透镜间距。当 $d = 0$（密接）时：$\frac{1}{f} = \frac{1}{f_
 
 - [[LaserTechnology]]
 - WaveOptics
-- [[OpticalCommunications]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Communications/OpticalCommunications|OpticalCommunications]]
 - Photonics
 - [[02_NaturalSciences/Physics/Electromagnetism/INDEX|Electromagnetism]]
+
+

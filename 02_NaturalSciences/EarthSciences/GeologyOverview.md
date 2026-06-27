@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - Geology
   - EarthScience
@@ -267,9 +267,10 @@ flowchart TB
 - [[Paleontology|古生物学]]
 - [[Volcanology|火山学]]
 - [[Seismology|地震学]]
-- [[EnvironmentalScience|环境科学]]
+- [[07_InterdisciplinarySciences/EnvironmentalScience/EnvironmentalScience|环境科学]]
 - [[StructuralGeology|构造地质学]]
 - [[Sedimentology|沉积学]]
-- [[Geochemistry|地球化学]]
+- [[02_NaturalSciences/EarthSciences/Geochemistry/Geochemistry|地球化学]]
 - [[Hydrogeology|水文地质学]]
 - [[PlanetaryGeology|行星地质学]]
+

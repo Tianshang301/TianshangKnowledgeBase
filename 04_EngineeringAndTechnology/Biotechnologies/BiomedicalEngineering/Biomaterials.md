@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Biomaterials, 生物材料]
 tags: ['Biotechnologies', 'BiomedicalEngineering', 'Biomaterials', 'MaterialsScience']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 生物材料 (Biomaterials)
@@ -200,8 +200,10 @@ $$
 ## 相关条目 (Related Entries)
 
 - [[MedicalDevices]]
-- [[DrugDesign]]
-- [[Formulation]]
-- [[GeneCloning]]
-- [[EnzymeEngineering]]
-- [[TissueEngineering]]
+- [[09_MedicineAndHealth/Pharmacy/DrugDesign|DrugDesign]]
+- [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/PharmaceuticalEngineering/Formulation|Formulation]]
+- [[04_EngineeringAndTechnology/Biotechnologies/GeneticEngineering/GeneCloning|GeneCloning]]
+- [[04_EngineeringAndTechnology/Biotechnologies/EnzymeEngineering/EnzymeEngineering|EnzymeEngineering]]
+- [[09_MedicineAndHealth/RegenerativeMedicine/TissueEngineering|TissueEngineering]]
+
+

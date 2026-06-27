@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - SoftwareTesting
   - 软件测试
@@ -6,7 +6,7 @@ aliases:
   - QA
 tags:
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
   - '05_ComputerScience'
   - 'SoftwareEngineering'
   - 'SoftwareTesting'
@@ -120,8 +120,10 @@ Feature: 用户登录
 
 ## 相关条目
 
-- [[SoftwareEngineering]]
-- [[SoftwareArchitecture]]
-- [[DevOps]]
-- [[ProgrammingLanguages]]
-- [[WebDevelopment]]
+- [[05_ComputerScience/SoftwareEngineering/SoftwareEngineering|SoftwareEngineering]]
+- [[05_ComputerScience/SoftwareEngineering/SoftwareArchitecture|SoftwareArchitecture]]
+- [[05_ComputerScience/SoftwareEngineering/DevOpsAndCICD/DevOps|DevOps]]
+- [[05_ComputerScience/ProgrammingLanguages/ProgrammingLanguages|ProgrammingLanguages]]
+- [[05_ComputerScience/EngineeringDevelopment/WebDevelopment/WebDevelopment|WebDevelopment]]
+
+

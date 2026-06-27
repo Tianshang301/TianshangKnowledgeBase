@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['EnvironmentalScienceAndEngineering', 'EnvironmentalEngineering', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # EnvironmentalEngineering
@@ -11,10 +11,12 @@ updated: 2026-05-13
 
 ## 鏂囦欢
 
-- [[Ecology]]
+- [[07_InterdisciplinarySciences/EnvironmentalScience/Ecology|Ecology]]
 - [[09_MedicineAndHealth/PublicHealth/INDEX|PublicHealth]]
 - [[AirPollutionControl]]
 - [[SolidWasteManagement]]
 - [[WastewaterTreatment]]
 - [[SoilAndWaterConservation]]
+
+
 

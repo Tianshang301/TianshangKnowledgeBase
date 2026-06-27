@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Arts', 'FineArts', 'INDEX']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # FineArts
@@ -139,4 +139,5 @@ updated: 2026-05-13
 - [[INDEX|褰撳墠鐩綍绱㈠紩]]
 - [[绘画与雕塑]]
 - [[绘画技法进阶]]
+
 

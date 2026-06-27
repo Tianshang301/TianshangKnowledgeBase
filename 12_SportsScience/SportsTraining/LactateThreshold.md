@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LactateThreshold, 乳酸阈值, AnaerobicThreshold, 无氧阈, OBLA, BloodLactate, LactateTesting]
 tags: ['12_SportsScience', 'SportsTraining', 'LactateThreshold', 'EnduranceTraining', 'ExercisePhysiology']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 乳酸阈值 Lactate Threshold
@@ -232,3 +232,4 @@ graph TD
 - [[SportsPeriodization]]
 - [[INDEX|SportsTraining 索引]]
 - [[../../INDEX|TianshangKnowledgeBase 索引]]
+

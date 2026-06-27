@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['SeniorHigh', 'Biology', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Biology
@@ -18,7 +18,7 @@ updated: 2026-05-13
 | 缁冧範 | [[缁冧範棰樹笌瑙ｆ瀽]] | 缁煎悎缁冧範棰樹笌璇︾粏瑙ｆ瀽 |
 - [[01_K12/JuniorHigh/Biology/INDEX|Biology]]
 - [[02_NaturalSciences/Chemistry/Biochemistry/INDEX|Biochemistry]]
-- [[Ecology]]
+- [[07_InterdisciplinarySciences/EnvironmentalScience/Ecology|Ecology]]
 - [[分子与细胞]]
 - [[动物分类学]]
 - [[动物行为学]]
@@ -28,4 +28,6 @@ updated: 2026-05-13
 - [[稳态与环境]]
 - [[练习题与解析]]
 - [[遗传与进化]]
+
+
 

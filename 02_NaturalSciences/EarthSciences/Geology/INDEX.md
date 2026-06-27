@@ -12,9 +12,10 @@ updated: 2026-05-13---
 - [[鐭跨墿瀛︿笌宀╃煶瀛]
 - [[鏋勯€犲湴璐ㄥ]]
 - [[鍦板彶涓庡彜鐢熺墿瀛]
-- [[Geophysics]]
-- [[Geochemistry]]
+- [[02_NaturalSciences/Physics/Geophysics/Geophysics|Geophysics]]
+- [[02_NaturalSciences/EarthSciences/Geochemistry/Geochemistry|Geochemistry]]
 - [[地史与古生物学]]
 - [[构造地质学]]
 - [[矿物学与岩石学]]
+
 

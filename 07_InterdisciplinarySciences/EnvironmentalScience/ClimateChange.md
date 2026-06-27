@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ClimateChange]
 tags: ['EnvironmentalScience', 'ClimateChange']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 气变?
@@ -217,3 +217,4 @@ UNEP 报告指出，各国现有 NDC 将导致本世纪末升温约2.5-2.9°C，
 ## 相关条目
 
 [[Ecology]], [[ClimateChange]], [[EnvironmentalPolicy]], Sustainability
+

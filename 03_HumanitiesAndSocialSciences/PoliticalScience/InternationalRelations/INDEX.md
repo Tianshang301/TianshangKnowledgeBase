@@ -2,7 +2,7 @@
 aliases: [InternationalRelations]
 tags: ['03_HumanitiesAndSocialSciences', 'PoliticalScience', 'InternationalRelations']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 # InternationalRelations
 
@@ -139,4 +139,5 @@ updated: 2026-05-13
 - [[国际关系理论]]
 - [[国际组织与全球治理]]
 - [[地缘政治与热点问题]]
+
 

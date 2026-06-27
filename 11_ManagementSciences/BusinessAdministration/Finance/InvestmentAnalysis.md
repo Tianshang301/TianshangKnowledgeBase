@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [InvestmentAnalysis]
 tags: ['BusinessAdministration', 'Finance', 'InvestmentAnalysis']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 投资分析
@@ -180,3 +180,4 @@ K 线图是最常用的价格图表。趋势线用于识别价格运动方向。
 - 财务管理
 - 金融工程
 - 量化投资
+

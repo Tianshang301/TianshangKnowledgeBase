@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [NetworkSecurity]
 tags: ['ComputerNetworks', 'NetworkSecurity', 'NetworkSecurity']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 网络安全 (Network Security)
@@ -299,9 +299,9 @@ SASE 融合网络与安全功能：
 
 ## 相关条目
 
-- [[Cybersecurity]]
+- [[05_ComputerScience/Cybersecurity/Cybersecurity|Cybersecurity]]
 - Cryptography
-- [[NetworkProtocols]]
+- [[05_ComputerScience/ComputerNetworks/NetworkProtocols/NetworkProtocols|NetworkProtocols]]
 
 ## 参考资源
 
@@ -310,3 +310,5 @@ SASE 融合网络与安全功能：
 - NIST 网络安全框架
 - RFC 8446 (TLS 1.3)
 - 《零信任网络》(Kindervag)
+
+

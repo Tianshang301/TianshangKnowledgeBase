@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [TransportationEngineering]
 tags: ['TransportationEngineering', 'TransportationEngineering']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 交通运输工程
@@ -101,5 +101,7 @@ $$ \sum_a \int_0^{x_a} t_a(\omega)d\omega \to \min $$
 - [[04_EngineeringAndTechnology/CivilEngineering/UrbanPlanning/INDEX|UrbanPlanning]]
 - [[04_EngineeringAndTechnology/TransportationEngineering/Logistics/INDEX|Logistics]]
 - [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/MechanicalEngineering/INDEX|MechanicalEngineering]]
-- [[HighwayEngineering]]
-- [[TrafficEngineering]]
+- [[04_EngineeringAndTechnology/TransportationEngineering/RoadAndRailway/HighwayEngineering|HighwayEngineering]]
+- [[04_EngineeringAndTechnology/TransportationEngineering/TrafficInformation/TrafficEngineering|TrafficEngineering]]
+
+

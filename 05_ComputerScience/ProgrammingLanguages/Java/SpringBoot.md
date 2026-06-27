@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SpringBoot]
 tags: ['ProgrammingLanguages', 'Java', 'SpringBoot']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Spring Boot 快速指南
@@ -438,3 +438,4 @@ class UserRepositoryTest {
     }
 }
 ```
+

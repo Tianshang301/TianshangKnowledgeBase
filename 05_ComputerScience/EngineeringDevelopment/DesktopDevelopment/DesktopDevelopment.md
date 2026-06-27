@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DesktopDevelopment]
 tags: ['EngineeringDevelopment', 'DesktopDevelopment', 'DesktopDevelopment']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 桌面开发 (Desktop Development)
@@ -383,8 +383,8 @@ $$N_{\text{threads}} = N_{\text{cores}} \times (1 + \text{IO 等待比})$$
 
 ## 相关条目
 
-- [[WebDevelopment]]
-- [[MobileDevelopment]]
+- [[05_ComputerScience/EngineeringDevelopment/WebDevelopment/WebDevelopment|WebDevelopment]]
+- [[05_ComputerScience/EngineeringDevelopment/MobileDevelopment/MobileDevelopment|MobileDevelopment]]
 - CrossPlatform
 - GUI
 
@@ -395,3 +395,5 @@ $$N_{\text{threads}} = N_{\text{cores}} \times (1 + \text{IO 等待比})$$
 - Apple Developer Documentation: AppKit & SwiftUI
 - Qt Documentation: https://doc.qt.io/
 - Tauri Documentation: https://v2.tauri.app/
+
+

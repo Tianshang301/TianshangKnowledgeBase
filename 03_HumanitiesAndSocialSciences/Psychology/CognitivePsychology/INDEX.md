@@ -2,7 +2,7 @@
 aliases: [CognitivePsychology]
 tags: ['03_HumanitiesAndSocialSciences', 'Psychology', 'CognitivePsychology']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 # CognitivePsychology
 
@@ -12,7 +12,7 @@ updated: 2026-05-13
 
 - [[娉ㄦ剰涓庤蹇哴]
 - [[鎬濈淮鍐崇瓥涓庡厓璁ょ煡]]
-- [[EducationalPsychology]]
+- [[03_HumanitiesAndSocialSciences/Psychology/EducationalPsychology/EducationalPsychology|EducationalPsychology]]
 - [[07_InterdisciplinarySciences/CognitiveScience/INDEX|CognitiveScience]]
 - [[02_NaturalSciences/Biology/Neuroscience/INDEX|Neuroscience]]
 
@@ -145,4 +145,6 @@ updated: 2026-05-13
 - [[CognitivePsychology]]
 - [[思维决策与元认知]]
 - [[注意与记忆]]
+
+
 

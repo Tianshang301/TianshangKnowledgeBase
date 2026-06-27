@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MediaStudies]
 tags: ['JournalismAndCommunication', 'MediaStudies', 'MediaStudies']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 媒介研究
@@ -194,8 +194,8 @@ $$
 
 ## 相关条目
 
-- [[Communication]]
-- [[DigitalMedia]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Microcontrollers/STM32/Communication|Communication]]
+- [[03_HumanitiesAndSocialSciences/JournalismAndCommunication/DigitalMedia/DigitalMedia|DigitalMedia]]
 - [[03_HumanitiesAndSocialSciences/Sociology/INDEX|Sociology]]
 - [[03_HumanitiesAndSocialSciences/Psychology/INDEX|Psychology]]
 
@@ -207,3 +207,5 @@ $$
 4. Morley, D. (1992). *Television, Audiences and Cultural Studies*. Routledge.
 5. Couldry, N., & Hepp, A. (2017). *The Mediated Construction of Reality*. Polity.
 6. 国际传播学会（ICA）年会论文集
+
+

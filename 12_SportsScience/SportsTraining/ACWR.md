@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - ACWR
   - AcuteChronicWorkloadRatio
@@ -281,9 +281,10 @@ $$ \text{位置调整后} = \text{通用 ACWR} + \Delta_{\text{位置}} $$
 - [[TrainingPeriodization|训练周期化]]
 - [[RecoveryMethods|恢复方法]]
 - [[SportsPhysiology|运动生理学]]
-- [[InjuryPrevention|损伤预防]]
+- [[12_SportsScience/SportsMedicine/InjuryPrevention|损伤预防]]
 - [[MonitoringLoad|训练负荷监控]]
 - [[RPEBasedTraining|RPE 训练负荷]]
 - [[SportsDataAnalytics|运动数据分析]]
 - [[INDEX|SportsTraining 索引]]
 - [[../../INDEX|TianshangKnowledgeBase 索引]]
+

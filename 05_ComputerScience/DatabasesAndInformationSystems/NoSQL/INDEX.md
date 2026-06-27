@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['DatabasesAndInformationSystems', 'NoSQL', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # NoSQL 鏁版嵁搴?
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[NoSQL]]
 - [[鍒嗗竷寮忔暟鎹簱涓?NewSQL]]
 - [[分布式数据库与NewSQL]]
+
 

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [UnionFind]
 tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'UnionFind']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 并查集
@@ -369,7 +369,9 @@ def find_circle_num(is_connected):
 ## 相关条目
 
 - [[Graph]]
-- [[BFSDFS]]
-- [[MST]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BFSDFS|BFSDFS]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/MST|MST]]
 - [[SegmentTree]]
 - [[HashTable]]
+
+

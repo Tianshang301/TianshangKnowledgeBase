@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Combinational]
 tags: ['HardwareAndEmbeddedSystems', 'DigitalCircuits', 'Combinational']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 组合逻辑电路
@@ -271,5 +271,7 @@ b = A'B'C'D' + A'B'C'D + A'B'CD' + A'B'CD + A'BC'D' + A'BCD + AB'C'D' + AB'C'D
 - [[Gates]]
 - [[Sequential]]
 - [[StateMachine]]
-- [[DigitalLogic]]
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/DigitalLogic/DigitalLogic|DigitalLogic]]
 - [[Verilog 硬件描述语言]]
+
+

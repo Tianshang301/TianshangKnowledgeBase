@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['ChemicalAndPharmaceuticalEngineering', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # ChemicalAndPharmaceuticalEngineering
@@ -14,11 +14,13 @@ updated: 2026-05-13
 - [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/ChemicalEngineering/INDEX]]
 - [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/FineChemicals/INDEX]]
 - [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/PharmaceuticalEngineering/INDEX]]
-- [[BiochemicalEngineering]]
-- [[ChemicalProcessDesign]]
+- [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/ChemicalEngineering/BiochemicalEngineering|BiochemicalEngineering]]
+- [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/ChemicalEngineering/ChemicalProcessDesign|ChemicalProcessDesign]]
 - [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/PharmaceuticalEngineering/INDEX]]
-- [[ProcessSafety]]
-- [[ReactionEngineering]]
-- [[SeparationProcesses]]
-- [[TransportPhenomena]]
+- [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/ChemicalEngineering/ProcessSafety|ProcessSafety]]
+- [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/ChemicalEngineering/ReactionEngineering|ReactionEngineering]]
+- [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/ChemicalEngineering/SeparationProcesses|SeparationProcesses]]
+- [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/ChemicalEngineering/TransportPhenomena|TransportPhenomena]]
 - [[../INDEX]]
+
+

@@ -1,7 +1,7 @@
----
+﻿---
 aliases: [Mechatronics]
 created: 2026-05-16
-updated: 2026-05-13---
+updated: 2026-05-16---
 
 # 机电一体化
 
@@ -12,3 +12,4 @@ updated: 2026-05-13---
 - [[ControlSystems]]
 - [[PLCProgramming]]
 - [[RoboticsBasics]]
+

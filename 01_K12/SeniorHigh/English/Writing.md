@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Writing]
 tags: ['SeniorHigh', 'English', 'Writing']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 高中英语 · 写作
@@ -598,4 +598,5 @@ Li Hua
 
 
 HighSchoolEducation, CollegeEntranceExam, SubjectStudy, AdvancedPlacement
+
 

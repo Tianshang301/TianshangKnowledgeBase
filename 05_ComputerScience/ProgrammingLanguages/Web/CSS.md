@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CSS]
 tags: ['ProgrammingLanguages', 'Web', 'CSS']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # CSS3 完整参考
@@ -537,3 +537,4 @@ div, p               {}  /* 分组选择器 */
 ```
 
 > CSS3 是 Web 样式的核心, 重点掌握 Flexbox 和 Grid 布局、响应式设计、动画与过渡。建议采用 "移动优先" 的策略进行响应式开发。
+

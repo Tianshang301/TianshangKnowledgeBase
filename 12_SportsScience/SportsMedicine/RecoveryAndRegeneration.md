@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [RecoveryAndRegeneration, 恢复与再生, 运动恢复]
 tags: [SportsMedicine, ExercisePhysiology, Recovery, SportsNutrition]
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 恢复与再生
@@ -227,4 +227,6 @@ flowchart TD
 
 ## 运动恢复专题相关条目
 
-[[Overtraining]], [[SelfMassage]], [[Hydration]], [[SportsNutrition]], [[SleepHygiene]], [[Periodization]]
+[[Overtraining]], [[SelfMassage]], [[Hydration]], [[SportsNutrition]], [[SleepHygiene]], [[12_SportsScience/SportsTraining/Periodization|Periodization]]
+
+

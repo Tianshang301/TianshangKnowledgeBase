@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['ComputerGraphicsAndVision', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # ComputerGraphicsAndVision
@@ -13,7 +13,9 @@ updated: 2026-05-13
 
 - [[ComputerGraphics]] - 计算机图形学
 - [[ComputerGraphicsAndVision]] - 计算机图形学与视觉
-- [[ComputerVision]] - 计算机视觉
-- [[ComputerVisionDeepLearning]] - 计算机视觉深度学习
-- [[ImageProcessing]] - 图像处理
+- [[05_ComputerScience/ArtificialIntelligence/ComputerVision/ComputerVision|ComputerVision]] - 计算机视觉
+- [[05_ComputerScience/ArtificialIntelligence/ComputerVision/ComputerVisionDeepLearning]] - 计算机视觉深度学习
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/SignalProcessing/ImageProcessing|ImageProcessing]] - 图像处理
 - [[Rendering]] - 渲染
+
+

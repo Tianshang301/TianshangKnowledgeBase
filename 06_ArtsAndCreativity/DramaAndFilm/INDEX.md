@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['DramaAndFilm', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # DramaAndFilm
@@ -16,8 +16,8 @@ updated: 2026-05-13
 - **绱㈠紩**锛歔[INDEX]]
 - **绱㈠紩**锛歔[INDEX]]
 - **绱㈠紩**锛歔[INDEX]]
-- [[MediaStudies]]
-- [[ArtHistory]]
+- [[03_HumanitiesAndSocialSciences/JournalismAndCommunication/MediaStudies/MediaStudies|MediaStudies]]
+- [[06_ArtsAndCreativity/FineArts/ArtHistory/ArtHistory|ArtHistory]]
 - [[06_ArtsAndCreativity/PhotographyAndCinematography/INDEX|PhotographyAndCinematography]]
 - [[FilmStudies]]
 - [[FilmTheory]]
@@ -27,4 +27,6 @@ updated: 2026-05-13
 - [[FilmStudies/INDEX|FilmStudies]]
 - [[Screenwriting/INDEX|Screenwriting]]
 - [[TelevisionArts/INDEX|TelevisionArts]]
+
+
 

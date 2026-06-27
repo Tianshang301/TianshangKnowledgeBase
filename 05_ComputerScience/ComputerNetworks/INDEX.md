@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['ComputerNetworks', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # ComputerNetworks
@@ -11,8 +11,8 @@ updated: 2026-05-13
 
 ## 鏂囦欢
 
-- [[OperatingSystems]]
-- [[Cybersecurity]]
+- [[04_EngineeringAndTechnology/ComputerAndInformationSciences/OperatingSystems|OperatingSystems]]
+- [[05_ComputerScience/Cybersecurity/Cybersecurity|Cybersecurity]]
 - [[05_ComputerScience/ComputerNetworks/NetworkModels/INDEX]]
 - [[DNS]]
 - [[HTTP]]
@@ -28,4 +28,6 @@ updated: 2026-05-13
 - [[LoRaWAN]]
 - [[MQTT]]
 - [[SmartHome]]
+
+
 

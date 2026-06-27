@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [EmergencyMedicine]
 tags: ['ClinicalMedicine', 'EmergencyMedicine']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 急诊医学
@@ -201,3 +201,4 @@ FAST 超声用于创伤患者快速评估腹腔游离液体。肺部超声评估
 - 外科学
 - 重症医学
 - 创伤学
+

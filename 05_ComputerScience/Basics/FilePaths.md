@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FilePaths]
 tags: ['Basics', 'FilePaths']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 文件路径详解
@@ -200,3 +200,4 @@ if unc_path.exists():
 ```
 
 > **注意**：Python 中使用 UNC 路径时，建议使用原始字符串 `r"\\server\share"` 避免反斜杠转义问题。
+

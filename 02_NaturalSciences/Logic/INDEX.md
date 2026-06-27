@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Logic', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 閫昏緫瀛︾煡璇嗙储寮?
@@ -113,4 +113,5 @@ updated: 2026-05-13
 - [[InductiveLogic/INDEX|InductiveLogic]]
 - [[MathematicalLogic/INDEX|MathematicalLogic]]
 - [[Methodology/INDEX|Methodology]]
+
 

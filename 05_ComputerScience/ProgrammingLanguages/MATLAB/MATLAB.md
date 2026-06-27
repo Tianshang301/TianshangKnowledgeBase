@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MATLAB]
 tags: ['ProgrammingLanguages', 'MATLAB', 'MATLAB']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # MATLAB
@@ -325,3 +325,4 @@ filtered = imfilter(gray, fspecial('gaussian', [5 5], 2));  % 高斯滤波
 - 《精通 MATLAB》（Stephen J. Chapman）
 - [MATLAB Answers](https://www.mathworks.com/matlabcentral/answers/)
 - [File Exchange - 社区贡献代码](https://www.mathworks.com/matlabcentral/fileexchange/)
+

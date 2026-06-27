@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ArchivalScience]
 tags: ['LibraryAndArchive', 'ArchivalScience']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 档案学
@@ -184,3 +184,4 @@ updated: 2026-05-13
 - 文献学
 - 历史学
 - 文书学
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [HistoricalArchaeology]
 tags: ['Archaeology', 'HistoricalArchaeology', 'HistoricalArchaeology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 历史考古学
@@ -214,7 +214,7 @@ updated: 2026-05-13
 
 ## 相关条目
 
-[[ArchaeologicalMethods]] · [[ChineseHistory]] · [[WorldHistory]] · [[Historiography]]
+[[03_HumanitiesAndSocialSciences/Archaeology/ArchaeologicalMethods/ArchaeologicalMethods|ArchaeologicalMethods]] · [[03_HumanitiesAndSocialSciences/History/ChineseHistory/ChineseHistory|ChineseHistory]] · [[03_HumanitiesAndSocialSciences/History/WorldHistory/WorldHistory|WorldHistory]] · [[03_HumanitiesAndSocialSciences/History/Historiography/Historiography|Historiography]]
 
 ## 参考资源
 
@@ -228,3 +228,5 @@ updated: 2026-05-13
 | 战场考古 | Sutherland & Holley《The Archaeology of War》 |
 | 非洲离散 | Singleton《The Archaeology of Slavery and Plantation Life》 |
 | 遗产管理 | Carman《Archaeology and Heritage: An Introduction》 |
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ElectricMachines]
 tags: ['MechanicalAndElectricalEngineering', 'ElectricalEngineering', 'ElectricMachines']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 电机学
@@ -165,5 +165,7 @@ $$T = \frac{3p}{2\pi f_1}\cdot\frac{U_1^2 R_2'/s}{(R_1+R_2'/s)^2+(X_1+X_2')^2}$$
 
 - [[PowerSystems]]
 - [[CircuitAnalysis]]
-- [[ControlSystems]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/Mechatronics/ControlSystems|ControlSystems]]
 - [[04_EngineeringAndTechnology/EnergyAndNuclearEngineering/RenewableEnergy/INDEX|RenewableEnergy]]
+
+

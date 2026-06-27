@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Entomology]
 tags: ['PlantProtection', 'Entomology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 昆虫学
@@ -245,3 +245,4 @@ $$D = \frac{C}{T - T_0}$$
 ## 相关条目
 
 [[08_AgriculturalSciences/CropScience/INDEX|CropScience]], [[Entomology]], [[08_AgriculturalSciences/Horticulture/INDEX|Horticulture]], [[PesticideScience]], [[PlantPathology]], [[WeedScience]]
+

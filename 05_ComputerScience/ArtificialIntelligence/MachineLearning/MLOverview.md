@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MachineLearning, 机器学习, ML]
 tags: ['05_ComputerScience', 'AI', 'MachineLearning']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 机器学习概述 (Machine Learning Overview)
@@ -148,9 +148,11 @@ $$
 
 ## 相关条目
 
-- [[RLOverview]]
-- [[NLPOverview]]
-- [[DeepLearning]]
-- [[ArtificialIntelligence]]
-- [[DataMining]]
-- [[ComputerVision]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/ReinforcementLearning/RLOverview|RLOverview]]
+- [[05_ComputerScience/ArtificialIntelligence/NaturalLanguageProcessing/NLPOverview|NLPOverview]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/NeuralNetworksAndDeepLearning/DeepLearning|DeepLearning]]
+- [[07_InterdisciplinarySciences/CognitiveScience/ArtificialIntelligence|ArtificialIntelligence]]
+- [[07_InterdisciplinarySciences/DataScience/DataMining|DataMining]]
+- [[05_ComputerScience/ArtificialIntelligence/ComputerVision/ComputerVision|ComputerVision]]
+
+

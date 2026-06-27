@@ -1,11 +1,11 @@
----
+﻿---
 aliases:
   - 网络安全
   - 信息安全
   - Cybersecurity Overview
 tags:
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
   - cybersecurity
   - security
   - network
@@ -286,3 +286,4 @@ $$Trust = f(Identity, DeviceHealth, Behavior, Context)$$
 - [OWASP](https://owasp.org/)
 - [SANS Reading Room](https://www.sans.org/reading-room/)
 - [CIS Controls](https://www.cisecurity.org/controls)
+

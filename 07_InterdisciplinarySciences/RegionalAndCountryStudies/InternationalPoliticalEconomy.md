@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [InternationalPoliticalEconomy]
 tags: ['RegionalAndCountryStudies', 'InternationalPoliticalEconomy']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 国际政治经济学
@@ -311,3 +311,4 @@ $$G = \frac{2\sum_{i=1}^{n} i y_i}{n\sum_{i=1}^{n} y_i} - \frac{n+1}{n}$$
 ## 相关条目
 
 [[03_HumanitiesAndSocialSciences/PoliticalScience/INDEX|PoliticalScience]], [[InternationalRelations]], [[ComparativePolitics]], [[AreaStudies]]
+

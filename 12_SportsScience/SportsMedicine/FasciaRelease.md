@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FasciaRelease, 筋膜放松, 筋膜释放, MyofascialRelease, FoamRolling]
 tags: ['12_SportsScience', 'SportsMedicine', 'Recovery', 'ManualTherapy']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 筋膜放松 (Fascia Release)
@@ -128,3 +128,4 @@ graph LR
 - [[MusclePhysiology|肌肉生理学]]
 - [[INDEX|SportsMedicine 索引]]
 - [[../../INDEX|TianshangKnowledgeBase 索引]]
+

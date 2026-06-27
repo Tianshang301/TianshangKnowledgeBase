@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MachineLearningForMaterials, 材料机器学习]
 tags: ['MaterialsInformatics', 'MachineLearning', 'MaterialsScience', 'ComputationalMaterials']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 材料机器学习
@@ -203,3 +203,4 @@ $$EI(x) = \sigma(x) \cdot [u \cdot \Phi(u) + \phi(u)], \quad u = \frac{f^* - \mu
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]]
 - [[ComputationalChemistry]]
 - [[MaterialsGenome]]
+

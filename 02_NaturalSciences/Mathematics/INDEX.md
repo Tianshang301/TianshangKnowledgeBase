@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Mathematics', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Mathematics
@@ -12,23 +12,23 @@ updated: 2026-05-13
 ## 鏂囦欢
 
 - [[DiscreteMathematics]]
-- [[BasicAlgorithms]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BasicAlgorithms/BasicAlgorithms|BasicAlgorithms]]
 - [[ComputationalGeometry]]
-- [[Cryptography]]
-- [[GameTheory]]
-- [[MathematicalLogic]]
-- [[MathematicalPhysics]]
-- [[NonlinearScience]]
-- [[NumericalAnalysis]]
+- [[05_ComputerScience/Cybersecurity/Cryptography|Cryptography]]
+- [[11_ManagementSciences/ManagementScienceAndEngineering/GameTheory|GameTheory]]
+- [[02_NaturalSciences/Logic/MathematicalLogic|MathematicalLogic]]
+- [[02_NaturalSciences/Physics/ClassicalMechanics/MathematicalPhysics|MathematicalPhysics]]
+- [[02_NaturalSciences/Physics/ClassicalMechanics/NonlinearScience|NonlinearScience]]
+- [[02_NaturalSciences/Mathematics/ComputationalMathematics/NumericalAnalysis|NumericalAnalysis]]
 - [[02_NaturalSciences/Mathematics/DifferentialEquations/INDEX]]
-- [[GraphTheory]]
-- [[InformationTheory]]
-- [[LinearAlgebra]]
+- [[02_NaturalSciences/Logic/MathematicalLogic/GraphTheory|GraphTheory]]
+- [[05_ComputerScience/InformationTheory/InformationTheory|InformationTheory]]
+- [[11_ManagementSciences/ManagementScienceAndEngineering/LinearAlgebra|LinearAlgebra]]
 - [[02_NaturalSciences/Mathematics/NumberTheory/INDEX]]
-- [[ProbabilityAndStatistics]]
+- [[02_NaturalSciences/Mathematics/ProbabilityStatistics/ProbabilityAndStatistics|ProbabilityAndStatistics]]
 - [[02_NaturalSciences/Mathematics/Topology/INDEX]]
-- [[Optimization]]
-- [[SetTheory]]
+- [[05_ComputerScience/CompilerPrinciples/Optimization|Optimization]]
+- [[02_NaturalSciences/Logic/MathematicalLogic/SetTheory|SetTheory]]
 - [[AppliedMathematics]]
 - [[ComputationalMathematics]]
 - [[NumericalComputation]]
@@ -37,4 +37,6 @@ updated: 2026-05-13
 - [[HistoryOfMathematics/INDEX|HistoryOfMathematics]]
 - [[MathematicalAnalysis/INDEX|MathematicalAnalysis]]
 - [[ProbabilityStatistics/INDEX|ProbabilityStatistics]]
+
+
 

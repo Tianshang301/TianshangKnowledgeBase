@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CognitiveNeuroscience]
 tags: ['CognitiveScience', 'CognitiveNeuroscience']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 认知神经科学
@@ -235,3 +235,4 @@ updated: 2026-05-13
 ## 相关条目
 
 [[02_NaturalSciences/Biology/Neuroscience/INDEX|Neuroscience]], [[03_HumanitiesAndSocialSciences/Psychology/INDEX|Psychology]], [[ArtificialIntelligence]], [[03_HumanitiesAndSocialSciences/Linguistics/INDEX|Linguistics]]
+

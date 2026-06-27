@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['CivilEngineering', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # CivilEngineering
@@ -14,10 +14,10 @@ updated: 2026-05-13
 - [[ConstructionManagement]]
 - [[EnvironmentalEngineering]]
 - [[04_EngineeringAndTechnology/CivilEngineering/GeotechnicalEngineering/INDEX]]
-- [[HydraulicEngineering]]
+- [[04_EngineeringAndTechnology/HydraulicAndMarineEngineering/HydraulicEngineering/HydraulicEngineering|HydraulicEngineering]]
 - [[04_EngineeringAndTechnology/CivilEngineering/StructuralEngineering/INDEX]]
 - [[Surveying]]
-- [[TransportationEngineering]]
+- [[04_EngineeringAndTechnology/TransportationEngineering/TransportationEngineering|TransportationEngineering]]
 - [[../INDEX]]
 - [[CADD]]
 - [[HeatingVentilationAndAirConditioning]]
@@ -26,4 +26,6 @@ updated: 2026-05-13
 - [[BuildingScience/INDEX|BuildingScience]]
 - [[LandscapeArchitecture/INDEX|LandscapeArchitecture]]
 - [[UrbanPlanning/INDEX|UrbanPlanning]]
+
+
 

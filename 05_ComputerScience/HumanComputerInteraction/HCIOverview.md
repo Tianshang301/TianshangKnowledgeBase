@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - HumanComputerInteraction
   - HCI
@@ -7,7 +7,7 @@ aliases:
   - UX
 tags:
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
   - '05_ComputerScience'
   - 'HumanComputerInteraction'
   - 'UXDesign'
@@ -132,8 +132,10 @@ Nielsen 10 条可用性启发式（Nielsen's 10 Usability Heuristics）：
 
 ## 相关条目
 
-- [[ArtificialIntelligence]]
-- [[SoftwareEngineering]]
-- [[DataVisualization]]
-- [[Robotics]]
-- [[GameDevelopment]]
+- [[07_InterdisciplinarySciences/CognitiveScience/ArtificialIntelligence|ArtificialIntelligence]]
+- [[05_ComputerScience/SoftwareEngineering/SoftwareEngineering|SoftwareEngineering]]
+- [[07_InterdisciplinarySciences/DataScience/DataVisualization|DataVisualization]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Robotics/Robotics|Robotics]]
+- [[05_ComputerScience/EngineeringDevelopment/GameDevelopment/GameDevelopment|GameDevelopment]]
+
+

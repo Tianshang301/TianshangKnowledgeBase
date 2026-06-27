@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CoastalEngineering, 海岸工程, CoastalZoneManagement]
 tags: ['HydraulicAndMarineEngineering', 'HarborAndCoastalEngineering', 'CoastalEngineering', 'Waves', 'Erosion']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 海岸工程（Coastal Engineering）
@@ -263,10 +263,12 @@ graph LR
 
 ## 相关条目
 
-- [[OceanEngineering|海洋工程]]
+- [[04_EngineeringAndTechnology/HydraulicAndMarineEngineering/NavalArchitecture/OceanEngineering|海洋工程]]
 - [[HarborEngineering|港口工程]]
 - [[OffshoreStructures|离岸结构]]
 - [[SedimentTransport|泥沙运动]]
 - [[WaveEnergy|波浪能]]
 - [[ClimateChangeAdaptation|气候适应]]
 - [[INDEX|HarborAndCoastalEngineering 索引]]
+
+

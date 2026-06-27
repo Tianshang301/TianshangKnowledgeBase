@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Mathematics', 'ProbabilityStatistics', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # ProbabilityStatistics
@@ -16,7 +16,9 @@ updated: 2026-05-13
 - [[Regression]]
 - [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]]
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]]
-- [[Econometrics]]
+- [[03_HumanitiesAndSocialSciences/Economics/Econometrics/Econometrics|Econometrics]]
 - [[Inference]]
 - [[ProbabilityAndStatistics]]
+
+
 

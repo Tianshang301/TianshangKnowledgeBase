@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FireScience]
 tags: ['EnvironmentalScienceAndEngineering', 'SafetyScience', 'FireScience']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 消防工程
@@ -97,6 +97,8 @@ updated: 2026-05-13
 
 ## 相关条目
 - [[RiskAssessment]]
-- [[BuildingPhysics]]
-- [[BuildingMaterials]]
-- [[StructuralAnalysis]]
+- [[04_EngineeringAndTechnology/CivilEngineering/BuildingScience/BuildingPhysics|BuildingPhysics]]
+- [[04_EngineeringAndTechnology/CivilEngineering/BuildingScience/BuildingMaterials|BuildingMaterials]]
+- [[04_EngineeringAndTechnology/CivilEngineering/StructuralEngineering/StructuralAnalysis|StructuralAnalysis]]
+
+

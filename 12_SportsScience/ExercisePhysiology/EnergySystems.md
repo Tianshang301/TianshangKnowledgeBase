@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [EnergySystems]
 tags: ['ExercisePhysiology', 'EnergySystems']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 能量系统
@@ -291,3 +291,4 @@ RER=VCO₂/VO₂。
 ## 相关条目
 
 运动生理学、耐力训练、乳酸阈值、肌肉生理学、训练周期化、运动营养学、运动恢复、运动与代谢健康
+

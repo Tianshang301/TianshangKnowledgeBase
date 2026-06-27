@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [WirelessNetworks]
 tags: ['ComputerNetworks', 'WirelessNetworks', 'WirelessNetworks']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 无线网络 (Wireless Networks)
@@ -352,10 +352,10 @@ Wi-Fi 漫游:
 ## 相关条目
 
 - [[蜂窝网络与5G 技术]]
-- [[NetworkModels]]
-- [[NetworkProtocols]]
-- [[LinkLayer]]
-- [[IoT]]
+- [[05_ComputerScience/ComputerNetworks/NetworkModels/NetworkModels|NetworkModels]]
+- [[05_ComputerScience/ComputerNetworks/NetworkProtocols/NetworkProtocols|NetworkProtocols]]
+- [[05_ComputerScience/ComputerNetworks/LinkLayer|LinkLayer]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/IoT/IoT|IoT]]
 
 ## 参考资源
 
@@ -364,3 +364,5 @@ Wi-Fi 漫游:
 - 《5G NR：下一代无线通信技术》(Dahlman)
 - 《Bluetooth 5 核心规范》
 - Wi-Fi Alliance 技术文档 (https://www.wi-fi.org/)
+
+

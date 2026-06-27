@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ReactorDesign, 反应堆设计]
 tags: ['04_EngineeringAndTechnology', 'EnergyAndNuclearEngineering', 'NuclearEngineering', 'ReactorDesign']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 反应堆设计 (Reactor Design)
@@ -245,8 +245,10 @@ SMR 功率一般 <300 MWe/机组，采用工厂预制、现场组装的模块化
 ## 相关条目
 
 - [[NuclearPhysics|核物理]]
-- [[EnergySystems|能源系统]]
-- [[EnergyEfficiency|能源效率]]
-- [[HydrogenEnergy|氢能]]
+- [[12_SportsScience/ExercisePhysiology/EnergySystems|能源系统]]
+- [[04_EngineeringAndTechnology/EnergyAndNuclearEngineering/EnergyScience/EnergyEfficiency|能源效率]]
+- [[04_EngineeringAndTechnology/EnergyAndNuclearEngineering/RenewableEnergy/HydrogenEnergy|氢能]]
 - [[RadiationProtection|辐射防护]]
 - [[NuclearFuelCycle|核燃料循环]]
+
+

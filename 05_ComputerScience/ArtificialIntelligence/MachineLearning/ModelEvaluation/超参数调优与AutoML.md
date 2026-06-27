@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [超参数调优与 AutoML]
 tags: ['ArtificialIntelligence', 'MachineLearning', 'ModelEvaluation', '超参数调优与 AutoML']
 ---
@@ -165,8 +165,8 @@ $$
 ## 相关条目
 
 - [[ModelEvaluation]]
-- [[SupervisedLearning]]
-- [[NeuralNetworksAndDeepLearning]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/SupervisedLearning/SupervisedLearning|SupervisedLearning]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/NeuralNetworksAndDeepLearning/NeuralNetworksAndDeepLearning|NeuralNetworksAndDeepLearning]]
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]]
 
 ## 参考资源
@@ -178,3 +178,4 @@ $$
 5. Liu, H., et al. "DARTS: Differentiable Architecture Search." ICLR, 2019.
 6. Falkner, S., et al. "BOHB: Robust and Efficient Hyperparameter Optimization at Scale." ICML, 2018.
 7. Hutter, F., et al. "Automated Machine Learning: Methods, Systems, Challenges." Springer, 2019.
+

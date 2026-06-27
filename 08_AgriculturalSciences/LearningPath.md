@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [农业科学学习路径, 农学学习路线, Agricultural Sciences Learning Path, Ag Learning Roadmap]
 tags: [农业科学, 学习路径, 农学, 园艺, 畜牧, 林学, 农业工程, 职业发展]
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 农业科学学习路径 (Agricultural Sciences Learning Path)
@@ -201,3 +201,4 @@ flowchart LR
 3. 杨凤. (2016). 《动物营养学》. 中国农业出版社.
 4. 孙儒泳. (2017). 《基础生态学》. 高等教育出版社.
 5. FAO. (2023). *The State of Food and Agriculture*. Rome.
+

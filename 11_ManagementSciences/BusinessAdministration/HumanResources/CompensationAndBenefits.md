@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CompensationAndBenefits]
 tags: ['BusinessAdministration', 'HumanResources', 'CompensationAndBenefits']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 薪酬福利
@@ -187,3 +187,4 @@ updated: 2026-05-13
 - 劳动法
 - 组织行为学
 - 员工关系
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AutomataTheory]
 tags: ['TheoryOfComputation', 'AutomataTheory']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 自动机理论
@@ -228,3 +228,4 @@ $$M = (Q, \Sigma, \Gamma, \delta, q_0, B, F)$$
 3. Kozen D C. Automata and Computability. Springer, 1997.
 4. 陈卫东. 自动机理论、语言和计算导论. 机械工业出版社, 2014.
 5. 张立昂. 计算理论导引. 高等教育出版社, 2016.
+

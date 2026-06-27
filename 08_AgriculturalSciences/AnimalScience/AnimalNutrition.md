@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AnimalNutrition]
 tags: ['AnimalScience', 'AnimalNutrition']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 动物营养学
@@ -213,3 +213,4 @@ updated: 2026-05-13
 - 《饲料学》
 - 《反刍动物营养学》
 - 《猪营养学》
+

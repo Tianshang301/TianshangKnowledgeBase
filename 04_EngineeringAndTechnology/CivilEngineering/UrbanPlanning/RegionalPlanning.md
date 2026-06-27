@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [RegionalPlanning, 区域规划]
 tags: ['CivilEngineering', 'UrbanPlanning', 'RegionalPlanning', 'SpatialPlanning']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 区域规划 (Regional Planning)
@@ -236,7 +236,9 @@ $LQ > 1$ 表示该产业在区域具有专业化优势，$LQ > 1.25$ 为显著�
 ## 相关条目 (Related Entries)
 
 - [[UrbanDesign]]
-- [[LandscapeDesign]]
-- [[BuildingPhysics]]
-- [[TransportationEngineering]]
+- [[04_EngineeringAndTechnology/CivilEngineering/LandscapeArchitecture/LandscapeDesign|LandscapeDesign]]
+- [[04_EngineeringAndTechnology/CivilEngineering/BuildingScience/BuildingPhysics|BuildingPhysics]]
+- [[04_EngineeringAndTechnology/TransportationEngineering/TransportationEngineering|TransportationEngineering]]
 - [[EcologicalPlanning]]
+
+

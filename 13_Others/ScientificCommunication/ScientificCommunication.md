@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ScientificCommunication]
 tags: ['ScientificCommunication', 'ScientificCommunication']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 科学传播
@@ -281,10 +281,10 @@ updated: 2026-05-13
 
 ## 相关条目
 
-- [[AcademicWriting]]
-- [[ResearchMethodology]]
+- [[13_Others/AcademicWriting/AcademicWriting|AcademicWriting]]
+- [[13_Others/ResearchMethodology/ResearchMethodology|ResearchMethodology]]
 - [[13_Others/PersonalProductivity/PublicSpeaking/INDEX|PublicSpeaking]]
-- [[ProfessionalEnglish]]
+- [[05_ComputerScience/ProfessionalEnglish/ProfessionalEnglish|ProfessionalEnglish]]
 
 ## 参考资源
 
@@ -297,3 +297,5 @@ updated: 2026-05-13
 - 科普中国 (https://www.kepuchina.cn) - 中文科学传播平台
 - The Conversation (https://theconversation.com) - 学者直接面向公众写作
 - COMPASS (https://compassscicomm.org) - 科学传播培训资源
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [EnzymeEngineering]
 tags: ['Biotechnologies', 'EnzymeEngineering', 'EnzymeEngineering']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 酶工程
@@ -250,7 +250,9 @@ $$信号强度 = k \cdot [\text{待测物}]$$
 
 ## 相关条目
 - [[酶固定化与生物催化]]
-- [[FermentationProcess]]
-- [[GeneCloning]]
-- [[CRISPRCas9]]
-- [[DrugDesign]]
+- [[04_EngineeringAndTechnology/Biotechnologies/FermentationEngineering/FermentationProcess|FermentationProcess]]
+- [[04_EngineeringAndTechnology/Biotechnologies/GeneticEngineering/GeneCloning|GeneCloning]]
+- [[04_EngineeringAndTechnology/Biotechnologies/GeneticEngineering/CRISPRCas9|CRISPRCas9]]
+- [[09_MedicineAndHealth/Pharmacy/DrugDesign|DrugDesign]]
+
+

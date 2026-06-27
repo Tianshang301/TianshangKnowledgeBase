@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [WorldHistory]
 tags: ['History', 'WorldHistory', 'WorldHistory']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 世界史
@@ -214,10 +214,10 @@ $$\text{World-System} = \text{Core（中心）} + \text{Semi-periphery（半边�
 
 ## 相关条目
 
-- [[ChineseHistory]]
-- [[HistoricalGeography]]
-- [[Historiography]]
-- [[Archaeology]]
+- [[03_HumanitiesAndSocialSciences/History/ChineseHistory/ChineseHistory|ChineseHistory]]
+- [[03_HumanitiesAndSocialSciences/History/HistoricalGeography/HistoricalGeography|HistoricalGeography]]
+- [[03_HumanitiesAndSocialSciences/History/Historiography/Historiography|Historiography]]
+- [[03_HumanitiesAndSocialSciences/History/Archaeology/Archaeology|Archaeology]]
 
 ## 参考资源
 
@@ -231,3 +231,5 @@ $$\text{World-System} = \text{Core（中心）} + \text{Semi-periphery（半边�
 8. Crosby, A. W. (1972). *The Columbian Exchange*. Westport: Greenwood.
 9. 斯塔夫里阿诺斯（Stavrianos, L. S.）(1970). *The World Since 1500: A Global History*. Englewood Cliffs: Prentice-Hall.
 10. Zakaria, F. (2008). *The Post-American World*. New York: Norton.
+
+

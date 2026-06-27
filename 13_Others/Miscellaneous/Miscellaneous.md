@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Miscellaneous]
 tags: ['Miscellaneous', 'Miscellaneous']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 杂项实用技能
@@ -224,3 +224,4 @@ updated: 2026-05-13
 - 急救常识
 - 时间管理
 - 个人理财
+

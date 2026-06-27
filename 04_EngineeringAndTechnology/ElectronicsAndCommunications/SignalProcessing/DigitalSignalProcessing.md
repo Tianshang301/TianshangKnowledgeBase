@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DigitalSignalProcessing]
 tags: ['ElectronicsAndCommunications', 'SignalProcessing', 'DigitalSignalProcessing']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 数字信号处理
@@ -148,7 +148,9 @@ $$F(u,v) = \sum_{x=0}^{M-1}\sum_{y=0}^{N-1}f(x,y)e^{-j2\pi(ux/M+vy/N)}$$
 ## 相关条目
 
 - [[ImageProcessing]]
-- [[CommunicationTheory]]
-- [[AnalogElectronics]]
-- [[DigitalElectronics]]
-- [[ControlSystems]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Communications/CommunicationTheory|CommunicationTheory]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Electronics/AnalogElectronics|AnalogElectronics]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Electronics/DigitalElectronics|DigitalElectronics]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/Mechatronics/ControlSystems|ControlSystems]]
+
+

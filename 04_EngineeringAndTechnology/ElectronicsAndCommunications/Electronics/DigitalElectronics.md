@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DigitalElectronics]
 tags: ['ElectronicsAndCommunications', 'Electronics', 'DigitalElectronics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 数字电子
@@ -146,7 +146,9 @@ updated: 2026-05-13
 ## 相关条目
 
 - [[AnalogElectronics]]
-- [[ICDesign]]
-- [[SemiconductorPhysics]]
-- [[DigitalSignalProcessing]]
-- [[ComputerArchitecture]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Microelectronics/ICDesign|ICDesign]]
+- [[04_EngineeringAndTechnology/SemiconductorEngineering/SemiconductorPhysics|SemiconductorPhysics]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/SignalProcessing/DigitalSignalProcessing|DigitalSignalProcessing]]
+- [[04_EngineeringAndTechnology/ComputerAndInformationSciences/ComputerArchitecture|ComputerArchitecture]]
+
+

@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['SeniorHigh', 'Geography', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Geography
@@ -18,4 +18,5 @@ updated: 2026-05-13
 - [[自然与人文地理学难点]]
 - [[自然地理与人文地理重难点]]
 - [[自然地理人文地理区域地理]]
+
 

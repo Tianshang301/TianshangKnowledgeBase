@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Physics', 'ParticlePhysics', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # ParticlePhysics
@@ -15,8 +15,10 @@ updated: 2026-05-13
 - [[绮掑瓙涓庣浉浜掍綔鐢╙]
 - [[02_NaturalSciences/Physics/QuantumMechanics/INDEX|QuantumMechanics]]
 - [[02_NaturalSciences/Astronomy/Cosmology/INDEX|Cosmology]]
-- [[NuclearPhysics]]
+- [[04_EngineeringAndTechnology/EnergyAndNuclearEngineering/NuclearEngineering/NuclearPhysics|NuclearPhysics]]
 - [[鏍囧噯妯″瀷]]
 - [[AtomicPhysics]]
 - [[实验方法]]
+
+
 

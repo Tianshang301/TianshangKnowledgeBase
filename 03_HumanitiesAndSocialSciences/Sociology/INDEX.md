@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Sociology', 'INDEX']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # Sociology
@@ -156,4 +156,5 @@ updated: 2026-05-13
 - [[社会结构与社会制度]]
 - [[Ethnology/INDEX|Ethnology]]
 - [[SociologicalTheory/INDEX|SociologicalTheory]]
+
 

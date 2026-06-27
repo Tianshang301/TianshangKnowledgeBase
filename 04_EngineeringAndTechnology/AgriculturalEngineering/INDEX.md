@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['AgriculturalEngineering', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # AgriculturalEngineering
@@ -11,7 +11,9 @@ updated: 2026-05-13
 
 ## 文件
 
-- [[AgriculturalMachinery]]
-- [[IrrigationEngineering]]
-- [[SoilAndWaterConservation]]
+- [[08_AgriculturalSciences/AgriculturalMachinery|AgriculturalMachinery]]
+- [[04_EngineeringAndTechnology/CivilEngineering/IrrigationEngineering|IrrigationEngineering]]
+- [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalEngineering/SoilAndWaterConservation|SoilAndWaterConservation]]
 - [[../INDEX]]
+
+

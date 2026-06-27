@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - DevOps
   - DevSecOps
@@ -6,7 +6,7 @@ aliases:
   - 开发运维
 tags:
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
   - '05_ComputerScience'
   - 'SoftwareEngineering'
   - 'DevOpsAndCICD'
@@ -123,8 +123,10 @@ graph TD
 
 ## 相关条目
 
-- [[TestingOverview]]
-- [[SoftwareArchitecture]]
-- [[SoftwareEngineering]]
-- [[ServerlessComputing]]
+- [[05_ComputerScience/SoftwareEngineering/SoftwareTesting/TestingOverview|TestingOverview]]
+- [[05_ComputerScience/SoftwareEngineering/SoftwareArchitecture|SoftwareArchitecture]]
+- [[05_ComputerScience/SoftwareEngineering/SoftwareEngineering|SoftwareEngineering]]
+- [[05_ComputerScience/CloudComputingAndDistributedSystems/ServerlessComputing|ServerlessComputing]]
 - [[Virtualization]]
+
+

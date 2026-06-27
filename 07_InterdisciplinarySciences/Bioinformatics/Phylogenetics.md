@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Phylogenetics, 系统发育学, 分子系统学]
 tags: [Bioinformatics, Phylogenetics, EvolutionaryBiology, ComputationalBiology]
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 系统发育学
@@ -200,4 +200,6 @@ PCMs 的常用软件包括 phytools（R 包）、geiger（R 包）、BayesTraits
 
 ## 相关条目
 
-[[ComputationalBiology]], [[Genetics]], [[DataScience]], [[Genomics]], [[MolecularBiology]], [[EvolutionaryBiology]]
+[[ComputationalBiology]], [[Genetics]], [[07_InterdisciplinarySciences/DataScience/DataScience|DataScience]], [[09_MedicineAndHealth/PrecisionMedicine/Genomics|Genomics]], [[MolecularBiology]], [[EvolutionaryBiology]]
+
+

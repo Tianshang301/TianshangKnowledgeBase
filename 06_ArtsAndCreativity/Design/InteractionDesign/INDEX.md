@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Design', 'InteractionDesign', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # InteractionDesign
@@ -16,4 +16,5 @@ updated: 2026-05-13
 - [[交互设计]]
 - [[用户研究与交互原型]]
 - [[用户研究与可用性测试]]
+
 

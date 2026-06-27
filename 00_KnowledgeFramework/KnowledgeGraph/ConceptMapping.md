@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ConceptMapping]
 tags: ['KnowledgeGraph', 'ConceptMapping']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 概念映射方法
@@ -139,9 +139,9 @@ updated: 2026-05-13
 
 ## 相关条目
 
-- [[Methodology]]
-- [[KnowledgeRepresentation]]
-- [[NoteTaking]]
+- [[00_KnowledgeFramework/Methodology/Methodology|Methodology]]
+- [[05_ComputerScience/ArtificialIntelligence/KnowledgeRepresentation/KnowledgeRepresentation|KnowledgeRepresentation]]
+- [[00_KnowledgeFramework/NoteTaking/NoteTaking|NoteTaking]]
 
 ## 参考资源
 
@@ -149,3 +149,5 @@ updated: 2026-05-13
 - W3C 语义 Web 标准文档
 - Protégé官方教程
 - 知识图谱实践指南
+
+

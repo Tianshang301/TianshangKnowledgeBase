@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [AIGC 模型架构与应用]
 tags: ['ArtificialIntelligence', 'AIGC', 'AIGC 模型架构与应用']
 updated: 2026-06-27
@@ -363,11 +363,11 @@ AIGC 安全的核心问题包括：有害内容生成、版权侵权、偏见放
 ## 相关条目
 
 - [[AIGC]]
-- [[NaturalLanguageProcessing]]
-- [[ComputerVision]]
+- [[05_ComputerScience/ArtificialIntelligence/NaturalLanguageProcessing/NaturalLanguageProcessing|NaturalLanguageProcessing]]
+- [[05_ComputerScience/ArtificialIntelligence/ComputerVision/ComputerVision|ComputerVision]]
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]]
-- [[ModelArchitectures2026]]
-- [[AIAgents]]
+- [[05_ComputerScience/ArtificialIntelligence/ModelArchitectures/ModelArchitectures2026|ModelArchitectures2026]]
+- [[05_ComputerScience/ArtificialIntelligence/AIAgents/AIAgents|AIAgents]]
 
 ## 参考资源
 
@@ -385,3 +385,4 @@ AIGC 安全的核心问题包括：有害内容生成、版权侵权、偏见放
 12. Hu, Y. et al. "Every Token Counts: Generalizing 16M Ultra-Long Context in LLMs." arXiv, 2025. (HSA)
 13. Chen, S. et al. "Critical Attention Scaling in Long-Context Transformers." ICLR, 2026. (DySCO)
 14. Sun, W. et al. "Long Input Fine-Tuning (LIFT)." 2025.
+

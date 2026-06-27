@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Harmony, 和声学, HarmonicAnalysis]
 tags: ['Music', 'Harmony', 'HarmonicTheory']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 和声学 (Harmony)
@@ -213,7 +213,7 @@ C 大调的近关系调：G 大调（1♯）、F 大调（1♭）、a 小调、d
 ## 相关条目
 
 - [[06_ArtsAndCreativity/Music/MusicTheory/INDEX|MusicTheory]]
-- [[MusicalForm]]
+- [[06_ArtsAndCreativity/Music/MusicalForm/MusicalForm|MusicalForm]]
 - [[06_ArtsAndCreativity/Music/EarTraining/INDEX|EarTraining]]
 - [[06_ArtsAndCreativity/FineArts/Composition/INDEX|Composition]]
 
@@ -222,3 +222,5 @@ C 大调的近关系调：G 大调（1♯）、F 大调（1♭）、a 小调、d
 - Aldwell, E. & Schachter, C. *Harmony and Voice Leading*
 - Schoenberg, A. *Structural Functions of Harmony*
 - Piston, W. *Harmony*
+
+

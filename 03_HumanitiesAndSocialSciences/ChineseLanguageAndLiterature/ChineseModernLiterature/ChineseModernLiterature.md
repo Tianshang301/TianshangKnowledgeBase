@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ChineseModernLiterature]
 tags: ['ChineseLanguageAndLiterature', 'ChineseModernLiterature', 'ChineseModernLiterature']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 中国现当代文学
@@ -147,7 +147,7 @@ updated: 2026-05-13
 
 ## 相关条目
 
-[[ChineseLiterature]] · [[LiteraryTheory]] · [[WorldHistory]] · [[ModernChinese]]
+[[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/ChineseLiterature/ChineseLiterature|ChineseLiterature]] · [[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/LiteraryTheory/LiteraryTheory|LiteraryTheory]] · [[03_HumanitiesAndSocialSciences/History/WorldHistory/WorldHistory|WorldHistory]] · [[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/ModernChinese/ModernChinese|ModernChinese]]
 
 ## 参考资源
 
@@ -284,3 +284,5 @@ updated: 2026-05-13
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+
+

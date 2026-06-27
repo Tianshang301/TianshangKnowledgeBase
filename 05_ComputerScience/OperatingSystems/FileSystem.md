@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FileSystem]
 tags: ['OperatingSystems', 'FileSystem']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 文件系统详解 (File System)
@@ -533,8 +533,10 @@ RAID 0 (条带):     RAID 1 (镜像):     RAID 5 (分布式奇偶校验):
 
 ## 相关条目
 
-- [[FileSystems]]
+- [[05_ComputerScience/OperatingSystems/FileSystems/FileSystems|FileSystems]]
 - [[日志文件系统与性能优化]]
-- [[MemoryManagement]]
+- [[05_ComputerScience/OperatingSystems/MemoryManagement/MemoryManagement|MemoryManagement]]
 - [[分页分段与交换技术]]
 - 操作系统概念
+
+

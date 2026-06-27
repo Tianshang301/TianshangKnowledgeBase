@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Rehabilitation]
 tags: ['SportsMedicine', 'Rehabilitation']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 运动康复
@@ -155,3 +155,4 @@ FIFA 11+损伤预防系列可以降低足球急性受伤风险约30%-50。
 ## 相关条目
 
 运动损伤、康复治疗、运动按摩、运动医学、运动生物力学、运动心理学、物理治疗、运动防护
+

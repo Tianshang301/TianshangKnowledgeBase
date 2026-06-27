@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [GameTheory, 博弈论, 对策论]
 tags: ['11_ManagementSciences', 'ManagementScienceAndEngineering', 'Economics']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 博弈论 (Game Theory)
@@ -142,3 +142,4 @@ graph LR
 - [[SupplyChainManagement|供应链管理]]
 - [[INDEX|ManagementScienceAndEngineering 索引]]
 - [[../../INDEX|TianshangKnowledgeBase 索引]]
+

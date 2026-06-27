@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ChineseClassicalLiterature]
 tags: ['ChineseLanguageAndLiterature', 'ChineseClassicalLiterature', 'ChineseClassicalLiterature']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 中国古代文学
@@ -216,7 +216,7 @@ updated: 2026-05-13
 
 ## 相关条目
 
-[[ChineseLiterature]] · [[LiteraryTheory]] · [[ClassicalChinese]] · [[ChineseHistory]]
+[[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/ChineseLiterature/ChineseLiterature|ChineseLiterature]] · [[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/LiteraryTheory/LiteraryTheory|LiteraryTheory]] · [[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/ClassicalChinese/ClassicalChinese|ClassicalChinese]] · [[03_HumanitiesAndSocialSciences/History/ChineseHistory/ChineseHistory|ChineseHistory]]
 
 ## 参考资源
 
@@ -228,3 +228,5 @@ updated: 2026-05-13
 6. 闻一多《唐诗杂论》，三联书店
 7. 叶嘉莹《唐宋词十七讲》，北京大学出版社
 8. 李泽厚《美的历程》，三联书店
+
+

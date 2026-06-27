@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [TheoreticalEconomics]
 tags: ['Economics', 'TheoreticalEconomics', 'TheoreticalEconomics']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 理论经济学
@@ -156,7 +156,7 @@ updated: 2026-05-13
 ## 相关条目
 
 - GameTheory
-- [[Statistics]]
+- [[07_InterdisciplinarySciences/AppliedStatistics/Statistics|Statistics]]
 - [[03_HumanitiesAndSocialSciences/PoliticalScience/INDEX|PoliticalScience]]
 
 ## 参考资源
@@ -296,3 +296,5 @@ updated: 2026-05-13
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+
+

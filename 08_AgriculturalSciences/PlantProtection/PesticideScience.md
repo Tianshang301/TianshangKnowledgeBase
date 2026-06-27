@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [PesticideScience]
 tags: ['PlantProtection', 'PesticideScience']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 农药学
@@ -247,3 +247,4 @@ $$PHI = \frac{\ln(MRL / R_0)}{-k}$$
 ## 相关条目
 
 [[08_AgriculturalSciences/CropScience/INDEX|CropScience]], [[Entomology]], [[08_AgriculturalSciences/Horticulture/INDEX|Horticulture]], [[PesticideScience]], [[PlantPathology]], [[WeedScience]]
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FlightMechanics]
 tags: ['AerospaceAndMilitaryEngineering', 'AerospaceEngineering', 'FlightMechanics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 飞行力学
@@ -106,6 +106,8 @@ $$\omega_p = \sqrt{2}\frac{g}{V}$$
 ## 相关条目
 - [[Aerodynamics]]
 - [[SpacecraftDesign]]
-- [[ClassicalControl]]
-- [[ModernControl]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/ClassicalControl|ClassicalControl]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/ControlTheory/ModernControl|ModernControl]]
 - FlightMechanics (AerospaceEngineering)
+
+

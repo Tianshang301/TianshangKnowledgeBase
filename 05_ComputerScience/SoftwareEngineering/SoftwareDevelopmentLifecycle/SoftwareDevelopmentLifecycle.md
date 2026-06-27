@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SoftwareDevelopmentLifecycle]
 tags: ['SoftwareEngineering', 'SoftwareDevelopmentLifecycle', 'SoftwareDevelopmentLifecycle']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 软件开发生命周期 (Software Development Lifecycle)
@@ -234,10 +234,10 @@ REQ-03 │ 密码重置 │ DS-03   │ TC-03   │ auth.c
 
 ## 相关条目
 
-- [[AgileMethodologies]]
+- [[05_ComputerScience/SoftwareEngineering/AgileMethodologies/AgileMethodologies|AgileMethodologies]]
 - Requirements
-- [[DesignPatterns]]
-- [[SoftwareTesting]]
+- [[05_ComputerScience/SoftwareEngineering/DesignPatterns/DesignPatterns|DesignPatterns]]
+- [[05_ComputerScience/SoftwareEngineering/SoftwareTesting/SoftwareTesting|SoftwareTesting]]
 
 ## 参考资源
 
@@ -246,3 +246,5 @@ REQ-03 │ 密码重置 │ DS-03   │ TC-03   │ auth.c
 - Boehm, B. *A Spiral Model of Software Development and Enhancement*
 - CMMI Product Team. *CMMI for Development, Version 1.3*
 - Kruchten, P. *The Rational Unified Process: An Introduction* (3rd ed.)
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AppliedEconomics]
 tags: ['Economics', 'AppliedEconomics', 'AppliedEconomics']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 应用经济学
@@ -153,10 +153,10 @@ updated: 2026-05-13
 
 ## 相关条目
 
-- [[TheoreticalEconomics]]
-- [[Econometrics]]
-- [[Statistics]]
-- [[PublicPolicy]]
+- [[03_HumanitiesAndSocialSciences/Economics/TheoreticalEconomics/TheoreticalEconomics|TheoreticalEconomics]]
+- [[03_HumanitiesAndSocialSciences/Economics/Econometrics/Econometrics|Econometrics]]
+- [[07_InterdisciplinarySciences/AppliedStatistics/Statistics|Statistics]]
+- [[11_ManagementSciences/PublicAdministration/PublicPolicy|PublicPolicy]]
 
 ## 参考资源
 
@@ -293,3 +293,5 @@ updated: 2026-05-13
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+
+

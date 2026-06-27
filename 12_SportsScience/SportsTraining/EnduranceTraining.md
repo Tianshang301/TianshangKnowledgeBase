@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [EnduranceTraining]
 tags: ['SportsTraining', 'EnduranceTraining']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 耐力训练
@@ -173,3 +173,4 @@ updated: 2026-05-13
 ## 相关条目
 
 力量训练、训练周期化、能量系统、运动生理学、运动营养学、运动恢复、HIIT、高原训练
+

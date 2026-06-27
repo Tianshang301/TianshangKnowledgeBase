@@ -14,9 +14,10 @@ updated: 2026-05-13---
 - [[绔嬩綋鍖栧涓庡悎鎴愮瓥鐣]
 - [[02_NaturalSciences/Chemistry/Biochemistry/INDEX|Biochemistry]]
 - [[02_NaturalSciences/Chemistry/PolymerChemistry/INDEX|PolymerChemistry]]
-- [[PharmaceuticalChemistry]]
+- [[09_MedicineAndHealth/Pharmacy/PharmaceuticalChemistry|PharmaceuticalChemistry]]
 - [[02_NaturalSciences/Chemistry/InorganicChemistry/INDEX|InorganicChemistry]]
 - [[有机化合物分类与命名]]
 - [[有机反应机理]]
 - [[立体化学与合成策略]]
+
 

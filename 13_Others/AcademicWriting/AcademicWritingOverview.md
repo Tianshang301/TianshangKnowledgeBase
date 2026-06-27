@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AcademicWriting, 学术写作, 论文写作, 学术论文]
 tags: ['13_Others', 'AcademicWriting', 'ResearchMethodology', 'ScholarlyCommunication']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 学术写作概论 Academic Writing Overview
@@ -197,11 +197,13 @@ flowchart LR
 
 ## 相关条目
 
-- [[Methodology]]
+- [[00_KnowledgeFramework/Methodology/Methodology|Methodology]]
 - [[LiteratureReview]]
 - [[APAFormat]]
-- [[IMRaD]]
-- [[NoteTaking]]
+- [[00_KnowledgeFramework/AcademicPapers/IMRaD|IMRaD]]
+- [[00_KnowledgeFramework/NoteTaking/NoteTaking|NoteTaking]]
 - [[ResearchEthics]]
 - [[ScientificWriting]]
 - [[ThesisWriting]]
+
+

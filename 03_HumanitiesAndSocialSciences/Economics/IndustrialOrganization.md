@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [IndustrialOrganization]
 tags: ['03_HumanitiesAndSocialSciences', 'Economics']
 created: 2026-05-17
@@ -170,7 +170,7 @@ $\text{垄断来源} = \text{规模经济} + \text{进入壁垒} + \text{产品�
 - [[03_HumanitiesAndSocialSciences/Economics/Microeconomics]]
 - [[03_HumanitiesAndSocialSciences/Economics/InternationalEconomics|InternationalEconomics]]
 - [[03_HumanitiesAndSocialSciences/Law/IntellectualPropertyLaw|IntellectualPropertyLaw]]
-- [[GameTheory]]
+- [[11_ManagementSciences/ManagementScienceAndEngineering/GameTheory|GameTheory]]
 - [[INDEX|当前目录索引]]
 
 ## 十、产业组织实证方法
@@ -242,3 +242,4 @@ flowchart LR
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+

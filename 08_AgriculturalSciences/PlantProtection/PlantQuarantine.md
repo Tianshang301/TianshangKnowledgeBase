@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [PlantQuarantine]
 tags: ['PlantProtection', 'PlantQuarantine']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 植物检疫学
@@ -342,3 +342,4 @@ $$C^n \times t = k$$
 ## 相关条目
 
 [[PlantPathology]], [[Entomology]], [[WeedScience]], [[PesticideScience]], [[BiologicalControl]], [[08_AgriculturalSciences/CropScience/INDEX|CropScience]], [[08_AgriculturalSciences/Horticulture/INDEX|Horticulture]]
+

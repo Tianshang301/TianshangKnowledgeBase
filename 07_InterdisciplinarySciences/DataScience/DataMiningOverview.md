@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DataMining, 数据挖掘, 知识发现, KDD]
 tags: ['07_InterdisciplinarySciences', 'DataScience', 'MachineLearning', 'DatabaseSystems']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 数据挖掘 Data Mining
@@ -186,11 +186,13 @@ $$
 
 ## 相关条目
 
-- [[MachineLearning]]
-- [[DatabaseSystems]]
-- [[BigData]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/MachineLearning|MachineLearning]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/DatabaseSystems|DatabaseSystems]]
+- [[05_ComputerScience/CloudComputingAndDistributedSystems/BigData|BigData]]
 - [[DataVisualization]]
-- [[ArtificialIntelligence]]
+- [[07_InterdisciplinarySciences/CognitiveScience/ArtificialIntelligence|ArtificialIntelligence]]
 - [[FeatureEngineering]]
 - [[PatternRecognition]]
 - [[AnomalyDetection]]
+
+

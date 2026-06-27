@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SemiconductorPhysics]
 tags: ['ElectronicsAndCommunications', 'Microelectronics', 'SemiconductorPhysics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 半导体物理
@@ -121,7 +121,9 @@ $$I_D \propto \exp\left(\frac{q(V_{GS}-V_{th})}{nkT}\right)$$
 ## 相关条目
 
 - [[ICDesign]]
-- [[AnalogElectronics]]
-- [[DigitalElectronics]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Electronics/AnalogElectronics|AnalogElectronics]]
+- [[04_EngineeringAndTechnology/ElectronicsAndCommunications/Electronics/DigitalElectronics|DigitalElectronics]]
 - SolidStatePhysics
 - [[04_EngineeringAndTechnology/MechanicsAndMaterials/MaterialsScience/INDEX|MaterialsScience]]
+
+

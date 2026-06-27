@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [TextileAndFoodEngineering]
 tags: ['TextileAndFoodEngineering', 'TextileAndFoodEngineering']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 纺织与食品工程
@@ -209,10 +209,12 @@ updated: 2026-05-13
 
 - [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/ChemicalEngineering/INDEX|ChemicalEngineering]]
 - [[04_EngineeringAndTechnology/MechanicsAndMaterials/MaterialsScience/INDEX|MaterialsScience]]
-- [[Biotechnology]]
+- [[04_EngineeringAndTechnology/TextileAndFoodEngineering/Biotechnology/Biotechnology|Biotechnology]]
 - [[08_AgriculturalSciences/FoodScience/INDEX|FoodScience]]
 - [[06_ArtsAndCreativity/Design/FashionDesign/INDEX|FashionDesign]]
 - PolymerScience
 - ProcessControl
 - [[04_EngineeringAndTechnology/TextileAndFoodEngineering/TextileScience/INDEX|TextileScience]]
 - [[04_EngineeringAndTechnology/TextileAndFoodEngineering/FoodScience/INDEX|FoodScience]]
+
+

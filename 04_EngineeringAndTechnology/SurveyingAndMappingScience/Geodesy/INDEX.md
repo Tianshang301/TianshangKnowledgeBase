@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['SurveyingAndMappingScience', 'Geodesy', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Geodesy
@@ -15,4 +15,5 @@ updated: 2026-05-13
 - [[SatelliteGeodesy]]
 - [[澶у湴娴嬮噺]]
 - [[大地测量]]
+
 

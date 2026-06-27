@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [SolidWasteManagement]
 tags: ['EnvironmentalScienceAndEngineering', 'EnvironmentalEngineering', 'SolidWasteManagement']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 固体废物管理 (Solid Waste Management)
@@ -250,5 +250,7 @@ graph TD
 - [[WastewaterTreatment]]
 - [[AirPollutionControl]]
 - [[EnvironmentalEngineering]]
-- [[CircularEconomy]]
+- [[07_InterdisciplinarySciences/SustainableDevelopment/CircularEconomy|CircularEconomy]]
 - [[INDEX|EnvironmentalScienceAndEngineering 索引]]
+
+

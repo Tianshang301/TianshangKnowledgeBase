@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['JuniorHigh', 'Geography', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Geography
@@ -15,4 +15,5 @@ updated: 2026-05-13
 | [[HumanGeography]] | 浜哄彛銆佽仛钀姐€佺粡娴庡彂灞曘€佸尯鍩熷樊寮?|
 | [[缁冧範棰樹笌瑙ｆ瀽]] | 缁煎悎缁冧範棰樹笌璇︾粏瑙ｆ瀽 |
 - [[练习题与解析]]
+
 

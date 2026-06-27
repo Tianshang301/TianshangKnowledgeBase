@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Epistemology]
 tags: ['03_HumanitiesAndSocialSciences', 'Philosophy', 'Epistemology']
 created: 2026-05-17
@@ -260,8 +260,8 @@ K(\text{世界})
 - [[Metaphysics]]
 - [[ModernPhilosophy]]
 - [[ContemporaryPhilosophy]]
-- [[Attention]]
-- [[WorkingMemory]]
+- [[03_HumanitiesAndSocialSciences/Psychology/Attention|Attention]]
+- [[03_HumanitiesAndSocialSciences/Psychology/WorkingMemory|WorkingMemory]]
 - [[INDEX|当前目录索引]]
 
 ## 深入阅读与扩展分析
@@ -484,3 +484,4 @@ K(\text{世界})
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+

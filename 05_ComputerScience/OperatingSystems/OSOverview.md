@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [OperatingSystems, OS, 操作系统, OS Overview]
 tags: ['ComputerScience', 'OperatingSystems', 'CoreCourses', 'SystemSoftware']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 操作系统概述 (OS Overview)
@@ -219,8 +219,10 @@ $$
 
 ## 相关条目 (Related Entries)
 
-- [[ComputerArchitecture]]
-- [[CompilerPrinciplesOverview]]
-- [[DistributedSystems]]
+- [[04_EngineeringAndTechnology/ComputerAndInformationSciences/ComputerArchitecture|ComputerArchitecture]]
+- [[05_ComputerScience/CompilerPrinciples/CompilerPrinciplesOverview|CompilerPrinciplesOverview]]
+- [[07_InterdisciplinarySciences/NetworkedInformationSystems/DistributedSystems|DistributedSystems]]
 - [[Virtualization]]
-- [[ComputerNetworks]]
+- [[04_EngineeringAndTechnology/ComputerAndInformationSciences/ComputerNetworks|ComputerNetworks]]
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [TranslationStudies]
 tags: ['ForeignLanguagesAndLiteratures', 'TranslationStudies', 'TranslationStudies']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 翻译学
@@ -233,9 +233,9 @@ $$\text{BLEU} = \text{BP} \times \exp\left(\sum_{n=1}^{N} w_n \log p_n\right)$$
 
 ## 相关条目
 
-- [[ComparativeLiterature]]
-- [[LanguageLearning]]
-- [[ProfessionalEnglish]]
+- [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/ComparativeLiterature/ComparativeLiterature|ComparativeLiterature]]
+- [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/LanguageLearning/LanguageLearning|LanguageLearning]]
+- [[05_ComputerScience/ProfessionalEnglish/ProfessionalEnglish|ProfessionalEnglish]]
 - [[03_HumanitiesAndSocialSciences/Linguistics/INDEX|Linguistics]]
 
 ## 参考资源
@@ -250,3 +250,5 @@ $$\text{BLEU} = \text{BP} \times \exp\left(\sum_{n=1}^{N} w_n \log p_n\right)$$
 8. 许钧（2009）。《翻译概论》。北京：外语教学与研究出版社。
 9. Brown, P. F. et al. (1990). A Statistical Approach to Machine Translation. *Computational Linguistics*, 16(2).
 10. Vaswani, A. et al. (2017). Attention Is All You Need. *NeurIPS 2017*.
+
+

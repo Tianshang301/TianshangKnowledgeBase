@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Hydropower]
 tags: ['MechanicalAndElectricalEngineering', 'PowerEngineering', 'Hydropower']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 水力发电
@@ -141,5 +141,7 @@ $$E = \int_0^T \rho g Q(t) H(t) \eta \, dt$$
 - [[ThermalPower]]
 - [[NewEnergy]]
 - [[04_EngineeringAndTechnology/EnergyAndNuclearEngineering/RenewableEnergy/INDEX|RenewableEnergy]]
-- [[FluidMechanics]]
-- [[EnergySystems]]
+- [[04_EngineeringAndTechnology/MechanicsAndMaterials/Mechanics/FluidMechanics|FluidMechanics]]
+- [[12_SportsScience/ExercisePhysiology/EnergySystems|EnergySystems]]
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [CriminalLawAdvanced]
 tags: ['Law', 'CriminalLaw', 'CriminalLawAdvanced']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 刑法学进阶
@@ -241,6 +241,8 @@ updated: 2026-05-13
 ## 相关条目
 - [[03_HumanitiesAndSocialSciences/Law/CriminalLaw/INDEX|CriminalLaw]]
 - [[刑法学]]
-- [[Jurisprudence]]
+- [[03_HumanitiesAndSocialSciences/Law/Jurisprudence/Jurisprudence|Jurisprudence]]
 - [[03_HumanitiesAndSocialSciences/Law/ConstitutionalLaw/INDEX|ConstitutionalLaw]]
 - [[03_HumanitiesAndSocialSciences/Law/LegalHistory/INDEX|LegalHistory]]
+
+

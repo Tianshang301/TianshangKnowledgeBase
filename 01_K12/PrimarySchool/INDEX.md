@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['PrimarySchool', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # PrimarySchool
@@ -16,3 +16,4 @@ updated: 2026-05-13
 - [[01_K12/PrimarySchool/IntegratedStudies/INDEX|综合学科]]
 - [[01_K12/JuniorHigh/Mathematics/INDEX|数学]]
 - [[../INDEX|K12 教育]]
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LearningPath, 学习路径, KnowledgeFramework]
 tags: ['00_KnowledgeFramework', 'LearningPath', 'SelfStudy', 'Methodology']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 学习路径：知识体系框架 Learning Path: Knowledge Framework
@@ -247,6 +247,8 @@ flowchart LR
 
 - [[InterdisciplinarySciences]]
 - [[NoteTakingMethods]]
-- [[Zettelkasten]]
+- [[00_KnowledgeFramework/NoteTaking/Zettelkasten|Zettelkasten]]
 - [[KnowledgeGraph]]
 - [[Metacognition]]
+
+

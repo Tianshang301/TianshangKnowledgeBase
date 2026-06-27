@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['CompilerPrinciples', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # CompilerPrinciples
@@ -12,7 +12,7 @@ updated: 2026-05-13
 ## 鏂囦欢
 
 - [[05_ComputerScience/ProgrammingLanguages/INDEX|ProgrammingLanguages]]
-- [[AutomataTheory]]
+- [[05_ComputerScience/TheoryOfComputation/AutomataTheory|AutomataTheory]]
 - [[IR]]
 - [[Syntax]]
 - [[CodeGen]] - 浠ｇ爜鐢熸垚
@@ -25,4 +25,6 @@ updated: 2026-05-13
 - [[SemanticAnalysis]] - 璇箟鍒嗘瀽
 - [[CompilerPrinciples]]
 - [[CompilerPrinciplesOverview]]
+
+
 

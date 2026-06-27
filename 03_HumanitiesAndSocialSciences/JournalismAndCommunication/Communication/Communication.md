@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Communication]
 tags: ['JournalismAndCommunication', 'Communication', 'Communication']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 传播学
@@ -222,10 +222,10 @@ $$
 
 ## 相关条目
 
-- [[MediaStudies]]
-- [[DigitalMedia]]
-- [[SocialPsychology]]
-- [[Advertising]]
+- [[03_HumanitiesAndSocialSciences/JournalismAndCommunication/MediaStudies/MediaStudies|MediaStudies]]
+- [[03_HumanitiesAndSocialSciences/JournalismAndCommunication/DigitalMedia/DigitalMedia|DigitalMedia]]
+- [[03_HumanitiesAndSocialSciences/Sociology/SocialPsychology/SocialPsychology|SocialPsychology]]
+- [[03_HumanitiesAndSocialSciences/JournalismAndCommunication/Advertising/Advertising|Advertising]]
 
 ## 参考资源
 
@@ -235,3 +235,5 @@ $$
 4. Rogers, E. M. (2003). *Diffusion of Innovations* (5th ed.). Free Press.
 5. 陈力丹 (2018). 《新闻理论十讲》. 复旦大学出版社.
 6. International Communication Association (ICA) 学术期刊
+
+

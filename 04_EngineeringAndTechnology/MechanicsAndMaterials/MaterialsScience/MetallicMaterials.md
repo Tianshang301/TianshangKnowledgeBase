@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [MetallicMaterials]
 tags: ['MechanicsAndMaterials', 'MaterialsScience', 'MetallicMaterials']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 金属材料
@@ -158,3 +158,4 @@ updated: 2026-05-13
 - Metallurgy
 - MechanicalProperties
 - PhaseDiagrams
+

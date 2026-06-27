@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [HumanRightsEducation, 人权教育, HRE]
 tags: ['CrossDisciplinaryK12', 'CivicEducation', 'HumanRightsEducation', 'UNCRC', 'UDHR']
 created: 2025-01-01
@@ -222,7 +222,7 @@ flowchart TD
 | 辩论表现 | 人权议题辩论中的论证与表达 | 高阶思维阶段 |
 
 ## 相关条目
-- [[CivicEducation|公民教育]]
+- [[01_K12/JuniorHigh/Politics/CivicEducation|公民教育]]
 - [[GlobalCitizenship|全球公民素养]]
 - [[LegalEducation|法治教育]]
 - [[UNCRC|儿童权利公约]]
@@ -230,3 +230,4 @@ flowchart TD
 - [[DiscriminationPrevention|反歧视教育]]
 - [[DigitalRights|数字权利]]
 - [[EnvironmentalJustice|环境正义]]
+

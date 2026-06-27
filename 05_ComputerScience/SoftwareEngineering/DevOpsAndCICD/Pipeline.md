@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Pipeline]
 tags: ['SoftwareEngineering', 'DevOpsAndCICD', 'Pipeline']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # CI/CD 流水线设计
@@ -362,3 +362,4 @@ staging 上调试 → 修改配置 → 部署到 production ❌
 - [[GitHubActions]]
 - [[Dockerfile]]
 - [[K8s]]
+

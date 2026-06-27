@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Algorithms, 算法]
 tags: ['05_ComputerScience', 'DataStructuresAndAlgorithms', 'Algorithms', 'ComputationalThinking']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 算法 Algorithms
@@ -279,8 +279,10 @@ $$
 
 ## 相关条目
 
-- [[DataStructures]]
-- [[SortingAlgorithms]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/DataStructures/DataStructures|DataStructures]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/SortingAlgorithms|SortingAlgorithms]]
 - [[GraphTheory]]
-- [[DynamicProgramming]]
-- [[ComputationalComplexity]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/DynamicProgramming/DynamicProgramming|DynamicProgramming]]
+- [[05_ComputerScience/TheoryOfComputation/ComputationalComplexity|ComputationalComplexity]]
+
+

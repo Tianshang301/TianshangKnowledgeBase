@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - Supercompensation
   - 超量恢复
@@ -8,7 +8,7 @@ aliases:
   - 训练适应
 tags:
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
   - SportsScience
   - SportsTraining
   - ExercisePhysiology
@@ -215,7 +215,9 @@ $$f(t) \approx f_0 - \int_{0}^{t} \left[F(\tau) - A(\tau)\right] d\tau$$
 
 - [[RecoveryMethods|恢复方法]]
 - [[SportsPhysiology|运动生理学]]
-- [[InjuryPrevention|运动损伤预防]]
+- [[12_SportsScience/SportsMedicine/InjuryPrevention|运动损伤预防]]
 - [[Periodization|周期化训练]]
 - [[INDEX|SportsTraining 索引]]
 - [[../../INDEX|TianshangKnowledgeBase 索引]]
+
+

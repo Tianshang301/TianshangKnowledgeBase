@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ResearchMethods]
 tags: ['Methodology', 'ResearchMethods']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 研究方法概览
@@ -176,9 +176,9 @@ updated: 2026-05-13
 
 ## 相关条目
 
-- [[AcademicWriting]]
-- [[ScientificCommunication]]
-- [[Statistics]]
+- [[13_Others/AcademicWriting/AcademicWriting|AcademicWriting]]
+- [[13_Others/ScientificCommunication/ScientificCommunication|ScientificCommunication]]
+- [[07_InterdisciplinarySciences/AppliedStatistics/Statistics|Statistics]]
 
 ## 参考资源
 
@@ -186,3 +186,5 @@ updated: 2026-05-13
 - 《混合方法研究》
 - 《系统综述指南》
 - 《研究伦理》
+
+

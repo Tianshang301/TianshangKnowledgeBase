@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [UnmannedSystems]
 tags: ['MilitaryTechnology', 'UnmannedSystems']
 created: 2026-05-19
@@ -127,4 +127,5 @@ updated: 2026-05-19
 - [[MilitaryElectronics]]
 - [[WeaponsSystems]]
 - [[C4ISR]]
-- [[ArtificialIntelligence]]
+- [[07_InterdisciplinarySciences/CognitiveScience/ArtificialIntelligence|ArtificialIntelligence]]
+

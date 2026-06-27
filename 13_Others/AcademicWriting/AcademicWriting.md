@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AcademicWriting]
 tags: ['AcademicWriting', 'AcademicWriting']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 学术写作
@@ -312,8 +312,8 @@ updated: 2026-05-13
 
 ## 相关条目
 
-- [[ResearchMethodology]]
-- [[ScientificCommunication]]
+- [[13_Others/ResearchMethodology/ResearchMethodology|ResearchMethodology]]
+- [[13_Others/ScientificCommunication/ScientificCommunication|ScientificCommunication]]
 - LiteratureReview
 
 ## 参考资源
@@ -326,3 +326,5 @@ updated: 2026-05-13
 - Grammarly / ProWritingAid - 语法和风格检查工具
 - Zotero / EndNote - 文献管理工具
 - 《学术写作指南》- 文秋芳 等
+
+

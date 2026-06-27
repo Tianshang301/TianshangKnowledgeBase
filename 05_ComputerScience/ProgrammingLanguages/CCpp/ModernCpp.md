@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ModernCpp]
 tags: ['ProgrammingLanguages', 'CCpp', 'ModernCpp']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # C++11/14/17/20/23 新特性
@@ -640,3 +640,4 @@ struct Derived : public Base {
     }
 };
 ```
+

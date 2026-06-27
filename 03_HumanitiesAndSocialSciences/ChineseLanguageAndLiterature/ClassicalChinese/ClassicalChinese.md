@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ClassicalChinese]
 tags: ['ChineseLanguageAndLiterature', 'ClassicalChinese', 'ClassicalChinese']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 古代汉语
@@ -181,7 +181,7 @@ updated: 2026-05-13
 
 ## 相关条目
 
-[[ChineseClassicalLiterature]] · [[ChineseLinguistics]] · [[ChineseHistory]] · [[ChineseWriting]]
+[[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/ChineseClassicalLiterature/ChineseClassicalLiterature|ChineseClassicalLiterature]] · [[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/ChineseLinguistics/ChineseLinguistics|ChineseLinguistics]] · [[03_HumanitiesAndSocialSciences/History/ChineseHistory/ChineseHistory|ChineseHistory]] · [[03_HumanitiesAndSocialSciences/ChineseLanguageAndLiterature/ChineseWriting/ChineseWriting|ChineseWriting]]
 
 ## 参考资源
 
@@ -318,3 +318,5 @@ updated: 2026-05-13
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+
+

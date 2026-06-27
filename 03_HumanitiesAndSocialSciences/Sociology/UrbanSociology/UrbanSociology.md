@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [UrbanSociology]
 tags: ['Sociology', 'UrbanSociology', 'UrbanSociology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 城市社会学
@@ -239,8 +239,8 @@ $$
 
 ## 相关条目
 
-- [[SociologicalTheory]]
-- [[Demography]]
+- [[03_HumanitiesAndSocialSciences/Sociology/SociologicalTheory/SociologicalTheory|SociologicalTheory]]
+- [[03_HumanitiesAndSocialSciences/Sociology/Demography/Demography|Demography]]
 - [[03_HumanitiesAndSocialSciences/Economics/INDEX|Economics]]
 - [[01_K12/JuniorHigh/Geography/INDEX|Geography]]
 
@@ -254,3 +254,5 @@ $$
 - Sassen《全球城市》
 - Castells《信息时代》
 - Florida《创意阶层的崛起》
+
+

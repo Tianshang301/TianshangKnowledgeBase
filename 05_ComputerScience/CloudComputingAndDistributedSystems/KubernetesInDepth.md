@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [KubernetesInDepth]
 tags: ['CloudComputingAndDistributedSystems', 'KubernetesInDepth']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Kubernetes 深入
@@ -446,3 +446,4 @@ kubectl debug -it mypod --image=nicolaka/netshoot --target=mycontainer
 - Kelsey Hightower: Kubernetes the Hard Way
 - etcd 文档: https://etcd.io/docs
 - Helm 文档: https://helm.sh/docs
+

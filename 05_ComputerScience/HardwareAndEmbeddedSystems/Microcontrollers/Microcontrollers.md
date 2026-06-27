@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Microcontrollers, MCU, 微控制器, 单片机]
 tags: ['05_ComputerScience', 'HardwareAndEmbeddedSystems', 'Microcontrollers', 'EmbeddedSystems']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 微控制器 Microcontrollers
@@ -265,8 +265,10 @@ $$ \text{Scheduling} \in \{\text{Preemptive}, \text{Cooperative}, \text{Hybrid}\
 
 ## 相关条目
 
-- [[EmbeddedSystems]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/EmbeddedSystems|EmbeddedSystems]]
 - [[ARMArchitecture]]
-- [[RTOS]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/RTOS/RTOS|RTOS]]
 - [[CommunicationProtocols]]
 - [[HardwareDesign]]
+
+

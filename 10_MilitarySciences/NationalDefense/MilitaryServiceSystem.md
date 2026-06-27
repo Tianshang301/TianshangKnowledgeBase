@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [MilitaryServiceSystem]
 tags: ['NationalDefense', 'MilitaryServiceSystem']
 created: 2026-05-19
@@ -99,4 +99,5 @@ updated: 2026-05-19
 - [[DefenseMobilization]]
 - [[CivilDefense]]
 - [[CivilMilitaryIntegration]]
-- [[ArmsAndServices]]
+- [[10_MilitarySciences/ArmsAndServices|ArmsAndServices]]
+

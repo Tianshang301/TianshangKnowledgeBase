@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - SustainableDevelopment
   - SDGs
@@ -222,10 +222,11 @@ $$ \text{循环性递增: } \text{R0 拒绝} \rightarrow \text{R1 反思} \right
 ## 相关条目
 
 - [[ClimateChangeEducation|气候变化教育]]
-- [[EnvironmentalScience|环境科学]]
+- [[07_InterdisciplinarySciences/EnvironmentalScience/EnvironmentalScience|环境科学]]
 - [[GlobalCitizenship|全球公民教育]]
-- [[CircularEconomy|循环经济]]
+- [[07_InterdisciplinarySciences/SustainableDevelopment/CircularEconomy|循环经济]]
 - [[Biodiversity|生物多样性]]
-- [[SystemsThinking|系统思维]]
+- [[07_InterdisciplinarySciences/InterdisciplinaryMethodologies/SystemsThinking|系统思维]]
 - [[FuturesLiteracy|未来素养]]
 - [[../INDEX|CrossDisciplinaryK12 索引]]
+

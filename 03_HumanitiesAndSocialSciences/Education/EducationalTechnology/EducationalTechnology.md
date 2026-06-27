@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [EducationalTechnology]
 tags: ['Education', 'EducationalTechnology', 'EducationalTechnology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 教育技术学
@@ -349,9 +349,9 @@ $$\text{TPACK} = \text{CK} + \text{PK} + \text{TK} + \text{交叉领域}$$
 
 ## 相关条目
 
-- [[Pedagogy]]
+- [[03_HumanitiesAndSocialSciences/Education/Pedagogy/Pedagogy|Pedagogy]]
 - OnlineLearning
-- [[HumanComputerInteraction]]
+- [[05_ComputerScience/HumanComputerInteraction/HumanComputerInteraction|HumanComputerInteraction]]
 - [[07_InterdisciplinarySciences/CognitiveScience/INDEX|CognitiveScience]]
 
 ## 参考资源
@@ -366,3 +366,5 @@ $$\text{TPACK} = \text{CK} + \text{PK} + \text{TK} + \text{交叉领域}$$
 8. 祝智庭、胡姣（2022）。《智能教育的发展趋势与关键特征》。*开放教育研究*，28(1)，13-25。
 9. Laurillard, D. (2012). *Teaching as a Design Science: Building Pedagogical Patterns for Learning and Technology*. New York: Routledge.
 10. 陈丽、郑勤华、徐亚倩（2023）。《教育数字化转型的理论与实践》。北京：科学出版社。
+
+

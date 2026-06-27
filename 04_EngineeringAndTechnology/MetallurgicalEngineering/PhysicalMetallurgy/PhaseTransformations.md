@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [PhaseTransformations, 相变, Phase Change, Phase Transition]
 tags: ['MetallurgicalEngineering', 'PhysicalMetallurgy', 'PhaseTransformations', 'HeatTreatment']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 相变原理
@@ -271,3 +271,4 @@ Al-Zn-Mg: SSSS → GP 区 → η' → η (MgZn₂)
 - Bhadeshia, H. K. D. H., & Honeycombe, R. (2017). *Steels: Microstructure and Properties*. Butterworth-Heinemann.
 - Christian, J. W. (2002). *The Theory of Transformations in Metals and Alloys*. Pergamon.
 - ASM Handbook, Volume 4: *Heat Treating*. (1991). ASM International.
+

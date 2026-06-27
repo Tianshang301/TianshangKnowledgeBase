@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [LanguageLearning]
 tags: ['ForeignLanguagesAndLiteratures', 'LanguageLearning', 'LanguageLearning']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 语言学习
@@ -231,9 +231,9 @@ $$\text{记忆保留率} = e^{-\frac{t}{s}}$$
 
 ## 相关条目
 
-- [[TranslationStudies]]
-- [[ComparativeLiterature]]
-- [[ProfessionalEnglish]]
+- [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/TranslationStudies/TranslationStudies|TranslationStudies]]
+- [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/ComparativeLiterature/ComparativeLiterature|ComparativeLiterature]]
+- [[05_ComputerScience/ProfessionalEnglish/ProfessionalEnglish|ProfessionalEnglish]]
 - [[07_InterdisciplinarySciences/CognitiveScience/INDEX|CognitiveScience]]
 
 ## 参考资源
@@ -248,3 +248,5 @@ $$\text{记忆保留率} = e^{-\frac{t}{s}}$$
 8. 文秋芳（2004）。《第二语言习得研究方法》。上海：上海外语教育出版社。
 9. Willis, J. (1996). *A Framework for Task-Based Learning*. Harlow: Longman.
 10. Chapelle, C. (2003). *English Language Learning and Technology*. Amsterdam: John Benjamins.
+
+

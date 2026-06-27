@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [QuickStart]
 tags: ['SoftwareEngineering', 'DevOpsAndCICD', 'QuickStart']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Docker 快速入门
@@ -344,3 +344,4 @@ docker run -d \
 - [[K8s]]
 - [[BestPractices]]
 - [[CI-CD 与 DevOps 实践]]
+

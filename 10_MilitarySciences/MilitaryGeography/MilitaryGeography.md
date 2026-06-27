@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [MilitaryGeography]
 tags: ['MilitaryGeography', 'MilitaryStrategy']
 created: 2026-05-19
@@ -113,9 +113,10 @@ updated: 2026-05-19
 
 ## 相关条目
 
-- [[StrategicTheory]]
-- [[MaritimeStrategy]]
-- [[NationalDefenseEconomy]]
+- [[10_MilitarySciences/MilitaryStrategy/StrategicTheory|StrategicTheory]]
+- [[10_MilitarySciences/MilitaryStrategy/MaritimeStrategy|MaritimeStrategy]]
+- [[10_MilitarySciences/NationalDefense/NationalDefenseEconomy|NationalDefenseEconomy]]
 - 地缘政治学
 - 战场环境
 - 国防地理
+

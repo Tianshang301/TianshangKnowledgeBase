@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Music', 'MusicHistory', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # MusicHistory
@@ -11,12 +11,14 @@ updated: 2026-05-13
 
 ## 鏂囦欢
 
-- [[Harmony]]
-- [[MusicalForm]]
-- [[ArtHistory]]
+- [[06_ArtsAndCreativity/Music/Harmony/Harmony|Harmony]]
+- [[06_ArtsAndCreativity/Music/MusicalForm/MusicalForm|MusicalForm]]
+- [[06_ArtsAndCreativity/FineArts/ArtHistory/ArtHistory|ArtHistory]]
 - [[涓浗闊充箰鍙茬翰]] - 涓浗闊充箰鍙茬翰
 - [[瑗挎柟闊充箰鍙瞉]
 - [[中国音乐史纲]]
 - [[西方音乐史]]
 - [[音乐发展史]]
+
+
 

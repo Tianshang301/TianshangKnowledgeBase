@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [AIandSocialScience]
 tags: ['ArtificialIntelligenceAndInterdisciplinary', 'AIandSocialScience']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 人工智能与社会科学
@@ -261,4 +261,6 @@ $$ \text{均等机会: } P(\hat{Y}=1 | Y=1, A=0) = P(\hat{Y}=1 | Y=1, A=1) $$
 
 ## 相关条目
 
-[[07_InterdisciplinarySciences/CognitiveScience/INDEX|CognitiveScience]], [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]], [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]], [[AIEthics]]
+[[07_InterdisciplinarySciences/CognitiveScience/INDEX|CognitiveScience]], [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]], [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX|MachineLearning]], [[05_ComputerScience/ArtificialIntelligence/AIEthics/AIEthics|AIEthics]]
+
+

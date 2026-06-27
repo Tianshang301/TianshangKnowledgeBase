@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['GeologicalAndMiningEngineering', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # GeologicalAndMiningEngineering
@@ -16,3 +16,4 @@ updated: 2026-05-13
 - [[04_EngineeringAndTechnology/GeologicalAndMiningEngineering/MiningEngineering/INDEX]]
 - [[04_EngineeringAndTechnology/GeologicalAndMiningEngineering/PetroleumEngineering/INDEX]]
 - [[../INDEX]]
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [AIAgents, AI Agent, AI 代理, Agentic AI]
 tags: ['ArtificialIntelligence', 'AIAgents', 'Agentic AI']
 created: 2026-06-27
@@ -227,13 +227,13 @@ Agent 系统面临独特的安全挑战：
 
 ## 相关条目
 
-- [[AIGC]]
-- [[AIGC模型架构与应用]]
-- [[AIEthics]]
-- [[ReinforcementLearning]]
-- [[NaturalLanguageProcessing]]
-- [[ModelArchitectures2026]]
-- [[IndustryAIApplications]]
+- [[05_ComputerScience/ArtificialIntelligence/AIGC/AIGC|AIGC]]
+- [[05_ComputerScience/ArtificialIntelligence/AIGC/AIGC模型架构与应用]]
+- [[05_ComputerScience/ArtificialIntelligence/AIEthics/AIEthics|AIEthics]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/ReinforcementLearning/ReinforcementLearning|ReinforcementLearning]]
+- [[05_ComputerScience/ArtificialIntelligence/NaturalLanguageProcessing/NaturalLanguageProcessing|NaturalLanguageProcessing]]
+- [[05_ComputerScience/ArtificialIntelligence/ModelArchitectures/ModelArchitectures2026|ModelArchitectures2026]]
+- [[05_ComputerScience/ArtificialIntelligence/IndustryApplications/IndustryAIApplications|IndustryAIApplications]]
 
 ## 参考资源
 
@@ -244,3 +244,4 @@ Agent 系统面临独特的安全挑战：
 5. Sakana AI. "Fugu: Multi-Model Orchestration for Task Routing." 2026.
 6. Perplexity. "Brain: Self-Improving Memory System for Agents." 2026.
 7. DeepReinforce. "Ornith-1.0: Open-Source Coding Model." 2026.
+

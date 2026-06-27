@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [EngineeringGeology]
 tags: ['GeologicalAndMiningEngineering', 'GeologicalEngineering', 'EngineeringGeology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 工程地质
@@ -129,3 +129,4 @@ $$Q = \frac{RQD}{J_n} \times \frac{J_r}{J_a} \times \frac{J_w}{SRF}$$
 - 水利工程地质
 - 地质灾害评估
 - 地下工程勘察
+

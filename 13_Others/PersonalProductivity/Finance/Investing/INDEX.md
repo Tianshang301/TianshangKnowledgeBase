@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['PersonalProductivity', 'Finance', 'Investing', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Investing
@@ -14,7 +14,9 @@ updated: 2026-05-13
 - [[鎶曡祫鍏ラ棬]] 鈥?鎶曡祫鍩虹鐭ヨ瘑涓庡叆闂ㄦ寚鍗?
 - [[璧勪骇閰嶇疆涓庨闄╃鐞哴] 鈥?璧勪骇閰嶇疆绛栫暐涓庨闄╃鐞嗘柟娉?
 - [[13_Others/PersonalProductivity/Finance/PersonalFinance/INDEX|PersonalFinance]]
-- [[RiskManagement]]
+- [[11_ManagementSciences/BusinessAdministration/Finance/RiskManagement|RiskManagement]]
 - [[投资入门]]
 - [[资产配置与风险管理]]
+
+
 

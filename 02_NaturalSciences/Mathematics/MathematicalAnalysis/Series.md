@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 级数
   - Series
@@ -11,7 +11,7 @@ aliases:
   - 泰勒级数
 tags:
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
   - mathematics
   - series
   - convergence
@@ -207,3 +207,4 @@ $$
 ### 幂级数的应用：求解微分方程 (Power Series Solution of ODEs)
 
 在常点 $x_0$ 附近，$y'' + p(x) y' + q(x) y = 0$ 有幂级数解 $y = \sum c_n (x - x_0)^n$，代入后递推得到系数。在正则奇点处需使用**弗罗贝尼乌斯方法 (Frobenius Method)**，设 $y = (x - x_0)^r \sum c_n (x - x_0)^n$，由指标方程 (indicial equation) 确定 $r$。
+

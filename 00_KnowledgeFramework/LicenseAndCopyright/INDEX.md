@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['LicenseAndCopyright', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # LicenseAndCopyright
@@ -16,4 +16,5 @@ updated: 2026-05-13
 - [[鐭ヨ瘑鍏变韩鍗忚鎸囧崡]] - 鐭ヨ瘑鍏变韩鍗忚鎸囧崡
 - [[开源许可证指南]]
 - [[知识共享协议指南]]
+
 

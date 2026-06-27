@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ReadingComprehension]
 tags: ['PrimarySchool', 'Chinese', 'ReadingComprehension']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 阅读理解基础
@@ -181,4 +181,6 @@ updated: 2026-05-13
 
 ## 相关条目
 
-[[ReadingComprehension]], [[Writing]], Pinyin, ChineseCharacters
+[[ReadingComprehension]], [[01_K12/SeniorHigh/English/Writing|Writing]], Pinyin, ChineseCharacters
+
+

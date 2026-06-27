@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [LaTeXTemplates]
 tags: ['Templates', 'LaTeXTemplates']
 created: 2026-05-16
@@ -269,7 +269,8 @@ def hello():
 
 ## 相关条目
 
-- [[NoteTaking]] — 笔记法（与 LaTeX 笔记模板配合）
-- [[AcademicPapers]] — 学术论文写作
-- [[Documentation]] — 文档规范
-- [[Markdown]] — Markdown 语法（轻量级替代方案）
+- [[00_KnowledgeFramework/NoteTaking/NoteTaking|NoteTaking]] — 笔记法（与 LaTeX 笔记模板配合）
+- [[00_KnowledgeFramework/AcademicPapers/AcademicPapers|AcademicPapers]] — 学术论文写作
+- [[05_ComputerScience/SoftwareEngineering/Documentation|Documentation]] — 文档规范
+- [[05_ComputerScience/DigitalNotes/Markdown/Markdown|Markdown]] — Markdown 语法（轻量级替代方案）
+

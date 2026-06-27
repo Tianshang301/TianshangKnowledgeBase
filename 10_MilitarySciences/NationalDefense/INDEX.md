@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['NationalDefense', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # NationalDefense
@@ -21,4 +21,6 @@ updated: 2026-05-13
 - [[10_MilitarySciences/MilitaryStrategy/INDEX|MilitaryStrategy]]
 - [[10_MilitarySciences/MilitaryTechnology/INDEX|MilitaryTechnology]]
 - [[03_HumanitiesAndSocialSciences/PoliticalScience/INDEX|PoliticalScience]]
-- [[Cybersecurity]]
+- [[05_ComputerScience/Cybersecurity/Cybersecurity|Cybersecurity]]
+
+

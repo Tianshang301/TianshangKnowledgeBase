@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ProjectManagement]
 tags: ['ManagementScienceAndEngineering', 'ProjectManagement']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 项目管理
@@ -217,3 +217,4 @@ Scrum 包括产品负责人、Scrum Master 和开发团队三个角色。Sprint 
 - 运筹学
 - 系统工程
 - 组织行为学
+

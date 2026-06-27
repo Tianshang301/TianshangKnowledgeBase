@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [PersonalityPsychology]
 tags: ['03_HumanitiesAndSocialSciences', 'Psychology', 'PersonalityPsychology']
 created: 2026-05-17
@@ -132,7 +132,7 @@ $$ \text{行为} \leftrightarrow \text{个人(信念/目标/情感)} \leftrighta
 - [[AbnormalPsychology]]
 - [[WorkingMemory]]
 - [[Attention]]
-- [[SocialPsychology]]
+- [[03_HumanitiesAndSocialSciences/Sociology/SocialPsychology/SocialPsychology|SocialPsychology]]
 - [[INDEX|当前目录索引]]
 
 ## 深入阅读与扩展分析
@@ -438,3 +438,4 @@ $$ \text{行为} \leftrightarrow \text{个人(信念/目标/情感)} \leftrighta
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+

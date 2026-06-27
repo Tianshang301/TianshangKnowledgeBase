@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Ethnology]
 tags: ['EthnicStudies', 'Ethnology', 'Ethnology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 民族学
@@ -269,9 +269,9 @@ $$\text{互惠连续体} = \text{广义互惠} \rightarrow \text{平衡互惠} \
 
 ## 相关条目
 
-- [[CulturalAnthropology]]
-- [[EthnicCulture]]
-- [[EthnicHistory]]
+- [[03_HumanitiesAndSocialSciences/EthnicStudies/CulturalAnthropology/CulturalAnthropology|CulturalAnthropology]]
+- [[03_HumanitiesAndSocialSciences/EthnicStudies/EthnicCulture/EthnicCulture|EthnicCulture]]
+- [[03_HumanitiesAndSocialSciences/EthnicStudies/EthnicHistory/EthnicHistory|EthnicHistory]]
 - [[03_HumanitiesAndSocialSciences/Sociology/INDEX|Sociology]]
 
 ## 参考资源
@@ -286,3 +286,5 @@ $$\text{互惠连续体} = \text{广义互惠} \rightarrow \text{平衡互惠} \
 8. 林耀华（1989）。《金翼：中国家族制度的社会学研究》。北京：三联书店。
 9. 庄孔韶（2006）。《人类学概论》。北京：中国人民大学出版社。
 10. Kottak, C. P. (2017). *Anthropology: Appreciating Human Diversity* (17th ed.). New York: McGraw-Hill.
+
+

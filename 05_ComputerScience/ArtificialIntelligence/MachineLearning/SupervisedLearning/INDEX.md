@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['ArtificialIntelligence', 'MachineLearning', 'SupervisedLearning', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # SupervisedLearning
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[SupervisedLearning]] - 鐩戠潱瀛︿範
 - [[闆嗘垚瀛︿範鏂规硶]] - 闆嗘垚瀛︿範鏂规硶
 - [[集成学习方法]]
+
 

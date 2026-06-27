@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FruitScience]
 tags: ['Horticulture', 'FruitScience']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 果树学
@@ -278,4 +278,6 @@ $$
 
 ## 相关条目
 
-[[08_AgriculturalSciences/CropScience/INDEX|CropScience]], [[08_AgriculturalSciences/PlantProtection/INDEX|PlantProtection]], [[08_AgriculturalSciences/FoodScience/INDEX|FoodScience]], Pomology, [[SoilScience]], AgriculturalEngineering
+[[08_AgriculturalSciences/CropScience/INDEX|CropScience]], [[08_AgriculturalSciences/PlantProtection/INDEX|PlantProtection]], [[08_AgriculturalSciences/FoodScience/INDEX|FoodScience]], Pomology, [[08_AgriculturalSciences/AgriculturalResources/SoilScience|SoilScience]], AgriculturalEngineering
+
+

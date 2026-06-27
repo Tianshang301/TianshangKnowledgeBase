@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Process]
 tags: ['OperatingSystems', 'Process']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 进程管理详解 (Process Management)
@@ -469,7 +469,9 @@ int main() {
 ## 相关条目
 
 - [[Thread]]
-- [[Concurrency]]
+- [[05_ComputerScience/ProgrammingLanguages/Go/Concurrency|Concurrency]]
 - [[死锁与并发控制]]
 - [[Scheduling]]
-- [[ProcessManagement]]
+- [[05_ComputerScience/OperatingSystems/ProcessManagement/ProcessManagement|ProcessManagement]]
+
+

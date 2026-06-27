@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Coroutines]
 tags: ['ProgrammingLanguages', 'Kotlin', 'Coroutines']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Kotlin 协程详解
@@ -297,3 +297,4 @@ fun main() = runBlocking {
 | 阻塞 | 挂起不阻塞线程 | 阻塞系统线程 |
 | 通信 | Channel/Flow 安全 | 需要锁/原子操作 |
 | 调试 | 栈信息较浅 | 完整调用栈 |
+

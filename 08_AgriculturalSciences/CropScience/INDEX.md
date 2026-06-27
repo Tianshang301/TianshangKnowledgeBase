@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['CropScience', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # CropScience
@@ -21,3 +21,4 @@ updated: 2026-05-13
 - [[08_AgriculturalSciences/FoodScience/INDEX|FoodScience]]
 - [[FarmingSystems]] - 耕作制度
 - [[SeedScience]] - 种子科学
+

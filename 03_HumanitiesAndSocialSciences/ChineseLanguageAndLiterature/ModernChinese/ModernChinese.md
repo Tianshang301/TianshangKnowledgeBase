@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ModernChinese]
 tags: ['ChineseLanguageAndLiterature', 'ModernChinese', 'ModernChinese']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 现代汉语
@@ -303,3 +303,4 @@ updated: 2026-05-13
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+

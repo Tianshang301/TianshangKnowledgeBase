@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Android]
 tags: ['ProgrammingLanguages', 'Kotlin', 'Android']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Android 开发基础
@@ -336,3 +336,4 @@ fun buttonClick_showsMessage() {
     onView(withText("Hello")).check(matches(isDisplayed()))
 }
 ```
+

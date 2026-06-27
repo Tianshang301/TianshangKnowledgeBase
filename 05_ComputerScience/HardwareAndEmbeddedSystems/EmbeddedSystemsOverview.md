@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [EmbeddedSystemsOverview, 嵌入式系统概述]
 tags: ['05_ComputerScience', 'HardwareAndEmbeddedSystems']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 嵌入式系统概述 (Embedded Systems Overview)
@@ -139,8 +139,10 @@ flowchart LR
 ## 相关条目
 
 - [[EmbeddedSystems|嵌入式系统 (详细)]]
-- [[IoTOverview|物联网 (IoT)]]
-- [[RoboticsOverview|机器人学 (Robotics)]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/IoT/IoTOverview|物联网 (IoT)]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Robotics/RoboticsOverview|机器人学 (Robotics)]]
 - [[ComputerArchitecture|计算机体系结构]]
-- [[OperatingSystems|操作系统]]
+- [[04_EngineeringAndTechnology/ComputerAndInformationSciences/OperatingSystems|操作系统]]
 - [[RealTimeSystems|实时系统]]
+
+

@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Basics]
 tags: ['ProgrammingLanguages', 'Python', 'Basics']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Python 基础语法详解
@@ -505,3 +505,4 @@ if __name__ == "__main__":
 ```
 
 > 本文涵盖了 Python 最常用的基础语法。每个知识点都配有代码示例，建议读者在 Python 环境中亲自运行验证。
+

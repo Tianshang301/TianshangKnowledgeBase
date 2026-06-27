@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Blockchain', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Blockchain
@@ -15,8 +15,10 @@ updated: 2026-05-13
 - [[BlockchainApplications]] - 鍖哄潡閾惧簲鐢?
 - [[BlockchainConsensus]] - 鍖哄潡閾惧叡璇?
 - [[ConsensusMechanisms]] - 鍏辫瘑鏈哄埗
-- [[Cryptocurrency]] - 鍔犲瘑璐у竵
+- [[05_ComputerScience/Cybersecurity/Cryptocurrency|Cryptocurrency]] - 鍔犲瘑璐у竵
 - [[DeFi]] - 鍘讳腑蹇冨寲閲戣瀺
 - [[SmartContracts]] - 鏅鸿兘鍚堢害
 - [[BlockchainOverview]]
+
+
 

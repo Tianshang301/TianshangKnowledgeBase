@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [WeaponSystems, 武器系统, 武器装备, 武器工程, 军械系统]
 tags: ['04_EngineeringAndTechnology', 'AerospaceAndMilitaryEngineering', 'OrdnanceScience']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 武器系统（Weapon Systems）
@@ -199,6 +199,8 @@ Analysis）确定了备件数量、维修设备和人员培训等保障要素。
 
 - [[Ballistics]]
 - [[弹道测量与仿真]]
-- [[FlightMechanics]]
-- [[RobotDynamics]]
-- [[ControlSystems]]
+- [[04_EngineeringAndTechnology/AerospaceAndMilitaryEngineering/AerospaceEngineering/FlightMechanics|FlightMechanics]]
+- [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/Robotics/RobotDynamics|RobotDynamics]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/Mechatronics/ControlSystems|ControlSystems]]
+
+

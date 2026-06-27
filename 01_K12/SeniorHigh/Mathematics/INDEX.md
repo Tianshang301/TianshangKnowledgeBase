@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['SeniorHigh', 'Mathematics', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # Mathematics
@@ -30,4 +30,5 @@ updated: 2026-05-13
 - [[练习题与解析]]
 - [[解析几何]]
 - [[集合与常用逻辑]]
+
 

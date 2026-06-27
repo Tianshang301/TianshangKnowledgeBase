@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['Logic', 'InductiveLogic', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # InductiveLogic
@@ -13,10 +13,12 @@ updated: 2026-05-13
 
 - [[褰掔撼鏂规硶涓庢倴璁篯]
 - [[璐濆彾鏂帹鐞嗕笌褰掔撼]]
-- [[Probability]]
-- [[Statistics]]
-- [[ScientificMethod]]
+- [[02_NaturalSciences/Mathematics/ProbabilityStatistics/Probability|Probability]]
+- [[07_InterdisciplinarySciences/AppliedStatistics/Statistics|Statistics]]
+- [[00_KnowledgeFramework/Methodology/ScientificMethod|ScientificMethod]]
 - [[归纳与统计分析]]
 - [[归纳方法与悖论]]
 - [[贝叶斯推理与归纳]]
+
+
 

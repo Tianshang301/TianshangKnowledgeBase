@@ -11,52 +11,52 @@ updated: 2026-06-27
 
 ## 鏂囦欢
 
-- [[Anatomy]] - 浜轰綋瑙ｅ墫瀛?
-- [[Immunology]] - 鍏嶇柅瀛?
-- [[MedicalMicrobiology]] - 鍖诲寰敓鐗╁
-- [[MedicalParasitology]] - 鍖诲瀵勭敓铏
-- [[Pathology]] - 鐥呯悊瀛?
-- [[Pharmacology]] - 鑽悊瀛?
-- [[Physiology]] - 鐢熺悊瀛?
-- [[BiochemistryAndMolecularBiology]] - 鐢熺墿鍖栧涓庡垎瀛愮敓鐗╁
-- [[HistologyAndEmbryology]] - 缁勭粐瀛︿笌鑳氳儙瀛?
-- [[Pathophysiology]] - 鐥呯悊鐢熺悊瀛?
-- [[Neurology]] - 绁炵粡鐥呭
-- [[Psychiatry]] - 绮剧鐥呭
-- [[Anesthesiology]] - 楹婚唹瀛?
-- [[Ophthalmology]] - 鐪肩瀛?
-- [[Otorhinolaryngology]] - 鑰抽蓟鍜藉枆绉戝
-- [[Dermatology]] - 鐨偆鎬х梾瀛?
-- [[MedicalStatistics]] - 鍖诲缁熻瀛?
-- [[ClinicalDiagnosis]] - 涓村簥璇婃柇瀛?
-- [[DiagnosticImaging]] - 褰卞儚璇婃柇瀛?
-- [[EmergencyMedicine]] - 鎬ヨ瘖鍖诲
-- [[InternalMedicine]] - 鍐呯瀛?
-- [[ObstetricsAndGynecology]] - 濡囦骇绉戝
-- [[Pediatrics]] - 鍎跨瀛?
-- [[Surgery]] - 澶栫瀛?
-- [[CommunityNursing]] - 绀惧尯鎶ょ悊
-- [[MedicalNursing]] - 鍐呯鎶ょ悊
-- [[NursingFundamentals]] - 鎶ょ悊瀛﹀熀纭€
-- [[SurgicalNursing]] - 澶栫鎶ょ悊
-- [[ClinicalPharmacy]] - 涓村簥鑽
-- [[PharmaceuticalAnalysis]] - 鑽墿鍒嗘瀽
-- [[PharmaceuticalChemistry]] - 鑽墿鍖栧
-- [[Pharmaceutics]] - 鑽墏瀛?
-- [[Pharmacognosy]] - 鐢熻嵂瀛?
-- [[Biostatistics]] - 鐢熺墿缁熻瀛?
-- [[EnvironmentalHealth]] - 鐜鍗敓瀛?
-- [[Epidemiology]] - 娴佽鐥呭
-- [[NutritionAndFoodHygiene]] - 钀ュ吇涓庨鍝佸崼鐢熷
-- [[OccupationalHealth]] - 鑱屼笟鍗敓瀛?
-- [[DentalMaterials]] - 鍙ｈ厰鏉愭枡瀛?
-- [[OralAnatomy]] - 鍙ｈ厰瑙ｅ墫瀛?
-- [[OralPathology]] - 鍙ｈ厰鐥呯悊瀛?
-- [[Orthodontics]] - 姝ｇ暩瀛?
-- [[AcupunctureAndMoxibustion]] - 閽堢伕瀛?
-- [[ChineseFormulas]] - 鏂瑰墏瀛?
-- [[ChineseMateriaMedica]] - 涓嵂瀛?
-- [[TCMDiagnostics]] - 涓尰璇婃柇瀛?
+- [[09_MedicineAndHealth/BasicMedicalSciences/Anatomy|Anatomy]] - 浜轰綋瑙ｅ墫瀛?
+- [[09_MedicineAndHealth/BasicMedicalSciences/Immunology|Immunology]] - 鍏嶇柅瀛?
+- [[09_MedicineAndHealth/BasicMedicalSciences/MedicalMicrobiology|MedicalMicrobiology]] - 鍖诲寰敓鐗╁
+- [[09_MedicineAndHealth/BasicMedicalSciences/MedicalParasitology|MedicalParasitology]] - 鍖诲瀵勭敓铏
+- [[09_MedicineAndHealth/BasicMedicalSciences/Pathology|Pathology]] - 鐥呯悊瀛?
+- [[09_MedicineAndHealth/BasicMedicalSciences/Pharmacology|Pharmacology]] - 鑽悊瀛?
+- [[09_MedicineAndHealth/BasicMedicalSciences/Physiology|Physiology]] - 鐢熺悊瀛?
+- [[09_MedicineAndHealth/BasicMedicalSciences/BiochemistryAndMolecularBiology|BiochemistryAndMolecularBiology]] - 鐢熺墿鍖栧涓庡垎瀛愮敓鐗╁
+- [[09_MedicineAndHealth/BasicMedicalSciences/HistologyAndEmbryology|HistologyAndEmbryology]] - 缁勭粐瀛︿笌鑳氳儙瀛?
+- [[09_MedicineAndHealth/BasicMedicalSciences/Pathophysiology|Pathophysiology]] - 鐥呯悊鐢熺悊瀛?
+- [[09_MedicineAndHealth/ClinicalMedicine/Neurology|Neurology]] - 绁炵粡鐥呭
+- [[09_MedicineAndHealth/ClinicalMedicine/Psychiatry|Psychiatry]] - 绮剧鐥呭
+- [[09_MedicineAndHealth/ClinicalMedicine/Anesthesiology|Anesthesiology]] - 楹婚唹瀛?
+- [[09_MedicineAndHealth/ClinicalMedicine/Ophthalmology|Ophthalmology]] - 鐪肩瀛?
+- [[09_MedicineAndHealth/ClinicalMedicine/Otorhinolaryngology|Otorhinolaryngology]] - 鑰抽蓟鍜藉枆绉戝
+- [[09_MedicineAndHealth/ClinicalMedicine/Dermatology|Dermatology]] - 鐨偆鎬х梾瀛?
+- [[09_MedicineAndHealth/PublicHealth/MedicalStatistics|MedicalStatistics]] - 鍖诲缁熻瀛?
+- [[09_MedicineAndHealth/ClinicalMedicine/ClinicalDiagnosis|ClinicalDiagnosis]] - 涓村簥璇婃柇瀛?
+- [[09_MedicineAndHealth/ClinicalMedicine/DiagnosticImaging|DiagnosticImaging]] - 褰卞儚璇婃柇瀛?
+- [[09_MedicineAndHealth/ClinicalMedicine/EmergencyMedicine|EmergencyMedicine]] - 鎬ヨ瘖鍖诲
+- [[09_MedicineAndHealth/ClinicalMedicine/InternalMedicine|InternalMedicine]] - 鍐呯瀛?
+- [[09_MedicineAndHealth/ClinicalMedicine/ObstetricsAndGynecology|ObstetricsAndGynecology]] - 濡囦骇绉戝
+- [[09_MedicineAndHealth/ClinicalMedicine/Pediatrics|Pediatrics]] - 鍎跨瀛?
+- [[09_MedicineAndHealth/ClinicalMedicine/Surgery|Surgery]] - 澶栫瀛?
+- [[09_MedicineAndHealth/Nursing/CommunityNursing|CommunityNursing]] - 绀惧尯鎶ょ悊
+- [[09_MedicineAndHealth/Nursing/MedicalNursing|MedicalNursing]] - 鍐呯鎶ょ悊
+- [[09_MedicineAndHealth/Nursing/NursingFundamentals|NursingFundamentals]] - 鎶ょ悊瀛﹀熀纭€
+- [[09_MedicineAndHealth/Nursing/SurgicalNursing|SurgicalNursing]] - 澶栫鎶ょ悊
+- [[09_MedicineAndHealth/Pharmacy/ClinicalPharmacy|ClinicalPharmacy]] - 涓村簥鑽
+- [[09_MedicineAndHealth/Pharmacy/PharmaceuticalAnalysis|PharmaceuticalAnalysis]] - 鑽墿鍒嗘瀽
+- [[09_MedicineAndHealth/Pharmacy/PharmaceuticalChemistry|PharmaceuticalChemistry]] - 鑽墿鍖栧
+- [[09_MedicineAndHealth/Pharmacy/Pharmaceutics|Pharmaceutics]] - 鑽墏瀛?
+- [[09_MedicineAndHealth/Pharmacy/Pharmacognosy|Pharmacognosy]] - 鐢熻嵂瀛?
+- [[09_MedicineAndHealth/PublicHealth/Biostatistics|Biostatistics]] - 鐢熺墿缁熻瀛?
+- [[09_MedicineAndHealth/PublicHealth/EnvironmentalHealth|EnvironmentalHealth]] - 鐜鍗敓瀛?
+- [[09_MedicineAndHealth/PublicHealth/Epidemiology|Epidemiology]] - 娴佽鐥呭
+- [[09_MedicineAndHealth/PublicHealth/NutritionAndFoodHygiene|NutritionAndFoodHygiene]] - 钀ュ吇涓庨鍝佸崼鐢熷
+- [[09_MedicineAndHealth/PublicHealth/OccupationalHealth|OccupationalHealth]] - 鑱屼笟鍗敓瀛?
+- [[09_MedicineAndHealth/Stomatology/DentalMaterials|DentalMaterials]] - 鍙ｈ厰鏉愭枡瀛?
+- [[09_MedicineAndHealth/Stomatology/OralAnatomy|OralAnatomy]] - 鍙ｈ厰瑙ｅ墫瀛?
+- [[09_MedicineAndHealth/Stomatology/OralPathology|OralPathology]] - 鍙ｈ厰鐥呯悊瀛?
+- [[09_MedicineAndHealth/Stomatology/Orthodontics|Orthodontics]] - 姝ｇ暩瀛?
+- [[09_MedicineAndHealth/TraditionalChineseMedicine/AcupunctureAndMoxibustion|AcupunctureAndMoxibustion]] - 閽堢伕瀛?
+- [[09_MedicineAndHealth/TraditionalChineseMedicine/ChineseFormulas|ChineseFormulas]] - 鏂瑰墏瀛?
+- [[09_MedicineAndHealth/TraditionalChineseMedicine/ChineseMateriaMedica|ChineseMateriaMedica]] - 涓嵂瀛?
+- [[09_MedicineAndHealth/TraditionalChineseMedicine/TCMDiagnostics|TCMDiagnostics]] - 涓尰璇婃柇瀛?
 - [[09_MedicineAndHealth/TraditionalChineseMedicine/INDEX]] - 涓尰鍩虹鐞嗚
 - [[09_MedicineAndHealth/PrecisionMedicine/Genomics]] - 鍩哄洜缁勫
 - [[09_MedicineAndHealth/PrecisionMedicine/Pharmacogenomics]] - 鑽墿鍩哄洜缁勫
@@ -86,4 +86,5 @@ updated: 2026-06-27
 - [[ClinicalMedicine/INDEX|ClinicalMedicine]]
 - [[PublicHealth/INDEX|PublicHealth]]
 - [[Stomatology/INDEX|Stomatology]]
+- [[DigitalHealth/INDEX|DigitalHealth]]
 

@@ -1,10 +1,10 @@
----
+﻿---
 aliases:
   - Musical Form
   - 曲式
 tags:
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
   - music
   - musical-form
   - theory
@@ -167,3 +167,4 @@ flowchart TD
 | 《卡农》P.37 | Pachelbel | 固定低音变奏 |
 | 《C 大调前奏曲》BWV 846 | J.S. Bach | 赋格 |
 | 《军队进行曲》Op. 51 No. 1 | Schubert | 三段式 |
+

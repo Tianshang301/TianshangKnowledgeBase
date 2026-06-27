@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ComputerVision, CV]
 tags: ['05_ComputerScience', 'ArtificialIntelligence', 'ComputerVision']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 计算机视觉概述 (Computer Vision Overview)
@@ -163,6 +163,8 @@ $$
 
 - [[深度学习基础|深度学习 (Deep Learning)]]
 - [[卷积与循环神经网络|卷积神经网络 (CNN)]]
-- [[MachineLearning]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/MachineLearning|MachineLearning]]
 - [[GANs]]
-- [[AIGC]]
+- [[05_ComputerScience/ArtificialIntelligence/AIGC/AIGC|AIGC]]
+
+

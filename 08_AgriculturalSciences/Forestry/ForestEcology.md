@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ForestEcology]
 tags: ['Forestry', 'ForestEcology']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 森林生态学
@@ -214,10 +214,10 @@ updated: 2026-05-13
 
 ## 相关条目
 
-- [[Ecology]]
+- [[07_InterdisciplinarySciences/EnvironmentalScience/Ecology|Ecology]]
 - [[08_AgriculturalSciences/PlantProtection/INDEX|PlantProtection]]
 - [[07_InterdisciplinarySciences/EnvironmentalScience/INDEX|EnvironmentalScience]]
-- [[ClimateChange]]
+- [[07_InterdisciplinarySciences/EnvironmentalScience/ClimateChange|ClimateChange]]
 
 ## 参考资源
 
@@ -225,3 +225,5 @@ updated: 2026-05-13
 - 《森林生态系统生态学》
 - 《森林碳汇》
 - 《森林水文学》
+
+

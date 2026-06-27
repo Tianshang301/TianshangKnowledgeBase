@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [大气化学, 空气化学, Atmospheric Chemistry, Air Chemistry]
 tags: [环境科学, 大气科学, 化学, 污染控制, 气候变化, 气溶胶, 环境工程]
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 大气化学 (Atmospheric Chemistry)
@@ -246,3 +246,4 @@ flowchart LR
 3. Jacob, D. J. (1999). *Introduction to Atmospheric Chemistry*. Princeton University Press.
 4. IPCC. (2021). *Climate Change 2021: The Physical Science Basis*. Cambridge University Press.
 5. 王跃思 等. (2020). 《大气化学》. 科学出版社.
+

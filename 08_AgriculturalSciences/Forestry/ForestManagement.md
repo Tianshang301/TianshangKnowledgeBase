@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [ForestManagement]
 tags: ['Forestry', 'ForestManagement']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 森林经理学
@@ -235,4 +235,6 @@ $$G(t) = a \cdot e^{-b \cdot e^{-k \cdot t}}$$
 
 ## 相关条目
 
-[[Ecology]], [[WoodScience]], [[07_InterdisciplinarySciences/EnvironmentalScience/INDEX|EnvironmentalScience]], [[Silviculture]], Agroforestry
+[[07_InterdisciplinarySciences/EnvironmentalScience/Ecology|Ecology]], [[WoodScience]], [[07_InterdisciplinarySciences/EnvironmentalScience/INDEX|EnvironmentalScience]], [[Silviculture]], Agroforestry
+
+

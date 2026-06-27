@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [OpticalCommunications]
 tags: ['ElectronicsAndCommunications', 'Communications', 'OpticalCommunications']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 光通信
@@ -138,6 +138,8 @@ $\theta_a$ 为光纤的接收角。
 
 - [[CommunicationTheory]]
 - [[WirelessCommunications]]
-- [[LaserTechnology]]
-- [[SemiconductorPhysics]]
+- [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/OpticalEngineering/LaserTechnology|LaserTechnology]]
+- [[04_EngineeringAndTechnology/SemiconductorEngineering/SemiconductorPhysics|SemiconductorPhysics]]
 - FiberOptics
+
+

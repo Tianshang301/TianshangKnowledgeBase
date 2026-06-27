@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [FermentationProcess]
 tags: ['Biotechnologies', 'FermentationEngineering', 'FermentationProcess']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 发酵工艺
@@ -101,6 +101,8 @@ $\mu$ 为比生长速率，$S$ 为底物浓度，$K_s$ 为半饱和常数。
 
 ## 相关条目
 - [[EnzymeEngineering]]
-- [[GeneCloning]]
-- [[Biomaterials]]
-- [[DrugDesign]]
+- [[04_EngineeringAndTechnology/Biotechnologies/GeneticEngineering/GeneCloning|GeneCloning]]
+- [[04_EngineeringAndTechnology/Biotechnologies/BiomedicalEngineering/Biomaterials|Biomaterials]]
+- [[09_MedicineAndHealth/Pharmacy/DrugDesign|DrugDesign]]
+
+

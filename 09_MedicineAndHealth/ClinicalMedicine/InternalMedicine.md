@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [InternalMedicine]
 tags: ['ClinicalMedicine', 'InternalMedicine']
 created: 2026-05-16
@@ -124,8 +124,9 @@ SLE是多系统受累的自身免疫病。好发于育龄女性。抗核抗体�
 ## 相关条目
 
 - [[Surgery]]
-- [[Pharmacology]]
+- [[09_MedicineAndHealth/BasicMedicalSciences/Pharmacology|Pharmacology]]
 - [[DiagnosticImaging]]
-- [[Pathophysiology]]
+- [[09_MedicineAndHealth/BasicMedicalSciences/Pathophysiology|Pathophysiology]]
 - [[Neurology]]
 - [[EmergencyMedicine]]
+

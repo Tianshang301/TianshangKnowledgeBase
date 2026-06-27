@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['ResearchMethodology', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # ResearchMethodology
@@ -15,4 +15,5 @@ updated: 2026-05-13
 - [[瀹氶噺涓庡畾鎬х爺绌舵柟娉昡] 鈥?閲忓寲涓庤川鍖栫爺绌?
 - [[../INDEX|Others]]
 - [[定量与定性研究方法]]
+
 

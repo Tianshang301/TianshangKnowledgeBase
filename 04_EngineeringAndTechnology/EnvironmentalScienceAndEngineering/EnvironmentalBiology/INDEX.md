@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['EnvironmentalScienceAndEngineering', 'EnvironmentalBiology', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # EnvironmentalBiology
@@ -14,4 +14,5 @@ updated: 2026-05-13
 - [[Bioremediation]]
 - [[EcologicalEngineering]]
 - [[Ecotoxicology]]
+
 

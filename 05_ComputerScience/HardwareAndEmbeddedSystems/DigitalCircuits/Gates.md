@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [Gates]
 tags: ['HardwareAndEmbeddedSystems', 'DigitalCircuits', 'Gates']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 基本门电路
@@ -225,5 +225,7 @@ NAND:   Y = (A' NOR B')' = ?
 - [[Combinational]]
 - [[Sequential]]
 - [[StateMachine]]
-- [[DigitalLogic]]
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/DigitalLogic/DigitalLogic|DigitalLogic]]
 - [[Verilog 硬件描述语言]]
+
+

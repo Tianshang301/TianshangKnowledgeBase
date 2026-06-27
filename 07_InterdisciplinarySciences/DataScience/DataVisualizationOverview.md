@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [DataVisualization, 数据可视化, 数据视觉化]
 tags: ['07_InterdisciplinarySciences', 'DataScience', 'Visualization', 'HumanComputerInteraction']
 created: 2026-05-17
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 # 数据可视化 Data Visualization
@@ -146,9 +146,11 @@ flowchart TD
 ## 相关条目
 
 - [[DataMining]]
-- [[BigData]]
-- [[HumanComputerInteraction]]
-- [[InformationRetrieval]]
+- [[05_ComputerScience/CloudComputingAndDistributedSystems/BigData|BigData]]
+- [[05_ComputerScience/HumanComputerInteraction/HumanComputerInteraction|HumanComputerInteraction]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/InformationRetrieval/InformationRetrieval|InformationRetrieval]]
 - [[DashboardDesign]]
 - [[StatisticalGraphics]]
 - [[InformationVisualization]]
+
+

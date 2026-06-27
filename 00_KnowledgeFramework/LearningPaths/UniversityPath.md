@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [UniversityPath]
 tags: ['LearningPaths', 'UniversityPath']
 created: 2026-05-16
@@ -179,7 +179,7 @@ updated: 2026-05-16
 - [[K12Path]]
 - [[CareerOrientedPath]]
 - [[SelfStudyPath]]
-- [[Methodology]]
+- [[00_KnowledgeFramework/Methodology/Methodology|Methodology]]
 
 ## 参考资源
 
@@ -187,3 +187,4 @@ updated: 2026-05-16
 - 教育部本科专业目录
 - 考研/保研经验分享
 - 留学申请指南
+

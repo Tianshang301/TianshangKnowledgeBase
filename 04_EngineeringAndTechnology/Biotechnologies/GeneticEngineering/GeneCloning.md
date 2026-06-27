@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [GeneCloning, 基因克隆]
 tags: ['04_EngineeringAndTechnology', 'Biotechnologies', 'GeneticEngineering', 'GeneCloning']
 created: 2026-05-17
-updated: 2026-05-13
+updated: 2026-05-17
 ---
 
 # 基因克隆 (Gene Cloning)
@@ -228,7 +228,9 @@ $$DNA_{片段 A} + DNA_{片段 B} \xrightarrow{\text{DNA Ligase, ATP/NAD}^+} DNA
 
 - [[CRISPRCas9|CRISPR-Cas9 基因编辑]]
 - [[EnzymeEngineering|酶工程]]
-- [[FermentationProcess|发酵工程]]
-- [[DrugDesign|药物设计]]
-- [[Biomaterials|生物材料]]
+- [[04_EngineeringAndTechnology/Biotechnologies/FermentationEngineering/FermentationProcess|发酵工程]]
+- [[09_MedicineAndHealth/Pharmacy/DrugDesign|药物设计]]
+- [[04_EngineeringAndTechnology/Biotechnologies/BiomedicalEngineering/Biomaterials|生物材料]]
 - [[SyntheticBiology|合成生物学]]
+
+

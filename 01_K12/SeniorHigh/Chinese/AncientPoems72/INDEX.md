@@ -2,7 +2,7 @@
 aliases: [INDEX]
 tags: ['SeniorHigh', 'Chinese', 'AncientPoems72', 'INDEX']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # AncientPoems72
@@ -19,4 +19,5 @@ updated: 2026-05-13
 - [[Part2_选择性必修+选修文言文22篇]]
 - [[Part3_诗词曲40首_上]]
 - [[Part4_诗词曲40首_下]]
+
 

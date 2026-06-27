@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [SpaceStrategy]
 tags: ['MilitaryStrategy', 'SpaceStrategy']
 created: 2026-05-19
@@ -111,8 +111,9 @@ updated: 2026-05-19
 ## 相关条目
 
 - [[StrategicTheory]]
-- [[C4ISR]]
-- [[MissileTechnology]]
-- [[MilitaryInformatics]]
+- [[10_MilitarySciences/C4ISR|C4ISR]]
+- [[10_MilitarySciences/MilitaryTechnology/MissileTechnology|MissileTechnology]]
+- [[10_MilitarySciences/MilitaryTechnology/MilitaryInformatics|MilitaryInformatics]]
 - [[InformationWarfare]]
-- [[NationalDefenseEconomy]]
+- [[10_MilitarySciences/NationalDefense/NationalDefenseEconomy|NationalDefenseEconomy]]
+

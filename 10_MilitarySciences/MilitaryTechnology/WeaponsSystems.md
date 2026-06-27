@@ -1,8 +1,8 @@
----
+﻿---
 aliases: [WeaponsSystems]
 tags: ['MilitaryTechnology', 'WeaponsSystems']
 created: 2026-05-16
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 # 武器系统
@@ -180,3 +180,4 @@ updated: 2026-05-13
 - 海军装备
 - 装甲车辆
 - 弹药技术
+
