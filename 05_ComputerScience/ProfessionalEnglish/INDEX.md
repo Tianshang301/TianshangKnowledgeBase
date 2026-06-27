@@ -15,5 +15,5 @@ updated: 2026-05-16
 - [[TechnicalWriting]] - 鎶€鏈啓浣?
 - [[鎶€鏈枃妗ｅ啓浣滀笌婕旇]] - 鎶€鏈枃妗ｅ啓浣滀笌婕旇
 - [[技术文档写作与演讲]]
-
+- [[AcademicWritingForCS]] - CS学术写作
 

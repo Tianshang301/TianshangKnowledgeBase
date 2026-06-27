@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['ArtificialIntelligence', 'AIAgents', 'INDEX']
 created: 2026-06-27
@@ -12,3 +12,6 @@ updated: 2026-06-27
 ## 文件
 
 - [[AIAgents]] - AI Agent 概述与架构
+- [[AgentMemory]] - Agent记忆系统
+- [[ToolUseAndFunctionCalling]] - 工具使用
+

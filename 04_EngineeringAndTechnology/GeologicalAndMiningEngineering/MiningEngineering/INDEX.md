@@ -14,5 +14,5 @@ updated: 2026-05-16
 - [[MineSafety]]
 - [[MiningMethods]]
 - [[MiningEngineering]]
-
+- [[UndergroundMining]] - 地下采矿
 

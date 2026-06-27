@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['ArtificialIntelligence', 'ModelArchitectures', 'INDEX']
 created: 2026-06-27
@@ -12,3 +12,6 @@ updated: 2026-06-27
 ## 文件
 
 - [[ModelArchitectures2026]] - 2026年模型架构创新
+- [[TransformerDeep]] - Transformer深度
+- [[MixtureOfExperts]] - 混合专家模型
+

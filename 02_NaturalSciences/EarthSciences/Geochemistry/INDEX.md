@@ -12,4 +12,5 @@ updated: 2026-05-16
 ## 文件
 
 - [[Geochemistry]]
+- [[IsotopeGeochemistry]] - 同位素地球化学
 

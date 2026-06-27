@@ -15,5 +15,6 @@ updated: 2026-05-16
 - [[瀛︽湳浼氳涓庤鏂囧彂琛╙] 鈥?瀛︽湳浼氳涓庤鏂囧彂琛?
 - [[../INDEX|Others]]
 - [[学术会议与论文发表]]
-
+- [[PeerReview]] - 同行评审
+- [[ResearchPresentation]] - 学术报告
 

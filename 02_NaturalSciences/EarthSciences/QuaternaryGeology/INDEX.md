@@ -15,5 +15,5 @@ updated: 2026-05-16
 - [[02_NaturalSciences/EarthSciences/Geology/INDEX|Geology]]
 - [[03_HumanitiesAndSocialSciences/History/Archaeology/Archaeology|Archaeology]]
 - [[07_InterdisciplinarySciences/EnvironmentalScience/ClimateChange|ClimateChange]]
-
+- [[Paleoclimate]] - 古气候学
 

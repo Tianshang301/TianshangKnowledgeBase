@@ -17,4 +17,5 @@ updated: 2026-05-16
 - [[INDEX]]
 - [[RenewableEnergy2026]]
 - [[NuclearEngineering/INDEX|NuclearEngineering]] - 核聚变工程
+- [[RenewableEnergySystems]] - 可再生能源
 

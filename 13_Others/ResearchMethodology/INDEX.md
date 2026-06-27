@@ -15,5 +15,6 @@ updated: 2026-05-16
 - [[瀹氶噺涓庡畾鎬х爺绌舵柟娉昡] 鈥?閲忓寲涓庤川鍖栫爺绌?
 - [[../INDEX|Others]]
 - [[定量与定性研究方法]]
-
+- [[QualitativeResearch]] - 质性研究
+- [[QuantitativeResearch]] - 量化研究
 

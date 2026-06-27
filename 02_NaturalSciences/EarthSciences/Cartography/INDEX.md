@@ -12,4 +12,5 @@ updated: 2026-05-16
 ## 文件
 
 - [[Cartography]]
+- [[GIScience]] - 地理信息科学
 

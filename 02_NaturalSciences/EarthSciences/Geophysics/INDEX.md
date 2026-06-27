@@ -12,4 +12,5 @@ updated: 2026-05-16
 ## 文件
 
 - [[Geophysics]]
+- [[Seismology]] - 地震学
 

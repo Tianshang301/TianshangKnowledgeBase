@@ -11,3 +11,5 @@ updated: 2026-06-27
 
 ## 相关条目
 - [[Geophysics]]
+- [[PlateTectonics]] - 板块构造
+
