@@ -18,8 +18,8 @@ updated: 2026-06-27
 
 | 指标 | 数值 |
 |------|------|
-| Markdown 文件数 | **2,526** |
-| 总文本量 | **529,013 行 / 19 MB** |
+| Markdown 文件数 | **2,549** |
+| 总文本量 | **537,962 行 / 19.5 MB** |
 | 内容目录数 | **573 个** |
 | INDEX 导航覆盖 | **100%**（每目录均有 INDEX.md） |
 | YAML Frontmatter 覆盖 | **100%**（统一 aliases + tags） |
@@ -51,8 +51,14 @@ TianshangKnowledgeBase/
 │   ├── AdvancedManufacturing/       #   智能制造
 │   └── SemiconductorEngineering/    #   半导体工程
 ├── 05_ComputerScience/              # 计算机科学
+│   ├── NeuralNetworkArchitectures/ #   神经网络架构论文分析
+│   │   ├── AttentionIsAllYouNeed.md #     Transformer深度剖析
+│   │   ├── RNNAndLSTM.md           #     RNN/LSTM/GRU
+│   │   ├── CNNArchitectures.md     #     CNN演进(LeNet→ResNet)
+│   │   └── GPTAndScaling.md        #     GPT系列与Scaling Laws
 │   ├── QuantumComputing/            #   量子计算
 │   ├── EdgeComputing/               #   边缘计算
+│   ├── ModelContextProtocol/        #   MCP协议
 │   ├── MLOpsAndLLMOps/              #   MLOps/LLMOps
 │   ├── DataEngineering/             #   数据工程
 │   ├── ARVRXR/                      #   AR/VR/XR
