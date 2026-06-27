@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['SurveyingAndMappingScience', 'Photogrammetry', 'INDEX']
 created: 2026-05-16
@@ -7,10 +7,12 @@ updated: 2026-05-13
 
 # Photogrammetry
 
-本索引汇集了 Photogrammetry 相关的核心知识文件，涵盖 AerialPhotogrammetry、CloseRangePhotogrammetry、摄影测量与遥感 等内容。
+鏈储寮曟眹闆嗕簡 Photogrammetry 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 AerialPhotogrammetry銆丆loseRangePhotogrammetry銆佹憚褰辨祴閲忎笌閬ユ劅 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
 - [[AerialPhotogrammetry]]
 - [[CloseRangePhotogrammetry]]
+- [[鎽勫奖娴嬮噺涓庨仴鎰焆]
 - [[摄影测量与遥感]]
+

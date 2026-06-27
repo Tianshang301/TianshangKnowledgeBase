@@ -1,14 +1,16 @@
----
+﻿---
 aliases: [EngineeringMathematics]
 created: 2026-05-13
 updated: 2026-05-13---
 
 # EngineeringMathematics
 
-本索引汇集了 EngineeringMathematics 相关的核心知识文件，涵盖 AppliedCalculus、NumericalMethods、OperationsResearch 等内容。
+鏈储寮曟眹闆嗕簡 EngineeringMathematics 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 AppliedCalculus銆丯umericalMethods銆丱perationsResearch 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
 - [[AppliedCalculus]]
 - [[NumericalMethods]]
 - [[OperationsResearch]]
+- [[EngineeringStatistics]]
+

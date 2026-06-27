@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['INDEX']
 created: 2026-05-16
@@ -7,60 +7,68 @@ updated: 2026-06-27
 
 # 11_ManagementSciences
 
-本索引汇集了 11_ManagementSciences 相关的核心知识文件，涵盖 Auditing - 审计学、FinancialAccounting - 财务会计、ManagerialAccounting - 管理会计 等内容。
+鏈储寮曟眹闆嗕簡 11_ManagementSciences 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 Auditing - 瀹¤瀛︺€丗inancialAccounting - 璐㈠姟浼氳銆丮anagerialAccounting - 绠＄悊浼氳 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
-- [[Auditing]] - 审计学
-- [[FinancialAccounting]] - 财务会计
-- [[ManagerialAccounting]] - 管理会计
-- [[TaxAccounting]] - 税务会计
-- [[CorporateFinance]] - 公司金融
-- [[FinancialMarkets]] - 金融市场
-- [[InvestmentAnalysis]] - 投资分析
-- [[RiskManagement]] - 风险管理
-- [[CompensationAndBenefits]] - 薪酬与福利
-- [[HRMPrinciples]] - 人力资源管理原理
-- [[PerformanceManagement]] - 绩效管理
-- [[TalentAcquisition]] - 人才招聘
-- [[BrandManagement]] - 品牌管理
-- [[ConsumerBehavior]] - 消费者行为
-- [[DigitalMarketing]] - 数字营销
-- [[MarketingPrinciples]] - 市场营销原理
-- [[ManagementPrinciples]] - 管理学原理
-- [[OrganizationalBehavior]] - 组织行为学
-- [[StrategicManagement]] - 战略管理
-- [[Microeconomics]] - 微观经济学
-- [[Macroeconomics]] - 宏观经济学
-- [[ArchivalScience]] - 档案学
-- [[PublicAdministrationTheory]] - 公共管理理论
-- [[UrbanGovernance]] - 城市治理
-- [[DigitalLibraries]] - 数字图书馆
-- [[MetadataStandards]] - 元数据标准
-- [[InformationScience]] - 信息科学
-- [[KnowledgeManagement]] - 知识管理
-- [[LibraryScience]] - 图书馆学
-- [[DecisionScience]] - 决策科学
-- [[OperationsResearch]] - 运筹学
-- [[ProjectManagement]] - 项目管理
-- [[QualityManagement]] - 质量管理
-- [[SupplyChainManagement]] - 供应链管理
-- [[11_ManagementSciences/ProjectManagement/PMPFramework]] - PMP 框架
-- [[11_ManagementSciences/ProjectManagement/ProjectRiskManagement]] - 项目风险管理
-- [[11_ManagementSciences/ProjectManagement/PMOConstruction]] - PMO 建设
-- [[11_ManagementSciences/ProjectManagement/AgileProjectManagement]] - 敏捷项目管理
-- [[11_ManagementSciences/ProjectManagement/ProgramManagement]] - 项目集管理
-- [[11_ManagementSciences/SupplyChainManagement/SupplyChainResilience]] - 供应链韧性
-- [[11_ManagementSciences/SupplyChainManagement/SupplyChainDesign]] - 供应链设计
-- [[11_ManagementSciences/SupplyChainManagement/SmartSupplyChain]] - 智慧供应链
-- [[11_ManagementSciences/SupplyChainManagement/ProcurementManagement]] - 采购管理
-- [[BusinessEthics]] - 商业伦理
-- [[EconomicLaw]] - 经济法
-- [[ManagementInformationSystems]] - 管理信息系统
-- [[NonprofitManagement]] - 非营利组织管理
-- [[OperationsManagement]] - 运营管理
-- [[EGovernment]] - 电子政务
-- [[GovernmentReform]] - 政府改革
-- [[PublicFinance]] - 公共财政
-- [[PublicPolicy]] - 公共政策
+- [[Auditing]] - 瀹¤瀛?
+- [[FinancialAccounting]] - 璐㈠姟浼氳
+- [[ManagerialAccounting]] - 绠＄悊浼氳
+- [[TaxAccounting]] - 绋庡姟浼氳
+- [[CorporateFinance]] - 鍏徃閲戣瀺
+- [[FinancialMarkets]] - 閲戣瀺甯傚満
+- [[InvestmentAnalysis]] - 鎶曡祫鍒嗘瀽
+- [[RiskManagement]] - 椋庨櫓绠＄悊
+- [[CompensationAndBenefits]] - 钖叕涓庣鍒?
+- [[HRMPrinciples]] - 浜哄姏璧勬簮绠＄悊鍘熺悊
+- [[PerformanceManagement]] - 缁╂晥绠＄悊
+- [[TalentAcquisition]] - 浜烘墠鎷涜仒
+- [[BrandManagement]] - 鍝佺墝绠＄悊
+- [[ConsumerBehavior]] - 娑堣垂鑰呰涓?
+- [[DigitalMarketing]] - 鏁板瓧钀ラ攢
+- [[MarketingPrinciples]] - 甯傚満钀ラ攢鍘熺悊
+- [[ManagementPrinciples]] - 绠＄悊瀛﹀師鐞?
+- [[OrganizationalBehavior]] - 缁勭粐琛屼负瀛?
+- [[StrategicManagement]] - 鎴樼暐绠＄悊
+- [[Microeconomics]] - 寰缁忔祹瀛?
+- [[Macroeconomics]] - 瀹忚缁忔祹瀛?
+- [[ArchivalScience]] - 妗ｆ瀛?
+- [[PublicAdministrationTheory]] - 鍏叡绠＄悊鐞嗚
+- [[UrbanGovernance]] - 鍩庡競娌荤悊
+- [[DigitalLibraries]] - 鏁板瓧鍥句功棣?
+- [[MetadataStandards]] - 鍏冩暟鎹爣鍑?
+- [[InformationScience]] - 淇℃伅绉戝
+- [[KnowledgeManagement]] - 鐭ヨ瘑绠＄悊
+- [[LibraryScience]] - 鍥句功棣嗗
+- [[DecisionScience]] - 鍐崇瓥绉戝
+- [[OperationsResearch]] - 杩愮瀛?
+- [[ProjectManagement]] - 椤圭洰绠＄悊
+- [[QualityManagement]] - 璐ㄩ噺绠＄悊
+- [[SupplyChainManagement]] - 渚涘簲閾剧鐞?
+- [[11_ManagementSciences/ProjectManagement/PMPFramework]] - PMP 妗嗘灦
+- [[11_ManagementSciences/ProjectManagement/ProjectRiskManagement]] - 椤圭洰椋庨櫓绠＄悊
+- [[11_ManagementSciences/ProjectManagement/PMOConstruction]] - PMO 寤鸿
+- [[11_ManagementSciences/ProjectManagement/AgileProjectManagement]] - 鏁忔嵎椤圭洰绠＄悊
+- [[11_ManagementSciences/ProjectManagement/ProgramManagement]] - 椤圭洰闆嗙鐞?
+- [[11_ManagementSciences/SupplyChainManagement/SupplyChainResilience]] - 渚涘簲閾鹃煣鎬?
+- [[11_ManagementSciences/SupplyChainManagement/SupplyChainDesign]] - 渚涘簲閾捐璁?
+- [[11_ManagementSciences/SupplyChainManagement/SmartSupplyChain]] - 鏅烘収渚涘簲閾?
+- [[11_ManagementSciences/SupplyChainManagement/ProcurementManagement]] - 閲囪喘绠＄悊
+- [[BusinessEthics]] - 鍟嗕笟浼︾悊
+- [[EconomicLaw]] - 缁忔祹娉?
+- [[ManagementInformationSystems]] - 绠＄悊淇℃伅绯荤粺
+- [[NonprofitManagement]] - 闈炶惀鍒╃粍缁囩鐞?
+- [[OperationsManagement]] - 杩愯惀绠＄悊
+- [[EGovernment]] - 鐢靛瓙鏀垮姟
+- [[GovernmentReform]] - 鏀垮簻鏀归潻
+- [[PublicFinance]] - 鍏叡璐㈡斂
+- [[PublicPolicy]] - 鍏叡鏀跨瓥
 - [[LearningPath]]
+- [[DecisionMaking]]
+- [[Productivity]]
+- [[ProductivityTools]]
+- [[TimeBlocking]]
+- [[BusinessAdministration/INDEX|BusinessAdministration]]
+- [[LibraryAndArchive/INDEX|LibraryAndArchive]]
+- [[ManagementScienceAndEngineering/INDEX|ManagementScienceAndEngineering]]
+

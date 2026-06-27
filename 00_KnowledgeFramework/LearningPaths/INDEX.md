@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['LearningPaths', 'INDEX']
 created: 2026-05-16
@@ -7,15 +7,20 @@ updated: 2026-05-13
 
 # LearningPaths
 
-本索引汇集了 LearningPaths 相关的核心知识文件，涵盖 CareerOriented_Path — 职业导向学习路径、CourseIndex — 课程索引、K12_Path — K12 学习路径 等内容。
+鏈储寮曟眹闆嗕簡 LearningPaths 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 CareerOriented_Path 鈥?鑱屼笟瀵煎悜瀛︿範璺緞銆丆ourseIndex 鈥?璇剧▼绱㈠紩銆並12_Path 鈥?K12 瀛︿範璺緞 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
-- [[CareerOrientedPath]] — 职业导向学习路径
-- [[CourseIndex]] — 课程索引
-- [[K12Path]] — K12 学习路径
-- [[LearningPaths]] — 学习路径概述
-- [[OpenCoursewareIndex]] — 开放课程索引
-- [[SelfStudyPath]] — 自学路径
-- [[UniversityPath]] — 大学学习路径
-- [[../INDEX|知识框架 (KnowledgeFramework)]]
+- [[CareerOrientedPath]] 鈥?鑱屼笟瀵煎悜瀛︿範璺緞
+- [[CourseIndex]] 鈥?璇剧▼绱㈠紩
+- [[K12Path]] 鈥?K12 瀛︿範璺緞
+- [[LearningPaths]] 鈥?瀛︿範璺緞姒傝堪
+- [[OpenCoursewareIndex]] 鈥?寮€鏀捐绋嬬储寮?
+- [[SelfStudyPath]] 鈥?鑷璺緞
+- [[UniversityPath]] 鈥?澶у瀛︿範璺緞
+- [[../INDEX|鐭ヨ瘑妗嗘灦 (KnowledgeFramework)]]
+- [[CareerPath]]
+- [[OnlineLearning]]
+- [[深度学习]]
+- [[终身学习]]
+

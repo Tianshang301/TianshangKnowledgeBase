@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['MilitaryLogistics', 'INDEX']
 created: 2026-05-16
@@ -7,12 +7,14 @@ updated: 2026-05-13
 
 # MilitaryLogistics
 
-本索引汇集了 MilitaryLogistics 相关的核心知识文件，涵盖 LogisticsSupportSystems — 后勤保障体系、MilitaryLogisticsOverview — 军事后勤概论、../INDEX|Military Sciences 等内容。
+鏈储寮曟眹闆嗕簡 MilitaryLogistics 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 LogisticsSupportSystems 鈥?鍚庡嫟淇濋殰浣撶郴銆丮ilitaryLogisticsOverview 鈥?鍐涗簨鍚庡嫟姒傝銆?./INDEX|Military Sciences 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
-- [[LogisticsSupportSystems]] — 后勤保障体系
-- [[MilitaryLogisticsOverview]] — 军事后勤概论
-- [[MilitarySupplyChain]] — 军事供应链：全流程物资保障
-- [[MedicalEvacuation]] — 医疗后送：伤病员转运体系
+- [[LogisticsSupportSystems]] 鈥?鍚庡嫟淇濋殰浣撶郴
+- [[MilitaryLogisticsOverview]] 鈥?鍐涗簨鍚庡嫟姒傝
+- [[MilitarySupplyChain]] 鈥?鍐涗簨渚涘簲閾撅細鍏ㄦ祦绋嬬墿璧勪繚闅?
+- [[MedicalEvacuation]] 鈥?鍖荤枟鍚庨€侊細浼ょ梾鍛樿浆杩愪綋绯?
 - [[../INDEX|Military Sciences]]
+- [[MilitaryCommunication]]
+

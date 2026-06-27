@@ -1,15 +1,17 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['MetallurgicalEngineering', 'MaterialsProcessing', 'INDEX']
 created: 2026-05-16
 updated: 2026-05-13
 ---
 
-# 材料加工工程
+# 鏉愭枡鍔犲伐宸ョ▼
 
-本索引汇集了材料加工与成型技术，涵盖金属成型、焊接及增材制造等内容。
+鏈储寮曟眹闆嗕簡鏉愭枡鍔犲伐涓庢垚鍨嬫妧鏈紝娑电洊閲戝睘鎴愬瀷銆佺剨鎺ュ強澧炴潗鍒堕€犵瓑鍐呭銆?
 
-## 文件
+## 鏂囦欢
 
 - [[MaterialsProcessing]]
+- [[鏉愭枡鎴愬瀷涓庡姞宸ユ妧鏈痌]
 - [[材料成型与加工技术]]
+

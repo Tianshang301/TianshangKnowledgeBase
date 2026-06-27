@@ -1,15 +1,17 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['ComputerOrganizationAndArchitecture', 'CPUArchitecture', 'INDEX']
 created: 2026-05-16
 updated: 2026-05-13
 ---
 
-# CPU 体系结构
+# CPU 浣撶郴缁撴瀯
 
-本索引汇集了中央处理器体系结构的核心知识，涵盖指令流水线、超标量及多核架构等内容。
+鏈储寮曟眹闆嗕簡涓ぎ澶勭悊鍣ㄤ綋绯荤粨鏋勭殑鏍稿績鐭ヨ瘑锛屾兜鐩栨寚浠ゆ祦姘寸嚎銆佽秴鏍囬噺鍙婂鏍告灦鏋勭瓑鍐呭銆?
 
-## 文件
+## 鏂囦欢
 
 - [[CPUArchitecture]]
+- [[鐜颁唬澶勭悊鍣ㄥ井鏋舵瀯]]
 - [[现代处理器微架构]]
+

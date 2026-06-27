@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['Astronomy', 'Cosmology', 'INDEX']
 created: 2026-05-16
@@ -7,9 +7,11 @@ updated: 2026-05-13
 
 # Cosmology
 
-本索引汇集了 Cosmology 相关的核心知识文件，涵盖 AdvancedCosmology、宇宙学 等内容。
+鏈储寮曟眹闆嗕簡 Cosmology 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 AdvancedCosmology銆佸畤瀹欏 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
 - [[AdvancedCosmology]]
+- [[瀹囧畽瀛]
 - [[宇宙学]]
+

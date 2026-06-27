@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['Physics', 'INDEX']
 created: 2026-05-16
@@ -7,9 +7,9 @@ updated: 2026-05-13
 
 # Physics
 
-本索引汇集了 Physics 相关的核心知识文件，涵盖 Acoustics、AtomicPhysics、Biophysics 等内容。
+鏈储寮曟眹闆嗕簡 Physics 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 Acoustics銆丄tomicPhysics銆丅iophysics 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
 - [[Acoustics]]
 - [[AtomicPhysics]]
@@ -18,3 +18,12 @@ updated: 2026-05-13
 - [[NuclearPhysics]]
 - [[02_NaturalSciences/EarthSciences/Geophysics/INDEX]]
 - [[MedicalPhysics]]
+- [[Physics]]
+- [[ClassicalMechanics/INDEX|ClassicalMechanics]]
+- [[Electromagnetism/INDEX|Electromagnetism]]
+- [[Optics/INDEX|Optics]]
+- [[ParticlePhysics/INDEX|ParticlePhysics]]
+- [[QuantumMechanics/INDEX|QuantumMechanics]]
+- [[Relativity/INDEX|Relativity]]
+- [[Thermodynamics/INDEX|Thermodynamics]]
+

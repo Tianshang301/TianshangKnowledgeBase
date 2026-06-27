@@ -1,15 +1,17 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['DatabasesAndInformationSystems', 'RelationalDatabases', 'INDEX']
 created: 2026-05-16
 updated: 2026-05-13
 ---
 
-# 关系数据库
+# 鍏崇郴鏁版嵁搴?
 
-本索引汇集了关系数据库的核心理论与应用，涵盖 SQL、规范化及事务管理等内容。
+鏈储寮曟眹闆嗕簡鍏崇郴鏁版嵁搴撶殑鏍稿績鐞嗚涓庡簲鐢紝娑电洊 SQL銆佽鑼冨寲鍙婁簨鍔＄鐞嗙瓑鍐呭銆?
 
-## 文件
+## 鏂囦欢
 
 - [[RelationalDatabases]]
+- [[鏌ヨ浼樺寲涓庝簨鍔＄鐞哴]
 - [[查询优化与事务管理]]
+

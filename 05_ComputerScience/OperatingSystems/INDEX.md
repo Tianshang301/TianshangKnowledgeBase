@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['OperatingSystems', 'INDEX']
 created: 2026-05-16
@@ -7,35 +7,41 @@ updated: 2026-05-13
 
 # OperatingSystems
 
-本索引汇集了 OperatingSystems 相关的核心知识文件，涵盖 > 快速参考指南：[[README]]、README - 操作系统概述、FileSystem - 文件系统 等内容。
+鏈储寮曟眹闆嗕簡 OperatingSystems 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 > 蹇€熷弬鑰冩寚鍗楋細[[README]]銆丷EADME - 鎿嶄綔绯荤粺姒傝堪銆丗ileSystem - 鏂囦欢绯荤粺 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
-> 快速参考指南：[[README]]
-- [[README]] - 操作系统概述
-- [[FileSystem]] - 文件系统
-- [[IO]] - 输入输出
-- [[LinuxKernel]] - Linux 内核
-- [[Memory]] - 内存管理
-- [[Process]] - 进程
-- [[Scheduling]] - 调度
-- [[Thread]] - 线程
-- [[05_ComputerScience/OperatingSystems/Concurrency/Concurrency]] - 并发
-- [[05_ComputerScience/OperatingSystems/Concurrency/死锁与并发控制]] - 死锁与并发控制
-- [[05_ComputerScience/OperatingSystems/FileSystems/FileSystems]] - 文件系统
-- [[05_ComputerScience/OperatingSystems/FileSystems/日志文件系统与性能优化]] - 日志文件系统与性能优化
-- [[05_ComputerScience/OperatingSystems/Linux/Advanced]] - Linux 高级
+> 蹇€熷弬鑰冩寚鍗楋細[[README]]
+- [[README]] - 鎿嶄綔绯荤粺姒傝堪
+- [[FileSystem]] - 鏂囦欢绯荤粺
+- [[IO]] - 杈撳叆杈撳嚭
+- [[LinuxKernel]] - Linux 鍐呮牳
+- [[Memory]] - 鍐呭瓨绠＄悊
+- [[Process]] - 杩涚▼
+- [[Scheduling]] - 璋冨害
+- [[Thread]] - 绾跨▼
+- [[05_ComputerScience/OperatingSystems/Concurrency/Concurrency]] - 骞跺彂
+- [[05_ComputerScience/OperatingSystems/Concurrency/姝婚攣涓庡苟鍙戞帶鍒禲] - 姝婚攣涓庡苟鍙戞帶鍒?
+- [[05_ComputerScience/OperatingSystems/FileSystems/FileSystems]] - 鏂囦欢绯荤粺
+- [[05_ComputerScience/OperatingSystems/FileSystems/鏃ュ織鏂囦欢绯荤粺涓庢€ц兘浼樺寲]] - 鏃ュ織鏂囦欢绯荤粺涓庢€ц兘浼樺寲
+- [[05_ComputerScience/OperatingSystems/Linux/Advanced]] - Linux 楂樼骇
 - [[05_ComputerScience/OperatingSystems/Linux/Bash]] - Bash
-- [[05_ComputerScience/OperatingSystems/Linux/Basics]] - Linux 基础
-- [[05_ComputerScience/OperatingSystems/Linux/Config]] - 配置
-- [[05_ComputerScience/OperatingSystems/Linux/Environment]] - 环境
-- [[05_ComputerScience/OperatingSystems/Linux/Examples]] - 示例
-- [[05_ComputerScience/OperatingSystems/Linux/Languages]] - 语言
+- [[05_ComputerScience/OperatingSystems/Linux/Basics]] - Linux 鍩虹
+- [[05_ComputerScience/OperatingSystems/Linux/Config]] - 閰嶇疆
+- [[05_ComputerScience/OperatingSystems/Linux/Environment]] - 鐜
+- [[05_ComputerScience/OperatingSystems/Linux/Examples]] - 绀轰緥
+- [[05_ComputerScience/OperatingSystems/Linux/Languages]] - 璇█
 - [[05_ComputerScience/OperatingSystems/Linux/Neovim]] - Neovim
-- [[05_ComputerScience/OperatingSystems/Linux/Plugins]] - 插件
+- [[05_ComputerScience/OperatingSystems/Linux/Plugins]] - 鎻掍欢
 - [[05_ComputerScience/OperatingSystems/Linux/PowerShell]] - PowerShell
-- [[05_ComputerScience/OperatingSystems/Linux/Scripting]] - 脚本
-- [[05_ComputerScience/OperatingSystems/MemoryManagement/MemoryManagement]] - 内存管理
-- [[05_ComputerScience/OperatingSystems/MemoryManagement/分页分段与交换技术]] - 分页分段与交换技术
-- [[05_ComputerScience/OperatingSystems/ProcessManagement/ProcessManagement]] - 进程管理
-- [[05_ComputerScience/OperatingSystems/ProcessManagement/进程调度与同步]] - 进程调度与同步
+- [[05_ComputerScience/OperatingSystems/Linux/Scripting]] - 鑴氭湰
+- [[05_ComputerScience/OperatingSystems/MemoryManagement/MemoryManagement]] - 鍐呭瓨绠＄悊
+- [[05_ComputerScience/OperatingSystems/MemoryManagement/鍒嗛〉鍒嗘涓庝氦鎹㈡妧鏈痌] - 鍒嗛〉鍒嗘涓庝氦鎹㈡妧鏈?
+- [[05_ComputerScience/OperatingSystems/ProcessManagement/ProcessManagement]] - 杩涚▼绠＄悊
+- [[05_ComputerScience/OperatingSystems/ProcessManagement/杩涚▼璋冨害涓庡悓姝] - 杩涚▼璋冨害涓庡悓姝?
+- [[AsyncIO]]
+- [[InterruptDeep]]
+- [[LinuxAdministration]]
+- [[OSOverview]]
+- [[ShellScripting]]
+

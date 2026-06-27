@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['HardwareAndEmbeddedSystems', 'EmbeddedLinux', 'INDEX']
 created: 2026-05-16
@@ -7,9 +7,11 @@ updated: 2026-05-13
 
 # EmbeddedLinux
 
-本索引汇集了 EmbeddedLinux 相关的核心知识文件，涵盖 EmbeddedLinux - 嵌入式 Linux、嵌入式 Linux 驱动开发 - 嵌入式 Linux 驱动开发 等内容。
+鏈储寮曟眹闆嗕簡 EmbeddedLinux 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 EmbeddedLinux - 宓屽叆寮?Linux銆佸祵鍏ュ紡 Linux 椹卞姩寮€鍙?- 宓屽叆寮?Linux 椹卞姩寮€鍙?绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
-- [[EmbeddedLinux]] - 嵌入式 Linux
-- [[嵌入式 Linux 驱动开发]] - 嵌入式 Linux 驱动开发
+- [[EmbeddedLinux]] - 宓屽叆寮?Linux
+- [[宓屽叆寮?Linux 椹卞姩寮€鍙慮] - 宓屽叆寮?Linux 椹卞姩寮€鍙?
+- [[嵌入式Linux驱动开发]]
+

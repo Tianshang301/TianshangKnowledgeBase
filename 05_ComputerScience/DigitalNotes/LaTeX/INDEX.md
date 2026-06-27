@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['DigitalNotes', 'LaTeX', 'INDEX']
 created: 2026-05-16
@@ -7,9 +7,11 @@ updated: 2026-05-13
 
 # LaTeX
 
-本索引汇集了 LaTeX 相关的核心知识文件，涵盖 LaTeX、LaTeX 进阶排版技巧 - LaTeX 进阶排版技巧 等内容。
+鏈储寮曟眹闆嗕簡 LaTeX 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 LaTeX銆丩aTeX 杩涢樁鎺掔増鎶€宸?- LaTeX 杩涢樁鎺掔増鎶€宸?绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
 - [[LaTeX]]
-- [[LaTeX 进阶排版技巧]] - LaTeX 进阶排版技巧
+- [[LaTeX 杩涢樁鎺掔増鎶€宸] - LaTeX 杩涢樁鎺掔増鎶€宸?
+- [[LaTeX进阶排版技巧]]
+

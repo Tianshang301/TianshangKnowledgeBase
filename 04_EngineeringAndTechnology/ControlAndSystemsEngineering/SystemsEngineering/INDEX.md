@@ -1,15 +1,17 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['ControlAndSystemsEngineering', 'SystemsEngineering', 'INDEX']
 created: 2026-05-16
 updated: 2026-05-13
 ---
 
-# 系统工程
+# 绯荤粺宸ョ▼
 
-本索引汇集了系统工程的方法论与应用实践，涵盖系统建模、需求分析与项目管理等内容。
+鏈储寮曟眹闆嗕簡绯荤粺宸ョ▼鐨勬柟娉曡涓庡簲鐢ㄥ疄璺碉紝娑电洊绯荤粺寤烘ā銆侀渶姹傚垎鏋愪笌椤圭洰绠＄悊绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
 - [[SystemAnalysis]]
 - [[SystemModeling]]
+- [[SystemsEngineering]]
+

@@ -1,15 +1,14 @@
----
+﻿---
 aliases: [INDEX]
-tags: ['HardwareAndEmbeddedSystems', 'Robotics', 'INDEX']
-created: 2026-05-16
-updated: 2026-05-13
+tags: ['Robotics', 'INDEX']
+created: 2026-06-27
+updated: 2026-06-27
 ---
 
-# 嵌入式机器人
+# Robotics
 
-本索引汇集了嵌入式系统在机器人中的应用，涵盖硬件平台、传感器集成及实时控制等内容。
+> 此目录内容已合并至 [[04_EngineeringAndTechnology/RoboticsEngineering/INDEX|RoboticsEngineering]]
 
-## 文件
-
+## 相关条目
 - [[Robotics]]
-- [[机器人运动控制]]
+- [[RoboticsOverview]]

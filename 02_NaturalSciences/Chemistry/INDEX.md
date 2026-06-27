@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['Chemistry', 'INDEX']
 created: 2026-05-16
@@ -7,9 +7,9 @@ updated: 2026-05-13
 
 # Chemistry
 
-本索引汇集了 Chemistry 相关的核心知识文件，涵盖 01_K12/JuniorHigh/Biology/INDEX|Biology、01_K12/JuniorHigh/Physics/INDEX|Physics、04_EngineeringAndTechnology/MechanicsAndMaterials/MaterialsScience/INDEX|MaterialsScience 等内容。
+鏈储寮曟眹闆嗕簡 Chemistry 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 01_K12/JuniorHigh/Biology/INDEX|Biology銆?1_K12/JuniorHigh/Physics/INDEX|Physics銆?4_EngineeringAndTechnology/MechanicsAndMaterials/MaterialsScience/INDEX|MaterialsScience 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
 - [[01_K12/JuniorHigh/Biology/INDEX|Biology]]
 - [[01_K12/JuniorHigh/Physics/INDEX|Physics]]
@@ -31,3 +31,5 @@ updated: 2026-05-13
 - [[QuantumChemistry]]
 - [[TheoreticalChemistry]]
 - [[NuclearChemistry]]
+- [[EnvironmentalChemistry/INDEX|EnvironmentalChemistry]]
+

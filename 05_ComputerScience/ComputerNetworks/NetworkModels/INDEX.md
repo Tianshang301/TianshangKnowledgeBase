@@ -1,15 +1,17 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['ComputerNetworks', 'NetworkModels', 'INDEX']
 created: 2026-05-16
 updated: 2026-05-13
 ---
 
-# 网络模型
+# 缃戠粶妯″瀷
 
-本索引汇集了计算机网络的分层模型与体系结构，涵盖 OSI 参考模型与 TCP/IP 协议栈等内容。
+鏈储寮曟眹闆嗕簡璁＄畻鏈虹綉缁滅殑鍒嗗眰妯″瀷涓庝綋绯荤粨鏋勶紝娑电洊 OSI 鍙傝€冩ā鍨嬩笌 TCP/IP 鍗忚鏍堢瓑鍐呭銆?
 
-## 文件
+## 鏂囦欢
 
 - [[NetworkModels]]
-- [[TCPIP 协议栈详解]]
+- [[TCPIP 鍗忚鏍堣瑙]
+- [[TCPIP协议栈详解]]
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['DramaAndFilm', 'INDEX']
 created: 2026-05-16
@@ -7,15 +7,24 @@ updated: 2026-05-13
 
 # DramaAndFilm
 
-本索引汇集了 DramaAndFilm 相关的核心知识文件，涵盖 - **索引**：[[INDEX]]、- **索引**：[[INDEX]]、- **索引**：[[INDEX]] 等内容。
+鏈储寮曟眹闆嗕簡 DramaAndFilm 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 - **绱㈠紩**锛歔[INDEX]]銆? **绱㈠紩**锛歔[INDEX]]銆? **绱㈠紩**锛歔[INDEX]] 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
-- **索引**：[[INDEX]]
-- **索引**：[[INDEX]]
-- **索引**：[[INDEX]]
-- **索引**：[[INDEX]]
-- **索引**：[[INDEX]]
+- **绱㈠紩**锛歔[INDEX]]
+- **绱㈠紩**锛歔[INDEX]]
+- **绱㈠紩**锛歔[INDEX]]
+- **绱㈠紩**锛歔[INDEX]]
+- **绱㈠紩**锛歔[INDEX]]
 - [[MediaStudies]]
 - [[ArtHistory]]
 - [[06_ArtsAndCreativity/PhotographyAndCinematography/INDEX|PhotographyAndCinematography]]
+- [[FilmStudies]]
+- [[FilmTheory]]
+- [[TheaterStudies]]
+- [[Directing/INDEX|Directing]]
+- [[DramaTheory/INDEX|DramaTheory]]
+- [[FilmStudies/INDEX|FilmStudies]]
+- [[Screenwriting/INDEX|Screenwriting]]
+- [[TelevisionArts/INDEX|TelevisionArts]]
+

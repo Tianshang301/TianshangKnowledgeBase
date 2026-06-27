@@ -1,15 +1,17 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['ArtificialIntelligence', 'MachineLearning', 'ModelEvaluation', 'INDEX']
 created: 2026-05-16
 updated: 2026-05-13
 ---
 
-# 模型评估
+# 妯″瀷璇勪及
 
-本索引汇集了机器学习模型评估的方法与指标，涵盖交叉验证、偏差方差权衡及性能度量等内容。
+鏈储寮曟眹闆嗕簡鏈哄櫒瀛︿範妯″瀷璇勪及鐨勬柟娉曚笌鎸囨爣锛屾兜鐩栦氦鍙夐獙璇併€佸亸宸柟宸潈琛″強鎬ц兘搴﹂噺绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
 - [[ModelEvaluation]]
-- [[超参数调优与 AutoML]]
+- [[瓒呭弬鏁拌皟浼樹笌 AutoML]]
+- [[超参数调优与AutoML]]
+

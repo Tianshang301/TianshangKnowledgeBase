@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['ControlAndSystemsEngineering', 'INDEX']
 created: 2026-05-16
@@ -7,9 +7,9 @@ updated: 2026-05-13
 
 # ControlAndSystemsEngineering
 
-本索引汇集了 ControlAndSystemsEngineering 相关的核心知识文件，涵盖 AdaptiveControl、DigitalControl、NonlinearControl 等内容。
+鏈储寮曟眹闆嗕簡 ControlAndSystemsEngineering 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 AdaptiveControl銆丏igitalControl銆丯onlinearControl 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
 - [[AdaptiveControl]]
 - [[DigitalControl]]
@@ -20,3 +20,8 @@ updated: 2026-05-13
 - [[SignalProcessing]]
 - [[SystemIdentification]]
 - [[../INDEX]]
+- [[Automation/INDEX|Automation]]
+- [[ControlTheory/INDEX|ControlTheory]]
+- [[Robotics/INDEX|Robotics]]
+- [[SystemsEngineering/INDEX|SystemsEngineering]]
+

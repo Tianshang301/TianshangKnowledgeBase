@@ -1,15 +1,17 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['DatabasesAndInformationSystems', 'BigDataTechnologies', 'INDEX']
 created: 2026-05-16
 updated: 2026-05-13
 ---
 
-# 大数据技术
+# 澶ф暟鎹妧鏈?
 
-本索引汇集了大数据处理的核心技术与平台，涵盖分布式存储、流计算及批处理框架等内容。
+鏈储寮曟眹闆嗕簡澶ф暟鎹鐞嗙殑鏍稿績鎶€鏈笌骞冲彴锛屾兜鐩栧垎甯冨紡瀛樺偍銆佹祦璁＄畻鍙婃壒澶勭悊妗嗘灦绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
 - [[BigDataTechnologies]]
+- [[娴佸鐞嗕笌瀹炴椂璁＄畻]]
 - [[流处理与实时计算]]
+

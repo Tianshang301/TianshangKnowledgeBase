@@ -1,16 +1,19 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['MechanicalAndElectricalEngineering', 'ElectricalEngineering', 'INDEX']
 created: 2026-05-16
 updated: 2026-05-13
 ---
 
-# 电气工程
+# 鐢垫皵宸ョ▼
 
-本索引汇集了电气工程的核心理论与应用技术，涵盖电路分析、电机控制及电力系统等内容。
+鏈储寮曟眹闆嗕簡鐢垫皵宸ョ▼鐨勬牳蹇冪悊璁轰笌搴旂敤鎶€鏈紝娑电洊鐢佃矾鍒嗘瀽銆佺數鏈烘帶鍒跺強鐢靛姏绯荤粺绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
 - [[CircuitAnalysis]]
 - [[ElectricMachines]]
 - [[PowerSystems]]
+- [[ElectricalMachines]]
+- [[PowerElectronics]]
+

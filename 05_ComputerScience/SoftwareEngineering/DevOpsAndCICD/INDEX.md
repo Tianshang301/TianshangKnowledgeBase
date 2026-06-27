@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['SoftwareEngineering', 'DevOpsAndCICD', 'INDEX']
 created: 2026-05-16
@@ -7,15 +7,17 @@ updated: 2026-05-13
 
 # DevOpsAndCICD
 
-本索引汇集了 DevOpsAndCICD 相关的核心知识文件，涵盖 Compose、Dockerfile、K8s 等内容。
+鏈储寮曟眹闆嗕簡 DevOpsAndCICD 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 Compose銆丏ockerfile銆並8s 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
 - [[Compose]]
 - [[Dockerfile]]
 - [[K8s]]
-- [[BestPractices]] - 最佳实践
+- [[BestPractices]] - 鏈€浣冲疄璺?
 - [[GitHubActions]] - GitHub Actions
 - [[Jenkins]] - Jenkins
-- [[Pipeline]] - 流水线
-- [[QuickStart]] - 快速开始
+- [[Pipeline]] - 娴佹按绾?
+- [[QuickStart]] - 蹇€熷紑濮?
+- [[DevOps]]
+

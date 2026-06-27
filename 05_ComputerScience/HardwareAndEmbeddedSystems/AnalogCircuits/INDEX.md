@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['HardwareAndEmbeddedSystems', 'AnalogCircuits', 'INDEX']
 created: 2026-05-16
@@ -7,9 +7,11 @@ updated: 2026-05-13
 
 # AnalogCircuits
 
-本索引汇集了 AnalogCircuits 相关的核心知识文件，涵盖 AnalogCircuits - 模拟电路、运算放大器与滤波电路 - 运算放大器与滤波电路 等内容。
+鏈储寮曟眹闆嗕簡 AnalogCircuits 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 AnalogCircuits - 妯℃嫙鐢佃矾銆佽繍绠楁斁澶у櫒涓庢护娉㈢數璺?- 杩愮畻鏀惧ぇ鍣ㄤ笌婊ゆ尝鐢佃矾 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
-- [[AnalogCircuits]] - 模拟电路
-- [[运算放大器与滤波电路]] - 运算放大器与滤波电路
+- [[AnalogCircuits]] - 妯℃嫙鐢佃矾
+- [[杩愮畻鏀惧ぇ鍣ㄤ笌婊ゆ尝鐢佃矾]] - 杩愮畻鏀惧ぇ鍣ㄤ笌婊ゆ尝鐢佃矾
+- [[运算放大器与滤波电路]]
+

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['Biology', 'INDEX']
 created: 2026-05-16
@@ -7,9 +7,9 @@ updated: 2026-05-13
 
 # Biology
 
-本索引汇集了 Biology 相关的核心知识文件，涵盖 01_K12/JuniorHigh/Chemistry/INDEX|Chemistry、Ecology、07_InterdisciplinarySciences/Bioinformatics/INDEX|Bioinformatics 等内容。
+鏈储寮曟眹闆嗕簡 Biology 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 01_K12/JuniorHigh/Chemistry/INDEX|Chemistry銆丒cology銆?7_InterdisciplinarySciences/Bioinformatics/INDEX|Bioinformatics 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
 - [[01_K12/JuniorHigh/Chemistry/INDEX|Chemistry]]
 - [[02_NaturalSciences/Biology/Ecology/INDEX]]
@@ -30,3 +30,7 @@ updated: 2026-05-13
 - [[02_NaturalSciences/Biology/MolecularBiology/INDEX]]
 - [[02_NaturalSciences/Biology/Zoology/INDEX]]
 - [[Virology]]
+- [[Biophysics]]
+- [[EvolutionOfComputers]]
+- [[Neuroscience/INDEX|Neuroscience]]
+

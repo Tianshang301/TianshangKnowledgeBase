@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['DataStructuresAndAlgorithms', 'DataStructures', 'INDEX']
 created: 2026-05-16
@@ -7,9 +7,9 @@ updated: 2026-05-13
 
 # DataStructures
 
-本索引汇集了 DataStructures 相关的核心知识文件，涵盖 05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/INDEX|Algorithms、05_ComputerScience/ProgrammingLanguages/INDEX|ProgrammingLanguages、AVL 等内容。
+鏈储寮曟眹闆嗕簡 DataStructures 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/INDEX|Algorithms銆?5_ComputerScience/ProgrammingLanguages/INDEX|ProgrammingLanguages銆丄VL 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
 - [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/INDEX|Algorithms]]
 - [[05_ComputerScience/ProgrammingLanguages/INDEX|ProgrammingLanguages]]
@@ -23,13 +23,15 @@ updated: 2026-05-13
 - [[Tree]]
 - [[Trie]]
 - [[UnionFind]]
-- [[AdvancedDataStructures]] - 高级数据结构
-- [[ArraysAndStrings]] - 数组与字符串
-- [[BinarySearchTree]] - 二叉搜索树
-- [[Graph]] - 图
-- [[Graphs]] - 图
-- [[HashTable]] - 哈希表
-- [[HashTables]] - 哈希表
-- [[HeapsAndPriorityQueues]] - 堆与优先队列
-- [[LinkedLists]] - 链表
-- [[Trees]] - 树
+- [[AdvancedDataStructures]] - 楂樼骇鏁版嵁缁撴瀯
+- [[ArraysAndStrings]] - 鏁扮粍涓庡瓧绗︿覆
+- [[BinarySearchTree]] - 浜屽弶鎼滅储鏍?
+- [[Graph]] - 鍥?
+- [[Graphs]] - 鍥?
+- [[HashTable]] - 鍝堝笇琛?
+- [[HashTables]] - 鍝堝笇琛?
+- [[HeapsAndPriorityQueues]] - 鍫嗕笌浼樺厛闃熷垪
+- [[LinkedLists]] - 閾捐〃
+- [[Trees]] - 鏍?
+- [[DataStructures]]
+

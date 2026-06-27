@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['HardwareAndEmbeddedSystems', 'INDEX']
 created: 2026-05-16
@@ -7,16 +7,16 @@ updated: 2026-05-13
 
 # HardwareAndEmbeddedSystems
 
-本索引汇集了 HardwareAndEmbeddedSystems 相关的核心知识文件，涵盖 EmbeddedSystems — 嵌入式系统、FPGA — FPGA、LearningPath — 硬件学习路线图 等内容。
+鏈储寮曟眹闆嗕簡 HardwareAndEmbeddedSystems 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 EmbeddedSystems 鈥?宓屽叆寮忕郴缁熴€丗PGA 鈥?FPGA銆丩earningPath 鈥?纭欢瀛︿範璺嚎鍥?绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
-- [[EmbeddedSystems]] — 嵌入式系统
-- [[05_ComputerScience/HardwareAndEmbeddedSystems/FPGA/INDEX]] — FPGA
-- [[LearningPath]] — 硬件学习路线图
-- [[Microcontrollers]] — 微控制器
-- [[SystemOnChip]] — 片上系统
-- [[VHDL]] — VHDL
+- [[EmbeddedSystems]] 鈥?宓屽叆寮忕郴缁?
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/FPGA/INDEX]] 鈥?FPGA
+- [[LearningPath]] 鈥?纭欢瀛︿範璺嚎鍥?
+- [[Microcontrollers]] 鈥?寰帶鍒跺櫒
+- [[SystemOnChip]] 鈥?鐗囦笂绯荤粺
+- [[VHDL]] 鈥?VHDL
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/AnalogCircuits/INDEX|Analog Circuits]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/Arduino/INDEX|Arduino]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/DigitalCircuits/INDEX|Digital Circuits]]
@@ -29,3 +29,7 @@ updated: 2026-05-13
 - [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/Robotics/INDEX|Robotics]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/RTOS/INDEX|RTOS]]
 - [[../INDEX|Computer Science]]
+- [[ComputerArchitecture2026]]
+- [[EmbeddedSystemsOverview]]
+- [[VerilogAndDigitalDesign]]
+

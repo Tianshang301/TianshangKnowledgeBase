@@ -1,14 +1,13 @@
----
+﻿---
 aliases: [INDEX]
-tags: ['Physics', 'Geophysics', 'INDEX']
-created: 2026-05-16
-updated: 2026-05-13
+tags: ['Geophysics', 'INDEX']
+created: 2026-06-27
+updated: 2026-06-27
 ---
 
-# 地球物理学
+# Geophysics
 
-本索引汇集了地球物理学相关的核心概念与知识文件，涵盖地球内部结构、地磁与地震学等内容。
+> 此目录内容已合并至 [[02_NaturalSciences/EarthSciences/Geophysics/INDEX|EarthSciences/Geophysics]]
 
-## 文件
-
+## 相关条目
 - [[Geophysics]]

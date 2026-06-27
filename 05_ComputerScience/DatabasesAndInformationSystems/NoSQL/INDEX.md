@@ -1,15 +1,17 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['DatabasesAndInformationSystems', 'NoSQL', 'INDEX']
 created: 2026-05-16
 updated: 2026-05-13
 ---
 
-# NoSQL 数据库
+# NoSQL 鏁版嵁搴?
 
-本索引汇集了 NoSQL 数据库的类型与特性，涵盖键值存储、文档数据库及图数据库等内容。
+鏈储寮曟眹闆嗕簡 NoSQL 鏁版嵁搴撶殑绫诲瀷涓庣壒鎬э紝娑电洊閿€煎瓨鍌ㄣ€佹枃妗ｆ暟鎹簱鍙婂浘鏁版嵁搴撶瓑鍐呭銆?
 
-## 文件
+## 鏂囦欢
 
 - [[NoSQL]]
-- [[分布式数据库与 NewSQL]]
+- [[鍒嗗竷寮忔暟鎹簱涓?NewSQL]]
+- [[分布式数据库与NewSQL]]
+

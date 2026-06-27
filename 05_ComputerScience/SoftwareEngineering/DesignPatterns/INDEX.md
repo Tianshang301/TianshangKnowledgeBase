@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['SoftwareEngineering', 'DesignPatterns', 'INDEX']
 created: 2026-05-16
@@ -7,9 +7,11 @@ updated: 2026-05-13
 
 # DesignPatterns
 
-本索引汇集了 DesignPatterns 相关的核心知识文件，涵盖 DesignPatterns - 设计模式、架构模式与企业应用 - 架构模式与企业应用 等内容。
+鏈储寮曟眹闆嗕簡 DesignPatterns 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 DesignPatterns - 璁捐妯″紡銆佹灦鏋勬ā寮忎笌浼佷笟搴旂敤 - 鏋舵瀯妯″紡涓庝紒涓氬簲鐢?绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
-- [[DesignPatterns]] - 设计模式
-- [[架构模式与企业应用]] - 架构模式与企业应用
+- [[DesignPatterns]] - 璁捐妯″紡
+- [[鏋舵瀯妯″紡涓庝紒涓氬簲鐢╙] - 鏋舵瀯妯″紡涓庝紒涓氬簲鐢?
+- [[架构模式与企业应用]]
+

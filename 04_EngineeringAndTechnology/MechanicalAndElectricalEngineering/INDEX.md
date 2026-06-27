@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['MechanicalAndElectricalEngineering', 'INDEX']
 created: 2026-05-16
@@ -7,9 +7,9 @@ updated: 2026-05-13
 
 # MechanicalAndElectricalEngineering
 
-本索引汇集了 MechanicalAndElectricalEngineering 相关的核心知识文件，涵盖 AutomotiveEngineering、ElectricalMachines、EnergySystems 等内容。
+鏈储寮曟眹闆嗕簡 MechanicalAndElectricalEngineering 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 AutomotiveEngineering銆丒lectricalMachines銆丒nergySystems 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
 - [[AutomotiveEngineering]]
 - [[ElectricalMachines]]
@@ -21,3 +21,8 @@ updated: 2026-05-13
 - [[Robotics]]
 - [[Thermofluids]]
 - [[../INDEX]]
+- [[InstrumentScience/INDEX|InstrumentScience]]
+- [[MechanicalEngineering/INDEX|MechanicalEngineering]]
+- [[OpticalEngineering/INDEX|OpticalEngineering]]
+- [[PowerEngineering/INDEX|PowerEngineering]]
+

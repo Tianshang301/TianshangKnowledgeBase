@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['Music', 'MusicTheory', 'INDEX']
 created: 2026-05-16
@@ -7,11 +7,13 @@ updated: 2026-05-13
 
 # MusicTheory
 
-本索引汇集了 MusicTheory 相关的核心知识文件，涵盖 Chords - 和弦、Harmony - 和声、Intervals - 音程 等内容。
+鏈储寮曟眹闆嗕簡 MusicTheory 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 Chords - 鍜屽鸡銆丠armony - 鍜屽０銆両ntervals - 闊崇▼ 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
-- [[Chords]] - 和弦
-- [[Harmony]] - 和声
-- [[Intervals]] - 音程
-- [[Scales]] - 音阶
+- [[Chords]] - 鍜屽鸡
+- [[Harmony]] - 鍜屽０
+- [[Intervals]] - 闊崇▼
+- [[Scales]] - 闊抽樁
+- [[MusicTheory]]
+

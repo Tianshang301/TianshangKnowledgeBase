@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['HardwareAndEmbeddedSystems', 'PCBDesign', 'INDEX']
 created: 2026-05-16
@@ -7,9 +7,11 @@ updated: 2026-05-13
 
 # PCBDesign
 
-本索引汇集了 PCBDesign 相关的核心知识文件，涵盖 PCBDesign - PCB 设计、高速 PCB 设计要点 - 高速 PCB 设计要点 等内容。
+鏈储寮曟眹闆嗕簡 PCBDesign 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 PCBDesign - PCB 璁捐銆侀珮閫?PCB 璁捐瑕佺偣 - 楂橀€?PCB 璁捐瑕佺偣 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
-- [[PCBDesign]] - PCB 设计
-- [[高速 PCB 设计要点]] - 高速 PCB 设计要点
+- [[PCBDesign]] - PCB 璁捐
+- [[楂橀€?PCB 璁捐瑕佺偣]] - 楂橀€?PCB 璁捐瑕佺偣
+- [[高速PCB设计要点]]
+

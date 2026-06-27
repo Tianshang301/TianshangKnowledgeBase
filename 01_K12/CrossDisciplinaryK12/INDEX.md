@@ -1,26 +1,28 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['CrossDisciplinaryK12', 'INDEX']
 created: 2026-05-16
 updated: 2026-05-13
 ---
 
-# 跨学科综合素养
+# 璺ㄥ绉戠患鍚堢礌鍏?
 
-K12 跨学科综合素养教育，涵盖 STEM、古典文学、批判性思维、财经素养、媒体素养、环境教育、公民教育、职业教育、健康教育等专题。
+K12 璺ㄥ绉戠患鍚堢礌鍏绘暀鑲诧紝娑电洊 STEM銆佸彜鍏告枃瀛︺€佹壒鍒ゆ€ф€濈淮銆佽储缁忕礌鍏汇€佸獟浣撶礌鍏汇€佺幆澧冩暀鑲层€佸叕姘戞暀鑲层€佽亴涓氭暀鑲层€佸仴搴锋暀鑲茬瓑涓撻銆?
 
-## 子目录
+## 瀛愮洰褰?
 
-- [[01_K12/CrossDisciplinaryK12/STEM/INDEX|STEM 教育]] — 科学、技术、工程、数学跨学科融合
-- [[01_K12/CrossDisciplinaryK12/ClassicalLiterature/INDEX|古典文学导读]] — 中西方经典文学作品阅读与赏析
-- [[01_K12/CrossDisciplinaryK12/CriticalThinkingForTeens/INDEX|青少年批判性思维]] — 论证分析、逻辑推理训练
-- [[01_K12/CrossDisciplinaryK12/FinancialLiteracyForTeens/INDEX|财经素养探究]] — 个人理财、投资基础
-- [[01_K12/CrossDisciplinaryK12/MediaLiteracy/INDEX|媒体素养]] — 数字公民、信息素养
-- [[01_K12/CrossDisciplinaryK12/EnvironmentalEducation/INDEX|环境教育]] — 气候变化教育、可持续发展
-- [[01_K12/CrossDisciplinaryK12/CivicEducation/INDEX|公民教育]] — 民主治理、人权教育
-- [[01_K12/CrossDisciplinaryK12/CareerEducation/INDEX|职业教育与创业教育]] — 职业规划、创业启蒙
-- [[01_K12/CrossDisciplinaryK12/HealthEducation/INDEX|健康教育]] — 青少年心理健康、营养与健康
+- [[01_K12/CrossDisciplinaryK12/STEM/INDEX|STEM 鏁欒偛]] 鈥?绉戝銆佹妧鏈€佸伐绋嬨€佹暟瀛﹁法瀛︾铻嶅悎
+- [[01_K12/CrossDisciplinaryK12/ClassicalLiterature/INDEX|鍙ゅ吀鏂囧瀵艰]] 鈥?涓タ鏂圭粡鍏告枃瀛︿綔鍝侀槄璇讳笌璧忔瀽
+- [[01_K12/CrossDisciplinaryK12/CriticalThinkingForTeens/INDEX|闈掑皯骞存壒鍒ゆ€ф€濈淮]] 鈥?璁鸿瘉鍒嗘瀽銆侀€昏緫鎺ㄧ悊璁粌
+- [[01_K12/CrossDisciplinaryK12/FinancialLiteracyForTeens/INDEX|璐㈢粡绱犲吇鎺㈢┒]] 鈥?涓汉鐞嗚储銆佹姇璧勫熀纭€
+- [[01_K12/CrossDisciplinaryK12/MediaLiteracy/INDEX|濯掍綋绱犲吇]] 鈥?鏁板瓧鍏皯銆佷俊鎭礌鍏?
+- [[01_K12/CrossDisciplinaryK12/EnvironmentalEducation/INDEX|鐜鏁欒偛]] 鈥?姘斿€欏彉鍖栨暀鑲层€佸彲鎸佺画鍙戝睍
+- [[01_K12/CrossDisciplinaryK12/CivicEducation/INDEX|鍏皯鏁欒偛]] 鈥?姘戜富娌荤悊銆佷汉鏉冩暀鑲?
+- [[01_K12/CrossDisciplinaryK12/CareerEducation/INDEX|鑱屼笟鏁欒偛涓庡垱涓氭暀鑲瞉] 鈥?鑱屼笟瑙勫垝銆佸垱涓氬惎钂?
+- [[01_K12/CrossDisciplinaryK12/HealthEducation/INDEX|鍋ュ悍鏁欒偛]] 鈥?闈掑皯骞村績鐞嗗仴搴枫€佽惀鍏讳笌鍋ュ悍
 
-## 文件
+## 鏂囦欢
 
-- [[跨学科整合]] — 跨学科整合探究
+- [[璺ㄥ绉戞暣鍚圿] 鈥?璺ㄥ绉戞暣鍚堟帰绌?
+- [[跨学科整合]]
+

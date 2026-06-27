@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['NeuralNetworkArchitectures', 'INDEX']
 created: 2026-06-27
@@ -7,11 +7,15 @@ updated: 2026-06-27
 
 # NeuralNetworkArchitectures
 
-本索引汇集了 NeuralNetworkArchitectures 相关的核心知识文件，涵盖 AttentionIsAllYouNeed、RNNAndLSTM、CNNArchitectures、GPTAndScaling 等内容。
-
-## 文件
+鏈储寮曟眹闆嗕簡 NeuralNetworkArchitectures 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 AttentionIsAllYouNeed銆丷NNAndLSTM銆丆NNArchitectures銆丟PTAndScaling 绛夊唴瀹广€?
+## 鏂囦欢
 
 - [[05_ComputerScience/ArtificialIntelligence/NeuralNetworkArchitectures/AttentionIsAllYouNeed]] - Attention Is All You Need
-- [[05_ComputerScience/ArtificialIntelligence/NeuralNetworkArchitectures/RNNAndLSTM]] - RNN 与 LSTM
-- [[05_ComputerScience/ArtificialIntelligence/NeuralNetworkArchitectures/CNNArchitectures]] - CNN 架构
-- [[05_ComputerScience/ArtificialIntelligence/NeuralNetworkArchitectures/GPTAndScaling]] - GPT 与 Scaling
+- [[05_ComputerScience/ArtificialIntelligence/NeuralNetworkArchitectures/RNNAndLSTM]] - RNN 涓?LSTM
+- [[05_ComputerScience/ArtificialIntelligence/NeuralNetworkArchitectures/CNNArchitectures]] - CNN 鏋舵瀯
+- [[05_ComputerScience/ArtificialIntelligence/NeuralNetworkArchitectures/GPTAndScaling]] - GPT 涓?Scaling
+- [[AttentionIsAllYouNeed]]
+- [[CNNArchitectures]]
+- [[GPTAndScaling]]
+- [[RNNAndLSTM]]
+

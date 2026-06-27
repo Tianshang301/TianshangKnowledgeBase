@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['INDEX']
 created: 2026-05-16
@@ -7,21 +7,28 @@ updated: 2026-06-27
 
 # 06_ArtsAndCreativity
 
-本索引汇集了 06_ArtsAndCreativity 相关的核心知识文件，涵盖 舞蹈历史与美学 - 舞蹈历史与美学、舞蹈训练与编创 - 舞蹈训练与编创、摄影布光与后期调色 - 摄影布光与后期调色 等内容。
+鏈储寮曟眹闆嗕簡 06_ArtsAndCreativity 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 鑸炶箞鍘嗗彶涓庣編瀛?- 鑸炶箞鍘嗗彶涓庣編瀛︺€佽垶韫堣缁冧笌缂栧垱 - 鑸炶箞璁粌涓庣紪鍒涖€佹憚褰卞竷鍏変笌鍚庢湡璋冭壊 - 鎽勫奖甯冨厜涓庡悗鏈熻皟鑹?绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
-- [[舞蹈历史与美学]] - 舞蹈历史与美学
-- [[舞蹈训练与编创]] - 舞蹈训练与编创
-- [[摄影布光与后期调色]] - 摄影布光与后期调色
-- [[摄影技法与后期]] - 摄影技法与后期
+- [[鑸炶箞鍘嗗彶涓庣編瀛] - 鑸炶箞鍘嗗彶涓庣編瀛?
+- [[鑸炶箞璁粌涓庣紪鍒沒] - 鑸炶箞璁粌涓庣紪鍒?
+- [[鎽勫奖甯冨厜涓庡悗鏈熻皟鑹瞉] - 鎽勫奖甯冨厜涓庡悗鏈熻皟鑹?
+- [[鎽勫奖鎶€娉曚笌鍚庢湡]] - 鎽勫奖鎶€娉曚笌鍚庢湡
 - [[Calligraphy]]
-- [[06_ArtsAndCreativity/AnimationAndVFX/AnimationPrinciples]] - 动画原理
-- [[06_ArtsAndCreativity/AnimationAndVFX/MotionDesign]] - 动态设计
-- [[06_ArtsAndCreativity/AnimationAndVFX/ThreeDModeling]] - 三维建模
-- [[06_ArtsAndCreativity/AnimationAndVFX/VisualEffects]] - 视觉特效
-- [[06_ArtsAndCreativity/GameDesign/GameDesignTheory]] - 游戏设计理论
-- [[06_ArtsAndCreativity/GameDesign/GameNarrative]] - 游戏叙事
-- [[06_ArtsAndCreativity/GameDesign/GamePsychology]] - 游戏心理学
-- [[06_ArtsAndCreativity/GameDesign/LevelDesign]] - 关卡设计
+- [[06_ArtsAndCreativity/AnimationAndVFX/AnimationPrinciples]] - 鍔ㄧ敾鍘熺悊
+- [[06_ArtsAndCreativity/AnimationAndVFX/MotionDesign]] - 鍔ㄦ€佽璁?
+- [[06_ArtsAndCreativity/AnimationAndVFX/ThreeDModeling]] - 涓夌淮寤烘ā
+- [[06_ArtsAndCreativity/AnimationAndVFX/VisualEffects]] - 瑙嗚鐗规晥
+- [[06_ArtsAndCreativity/GameDesign/GameDesignTheory]] - 娓告垙璁捐鐞嗚
+- [[06_ArtsAndCreativity/GameDesign/GameNarrative]] - 娓告垙鍙欎簨
+- [[06_ArtsAndCreativity/GameDesign/GamePsychology]] - 娓告垙蹇冪悊瀛?
+- [[06_ArtsAndCreativity/GameDesign/LevelDesign]] - 鍏冲崱璁捐
 - [[LearningPath]]
+- [[FilmStudies]]
+- [[Dance/INDEX|Dance]]
+- [[DramaAndFilm/INDEX|DramaAndFilm]]
+- [[FineArts/INDEX|FineArts]]
+- [[Music/INDEX|Music]]
+- [[PhotographyAndCinematography/INDEX|PhotographyAndCinematography]]
+

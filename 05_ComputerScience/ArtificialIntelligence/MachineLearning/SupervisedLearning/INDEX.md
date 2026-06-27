@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['ArtificialIntelligence', 'MachineLearning', 'SupervisedLearning', 'INDEX']
 created: 2026-05-16
@@ -7,9 +7,11 @@ updated: 2026-05-13
 
 # SupervisedLearning
 
-本索引汇集了 SupervisedLearning 相关的核心知识文件，涵盖 SupervisedLearning - 监督学习、集成学习方法 - 集成学习方法 等内容。
+鏈储寮曟眹闆嗕簡 SupervisedLearning 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 SupervisedLearning - 鐩戠潱瀛︿範銆侀泦鎴愬涔犳柟娉?- 闆嗘垚瀛︿範鏂规硶 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
-- [[SupervisedLearning]] - 监督学习
-- [[集成学习方法]] - 集成学习方法
+- [[SupervisedLearning]] - 鐩戠潱瀛︿範
+- [[闆嗘垚瀛︿範鏂规硶]] - 闆嗘垚瀛︿範鏂规硶
+- [[集成学习方法]]
+

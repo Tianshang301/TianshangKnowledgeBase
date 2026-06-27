@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['ProgrammingLanguages', 'INDEX']
 created: 2026-05-16
@@ -7,9 +7,9 @@ updated: 2026-05-13
 
 # ProgrammingLanguages
 
-本索引汇集了 ProgrammingLanguages 相关的核心知识文件，涵盖 Assembly/INDEX|Assembly、C_Cpp/INDEX|C / C++、CSharp/INDEX|C# 等内容。
+鏈储寮曟眹闆嗕簡 ProgrammingLanguages 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 Assembly/INDEX|Assembly銆丆_Cpp/INDEX|C / C++銆丆Sharp/INDEX|C# 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
 - [[05_ComputerScience/ProgrammingLanguages/Assembly/INDEX|Assembly]]
 - [[05_ComputerScience/ProgrammingLanguages/CCpp/INDEX|C / C++]]
@@ -38,3 +38,6 @@ updated: 2026-05-13
 - [[05_ComputerScience/ProgrammingLanguages/Swift/INDEX]]
 - [[TypeScript]]
 - [[../INDEX|Computer Science]]
+- [[ProgrammingLanguages]]
+- [[SQL]]
+

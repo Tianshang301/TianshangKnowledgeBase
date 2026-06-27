@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['INDEX']
 created: 2026-05-16
@@ -7,28 +7,36 @@ updated: 2026-05-13
 
 # 12_SportsScience
 
-本索引汇集了 12_SportsScience 相关的核心知识文件，涵盖 Biomechanics - 运动生物力学、CardiovascularResponse - 心血管反应、EnergySystems - 能量系统 等内容。
+鏈储寮曟眹闆嗕簡 12_SportsScience 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 Biomechanics - 杩愬姩鐢熺墿鍔涘銆丆ardiovascularResponse - 蹇冭绠″弽搴斻€丒nergySystems - 鑳介噺绯荤粺 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
-- [[Biomechanics]] - 运动生物力学
-- [[CardiovascularResponse]] - 心血管反应
-- [[EnergySystems]] - 能量系统
-- [[ExerciseAndHealth]] - 运动与健康
-- [[MusclePhysiology]] - 肌肉生理学
-- [[AssessmentInPE]] - 体育评价
-- [[CurriculumDesign]] - 课程设计
-- [[MotorLearning]] - 运动学习
-- [[TeachingMethods]] - 教学方法
-- [[DopingAndAntiDoping]] - 兴奋剂与反兴奋剂
-- [[Rehabilitation]] - 康复医学
-- [[RehabilitationTherapy]] - 康复治疗
-- [[SportsInjuries]] - 运动损伤
-- [[SportsNutrition]] - 运动营养
-- [[EnduranceTraining]] - 耐力训练
-- [[Periodization]] - 训练周期化
-- [[SportSpecificTraining]] - 专项训练
-- [[SportsPsychology]] - 运动心理学
-- [[StrengthTraining]] - 力量训练
-- [[TrainingTheory]] - 训练理论
+- [[Biomechanics]] - 杩愬姩鐢熺墿鍔涘
+- [[CardiovascularResponse]] - 蹇冭绠″弽搴?
+- [[EnergySystems]] - 鑳介噺绯荤粺
+- [[ExerciseAndHealth]] - 杩愬姩涓庡仴搴?
+- [[MusclePhysiology]] - 鑲岃倝鐢熺悊瀛?
+- [[AssessmentInPE]] - 浣撹偛璇勪环
+- [[CurriculumDesign]] - 璇剧▼璁捐
+- [[MotorLearning]] - 杩愬姩瀛︿範
+- [[TeachingMethods]] - 鏁欏鏂规硶
+- [[DopingAndAntiDoping]] - 鍏村鍓備笌鍙嶅叴濂嬪墏
+- [[Rehabilitation]] - 搴峰鍖诲
+- [[RehabilitationTherapy]] - 搴峰娌荤枟
+- [[SportsInjuries]] - 杩愬姩鎹熶激
+- [[SportsNutrition]] - 杩愬姩钀ュ吇
+- [[EnduranceTraining]] - 鑰愬姏璁粌
+- [[Periodization]] - 璁粌鍛ㄦ湡鍖?
+- [[SportSpecificTraining]] - 涓撻」璁粌
+- [[SportsPsychology]] - 杩愬姩蹇冪悊瀛?
+- [[StrengthTraining]] - 鍔涢噺璁粌
+- [[TrainingTheory]] - 璁粌鐞嗚
 - [[LearningPath]]
+- [[BadmintonTechniques]]
+- [[GaitAnalysis]]
+- [[IntervalTraining]]
+- [[ExercisePhysiology/INDEX|ExercisePhysiology]]
+- [[PhysicalEducation/INDEX|PhysicalEducation]]
+- [[SportsMedicine/INDEX|SportsMedicine]]
+- [[SportsTraining/INDEX|SportsTraining]]
+

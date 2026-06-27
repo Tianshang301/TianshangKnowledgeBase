@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['ProgrammingLanguages', 'Swift', 'INDEX']
 created: 2026-05-16
@@ -7,16 +7,19 @@ updated: 2026-06-27
 
 # Swift
 
-本索引汇集了 Swift 相关的核心知识文件。
+鏈储寮曟眹闆嗕簡 Swift 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠躲€?
 
-## 文件
+## 鏂囦欢
 
-- [[Swift]] - Swift 语言基础
-- [[SwiftUI与iOS开发]] - SwiftUI 声明式 UI 开发
-- [[SwiftConcurrency]] - Swift 并发编程（async/await, Task, Actor）
-- [[Combine]] - Combine 响应式编程框架
-- [[AppArchitecture]] - iOS 应用架构（MVVM, VIPER, TCA）
-- [[UIKitDeepDive]] - UIKit 深度指南（UIView, Auto Layout, 动画）
-- [[CoreFrameworks]] - iOS 核心框架（Core Animation, Core Location, MapKit, HealthKit）
-- [[NetworkingAndPersistence]] - 网络与持久化（URLSession, SwiftData, CloudKit, Keychain）
-- [[PerformanceAndDebugging]] - 性能优化与调试（Instruments, 内存管理, 启动优化）
+- [[Swift]] - Swift 璇█鍩虹
+- [[SwiftUI涓巌OS寮€鍙慮] - SwiftUI 澹版槑寮?UI 寮€鍙?
+- [[SwiftConcurrency]] - Swift 骞跺彂缂栫▼锛坅sync/await, Task, Actor锛?
+- [[Combine]] - Combine 鍝嶅簲寮忕紪绋嬫鏋?
+- [[AppArchitecture]] - iOS 搴旂敤鏋舵瀯锛圡VVM, VIPER, TCA锛?
+- [[UIKitDeepDive]] - UIKit 娣卞害鎸囧崡锛圲IView, Auto Layout, 鍔ㄧ敾锛?
+- [[CoreFrameworks]] - iOS 鏍稿績妗嗘灦锛圕ore Animation, Core Location, MapKit, HealthKit锛?
+- [[NetworkingAndPersistence]] - 缃戠粶涓庢寔涔呭寲锛圲RLSession, SwiftData, CloudKit, Keychain锛?
+- [[PerformanceAndDebugging]] - 鎬ц兘浼樺寲涓庤皟璇曪紙Instruments, 鍐呭瓨绠＄悊, 鍚姩浼樺寲锛?
+- [[SwiftUI与iOS开发]]
+- [[WidgetKitAndAppIntents]]
+

@@ -1,15 +1,17 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['DatabasesAndInformationSystems', 'DataWarehousing', 'INDEX']
 created: 2026-05-16
 updated: 2026-05-13
 ---
 
-# 数据仓库
+# 鏁版嵁浠撳簱
 
-本索引汇集了数据仓库的设计与实现方法，涵盖多维建模、ETL 流程及 OLAP 分析等内容。
+鏈储寮曟眹闆嗕簡鏁版嵁浠撳簱鐨勮璁′笌瀹炵幇鏂规硶锛屾兜鐩栧缁村缓妯°€丒TL 娴佺▼鍙?OLAP 鍒嗘瀽绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
 - [[DataWarehousing]]
-- [[OLAP 与多维数据分析]]
+- [[OLAP 涓庡缁存暟鎹垎鏋怾]
+- [[OLAP与多维数据分析]]
+

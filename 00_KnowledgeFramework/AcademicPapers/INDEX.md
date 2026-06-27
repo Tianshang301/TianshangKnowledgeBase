@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['AcademicPapers', 'INDEX']
 created: 2026-05-16
@@ -7,10 +7,13 @@ updated: 2026-05-13
 
 # AcademicPapers
 
-本索引汇集了 AcademicPapers 相关的核心知识文件，涵盖 AcademicPapers - 学术论文、文献综述方法 - 文献综述方法、论文结构指南 - 论文结构指南 等内容。
+鏈储寮曟眹闆嗕簡 AcademicPapers 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 AcademicPapers - 瀛︽湳璁烘枃銆佹枃鐚患杩版柟娉?- 鏂囩尞缁艰堪鏂规硶銆佽鏂囩粨鏋勬寚鍗?- 璁烘枃缁撴瀯鎸囧崡 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
-- [[AcademicPapers]] - 学术论文
-- [[文献综述方法]] - 文献综述方法
-- [[论文结构指南]] - 论文结构指南
+- [[AcademicPapers]] - 瀛︽湳璁烘枃
+- [[鏂囩尞缁艰堪鏂规硶]] - 鏂囩尞缁艰堪鏂规硶
+- [[璁烘枃缁撴瀯鎸囧崡]] - 璁烘枃缁撴瀯鎸囧崡
+- [[IMRaD]]
+- [[学术论文]]
+

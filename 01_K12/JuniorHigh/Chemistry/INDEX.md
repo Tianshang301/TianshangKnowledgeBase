@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['JuniorHigh', 'Chemistry', 'INDEX']
 created: 2026-05-16
@@ -7,11 +7,13 @@ updated: 2026-05-13
 
 # Chemistry
 
-本索引汇集了 Chemistry 相关的核心知识文件，涵盖 | [[AtomicStructure|原子结构、元素周期表、化学用语]]、| [[ChemicalBonds|化学键、化合价、化学式]]、| [[Reactions|化学反应类型、质量守恒、化学方程式]] 等内容。
+鏈储寮曟眹闆嗕簡 Chemistry 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 | [[AtomicStructure|鍘熷瓙缁撴瀯銆佸厓绱犲懆鏈熻〃銆佸寲瀛︾敤璇璢]銆亅 [[ChemicalBonds|鍖栧閿€佸寲鍚堜环銆佸寲瀛﹀紡]]銆亅 [[Reactions|鍖栧鍙嶅簲绫诲瀷銆佽川閲忓畧鎭掋€佸寲瀛︽柟绋嬪紡]] 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
-| [[AtomicStructure]] | 原子结构、元素周期表、化学用语 |
-| [[ChemicalBonds]] | 化学键、化合价、化学式 |
-| [[Reactions]] | 化学反应类型、质量守恒、化学方程式 |
-| [[练习题与解析]] | 综合练习题与详细解析 |
+| [[AtomicStructure]] | 鍘熷瓙缁撴瀯銆佸厓绱犲懆鏈熻〃銆佸寲瀛︾敤璇?|
+| [[ChemicalBonds]] | 鍖栧閿€佸寲鍚堜环銆佸寲瀛﹀紡 |
+| [[Reactions]] | 鍖栧鍙嶅簲绫诲瀷銆佽川閲忓畧鎭掋€佸寲瀛︽柟绋嬪紡 |
+| [[缁冧範棰樹笌瑙ｆ瀽]] | 缁煎悎缁冧範棰樹笌璇︾粏瑙ｆ瀽 |
+- [[练习题与解析]]
+

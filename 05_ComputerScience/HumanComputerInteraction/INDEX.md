@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['HumanComputerInteraction', 'INDEX']
 created: 2026-05-16
@@ -7,13 +7,15 @@ updated: 2026-05-13
 
 # HumanComputerInteraction
 
-本索引汇集了 HumanComputerInteraction 相关的核心知识文件，涵盖 Accessibility - 无障碍设计、HumanComputerInteraction - 人机交互、InteractionDesign - 交互设计 等内容。
+鏈储寮曟眹闆嗕簡 HumanComputerInteraction 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 Accessibility - 鏃犻殰纰嶈璁°€丠umanComputerInteraction - 浜烘満浜や簰銆両nteractionDesign - 浜や簰璁捐 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
-- [[Accessibility]] - 无障碍设计
-- [[HumanComputerInteraction]] - 人机交互
-- [[InteractionDesign]] - 交互设计
-- [[UsabilityEngineering]] - 可用性工程
-- [[UserExperience]] - 用户体验
-- [[UserInterfaceDesign]] - 用户界面设计
+- [[Accessibility]] - 鏃犻殰纰嶈璁?
+- [[HumanComputerInteraction]] - 浜烘満浜や簰
+- [[InteractionDesign]] - 浜や簰璁捐
+- [[UsabilityEngineering]] - 鍙敤鎬у伐绋?
+- [[UserExperience]] - 鐢ㄦ埛浣撻獙
+- [[UserInterfaceDesign]] - 鐢ㄦ埛鐣岄潰璁捐
+- [[HCIOverview]]
+

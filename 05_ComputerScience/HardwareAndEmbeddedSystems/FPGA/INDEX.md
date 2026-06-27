@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['HardwareAndEmbeddedSystems', 'FPGA', 'INDEX']
 created: 2026-05-16
@@ -7,9 +7,11 @@ updated: 2026-05-13
 
 # FPGA
 
-本索引汇集了 FPGA 相关的核心知识文件，涵盖 FPGA、Verilog 硬件描述语言 - Verilog 硬件描述语言 等内容。
+鏈储寮曟眹闆嗕簡 FPGA 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 FPGA銆乂erilog 纭欢鎻忚堪璇█ - Verilog 纭欢鎻忚堪璇█ 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
 - [[FPGA]]
-- [[Verilog 硬件描述语言]] - Verilog 硬件描述语言
+- [[Verilog 纭欢鎻忚堪璇█]] - Verilog 纭欢鎻忚堪璇█
+- [[Verilog硬件描述语言]]
+

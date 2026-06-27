@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['Mathematics', 'INDEX']
 created: 2026-05-16
@@ -7,9 +7,9 @@ updated: 2026-05-13
 
 # Mathematics
 
-本索引汇集了 Mathematics 相关的核心知识文件，涵盖 DiscreteMathematics、BasicAlgorithms、ComputationalGeometry 等内容。
+鏈储寮曟眹闆嗕簡 Mathematics 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 DiscreteMathematics銆丅asicAlgorithms銆丆omputationalGeometry 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
 - [[DiscreteMathematics]]
 - [[BasicAlgorithms]]
@@ -29,3 +29,12 @@ updated: 2026-05-13
 - [[02_NaturalSciences/Mathematics/Topology/INDEX]]
 - [[Optimization]]
 - [[SetTheory]]
+- [[AppliedMathematics]]
+- [[ComputationalMathematics]]
+- [[NumericalComputation]]
+- [[Polynomial]]
+- [[ComputationalMathematics/INDEX|ComputationalMathematics]]
+- [[HistoryOfMathematics/INDEX|HistoryOfMathematics]]
+- [[MathematicalAnalysis/INDEX|MathematicalAnalysis]]
+- [[ProbabilityStatistics/INDEX|ProbabilityStatistics]]
+

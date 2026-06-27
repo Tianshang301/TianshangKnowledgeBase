@@ -1,15 +1,17 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['ComputerOrganizationAndArchitecture', 'InstructionSet', 'INDEX']
 created: 2026-05-16
 updated: 2026-05-13
 ---
 
-# 指令集体系结构
+# 鎸囦护闆嗕綋绯荤粨鏋?
 
-本索引汇集了指令集架构的核心概念，涵盖 RISC/CISC、寻址模式及指令格式等内容。
+鏈储寮曟眹闆嗕簡鎸囦护闆嗘灦鏋勭殑鏍稿績姒傚康锛屾兜鐩?RISC/CISC銆佸鍧€妯″紡鍙婃寚浠ゆ牸寮忕瓑鍐呭銆?
 
-## 文件
+## 鏂囦欢
 
 - [[InstructionSet]]
-- [[RISC-V 指令集架构]]
+- [[RISC-V 鎸囦护闆嗘灦鏋刔]
+- [[RISC-V指令集架构]]
+

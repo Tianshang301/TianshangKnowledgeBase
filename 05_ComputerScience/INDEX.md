@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['INDEX']
 created: 2026-05-16
@@ -7,123 +7,123 @@ updated: 2026-06-27
 
 # 05_ComputerScience
 
-本索引汇集了 05_ComputerScience 相关的核心知识文件，涵盖 ArtificialIntelligence/AIGC/INDEX - AIGC、ArtificialIntelligence/AIEthics/INDEX - AI 伦理、ArtificialIntelligence/ComputerVision/INDEX - 计算机视觉 等内容。
+鏈储寮曟眹闆嗕簡 05_ComputerScience 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 ArtificialIntelligence/AIGC/INDEX - AIGC銆丄rtificialIntelligence/AIEthics/INDEX - AI 浼︾悊銆丄rtificialIntelligence/ComputerVision/INDEX - 璁＄畻鏈鸿瑙?绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
 - [[05_ComputerScience/ArtificialIntelligence/AIGC/INDEX]] - AIGC
-- [[05_ComputerScience/ArtificialIntelligence/AIEthics/INDEX]] - AI 伦理
-- [[05_ComputerScience/ArtificialIntelligence/ComputerVision/INDEX]] - 计算机视觉
-- [[05_ComputerScience/ArtificialIntelligence/KnowledgeRepresentation/INDEX]] - 知识表示
-- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/NeuralNetworksAndDeepLearning/INDEX]] - 神经网络与深度学习
-- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/SupervisedLearning/INDEX]] - 监督学习
-- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/UnsupervisedLearning/INDEX]] - 无监督学习
-- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/ReinforcementLearning/INDEX]] - 强化学习
-- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/ModelEvaluation/INDEX]] - 模型评估
-- [[05_ComputerScience/ArtificialIntelligence/NaturalLanguageProcessing/INDEX]] - 自然语言处理
-- [[05_ComputerScience/Basics/BasicOperations]] - 基本操作
-- [[05_ComputerScience/Basics/CLIvsGUI]] - 命令行与图形界面
-- [[05_ComputerScience/Basics/Compression]] - 压缩
-- [[05_ComputerScience/Basics/EnvironmentConfig]] - 环境配置
-- [[05_ComputerScience/Basics/FilePaths]] - 文件路径
-- [[05_ComputerScience/Blockchain/Blockchain]] - 区块链
-- [[05_ComputerScience/Blockchain/ConsensusMechanisms]] - 共识机制
-- [[05_ComputerScience/Blockchain/DeFi]] - 去中心化金融
-- [[05_ComputerScience/Blockchain/SmartContracts]] - 智能合约
-- [[05_ComputerScience/CloudComputingAndDistributedSystems/CloudComputingAndDistributedSystems]] - 云计算与分布式系统
-- [[05_ComputerScience/CloudComputingAndDistributedSystems/ConsensusAndCoordination]] - 共识与协调
-- [[05_ComputerScience/CloudComputingAndDistributedSystems/DistributedStorage]] - 分布式存储
-- [[05_ComputerScience/CloudComputingAndDistributedSystems/KubernetesInDepth]] - Kubernetes 深入
-- [[05_ComputerScience/CompilerPrinciples/CodeGen]] - 代码生成
-- [[05_ComputerScience/CompilerPrinciples/IR]] - 中间表示
-- [[05_ComputerScience/CompilerPrinciples/Lexical]] - 词法分析
-- [[05_ComputerScience/CompilerPrinciples/Optimization]] - 优化
-- [[05_ComputerScience/CompilerPrinciples/Semantic]] - 语义分析
-- [[05_ComputerScience/CompilerPrinciples/Syntax]] - 语法分析
-- [[05_ComputerScience/ComputerGraphicsAndVision/ComputerGraphics]] - 计算机图形学
-- [[05_ComputerScience/ComputerGraphicsAndVision/ComputerGraphicsAndVision]] - 图形学与视觉
-- [[05_ComputerScience/ComputerGraphicsAndVision/ComputerVisionDeepLearning]] - 计算机视觉深度学习
-- [[05_ComputerScience/ComputerNetworks/ApplicationLayer]] - 应用层
+- [[05_ComputerScience/ArtificialIntelligence/AIEthics/INDEX]] - AI 浼︾悊
+- [[05_ComputerScience/ArtificialIntelligence/ComputerVision/INDEX]] - 璁＄畻鏈鸿瑙?
+- [[05_ComputerScience/ArtificialIntelligence/KnowledgeRepresentation/INDEX]] - 鐭ヨ瘑琛ㄧず
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/NeuralNetworksAndDeepLearning/INDEX]] - 绁炵粡缃戠粶涓庢繁搴﹀涔?
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/SupervisedLearning/INDEX]] - 鐩戠潱瀛︿範
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/UnsupervisedLearning/INDEX]] - 鏃犵洃鐫ｅ涔?
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/ReinforcementLearning/INDEX]] - 寮哄寲瀛︿範
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/ModelEvaluation/INDEX]] - 妯″瀷璇勪及
+- [[05_ComputerScience/ArtificialIntelligence/NaturalLanguageProcessing/INDEX]] - 鑷劧璇█澶勭悊
+- [[05_ComputerScience/Basics/BasicOperations]] - 鍩烘湰鎿嶄綔
+- [[05_ComputerScience/Basics/CLIvsGUI]] - 鍛戒护琛屼笌鍥惧舰鐣岄潰
+- [[05_ComputerScience/Basics/Compression]] - 鍘嬬缉
+- [[05_ComputerScience/Basics/EnvironmentConfig]] - 鐜閰嶇疆
+- [[05_ComputerScience/Basics/FilePaths]] - 鏂囦欢璺緞
+- [[05_ComputerScience/Blockchain/Blockchain]] - 鍖哄潡閾?
+- [[05_ComputerScience/Blockchain/ConsensusMechanisms]] - 鍏辫瘑鏈哄埗
+- [[05_ComputerScience/Blockchain/DeFi]] - 鍘讳腑蹇冨寲閲戣瀺
+- [[05_ComputerScience/Blockchain/SmartContracts]] - 鏅鸿兘鍚堢害
+- [[05_ComputerScience/CloudComputingAndDistributedSystems/CloudComputingAndDistributedSystems]] - 浜戣绠椾笌鍒嗗竷寮忕郴缁?
+- [[05_ComputerScience/CloudComputingAndDistributedSystems/ConsensusAndCoordination]] - 鍏辫瘑涓庡崗璋?
+- [[05_ComputerScience/CloudComputingAndDistributedSystems/DistributedStorage]] - 鍒嗗竷寮忓瓨鍌?
+- [[05_ComputerScience/CloudComputingAndDistributedSystems/KubernetesInDepth]] - Kubernetes 娣卞叆
+- [[05_ComputerScience/CompilerPrinciples/CodeGen]] - 浠ｇ爜鐢熸垚
+- [[05_ComputerScience/CompilerPrinciples/IR]] - 涓棿琛ㄧず
+- [[05_ComputerScience/CompilerPrinciples/Lexical]] - 璇嶆硶鍒嗘瀽
+- [[05_ComputerScience/CompilerPrinciples/Optimization]] - 浼樺寲
+- [[05_ComputerScience/CompilerPrinciples/Semantic]] - 璇箟鍒嗘瀽
+- [[05_ComputerScience/CompilerPrinciples/Syntax]] - 璇硶鍒嗘瀽
+- [[05_ComputerScience/ComputerGraphicsAndVision/ComputerGraphics]] - 璁＄畻鏈哄浘褰㈠
+- [[05_ComputerScience/ComputerGraphicsAndVision/ComputerGraphicsAndVision]] - 鍥惧舰瀛︿笌瑙嗚
+- [[05_ComputerScience/ComputerGraphicsAndVision/ComputerVisionDeepLearning]] - 璁＄畻鏈鸿瑙夋繁搴﹀涔?
+- [[05_ComputerScience/ComputerNetworks/ApplicationLayer]] - 搴旂敤灞?
 - [[05_ComputerScience/ComputerNetworks/DNS]] - DNS
 - [[05_ComputerScience/ComputerNetworks/HTTP]] - HTTP
-- [[05_ComputerScience/ComputerNetworks/LinkLayer]] - 链路层
-- [[05_ComputerScience/ComputerNetworks/NetworkLayer]] - 网络层
-- [[05_ComputerScience/ComputerNetworks/Security]] - 网络安全
-- [[05_ComputerScience/ComputerNetworks/TransportLayer]] - 传输层
-- [[05_ComputerScience/ComputerNetworks/NetworkModels/INDEX]] - 网络模型
-- [[05_ComputerScience/ComputerNetworks/NetworkProtocols/INDEX]] - 网络协议
-- [[05_ComputerScience/ComputerNetworks/NetworkSecurity/INDEX]] - 网络安全
-- [[05_ComputerScience/ComputerNetworks/WirelessNetworks/INDEX]] - 无线网络
-- [[05_ComputerScience/ComputerOrganizationAndArchitecture/CPUArchitecture/INDEX]] - CPU 体系结构
-- [[05_ComputerScience/ComputerOrganizationAndArchitecture/DigitalLogic/INDEX]] - 数字逻辑
-- [[05_ComputerScience/ComputerOrganizationAndArchitecture/InstructionSet/INDEX]] - 指令集
-- [[05_ComputerScience/ComputerOrganizationAndArchitecture/MemoryHierarchy/INDEX]] - 存储层次
-- [[05_ComputerScience/ComputerOrganizationAndArchitecture/Pipelining/INDEX]] - 流水线
-- [[05_ComputerScience/Cybersecurity/CryptographyInPractice]] - 密码学实践
-- [[05_ComputerScience/Cybersecurity/Cybersecurity]] - 网络安全
-- [[05_ComputerScience/Cybersecurity/PenetrationTesting]] - 渗透测试
-- [[05_ComputerScience/Cybersecurity/WebSecurity]] - Web 安全
-- [[05_ComputerScience/DatabasesAndInformationSystems/MongoDBDeep]] - MongoDB 深入
-- [[05_ComputerScience/DatabasesAndInformationSystems/MySQLDeep]] - MySQL 深入
-- [[05_ComputerScience/DatabasesAndInformationSystems/Optimization]] - 数据库优化
-- [[05_ComputerScience/DatabasesAndInformationSystems/PostgreSQLDeep]] - PostgreSQL 深入
-- [[05_ComputerScience/DatabasesAndInformationSystems/RedisDeep]] - Redis 深入
-- [[05_ComputerScience/DatabasesAndInformationSystems/SQLDeep]] - SQL 深入
-- [[05_ComputerScience/DatabasesAndInformationSystems/Transaction]] - 事务
-- [[05_ComputerScience/DatabasesAndInformationSystems/BigDataTechnologies/INDEX]] - 大数据技术
-- [[05_ComputerScience/DatabasesAndInformationSystems/DataWarehousing/INDEX]] - 数据仓库
-- [[05_ComputerScience/DatabasesAndInformationSystems/InformationRetrieval/INDEX]] - 信息检索
+- [[05_ComputerScience/ComputerNetworks/LinkLayer]] - 閾捐矾灞?
+- [[05_ComputerScience/ComputerNetworks/NetworkLayer]] - 缃戠粶灞?
+- [[05_ComputerScience/ComputerNetworks/Security]] - 缃戠粶瀹夊叏
+- [[05_ComputerScience/ComputerNetworks/TransportLayer]] - 浼犺緭灞?
+- [[05_ComputerScience/ComputerNetworks/NetworkModels/INDEX]] - 缃戠粶妯″瀷
+- [[05_ComputerScience/ComputerNetworks/NetworkProtocols/INDEX]] - 缃戠粶鍗忚
+- [[05_ComputerScience/ComputerNetworks/NetworkSecurity/INDEX]] - 缃戠粶瀹夊叏
+- [[05_ComputerScience/ComputerNetworks/WirelessNetworks/INDEX]] - 鏃犵嚎缃戠粶
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/CPUArchitecture/INDEX]] - CPU 浣撶郴缁撴瀯
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/DigitalLogic/INDEX]] - 鏁板瓧閫昏緫
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/InstructionSet/INDEX]] - 鎸囦护闆?
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/MemoryHierarchy/INDEX]] - 瀛樺偍灞傛
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/Pipelining/INDEX]] - 娴佹按绾?
+- [[05_ComputerScience/Cybersecurity/CryptographyInPractice]] - 瀵嗙爜瀛﹀疄璺?
+- [[05_ComputerScience/Cybersecurity/Cybersecurity]] - 缃戠粶瀹夊叏
+- [[05_ComputerScience/Cybersecurity/PenetrationTesting]] - 娓楅€忔祴璇?
+- [[05_ComputerScience/Cybersecurity/WebSecurity]] - Web 瀹夊叏
+- [[05_ComputerScience/DatabasesAndInformationSystems/MongoDBDeep]] - MongoDB 娣卞叆
+- [[05_ComputerScience/DatabasesAndInformationSystems/MySQLDeep]] - MySQL 娣卞叆
+- [[05_ComputerScience/DatabasesAndInformationSystems/Optimization]] - 鏁版嵁搴撲紭鍖?
+- [[05_ComputerScience/DatabasesAndInformationSystems/PostgreSQLDeep]] - PostgreSQL 娣卞叆
+- [[05_ComputerScience/DatabasesAndInformationSystems/RedisDeep]] - Redis 娣卞叆
+- [[05_ComputerScience/DatabasesAndInformationSystems/SQLDeep]] - SQL 娣卞叆
+- [[05_ComputerScience/DatabasesAndInformationSystems/Transaction]] - 浜嬪姟
+- [[05_ComputerScience/DatabasesAndInformationSystems/BigDataTechnologies/INDEX]] - 澶ф暟鎹妧鏈?
+- [[05_ComputerScience/DatabasesAndInformationSystems/DataWarehousing/INDEX]] - 鏁版嵁浠撳簱
+- [[05_ComputerScience/DatabasesAndInformationSystems/InformationRetrieval/INDEX]] - 淇℃伅妫€绱?
 - [[05_ComputerScience/DatabasesAndInformationSystems/NoSQL/INDEX]] - NoSQL
-- [[05_ComputerScience/DatabasesAndInformationSystems/RelationalDatabases/INDEX]] - 关系数据库
-- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/Backtracking]] - 回溯
-- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BFSDFS]] - BFS 与 DFS
-- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BinarySearch]] - 二分搜索
-- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BitManipulation]] - 位运算
+- [[05_ComputerScience/DatabasesAndInformationSystems/RelationalDatabases/INDEX]] - 鍏崇郴鏁版嵁搴?
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/Backtracking]] - 鍥炴函
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BFSDFS]] - BFS 涓?DFS
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BinarySearch]] - 浜屽垎鎼滅储
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BitManipulation]] - 浣嶈繍绠?
 - [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/Dijkstra]] - Dijkstra
-- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/DP]] - 动态规划
-- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/Greedy]] - 贪心
-- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/MST]] - 最小生成树
-- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/SlidingWindow]] - 滑动窗口
-- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/Sorting]] - 排序
-- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/TwoPointers]] - 双指针
-- [[05_ComputerScience/DataStructuresAndAlgorithms/DataStructures/INDEX]] - 数据结构
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/DP]] - 鍔ㄦ€佽鍒?
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/Greedy]] - 璐績
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/MST]] - 鏈€灏忕敓鎴愭爲
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/SlidingWindow]] - 婊戝姩绐楀彛
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/Sorting]] - 鎺掑簭
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/TwoPointers]] - 鍙屾寚閽?
+- [[05_ComputerScience/DataStructuresAndAlgorithms/DataStructures/INDEX]] - 鏁版嵁缁撴瀯
 - [[05_ComputerScience/DigitalNotes/LaTeX/INDEX]] - LaTeX
 - [[05_ComputerScience/DigitalNotes/Markdown/INDEX]] - Markdown
-- [[05_ComputerScience/EngineeringDevelopment/DesktopDevelopment/INDEX]] - 桌面开发
-- [[05_ComputerScience/EngineeringDevelopment/GameDevelopment/INDEX]] - 游戏开发
-- [[05_ComputerScience/EngineeringDevelopment/MobileDevelopment/INDEX]] - 移动开发
-- [[05_ComputerScience/EngineeringDevelopment/WebDevelopment/INDEX]] - Web 开发
-- [[05_ComputerScience/HardwareAndEmbeddedSystems/AnalogCircuits/INDEX]] - 模拟电路
+- [[05_ComputerScience/EngineeringDevelopment/DesktopDevelopment/INDEX]] - 妗岄潰寮€鍙?
+- [[05_ComputerScience/EngineeringDevelopment/GameDevelopment/INDEX]] - 娓告垙寮€鍙?
+- [[05_ComputerScience/EngineeringDevelopment/MobileDevelopment/INDEX]] - 绉诲姩寮€鍙?
+- [[05_ComputerScience/EngineeringDevelopment/WebDevelopment/INDEX]] - Web 寮€鍙?
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/AnalogCircuits/INDEX]] - 妯℃嫙鐢佃矾
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/Arduino/INDEX]] - Arduino
-- [[05_ComputerScience/HardwareAndEmbeddedSystems/DigitalCircuits/INDEX]] - 数字电路
-- [[05_ComputerScience/HardwareAndEmbeddedSystems/EmbeddedLinux/INDEX]] - 嵌入式 Linux
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/DigitalCircuits/INDEX]] - 鏁板瓧鐢佃矾
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/EmbeddedLinux/INDEX]] - 宓屽叆寮?Linux
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/FPGA/INDEX]] - FPGA
-- [[05_ComputerScience/HardwareAndEmbeddedSystems/IoT/INDEX]] - 物联网
-- [[05_ComputerScience/HardwareAndEmbeddedSystems/Microcontrollers/MCU51/INDEX]] - 51单片机
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/IoT/INDEX]] - 鐗╄仈缃?
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Microcontrollers/MCU51/INDEX]] - 51鍗曠墖鏈?
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/Microcontrollers/STM32/INDEX]] - STM32
-- [[05_ComputerScience/HardwareAndEmbeddedSystems/PCBDesign/INDEX]] - PCB 设计
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/PCBDesign/INDEX]] - PCB 璁捐
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/RaspberryPi/INDEX]] - Raspberry Pi
-- [[05_ComputerScience/HardwareAndEmbeddedSystems/Robotics/INDEX]] - 机器人
-- [[05_ComputerScience/HardwareAndEmbeddedSystems/RTOS/INDEX]] - 实时操作系统
-- [[05_ComputerScience/HistoryOfComputing/HistoryOfComputing]] - 计算历史
-- [[05_ComputerScience/HistoryOfComputing/编程语言发展史]] - 编程语言发展史
-- [[05_ComputerScience/HumanComputerInteraction/HumanComputerInteraction]] - 人机交互
-- [[05_ComputerScience/HumanComputerInteraction/UsabilityEngineering]] - 可用性工程
-- [[05_ComputerScience/OperatingSystems/FileSystem]] - 文件系统
-- [[05_ComputerScience/OperatingSystems/IO]] - 输入输出
-- [[05_ComputerScience/OperatingSystems/LinuxKernel]] - Linux 内核
-- [[05_ComputerScience/OperatingSystems/Memory]] - 内存管理
-- [[05_ComputerScience/OperatingSystems/Process]] - 进程
-- [[05_ComputerScience/OperatingSystems/Scheduling]] - 调度
-- [[05_ComputerScience/OperatingSystems/Thread]] - 线程
-- [[05_ComputerScience/OperatingSystems/Concurrency/INDEX]] - 并发
-- [[05_ComputerScience/OperatingSystems/FileSystems/INDEX]] - 文件系统
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/Robotics/INDEX]] - 鏈哄櫒浜?
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/RTOS/INDEX]] - 瀹炴椂鎿嶄綔绯荤粺
+- [[05_ComputerScience/HistoryOfComputing/HistoryOfComputing]] - 璁＄畻鍘嗗彶
+- [[05_ComputerScience/HistoryOfComputing/缂栫▼璇█鍙戝睍鍙瞉] - 缂栫▼璇█鍙戝睍鍙?
+- [[05_ComputerScience/HumanComputerInteraction/HumanComputerInteraction]] - 浜烘満浜や簰
+- [[05_ComputerScience/HumanComputerInteraction/UsabilityEngineering]] - 鍙敤鎬у伐绋?
+- [[05_ComputerScience/OperatingSystems/FileSystem]] - 鏂囦欢绯荤粺
+- [[05_ComputerScience/OperatingSystems/IO]] - 杈撳叆杈撳嚭
+- [[05_ComputerScience/OperatingSystems/LinuxKernel]] - Linux 鍐呮牳
+- [[05_ComputerScience/OperatingSystems/Memory]] - 鍐呭瓨绠＄悊
+- [[05_ComputerScience/OperatingSystems/Process]] - 杩涚▼
+- [[05_ComputerScience/OperatingSystems/Scheduling]] - 璋冨害
+- [[05_ComputerScience/OperatingSystems/Thread]] - 绾跨▼
+- [[05_ComputerScience/OperatingSystems/Concurrency/INDEX]] - 骞跺彂
+- [[05_ComputerScience/OperatingSystems/FileSystems/INDEX]] - 鏂囦欢绯荤粺
 - [[05_ComputerScience/OperatingSystems/Linux/INDEX]] - Linux
-- [[05_ComputerScience/OperatingSystems/MemoryManagement/INDEX]] - 内存管理
-- [[05_ComputerScience/OperatingSystems/ProcessManagement/INDEX]] - 进程管理
-- [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/ProfessionalEnglish/ProfessionalEnglish]] - 专业英语
-- [[05_ComputerScience/ProfessionalEnglish/技术文档写作与演讲]] - 技术文档写作与演讲
-- [[05_ComputerScience/ProgrammingLanguages/Assembly/INDEX]] - 汇编
+- [[05_ComputerScience/OperatingSystems/MemoryManagement/INDEX]] - 鍐呭瓨绠＄悊
+- [[05_ComputerScience/OperatingSystems/ProcessManagement/INDEX]] - 杩涚▼绠＄悊
+- [[03_HumanitiesAndSocialSciences/ForeignLanguagesAndLiteratures/ProfessionalEnglish/ProfessionalEnglish]] - 涓撲笟鑻辫
+- [[05_ComputerScience/ProfessionalEnglish/鎶€鏈枃妗ｅ啓浣滀笌婕旇]] - 鎶€鏈枃妗ｅ啓浣滀笌婕旇
+- [[05_ComputerScience/ProgrammingLanguages/Assembly/INDEX]] - 姹囩紪
 - [[05_ComputerScience/ProgrammingLanguages/CCpp/INDEX]] - C/C++
 - [[05_ComputerScience/ProgrammingLanguages/CSharp/INDEX]] - C#
 - [[05_ComputerScience/ProgrammingLanguages/Go/INDEX]] - Go
@@ -133,57 +133,59 @@ updated: 2026-06-27
 - [[05_ComputerScience/ProgrammingLanguages/Python/INDEX]] - Python
 - [[05_ComputerScience/ProgrammingLanguages/Rust/INDEX]] - Rust
 - [[05_ComputerScience/ProgrammingLanguages/Swift/INDEX]] - Swift
-- [[05_ComputerScience/ProgrammingLanguages/Web/INDEX]] - Web 前端
-- [[05_ComputerScience/SoftwareEngineering/AgileMethodologies/INDEX]] - 敏捷方法
-- [[05_ComputerScience/SoftwareEngineering/DesignPatterns/INDEX]] - 设计模式
-- [[05_ComputerScience/SoftwareEngineering/DevOpsAndCICD/INDEX]] - DevOps 与 CI/CD
-- [[05_ComputerScience/SoftwareEngineering/GitAndVersionControl/INDEX]] - Git 与版本控制
-- [[05_ComputerScience/SoftwareEngineering/SoftwareDevelopmentLifecycle/INDEX]] - 软件开发生命周期
-- [[05_ComputerScience/SoftwareEngineering/SoftwareTesting/INDEX]] - 软件测试
-- [[05_ComputerScience/TheoryOfComputation/AutomataTheory]] - 自动机理论
-- [[05_ComputerScience/TheoryOfComputation/ComputationalComplexity]] - 计算复杂性
-- [[05_ComputerScience/QuantumComputing/QubitAndQuantumGates]] - 量子比特与量子门
-- [[05_ComputerScience/QuantumComputing/QuantumAlgorithms]] - 量子算法
-- [[05_ComputerScience/QuantumComputing/QuantumErrorCorrection]] - 量子纠错
-- [[05_ComputerScience/QuantumComputing/QuantumProgrammingFrameworks]] - 量子编程框架
-- [[05_ComputerScience/QuantumComputing/QuantumHardware]] - 量子硬件
-- [[05_ComputerScience/QuantumComputing/QuantumMachineLearning]] - 量子机器学习
-- [[05_ComputerScience/EdgeComputing/EdgeComputingArchitecture]] - 边缘计算架构
-- [[05_ComputerScience/EdgeComputing/MobileEdgeComputing]] - 移动边缘计算
-- [[05_ComputerScience/EdgeComputing/EdgeAI]] - 边缘 AI
-- [[05_ComputerScience/EdgeComputing/EdgeSecurity]] - 边缘安全
-- [[05_ComputerScience/EdgeComputing/FogComputing]] - 雾计算
-- [[05_ComputerScience/MLOpsAndLLMOps/MLOpsLifecycle]] - MLOps 生命周期
-- [[05_ComputerScience/MLOpsAndLLMOps/ModelServing]] - 模型服务
-- [[05_ComputerScience/MLOpsAndLLMOps/LLMFineTuning]] - LLM 微调
-- [[05_ComputerScience/MLOpsAndLLMOps/RAGSystem]] - RAG 系统
-- [[05_ComputerScience/MLOpsAndLLMOps/AIAgentFrameworks]] - AI Agent 框架
-- [[05_ComputerScience/DataEngineering/ETLandELT]] - ETL 与 ELT
-- [[05_ComputerScience/DataEngineering/DataLakehouse]] - 数据湖仓
-- [[05_ComputerScience/DataEngineering/SparkAndFlink]] - Spark 与 Flink
-- [[05_ComputerScience/DataEngineering/DataGovernance]] - 数据治理
-- [[05_ComputerScience/DataEngineering/RealTimeDataPipeline]] - 实时数据管道
-- [[05_ComputerScience/ARVRXR/VRDevelopment]] - VR 开发
-- [[05_ComputerScience/ARVRXR/ARDevelopment]] - AR 开发
-- [[05_ComputerScience/ARVRXR/SpatialComputing]] - 空间计算
-- [[05_ComputerScience/ARVRXR/RenderingPipeline]] - 渲染管线
-- [[05_ComputerScience/ARVRXR/XRInteractionDesign]] - XR 交互设计
-- [[05_ComputerScience/ARVRXR/DigitalTwin]] - 数字孪生
-- [[05_ComputerScience/GameEngineDevelopment/UnrealEngine5]] - 虚幻引擎 5
-- [[05_ComputerScience/GameEngineDevelopment/UnityDeep]] - Unity 深入
-- [[05_ComputerScience/GameEngineDevelopment/GamePhysics]] - 游戏物理
-- [[05_ComputerScience/GameEngineDevelopment/GraphicsRendering]] - 图形渲染
-- [[05_ComputerScience/GameEngineDevelopment/GameAI]] - 游戏 AI
-- [[05_ComputerScience/RustDeepDive/OwnershipAndBorrowing]] - 所有权与借用
-- [[05_ComputerScience/RustDeepDive/AsyncRust]] - 异步 Rust
-- [[05_ComputerScience/RustDeepDive/UnsafeAndFFI]] - Unsafe 与 FFI
-- [[05_ComputerScience/GoDeepDive/GoroutineAndChannel]] - Goroutine 与 Channel
-- [[05_ComputerScience/GoDeepDive/GoConcurrencyPatterns]] - Go 并发模式
-- [[05_ComputerScience/GoDeepDive/GoMicroservices]] - Go 微服务
-- [[05_ComputerScience/MobileCrossPlatform/FlutterDeep]] - Flutter 深入
-- [[05_ComputerScience/ModelContextProtocol/MCPOverview]] - MCP 概述
-- [[05_ComputerScience/ModelContextProtocol/MCPPrimitives]] - MCP 原语
-- [[05_ComputerScience/ModelContextProtocol/MCPServerDevelopment]] - MCP 服务端开发
-- [[05_ComputerScience/ModelContextProtocol/MCPClientIntegration]] - MCP 客户端集成
-- [[05_ComputerScience/ModelContextProtocol/MCPSecurityAndPatterns]] - MCP 安全与模式
+- [[05_ComputerScience/ProgrammingLanguages/Web/INDEX]] - Web 鍓嶇
+- [[05_ComputerScience/SoftwareEngineering/AgileMethodologies/INDEX]] - 鏁忔嵎鏂规硶
+- [[05_ComputerScience/SoftwareEngineering/DesignPatterns/INDEX]] - 璁捐妯″紡
+- [[05_ComputerScience/SoftwareEngineering/DevOpsAndCICD/INDEX]] - DevOps 涓?CI/CD
+- [[05_ComputerScience/SoftwareEngineering/GitAndVersionControl/INDEX]] - Git 涓庣増鏈帶鍒?
+- [[05_ComputerScience/SoftwareEngineering/SoftwareDevelopmentLifecycle/INDEX]] - 杞欢寮€鍙戠敓鍛藉懆鏈?
+- [[05_ComputerScience/SoftwareEngineering/SoftwareTesting/INDEX]] - 杞欢娴嬭瘯
+- [[05_ComputerScience/TheoryOfComputation/AutomataTheory]] - 鑷姩鏈虹悊璁?
+- [[05_ComputerScience/TheoryOfComputation/ComputationalComplexity]] - 璁＄畻澶嶆潅鎬?
+- [[05_ComputerScience/QuantumComputing/QubitAndQuantumGates]] - 閲忓瓙姣旂壒涓庨噺瀛愰棬
+- [[05_ComputerScience/QuantumComputing/QuantumAlgorithms]] - 閲忓瓙绠楁硶
+- [[05_ComputerScience/QuantumComputing/QuantumErrorCorrection]] - 閲忓瓙绾犻敊
+- [[05_ComputerScience/QuantumComputing/QuantumProgrammingFrameworks]] - 閲忓瓙缂栫▼妗嗘灦
+- [[05_ComputerScience/QuantumComputing/QuantumHardware]] - 閲忓瓙纭欢
+- [[05_ComputerScience/QuantumComputing/QuantumMachineLearning]] - 閲忓瓙鏈哄櫒瀛︿範
+- [[05_ComputerScience/EdgeComputing/EdgeComputingArchitecture]] - 杈圭紭璁＄畻鏋舵瀯
+- [[05_ComputerScience/EdgeComputing/MobileEdgeComputing]] - 绉诲姩杈圭紭璁＄畻
+- [[05_ComputerScience/EdgeComputing/EdgeAI]] - 杈圭紭 AI
+- [[05_ComputerScience/EdgeComputing/EdgeSecurity]] - 杈圭紭瀹夊叏
+- [[05_ComputerScience/EdgeComputing/FogComputing]] - 闆捐绠?
+- [[05_ComputerScience/MLOpsAndLLMOps/MLOpsLifecycle]] - MLOps 鐢熷懡鍛ㄦ湡
+- [[05_ComputerScience/MLOpsAndLLMOps/ModelServing]] - 妯″瀷鏈嶅姟
+- [[05_ComputerScience/MLOpsAndLLMOps/LLMFineTuning]] - LLM 寰皟
+- [[05_ComputerScience/MLOpsAndLLMOps/RAGSystem]] - RAG 绯荤粺
+- [[05_ComputerScience/MLOpsAndLLMOps/AIAgentFrameworks]] - AI Agent 妗嗘灦
+- [[05_ComputerScience/DataEngineering/ETLandELT]] - ETL 涓?ELT
+- [[05_ComputerScience/DataEngineering/DataLakehouse]] - 鏁版嵁婀栦粨
+- [[05_ComputerScience/DataEngineering/SparkAndFlink]] - Spark 涓?Flink
+- [[05_ComputerScience/DataEngineering/DataGovernance]] - 鏁版嵁娌荤悊
+- [[05_ComputerScience/DataEngineering/RealTimeDataPipeline]] - 瀹炴椂鏁版嵁绠￠亾
+- [[05_ComputerScience/ARVRXR/VRDevelopment]] - VR 寮€鍙?
+- [[05_ComputerScience/ARVRXR/ARDevelopment]] - AR 寮€鍙?
+- [[05_ComputerScience/ARVRXR/SpatialComputing]] - 绌洪棿璁＄畻
+- [[05_ComputerScience/ARVRXR/RenderingPipeline]] - 娓叉煋绠＄嚎
+- [[05_ComputerScience/ARVRXR/XRInteractionDesign]] - XR 浜や簰璁捐
+- [[05_ComputerScience/ARVRXR/DigitalTwin]] - 鏁板瓧瀛敓
+- [[05_ComputerScience/GameEngineDevelopment/UnrealEngine5]] - 铏氬够寮曟搸 5
+- [[05_ComputerScience/GameEngineDevelopment/UnityDeep]] - Unity 娣卞叆
+- [[05_ComputerScience/GameEngineDevelopment/GamePhysics]] - 娓告垙鐗╃悊
+- [[05_ComputerScience/GameEngineDevelopment/GraphicsRendering]] - 鍥惧舰娓叉煋
+- [[05_ComputerScience/GameEngineDevelopment/GameAI]] - 娓告垙 AI
+- [[05_ComputerScience/RustDeepDive/OwnershipAndBorrowing]] - 鎵€鏈夋潈涓庡€熺敤
+- [[05_ComputerScience/RustDeepDive/AsyncRust]] - 寮傛 Rust
+- [[05_ComputerScience/RustDeepDive/UnsafeAndFFI]] - Unsafe 涓?FFI
+- [[05_ComputerScience/GoDeepDive/GoroutineAndChannel]] - Goroutine 涓?Channel
+- [[05_ComputerScience/GoDeepDive/GoConcurrencyPatterns]] - Go 骞跺彂妯″紡
+- [[05_ComputerScience/GoDeepDive/GoMicroservices]] - Go 寰湇鍔?
+- [[05_ComputerScience/MobileCrossPlatform/FlutterDeep]] - Flutter 娣卞叆
+- [[05_ComputerScience/ModelContextProtocol/MCPOverview]] - MCP 姒傝堪
+- [[05_ComputerScience/ModelContextProtocol/MCPPrimitives]] - MCP 鍘熻
+- [[05_ComputerScience/ModelContextProtocol/MCPServerDevelopment]] - MCP 鏈嶅姟绔紑鍙?
+- [[05_ComputerScience/ModelContextProtocol/MCPClientIntegration]] - MCP 瀹㈡埛绔泦鎴?
+- [[05_ComputerScience/ModelContextProtocol/MCPSecurityAndPatterns]] - MCP 瀹夊叏涓庢ā寮?
 - [[LearningPath]]
+- [[AIOverview]]
+

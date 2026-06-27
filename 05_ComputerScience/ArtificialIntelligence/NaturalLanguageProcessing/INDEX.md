@@ -1,15 +1,19 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['ArtificialIntelligence', 'NaturalLanguageProcessing', 'INDEX']
 created: 2026-05-16
 updated: 2026-05-13
 ---
 
-# 自然语言处理
+# 鑷劧璇█澶勭悊
 
-本索引汇集了自然语言处理的核心技术，涵盖分词、句法分析、语义理解及语言模型等内容。
+鏈储寮曟眹闆嗕簡鑷劧璇█澶勭悊鐨勬牳蹇冩妧鏈紝娑电洊鍒嗚瘝銆佸彞娉曞垎鏋愩€佽涔夌悊瑙ｅ強璇█妯″瀷绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
 - [[NaturalLanguageProcessing]]
-- [[序列建模与 Transformer]]
+- [[搴忓垪寤烘ā涓?Transformer]]
+- [[NLPOverview]]
+- [[SpeechRecognition]]
+- [[序列建模与Transformer]]
+

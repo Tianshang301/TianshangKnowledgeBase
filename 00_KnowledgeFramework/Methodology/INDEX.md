@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['Methodology', 'INDEX']
 created: 2026-05-16
@@ -7,13 +7,16 @@ updated: 2026-05-13
 
 # Methodology
 
-本索引汇集了 Methodology 相关的核心知识文件，涵盖 CriticalThinking — 批判性思维、InterdisciplinaryApproach — 跨学科方法、Methodology — 方法论概述 等内容。
+鏈储寮曟眹闆嗕簡 Methodology 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 CriticalThinking 鈥?鎵瑰垽鎬ф€濈淮銆両nterdisciplinaryApproach 鈥?璺ㄥ绉戞柟娉曘€丮ethodology 鈥?鏂规硶璁烘杩?绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
-- [[CriticalThinking]] — 批判性思维
-- [[InterdisciplinaryApproach]] — 跨学科方法
-- [[Methodology]] — 方法论概述
-- [[ResearchMethods]] — 研究方法
-- [[ScientificMethod]] — 科学方法
-- [[../INDEX|知识框架 (KnowledgeFramework)]]
+- [[CriticalThinking]] 鈥?鎵瑰垽鎬ф€濈淮
+- [[InterdisciplinaryApproach]] 鈥?璺ㄥ绉戞柟娉?
+- [[Methodology]] 鈥?鏂规硶璁烘杩?
+- [[ResearchMethods]] 鈥?鐮旂┒鏂规硶
+- [[ScientificMethod]] 鈥?绉戝鏂规硶
+- [[../INDEX|鐭ヨ瘑妗嗘灦 (KnowledgeFramework)]]
+- [[ProductivitySystems]]
+- [[SecondBrain]]
+

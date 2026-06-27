@@ -1,16 +1,19 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['DigitalNotes', 'INDEX']
 created: 2026-05-16
 updated: 2026-05-13
 ---
 
-# 数字笔记
+# 鏁板瓧绗旇
 
-本索引汇集了数字笔记的方法论与工具，涵盖笔记系统构建、知识管理及卡片笔记法等内容。
+鏈储寮曟眹闆嗕簡鏁板瓧绗旇鐨勬柟娉曡涓庡伐鍏凤紝娑电洊绗旇绯荤粺鏋勫缓銆佺煡璇嗙鐞嗗強鍗＄墖绗旇娉曠瓑鍐呭銆?
 
-## 文件
+## 鏂囦欢
 
 - [[DigitalNoteTaking]]
 - [[NoteTakingApps]]
 - [[Zettelkasten]]
+- [[LaTeX/INDEX|LaTeX]]
+- [[Markdown/INDEX|Markdown]]
+

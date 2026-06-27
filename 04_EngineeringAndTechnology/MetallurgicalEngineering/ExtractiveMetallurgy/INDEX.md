@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['MetallurgicalEngineering', 'ExtractiveMetallurgy', 'INDEX']
 created: 2026-05-16
@@ -7,9 +7,11 @@ updated: 2026-05-13
 
 # ExtractiveMetallurgy
 
-本索引汇集了 ExtractiveMetallurgy 相关的核心知识文件，涵盖 Hydrometallurgy、Pyrometallurgy 等内容。
+鏈储寮曟眹闆嗕簡 ExtractiveMetallurgy 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 Hydrometallurgy銆丳yrometallurgy 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
 - [[Hydrometallurgy]]
 - [[Pyrometallurgy]]
+- [[ExtractiveMetallurgy]]
+

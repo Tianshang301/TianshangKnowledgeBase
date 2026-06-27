@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [INDEX]
 tags: ['AppliedStatistics', 'INDEX']
 created: 2026-05-16
@@ -7,13 +7,16 @@ updated: 2026-05-13
 
 # AppliedStatistics
 
-本索引汇集了 AppliedStatistics 相关的核心知识文件，涵盖 Biostatistics - 生物统计：统计方法在生物医学研究中的应用，包括临床试验设计、生存分析、流行病学统计方法等、BusinessStatistics - 商业统计：统计学在商业决策中的应用，涵盖市场调研、质量控制、预测分析等、StatisticalLearning - 统计学习：现代统计学习理论与方法，包括回归分析、分类、聚类、降维等监督与非监督学习方法 等内容。
+鏈储寮曟眹闆嗕簡 AppliedStatistics 鐩稿叧鐨勬牳蹇冪煡璇嗘枃浠讹紝娑电洊 Biostatistics - 鐢熺墿缁熻锛氱粺璁℃柟娉曞湪鐢熺墿鍖诲鐮旂┒涓殑搴旂敤锛屽寘鎷复搴婅瘯楠岃璁°€佺敓瀛樺垎鏋愩€佹祦琛岀梾瀛︾粺璁℃柟娉曠瓑銆丅usinessStatistics - 鍟嗕笟缁熻锛氱粺璁″鍦ㄥ晢涓氬喅绛栦腑鐨勫簲鐢紝娑电洊甯傚満璋冪爺銆佽川閲忔帶鍒躲€侀娴嬪垎鏋愮瓑銆丼tatisticalLearning - 缁熻瀛︿範锛氱幇浠ｇ粺璁″涔犵悊璁轰笌鏂规硶锛屽寘鎷洖褰掑垎鏋愩€佸垎绫汇€佽仛绫汇€侀檷缁寸瓑鐩戠潱涓庨潪鐩戠潱瀛︿範鏂规硶 绛夊唴瀹广€?
 
-## 文件
+## 鏂囦欢
 
-- [[Biostatistics]] - 生物统计：统计方法在生物医学研究中的应用，包括临床试验设计、生存分析、流行病学统计方法等
-- [[BusinessStatistics]] - 商业统计：统计学在商业决策中的应用，涵盖市场调研、质量控制、预测分析等
-- [[StatisticalLearning]] - 统计学习：现代统计学习理论与方法，包括回归分析、分类、聚类、降维等监督与非监督学习方法
-- [[ExperimentalDesign]] - 实验设计：实验设计原理与方法，包括随机化、区组设计、析因设计、响应曲面法等
+- [[Biostatistics]] - 鐢熺墿缁熻锛氱粺璁℃柟娉曞湪鐢熺墿鍖诲鐮旂┒涓殑搴旂敤锛屽寘鎷复搴婅瘯楠岃璁°€佺敓瀛樺垎鏋愩€佹祦琛岀梾瀛︾粺璁℃柟娉曠瓑
+- [[BusinessStatistics]] - 鍟嗕笟缁熻锛氱粺璁″鍦ㄥ晢涓氬喅绛栦腑鐨勫簲鐢紝娑电洊甯傚満璋冪爺銆佽川閲忔帶鍒躲€侀娴嬪垎鏋愮瓑
+- [[StatisticalLearning]] - 缁熻瀛︿範锛氱幇浠ｇ粺璁″涔犵悊璁轰笌鏂规硶锛屽寘鎷洖褰掑垎鏋愩€佸垎绫汇€佽仛绫汇€侀檷缁寸瓑鐩戠潱涓庨潪鐩戠潱瀛︿範鏂规硶
+- [[ExperimentalDesign]] - 瀹為獙璁捐锛氬疄楠岃璁″師鐞嗕笌鏂规硶锛屽寘鎷殢鏈哄寲銆佸尯缁勮璁°€佹瀽鍥犺璁°€佸搷搴旀洸闈㈡硶绛?
 - [[07_InterdisciplinarySciences/DataScience/INDEX|DataScience]]
 - [[Econometrics]]
+- [[AppliedStatisticsOverview]]
+- [[Statistics]]
+
