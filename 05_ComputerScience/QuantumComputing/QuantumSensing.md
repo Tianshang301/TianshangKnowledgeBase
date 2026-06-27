@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 量子传感
   - Quantum Sensing
@@ -204,7 +204,8 @@ NV色心磁场成像可实现纳米尺度的磁场分布可视化：
 
 ## 相关链接
 
-- [[QuantumComputing]] - 量子计算
-- [[QuantumCommunication]] - 量子通信
+- [[07_InterdisciplinarySciences/QuantumInformationScience/QuantumComputing|QuantumComputing]] - 量子计算
+- [[07_InterdisciplinarySciences/QuantumInformationScience/QuantumCommunication|QuantumCommunication]] - 量子通信
 - [[MetrologyAndStandards]] - 计量学与标准
-- [[AtomicPhysics]] - 原子物理
+- [[02_NaturalSciences/Physics/ParticlePhysics/AtomicPhysics|AtomicPhysics]] - 原子物理
+

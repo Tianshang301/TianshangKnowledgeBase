@@ -103,7 +103,7 @@ Tiago Forte 提出的五层笔记精炼方法：
 - `[来源类型]-[来源名称].md` — 文献笔记
 
 ### 链接策略
-- **链路笔记**：使用 `[[双向链接]]` 实现笔记间跳转
+- **链路笔记**：使用 `[[00_KnowledgeFramework/KnowledgeGraph/双向链接|双向链接]]` 实现笔记间跳转
 - **索引笔记**：建立 MOC（Map of Content），集中管理主题下所有相关笔记
 - **标签索引**：用标签聚合跨目录的同类笔记
 
@@ -150,5 +150,6 @@ Tiago Forte 提出的五层笔记精炼方法：
 - [[Zettelkasten]] — 卡片盒笔记法详解
 - [[00_KnowledgeFramework/Methodology/SecondBrain|SecondBrain]] — 第二大脑系统
 - [[00_KnowledgeFramework/LearningPaths/LearningPaths|LearningPaths]] — 学习路径设计
+
 
 

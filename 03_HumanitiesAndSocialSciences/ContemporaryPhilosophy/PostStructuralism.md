@@ -147,6 +147,7 @@ updated: 2026-06-27
 
 - [[Structuralism|结构主义]]
 - [[Phenomenology|现象学]]
-- [[PostcolonialStudies|后殖民研究]]
+- [[03_HumanitiesAndSocialSciences/CulturalStudies/PostcolonialStudies|后殖民研究]]
 - [[03_HumanitiesAndSocialSciences/CulturalStudies/CulturalTheory|文化理论]]
+
 

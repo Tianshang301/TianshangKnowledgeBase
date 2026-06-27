@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 地缘政治
   - Geopolitics
@@ -168,4 +168,5 @@ updated: 2026-06-27
 - [[IRTheories|国际关系理论]]
 - [[GlobalGovernance|全球治理]]
 - [[InternationalOrganizations|国际组织]]
-- [[ColdWarHistory|冷战史]]
+- [[03_HumanitiesAndSocialSciences/ModernHistory/ColdWarHistory|冷战史]]
+

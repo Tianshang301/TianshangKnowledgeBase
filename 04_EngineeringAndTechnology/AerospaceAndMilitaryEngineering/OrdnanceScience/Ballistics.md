@@ -94,8 +94,9 @@ $$b = K \cdot \frac{v_0^{1.43} m^{0.715}}{d^{1.07}}$$
 
 ## 相关条目
 - [[WeaponSystems]]
-- [[弹道测量与仿真]]
+- [[04_EngineeringAndTechnology/AerospaceAndMilitaryEngineering/Ballistics/弹道测量与仿真|弹道测量与仿真]]
 - [[04_EngineeringAndTechnology/AerospaceAndMilitaryEngineering/Aerodynamics/Aerodynamics|Aerodynamics]]
 - [[04_EngineeringAndTechnology/AerospaceAndMilitaryEngineering/AerospaceEngineering/FlightMechanics|FlightMechanics]]
+
 
 

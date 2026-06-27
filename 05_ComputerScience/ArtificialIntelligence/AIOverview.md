@@ -125,7 +125,7 @@ graph TD
 - **迁移学习**（Transfer Learning）：在预训练模型基础上进行微调（Fine-tuning）
 - **提示工程**（Prompt Engineering）：通过精心设计的提示词引导大模型输出
 
-> **详细训练流程**：参见 [[AITrainingWorkflows|AI 训练工作流]]，涵盖数据采集、清洗、标注、GPU 加速、分布式训练和 MLOps 等完整流程。
+> **详细训练流程**：参见 [[05_ComputerScience/ArtificialIntelligence/MachineLearning/AITrainingWorkflows|AI 训练工作流]]，涵盖数据采集、清洗、标注、GPU 加速、分布式训练和 MLOps 等完整流程。
 
 ## 5. 主要应用领域 (Applications)
 
@@ -261,4 +261,5 @@ AI 对齐（AI Alignment）研究如何确保 AI 系统的目标和行为与人�
 - [[05_ComputerScience/ArtificialIntelligence/ModelArchitectures/ModelArchitectures2026|ModelArchitectures2026]]
 - [[05_ComputerScience/ArtificialIntelligence/IndustryApplications/IndustryAIApplications|IndustryAIApplications]]
 - [[05_ComputerScience/ArtificialIntelligence/AIGC/AIGC|AIGC]]
+
 

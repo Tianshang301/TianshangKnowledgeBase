@@ -536,9 +536,10 @@ Linux 内核当前默认的分配器（简化 Slab，更适合大内存系统）
 ## 相关条目
 
 - [[05_ComputerScience/OperatingSystems/MemoryManagement/MemoryManagement|MemoryManagement]]
-- [[分页分段与交换技术]]
+- [[05_ComputerScience/OperatingSystems/MemoryManagement/分页分段与交换技术|分页分段与交换技术]]
 - [[FileSystem]]
 - [[IO]]
 - [[LinuxKernel]]
+
 
 

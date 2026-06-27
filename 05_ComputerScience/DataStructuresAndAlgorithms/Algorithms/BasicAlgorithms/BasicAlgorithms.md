@@ -393,7 +393,7 @@ def single_number(nums):
 - [[排序与搜索算法深入]]
 - [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BinarySearch|BinarySearch]]
 - [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/Sorting|Sorting]]
-- [[贪心算法证明与技巧]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/GreedyAlgorithms/贪心算法证明与技巧|贪心算法证明与技巧]]
 - [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/DP|DP]]
 
 ## 参考资源
@@ -402,5 +402,6 @@ def single_number(nums):
 - Sedgewick, R. & Wayne, K. (2011). Algorithms. 4th Edition. Addison-Wesley.
 - Kleinberg, J. & Tardos, É. (2005). Algorithm Design. Addison-Wesley.
 - LeetCode. https://leetcode.com/problemset/
+
 
 

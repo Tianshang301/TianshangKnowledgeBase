@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [PostgreSQLDeep]
 tags: ['DatabasesAndInformationSystems', 'PostgreSQLDeep']
 created: 2026-05-16
@@ -606,5 +606,6 @@ LIMIT 10;
 - [[MySQLDeep]]
 - [[SQLDeep]]
 - [[RelationalDatabases]]
-- [[查询优化与事务管理]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/RelationalDatabases/查询优化与事务管理|查询优化与事务管理]]
 - [[Transaction]]
+

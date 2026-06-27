@@ -404,7 +404,7 @@ endmodule
 
 - [[FPGA]]
 - [[05_ComputerScience/ComputerOrganizationAndArchitecture/DigitalLogic/DigitalLogic|DigitalLogic]]
-- [[时序逻辑与状态机]]
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/DigitalLogic/时序逻辑与状态机|时序逻辑与状态机]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/DigitalCircuits/Combinational|Combinational]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/DigitalCircuits/Sequential|Sequential]]
 
@@ -417,4 +417,5 @@ endmodule
 5. OpenCores 开源 IP 核库：https://opencores.org
 6. EDA Playground 在线仿真平台
 7. Verilog Tutorial：https://www.chipverify.com
+
 

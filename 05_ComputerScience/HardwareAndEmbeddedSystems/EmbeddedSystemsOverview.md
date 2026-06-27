@@ -141,8 +141,9 @@ flowchart LR
 - [[EmbeddedSystems|嵌入式系统 (详细)]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/IoT/IoTOverview|物联网 (IoT)]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/Robotics/RoboticsOverview|机器人学 (Robotics)]]
-- [[ComputerArchitecture|计算机体系结构]]
+- [[04_EngineeringAndTechnology/ComputerAndInformationSciences/ComputerArchitecture|计算机体系结构]]
 - [[04_EngineeringAndTechnology/ComputerAndInformationSciences/OperatingSystems|操作系统]]
 - [[RealTimeSystems|实时系统]]
+
 
 

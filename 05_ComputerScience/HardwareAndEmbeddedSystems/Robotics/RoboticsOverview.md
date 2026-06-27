@@ -180,10 +180,11 @@ $$
 ## 相关条目
 
 - [[07_InterdisciplinarySciences/CognitiveScience/ArtificialIntelligence|人工智能 (AI)]]
-- [[EmbeddedSystemsOverview|嵌入式系统]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/EmbeddedSystemsOverview|嵌入式系统]]
 - [[05_ComputerScience/ArtificialIntelligence/ComputerVision/ComputerVisionOverview|计算机视觉 (CV)]]
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/MachineLearning|机器学习 (ML)]]
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/ReinforcementLearning/ReinforcementLearning|强化学习]]
 - [[ROS|机器人操作系统 (ROS)]]
+
 
 

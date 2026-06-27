@@ -227,8 +227,9 @@ $$
 
 ## 相关条目
 
-- [[气象气候学]]
-- [[水文地理学]]
-- [[地貌学]]
+- [[02_NaturalSciences/EarthSciences/PhysicalGeography/气象气候学|气象气候学]]
+- [[02_NaturalSciences/EarthSciences/PhysicalGeography/水文地理学|水文地理学]]
+- [[02_NaturalSciences/EarthSciences/PhysicalGeography/地貌学|地貌学]]
 - [[02_NaturalSciences/EarthSciences/PhysicalGeography/INDEX|自然地理索引]]
+
 

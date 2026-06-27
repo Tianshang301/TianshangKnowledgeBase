@@ -178,7 +178,7 @@ SW x7, 0(x12)        # 存储到 C
 
 - [[InstructionSet]]
 - [[05_ComputerScience/ComputerOrganizationAndArchitecture/CPUArchitecture/CPUArchitecture|CPUArchitecture]]
-- [[现代处理器微架构]]
+- [[05_ComputerScience/ComputerOrganizationAndArchitecture/CPUArchitecture/现代处理器微架构|现代处理器微架构]]
 - [[05_ComputerScience/ComputerOrganizationAndArchitecture/Pipelining/Pipelining|Pipelining]]
 - [[05_ComputerScience/ComputerOrganizationAndArchitecture/DigitalLogic/DigitalLogic|DigitalLogic]]
 
@@ -190,4 +190,5 @@ SW x7, 0(x12)        # 存储到 C
 4. Asanovic, K., Patterson, D. A. "Instruction Sets Should Be Free: The Case For RISC-V." EECS Department, UC Berkeley, 2014.
 5. Hennessy, J. L., Patterson, D. A. "A New Golden Age for Computer Architecture." Communications of the ACM, 2019.
 6. Celio, C., et al. "BOOM v2: An Open-Source Out-of-Order RISC-V Core." Workshop on Computer Architecture Research with RISC-V, 2017.
+
 

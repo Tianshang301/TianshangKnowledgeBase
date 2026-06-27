@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 长寿科学
   - Longevity Science
@@ -248,8 +248,9 @@ GLP-1受体激动剂（如司美格鲁肽/semaglutide）显示多重抗衰老效
 
 ## 相关链接
 
-- [[StemCellTherapy]] - 干细胞治疗
+- [[09_MedicineAndHealth/RegenerativeMedicine/StemCellTherapy|StemCellTherapy]] - 干细胞治疗
 - [[Epigenetics]] - 表观遗传学
 - [[RegenerativeMedicine]] - 再生医学
 - [[CancerBiology]] - 肿瘤生物学
 - [[Pharmacology]] - 药理学
+

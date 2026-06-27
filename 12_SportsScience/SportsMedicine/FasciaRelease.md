@@ -125,7 +125,8 @@ graph LR
 - [[RecoveryAndRegeneration|恢复与再生]]
 - [[PhysicalTherapy|物理治疗]]
 - [[Stretching|拉伸训练]]
-- [[MusclePhysiology|肌肉生理学]]
+- [[12_SportsScience/ExercisePhysiology/MusclePhysiology|肌肉生理学]]
 - [[INDEX|SportsMedicine 索引]]
 - [[../../INDEX|TianshangKnowledgeBase 索引]]
+
 

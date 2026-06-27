@@ -138,8 +138,9 @@ graph LR
 - [[DecisionTheory|决策理论]]
 - [[OptimizationMethods|优化方法]]
 - [[ProbabilityTheory|概率论]]
-- [[Microeconomics|微观经济学]]
+- [[03_HumanitiesAndSocialSciences/Economics/Microeconomics|微观经济学]]
 - [[SupplyChainManagement|供应链管理]]
 - [[INDEX|ManagementScienceAndEngineering 索引]]
 - [[../../INDEX|TianshangKnowledgeBase 索引]]
+
 

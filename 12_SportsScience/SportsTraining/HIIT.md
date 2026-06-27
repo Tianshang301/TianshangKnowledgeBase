@@ -213,7 +213,8 @@ graph TD
 - [[EnduranceTraining|耐力训练]]
 - [[LactateThreshold|乳酸阈]]
 - [[Periodization|周期化训练]]
-- [[RecoveryAndRegeneration|恢复与再生]]
+- [[12_SportsScience/SportsMedicine/RecoveryAndRegeneration|恢复与再生]]
 - [[INDEX|SportsTraining 索引]]
+
 
 

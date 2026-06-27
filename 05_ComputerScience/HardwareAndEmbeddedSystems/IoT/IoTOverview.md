@@ -153,10 +153,11 @@ Matter (原 Project CHIP) 是 CSA 联盟推出的智能家居互操作标准：
 
 - [[05_ComputerScience/ComputerNetworks/MQTT|MQTT 协议]]
 - [[05_ComputerScience/ComputerNetworks/LoRaWAN|LoRaWAN 协议]]
-- [[EmbeddedSystemsOverview|嵌入式系统]]
+- [[05_ComputerScience/HardwareAndEmbeddedSystems/EmbeddedSystemsOverview|嵌入式系统]]
 - [[IoTSecurity|物联网安全]]
 - [[05_ComputerScience/ComputerNetworks/SmartHome|智能家居]]
-- [[IndustrialIoT|工业物联网]]
+- [[05_ComputerScience/ComputerNetworks/IndustrialIoT|工业物联网]]
 - [[07_InterdisciplinarySciences/NetworkedInformationSystems/EdgeComputing|边缘计算]]
+
 
 

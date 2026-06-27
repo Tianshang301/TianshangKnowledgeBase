@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - Naval Architecture
   - Ship Design
@@ -299,4 +299,5 @@ graph LR
 
 ---
 
-**相关概念**: [[Marine Structures|海洋结构物]] | [[Offshore Engineering|海洋工程]] | [[Aerodynamics|空气动力学]] | [[Fluid Dynamics|流体力学]]
+**相关概念**: [[Marine Structures|海洋结构物]] | [[Offshore Engineering|海洋工程]] | [[04_EngineeringAndTechnology/AerospaceAndMilitaryEngineering/Aerodynamics/Aerodynamics|空气动力学]] | [[Fluid Dynamics|流体力学]]
+

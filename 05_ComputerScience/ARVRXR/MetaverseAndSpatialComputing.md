@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 元宇宙
   - 空间计算
@@ -242,4 +242,5 @@ Meta Quest 3是消费级混合现实头显的代表：
 - [[AugmentedReality]] - 增强现实技术
 - [[DigitalTwin]] - 数字孪生技术
 - [[RealTimeRendering]] - 实时渲染技术
-- [[ComputerGraphics]] - 计算机图形学
+- [[05_ComputerScience/ComputerGraphicsAndVision/ComputerGraphics|ComputerGraphics]] - 计算机图形学
+

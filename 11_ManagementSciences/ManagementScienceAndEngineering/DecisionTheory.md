@@ -153,8 +153,9 @@ Simon（1955）提出的有限理性（Bounded Rationality）指出，实际决�
 - [[OptimizationMethods|优化方法]]
 - [[ProbabilityTheory|概率论]]
 - [[11_ManagementSciences/BusinessAdministration/Finance/RiskManagement|风险管理]]
-- [[BehavioralEconomics|行为经济学]]
+- [[03_HumanitiesAndSocialSciences/Psychology/BehavioralEconomics/BehavioralEconomics|行为经济学]]
 - [[INDEX|ManagementScienceAndEngineering 索引]]
 - [[../../INDEX|TianshangKnowledgeBase 索引]]
+
 
 

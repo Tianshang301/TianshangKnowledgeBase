@@ -240,10 +240,11 @@ $$\text{目标分子} \xrightarrow{\text{逆向切割}} \text{前体} \xrightarr
 ## 相关条目
 
 - [[Formulation|药物制剂]]
-- [[FineChemicals|精细化学品]]
+- [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/FineChemicals/FineChemicals|精细化学品]]
 - [[04_EngineeringAndTechnology/Biotechnologies/GeneticEngineering/GeneCloning|基因克隆]]
 - [[04_EngineeringAndTechnology/Biotechnologies/BiomedicalEngineering/Biomaterials|生物材料]]
 - [[Pharmacokinetics|药代动力学]]
 - [[Toxicology|毒理学]]
+
 
 

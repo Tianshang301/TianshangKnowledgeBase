@@ -390,9 +390,10 @@ VALUES (?, NOW())
 
 ## 相关条目
 
-- [[查询优化与事务管理]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/RelationalDatabases/查询优化与事务管理|查询优化与事务管理]]
 - [[RelationalDatabases]]
 - [[Optimization]]
 - [[MySQLDeep]]
 - [[PostgreSQLDeep]]
+
 

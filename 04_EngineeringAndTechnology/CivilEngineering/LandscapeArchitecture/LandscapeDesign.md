@@ -197,9 +197,10 @@ $$\text{恢复度} = \frac{\text{当前生态功能值}}{\text{参照生态系�
 - [[04_EngineeringAndTechnology/CivilEngineering/UrbanPlanning/UrbanDesign|城市设计]]
 - [[04_EngineeringAndTechnology/CivilEngineering/UrbanPlanning/RegionalPlanning|区域规划]]
 - [[04_EngineeringAndTechnology/CivilEngineering/BuildingScience/BuildingPhysics|建筑物理]]
-- [[EcologicalEngineering|生态工程]]
+- [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalBiology/EcologicalEngineering|生态工程]]
 - [[EnvironmentalPsychology|环境心理学]]
 - [[PlantMaterials|园林植物材料]]
 - [[INDEX|当前目录索引]]
+
 
 

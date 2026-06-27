@@ -259,10 +259,11 @@ $$ \text{风格} = f(\text{时代}, \text{地域}, \text{艺术家}, \text{媒�
 
 - [[03_HumanitiesAndSocialSciences/Philosophy/Aesthetics/Aesthetics|美学]]
 - [[06_ArtsAndCreativity/FineArts/ArtCriticism|艺术批评]]
-- [[CulturalHistory|文化史]]
+- [[03_HumanitiesAndSocialSciences/History/CulturalHistory|文化史]]
 - [[06_ArtsAndCreativity/FineArts/Museology|博物馆学]]
 - [[06_ArtsAndCreativity/FineArts/VisualCulture|视觉文化]]
 - [[Iconography|图像学]]
 - [[Conservation|艺术品保护]]
+
 
 

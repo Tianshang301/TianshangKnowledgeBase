@@ -29,7 +29,7 @@ updated: 2026-05-17
 | 说服双路径 | Petty & Cacioppo | 中枢路径与外围路径 |
 
 ## 相关条目
-- [[CognitivePsychology|认知心理学]]
+- [[07_InterdisciplinarySciences/CognitiveScience/CognitivePsychology|认知心理学]]
 - [[SocialPsychology|社会心理学 (社会学)]]
 - [[../INDEX|Psychology 索引]]
 
@@ -157,4 +157,5 @@ updated: 2026-05-17
 
 ## 相关条目
 - [[INDEX|当前目录索引]]
+
 

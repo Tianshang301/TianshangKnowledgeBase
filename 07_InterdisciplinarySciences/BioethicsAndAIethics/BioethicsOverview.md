@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 生命伦理与AI伦理概述
   - Bioethics Overview
@@ -490,8 +490,9 @@ CRISPR-Cas9 是一种革命性的基因编辑工具，能够精准地修改 DNA 
 
 ## 12. 相关链接
 
-- [[PhilosophyOfMind]] - 心灵哲学
+- [[03_HumanitiesAndSocialSciences/Philosophy/PhilosophyOfMind|PhilosophyOfMind]] - 心灵哲学
 - [[GeneticEngineering]] - 基因工程
 - [[DataPrivacy]] - 数据隐私
 - [[AlgorithmicFairness]] - 算法公平性
 - [[AIAlignment]] - AI 对齐
+

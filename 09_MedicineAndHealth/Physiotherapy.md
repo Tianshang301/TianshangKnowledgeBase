@@ -132,6 +132,7 @@ $$ \text{脑可塑性原理} \rightarrow \text{任务导向性训练} + \text{�
 - [[MedicalPhysics]]
 - [[12_SportsScience/GaitAnalysis|GaitAnalysis]]
 - [[12_SportsScience/IntervalTraining|IntervalTraining]]
-- [[健康与养生]]
+- [[13_Others/HealthAndWellness/健康与养生|健康与养生]]
 - [[INDEX|当前目录索引]]
+
 

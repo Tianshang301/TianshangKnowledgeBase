@@ -250,5 +250,6 @@ $$\frac{\partial (\rho \mathbf{u})}{\partial t} + \nabla \cdot (\rho \mathbf{u} 
 
 ---
 
-**相关概念**: [[Aerodynamics|空气动力学]] | [[Fluid Dynamics|流体力学]] | [[Fracture Mechanics|断裂力学]] | [[Terminal Ballistics|终点弹道学]]
+**相关概念**: [[04_EngineeringAndTechnology/AerospaceAndMilitaryEngineering/Aerodynamics/Aerodynamics|空气动力学]] | [[Fluid Dynamics|流体力学]] | [[Fracture Mechanics|断裂力学]] | [[Terminal Ballistics|终点弹道学]]
+
 

@@ -149,6 +149,7 @@ updated: 2026-06-27
 
 - [[AnalyticPhilosophy|分析哲学]]
 - [[AmericanPhilosophy|美国哲学]]
-- [[Epistemology|认识论]]
+- [[03_HumanitiesAndSocialSciences/Philosophy/Epistemology|认识论]]
 - [[03_HumanitiesAndSocialSciences/Philosophy/PhilosophyOfScience/PhilosophyOfScience|科学哲学]]
+
 

@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [ImageNet]
 tags: ['DataSets', 'ComputerVision', 'DeepLearning', 'Benchmark']
 created: 2026-05-17
@@ -129,5 +129,6 @@ ImageNet 作为"深度学习诞生的摇篮"之一，在以下方面产生了深
 
 ## 相关条目
 
-- [[深度学习]]
+- [[00_KnowledgeFramework/LearningPaths/深度学习|深度学习]]
 - [[INDEX|当前目录索引]]
+

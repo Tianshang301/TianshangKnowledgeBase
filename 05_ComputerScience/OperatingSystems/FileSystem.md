@@ -534,9 +534,10 @@ RAID 0 (条带):     RAID 1 (镜像):     RAID 5 (分布式奇偶校验):
 ## 相关条目
 
 - [[05_ComputerScience/OperatingSystems/FileSystems/FileSystems|FileSystems]]
-- [[日志文件系统与性能优化]]
+- [[05_ComputerScience/OperatingSystems/FileSystems/日志文件系统与性能优化|日志文件系统与性能优化]]
 - [[05_ComputerScience/OperatingSystems/MemoryManagement/MemoryManagement|MemoryManagement]]
-- [[分页分段与交换技术]]
+- [[05_ComputerScience/OperatingSystems/MemoryManagement/分页分段与交换技术|分页分段与交换技术]]
 - 操作系统概念
+
 
 

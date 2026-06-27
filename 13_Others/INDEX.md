@@ -35,12 +35,12 @@ updated: 2026-06-27
 - [[13_Others/PersonalProductivity/SelfDefense/INDEX]] - 鑷垜闃插崼
 - [[13_Others/PersonalProductivity/SurvivalSkills/INDEX]] - 鐢熷瓨鎶€鑳?
 - [[13_Others/PersonalProductivity/TimeManagement/INDEX]] - 鏃堕棿绠＄悊
-- [[13_Others/PhysicalEducation/Badminton/INDEX]] - 缇芥瘺鐞?
-- [[13_Others/PhysicalEducation/Basketball/INDEX]] - 绡悆
-- [[13_Others/PhysicalEducation/Fitness/INDEX]] - 鍋ヨ韩璁粌
-- [[13_Others/PhysicalEducation/Running/INDEX]] - 璺戞
-- [[13_Others/PhysicalEducation/Swimming/INDEX]] - 娓告吵
-- [[13_Others/PhysicalEducation/Yoga/INDEX]] - 鐟滀冀
+- [[13_Others/RecreationalSports/Badminton/INDEX]] - 缇芥瘺鐞?
+- [[13_Others/RecreationalSports/Basketball/INDEX]] - 绡悆
+- [[13_Others/RecreationalSports/Fitness/INDEX]] - 鍋ヨ韩璁粌
+- [[13_Others/RecreationalSports/Running/INDEX]] - 璺戞
+- [[13_Others/RecreationalSports/Swimming/INDEX]] - 娓告吵
+- [[13_Others/RecreationalSports/Yoga/INDEX]] - 鐟滀冀
 - [[13_Others/ResearchMethodology/ResearchMethodology]] - 鐮旂┒鏂规硶璁?
 - [[13_Others/ResearchMethodology/瀹氶噺涓庡畾鎬х爺绌舵柟娉昡] - 瀹氶噺涓庡畾鎬х爺绌舵柟娉?
 - [[13_Others/ScientificCommunication/ScientificCommunication]] - 绉戝浼犳挱
@@ -56,4 +56,5 @@ updated: 2026-06-27
 - [[DisasterPreparedness]]
 - [[FirstAidSkills]]
 - [[OutdoorSurvival]]
+
 

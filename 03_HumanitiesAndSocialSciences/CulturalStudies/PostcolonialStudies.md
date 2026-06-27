@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 后殖民研究
   - Postcolonial Studies
@@ -163,6 +163,7 @@ updated: 2026-06-27
 ## 参见
 
 - [[CulturalTheory|文化理论]]
-- [[PostStructuralism|后结构主义]]
+- [[03_HumanitiesAndSocialSciences/ContemporaryPhilosophy/PostStructuralism|后结构主义]]
 - [[GlobalizationAndCulture|全球化与文化]]
-- [[Anthropology|人类学]]
+- [[03_HumanitiesAndSocialSciences/Anthropology/Anthropology|人类学]]
+

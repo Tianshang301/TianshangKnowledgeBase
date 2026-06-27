@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 垂直农业
   - Vertical Farming
@@ -248,8 +248,9 @@ updated: 2026-06-28
 
 ## 相关链接
 
-- [[SyntheticBiology]] - 合成生物学
-- [[FoodSafety]] - 食品安全
+- [[02_NaturalSciences/Biology/MolecularBiology/SyntheticBiology|SyntheticBiology]] - 合成生物学
+- [[04_EngineeringAndTechnology/TextileAndFoodEngineering/FoodScience/FoodSafety|FoodSafety]] - 食品安全
 - [[SustainableAgriculture]] - 可持续农业
-- [[Biotechnology]] - 生物技术
+- [[04_EngineeringAndTechnology/TextileAndFoodEngineering/Biotechnology/Biotechnology|Biotechnology]] - 生物技术
 - [[PlantScience]] - 植物科学
+

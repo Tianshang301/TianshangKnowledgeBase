@@ -60,7 +60,7 @@ Obsidian 是基于本地 Markdown 文件的知识管理工具，核心哲学是 
 
 - **库 (Vault)** — 笔记的根文件夹
 - **笔记 (Note)** — 纯 Markdown 文件
-- **链接 (Link)** — `[[双向链接]]`
+- **链接 (Link)** — `[[00_KnowledgeFramework/KnowledgeGraph/双向链接|双向链接]]`
 - **图谱 (Graph)** — 笔记连接的可视化
 - **插件 (Plugin)** — 社区扩展生态
 
@@ -219,4 +219,5 @@ Web Clipper → 任何笔记应用 (网页保存)
 ---
 
 > 最好的笔记系统不是最复杂的，而是最能让你坚持使用的。
+
 

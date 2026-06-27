@@ -197,11 +197,12 @@ $$
 
 ## 相关条目
 
-- [[DatabaseSystems|数据库系统]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/DatabaseSystems|数据库系统]]
 - [[05_ComputerScience/ArtificialIntelligence/NaturalLanguageProcessing/NaturalLanguageProcessing|自然语言处理 (NLP)]]
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/MachineLearning|机器学习 (ML)]]
 - [[07_InterdisciplinarySciences/DataScience/DataMining|数据挖掘]]
 - [[Elasticsearch|Elasticsearch]]
 - [[RAG|检索增强生成 (RAG)]]
+
 
 

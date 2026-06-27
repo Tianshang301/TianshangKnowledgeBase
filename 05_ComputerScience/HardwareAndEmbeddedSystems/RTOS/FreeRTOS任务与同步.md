@@ -355,8 +355,8 @@ taskEXIT_CRITICAL();
 ## 相关条目
 
 - [[RTOS]]
-- [[进程调度与同步]]
-- [[死锁与并发控制]]
+- [[05_ComputerScience/OperatingSystems/ProcessManagement/进程调度与同步|进程调度与同步]]
+- [[05_ComputerScience/OperatingSystems/Concurrency/死锁与并发控制|死锁与并发控制]]
 - [[05_ComputerScience/ProgrammingLanguages/Go/Concurrency|Concurrency]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/Microcontrollers/STM32/INDEX|STM32]]
 
@@ -369,4 +369,5 @@ taskEXIT_CRITICAL();
 5. STM32CubeMX + FreeRTOS 配置指南
 6. Amazon FreeRTOS 文档（已更名为 FreeRTOS）
 7. FreeRTOS + Tracealyzer 可视化分析工具
+
 

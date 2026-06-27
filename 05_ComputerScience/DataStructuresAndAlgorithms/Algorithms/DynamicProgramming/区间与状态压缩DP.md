@@ -189,7 +189,7 @@ while sub:
 
 - [[DynamicProgramming]]
 - [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/DP|DP]]
-- [[贪心算法证明与技巧]]
+- [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/GreedyAlgorithms/贪心算法证明与技巧|贪心算法证明与技巧]]
 - [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/Backtracking|Backtracking]]
 - [[05_ComputerScience/DataStructuresAndAlgorithms/Algorithms/BasicAlgorithms/BasicAlgorithms|BasicAlgorithms]]
 
@@ -202,4 +202,5 @@ while sub:
 5. Yao, F. F. "Efficient Dynamic Programming Using Quadrangle Inequalities." SODA, 1980.
 6. Dasgupta, S., et al. "Algorithms." McGraw-Hill, 2006.
 7. Skiena, S. S. "The Algorithm Design Manual." 3rd ed., Springer, 2020.
+
 

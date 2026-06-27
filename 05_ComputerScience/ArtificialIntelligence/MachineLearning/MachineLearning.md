@@ -162,9 +162,10 @@ $$
 
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/INDEX]]
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/NeuralNetworksAndDeepLearning/NeuralNetworks|NeuralNetworks]]
-- [[深度学习概论|深度学习 (Deep Learning)]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/NeuralNetworksAndDeepLearning/深度学习概论|深度学习 (Deep Learning)]]
 - [[05_ComputerScience/ArtificialIntelligence/NaturalLanguageProcessing/NaturalLanguageProcessing|NaturalLanguageProcessing]]
 - [[05_ComputerScience/ArtificialIntelligence/ComputerVision/ComputerVision|ComputerVision]]
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/ReinforcementLearning/ReinforcementLearning|ReinforcementLearning]]
+
 
 

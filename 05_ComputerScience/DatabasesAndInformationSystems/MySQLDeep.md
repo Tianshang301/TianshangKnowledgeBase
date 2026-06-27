@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [MySQLDeep]
 tags: ['DatabasesAndInformationSystems', 'MySQLDeep']
 created: 2026-05-16
@@ -538,5 +538,6 @@ HAVING duration > '00:00:05';
 - [[PostgreSQLDeep]]
 - [[SQLDeep]]
 - [[RelationalDatabases]]
-- [[查询优化与事务管理]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/RelationalDatabases/查询优化与事务管理|查询优化与事务管理]]
 - [[Optimization]]
+

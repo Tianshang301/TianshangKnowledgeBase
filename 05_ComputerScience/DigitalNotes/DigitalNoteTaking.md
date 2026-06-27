@@ -168,10 +168,10 @@ flowchart LR
 
 | 工具 | 平台 | 核心特点 | 链接机制 | 搜索能力 | 价格 | 最适合 |
 |------|------|----------|----------|----------|------|--------|
-| Obsidian | Win/Mac/Linux/Mobile | 本地优先、插件生态、图谱 | `[[双向链接]]` | 全文搜索+正则 | 免费 | 知识管理重度用户 |
+| Obsidian | Win/Mac/Linux/Mobile | 本地优先、插件生态、图谱 | `[[00_KnowledgeFramework/KnowledgeGraph/双向链接|双向链接]]` | 全文搜索+正则 | 免费 | 知识管理重度用户 |
 | Notion | Web/Mobile/Desktop | 数据库驱动、协作、多功能 | 页面引用+数据库关联 | 全文搜索/过滤 | 免费/付费 | 团队协作+项目管理 |
 | Roam Research | Web/Mobile | 块级引用、大纲模式 | `((块引用))` | 全文搜索 | $15/月 | Zettelkasten 实践者 |
-| Logseq | Win/Mac/Linux/Mobile | 开源、大纲、本地优先 | `[[双向链接]]` | 全文搜索 | 免费/开源 | 隐私敏感用户 |
+| Logseq | Win/Mac/Linux/Mobile | 开源、大纲、本地优先 | `[[00_KnowledgeFramework/KnowledgeGraph/双向链接|双向链接]]` | 全文搜索 | 免费/开源 | 隐私敏感用户 |
 | Bear | Mac/iOS | 优雅设计、Markdown | `[[链接]]` | 全文搜索+标签 | 免费/付费 | Apple 生态系统 |
 | Joplin | Win/Mac/Linux/Mobile | 开源、支持同步 | `[[链接]]` | 全文搜索 | 免费/开源 | 跨平台需求 |
 | Evernote | All platforms | 老牌、OCR 扫描、网页剪藏 | 内部链接 | 高级搜索(付费) | 免费/付费 | 资料收集整理 |
@@ -319,16 +319,17 @@ MOC 是连接同一主题下所有笔记的导航入口。
 - [[循环神经网络]] • [[Transformer]]
 
 ## 相关领域
-- [[深度学习]] • [[自然语言处理]] • [[计算机视觉]]
+- [[00_KnowledgeFramework/LearningPaths/深度学习|深度学习]] • [[自然语言处理]] • [[计算机视觉]]
 - [[数据预处理]] • [[特征工程]] • [[模型评估]]
 ```
 
 ## 相关条目
 - [[00_KnowledgeFramework/NoteTaking/Zettelkasten|卡片盒笔记法]]
 - [[NoteTakingApps|笔记应用对比]]
-- [[KnowledgeManagement|知识管理方法论]]
+- [[11_ManagementSciences/LibraryAndArchive/KnowledgeManagement|知识管理方法论]]
 - [[00_KnowledgeFramework/Templates/MarkdownTemplates|Markdown 模板]]
 - [[00_KnowledgeFramework/Methodology/SecondBrain|第二大脑概念]]
 - [[00_KnowledgeFramework/NoteTaking/ProgressiveSummarization|渐进式总结]]
 - [[ObsidianWorkflow|Obsidian 工作流]]
+
 

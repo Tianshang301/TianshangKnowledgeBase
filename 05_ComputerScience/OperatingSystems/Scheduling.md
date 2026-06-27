@@ -434,9 +434,10 @@ numastat -p PID                                 # 查看进程 NUMA 统计
 ## 相关条目
 
 - [[05_ComputerScience/OperatingSystems/ProcessManagement/ProcessManagement|ProcessManagement]]
-- [[进程调度与同步]]
+- [[05_ComputerScience/OperatingSystems/ProcessManagement/进程调度与同步|进程调度与同步]]
 - [[Thread]]
 - [[Process]]
 - [[05_ComputerScience/ProgrammingLanguages/Go/Concurrency|Concurrency]]
+
 
 

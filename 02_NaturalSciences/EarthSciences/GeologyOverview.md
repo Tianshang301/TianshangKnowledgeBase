@@ -262,8 +262,8 @@ flowchart TB
 
 ## 相关条目
 
-- [[Geophysics|地球物理学]]
-- [[Mineralogy|矿物学]]
+- [[02_NaturalSciences/Physics/Geophysics/Geophysics|地球物理学]]
+- [[04_EngineeringAndTechnology/GeologicalAndMiningEngineering/GeologicalEngineering/Mineralogy|矿物学]]
 - [[Paleontology|古生物学]]
 - [[Volcanology|火山学]]
 - [[Seismology|地震学]]
@@ -273,4 +273,5 @@ flowchart TB
 - [[02_NaturalSciences/EarthSciences/Geochemistry/Geochemistry|地球化学]]
 - [[Hydrogeology|水文地质学]]
 - [[PlanetaryGeology|行星地质学]]
+
 

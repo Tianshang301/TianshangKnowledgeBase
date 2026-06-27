@@ -198,9 +198,10 @@ Analysis）确定了备件数量、维修设备和人员培训等保障要素。
 ## 相关条目
 
 - [[Ballistics]]
-- [[弹道测量与仿真]]
+- [[04_EngineeringAndTechnology/AerospaceAndMilitaryEngineering/Ballistics/弹道测量与仿真|弹道测量与仿真]]
 - [[04_EngineeringAndTechnology/AerospaceAndMilitaryEngineering/AerospaceEngineering/FlightMechanics|FlightMechanics]]
 - [[04_EngineeringAndTechnology/ControlAndSystemsEngineering/Robotics/RobotDynamics|RobotDynamics]]
 - [[04_EngineeringAndTechnology/MechanicalAndElectricalEngineering/Mechatronics/ControlSystems|ControlSystems]]
+
 
 

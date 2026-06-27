@@ -238,8 +238,9 @@ $$O_3 + H_2O_2 \rightarrow \cdot OH + O_2 + HO_2 \cdot$$
 - [[AirChemistry|大气化学]]
 - [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalEngineering/WastewaterTreatment|污水处理]]
 - [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalBiology/Bioremediation|生物修复]]
-- [[EcologicalEngineering|生态工程]]
+- [[04_EngineeringAndTechnology/EnvironmentalScienceAndEngineering/EnvironmentalBiology/EcologicalEngineering|生态工程]]
 - [[WaterQuality|水质学]]
 - [[INDEX|EnvironmentalChemistry 索引]]
+
 
 

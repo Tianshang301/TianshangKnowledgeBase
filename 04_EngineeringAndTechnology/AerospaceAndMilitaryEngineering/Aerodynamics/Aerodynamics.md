@@ -298,5 +298,6 @@ $$(L/D)_{max} = \frac{1}{2\sqrt{k C_{D,0}}}$$
 
 ---
 
-**相关概念**: [[Ballistics|弹道学]] | [[Naval Architecture|船舶设计]] | [[Fluid Dynamics|流体力学]] | [[CFD|计算流体力学]]
+**相关概念**: [[04_EngineeringAndTechnology/AerospaceAndMilitaryEngineering/Ballistics/Ballistics|弹道学]] | [[Naval Architecture|船舶设计]] | [[Fluid Dynamics|流体力学]] | [[CFD|计算流体力学]]
+
 

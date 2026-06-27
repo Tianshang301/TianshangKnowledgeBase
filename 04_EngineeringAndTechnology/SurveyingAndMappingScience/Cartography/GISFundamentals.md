@@ -253,11 +253,12 @@ WebGIS 技术栈：
 ## 相关条目
 
 - [[04_EngineeringAndTechnology/GeologicalAndMiningEngineering/GeologicalEngineering/RemoteSensing|遥感技术]]
-- [[Cartography|地图学]]
-- [[Surveying|测量学]]
+- [[02_NaturalSciences/EarthSciences/Cartography/Cartography|地图学]]
+- [[04_EngineeringAndTechnology/CivilEngineering/Surveying|测量学]]
 - [[SpatialAnalysis|空间分析]]
 - [[04_EngineeringAndTechnology/GeologicalAndMiningEngineering/GeologicalEngineering/RemoteSensing|遥感]]
 - [[GPS|全球定位系统]]
 - [[INDEX|Cartography 索引]]
+
 
 

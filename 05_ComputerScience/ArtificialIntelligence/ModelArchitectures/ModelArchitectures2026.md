@@ -200,7 +200,7 @@ graph LR
 
 ## 相关条目
 
-- [[AIGC模型架构与应用]]
+- [[05_ComputerScience/ArtificialIntelligence/AIGC/AIGC模型架构与应用|AIGC模型架构与应用]]
 - [[05_ComputerScience/ArtificialIntelligence/AIAgents/AIAgents|AIAgents]]
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/MachineLearning|MachineLearning]]
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/NeuralNetworksAndDeepLearning/NeuralNetworksAndDeepLearning|NeuralNetworksAndDeepLearning]]
@@ -214,4 +214,5 @@ graph LR
 5. Liquid AI. "LFM2.5: Multilingual Search Models." 2026.
 6. 智谱 AI. "GLM-5.2: OpenAI-Compatible API with Reasoning Control." 2026.
 7. 阿里云. "Qwen RobotSuite: Embodied AI Models." 2026.
+
 

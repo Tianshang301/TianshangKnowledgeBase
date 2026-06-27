@@ -227,10 +227,11 @@ $$DNA_{片段 A} + DNA_{片段 B} \xrightarrow{\text{DNA Ligase, ATP/NAD}^+} DNA
 ## 相关条目
 
 - [[CRISPRCas9|CRISPR-Cas9 基因编辑]]
-- [[EnzymeEngineering|酶工程]]
+- [[04_EngineeringAndTechnology/Biotechnologies/EnzymeEngineering/EnzymeEngineering|酶工程]]
 - [[04_EngineeringAndTechnology/Biotechnologies/FermentationEngineering/FermentationProcess|发酵工程]]
 - [[09_MedicineAndHealth/Pharmacy/DrugDesign|药物设计]]
 - [[04_EngineeringAndTechnology/Biotechnologies/BiomedicalEngineering/Biomaterials|生物材料]]
-- [[SyntheticBiology|合成生物学]]
+- [[02_NaturalSciences/Biology/MolecularBiology/SyntheticBiology|合成生物学]]
+
 
 

@@ -206,10 +206,11 @@ graph TD
 
 - [[FatigueManagement|疲劳管理]] — 运动性疲劳的监测与恢复策略
 
-- [[RecoveryAndRegeneration|恢复与再生]] — 主动恢复和被动恢复方法
+- [[12_SportsScience/SportsMedicine/RecoveryAndRegeneration|恢复与再生]] — 主动恢复和被动恢复方法
 
 - [[INDEX|SportsTraining 索引]]
 
 - [[../../INDEX|TianshangKnowledgeBase 索引]]
+
 
 

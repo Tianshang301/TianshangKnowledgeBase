@@ -470,8 +470,9 @@ int main() {
 
 - [[Thread]]
 - [[05_ComputerScience/ProgrammingLanguages/Go/Concurrency|Concurrency]]
-- [[死锁与并发控制]]
+- [[05_ComputerScience/OperatingSystems/Concurrency/死锁与并发控制|死锁与并发控制]]
 - [[Scheduling]]
 - [[05_ComputerScience/OperatingSystems/ProcessManagement/ProcessManagement|ProcessManagement]]
+
 
 

@@ -206,7 +206,8 @@ PARA 的核心方法论原则是"项目驱动"——不分类知识本身，而�
 
 - [[Productivity|生产力]]
 - [[TimeBlocking|时间块规划]]
-- [[ProductivitySystems|生产力系统]]
+- [[00_KnowledgeFramework/Methodology/ProductivitySystems|生产力系统]]
 - [[05_ComputerScience/DigitalNotes/DigitalNoteTaking|数字笔记]]
 - [[INDEX|当前目录索引]]
+
 

@@ -308,7 +308,7 @@ xEventGroupWaitBits(xEventGroup, uxBitsToWaitFor, xClearOnExit, xWaitForAllBits,
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/EmbeddedLinux/EmbeddedLinux|EmbeddedLinux]]
 - [[05_ComputerScience/OperatingSystems/ProcessManagement/ProcessManagement|ProcessManagement]]
 - [[05_ComputerScience/ProgrammingLanguages/Go/Concurrency|Concurrency]]
-- [[死锁与并发控制]]
+- [[05_ComputerScience/OperatingSystems/Concurrency/死锁与并发控制|死锁与并发控制]]
 
 ## 参考资源
 
@@ -317,5 +317,6 @@ xEventGroupWaitBits(xEventGroup, uxBitsToWaitFor, xClearOnExit, xWaitForAllBits,
 - [Zephyr Project 文档](https://docs.zephyrproject.org/)
 - [RT-Thread 文档中心](https://www.rt-thread.io/document.html)
 - μC/OS-III: The Real-Time Kernel（Jean J. Labrosse）
+
 
 

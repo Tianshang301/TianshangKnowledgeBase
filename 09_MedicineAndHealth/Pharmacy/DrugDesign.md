@@ -336,11 +336,12 @@ $$
 
 ## 相关条目
 
-- [[LeadDiscovery|先导化合物发现]]
-- [[CADD|计算机辅助药物设计]]
+- [[02_NaturalSciences/Chemistry/Biochemistry/LeadDiscovery|先导化合物发现]]
+- [[04_EngineeringAndTechnology/CivilEngineering/CADD|计算机辅助药物设计]]
 - [[02_NaturalSciences/Chemistry/Biochemistry/QSAR|定量构效关系]]
 - [[02_NaturalSciences/Chemistry/Biochemistry/MolecularDocking|分子对接]]
-- [[ADMETox|ADME 与毒性预测]]
-- [[Pharmacokinetics|药物代谢动力学]]
+- [[02_NaturalSciences/Chemistry/Biochemistry/ADMETox|ADME 与毒性预测]]
+- [[04_EngineeringAndTechnology/ChemicalAndPharmaceuticalEngineering/PharmaceuticalEngineering/Pharmacokinetics|药物代谢动力学]]
 - [[MedicinalChemistry|药物化学]]
+
 

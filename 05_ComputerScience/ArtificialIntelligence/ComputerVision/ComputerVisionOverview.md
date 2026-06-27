@@ -161,10 +161,11 @@ $$
 
 ## 相关条目
 
-- [[深度学习基础|深度学习 (Deep Learning)]]
-- [[卷积与循环神经网络|卷积神经网络 (CNN)]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/NeuralNetworksAndDeepLearning/深度学习基础|深度学习 (Deep Learning)]]
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/NeuralNetworksAndDeepLearning/卷积与循环神经网络|卷积神经网络 (CNN)]]
 - [[05_ComputerScience/ArtificialIntelligence/MachineLearning/MachineLearning|MachineLearning]]
 - [[GANs]]
 - [[05_ComputerScience/ArtificialIntelligence/AIGC/AIGC|AIGC]]
+
 
 

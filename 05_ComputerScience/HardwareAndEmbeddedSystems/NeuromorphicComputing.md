@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 神经形态计算
   - Neuromorphic Computing
@@ -360,8 +360,9 @@ BL₃──┼────┼────┼──[R₃₁]──[R₃₂]──
 
 ## 11. 相关链接
 
-- [[ArtificialIntelligence]] - 人工智能
-- [[DeepLearning]] - 深度学习
-- [[EdgeComputing]] - 边缘计算
+- [[07_InterdisciplinarySciences/CognitiveScience/ArtificialIntelligence|ArtificialIntelligence]] - 人工智能
+- [[05_ComputerScience/ArtificialIntelligence/MachineLearning/NeuralNetworksAndDeepLearning/DeepLearning|DeepLearning]] - 深度学习
+- [[07_InterdisciplinarySciences/NetworkedInformationSystems/EdgeComputing|EdgeComputing]] - 边缘计算
 - [[VLSI]] - 超大规模集成电路
 - [[Memristor]] - 忆阻器
+

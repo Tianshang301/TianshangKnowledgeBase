@@ -1,4 +1,4 @@
----
+﻿---
 aliases: [Phonetics, 语音学, SpeechSounds]
 tags: ['Linguistics', 'Phonetics', 'ArticulatoryPhonetics', 'AcousticPhonetics', 'IPA']
 created: 2026-05-17
@@ -151,8 +151,9 @@ $G(f)$ 为声源频谱，$T(f)$ 为声道传递函数，$R(f)$ 为辐射特性�
 - [[Phonology|音系学]]
 - [[AppliedLinguistics|应用语言学]]
 - [[../ChineseLanguageAndLiterature/ClassicalChinesePhilology|中国传统小学]]
-- [[ComputationalLinguistics|计算语言学]]
+- [[07_InterdisciplinarySciences/DigitalHumanities/ComputationalLinguistics|计算语言学]]
 
 ---
 
 - [[../../INDEX|当前目录索引]]
+

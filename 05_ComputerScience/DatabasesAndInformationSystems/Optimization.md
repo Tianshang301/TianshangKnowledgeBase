@@ -637,9 +637,10 @@ def deduct_stock(product_id, qty):
 
 ## 相关条目
 
-- [[查询优化与事务管理]]
+- [[05_ComputerScience/DatabasesAndInformationSystems/RelationalDatabases/查询优化与事务管理|查询优化与事务管理]]
 - [[Transaction]]
 - [[MySQLDeep]]
 - [[RedisDeep]]
 - [[RelationalDatabases]]
+
 

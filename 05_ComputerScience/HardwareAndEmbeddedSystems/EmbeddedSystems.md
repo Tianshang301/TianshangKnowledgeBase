@@ -189,8 +189,9 @@ EDF 利用率上限为 100%，但实现复杂性更高。
 - [[EmbeddedSystemsOverview|嵌入式系统概述]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/IoT/IoTOverview|物联网 (IoT)]]
 - [[05_ComputerScience/HardwareAndEmbeddedSystems/Robotics/RoboticsOverview|机器人学 (Robotics)]]
-- [[ComputerArchitecture|计算机体系结构]]
+- [[04_EngineeringAndTechnology/ComputerAndInformationSciences/ComputerArchitecture|计算机体系结构]]
 - [[RealTimeSystems|实时系统]]
 - [[CProgramming|C 语言编程]]
+
 
 

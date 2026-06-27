@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 文化理论
   - Cultural Theory
@@ -146,7 +146,8 @@ updated: 2026-06-27
 
 ## 参见
 
-- [[PostStructuralism|后结构主义]]
+- [[03_HumanitiesAndSocialSciences/ContemporaryPhilosophy/PostStructuralism|后结构主义]]
 - [[MediaCulture|媒体文化]]
 - [[PostcolonialStudies|后殖民研究]]
 - [[GlobalizationAndCulture|全球化与文化]]
+

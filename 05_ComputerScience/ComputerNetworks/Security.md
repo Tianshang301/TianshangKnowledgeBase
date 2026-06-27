@@ -498,8 +498,9 @@ systemctl enable wg-quick@wg0                          # 开机启动
 ## 相关条目
 
 - [[05_ComputerScience/Cybersecurity/NetworkSecurity|NetworkSecurity]]
-- [[网络攻防技术]]
+- [[05_ComputerScience/ComputerNetworks/NetworkSecurity/网络攻防技术|网络攻防技术]]
 - [[TransportLayer]]
 - [[HTTP]]
+
 
 

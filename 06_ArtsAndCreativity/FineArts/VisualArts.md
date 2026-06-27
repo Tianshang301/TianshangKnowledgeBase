@@ -204,6 +204,7 @@ $$y' = \frac{f \cdot y}{z}$$
 - [[06_ArtsAndCreativity/FilmStudies|电影研究]]
 - [[Museology|博物馆学]]
 - [[Sculpture|雕塑与空间艺术]]
-- [[ArtHistory|艺术史]]
+- [[06_ArtsAndCreativity/FineArts/ArtHistory/ArtHistory|艺术史]]
 - [[INDEX|当前目录索引]]
+
 

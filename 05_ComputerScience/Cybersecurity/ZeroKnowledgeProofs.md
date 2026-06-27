@@ -1,4 +1,4 @@
----
+﻿---
 aliases:
   - 零知识证明
   - Zero-Knowledge Proofs
@@ -305,6 +305,7 @@ $$\text{View}_V[\langle P(x,w), V(x) \rangle] \approx_c S(x)$$
 ## 10. 相关链接
 
 - [[Cryptography]] - 密码学基础
-- [[Blockchain]] - 区块链技术
+- [[05_ComputerScience/Blockchain/Blockchain|Blockchain]] - 区块链技术
 - [[HomomorphicEncryption]] - 同态加密
 - [[SecureMultiPartyComputation]] - 安全多方计算
+
