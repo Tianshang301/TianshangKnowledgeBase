@@ -16,6 +16,5 @@ updated: 2026-05-16
 - [[04_EngineeringAndTechnology/EnergyAndNuclearEngineering/RenewableEnergy/INDEX]]
 - [[INDEX]]
 - [[RenewableEnergy2026]]
-
-
+- [[NuclearEngineering/INDEX|NuclearEngineering]] - 核聚变工程
 

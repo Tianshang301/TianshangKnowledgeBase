@@ -15,5 +15,5 @@ updated: 2026-05-16
 - [[铚傜獫缃戠粶涓?G 鎶€鏈痌]
 - [[WirelessOverview]]
 - [[蜂窝网络与5G技术]]
-
+- [[NextGen6G]] - 6G通信技术
 

@@ -25,5 +25,6 @@ updated: 2026-05-16
 - [[CybersecurityOverview]]
 - [[SecurityFrameworks]]
 - [[SpeculativeExecutionSecurity]]
-
+- [[ZeroKnowledgeProofs]] - 零知识证明
+- [[HomomorphicEncryption]] - 同态加密
 

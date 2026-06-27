@@ -13,3 +13,5 @@ updated: 2026-06-27
 - [[SpatialComputing]]
 - [[VRDevelopment]]
 - [[XRInteractionDesign]]
+- [[MetaverseAndSpatialComputing]] - 元宇宙与空间计算
+

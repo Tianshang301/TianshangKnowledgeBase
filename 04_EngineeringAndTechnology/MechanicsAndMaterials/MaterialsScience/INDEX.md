@@ -14,4 +14,5 @@ updated: 2026-05-13---
 - [[MetallicMaterials]]
 - [[PolymerMaterials]]
 - [[Nanomaterials]]
+- [[AdvancedMaterials2026]] - 先进材料2026
 

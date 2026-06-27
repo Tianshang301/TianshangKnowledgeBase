@@ -11,3 +11,5 @@ updated: 2026-06-27
 - [[CircularEconomy]]
 - [[ESGAssessment]]
 - [[SDGsFramework]]
+- [[CarbonCaptureStorage]] - 碳捕获与封存
+
